@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="rittmeister">
+            <data key="label">Rittmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="friedrich_friederich">
+            <data key="label">Friedrich/Friederich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="blasius">
+            <data key="label">Doctor Blasius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="karlin">
+            <data key="label">Karlin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="madam_flick">
+            <data key="label">Madam Flick</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_valentin">
+            <data key="label">Frau Valentin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_valentin">
+            <data key="label">Herr Valentin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_soldat">
+            <data key="label">Ein Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="herr_valentin" target="frau_valentin">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="blasius" target="madam_flick">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="herr_valentin" target="sophie">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="frau_valentin" target="sophie">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="friedrich_friederich" target="hauptmann">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

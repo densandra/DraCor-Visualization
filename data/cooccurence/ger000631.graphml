@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="rittmeister">
+            <data key="label">Rittmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">525</data>
+        </node>
+        <node id="friedrich_friederich">
+            <data key="label">Friedrich/Friederich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1062</data>
+        </node>
+        <node id="blasius">
+            <data key="label">Doctor Blasius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">551</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">219</data>
+        </node>
+        <node id="karlin">
+            <data key="label">Karlin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">809</data>
+        </node>
+        <node id="madam_flick">
+            <data key="label">Madam Flick</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">330</data>
+        </node>
+        <node id="frau_valentin">
+            <data key="label">Frau Valentin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">559</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">297</data>
+        </node>
+        <node id="herr_valentin">
+            <data key="label">Herr Valentin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">329</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">84</data>
+        </node>
+        <node id="ein_soldat">
+            <data key="label">Ein Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <edge id="rittmeister|friedrich_friederich" source="rittmeister" target="friedrich_friederich">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="rittmeister|blasius" source="rittmeister" target="blasius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rittmeister|hauptmann" source="rittmeister" target="hauptmann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="rittmeister|karlin" source="rittmeister" target="karlin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rittmeister|wilhelm" source="rittmeister" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rittmeister|herr_valentin" source="rittmeister" target="herr_valentin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rittmeister|ein_soldat" source="rittmeister" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rittmeister|frau_valentin" source="rittmeister" target="frau_valentin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rittmeister|sophie" source="rittmeister" target="sophie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rittmeister|madam_flick" source="rittmeister" target="madam_flick">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich_friederich|blasius" source="friedrich_friederich" target="blasius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="friedrich_friederich|hauptmann" source="friedrich_friederich" target="hauptmann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="friedrich_friederich|karlin" source="friedrich_friederich" target="karlin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="friedrich_friederich|madam_flick" source="friedrich_friederich" target="madam_flick">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich_friederich|herr_valentin" source="friedrich_friederich" target="herr_valentin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="friedrich_friederich|frau_valentin" source="friedrich_friederich" target="frau_valentin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="friedrich_friederich|sophie" source="friedrich_friederich" target="sophie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="friedrich_friederich|wilhelm" source="friedrich_friederich" target="wilhelm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="friedrich_friederich|ein_soldat" source="friedrich_friederich" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blasius|sophie" source="blasius" target="sophie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="blasius|frau_valentin" source="blasius" target="frau_valentin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="blasius|hauptmann" source="blasius" target="hauptmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="blasius|herr_valentin" source="blasius" target="herr_valentin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blasius|madam_flick" source="blasius" target="madam_flick">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blasius|karlin" source="blasius" target="karlin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|karlin" source="hauptmann" target="karlin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hauptmann|herr_valentin" source="hauptmann" target="herr_valentin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|sophie" source="hauptmann" target="sophie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|frau_valentin" source="hauptmann" target="frau_valentin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|madam_flick" source="hauptmann" target="madam_flick">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karlin|madam_flick" source="karlin" target="madam_flick">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karlin|frau_valentin" source="karlin" target="frau_valentin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karlin|sophie" source="karlin" target="sophie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_valentin|sophie" source="frau_valentin" target="sophie">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="frau_valentin|herr_valentin" source="frau_valentin" target="herr_valentin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_valentin|wilhelm" source="frau_valentin" target="wilhelm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_valentin|ein_soldat" source="frau_valentin" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|herr_valentin" source="sophie" target="herr_valentin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sophie|wilhelm" source="sophie" target="wilhelm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sophie|ein_soldat" source="sophie" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_valentin|wilhelm" source="herr_valentin" target="wilhelm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_valentin|ein_soldat" source="herr_valentin" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|ein_soldat" source="wilhelm" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

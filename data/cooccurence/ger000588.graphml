@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="waker">
+            <data key="label">Waker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1219</data>
+        </node>
+        <node id="bellmann">
+            <data key="label">Bellmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">262</data>
+        </node>
+        <node id="suessling">
+            <data key="label">Süßling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">175</data>
+        </node>
+        <node id="list">
+            <data key="label">List</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">144</data>
+        </node>
+        <node id="rambold">
+            <data key="label">Rambold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1232</data>
+        </node>
+        <node id="puf">
+            <data key="label">Puf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">475</data>
+        </node>
+        <node id="schnurren">
+            <data key="label">Schnurren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="prorector">
+            <data key="label">Prorector</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">78</data>
+        </node>
+        <node id="waescherin">
+            <data key="label">Wäscherin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="peruquier">
+            <data key="label">Peruquier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="jude">
+            <data key="label">Ein Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">47</data>
+        </node>
+        <node id="velten">
+            <data key="label">Velten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">173</data>
+        </node>
+        <node id="christine">
+            <data key="label">Christine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">76</data>
+        </node>
+        <node id="waker_vater">
+            <data key="label">Waker (Vater)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">264</data>
+        </node>
+        <node id="frau_wakern">
+            <data key="label">Frau Wakern</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">134</data>
+        </node>
+        <node id="goerge">
+            <data key="label">Görge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">78</data>
+        </node>
+        <node id="michel">
+            <data key="label">Michel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">100</data>
+        </node>
+        <node id="werber">
+            <data key="label">Werber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">120</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">101</data>
+        </node>
+        <node id="unterofficier">
+            <data key="label">Unterofficier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">71</data>
+        </node>
+        <edge id="waker|bellmann" source="waker" target="bellmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="waker|rambold" source="waker" target="rambold">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="waker|suessling" source="waker" target="suessling">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="waker|list" source="waker" target="list">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="waker|waescherin" source="waker" target="waescherin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="waker|peruquier" source="waker" target="peruquier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="waker|jude" source="waker" target="jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="waker|velten" source="waker" target="velten">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="waker|christine" source="waker" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="waker|waker_vater" source="waker" target="waker_vater">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="waker|frau_wakern" source="waker" target="frau_wakern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="waker|werber" source="waker" target="werber">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="waker|hauptmann" source="waker" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="waker|unterofficier" source="waker" target="unterofficier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellmann|rambold" source="bellmann" target="rambold">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bellmann|suessling" source="bellmann" target="suessling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellmann|list" source="bellmann" target="list">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bellmann|velten" source="bellmann" target="velten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="suessling|list" source="suessling" target="list">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="suessling|rambold" source="suessling" target="rambold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="list|rambold" source="list" target="rambold">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="list|velten" source="list" target="velten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rambold|puf" source="rambold" target="puf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rambold|schnurren" source="rambold" target="schnurren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rambold|prorector" source="rambold" target="prorector">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rambold|jude" source="rambold" target="jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rambold|velten" source="rambold" target="velten">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rambold|christine" source="rambold" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="puf|velten" source="puf" target="velten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="waescherin|peruquier" source="waescherin" target="peruquier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="velten|christine" source="velten" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="waker_vater|frau_wakern" source="waker_vater" target="frau_wakern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="goerge|michel" source="goerge" target="michel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werber|hauptmann" source="werber" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

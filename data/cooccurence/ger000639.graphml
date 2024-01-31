@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="stock">
+            <data key="label">Herr Stock</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1586</data>
+        </node>
+        <node id="dorimene">
+            <data key="label">Dorimene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1563</data>
+        </node>
+        <node id="philippine">
+            <data key="label">Philippine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">250</data>
+        </node>
+        <node id="von_weinreich">
+            <data key="label">Herr von Weinreich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">482</data>
+        </node>
+        <node id="amalie">
+            <data key="label">Amalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1116</data>
+        </node>
+        <node id="charlotte">
+            <data key="label">Charlotte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">758</data>
+        </node>
+        <node id="wartimer">
+            <data key="label">Wartimer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">148</data>
+        </node>
+        <node id="christoph">
+            <data key="label">Christoph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">751</data>
+        </node>
+        <node id="nulle">
+            <data key="label">Herr Nulle</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">578</data>
+        </node>
+        <node id="von_wertheim">
+            <data key="label">Herr von Wertheim</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">397</data>
+        </node>
+        <node id="gottlieb">
+            <data key="label">Gottlieb</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <edge id="stock|dorimene" source="stock" target="dorimene">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="stock|amalie" source="stock" target="amalie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="stock|philippine" source="stock" target="philippine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stock|nulle" source="stock" target="nulle">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="stock|charlotte" source="stock" target="charlotte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stock|von_wertheim" source="stock" target="von_wertheim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stock|gottlieb" source="stock" target="gottlieb">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dorimene|amalie" source="dorimene" target="amalie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="dorimene|wartimer" source="dorimene" target="wartimer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dorimene|christoph" source="dorimene" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dorimene|philippine" source="dorimene" target="philippine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dorimene|nulle" source="dorimene" target="nulle">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dorimene|charlotte" source="dorimene" target="charlotte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dorimene|von_wertheim" source="dorimene" target="von_wertheim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dorimene|gottlieb" source="dorimene" target="gottlieb">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippine|von_weinreich" source="philippine" target="von_weinreich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippine|amalie" source="philippine" target="amalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippine|charlotte" source="philippine" target="charlotte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippine|nulle" source="philippine" target="nulle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_weinreich|christoph" source="von_weinreich" target="christoph">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="von_weinreich|amalie" source="von_weinreich" target="amalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|charlotte" source="amalie" target="charlotte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amalie|wartimer" source="amalie" target="wartimer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amalie|christoph" source="amalie" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|nulle" source="amalie" target="nulle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|von_wertheim" source="amalie" target="von_wertheim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|gottlieb" source="amalie" target="gottlieb">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="charlotte|wartimer" source="charlotte" target="wartimer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="charlotte|nulle" source="charlotte" target="nulle">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="charlotte|von_wertheim" source="charlotte" target="von_wertheim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_wertheim|gottlieb" source="von_wertheim" target="gottlieb">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>
