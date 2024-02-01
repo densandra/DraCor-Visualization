@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="maja">
+            <data key="label">Maja</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1824</data>
+        </node>
+        <node id="gadhi">
+            <data key="label">Gadhi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2664</data>
+        </node>
+        <node id="stimmen_1">
+            <data key="label">Stimmen von außen (1)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="erster_indianer">
+            <data key="label">Erster Indianer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">52</data>
+        </node>
+        <node id="zweiter_indianer">
+            <data key="label">Zweiter Indianer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="die_indianer">
+            <data key="label">Die Indianer</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="benascar">
+            <data key="label">Benascar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1049</data>
+        </node>
+        <node id="stimmen_5">
+            <data key="label">Stimmen von außen (5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="das_kind">
+            <data key="label">Das Kind</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="bramine">
+            <data key="label">Bramine</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <edge id="maja|gadhi" source="maja" target="gadhi">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="maja|stimmen_1" source="maja" target="stimmen_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maja|benascar" source="maja" target="benascar">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="maja|erster_indianer" source="maja" target="erster_indianer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maja|die_indianer" source="maja" target="die_indianer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maja|das_kind" source="maja" target="das_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gadhi|stimmen_1" source="gadhi" target="stimmen_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gadhi|benascar" source="gadhi" target="benascar">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="gadhi|erster_indianer" source="gadhi" target="erster_indianer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gadhi|die_indianer" source="gadhi" target="die_indianer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gadhi|das_kind" source="gadhi" target="das_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_indianer|zweiter_indianer" source="erster_indianer" target="zweiter_indianer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_indianer|die_indianer" source="erster_indianer" target="die_indianer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_indianer|benascar" source="erster_indianer" target="benascar">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_indianer|die_indianer" source="zweiter_indianer" target="die_indianer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_indianer|benascar" source="zweiter_indianer" target="benascar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_indianer|benascar" source="die_indianer" target="benascar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="benascar|stimmen_5" source="benascar" target="stimmen_5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="benascar|das_kind" source="benascar" target="das_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="benascar|bramine" source="benascar" target="bramine">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

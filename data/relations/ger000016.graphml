@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="hagen">
+            <data key="label">Hagen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gunther">
+            <data key="label">Gunther</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="giselher">
+            <data key="label">Giselher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gerenot">
+            <data key="label">Gerenot</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="volker">
+            <data key="label">Volker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="siegfried">
+            <data key="label">Siegfried</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dankwart">
+            <data key="label">Dankwart</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ute">
+            <data key="label">Ute</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kriemhild">
+            <data key="label">Kriemhild</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="dankwart" target="hagen">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="gerenot" target="giselher">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="gerenot" target="gunther">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="4" directed="false" source="giselher" target="gunther">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="5" directed="false" source="ute" target="kriemhild">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

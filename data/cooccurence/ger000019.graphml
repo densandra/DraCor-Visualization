@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="lefevre">
+            <data key="label">Lefêvre</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2260</data>
+        </node>
+        <node id="germain">
+            <data key="label">Germain</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">127</data>
+        </node>
+        <node id="chapelle">
+            <data key="label">Chapelle</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1489</data>
+        </node>
+        <node id="matthieu">
+            <data key="label">Matthieu</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1094</data>
+        </node>
+        <node id="madeleine">
+            <data key="label">Madeleine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2194</data>
+        </node>
+        <node id="la_roquette">
+            <data key="label">La Roquette</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3352</data>
+        </node>
+        <node id="armande">
+            <data key="label">Armande</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1117</data>
+        </node>
+        <node id="moliere">
+            <data key="label">Molière</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3140</data>
+        </node>
+        <node id="dubois">
+            <data key="label">Dubois</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">530</data>
+        </node>
+        <node id="lionne">
+            <data key="label">Lionne</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">854</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="delarive">
+            <data key="label">Delarive</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">513</data>
+        </node>
+        <node id="lakai">
+            <data key="label">Lakai</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="ludwig">
+            <data key="label">Ludwig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2947</data>
+        </node>
+        <node id="offizier">
+            <data key="label">Offizier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="louison">
+            <data key="label">Louison</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">56</data>
+        </node>
+        <node id="ein_theaterdiener">
+            <data key="label">Ein Theaterdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <edge id="lefevre|germain" source="lefevre" target="germain">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lefevre|chapelle" source="lefevre" target="chapelle">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="lefevre|madeleine" source="lefevre" target="madeleine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lefevre|la_roquette" source="lefevre" target="la_roquette">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lefevre|armande" source="lefevre" target="armande">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lefevre|moliere" source="lefevre" target="moliere">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lefevre|matthieu" source="lefevre" target="matthieu">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lefevre|dubois" source="lefevre" target="dubois">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="lefevre|lionne" source="lefevre" target="lionne">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lefevre|bedienter" source="lefevre" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lefevre|ludwig" source="lefevre" target="ludwig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lefevre|delarive" source="lefevre" target="delarive">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="germain|chapelle" source="germain" target="chapelle">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="germain|madeleine" source="germain" target="madeleine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chapelle|matthieu" source="chapelle" target="matthieu">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chapelle|madeleine" source="chapelle" target="madeleine">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chapelle|la_roquette" source="chapelle" target="la_roquette">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="chapelle|ludwig" source="chapelle" target="ludwig">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chapelle|dubois" source="chapelle" target="dubois">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chapelle|delarive" source="chapelle" target="delarive">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chapelle|lionne" source="chapelle" target="lionne">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chapelle|moliere" source="chapelle" target="moliere">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chapelle|armande" source="chapelle" target="armande">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matthieu|madeleine" source="matthieu" target="madeleine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="matthieu|la_roquette" source="matthieu" target="la_roquette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="matthieu|moliere" source="matthieu" target="moliere">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="matthieu|dubois" source="matthieu" target="dubois">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matthieu|offizier" source="matthieu" target="offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matthieu|armande" source="matthieu" target="armande">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matthieu|ludwig" source="matthieu" target="ludwig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madeleine|la_roquette" source="madeleine" target="la_roquette">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="madeleine|armande" source="madeleine" target="armande">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="madeleine|delarive" source="madeleine" target="delarive">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madeleine|moliere" source="madeleine" target="moliere">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madeleine|ein_theaterdiener" source="madeleine" target="ein_theaterdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madeleine|ludwig" source="madeleine" target="ludwig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="la_roquette|lionne" source="la_roquette" target="lionne">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="la_roquette|dubois" source="la_roquette" target="dubois">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="la_roquette|ludwig" source="la_roquette" target="ludwig">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="la_roquette|delarive" source="la_roquette" target="delarive">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="la_roquette|louison" source="la_roquette" target="louison">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_roquette|moliere" source="la_roquette" target="moliere">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="la_roquette|armande" source="la_roquette" target="armande">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="la_roquette|ein_theaterdiener" source="la_roquette" target="ein_theaterdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armande|moliere" source="armande" target="moliere">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="armande|ein_theaterdiener" source="armande" target="ein_theaterdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armande|ludwig" source="armande" target="ludwig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="moliere|dubois" source="moliere" target="dubois">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="moliere|lionne" source="moliere" target="lionne">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="moliere|bedienter" source="moliere" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="moliere|ludwig" source="moliere" target="ludwig">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="moliere|delarive" source="moliere" target="delarive">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="moliere|offizier" source="moliere" target="offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="moliere|ein_theaterdiener" source="moliere" target="ein_theaterdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dubois|lionne" source="dubois" target="lionne">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="dubois|bedienter" source="dubois" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dubois|ludwig" source="dubois" target="ludwig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dubois|delarive" source="dubois" target="delarive">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lionne|bedienter" source="lionne" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lionne|delarive" source="lionne" target="delarive">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lionne|lakai" source="lionne" target="lakai">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lionne|ludwig" source="lionne" target="ludwig">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="delarive|lakai" source="delarive" target="lakai">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="delarive|ludwig" source="delarive" target="ludwig">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lakai|ludwig" source="lakai" target="ludwig">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

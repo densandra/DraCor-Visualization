@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="leon">
+            <data key="label">Leon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6478</data>
+        </node>
+        <node id="hausverwalter">
+            <data key="label">Hausverwalter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">194</data>
+        </node>
+        <node id="gregor">
+            <data key="label">Gregor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1784</data>
+        </node>
+        <node id="pilger">
+            <data key="label">Pilger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">217</data>
+        </node>
+        <node id="kattwald">
+            <data key="label">Kattwald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1257</data>
+        </node>
+        <node id="edrita">
+            <data key="label">Edrita</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2796</data>
+        </node>
+        <node id="galomir">
+            <data key="label">Galomir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">190</data>
+        </node>
+        <node id="schaffer">
+            <data key="label">Schaffer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">213</data>
+        </node>
+        <node id="atalus">
+            <data key="label">Atalus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">784</data>
+        </node>
+        <node id="faehrmann">
+            <data key="label">Fährmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">400</data>
+        </node>
+        <node id="knecht_des_faehrmanns">
+            <data key="label">Knecht (des Fährmanns)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="ein_krieger">
+            <data key="label">Ein Krieger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="zweiter_krieger">
+            <data key="label">Zweiter Krieger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="erster_knecht">
+            <data key="label">Erster Knecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="zweiter_knecht">
+            <data key="label">Zweiter Knecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="anfuehrer">
+            <data key="label">Anführer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">70</data>
+        </node>
+        <edge id="leon|hausverwalter" source="leon" target="hausverwalter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leon|gregor" source="leon" target="gregor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leon|pilger" source="leon" target="pilger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leon|kattwald" source="leon" target="kattwald">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leon|edrita" source="leon" target="edrita">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leon|galomir" source="leon" target="galomir">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leon|schaffer" source="leon" target="schaffer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leon|atalus" source="leon" target="atalus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leon|faehrmann" source="leon" target="faehrmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leon|knecht_des_faehrmanns" source="leon" target="knecht_des_faehrmanns">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leon|ein_krieger" source="leon" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leon|zweiter_krieger" source="leon" target="zweiter_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leon|erster_knecht" source="leon" target="erster_knecht">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leon|zweiter_knecht" source="leon" target="zweiter_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leon|anfuehrer" source="leon" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hausverwalter|gregor" source="hausverwalter" target="gregor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hausverwalter|pilger" source="hausverwalter" target="pilger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gregor|pilger" source="gregor" target="pilger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gregor|erster_knecht" source="gregor" target="erster_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gregor|zweiter_knecht" source="gregor" target="zweiter_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gregor|schaffer" source="gregor" target="schaffer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gregor|galomir" source="gregor" target="galomir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gregor|anfuehrer" source="gregor" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gregor|atalus" source="gregor" target="atalus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gregor|edrita" source="gregor" target="edrita">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pilger|kattwald" source="pilger" target="kattwald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pilger|edrita" source="pilger" target="edrita">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pilger|galomir" source="pilger" target="galomir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pilger|schaffer" source="pilger" target="schaffer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pilger|atalus" source="pilger" target="atalus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kattwald|edrita" source="kattwald" target="edrita">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kattwald|galomir" source="kattwald" target="galomir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kattwald|schaffer" source="kattwald" target="schaffer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kattwald|atalus" source="kattwald" target="atalus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kattwald|faehrmann" source="kattwald" target="faehrmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kattwald|knecht_des_faehrmanns" source="kattwald" target="knecht_des_faehrmanns">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kattwald|ein_krieger" source="kattwald" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kattwald|zweiter_krieger" source="kattwald" target="zweiter_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kattwald|erster_knecht" source="kattwald" target="erster_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="edrita|galomir" source="edrita" target="galomir">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="edrita|schaffer" source="edrita" target="schaffer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="edrita|atalus" source="edrita" target="atalus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="edrita|faehrmann" source="edrita" target="faehrmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="edrita|knecht_des_faehrmanns" source="edrita" target="knecht_des_faehrmanns">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="edrita|ein_krieger" source="edrita" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="edrita|zweiter_krieger" source="edrita" target="zweiter_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="edrita|erster_knecht" source="edrita" target="erster_knecht">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="edrita|zweiter_knecht" source="edrita" target="zweiter_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="edrita|anfuehrer" source="edrita" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galomir|schaffer" source="galomir" target="schaffer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="galomir|atalus" source="galomir" target="atalus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="galomir|faehrmann" source="galomir" target="faehrmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galomir|knecht_des_faehrmanns" source="galomir" target="knecht_des_faehrmanns">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galomir|ein_krieger" source="galomir" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galomir|zweiter_krieger" source="galomir" target="zweiter_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galomir|erster_knecht" source="galomir" target="erster_knecht">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="galomir|zweiter_knecht" source="galomir" target="zweiter_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galomir|anfuehrer" source="galomir" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schaffer|atalus" source="schaffer" target="atalus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schaffer|faehrmann" source="schaffer" target="faehrmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schaffer|knecht_des_faehrmanns" source="schaffer" target="knecht_des_faehrmanns">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schaffer|ein_krieger" source="schaffer" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schaffer|zweiter_krieger" source="schaffer" target="zweiter_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schaffer|erster_knecht" source="schaffer" target="erster_knecht">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schaffer|zweiter_knecht" source="schaffer" target="zweiter_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schaffer|anfuehrer" source="schaffer" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="atalus|faehrmann" source="atalus" target="faehrmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="atalus|knecht_des_faehrmanns" source="atalus" target="knecht_des_faehrmanns">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="atalus|ein_krieger" source="atalus" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="atalus|zweiter_krieger" source="atalus" target="zweiter_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="atalus|erster_knecht" source="atalus" target="erster_knecht">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="atalus|zweiter_knecht" source="atalus" target="zweiter_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="atalus|anfuehrer" source="atalus" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faehrmann|knecht_des_faehrmanns" source="faehrmann" target="knecht_des_faehrmanns">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faehrmann|ein_krieger" source="faehrmann" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faehrmann|zweiter_krieger" source="faehrmann" target="zweiter_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faehrmann|erster_knecht" source="faehrmann" target="erster_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht_des_faehrmanns|ein_krieger" source="knecht_des_faehrmanns" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht_des_faehrmanns|zweiter_krieger" source="knecht_des_faehrmanns" target="zweiter_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht_des_faehrmanns|erster_knecht" source="knecht_des_faehrmanns" target="erster_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_krieger|zweiter_krieger" source="ein_krieger" target="zweiter_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_krieger|erster_knecht" source="ein_krieger" target="erster_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_krieger|erster_knecht" source="zweiter_krieger" target="erster_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_knecht|zweiter_knecht" source="erster_knecht" target="zweiter_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_knecht|anfuehrer" source="erster_knecht" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_knecht|anfuehrer" source="zweiter_knecht" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="diener_nureddins">
+            <data key="label">Diener Nureddins/Chor der Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="nureddin">
+            <data key="label">Nureddin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bostana">
+            <data key="label">Bostana</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="abul">
+            <data key="label">Abul</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="margiana">
+            <data key="label">Margiana</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kadi">
+            <data key="label">Kadi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_muezzin">
+            <data key="label">Erster Muezzin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_muezzin">
+            <data key="label">Zweiter Muezzin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_muezzin">
+            <data key="label">Dritter Muezzin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stimme_eines_sklaven">
+            <data key="label">Stimme eines Sklaven</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stimmen">
+            <data key="label">Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="freunde_des_kadi">
+            <data key="label">Freunde des Kadi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="klagefrauen">
+            <data key="label">Klagefrauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="bewohner_bagdads">
+            <data key="label">Bewohner Bagdads</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="vier_bewaffnete">
+            <data key="label">Vier Bewaffnete</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="kalif">
+            <data key="label">Der Kalif</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_alle">
+            <data key="label">Chor/Alle</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="maenner">
+            <data key="label">Männer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="kadi" target="freunde_des_kadi">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="kadi" target="margiana">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="bostana" target="kadi">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="4" directed="false" source="vier_bewaffnete" target="kalif">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="diener_nureddins" target="nureddin">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

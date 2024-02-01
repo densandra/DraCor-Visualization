@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="erste_dienerin">
+            <data key="label">Erste Dienerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweite_dienerin">
+            <data key="label">Zweite Dienerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritte_dienerin">
+            <data key="label">Dritte Dienerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vierte_dienerin">
+            <data key="label">Vierte Dienerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fuenfte_dienerin">
+            <data key="label">Fünfte Dienerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="aufseherin">
+            <data key="label">Aufseherin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_dienerinnen">
+            <data key="label">Die Dienerinnen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="elektra">
+            <data key="label">Elektra</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chrysothemis">
+            <data key="label">Chrysothemis</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="klytaemnestra">
+            <data key="label">Klytämnestra</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_vertraute">
+            <data key="label">Die Vertraute</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_schlepptraegerin">
+            <data key="label">Die Schleppträgerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_junger_diener">
+            <data key="label">Ein junger Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_koch">
+            <data key="label">Der Koch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_alter_diener">
+            <data key="label">Ein alter Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="orest">
+            <data key="label">Orest</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_pfleger">
+            <data key="label">Der Pfleger des Orest</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="aegisth">
+            <data key="label">Ägisth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="klytaemnestra" target="elektra">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="klytaemnestra" target="chrysothemis">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="der_pfleger" target="orest">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

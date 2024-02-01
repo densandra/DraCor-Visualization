@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="herbert">
+            <data key="label">Herbert von Buch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1691</data>
+        </node>
+        <node id="victor">
+            <data key="label">Victor Taschenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">107</data>
+        </node>
+        <node id="xaver">
+            <data key="label">Graf Xaver Nicolowitsch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">139</data>
+        </node>
+        <node id="hildegard">
+            <data key="label">Hildegard von Eichstädt</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1998</data>
+        </node>
+        <node id="werlitz">
+            <data key="label">Baron Friedrich von Werlitz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2861</data>
+        </node>
+        <node id="ilse">
+            <data key="label">Ilse Müller</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">932</data>
+        </node>
+        <edge id="herbert|victor" source="herbert" target="victor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herbert|xaver" source="herbert" target="xaver">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herbert|hildegard" source="herbert" target="hildegard">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="herbert|werlitz" source="herbert" target="werlitz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="herbert|ilse" source="herbert" target="ilse">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="victor|hildegard" source="victor" target="hildegard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="xaver|hildegard" source="xaver" target="hildegard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hildegard|werlitz" source="hildegard" target="werlitz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hildegard|ilse" source="hildegard" target="ilse">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="werlitz|ilse" source="werlitz" target="ilse">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

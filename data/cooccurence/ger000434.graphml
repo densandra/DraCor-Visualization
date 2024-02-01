@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="friedrich">
+            <data key="label">Friedrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">361</data>
+        </node>
+        <node id="ludwig">
+            <data key="label">Ludwig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">572</data>
+        </node>
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">442</data>
+        </node>
+        <node id="leopoldine">
+            <data key="label">Leopoldine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">893</data>
+        </node>
+        <node id="greif">
+            <data key="label">Greif</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1933</data>
+        </node>
+        <node id="baronesse">
+            <data key="label">Baronesse</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6326</data>
+        </node>
+        <node id="stock">
+            <data key="label">Stock</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">524</data>
+        </node>
+        <node id="bediente">
+            <data key="label">Bediente</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="baptist">
+            <data key="label">Baptist</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">789</data>
+        </node>
+        <node id="willner">
+            <data key="label">Willner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1064</data>
+        </node>
+        <node id="figaro">
+            <data key="label">Figaro</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5259</data>
+        </node>
+        <node id="hyazinth">
+            <data key="label">Hyazinth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2863</data>
+        </node>
+        <node id="christoph">
+            <data key="label">Christoph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1865</data>
+        </node>
+        <node id="bardenrode">
+            <data key="label">Bardenrode</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1663</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="der_alte_bauer">
+            <data key="label">Der alte Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">182</data>
+        </node>
+        <node id="laufer">
+            <data key="label">Laufer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <edge id="friedrich|ludwig" source="friedrich" target="ludwig">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="friedrich|jakob" source="friedrich" target="jakob">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="friedrich|greif" source="friedrich" target="greif">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="friedrich|baronesse" source="friedrich" target="baronesse">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="friedrich|willner" source="friedrich" target="willner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|stock" source="friedrich" target="stock">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|figaro" source="friedrich" target="figaro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|hyazinth" source="friedrich" target="hyazinth">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="friedrich|christoph" source="friedrich" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|baptist" source="friedrich" target="baptist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|laufer" source="friedrich" target="laufer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|jakob" source="ludwig" target="jakob">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="ludwig|leopoldine" source="ludwig" target="leopoldine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|greif" source="ludwig" target="greif">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ludwig|baronesse" source="ludwig" target="baronesse">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ludwig|stock" source="ludwig" target="stock">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ludwig|bediente" source="ludwig" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|baptist" source="ludwig" target="baptist">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ludwig|hyazinth" source="ludwig" target="hyazinth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|christoph" source="ludwig" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|figaro" source="ludwig" target="figaro">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ludwig|willner" source="ludwig" target="willner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|leopoldine" source="jakob" target="leopoldine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|greif" source="jakob" target="greif">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jakob|baronesse" source="jakob" target="baronesse">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="jakob|stock" source="jakob" target="stock">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jakob|willner" source="jakob" target="willner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jakob|hyazinth" source="jakob" target="hyazinth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jakob|christoph" source="jakob" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|baptist" source="jakob" target="baptist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|bardenrode" source="jakob" target="bardenrode">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|figaro" source="jakob" target="figaro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leopoldine|bardenrode" source="leopoldine" target="bardenrode">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="leopoldine|figaro" source="leopoldine" target="figaro">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="leopoldine|baronesse" source="leopoldine" target="baronesse">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="leopoldine|greif" source="leopoldine" target="greif">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leopoldine|willner" source="leopoldine" target="willner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leopoldine|christoph" source="leopoldine" target="christoph">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="leopoldine|hyazinth" source="leopoldine" target="hyazinth">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="leopoldine|baptist" source="leopoldine" target="baptist">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="greif|baronesse" source="greif" target="baronesse">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="greif|willner" source="greif" target="willner">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="greif|stock" source="greif" target="stock">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="greif|hyazinth" source="greif" target="hyazinth">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="greif|figaro" source="greif" target="figaro">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="greif|christoph" source="greif" target="christoph">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="greif|baptist" source="greif" target="baptist">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="greif|bardenrode" source="greif" target="bardenrode">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="greif|der_alte_bauer" source="greif" target="der_alte_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baronesse|stock" source="baronesse" target="stock">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="baronesse|bediente" source="baronesse" target="bediente">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baronesse|baptist" source="baronesse" target="baptist">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="baronesse|willner" source="baronesse" target="willner">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baronesse|figaro" source="baronesse" target="figaro">
+            <data key="weight">18</data>
+        </edge>
+        <edge id="baronesse|hyazinth" source="baronesse" target="hyazinth">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="baronesse|bardenrode" source="baronesse" target="bardenrode">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="baronesse|christoph" source="baronesse" target="christoph">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="baronesse|bedienter" source="baronesse" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baronesse|laufer" source="baronesse" target="laufer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stock|bediente" source="stock" target="bediente">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stock|baptist" source="stock" target="baptist">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stock|willner" source="stock" target="willner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stock|figaro" source="stock" target="figaro">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="stock|bardenrode" source="stock" target="bardenrode">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stock|bedienter" source="stock" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stock|hyazinth" source="stock" target="hyazinth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stock|christoph" source="stock" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bediente|baptist" source="bediente" target="baptist">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bediente|figaro" source="bediente" target="figaro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bediente|bardenrode" source="bediente" target="bardenrode">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bediente|hyazinth" source="bediente" target="hyazinth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bediente|christoph" source="bediente" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baptist|hyazinth" source="baptist" target="hyazinth">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="baptist|figaro" source="baptist" target="figaro">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="baptist|christoph" source="baptist" target="christoph">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="baptist|bardenrode" source="baptist" target="bardenrode">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="willner|figaro" source="willner" target="figaro">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="willner|hyazinth" source="willner" target="hyazinth">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="willner|der_alte_bauer" source="willner" target="der_alte_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willner|bardenrode" source="willner" target="bardenrode">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="figaro|hyazinth" source="figaro" target="hyazinth">
+            <data key="weight">17</data>
+        </edge>
+        <edge id="figaro|christoph" source="figaro" target="christoph">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="figaro|bardenrode" source="figaro" target="bardenrode">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="figaro|bedienter" source="figaro" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="figaro|der_alte_bauer" source="figaro" target="der_alte_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hyazinth|christoph" source="hyazinth" target="christoph">
+            <data key="weight">16</data>
+        </edge>
+        <edge id="hyazinth|bardenrode" source="hyazinth" target="bardenrode">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="hyazinth|der_alte_bauer" source="hyazinth" target="der_alte_bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hyazinth|laufer" source="hyazinth" target="laufer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|bardenrode" source="christoph" target="bardenrode">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="bardenrode|bedienter" source="bardenrode" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

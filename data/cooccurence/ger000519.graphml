@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sara">
+            <data key="label">Sara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">967</data>
+        </node>
+        <node id="johannes">
+            <data key="label">Johannes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2031</data>
+        </node>
+        <node id="conrad">
+            <data key="label">Conrad</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">983</data>
+        </node>
+        <node id="officier">
+            <data key="label">Officier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">71</data>
+        </node>
+        <edge id="sara|johannes" source="sara" target="johannes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sara|conrad" source="sara" target="conrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johannes|conrad" source="johannes" target="conrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="conrad|officier" source="conrad" target="officier">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

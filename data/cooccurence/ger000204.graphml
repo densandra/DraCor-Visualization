@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="kern">
+            <data key="label">Kern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">641</data>
+        </node>
+        <node id="weinhold">
+            <data key="label">Weinhold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">400</data>
+        </node>
+        <node id="zunder">
+            <data key="label">Zunder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">183</data>
+        </node>
+        <node id="annchen">
+            <data key="label">Annchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="wirth">
+            <data key="label">Wirth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">96</data>
+        </node>
+        <node id="wagner">
+            <data key="label">Wagner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">700</data>
+        </node>
+        <node id="nase">
+            <data key="label">Nase</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">133</data>
+        </node>
+        <node id="murrner">
+            <data key="label">Murrner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">89</data>
+        </node>
+        <node id="die_buerger_1-2">
+            <data key="label">Die Bürger (I/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="studenten">
+            <data key="label">Studenten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">46</data>
+        </node>
+        <node id="fausts_vater">
+            <data key="label">Fausts Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">403</data>
+        </node>
+        <node id="faust">
+            <data key="label">Faust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5227</data>
+        </node>
+        <node id="schatten">
+            <data key="label">Schatten</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">211</data>
+        </node>
+        <node id="mephistopheles">
+            <data key="label">Mephistopheles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2697</data>
+        </node>
+        <node id="unsichtbarer_chor">
+            <data key="label">Unsichtbarer Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="die_buerger_1-5">
+            <data key="label">Die Bürger (I/5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="zwitsch">
+            <data key="label">Zwitsch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="cosmo">
+            <data key="label">Cosmo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">714</data>
+        </node>
+        <node id="die_damen">
+            <data key="label">Die Damen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">73</data>
+        </node>
+        <node id="die_herren">
+            <data key="label">Die Herren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">73</data>
+        </node>
+        <node id="robert">
+            <data key="label">Graf Robert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1359</data>
+        </node>
+        <node id="bianca">
+            <data key="label">Bianca</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">442</data>
+        </node>
+        <node id="die_zofen">
+            <data key="label">Die Zofen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">66</data>
+        </node>
+        <node id="die_diener">
+            <data key="label">Die Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">70</data>
+        </node>
+        <node id="crabe">
+            <data key="label">Crabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">420</data>
+        </node>
+        <node id="dujour">
+            <data key="label">Dujour</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">350</data>
+        </node>
+        <node id="le_doigt">
+            <data key="label">Le Doigt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">210</data>
+        </node>
+        <node id="appeau">
+            <data key="label">Appeau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">81</data>
+        </node>
+        <node id="alle_maskenball">
+            <data key="label">Alle (Maskenball)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="anselmo">
+            <data key="label">Pater Anselmo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">523</data>
+        </node>
+        <node id="der_kaiser">
+            <data key="label">Kaiser Karl der Fünfte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">163</data>
+        </node>
+        <node id="rosa">
+            <data key="label">Rosa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">476</data>
+        </node>
+        <node id="juanito">
+            <data key="label">Juanito</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="eine_stimme_aus_der_hoehe">
+            <data key="label">Eine Stimme aus der Höhe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="eine_stimme_aus_der_tiefe">
+            <data key="label">Eine Stimme aus der Tiefe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="chor_der_moenche">
+            <data key="label">Chor der Mönche</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <edge id="kern|weinhold" source="kern" target="weinhold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kern|zunder" source="kern" target="zunder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kern|annchen" source="kern" target="annchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kern|wirth" source="kern" target="wirth">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kern|wagner" source="kern" target="wagner">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kern|nase" source="kern" target="nase">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kern|murrner" source="kern" target="murrner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kern|die_buerger_1-2" source="kern" target="die_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kern|studenten" source="kern" target="studenten">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kern|fausts_vater" source="kern" target="fausts_vater">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kern|unsichtbarer_chor" source="kern" target="unsichtbarer_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kern|die_buerger_1-5" source="kern" target="die_buerger_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kern|zwitsch" source="kern" target="zwitsch">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kern|faust" source="kern" target="faust">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weinhold|zunder" source="weinhold" target="zunder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="weinhold|annchen" source="weinhold" target="annchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="weinhold|wirth" source="weinhold" target="wirth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="weinhold|wagner" source="weinhold" target="wagner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weinhold|nase" source="weinhold" target="nase">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weinhold|murrner" source="weinhold" target="murrner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weinhold|die_buerger_1-2" source="weinhold" target="die_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weinhold|studenten" source="weinhold" target="studenten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zunder|annchen" source="zunder" target="annchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zunder|wirth" source="zunder" target="wirth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zunder|wagner" source="zunder" target="wagner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zunder|nase" source="zunder" target="nase">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zunder|murrner" source="zunder" target="murrner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zunder|die_buerger_1-2" source="zunder" target="die_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zunder|studenten" source="zunder" target="studenten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annchen|wirth" source="annchen" target="wirth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="annchen|wagner" source="annchen" target="wagner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annchen|nase" source="annchen" target="nase">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annchen|murrner" source="annchen" target="murrner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annchen|die_buerger_1-2" source="annchen" target="die_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annchen|studenten" source="annchen" target="studenten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirth|wagner" source="wirth" target="wagner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wirth|nase" source="wirth" target="nase">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirth|murrner" source="wirth" target="murrner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirth|die_buerger_1-2" source="wirth" target="die_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirth|studenten" source="wirth" target="studenten">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wirth|fausts_vater" source="wirth" target="fausts_vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|nase" source="wagner" target="nase">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wagner|murrner" source="wagner" target="murrner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wagner|die_buerger_1-2" source="wagner" target="die_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|studenten" source="wagner" target="studenten">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wagner|fausts_vater" source="wagner" target="fausts_vater">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wagner|unsichtbarer_chor" source="wagner" target="unsichtbarer_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|die_buerger_1-5" source="wagner" target="die_buerger_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|zwitsch" source="wagner" target="zwitsch">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wagner|faust" source="wagner" target="faust">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nase|murrner" source="nase" target="murrner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nase|die_buerger_1-2" source="nase" target="die_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nase|studenten" source="nase" target="studenten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nase|unsichtbarer_chor" source="nase" target="unsichtbarer_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nase|die_buerger_1-5" source="nase" target="die_buerger_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nase|zwitsch" source="nase" target="zwitsch">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nase|fausts_vater" source="nase" target="fausts_vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nase|faust" source="nase" target="faust">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="murrner|die_buerger_1-2" source="murrner" target="die_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="murrner|studenten" source="murrner" target="studenten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="murrner|unsichtbarer_chor" source="murrner" target="unsichtbarer_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="murrner|die_buerger_1-5" source="murrner" target="die_buerger_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="murrner|zwitsch" source="murrner" target="zwitsch">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="murrner|fausts_vater" source="murrner" target="fausts_vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="murrner|faust" source="murrner" target="faust">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_buerger_1-2|studenten" source="die_buerger_1-2" target="studenten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten|fausts_vater" source="studenten" target="fausts_vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fausts_vater|unsichtbarer_chor" source="fausts_vater" target="unsichtbarer_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fausts_vater|die_buerger_1-5" source="fausts_vater" target="die_buerger_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fausts_vater|zwitsch" source="fausts_vater" target="zwitsch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|schatten" source="faust" target="schatten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|mephistopheles" source="faust" target="mephistopheles">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="faust|cosmo" source="faust" target="cosmo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|die_damen" source="faust" target="die_damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|die_herren" source="faust" target="die_herren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|robert" source="faust" target="robert">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="faust|bianca" source="faust" target="bianca">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="faust|die_zofen" source="faust" target="die_zofen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|die_diener" source="faust" target="die_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|dujour" source="faust" target="dujour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|le_doigt" source="faust" target="le_doigt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|appeau" source="faust" target="appeau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|alle_maskenball" source="faust" target="alle_maskenball">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|anselmo" source="faust" target="anselmo">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="faust|der_kaiser" source="faust" target="der_kaiser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|rosa" source="faust" target="rosa">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="faust|juanito" source="faust" target="juanito">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="faust|zwitsch" source="faust" target="zwitsch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schatten|mephistopheles" source="schatten" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|cosmo" source="mephistopheles" target="cosmo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mephistopheles|die_damen" source="mephistopheles" target="die_damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|die_herren" source="mephistopheles" target="die_herren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|robert" source="mephistopheles" target="robert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mephistopheles|bianca" source="mephistopheles" target="bianca">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mephistopheles|die_zofen" source="mephistopheles" target="die_zofen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|die_diener" source="mephistopheles" target="die_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|crabe" source="mephistopheles" target="crabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|dujour" source="mephistopheles" target="dujour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|le_doigt" source="mephistopheles" target="le_doigt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|appeau" source="mephistopheles" target="appeau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|alle_maskenball" source="mephistopheles" target="alle_maskenball">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mephistopheles|rosa" source="mephistopheles" target="rosa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="unsichtbarer_chor|die_buerger_1-5" source="unsichtbarer_chor" target="die_buerger_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="unsichtbarer_chor|zwitsch" source="unsichtbarer_chor" target="zwitsch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_buerger_1-5|zwitsch" source="die_buerger_1-5" target="zwitsch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cosmo|die_damen" source="cosmo" target="die_damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cosmo|die_herren" source="cosmo" target="die_herren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cosmo|robert" source="cosmo" target="robert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cosmo|bianca" source="cosmo" target="bianca">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cosmo|die_zofen" source="cosmo" target="die_zofen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cosmo|die_diener" source="cosmo" target="die_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_damen|die_herren" source="die_damen" target="die_herren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_damen|robert" source="die_damen" target="robert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_damen|bianca" source="die_damen" target="bianca">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_damen|die_zofen" source="die_damen" target="die_zofen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_damen|die_diener" source="die_damen" target="die_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_herren|robert" source="die_herren" target="robert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_herren|bianca" source="die_herren" target="bianca">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_herren|die_zofen" source="die_herren" target="die_zofen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_herren|die_diener" source="die_herren" target="die_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|bianca" source="robert" target="bianca">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="robert|die_zofen" source="robert" target="die_zofen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|die_diener" source="robert" target="die_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|alle_maskenball" source="robert" target="alle_maskenball">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|eine_stimme_aus_der_hoehe" source="robert" target="eine_stimme_aus_der_hoehe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|eine_stimme_aus_der_tiefe" source="robert" target="eine_stimme_aus_der_tiefe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|rosa" source="robert" target="rosa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|juanito" source="robert" target="juanito">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bianca|die_zofen" source="bianca" target="die_zofen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bianca|die_diener" source="bianca" target="die_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bianca|dujour" source="bianca" target="dujour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bianca|le_doigt" source="bianca" target="le_doigt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bianca|appeau" source="bianca" target="appeau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bianca|alle_maskenball" source="bianca" target="alle_maskenball">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bianca|rosa" source="bianca" target="rosa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bianca|juanito" source="bianca" target="juanito">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_zofen|die_diener" source="die_zofen" target="die_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crabe|dujour" source="crabe" target="dujour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crabe|le_doigt" source="crabe" target="le_doigt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crabe|appeau" source="crabe" target="appeau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dujour|le_doigt" source="dujour" target="le_doigt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dujour|appeau" source="dujour" target="appeau">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dujour|alle_maskenball" source="dujour" target="alle_maskenball">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="le_doigt|appeau" source="le_doigt" target="appeau">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="le_doigt|alle_maskenball" source="le_doigt" target="alle_maskenball">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="appeau|alle_maskenball" source="appeau" target="alle_maskenball">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anselmo|der_kaiser" source="anselmo" target="der_kaiser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|chor_der_moenche" source="der_kaiser" target="chor_der_moenche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|juanito" source="rosa" target="juanito">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eine_stimme_aus_der_hoehe|eine_stimme_aus_der_tiefe" source="eine_stimme_aus_der_hoehe" target="eine_stimme_aus_der_tiefe">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sylva">
+            <data key="label">Sylva</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1473</data>
+        </node>
+        <node id="malstroem">
+            <data key="label">Malström</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2059</data>
+        </node>
+        <node id="monaldeschi">
+            <data key="label">Monaldeschi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7534</data>
+        </node>
+        <node id="brahe">
+            <data key="label">Brahe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3468</data>
+        </node>
+        <node id="schnure">
+            <data key="label">Schnure</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">848</data>
+        </node>
+        <node id="santinelli">
+            <data key="label">Santinelli</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1671</data>
+        </node>
+        <node id="christine">
+            <data key="label">Christine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6565</data>
+        </node>
+        <node id="ein_diener_1-1_und_1-2">
+            <data key="label">Ein Diener (I/1–2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="diener_1-8">
+            <data key="label">Diener (I/8)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="alle_viele_stimmen_einzelne_stimmen">
+            <data key="label">Alle/Viele Stimmen/Einzelne Stimmen (II/8–10)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">55</data>
+        </node>
+        <node id="rosenhane">
+            <data key="label">Rosenhane</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">122</data>
+        </node>
+        <node id="prior">
+            <data key="label">Der Prior</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">258</data>
+        </node>
+        <edge id="sylva|malstroem" source="sylva" target="malstroem">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="sylva|monaldeschi" source="sylva" target="monaldeschi">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="sylva|brahe" source="sylva" target="brahe">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="sylva|schnure" source="sylva" target="schnure">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sylva|ein_diener_1-1_und_1-2" source="sylva" target="ein_diener_1-1_und_1-2">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sylva|christine" source="sylva" target="christine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sylva|prior" source="sylva" target="prior">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="malstroem|monaldeschi" source="malstroem" target="monaldeschi">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="malstroem|brahe" source="malstroem" target="brahe">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="malstroem|schnure" source="malstroem" target="schnure">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="malstroem|santinelli" source="malstroem" target="santinelli">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="malstroem|christine" source="malstroem" target="christine">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="malstroem|alle_viele_stimmen_einzelne_stimmen" source="malstroem" target="alle_viele_stimmen_einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="malstroem|rosenhane" source="malstroem" target="rosenhane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="malstroem|prior" source="malstroem" target="prior">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="monaldeschi|brahe" source="monaldeschi" target="brahe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="monaldeschi|schnure" source="monaldeschi" target="schnure">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="monaldeschi|santinelli" source="monaldeschi" target="santinelli">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="monaldeschi|christine" source="monaldeschi" target="christine">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="monaldeschi|ein_diener_1-1_und_1-2" source="monaldeschi" target="ein_diener_1-1_und_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="monaldeschi|alle_viele_stimmen_einzelne_stimmen" source="monaldeschi" target="alle_viele_stimmen_einzelne_stimmen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="monaldeschi|rosenhane" source="monaldeschi" target="rosenhane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="monaldeschi|prior" source="monaldeschi" target="prior">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="brahe|schnure" source="brahe" target="schnure">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="brahe|christine" source="brahe" target="christine">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="brahe|ein_diener_1-1_und_1-2" source="brahe" target="ein_diener_1-1_und_1-2">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="brahe|diener_1-8" source="brahe" target="diener_1-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brahe|santinelli" source="brahe" target="santinelli">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brahe|alle_viele_stimmen_einzelne_stimmen" source="brahe" target="alle_viele_stimmen_einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brahe|rosenhane" source="brahe" target="rosenhane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brahe|prior" source="brahe" target="prior">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schnure|santinelli" source="schnure" target="santinelli">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schnure|christine" source="schnure" target="christine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="santinelli|christine" source="santinelli" target="christine">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="santinelli|alle_viele_stimmen_einzelne_stimmen" source="santinelli" target="alle_viele_stimmen_einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="santinelli|prior" source="santinelli" target="prior">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christine|diener_1-8" source="christine" target="diener_1-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christine|alle_viele_stimmen_einzelne_stimmen" source="christine" target="alle_viele_stimmen_einzelne_stimmen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christine|rosenhane" source="christine" target="rosenhane">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="christine|prior" source="christine" target="prior">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="alle_viele_stimmen_einzelne_stimmen|rosenhane" source="alle_viele_stimmen_einzelne_stimmen" target="rosenhane">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

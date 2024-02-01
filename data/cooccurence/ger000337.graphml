@@ -1,0 +1,422 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="lux">
+            <data key="label">Lux</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">282</data>
+        </node>
+        <node id="finsterberg">
+            <data key="label">Finsterberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1629</data>
+        </node>
+        <node id="hell">
+            <data key="label">Hell</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4936</data>
+        </node>
+        <node id="wirt">
+            <data key="label">Wirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">237</data>
+        </node>
+        <node id="wirtin">
+            <data key="label">Wirtin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">155</data>
+        </node>
+        <node id="hannsl">
+            <data key="label">Hannsl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">204</data>
+        </node>
+        <node id="wallfahrerchor">
+            <data key="label">Wallfahrerchor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="hochzeitsreigen">
+            <data key="label">Hochzeitsreigen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="schulmeister">
+            <data key="label">Schulmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">756</data>
+        </node>
+        <node id="michel">
+            <data key="label">Michel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1489</data>
+        </node>
+        <node id="loisl">
+            <data key="label">Loisl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">168</data>
+        </node>
+        <node id="alle_3-3">
+            <data key="label">Alle (III/3)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="hochzeitschor">
+            <data key="label">Hochzeitschor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="sepp">
+            <data key="label">Sepp</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3599</data>
+        </node>
+        <node id="annerl">
+            <data key="label">Annerl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3418</data>
+        </node>
+        <node id="vetter">
+            <data key="label">Vetter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1238</data>
+        </node>
+        <node id="brigitte">
+            <data key="label">Brigitte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">602</data>
+        </node>
+        <node id="einige_bauern">
+            <data key="label">Einige Bauern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="junge_burschen">
+            <data key="label">Junge Burschen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="ein_alter_bauer">
+            <data key="label">Ein alter Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="mehrere_alte_bauern">
+            <data key="label">Mehrere alte Bauern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <edge id="lux|finsterberg" source="lux" target="finsterberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="finsterberg|hell" source="finsterberg" target="hell">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="finsterberg|schulmeister" source="finsterberg" target="schulmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hell|vetter" source="hell" target="vetter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hell|brigitte" source="hell" target="brigitte">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="hell|annerl" source="hell" target="annerl">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="hell|sepp" source="hell" target="sepp">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hell|michel" source="hell" target="michel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hell|schulmeister" source="hell" target="schulmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hell|junge_burschen" source="hell" target="junge_burschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|wirtin" source="wirt" target="wirtin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wirt|hannsl" source="wirt" target="hannsl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wirt|wallfahrerchor" source="wirt" target="wallfahrerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|hochzeitsreigen" source="wirt" target="hochzeitsreigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|schulmeister" source="wirt" target="schulmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|michel" source="wirt" target="michel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|loisl" source="wirt" target="loisl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|alle_3-3" source="wirt" target="alle_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|chor" source="wirt" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|hochzeitschor" source="wirt" target="hochzeitschor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|sepp" source="wirt" target="sepp">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wirt|annerl" source="wirt" target="annerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirtin|hannsl" source="wirtin" target="hannsl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wirtin|wallfahrerchor" source="wirtin" target="wallfahrerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirtin|hochzeitsreigen" source="wirtin" target="hochzeitsreigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirtin|schulmeister" source="wirtin" target="schulmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirtin|michel" source="wirtin" target="michel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirtin|loisl" source="wirtin" target="loisl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirtin|alle_3-3" source="wirtin" target="alle_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirtin|chor" source="wirtin" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirtin|hochzeitschor" source="wirtin" target="hochzeitschor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirtin|sepp" source="wirtin" target="sepp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hannsl|wallfahrerchor" source="hannsl" target="wallfahrerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hannsl|hochzeitsreigen" source="hannsl" target="hochzeitsreigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hannsl|schulmeister" source="hannsl" target="schulmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hannsl|michel" source="hannsl" target="michel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hannsl|loisl" source="hannsl" target="loisl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hannsl|alle_3-3" source="hannsl" target="alle_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hannsl|chor" source="hannsl" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hannsl|hochzeitschor" source="hannsl" target="hochzeitschor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hannsl|sepp" source="hannsl" target="sepp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wallfahrerchor|hochzeitsreigen" source="wallfahrerchor" target="hochzeitsreigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wallfahrerchor|schulmeister" source="wallfahrerchor" target="schulmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wallfahrerchor|michel" source="wallfahrerchor" target="michel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wallfahrerchor|loisl" source="wallfahrerchor" target="loisl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wallfahrerchor|alle_3-3" source="wallfahrerchor" target="alle_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wallfahrerchor|chor" source="wallfahrerchor" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wallfahrerchor|hochzeitschor" source="wallfahrerchor" target="hochzeitschor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochzeitsreigen|schulmeister" source="hochzeitsreigen" target="schulmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochzeitsreigen|michel" source="hochzeitsreigen" target="michel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochzeitsreigen|loisl" source="hochzeitsreigen" target="loisl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochzeitsreigen|alle_3-3" source="hochzeitsreigen" target="alle_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochzeitsreigen|chor" source="hochzeitsreigen" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochzeitsreigen|hochzeitschor" source="hochzeitsreigen" target="hochzeitschor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|michel" source="schulmeister" target="michel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|loisl" source="schulmeister" target="loisl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|alle_3-3" source="schulmeister" target="alle_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|chor" source="schulmeister" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|hochzeitschor" source="schulmeister" target="hochzeitschor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|sepp" source="schulmeister" target="sepp">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulmeister|einige_bauern" source="schulmeister" target="einige_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|junge_burschen" source="schulmeister" target="junge_burschen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulmeister|ein_alter_bauer" source="schulmeister" target="ein_alter_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|mehrere_alte_bauern" source="schulmeister" target="mehrere_alte_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|annerl" source="schulmeister" target="annerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|loisl" source="michel" target="loisl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|alle_3-3" source="michel" target="alle_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|chor" source="michel" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|hochzeitschor" source="michel" target="hochzeitschor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|annerl" source="michel" target="annerl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="michel|sepp" source="michel" target="sepp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|alle_3-3" source="loisl" target="alle_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|chor" source="loisl" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|hochzeitschor" source="loisl" target="hochzeitschor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_3-3|chor" source="alle_3-3" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_3-3|hochzeitschor" source="alle_3-3" target="hochzeitschor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|hochzeitschor" source="chor" target="hochzeitschor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sepp|annerl" source="sepp" target="annerl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sepp|brigitte" source="sepp" target="brigitte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sepp|einige_bauern" source="sepp" target="einige_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sepp|junge_burschen" source="sepp" target="junge_burschen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sepp|ein_alter_bauer" source="sepp" target="ein_alter_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sepp|mehrere_alte_bauern" source="sepp" target="mehrere_alte_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annerl|vetter" source="annerl" target="vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annerl|brigitte" source="annerl" target="brigitte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="annerl|junge_burschen" source="annerl" target="junge_burschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vetter|brigitte" source="vetter" target="brigitte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_bauern|junge_burschen" source="einige_bauern" target="junge_burschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_bauern|ein_alter_bauer" source="einige_bauern" target="ein_alter_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_bauern|mehrere_alte_bauern" source="einige_bauern" target="mehrere_alte_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="junge_burschen|ein_alter_bauer" source="junge_burschen" target="ein_alter_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="junge_burschen|mehrere_alte_bauern" source="junge_burschen" target="mehrere_alte_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_alter_bauer|mehrere_alte_bauern" source="ein_alter_bauer" target="mehrere_alte_bauern">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

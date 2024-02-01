@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="frau_steffen">
+            <data key="label">Frau Steffen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_steffen">
+            <data key="label">Herr Steffen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cathrine">
+            <data key="label">Cathrine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_liebegern">
+            <data key="label">Herr Liebegern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_gismund">
+            <data key="label">Herr Gismund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="herr_steffen" target="frau_steffen">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="cathrine" target="frau_steffen">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="chor_der_maedchen">
+            <data key="label">Chor der Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="therese">
+            <data key="label">Therese</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="christine">
+            <data key="label">Christine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bombardon">
+            <data key="label">Bombardon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gontran">
+            <data key="label">Gontran</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="colas">
+            <data key="label">Colas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_der_maenner">
+            <data key="label">Chor der Männer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_der_frauen">
+            <data key="label">Chor der Frauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_allgemeiner_chor_alle">
+            <data key="label">Chor/Allgemeiner Chor/Alle</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_der_soldaten">
+            <data key="label">Chor der Soldaten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="christine" target="colas">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="colas" target="therese">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="therese" target="colas">
+            <data key="relation">related_with</data>
+        </edge>
+    </graph>
+</graphml>

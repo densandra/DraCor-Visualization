@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="madame_welldorf">
+            <data key="label">Madame Welldorf</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="luise">
+            <data key="label">Luise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eduard">
+            <data key="label">Eduard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_arzt">
+            <data key="label">Der Arzt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="von_brink">
+            <data key="label">von Brink</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="welldorf">
+            <data key="label">Welldorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_bediente">
+            <data key="label">Der Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_oberst">
+            <data key="label">Der Oberst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sergeant">
+            <data key="label">Sergeant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wache">
+            <data key="label">Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="madame_welldorf" target="eduard">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="madame_welldorf" target="luise">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="sophie" target="madame_welldorf">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="der_bediente" target="von_brink">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

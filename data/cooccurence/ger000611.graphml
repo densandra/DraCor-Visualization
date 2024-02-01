@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="gaertner">
+            <data key="label">Gärtner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">356</data>
+        </node>
+        <node id="vogt">
+            <data key="label">Vogt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">617</data>
+        </node>
+        <node id="schiller">
+            <data key="label">Doctor Ritter (Friedrich Schiller)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1562</data>
+        </node>
+        <node id="henriette">
+            <data key="label">Henriette von Wolzogen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">635</data>
+        </node>
+        <node id="charlotte">
+            <data key="label">Charlotte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">266</data>
+        </node>
+        <node id="reinwald">
+            <data key="label">Bibliothekar Reinwald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">352</data>
+        </node>
+        <node id="studenten">
+            <data key="label">Studenten aus Heidelberg</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <edge id="gaertner|vogt" source="gaertner" target="vogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaertner|schiller" source="gaertner" target="schiller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gaertner|henriette" source="gaertner" target="henriette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gaertner|reinwald" source="gaertner" target="reinwald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaertner|studenten" source="gaertner" target="studenten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaertner|charlotte" source="gaertner" target="charlotte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vogt|schiller" source="vogt" target="schiller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vogt|henriette" source="vogt" target="henriette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vogt|charlotte" source="vogt" target="charlotte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schiller|henriette" source="schiller" target="henriette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schiller|charlotte" source="schiller" target="charlotte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schiller|reinwald" source="schiller" target="reinwald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schiller|studenten" source="schiller" target="studenten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="henriette|charlotte" source="henriette" target="charlotte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="henriette|reinwald" source="henriette" target="reinwald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="henriette|studenten" source="henriette" target="studenten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="charlotte|reinwald" source="charlotte" target="reinwald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="charlotte|studenten" source="charlotte" target="studenten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reinwald|studenten" source="reinwald" target="studenten">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

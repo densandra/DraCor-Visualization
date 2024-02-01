@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="till">
+            <data key="label">Till</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1357</data>
+        </node>
+        <node id="baron">
+            <data key="label">Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1312</data>
+        </node>
+        <node id="schoenburg">
+            <data key="label">Schönburg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1735</data>
+        </node>
+        <node id="horst">
+            <data key="label">Horst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1013</data>
+        </node>
+        <node id="bedienter_schoenburg">
+            <data key="label">Bedienter des Herrn von Schönburg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="baronin">
+            <data key="label">Baronin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4015</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1040</data>
+        </node>
+        <node id="bedienter_baronin">
+            <data key="label">Bedienter der Baronin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">78</data>
+        </node>
+        <node id="feldkirch">
+            <data key="label">Feldkirch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1092</data>
+        </node>
+        <node id="witte">
+            <data key="label">Witte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1357</data>
+        </node>
+        <node id="ritter">
+            <data key="label">Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">515</data>
+        </node>
+        <node id="loewenklau">
+            <data key="label">Löwenklau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">890</data>
+        </node>
+        <node id="polizeidiener">
+            <data key="label">Polizeidiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="luchs">
+            <data key="label">Luchs</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">144</data>
+        </node>
+        <edge id="till|baron" source="till" target="baron">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="till|baronin" source="till" target="baronin">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="till|feldkirch" source="till" target="feldkirch">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="till|horst" source="till" target="horst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="till|bedienter_baronin" source="till" target="bedienter_baronin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="till|witte" source="till" target="witte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="till|sophie" source="till" target="sophie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="till|schoenburg" source="till" target="schoenburg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="till|loewenklau" source="till" target="loewenklau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="till|ritter" source="till" target="ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|horst" source="baron" target="horst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baron|schoenburg" source="baron" target="schoenburg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baron|bedienter_schoenburg" source="baron" target="bedienter_schoenburg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|baronin" source="baron" target="baronin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baron|sophie" source="baron" target="sophie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schoenburg|horst" source="schoenburg" target="horst">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="schoenburg|bedienter_schoenburg" source="schoenburg" target="bedienter_schoenburg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schoenburg|witte" source="schoenburg" target="witte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schoenburg|loewenklau" source="schoenburg" target="loewenklau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schoenburg|luchs" source="schoenburg" target="luchs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schoenburg|baronin" source="schoenburg" target="baronin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schoenburg|sophie" source="schoenburg" target="sophie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schoenburg|ritter" source="schoenburg" target="ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="horst|bedienter_schoenburg" source="horst" target="bedienter_schoenburg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="horst|baronin" source="horst" target="baronin">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="horst|bedienter_baronin" source="horst" target="bedienter_baronin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="horst|feldkirch" source="horst" target="feldkirch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="horst|luchs" source="horst" target="luchs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="horst|sophie" source="horst" target="sophie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="horst|loewenklau" source="horst" target="loewenklau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="horst|ritter" source="horst" target="ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baronin|sophie" source="baronin" target="sophie">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="baronin|bedienter_baronin" source="baronin" target="bedienter_baronin">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="baronin|feldkirch" source="baronin" target="feldkirch">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="baronin|witte" source="baronin" target="witte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baronin|loewenklau" source="baronin" target="loewenklau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baronin|ritter" source="baronin" target="ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sophie|bedienter_baronin" source="sophie" target="bedienter_baronin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sophie|feldkirch" source="sophie" target="feldkirch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|ritter" source="sophie" target="ritter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sophie|loewenklau" source="sophie" target="loewenklau">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="witte|polizeidiener" source="witte" target="polizeidiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="witte|loewenklau" source="witte" target="loewenklau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ritter|loewenklau" source="ritter" target="loewenklau">
+            <data key="weight">5</data>
+        </edge>
+    </graph>
+</graphml>

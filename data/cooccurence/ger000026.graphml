@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="chor_der_braminen">
+            <data key="label">Chor der Braminen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">319</data>
+        </node>
+        <node id="chor_der_bajaderen">
+            <data key="label">Chor der Bajaderen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">348</data>
+        </node>
+        <node id="dandau">
+            <data key="label">Dandau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">611</data>
+        </node>
+        <node id="erste_bajadere">
+            <data key="label">Erste Bajadere</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">63</data>
+        </node>
+        <node id="zweite_bajadere">
+            <data key="label">Zweite Bajadere</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="nadori">
+            <data key="label">Nadori</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">894</data>
+        </node>
+        <node id="ein_indischer_offizier">
+            <data key="label">Ein indischer Offizier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">80</data>
+        </node>
+        <node id="jessonda">
+            <data key="label">Jessonda</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1009</data>
+        </node>
+        <node id="amazili">
+            <data key="label">Amazili</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">725</data>
+        </node>
+        <node id="dienerinnen_der_jessonda">
+            <data key="label">Dienerinnen der Jessonda</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="chor_der_portugiesen">
+            <data key="label">Chor der Portugiesen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">169</data>
+        </node>
+        <node id="lopes">
+            <data key="label">Lopes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">208</data>
+        </node>
+        <node id="tristan">
+            <data key="label">Tristan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">698</data>
+        </node>
+        <node id="chor_der_indianer">
+            <data key="label">Chor der Indianer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">46</data>
+        </node>
+        <edge id="chor_der_braminen|chor_der_bajaderen" source="chor_der_braminen" target="chor_der_bajaderen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor_der_braminen|dandau" source="chor_der_braminen" target="dandau">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor_der_braminen|erste_bajadere" source="chor_der_braminen" target="erste_bajadere">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_braminen|zweite_bajadere" source="chor_der_braminen" target="zweite_bajadere">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_braminen|nadori" source="chor_der_braminen" target="nadori">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor_der_braminen|ein_indischer_offizier" source="chor_der_braminen" target="ein_indischer_offizier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_braminen|jessonda" source="chor_der_braminen" target="jessonda">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor_der_braminen|amazili" source="chor_der_braminen" target="amazili">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor_der_braminen|dienerinnen_der_jessonda" source="chor_der_braminen" target="dienerinnen_der_jessonda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_braminen|chor_der_portugiesen" source="chor_der_braminen" target="chor_der_portugiesen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_braminen|lopes" source="chor_der_braminen" target="lopes">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_braminen|tristan" source="chor_der_braminen" target="tristan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_braminen|chor_der_indianer" source="chor_der_braminen" target="chor_der_indianer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_bajaderen|dandau" source="chor_der_bajaderen" target="dandau">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor_der_bajaderen|erste_bajadere" source="chor_der_bajaderen" target="erste_bajadere">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_bajaderen|zweite_bajadere" source="chor_der_bajaderen" target="zweite_bajadere">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_bajaderen|nadori" source="chor_der_bajaderen" target="nadori">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor_der_bajaderen|ein_indischer_offizier" source="chor_der_bajaderen" target="ein_indischer_offizier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_bajaderen|jessonda" source="chor_der_bajaderen" target="jessonda">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor_der_bajaderen|amazili" source="chor_der_bajaderen" target="amazili">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor_der_bajaderen|dienerinnen_der_jessonda" source="chor_der_bajaderen" target="dienerinnen_der_jessonda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_bajaderen|chor_der_portugiesen" source="chor_der_bajaderen" target="chor_der_portugiesen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_bajaderen|lopes" source="chor_der_bajaderen" target="lopes">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_bajaderen|tristan" source="chor_der_bajaderen" target="tristan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_bajaderen|chor_der_indianer" source="chor_der_bajaderen" target="chor_der_indianer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dandau|erste_bajadere" source="dandau" target="erste_bajadere">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dandau|zweite_bajadere" source="dandau" target="zweite_bajadere">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dandau|nadori" source="dandau" target="nadori">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dandau|ein_indischer_offizier" source="dandau" target="ein_indischer_offizier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dandau|jessonda" source="dandau" target="jessonda">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dandau|amazili" source="dandau" target="amazili">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dandau|dienerinnen_der_jessonda" source="dandau" target="dienerinnen_der_jessonda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dandau|chor_der_portugiesen" source="dandau" target="chor_der_portugiesen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dandau|lopes" source="dandau" target="lopes">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dandau|tristan" source="dandau" target="tristan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dandau|chor_der_indianer" source="dandau" target="chor_der_indianer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_bajadere|zweite_bajadere" source="erste_bajadere" target="zweite_bajadere">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erste_bajadere|nadori" source="erste_bajadere" target="nadori">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erste_bajadere|ein_indischer_offizier" source="erste_bajadere" target="ein_indischer_offizier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erste_bajadere|jessonda" source="erste_bajadere" target="jessonda">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erste_bajadere|amazili" source="erste_bajadere" target="amazili">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erste_bajadere|dienerinnen_der_jessonda" source="erste_bajadere" target="dienerinnen_der_jessonda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_bajadere|lopes" source="erste_bajadere" target="lopes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_bajadere|tristan" source="erste_bajadere" target="tristan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_bajadere|chor_der_portugiesen" source="erste_bajadere" target="chor_der_portugiesen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_bajadere|nadori" source="zweite_bajadere" target="nadori">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweite_bajadere|ein_indischer_offizier" source="zweite_bajadere" target="ein_indischer_offizier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweite_bajadere|jessonda" source="zweite_bajadere" target="jessonda">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweite_bajadere|amazili" source="zweite_bajadere" target="amazili">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweite_bajadere|dienerinnen_der_jessonda" source="zweite_bajadere" target="dienerinnen_der_jessonda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_bajadere|lopes" source="zweite_bajadere" target="lopes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_bajadere|tristan" source="zweite_bajadere" target="tristan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_bajadere|chor_der_portugiesen" source="zweite_bajadere" target="chor_der_portugiesen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nadori|ein_indischer_offizier" source="nadori" target="ein_indischer_offizier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nadori|jessonda" source="nadori" target="jessonda">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nadori|amazili" source="nadori" target="amazili">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nadori|dienerinnen_der_jessonda" source="nadori" target="dienerinnen_der_jessonda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nadori|chor_der_portugiesen" source="nadori" target="chor_der_portugiesen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nadori|lopes" source="nadori" target="lopes">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nadori|tristan" source="nadori" target="tristan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nadori|chor_der_indianer" source="nadori" target="chor_der_indianer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_indischer_offizier|jessonda" source="ein_indischer_offizier" target="jessonda">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ein_indischer_offizier|amazili" source="ein_indischer_offizier" target="amazili">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ein_indischer_offizier|dienerinnen_der_jessonda" source="ein_indischer_offizier" target="dienerinnen_der_jessonda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_indischer_offizier|lopes" source="ein_indischer_offizier" target="lopes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_indischer_offizier|tristan" source="ein_indischer_offizier" target="tristan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_indischer_offizier|chor_der_portugiesen" source="ein_indischer_offizier" target="chor_der_portugiesen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jessonda|amazili" source="jessonda" target="amazili">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jessonda|dienerinnen_der_jessonda" source="jessonda" target="dienerinnen_der_jessonda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jessonda|chor_der_portugiesen" source="jessonda" target="chor_der_portugiesen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jessonda|lopes" source="jessonda" target="lopes">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jessonda|tristan" source="jessonda" target="tristan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jessonda|chor_der_indianer" source="jessonda" target="chor_der_indianer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amazili|dienerinnen_der_jessonda" source="amazili" target="dienerinnen_der_jessonda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amazili|chor_der_portugiesen" source="amazili" target="chor_der_portugiesen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amazili|lopes" source="amazili" target="lopes">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amazili|tristan" source="amazili" target="tristan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amazili|chor_der_indianer" source="amazili" target="chor_der_indianer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_portugiesen|lopes" source="chor_der_portugiesen" target="lopes">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_portugiesen|tristan" source="chor_der_portugiesen" target="tristan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_portugiesen|chor_der_indianer" source="chor_der_portugiesen" target="chor_der_indianer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lopes|tristan" source="lopes" target="tristan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lopes|chor_der_indianer" source="lopes" target="chor_der_indianer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tristan|chor_der_indianer" source="tristan" target="chor_der_indianer">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

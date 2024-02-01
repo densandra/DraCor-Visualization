@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="der_wohlwollende">
+            <data key="label">Der Wohlwollende</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">112</data>
+        </node>
+        <node id="der_bissige">
+            <data key="label">Der Bissige</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">168</data>
+        </node>
+        <node id="der_naive">
+            <data key="label">Der Naive</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">155</data>
+        </node>
+        <node id="kellner">
+            <data key="label">Kellner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="direktor">
+            <data key="label">Direktor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">548</data>
+        </node>
+        <node id="der_klavierspieler">
+            <data key="label">Der Klavierspieler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="der_dichter">
+            <data key="label">Der Dichter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">337</data>
+        </node>
+        <node id="held">
+            <data key="label">Held</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">850</data>
+        </node>
+        <node id="liesl">
+            <data key="label">Liesl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">178</data>
+        </node>
+        <node id="herzog">
+            <data key="label">Herzog</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">190</data>
+        </node>
+        <node id="herzogin">
+            <data key="label">Herzogin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">209</data>
+        </node>
+        <node id="zweiter_buerger">
+            <data key="label">Zweiter Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="erstes_maedel">
+            <data key="label">Erstes Mädel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="die_anderen_figuren_marionetten">
+            <data key="label">Die anderen Figuren/Marionetten</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">68</data>
+        </node>
+        <node id="raesoneur">
+            <data key="label">Der Räsoneur</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">151</data>
+        </node>
+        <node id="der_diener">
+            <data key="label">Der Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="heiterer">
+            <data key="label">Heiterer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">60</data>
+        </node>
+        <node id="ernster">
+            <data key="label">Ernster</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">77</data>
+        </node>
+        <node id="die_frau">
+            <data key="label">Die Frau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="erster_buerger">
+            <data key="label">Erster Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="zweites_maedel">
+            <data key="label">Zweites Mädel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="kanzelist">
+            <data key="label">Kanzelist</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="braeutigam">
+            <data key="label">Bräutigam</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="tod">
+            <data key="label">Tod</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">67</data>
+        </node>
+        <node id="erster_skandalmacher">
+            <data key="label">Erster Skandalmacher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="andere_einige_viele">
+            <data key="label">Einige/Andere/Viele</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="zweiter_skandalmacher">
+            <data key="label">Zweiter Skandalmacher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="meister">
+            <data key="label">Meister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="graf">
+            <data key="label">Der Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <node id="der_herr">
+            <data key="label">Der Herr im Parkett</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">58</data>
+        </node>
+        <node id="der_unbekannte">
+            <data key="label">Der Unbekannte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">143</data>
+        </node>
+        <edge id="der_wohlwollende|der_bissige" source="der_wohlwollende" target="der_bissige">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|der_naive" source="der_wohlwollende" target="der_naive">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|kellner" source="der_wohlwollende" target="kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|direktor" source="der_wohlwollende" target="direktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|der_klavierspieler" source="der_wohlwollende" target="der_klavierspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|der_dichter" source="der_wohlwollende" target="der_dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|held" source="der_wohlwollende" target="held">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|liesl" source="der_wohlwollende" target="liesl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|herzog" source="der_wohlwollende" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|herzogin" source="der_wohlwollende" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|zweiter_buerger" source="der_wohlwollende" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|erstes_maedel" source="der_wohlwollende" target="erstes_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|die_anderen_figuren_marionetten" source="der_wohlwollende" target="die_anderen_figuren_marionetten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|raesoneur" source="der_wohlwollende" target="raesoneur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|der_diener" source="der_wohlwollende" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|heiterer" source="der_wohlwollende" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|ernster" source="der_wohlwollende" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|die_frau" source="der_wohlwollende" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|erster_buerger" source="der_wohlwollende" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|zweites_maedel" source="der_wohlwollende" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|kanzelist" source="der_wohlwollende" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|braeutigam" source="der_wohlwollende" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|tod" source="der_wohlwollende" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|erster_skandalmacher" source="der_wohlwollende" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|andere_einige_viele" source="der_wohlwollende" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|zweiter_skandalmacher" source="der_wohlwollende" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|meister" source="der_wohlwollende" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|graf" source="der_wohlwollende" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|der_herr" source="der_wohlwollende" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wohlwollende|der_unbekannte" source="der_wohlwollende" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|der_naive" source="der_bissige" target="der_naive">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|kellner" source="der_bissige" target="kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|direktor" source="der_bissige" target="direktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|der_klavierspieler" source="der_bissige" target="der_klavierspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|der_dichter" source="der_bissige" target="der_dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|held" source="der_bissige" target="held">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|liesl" source="der_bissige" target="liesl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|herzog" source="der_bissige" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|herzogin" source="der_bissige" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|zweiter_buerger" source="der_bissige" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|erstes_maedel" source="der_bissige" target="erstes_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|die_anderen_figuren_marionetten" source="der_bissige" target="die_anderen_figuren_marionetten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|raesoneur" source="der_bissige" target="raesoneur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|der_diener" source="der_bissige" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|heiterer" source="der_bissige" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|ernster" source="der_bissige" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|die_frau" source="der_bissige" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|erster_buerger" source="der_bissige" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|zweites_maedel" source="der_bissige" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|kanzelist" source="der_bissige" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|braeutigam" source="der_bissige" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|tod" source="der_bissige" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|erster_skandalmacher" source="der_bissige" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|andere_einige_viele" source="der_bissige" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|zweiter_skandalmacher" source="der_bissige" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|meister" source="der_bissige" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|graf" source="der_bissige" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|der_herr" source="der_bissige" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bissige|der_unbekannte" source="der_bissige" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|kellner" source="der_naive" target="kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|direktor" source="der_naive" target="direktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|der_klavierspieler" source="der_naive" target="der_klavierspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|der_dichter" source="der_naive" target="der_dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|held" source="der_naive" target="held">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|liesl" source="der_naive" target="liesl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|herzog" source="der_naive" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|herzogin" source="der_naive" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|zweiter_buerger" source="der_naive" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|erstes_maedel" source="der_naive" target="erstes_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|die_anderen_figuren_marionetten" source="der_naive" target="die_anderen_figuren_marionetten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|raesoneur" source="der_naive" target="raesoneur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|der_diener" source="der_naive" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|heiterer" source="der_naive" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|ernster" source="der_naive" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|die_frau" source="der_naive" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|erster_buerger" source="der_naive" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|zweites_maedel" source="der_naive" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|kanzelist" source="der_naive" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|braeutigam" source="der_naive" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|tod" source="der_naive" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|erster_skandalmacher" source="der_naive" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|andere_einige_viele" source="der_naive" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|zweiter_skandalmacher" source="der_naive" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|meister" source="der_naive" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|graf" source="der_naive" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|der_herr" source="der_naive" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_naive|der_unbekannte" source="der_naive" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|direktor" source="kellner" target="direktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|der_klavierspieler" source="kellner" target="der_klavierspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|der_dichter" source="kellner" target="der_dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|held" source="kellner" target="held">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|liesl" source="kellner" target="liesl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|herzog" source="kellner" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|herzogin" source="kellner" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|zweiter_buerger" source="kellner" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|erstes_maedel" source="kellner" target="erstes_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|die_anderen_figuren_marionetten" source="kellner" target="die_anderen_figuren_marionetten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|raesoneur" source="kellner" target="raesoneur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|der_diener" source="kellner" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|heiterer" source="kellner" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|ernster" source="kellner" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|die_frau" source="kellner" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|erster_buerger" source="kellner" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|zweites_maedel" source="kellner" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|kanzelist" source="kellner" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|braeutigam" source="kellner" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|tod" source="kellner" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|erster_skandalmacher" source="kellner" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|andere_einige_viele" source="kellner" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|zweiter_skandalmacher" source="kellner" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|meister" source="kellner" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|graf" source="kellner" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|der_herr" source="kellner" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|der_unbekannte" source="kellner" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|der_klavierspieler" source="direktor" target="der_klavierspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|der_dichter" source="direktor" target="der_dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|held" source="direktor" target="held">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|liesl" source="direktor" target="liesl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|herzog" source="direktor" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|herzogin" source="direktor" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|zweiter_buerger" source="direktor" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|erstes_maedel" source="direktor" target="erstes_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|die_anderen_figuren_marionetten" source="direktor" target="die_anderen_figuren_marionetten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|raesoneur" source="direktor" target="raesoneur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|der_diener" source="direktor" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|heiterer" source="direktor" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|ernster" source="direktor" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|die_frau" source="direktor" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|erster_buerger" source="direktor" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|zweites_maedel" source="direktor" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|kanzelist" source="direktor" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|braeutigam" source="direktor" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|tod" source="direktor" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|erster_skandalmacher" source="direktor" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|andere_einige_viele" source="direktor" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|zweiter_skandalmacher" source="direktor" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|meister" source="direktor" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|graf" source="direktor" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|der_herr" source="direktor" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|der_unbekannte" source="direktor" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|der_dichter" source="der_klavierspieler" target="der_dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|held" source="der_klavierspieler" target="held">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|liesl" source="der_klavierspieler" target="liesl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|herzog" source="der_klavierspieler" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|herzogin" source="der_klavierspieler" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|zweiter_buerger" source="der_klavierspieler" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|erstes_maedel" source="der_klavierspieler" target="erstes_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|die_anderen_figuren_marionetten" source="der_klavierspieler" target="die_anderen_figuren_marionetten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|raesoneur" source="der_klavierspieler" target="raesoneur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|der_diener" source="der_klavierspieler" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|heiterer" source="der_klavierspieler" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|ernster" source="der_klavierspieler" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|die_frau" source="der_klavierspieler" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|erster_buerger" source="der_klavierspieler" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|zweites_maedel" source="der_klavierspieler" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|kanzelist" source="der_klavierspieler" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|braeutigam" source="der_klavierspieler" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|tod" source="der_klavierspieler" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|erster_skandalmacher" source="der_klavierspieler" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|andere_einige_viele" source="der_klavierspieler" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|zweiter_skandalmacher" source="der_klavierspieler" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|meister" source="der_klavierspieler" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|graf" source="der_klavierspieler" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|der_herr" source="der_klavierspieler" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_klavierspieler|der_unbekannte" source="der_klavierspieler" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|held" source="der_dichter" target="held">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|liesl" source="der_dichter" target="liesl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|herzog" source="der_dichter" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|herzogin" source="der_dichter" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|zweiter_buerger" source="der_dichter" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|erstes_maedel" source="der_dichter" target="erstes_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|die_anderen_figuren_marionetten" source="der_dichter" target="die_anderen_figuren_marionetten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|raesoneur" source="der_dichter" target="raesoneur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|der_diener" source="der_dichter" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|heiterer" source="der_dichter" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|ernster" source="der_dichter" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|die_frau" source="der_dichter" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|erster_buerger" source="der_dichter" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|zweites_maedel" source="der_dichter" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|kanzelist" source="der_dichter" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|braeutigam" source="der_dichter" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|tod" source="der_dichter" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|erster_skandalmacher" source="der_dichter" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|andere_einige_viele" source="der_dichter" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|zweiter_skandalmacher" source="der_dichter" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|meister" source="der_dichter" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|graf" source="der_dichter" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|der_herr" source="der_dichter" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|der_unbekannte" source="der_dichter" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|liesl" source="held" target="liesl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|herzog" source="held" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|herzogin" source="held" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|zweiter_buerger" source="held" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|erstes_maedel" source="held" target="erstes_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|die_anderen_figuren_marionetten" source="held" target="die_anderen_figuren_marionetten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|raesoneur" source="held" target="raesoneur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|der_diener" source="held" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|heiterer" source="held" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|ernster" source="held" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|die_frau" source="held" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|erster_buerger" source="held" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|zweites_maedel" source="held" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|kanzelist" source="held" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|braeutigam" source="held" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|tod" source="held" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|erster_skandalmacher" source="held" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|andere_einige_viele" source="held" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|zweiter_skandalmacher" source="held" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|meister" source="held" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|graf" source="held" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|der_herr" source="held" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="held|der_unbekannte" source="held" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|herzog" source="liesl" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|herzogin" source="liesl" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|zweiter_buerger" source="liesl" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|erstes_maedel" source="liesl" target="erstes_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|die_anderen_figuren_marionetten" source="liesl" target="die_anderen_figuren_marionetten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|raesoneur" source="liesl" target="raesoneur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|der_diener" source="liesl" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|heiterer" source="liesl" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|ernster" source="liesl" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|die_frau" source="liesl" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|erster_buerger" source="liesl" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|zweites_maedel" source="liesl" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|kanzelist" source="liesl" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|braeutigam" source="liesl" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|tod" source="liesl" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|erster_skandalmacher" source="liesl" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|andere_einige_viele" source="liesl" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|zweiter_skandalmacher" source="liesl" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|meister" source="liesl" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|graf" source="liesl" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|der_herr" source="liesl" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesl|der_unbekannte" source="liesl" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|herzogin" source="herzog" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|zweiter_buerger" source="herzog" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|erstes_maedel" source="herzog" target="erstes_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|die_anderen_figuren_marionetten" source="herzog" target="die_anderen_figuren_marionetten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|raesoneur" source="herzog" target="raesoneur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|der_diener" source="herzog" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|heiterer" source="herzog" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|ernster" source="herzog" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|die_frau" source="herzog" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|erster_buerger" source="herzog" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|zweites_maedel" source="herzog" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|kanzelist" source="herzog" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|braeutigam" source="herzog" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|tod" source="herzog" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|erster_skandalmacher" source="herzog" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|andere_einige_viele" source="herzog" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|zweiter_skandalmacher" source="herzog" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|meister" source="herzog" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|graf" source="herzog" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|der_herr" source="herzog" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|der_unbekannte" source="herzog" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|zweiter_buerger" source="herzogin" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|erstes_maedel" source="herzogin" target="erstes_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|die_anderen_figuren_marionetten" source="herzogin" target="die_anderen_figuren_marionetten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|raesoneur" source="herzogin" target="raesoneur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|der_diener" source="herzogin" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|heiterer" source="herzogin" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|ernster" source="herzogin" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|die_frau" source="herzogin" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|erster_buerger" source="herzogin" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|zweites_maedel" source="herzogin" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|kanzelist" source="herzogin" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|braeutigam" source="herzogin" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|tod" source="herzogin" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|erster_skandalmacher" source="herzogin" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|andere_einige_viele" source="herzogin" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|zweiter_skandalmacher" source="herzogin" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|meister" source="herzogin" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|graf" source="herzogin" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|der_herr" source="herzogin" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|der_unbekannte" source="herzogin" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|erstes_maedel" source="zweiter_buerger" target="erstes_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|die_anderen_figuren_marionetten" source="zweiter_buerger" target="die_anderen_figuren_marionetten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|raesoneur" source="zweiter_buerger" target="raesoneur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|der_diener" source="zweiter_buerger" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|heiterer" source="zweiter_buerger" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|ernster" source="zweiter_buerger" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|die_frau" source="zweiter_buerger" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|erster_buerger" source="zweiter_buerger" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|zweites_maedel" source="zweiter_buerger" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|kanzelist" source="zweiter_buerger" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|braeutigam" source="zweiter_buerger" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|tod" source="zweiter_buerger" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|erster_skandalmacher" source="zweiter_buerger" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|andere_einige_viele" source="zweiter_buerger" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|zweiter_skandalmacher" source="zweiter_buerger" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|meister" source="zweiter_buerger" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|graf" source="zweiter_buerger" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|der_herr" source="zweiter_buerger" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|der_unbekannte" source="zweiter_buerger" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|die_anderen_figuren_marionetten" source="erstes_maedel" target="die_anderen_figuren_marionetten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|raesoneur" source="erstes_maedel" target="raesoneur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|der_diener" source="erstes_maedel" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|heiterer" source="erstes_maedel" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|ernster" source="erstes_maedel" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|die_frau" source="erstes_maedel" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|erster_buerger" source="erstes_maedel" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|zweites_maedel" source="erstes_maedel" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|kanzelist" source="erstes_maedel" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|braeutigam" source="erstes_maedel" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|tod" source="erstes_maedel" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|erster_skandalmacher" source="erstes_maedel" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|andere_einige_viele" source="erstes_maedel" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|zweiter_skandalmacher" source="erstes_maedel" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|meister" source="erstes_maedel" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|graf" source="erstes_maedel" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|der_herr" source="erstes_maedel" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedel|der_unbekannte" source="erstes_maedel" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|raesoneur" source="die_anderen_figuren_marionetten" target="raesoneur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|der_diener" source="die_anderen_figuren_marionetten" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|heiterer" source="die_anderen_figuren_marionetten" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|ernster" source="die_anderen_figuren_marionetten" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|die_frau" source="die_anderen_figuren_marionetten" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|erster_buerger" source="die_anderen_figuren_marionetten" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|zweites_maedel" source="die_anderen_figuren_marionetten" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|kanzelist" source="die_anderen_figuren_marionetten" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|braeutigam" source="die_anderen_figuren_marionetten" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|tod" source="die_anderen_figuren_marionetten" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|erster_skandalmacher" source="die_anderen_figuren_marionetten" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|andere_einige_viele" source="die_anderen_figuren_marionetten" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|zweiter_skandalmacher" source="die_anderen_figuren_marionetten" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|meister" source="die_anderen_figuren_marionetten" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|graf" source="die_anderen_figuren_marionetten" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|der_herr" source="die_anderen_figuren_marionetten" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_figuren_marionetten|der_unbekannte" source="die_anderen_figuren_marionetten" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|der_diener" source="raesoneur" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|heiterer" source="raesoneur" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|ernster" source="raesoneur" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|die_frau" source="raesoneur" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|erster_buerger" source="raesoneur" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|zweites_maedel" source="raesoneur" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|kanzelist" source="raesoneur" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|braeutigam" source="raesoneur" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|tod" source="raesoneur" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|erster_skandalmacher" source="raesoneur" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|andere_einige_viele" source="raesoneur" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|zweiter_skandalmacher" source="raesoneur" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|meister" source="raesoneur" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|graf" source="raesoneur" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|der_herr" source="raesoneur" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raesoneur|der_unbekannte" source="raesoneur" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|heiterer" source="der_diener" target="heiterer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|ernster" source="der_diener" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|die_frau" source="der_diener" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|erster_buerger" source="der_diener" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|zweites_maedel" source="der_diener" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|kanzelist" source="der_diener" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|braeutigam" source="der_diener" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|tod" source="der_diener" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|erster_skandalmacher" source="der_diener" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|andere_einige_viele" source="der_diener" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|zweiter_skandalmacher" source="der_diener" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|meister" source="der_diener" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|graf" source="der_diener" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|der_herr" source="der_diener" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|der_unbekannte" source="der_diener" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiterer|ernster" source="heiterer" target="ernster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiterer|die_frau" source="heiterer" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiterer|erster_buerger" source="heiterer" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiterer|zweites_maedel" source="heiterer" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiterer|kanzelist" source="heiterer" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiterer|braeutigam" source="heiterer" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiterer|tod" source="heiterer" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiterer|erster_skandalmacher" source="heiterer" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiterer|andere_einige_viele" source="heiterer" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiterer|zweiter_skandalmacher" source="heiterer" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiterer|meister" source="heiterer" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiterer|graf" source="heiterer" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiterer|der_herr" source="heiterer" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiterer|der_unbekannte" source="heiterer" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernster|die_frau" source="ernster" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernster|erster_buerger" source="ernster" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernster|zweites_maedel" source="ernster" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernster|kanzelist" source="ernster" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernster|braeutigam" source="ernster" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernster|tod" source="ernster" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernster|erster_skandalmacher" source="ernster" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernster|andere_einige_viele" source="ernster" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernster|zweiter_skandalmacher" source="ernster" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernster|meister" source="ernster" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernster|graf" source="ernster" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernster|der_herr" source="ernster" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernster|der_unbekannte" source="ernster" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau|erster_buerger" source="die_frau" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau|zweites_maedel" source="die_frau" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau|kanzelist" source="die_frau" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau|braeutigam" source="die_frau" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau|tod" source="die_frau" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau|erster_skandalmacher" source="die_frau" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau|andere_einige_viele" source="die_frau" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau|zweiter_skandalmacher" source="die_frau" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau|meister" source="die_frau" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau|graf" source="die_frau" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau|der_herr" source="die_frau" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau|der_unbekannte" source="die_frau" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|zweites_maedel" source="erster_buerger" target="zweites_maedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|kanzelist" source="erster_buerger" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|braeutigam" source="erster_buerger" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|tod" source="erster_buerger" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|erster_skandalmacher" source="erster_buerger" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|andere_einige_viele" source="erster_buerger" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|zweiter_skandalmacher" source="erster_buerger" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|meister" source="erster_buerger" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|graf" source="erster_buerger" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|der_herr" source="erster_buerger" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|der_unbekannte" source="erster_buerger" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedel|kanzelist" source="zweites_maedel" target="kanzelist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedel|braeutigam" source="zweites_maedel" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedel|tod" source="zweites_maedel" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedel|erster_skandalmacher" source="zweites_maedel" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedel|andere_einige_viele" source="zweites_maedel" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedel|zweiter_skandalmacher" source="zweites_maedel" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedel|meister" source="zweites_maedel" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedel|graf" source="zweites_maedel" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedel|der_herr" source="zweites_maedel" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedel|der_unbekannte" source="zweites_maedel" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kanzelist|braeutigam" source="kanzelist" target="braeutigam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kanzelist|tod" source="kanzelist" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kanzelist|erster_skandalmacher" source="kanzelist" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kanzelist|andere_einige_viele" source="kanzelist" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kanzelist|zweiter_skandalmacher" source="kanzelist" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kanzelist|meister" source="kanzelist" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kanzelist|graf" source="kanzelist" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kanzelist|der_herr" source="kanzelist" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kanzelist|der_unbekannte" source="kanzelist" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braeutigam|tod" source="braeutigam" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braeutigam|erster_skandalmacher" source="braeutigam" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braeutigam|andere_einige_viele" source="braeutigam" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braeutigam|zweiter_skandalmacher" source="braeutigam" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braeutigam|meister" source="braeutigam" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braeutigam|graf" source="braeutigam" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braeutigam|der_herr" source="braeutigam" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braeutigam|der_unbekannte" source="braeutigam" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|erster_skandalmacher" source="tod" target="erster_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|andere_einige_viele" source="tod" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|zweiter_skandalmacher" source="tod" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|meister" source="tod" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|graf" source="tod" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|der_herr" source="tod" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|der_unbekannte" source="tod" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_skandalmacher|andere_einige_viele" source="erster_skandalmacher" target="andere_einige_viele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_skandalmacher|zweiter_skandalmacher" source="erster_skandalmacher" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_skandalmacher|meister" source="erster_skandalmacher" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_skandalmacher|graf" source="erster_skandalmacher" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_skandalmacher|der_herr" source="erster_skandalmacher" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_skandalmacher|der_unbekannte" source="erster_skandalmacher" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andere_einige_viele|zweiter_skandalmacher" source="andere_einige_viele" target="zweiter_skandalmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andere_einige_viele|meister" source="andere_einige_viele" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andere_einige_viele|graf" source="andere_einige_viele" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andere_einige_viele|der_herr" source="andere_einige_viele" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andere_einige_viele|der_unbekannte" source="andere_einige_viele" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_skandalmacher|meister" source="zweiter_skandalmacher" target="meister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_skandalmacher|graf" source="zweiter_skandalmacher" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_skandalmacher|der_herr" source="zweiter_skandalmacher" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_skandalmacher|der_unbekannte" source="zweiter_skandalmacher" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meister|graf" source="meister" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meister|der_herr" source="meister" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meister|der_unbekannte" source="meister" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|der_herr" source="graf" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|der_unbekannte" source="graf" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_herr|der_unbekannte" source="der_herr" target="der_unbekannte">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

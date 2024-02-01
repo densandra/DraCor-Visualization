@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="constanze">
+            <data key="label">Constanze</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1875</data>
+        </node>
+        <node id="claerchen">
+            <data key="label">Clärchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3643</data>
+        </node>
+        <node id="bast">
+            <data key="label">Bast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1962</data>
+        </node>
+        <node id="erster_poet">
+            <data key="label">Erster Poet</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">668</data>
+        </node>
+        <node id="zweyter_poet">
+            <data key="label">Zweyter Poet</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">739</data>
+        </node>
+        <node id="nikolo">
+            <data key="label">Nikolo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1224</data>
+        </node>
+        <node id="albert">
+            <data key="label">Albert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">963</data>
+        </node>
+        <node id="truebe">
+            <data key="label">Trübe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1265</data>
+        </node>
+        <node id="lukrezia">
+            <data key="label">Lukrezia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">457</data>
+        </node>
+        <node id="virginia">
+            <data key="label">Virginia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">425</data>
+        </node>
+        <node id="orpheus">
+            <data key="label">Orpheus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1051</data>
+        </node>
+        <edge id="constanze|claerchen" source="constanze" target="claerchen">
+            <data key="weight">20</data>
+        </edge>
+        <edge id="constanze|bast" source="constanze" target="bast">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="constanze|erster_poet" source="constanze" target="erster_poet">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="constanze|zweyter_poet" source="constanze" target="zweyter_poet">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="constanze|truebe" source="constanze" target="truebe">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="constanze|nikolo" source="constanze" target="nikolo">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="constanze|lukrezia" source="constanze" target="lukrezia">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="constanze|virginia" source="constanze" target="virginia">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="constanze|albert" source="constanze" target="albert">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="constanze|orpheus" source="constanze" target="orpheus">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="claerchen|bast" source="claerchen" target="bast">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="claerchen|erster_poet" source="claerchen" target="erster_poet">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="claerchen|zweyter_poet" source="claerchen" target="zweyter_poet">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="claerchen|nikolo" source="claerchen" target="nikolo">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="claerchen|albert" source="claerchen" target="albert">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="claerchen|truebe" source="claerchen" target="truebe">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="claerchen|orpheus" source="claerchen" target="orpheus">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="claerchen|lukrezia" source="claerchen" target="lukrezia">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="claerchen|virginia" source="claerchen" target="virginia">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="bast|erster_poet" source="bast" target="erster_poet">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bast|zweyter_poet" source="bast" target="zweyter_poet">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bast|truebe" source="bast" target="truebe">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="bast|nikolo" source="bast" target="nikolo">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="bast|lukrezia" source="bast" target="lukrezia">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="bast|virginia" source="bast" target="virginia">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="bast|albert" source="bast" target="albert">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="bast|orpheus" source="bast" target="orpheus">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="erster_poet|zweyter_poet" source="erster_poet" target="zweyter_poet">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="erster_poet|lukrezia" source="erster_poet" target="lukrezia">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="erster_poet|virginia" source="erster_poet" target="virginia">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="erster_poet|orpheus" source="erster_poet" target="orpheus">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="erster_poet|truebe" source="erster_poet" target="truebe">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="erster_poet|nikolo" source="erster_poet" target="nikolo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_poet|albert" source="erster_poet" target="albert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweyter_poet|lukrezia" source="zweyter_poet" target="lukrezia">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="zweyter_poet|virginia" source="zweyter_poet" target="virginia">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="zweyter_poet|orpheus" source="zweyter_poet" target="orpheus">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="zweyter_poet|truebe" source="zweyter_poet" target="truebe">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="zweyter_poet|nikolo" source="zweyter_poet" target="nikolo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweyter_poet|albert" source="zweyter_poet" target="albert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nikolo|truebe" source="nikolo" target="truebe">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="nikolo|lukrezia" source="nikolo" target="lukrezia">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="nikolo|virginia" source="nikolo" target="virginia">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="nikolo|albert" source="nikolo" target="albert">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="nikolo|orpheus" source="nikolo" target="orpheus">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="albert|truebe" source="albert" target="truebe">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="albert|lukrezia" source="albert" target="lukrezia">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="albert|virginia" source="albert" target="virginia">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="albert|orpheus" source="albert" target="orpheus">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="truebe|lukrezia" source="truebe" target="lukrezia">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="truebe|virginia" source="truebe" target="virginia">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="truebe|orpheus" source="truebe" target="orpheus">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="lukrezia|virginia" source="lukrezia" target="virginia">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="lukrezia|orpheus" source="lukrezia" target="orpheus">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="virginia|orpheus" source="virginia" target="orpheus">
+            <data key="weight">7</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="mana">
+            <data key="label">Mana</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sora">
+            <data key="label">Sora</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="feria">
+            <data key="label">Feria</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lato">
+            <data key="label">Lato</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mela">
+            <data key="label">Mela</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="andrason">
+            <data key="label">Andrason</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="merkulo">
+            <data key="label">Merkulo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bediente">
+            <data key="label">Bediente</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="prinz">
+            <data key="label">Prinz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mandandanens_kammerdiener">
+            <data key="label">Mandandanens Kammerdiener (als Askalaphus)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mandandane">
+            <data key="label">Mandandane</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_parzen">
+            <data key="label">Die Parzen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="proserpina">
+            <data key="label">Proserpina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="mandandane" target="andrason">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="andrason" target="feria">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="mana" target="feria">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="sora" target="feria">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="lato" target="feria">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="mela" target="feria">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="merkulo" target="prinz">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="mandandanens_kammerdiener" target="mandandane">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

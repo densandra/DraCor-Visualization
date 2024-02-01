@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="kissling">
+            <data key="label">Kißling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1027</data>
+        </node>
+        <node id="kellner_1-1">
+            <data key="label">Kellner (I/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="groeber">
+            <data key="label">Gröber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">238</data>
+        </node>
+        <node id="jean">
+            <data key="label">Jean</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">75</data>
+        </node>
+        <node id="bernhardy">
+            <data key="label">Bernhardy</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1349</data>
+        </node>
+        <node id="josephine">
+            <data key="label">Josephine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">942</data>
+        </node>
+        <node id="erster_gast_2-2">
+            <data key="label">Erster Gast (II/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="eugen">
+            <data key="label">Eugen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">686</data>
+        </node>
+        <node id="ulrike">
+            <data key="label">Ulrike</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1001</data>
+        </node>
+        <node id="ida">
+            <data key="label">Ida</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">436</data>
+        </node>
+        <node id="franziska">
+            <data key="label">Franziska</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">267</data>
+        </node>
+        <node id="kellner_2-3">
+            <data key="label">Kellner (II/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="alfred">
+            <data key="label">Alfred</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1219</data>
+        </node>
+        <node id="klapproth">
+            <data key="label">Klapproth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3882</data>
+        </node>
+        <node id="erster_gast_2-5">
+            <data key="label">Erster Gast (II/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="zweiter_gast">
+            <data key="label">Zweiter Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="blumenmaedchen">
+            <data key="label">Blumenmädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="schoeller">
+            <data key="label">Schöller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">817</data>
+        </node>
+        <node id="amalie">
+            <data key="label">Amalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">597</data>
+        </node>
+        <node id="friederike">
+            <data key="label">Friederike</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">132</data>
+        </node>
+        <edge id="kissling|kellner_1-1" source="kissling" target="kellner_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kissling|groeber" source="kissling" target="groeber">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kissling|jean" source="kissling" target="jean">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kissling|bernhardy" source="kissling" target="bernhardy">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kissling|josephine" source="kissling" target="josephine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kissling|erster_gast_2-2" source="kissling" target="erster_gast_2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kissling|eugen" source="kissling" target="eugen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kissling|alfred" source="kissling" target="alfred">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="kissling|ulrike" source="kissling" target="ulrike">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kissling|klapproth" source="kissling" target="klapproth">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="kissling|erster_gast_2-5" source="kissling" target="erster_gast_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kissling|zweiter_gast" source="kissling" target="zweiter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kissling|franziska" source="kissling" target="franziska">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kissling|ida" source="kissling" target="ida">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kissling|blumenmaedchen" source="kissling" target="blumenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kissling|schoeller" source="kissling" target="schoeller">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kissling|amalie" source="kissling" target="amalie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kissling|friederike" source="kissling" target="friederike">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kellner_1-1|groeber" source="kellner_1-1" target="groeber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner_1-1|jean" source="kellner_1-1" target="jean">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="groeber|jean" source="groeber" target="jean">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="groeber|schoeller" source="groeber" target="schoeller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="groeber|klapproth" source="groeber" target="klapproth">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="groeber|alfred" source="groeber" target="alfred">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="groeber|josephine" source="groeber" target="josephine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jean|bernhardy" source="jean" target="bernhardy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jean|josephine" source="jean" target="josephine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jean|erster_gast_2-2" source="jean" target="erster_gast_2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jean|eugen" source="jean" target="eugen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bernhardy|josephine" source="bernhardy" target="josephine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bernhardy|erster_gast_2-2" source="bernhardy" target="erster_gast_2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bernhardy|eugen" source="bernhardy" target="eugen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bernhardy|klapproth" source="bernhardy" target="klapproth">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="bernhardy|amalie" source="bernhardy" target="amalie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bernhardy|friederike" source="bernhardy" target="friederike">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bernhardy|schoeller" source="bernhardy" target="schoeller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bernhardy|ulrike" source="bernhardy" target="ulrike">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bernhardy|ida" source="bernhardy" target="ida">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bernhardy|alfred" source="bernhardy" target="alfred">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bernhardy|franziska" source="bernhardy" target="franziska">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="josephine|erster_gast_2-2" source="josephine" target="erster_gast_2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="josephine|eugen" source="josephine" target="eugen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="josephine|schoeller" source="josephine" target="schoeller">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="josephine|klapproth" source="josephine" target="klapproth">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="josephine|ida" source="josephine" target="ida">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="josephine|ulrike" source="josephine" target="ulrike">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="josephine|alfred" source="josephine" target="alfred">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="josephine|amalie" source="josephine" target="amalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="josephine|friederike" source="josephine" target="friederike">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="josephine|franziska" source="josephine" target="franziska">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gast_2-2|eugen" source="erster_gast_2-2" target="eugen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eugen|klapproth" source="eugen" target="klapproth">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="eugen|ulrike" source="eugen" target="ulrike">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eugen|ida" source="eugen" target="ida">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eugen|alfred" source="eugen" target="alfred">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eugen|schoeller" source="eugen" target="schoeller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eugen|amalie" source="eugen" target="amalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eugen|friederike" source="eugen" target="friederike">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eugen|franziska" source="eugen" target="franziska">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrike|ida" source="ulrike" target="ida">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="ulrike|franziska" source="ulrike" target="franziska">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ulrike|kellner_2-3" source="ulrike" target="kellner_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrike|alfred" source="ulrike" target="alfred">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ulrike|klapproth" source="ulrike" target="klapproth">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="ulrike|erster_gast_2-5" source="ulrike" target="erster_gast_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrike|zweiter_gast" source="ulrike" target="zweiter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrike|blumenmaedchen" source="ulrike" target="blumenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrike|amalie" source="ulrike" target="amalie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ulrike|schoeller" source="ulrike" target="schoeller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ulrike|friederike" source="ulrike" target="friederike">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|franziska" source="ida" target="franziska">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ida|kellner_2-3" source="ida" target="kellner_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|klapproth" source="ida" target="klapproth">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="ida|erster_gast_2-5" source="ida" target="erster_gast_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|zweiter_gast" source="ida" target="zweiter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|alfred" source="ida" target="alfred">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ida|blumenmaedchen" source="ida" target="blumenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|amalie" source="ida" target="amalie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ida|schoeller" source="ida" target="schoeller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ida|friederike" source="ida" target="friederike">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|kellner_2-3" source="franziska" target="kellner_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|klapproth" source="franziska" target="klapproth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="franziska|erster_gast_2-5" source="franziska" target="erster_gast_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|zweiter_gast" source="franziska" target="zweiter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|alfred" source="franziska" target="alfred">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="franziska|blumenmaedchen" source="franziska" target="blumenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|amalie" source="franziska" target="amalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|friederike" source="franziska" target="friederike">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|schoeller" source="franziska" target="schoeller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alfred|klapproth" source="alfred" target="klapproth">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="alfred|erster_gast_2-5" source="alfred" target="erster_gast_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alfred|zweiter_gast" source="alfred" target="zweiter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alfred|blumenmaedchen" source="alfred" target="blumenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alfred|schoeller" source="alfred" target="schoeller">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="alfred|friederike" source="alfred" target="friederike">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alfred|amalie" source="alfred" target="amalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klapproth|erster_gast_2-5" source="klapproth" target="erster_gast_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klapproth|zweiter_gast" source="klapproth" target="zweiter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klapproth|blumenmaedchen" source="klapproth" target="blumenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klapproth|schoeller" source="klapproth" target="schoeller">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="klapproth|amalie" source="klapproth" target="amalie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="klapproth|friederike" source="klapproth" target="friederike">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gast_2-5|zweiter_gast" source="erster_gast_2-5" target="zweiter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gast_2-5|blumenmaedchen" source="erster_gast_2-5" target="blumenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_gast|blumenmaedchen" source="zweiter_gast" target="blumenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schoeller|amalie" source="schoeller" target="amalie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schoeller|friederike" source="schoeller" target="friederike">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|friederike" source="amalie" target="friederike">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

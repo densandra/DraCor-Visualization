@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="chor_der_schiffer">
+            <data key="label">Chor der Schiffer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">90</data>
+        </node>
+        <node id="ottokar">
+            <data key="label">Ottokar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">532</data>
+        </node>
+        <node id="czipra">
+            <data key="label">Czipra</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1101</data>
+        </node>
+        <node id="barinkay">
+            <data key="label">Barinkay</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1542</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">211</data>
+        </node>
+        <node id="carnero">
+            <data key="label">Carnero</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">736</data>
+        </node>
+        <node id="saffi">
+            <data key="label">Saffi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1137</data>
+        </node>
+        <node id="zsupan">
+            <data key="label">Zsupán</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1213</data>
+        </node>
+        <node id="mirabella">
+            <data key="label">Mirabella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">756</data>
+        </node>
+        <node id="arsena">
+            <data key="label">Arsena</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1116</data>
+        </node>
+        <node id="chor_der_maedchen">
+            <data key="label">Chor der Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">86</data>
+        </node>
+        <node id="chor_der_zigeuner">
+            <data key="label">Chor der Zigeuner</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">503</data>
+        </node>
+        <node id="zsupans_gruppe">
+            <data key="label">Chor der Zsupán'schen Gruppe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">125</data>
+        </node>
+        <node id="barinkays_gruppe">
+            <data key="label">Barinkays Gruppe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="pali">
+            <data key="label">Pali</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">87</data>
+        </node>
+        <node id="chor_der_zigeunerinnen">
+            <data key="label">Chor der Zigeunerinnen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">105</data>
+        </node>
+        <node id="graf_homonay">
+            <data key="label">Graf Homonay</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">302</data>
+        </node>
+        <node id="chor_der_soldaten">
+            <data key="label">Chor der Soldaten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">389</data>
+        </node>
+        <node id="allgemeiner_chor">
+            <data key="label">Allgemeiner Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">58</data>
+        </node>
+        <edge id="chor_der_schiffer|ottokar" source="chor_der_schiffer" target="ottokar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_schiffer|czipra" source="chor_der_schiffer" target="czipra">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_schiffer|barinkay" source="chor_der_schiffer" target="barinkay">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_schiffer|chor" source="chor_der_schiffer" target="chor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_schiffer|carnero" source="chor_der_schiffer" target="carnero">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_schiffer|saffi" source="chor_der_schiffer" target="saffi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_schiffer|zsupan" source="chor_der_schiffer" target="zsupan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_schiffer|mirabella" source="chor_der_schiffer" target="mirabella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_schiffer|arsena" source="chor_der_schiffer" target="arsena">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_schiffer|chor_der_maedchen" source="chor_der_schiffer" target="chor_der_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_schiffer|chor_der_zigeuner" source="chor_der_schiffer" target="chor_der_zigeuner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_schiffer|zsupans_gruppe" source="chor_der_schiffer" target="zsupans_gruppe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_schiffer|barinkays_gruppe" source="chor_der_schiffer" target="barinkays_gruppe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ottokar|czipra" source="ottokar" target="czipra">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ottokar|barinkay" source="ottokar" target="barinkay">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ottokar|chor" source="ottokar" target="chor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ottokar|carnero" source="ottokar" target="carnero">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ottokar|saffi" source="ottokar" target="saffi">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ottokar|zsupan" source="ottokar" target="zsupan">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ottokar|mirabella" source="ottokar" target="mirabella">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ottokar|arsena" source="ottokar" target="arsena">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ottokar|chor_der_maedchen" source="ottokar" target="chor_der_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ottokar|chor_der_zigeuner" source="ottokar" target="chor_der_zigeuner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ottokar|zsupans_gruppe" source="ottokar" target="zsupans_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ottokar|barinkays_gruppe" source="ottokar" target="barinkays_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ottokar|pali" source="ottokar" target="pali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ottokar|graf_homonay" source="ottokar" target="graf_homonay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ottokar|chor_der_soldaten" source="ottokar" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="czipra|barinkay" source="czipra" target="barinkay">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="czipra|chor" source="czipra" target="chor">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="czipra|carnero" source="czipra" target="carnero">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="czipra|saffi" source="czipra" target="saffi">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="czipra|zsupan" source="czipra" target="zsupan">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="czipra|mirabella" source="czipra" target="mirabella">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="czipra|arsena" source="czipra" target="arsena">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="czipra|chor_der_maedchen" source="czipra" target="chor_der_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="czipra|chor_der_zigeuner" source="czipra" target="chor_der_zigeuner">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="czipra|zsupans_gruppe" source="czipra" target="zsupans_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="czipra|barinkays_gruppe" source="czipra" target="barinkays_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="czipra|pali" source="czipra" target="pali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="czipra|graf_homonay" source="czipra" target="graf_homonay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="czipra|chor_der_soldaten" source="czipra" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barinkay|chor" source="barinkay" target="chor">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="barinkay|carnero" source="barinkay" target="carnero">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="barinkay|saffi" source="barinkay" target="saffi">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="barinkay|zsupan" source="barinkay" target="zsupan">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="barinkay|mirabella" source="barinkay" target="mirabella">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="barinkay|arsena" source="barinkay" target="arsena">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="barinkay|chor_der_maedchen" source="barinkay" target="chor_der_maedchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="barinkay|chor_der_zigeuner" source="barinkay" target="chor_der_zigeuner">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="barinkay|zsupans_gruppe" source="barinkay" target="zsupans_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="barinkay|barinkays_gruppe" source="barinkay" target="barinkays_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="barinkay|pali" source="barinkay" target="pali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barinkay|graf_homonay" source="barinkay" target="graf_homonay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barinkay|chor_der_soldaten" source="barinkay" target="chor_der_soldaten">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="barinkay|allgemeiner_chor" source="barinkay" target="allgemeiner_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|carnero" source="chor" target="carnero">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="chor|saffi" source="chor" target="saffi">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="chor|zsupan" source="chor" target="zsupan">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="chor|mirabella" source="chor" target="mirabella">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chor|arsena" source="chor" target="arsena">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chor|chor_der_maedchen" source="chor" target="chor_der_maedchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|chor_der_zigeuner" source="chor" target="chor_der_zigeuner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor|zsupans_gruppe" source="chor" target="zsupans_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|barinkays_gruppe" source="chor" target="barinkays_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|pali" source="chor" target="pali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|graf_homonay" source="chor" target="graf_homonay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|chor_der_soldaten" source="chor" target="chor_der_soldaten">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|allgemeiner_chor" source="chor" target="allgemeiner_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carnero|saffi" source="carnero" target="saffi">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="carnero|zsupan" source="carnero" target="zsupan">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="carnero|mirabella" source="carnero" target="mirabella">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="carnero|arsena" source="carnero" target="arsena">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="carnero|chor_der_maedchen" source="carnero" target="chor_der_maedchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carnero|chor_der_zigeuner" source="carnero" target="chor_der_zigeuner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="carnero|zsupans_gruppe" source="carnero" target="zsupans_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carnero|barinkays_gruppe" source="carnero" target="barinkays_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carnero|pali" source="carnero" target="pali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carnero|graf_homonay" source="carnero" target="graf_homonay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carnero|chor_der_soldaten" source="carnero" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carnero|allgemeiner_chor" source="carnero" target="allgemeiner_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saffi|zsupan" source="saffi" target="zsupan">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="saffi|mirabella" source="saffi" target="mirabella">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="saffi|arsena" source="saffi" target="arsena">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="saffi|chor_der_maedchen" source="saffi" target="chor_der_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saffi|chor_der_zigeuner" source="saffi" target="chor_der_zigeuner">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="saffi|zsupans_gruppe" source="saffi" target="zsupans_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="saffi|barinkays_gruppe" source="saffi" target="barinkays_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="saffi|pali" source="saffi" target="pali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saffi|graf_homonay" source="saffi" target="graf_homonay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saffi|chor_der_soldaten" source="saffi" target="chor_der_soldaten">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="saffi|allgemeiner_chor" source="saffi" target="allgemeiner_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zsupan|mirabella" source="zsupan" target="mirabella">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="zsupan|arsena" source="zsupan" target="arsena">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="zsupan|chor_der_maedchen" source="zsupan" target="chor_der_maedchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zsupan|chor_der_zigeuner" source="zsupan" target="chor_der_zigeuner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zsupan|zsupans_gruppe" source="zsupan" target="zsupans_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zsupan|barinkays_gruppe" source="zsupan" target="barinkays_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zsupan|pali" source="zsupan" target="pali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zsupan|graf_homonay" source="zsupan" target="graf_homonay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zsupan|chor_der_soldaten" source="zsupan" target="chor_der_soldaten">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zsupan|allgemeiner_chor" source="zsupan" target="allgemeiner_chor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mirabella|arsena" source="mirabella" target="arsena">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mirabella|chor_der_maedchen" source="mirabella" target="chor_der_maedchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mirabella|chor_der_zigeuner" source="mirabella" target="chor_der_zigeuner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mirabella|zsupans_gruppe" source="mirabella" target="zsupans_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mirabella|barinkays_gruppe" source="mirabella" target="barinkays_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mirabella|pali" source="mirabella" target="pali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirabella|graf_homonay" source="mirabella" target="graf_homonay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirabella|chor_der_soldaten" source="mirabella" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arsena|chor_der_maedchen" source="arsena" target="chor_der_maedchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="arsena|chor_der_zigeuner" source="arsena" target="chor_der_zigeuner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="arsena|zsupans_gruppe" source="arsena" target="zsupans_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="arsena|barinkays_gruppe" source="arsena" target="barinkays_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="arsena|pali" source="arsena" target="pali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arsena|graf_homonay" source="arsena" target="graf_homonay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arsena|chor_der_soldaten" source="arsena" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arsena|allgemeiner_chor" source="arsena" target="allgemeiner_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maedchen|chor_der_zigeuner" source="chor_der_maedchen" target="chor_der_zigeuner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maedchen|zsupans_gruppe" source="chor_der_maedchen" target="zsupans_gruppe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maedchen|barinkays_gruppe" source="chor_der_maedchen" target="barinkays_gruppe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_zigeuner|zsupans_gruppe" source="chor_der_zigeuner" target="zsupans_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_zigeuner|barinkays_gruppe" source="chor_der_zigeuner" target="barinkays_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_zigeuner|pali" source="chor_der_zigeuner" target="pali">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_zigeuner|chor_der_zigeunerinnen" source="chor_der_zigeuner" target="chor_der_zigeunerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_zigeuner|graf_homonay" source="chor_der_zigeuner" target="graf_homonay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_zigeuner|chor_der_soldaten" source="chor_der_zigeuner" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zsupans_gruppe|barinkays_gruppe" source="zsupans_gruppe" target="barinkays_gruppe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pali|chor_der_zigeunerinnen" source="pali" target="chor_der_zigeunerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pali|graf_homonay" source="pali" target="graf_homonay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pali|chor_der_soldaten" source="pali" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_homonay|chor_der_soldaten" source="graf_homonay" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_soldaten|allgemeiner_chor" source="chor_der_soldaten" target="allgemeiner_chor">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

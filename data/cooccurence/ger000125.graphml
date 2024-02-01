@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="nikator">
+            <data key="label">Nikator</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1239</data>
+        </node>
+        <node id="esla">
+            <data key="label">Esla</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">287</data>
+        </node>
+        <node id="koenig">
+            <data key="label">König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1307</data>
+        </node>
+        <node id="koenigin">
+            <data key="label">Königin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">274</data>
+        </node>
+        <node id="adonia">
+            <data key="label">Adonia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">532</data>
+        </node>
+        <node id="totila">
+            <data key="label">Totila</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="die_soldaten">
+            <data key="label">Die Soldaten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <edge id="nikator|esla" source="nikator" target="esla">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nikator|koenig" source="nikator" target="koenig">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nikator|koenigin" source="nikator" target="koenigin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nikator|adonia" source="nikator" target="adonia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nikator|totila" source="nikator" target="totila">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nikator|die_soldaten" source="nikator" target="die_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esla|koenig" source="esla" target="koenig">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="esla|koenigin" source="esla" target="koenigin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="esla|adonia" source="esla" target="adonia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="esla|totila" source="esla" target="totila">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esla|die_soldaten" source="esla" target="die_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|koenigin" source="koenig" target="koenigin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig|adonia" source="koenig" target="adonia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig|totila" source="koenig" target="totila">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|die_soldaten" source="koenig" target="die_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|adonia" source="koenigin" target="adonia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|totila" source="koenigin" target="totila">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|die_soldaten" source="koenigin" target="die_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="totila|die_soldaten" source="totila" target="die_soldaten">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="faust">
+            <data key="label">Faust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stimme_zur_linken">
+            <data key="label">Stimme zur Linken</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stimme_zur_rechten_schutzgeist">
+            <data key="label">Stimme zur Rechten (Schutzgeist)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mehrere_stimmen_zur_linken_geister">
+            <data key="label">Mehrere Stimmen zur Linken (Geister)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="wagner">
+            <data key="label">Wagner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="casperle">
+            <data key="label">Casperle</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vitzliputzli">
+            <data key="label">Vitzliputzli</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="poluemor">
+            <data key="label">Polümor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="asmodeus">
+            <data key="label">Asmodeus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="astarot">
+            <data key="label">Astarot</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="auerhahn">
+            <data key="label">Auerhahn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="haribax">
+            <data key="label">Haribax</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="megaera">
+            <data key="label">Megära</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mephistopheles">
+            <data key="label">Mephistopheles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="xerxes">
+            <data key="label">Xerxes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="don_carlos">
+            <data key="label">Don Carlos</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herzog">
+            <data key="label">Herzog</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herzogin">
+            <data key="label">Herzogin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="das_frauenzimmer">
+            <data key="label">Das Frauenzimmer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="altes_weib">
+            <data key="label">Altes Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dumpfe_stimme_von_oben">
+            <data key="label">Dumpfe Stimme von oben</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gretl">
+            <data key="label">Gretl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="herzogin" target="herzog">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="casperle" target="gretl">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="wagner" target="faust">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="casperle" target="faust">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="stimme_zur_rechten_schutzgeist" target="faust">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

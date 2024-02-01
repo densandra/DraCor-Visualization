@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="frau_von_langsalm">
+            <data key="label">Frau von Langsalm</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="doris">
+            <data key="label">Doris</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="selicour">
+            <data key="label">Selicour</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_von_langsalm">
+            <data key="label">Herr von Langsalm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fritz">
+            <data key="label">Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_krick">
+            <data key="label">Frau Krick</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="babet">
+            <data key="label">Babet</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="major">
+            <data key="label">Major</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lafleur">
+            <data key="label">Lafleur</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_nachtwaechter">
+            <data key="label">Der Nachtwächter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="herr_von_langsalm" target="frau_von_langsalm">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="herr_von_langsalm" target="doris">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="frau_von_langsalm" target="doris">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="fritz" target="herr_von_langsalm">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="5" directed="false" source="fritz" target="frau_von_langsalm">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="6" directed="false" source="major" target="babet">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="7" directed="false" source="lafleur" target="selicour">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

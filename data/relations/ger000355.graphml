@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="kaethchen">
+            <data key="label">Käthchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="redlich">
+            <data key="label">Redlich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="staberl">
+            <data key="label">Staberl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="therese">
+            <data key="label">Therese</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mueller">
+            <data key="label">Müller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hans">
+            <data key="label">Hans</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="toloysky">
+            <data key="label">Toloysky</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ferdinand">
+            <data key="label">Ferdinand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_mehrere_1-15">
+            <data key="label">Alle/Mehrere (I/15)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_buerger">
+            <data key="label">Ein Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_anderer">
+            <data key="label">Ein anderer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_dritter">
+            <data key="label">Ein dritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_vierter_buerger">
+            <data key="label">Ein vierter Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_vier_tiroler">
+            <data key="label">Die vier Tiroler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kommissaer">
+            <data key="label">Kommissär</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erste_buergerin">
+            <data key="label">Erste Bürgerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweite_buergerin">
+            <data key="label">Zweite Bürgerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_und_chor_3-10_und_3-12">
+            <data key="label">Alle/Chor (III)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="therese" target="redlich">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="redlich" target="ferdinand">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="redlich" target="kaethchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="therese" target="ferdinand">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="therese" target="kaethchen">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

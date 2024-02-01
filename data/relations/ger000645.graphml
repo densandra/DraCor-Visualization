@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="adelungen">
+            <data key="label">Ursmar von Adelungen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ullo">
+            <data key="label">Ullo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="otto">
+            <data key="label">Otto von Schönborn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="willibald">
+            <data key="label">Willibald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="klara">
+            <data key="label">Klara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gotthard">
+            <data key="label">Gotthard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wolfgang">
+            <data key="label">Wolfgang</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einer_aus_ihnen_1-12">
+            <data key="label">Einer aus ihnen (I/12)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="viele_1-12">
+            <data key="label">Viele (I/12)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="bruno">
+            <data key="label">Bruno von Hildersweil</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="robert">
+            <data key="label">Robert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_bewaffneten_2-8">
+            <data key="label">Die Bewaffneten (II/8)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_reisiger_4-3">
+            <data key="label">Ein Reisiger (IV/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einer_der_reisigen_4-4">
+            <data key="label">Einer der Reisigen (IV/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="reisige_4-4">
+            <data key="label">Reisige (IV/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_uebrigen_reisigen_4-7">
+            <data key="label">Die übrigen Reisigen (IV/7)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="bruno" target="heinrich">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="2" directed="false" source="ullo" target="adelungen">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="robert" target="heinrich">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="gotthard" target="heinrich">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="willibald" target="otto">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="marie" target="klara">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

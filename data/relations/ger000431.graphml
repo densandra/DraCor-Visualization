@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="till">
+            <data key="label">Till</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="baron">
+            <data key="label">Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schoenburg">
+            <data key="label">Schönburg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="horst">
+            <data key="label">Horst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bedienter_schoenburg">
+            <data key="label">Bedienter des Herrn von Schönburg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="baronin">
+            <data key="label">Baronin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bedienter_baronin">
+            <data key="label">Bedienter der Baronin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="feldkirch">
+            <data key="label">Feldkirch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="witte">
+            <data key="label">Witte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ritter">
+            <data key="label">Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="loewenklau">
+            <data key="label">Löwenklau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="polizeidiener">
+            <data key="label">Polizeidiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="luchs">
+            <data key="label">Luchs</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="horst" target="baron">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="schoenburg" target="baronin">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="3" directed="false" source="sophie" target="baronin">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="bedienter_baronin" target="baronin">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="bedienter_schoenburg" target="schoenburg">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

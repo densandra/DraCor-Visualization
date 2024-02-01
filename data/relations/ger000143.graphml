@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="publicum">
+            <data key="label">Das Publicum (als Reisender)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor der Haidschnucken</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="nimmermann">
+            <data key="label">Nimmermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chorfuehrer">
+            <data key="label">Chorführer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jokaste">
+            <data key="label">Jokaste</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erste_hebamme">
+            <data key="label">Erste Hebamme</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweite_hebamme">
+            <data key="label">Zweite Hebamme</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diagoras">
+            <data key="label">Diagoras</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zelinde">
+            <data key="label">Zelinde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lajus">
+            <data key="label">Lajus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tiresias">
+            <data key="label">Tiresias</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="melchior">
+            <data key="label">Melchior</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="polybus">
+            <data key="label">Polybus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="oedipus">
+            <data key="label">Oedipus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_pythia">
+            <data key="label">Die Pythia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kindeskind">
+            <data key="label">Kindeskind</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kind">
+            <data key="label">Kind</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_sphinx">
+            <data key="label">Die Sphinx</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="distichon">
+            <data key="label">Distichon</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="balthasar">
+            <data key="label">Balthasar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="geist_des_lajus">
+            <data key="label">Geist des Lajus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="verstand">
+            <data key="label">Verstand</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="jokaste" target="lajus">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="zelinde" target="polybus">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="lajus" target="oedipus">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="jokaste" target="oedipus">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="diagoras" target="zelinde">
+            <data key="relation">lover_of</data>
+        </edge>
+        <edge id="6" directed="false" source="kind" target="jokaste">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="kindeskind" target="jokaste">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="melchior" target="lajus">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="balthasar" target="polybus">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

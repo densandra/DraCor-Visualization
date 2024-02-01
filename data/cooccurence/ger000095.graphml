@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="jaquino">
+            <data key="label">Jaquino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">448</data>
+        </node>
+        <node id="marzelline">
+            <data key="label">Marzelline</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">813</data>
+        </node>
+        <node id="rocco">
+            <data key="label">Rocco</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2024</data>
+        </node>
+        <node id="leonore">
+            <data key="label">Leonore</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1300</data>
+        </node>
+        <node id="pizarro">
+            <data key="label">Pizarro</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">762</data>
+        </node>
+        <node id="chor_der_wache">
+            <data key="label">Chor der Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">32</data>
+        </node>
+        <node id="chor_der_gefangenen">
+            <data key="label">Chor der Gefangenen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">95</data>
+        </node>
+        <node id="erster_gefangener">
+            <data key="label">Erster Gefangener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="zweiter_gefangener">
+            <data key="label">Zweiter Gefangener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="florestan">
+            <data key="label">Florestan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">501</data>
+        </node>
+        <node id="chor_der_gefangenen_und_des_volkes">
+            <data key="label">Chor der Gefangenen und des Volkes</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">104</data>
+        </node>
+        <node id="fernando">
+            <data key="label">Fernando</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">141</data>
+        </node>
+        <edge id="jaquino|marzelline" source="jaquino" target="marzelline">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="jaquino|rocco" source="jaquino" target="rocco">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="jaquino|leonore" source="jaquino" target="leonore">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jaquino|pizarro" source="jaquino" target="pizarro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jaquino|chor_der_gefangenen" source="jaquino" target="chor_der_gefangenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jaquino|florestan" source="jaquino" target="florestan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marzelline|rocco" source="marzelline" target="rocco">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="marzelline|leonore" source="marzelline" target="leonore">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="marzelline|pizarro" source="marzelline" target="pizarro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marzelline|chor_der_gefangenen" source="marzelline" target="chor_der_gefangenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marzelline|fernando" source="marzelline" target="fernando">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marzelline|chor_der_gefangenen_und_des_volkes" source="marzelline" target="chor_der_gefangenen_und_des_volkes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marzelline|florestan" source="marzelline" target="florestan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rocco|leonore" source="rocco" target="leonore">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="rocco|pizarro" source="rocco" target="pizarro">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="rocco|chor_der_wache" source="rocco" target="chor_der_wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rocco|chor_der_gefangenen" source="rocco" target="chor_der_gefangenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rocco|florestan" source="rocco" target="florestan">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="rocco|fernando" source="rocco" target="fernando">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rocco|chor_der_gefangenen_und_des_volkes" source="rocco" target="chor_der_gefangenen_und_des_volkes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonore|pizarro" source="leonore" target="pizarro">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leonore|chor_der_gefangenen" source="leonore" target="chor_der_gefangenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonore|florestan" source="leonore" target="florestan">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="leonore|fernando" source="leonore" target="fernando">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonore|chor_der_gefangenen_und_des_volkes" source="leonore" target="chor_der_gefangenen_und_des_volkes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pizarro|chor_der_wache" source="pizarro" target="chor_der_wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pizarro|chor_der_gefangenen" source="pizarro" target="chor_der_gefangenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pizarro|florestan" source="pizarro" target="florestan">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pizarro|fernando" source="pizarro" target="fernando">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pizarro|chor_der_gefangenen_und_des_volkes" source="pizarro" target="chor_der_gefangenen_und_des_volkes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_gefangenen|erster_gefangener" source="chor_der_gefangenen" target="erster_gefangener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_gefangenen|zweiter_gefangener" source="chor_der_gefangenen" target="zweiter_gefangener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gefangener|zweiter_gefangener" source="erster_gefangener" target="zweiter_gefangener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="florestan|fernando" source="florestan" target="fernando">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="florestan|chor_der_gefangenen_und_des_volkes" source="florestan" target="chor_der_gefangenen_und_des_volkes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_gefangenen_und_des_volkes|fernando" source="chor_der_gefangenen_und_des_volkes" target="fernando">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

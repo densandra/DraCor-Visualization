@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">923</data>
+        </node>
+        <node id="lucinde">
+            <data key="label">Lucinde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1395</data>
+        </node>
+        <node id="valer">
+            <data key="label">Valer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1342</data>
+        </node>
+        <node id="geront">
+            <data key="label">Geront</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">816</data>
+        </node>
+        <node id="lakey">
+            <data key="label">Lakey</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="orgon">
+            <data key="label">Orgon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">498</data>
+        </node>
+        <node id="leander">
+            <data key="label">Leander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1119</data>
+        </node>
+        <edge id="lisette|lucinde" source="lisette" target="lucinde">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lisette|valer" source="lisette" target="valer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|lakey" source="lisette" target="lakey">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|orgon" source="lisette" target="orgon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|leander" source="lisette" target="leander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucinde|valer" source="lucinde" target="valer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lucinde|lakey" source="lucinde" target="lakey">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucinde|leander" source="lucinde" target="leander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lucinde|geront" source="lucinde" target="geront">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucinde|orgon" source="lucinde" target="orgon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valer|geront" source="valer" target="geront">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="valer|lakey" source="valer" target="lakey">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valer|orgon" source="valer" target="orgon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valer|leander" source="valer" target="leander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geront|orgon" source="geront" target="orgon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="geront|leander" source="geront" target="leander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="orgon|leander" source="orgon" target="leander">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

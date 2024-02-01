@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="christian">
+            <data key="label">Christian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5201</data>
+        </node>
+        <node id="sybil">
+            <data key="label">Sybil</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">658</data>
+        </node>
+        <node id="theobald">
+            <data key="label">Theobald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2281</data>
+        </node>
+        <node id="luise">
+            <data key="label">Luise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">136</data>
+        </node>
+        <node id="graf">
+            <data key="label">Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1366</data>
+        </node>
+        <node id="marianne">
+            <data key="label">Marianne</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">819</data>
+        </node>
+        <node id="der_diener">
+            <data key="label">Der Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="jungfer">
+            <data key="label">Eine Jungfer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">80</data>
+        </node>
+        <edge id="christian|sybil" source="christian" target="sybil">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="christian|theobald" source="christian" target="theobald">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="christian|luise" source="christian" target="luise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christian|graf" source="christian" target="graf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="christian|marianne" source="christian" target="marianne">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="christian|der_diener" source="christian" target="der_diener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christian|jungfer" source="christian" target="jungfer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="theobald|luise" source="theobald" target="luise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theobald|der_diener" source="theobald" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theobald|graf" source="theobald" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|marianne" source="graf" target="marianne">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf|der_diener" source="graf" target="der_diener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marianne|jungfer" source="marianne" target="jungfer">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

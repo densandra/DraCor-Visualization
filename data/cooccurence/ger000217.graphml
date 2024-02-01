@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="domingo">
+            <data key="label">Domingo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1995</data>
+        </node>
+        <node id="carlos">
+            <data key="label">Don Carlos</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9308</data>
+        </node>
+        <node id="marquis">
+            <data key="label">Marquis von Posa</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7320</data>
+        </node>
+        <node id="koenigin">
+            <data key="label">Königin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3590</data>
+        </node>
+        <node id="prinzessin_von_eboli">
+            <data key="label">Prinzessin von Eboli</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3263</data>
+        </node>
+        <node id="mondekar">
+            <data key="label">Marquisin von Mondekar</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">66</data>
+        </node>
+        <node id="olivarez">
+            <data key="label">Herzogin von Olivarez</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">198</data>
+        </node>
+        <node id="koenig_philipp">
+            <data key="label">König Philipp</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5258</data>
+        </node>
+        <node id="alba">
+            <data key="label">Herzog von Alba</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2339</data>
+        </node>
+        <node id="lerma">
+            <data key="label">Graf von Lerma</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">945</data>
+        </node>
+        <node id="page">
+            <data key="label">Page</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">335</data>
+        </node>
+        <node id="prior">
+            <data key="label">Prior</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">146</data>
+        </node>
+        <node id="medina_sidonia">
+            <data key="label">Herzog von Medina Sidonia</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">111</data>
+        </node>
+        <node id="parma">
+            <data key="label">Prinz von Parma</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">57</data>
+        </node>
+        <node id="feria">
+            <data key="label">Herzog von Feria</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">209</data>
+        </node>
+        <node id="erster_grande">
+            <data key="label">Einer von den Granden</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="ein_zweiter">
+            <data key="label">Ein zweiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="ein_dritter">
+            <data key="label">Ein dritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="fuentes">
+            <data key="label">Gräfin Fuentes</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="infantin">
+            <data key="label">Infantin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="taxis">
+            <data key="label">Don Raimond von Taxis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">91</data>
+        </node>
+        <node id="die_granden">
+            <data key="label">Die übrigen/anwesenden/Alle Granden</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="offizier_5-5">
+            <data key="label">Offizier (V/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">44</data>
+        </node>
+        <node id="merkado">
+            <data key="label">Don Ludwig Merkado</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">209</data>
+        </node>
+        <node id="offizier_5-9">
+            <data key="label">Offizier (V/9)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="grossinquisitor">
+            <data key="label">Großinquisitor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">633</data>
+        </node>
+        <edge id="domingo|carlos" source="domingo" target="carlos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="domingo|alba" source="domingo" target="alba">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="domingo|prinzessin_von_eboli" source="domingo" target="prinzessin_von_eboli">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="domingo|koenig_philipp" source="domingo" target="koenig_philipp">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="domingo|marquis" source="domingo" target="marquis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="domingo|koenigin" source="domingo" target="koenigin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="domingo|lerma" source="domingo" target="lerma">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="domingo|taxis" source="domingo" target="taxis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="domingo|parma" source="domingo" target="parma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="domingo|feria" source="domingo" target="feria">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="domingo|medina_sidonia" source="domingo" target="medina_sidonia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="domingo|die_granden" source="domingo" target="die_granden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="domingo|offizier_5-9" source="domingo" target="offizier_5-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="domingo|page" source="domingo" target="page">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carlos|marquis" source="carlos" target="marquis">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="carlos|koenigin" source="carlos" target="koenigin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="carlos|lerma" source="carlos" target="lerma">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="carlos|koenig_philipp" source="carlos" target="koenig_philipp">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="carlos|page" source="carlos" target="page">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carlos|alba" source="carlos" target="alba">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="carlos|prinzessin_von_eboli" source="carlos" target="prinzessin_von_eboli">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carlos|prior" source="carlos" target="prior">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carlos|medina_sidonia" source="carlos" target="medina_sidonia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carlos|die_granden" source="carlos" target="die_granden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carlos|merkado" source="carlos" target="merkado">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|koenigin" source="marquis" target="koenigin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="marquis|prinzessin_von_eboli" source="marquis" target="prinzessin_von_eboli">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marquis|mondekar" source="marquis" target="mondekar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|lerma" source="marquis" target="lerma">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marquis|alba" source="marquis" target="alba">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marquis|koenig_philipp" source="marquis" target="koenig_philipp">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenigin|prinzessin_von_eboli" source="koenigin" target="prinzessin_von_eboli">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="koenigin|mondekar" source="koenigin" target="mondekar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenigin|olivarez" source="koenigin" target="olivarez">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenigin|koenig_philipp" source="koenigin" target="koenig_philipp">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenigin|alba" source="koenigin" target="alba">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenigin|lerma" source="koenigin" target="lerma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|fuentes" source="koenigin" target="fuentes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|infantin" source="koenigin" target="infantin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin_von_eboli|mondekar" source="prinzessin_von_eboli" target="mondekar">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinzessin_von_eboli|olivarez" source="prinzessin_von_eboli" target="olivarez">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="prinzessin_von_eboli|page" source="prinzessin_von_eboli" target="page">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin_von_eboli|alba" source="prinzessin_von_eboli" target="alba">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinzessin_von_eboli|fuentes" source="prinzessin_von_eboli" target="fuentes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin_von_eboli|feria" source="prinzessin_von_eboli" target="feria">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mondekar|olivarez" source="mondekar" target="olivarez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mondekar|koenig_philipp" source="mondekar" target="koenig_philipp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mondekar|alba" source="mondekar" target="alba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mondekar|lerma" source="mondekar" target="lerma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olivarez|fuentes" source="olivarez" target="fuentes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_philipp|alba" source="koenig_philipp" target="alba">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="koenig_philipp|lerma" source="koenig_philipp" target="lerma">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="koenig_philipp|parma" source="koenig_philipp" target="parma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_philipp|feria" source="koenig_philipp" target="feria">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenig_philipp|medina_sidonia" source="koenig_philipp" target="medina_sidonia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_philipp|erster_grande" source="koenig_philipp" target="erster_grande">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_philipp|ein_zweiter" source="koenig_philipp" target="ein_zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_philipp|ein_dritter" source="koenig_philipp" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_philipp|infantin" source="koenig_philipp" target="infantin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_philipp|die_granden" source="koenig_philipp" target="die_granden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig_philipp|offizier_5-5" source="koenig_philipp" target="offizier_5-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_philipp|taxis" source="koenig_philipp" target="taxis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_philipp|offizier_5-9" source="koenig_philipp" target="offizier_5-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_philipp|page" source="koenig_philipp" target="page">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_philipp|grossinquisitor" source="koenig_philipp" target="grossinquisitor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alba|lerma" source="alba" target="lerma">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="alba|medina_sidonia" source="alba" target="medina_sidonia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="alba|parma" source="alba" target="parma">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alba|feria" source="alba" target="feria">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="alba|erster_grande" source="alba" target="erster_grande">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alba|ein_zweiter" source="alba" target="ein_zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alba|ein_dritter" source="alba" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alba|taxis" source="alba" target="taxis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alba|die_granden" source="alba" target="die_granden">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="alba|offizier_5-5" source="alba" target="offizier_5-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alba|offizier_5-9" source="alba" target="offizier_5-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alba|page" source="alba" target="page">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lerma|parma" source="lerma" target="parma">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lerma|feria" source="lerma" target="feria">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lerma|medina_sidonia" source="lerma" target="medina_sidonia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lerma|erster_grande" source="lerma" target="erster_grande">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lerma|ein_zweiter" source="lerma" target="ein_zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lerma|ein_dritter" source="lerma" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lerma|taxis" source="lerma" target="taxis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lerma|die_granden" source="lerma" target="die_granden">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lerma|offizier_5-5" source="lerma" target="offizier_5-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="page|feria" source="page" target="feria">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="page|taxis" source="page" target="taxis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="page|offizier_5-9" source="page" target="offizier_5-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medina_sidonia|parma" source="medina_sidonia" target="parma">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="medina_sidonia|feria" source="medina_sidonia" target="feria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="medina_sidonia|erster_grande" source="medina_sidonia" target="erster_grande">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medina_sidonia|ein_zweiter" source="medina_sidonia" target="ein_zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medina_sidonia|ein_dritter" source="medina_sidonia" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medina_sidonia|die_granden" source="medina_sidonia" target="die_granden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="parma|feria" source="parma" target="feria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="parma|erster_grande" source="parma" target="erster_grande">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="parma|ein_zweiter" source="parma" target="ein_zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="parma|ein_dritter" source="parma" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="parma|die_granden" source="parma" target="die_granden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="feria|erster_grande" source="feria" target="erster_grande">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="feria|ein_zweiter" source="feria" target="ein_zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="feria|ein_dritter" source="feria" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="feria|die_granden" source="feria" target="die_granden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="feria|offizier_5-5" source="feria" target="offizier_5-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="feria|taxis" source="feria" target="taxis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="feria|offizier_5-9" source="feria" target="offizier_5-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_grande|ein_zweiter" source="erster_grande" target="ein_zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_grande|ein_dritter" source="erster_grande" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_zweiter|ein_dritter" source="ein_zweiter" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="taxis|offizier_5-9" source="taxis" target="offizier_5-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_granden|offizier_5-5" source="die_granden" target="offizier_5-5">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

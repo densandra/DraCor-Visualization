@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="leon">
+            <data key="label">Leon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hausverwalter">
+            <data key="label">Hausverwalter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gregor">
+            <data key="label">Gregor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pilger">
+            <data key="label">Pilger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kattwald">
+            <data key="label">Kattwald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="edrita">
+            <data key="label">Edrita</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="galomir">
+            <data key="label">Galomir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schaffer">
+            <data key="label">Schaffer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="atalus">
+            <data key="label">Atalus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="faehrmann">
+            <data key="label">Fährmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="knecht_des_faehrmanns">
+            <data key="label">Knecht (des Fährmanns)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_krieger">
+            <data key="label">Ein Krieger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_krieger">
+            <data key="label">Zweiter Krieger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_knecht">
+            <data key="label">Erster Knecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_knecht">
+            <data key="label">Zweiter Knecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="anfuehrer">
+            <data key="label">Anführer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="edrita" target="galomir">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="atalus" target="gregor">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="3" directed="false" source="kattwald" target="edrita">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="hausverwalter" target="gregor">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="schaffer" target="kattwald">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="knecht_des_faehrmanns" target="faehrmann">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

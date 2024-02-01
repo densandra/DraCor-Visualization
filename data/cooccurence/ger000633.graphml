@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="adele">
+            <data key="label">Adele Baumann</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">696</data>
+        </node>
+        <node id="margarethe">
+            <data key="label">Margarethe von Gerditz</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1543</data>
+        </node>
+        <node id="hans">
+            <data key="label">Hans von Gerditz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1607</data>
+        </node>
+        <node id="roediger">
+            <data key="label">Rödiger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">576</data>
+        </node>
+        <edge id="adele|margarethe" source="adele" target="margarethe">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="adele|roediger" source="adele" target="roediger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adele|hans" source="adele" target="hans">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="margarethe|hans" source="margarethe" target="hans">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="margarethe|roediger" source="margarethe" target="roediger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hans|roediger" source="hans" target="roediger">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="herrmann">
+            <data key="label">Herrmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_der_schmiede">
+            <data key="label">Chor der Schmiede</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="suse">
+            <data key="label">Suse</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_gesellen">
+            <data key="label">Die Gesellen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="hanns">
+            <data key="label">Hanns</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="altgesell">
+            <data key="label">Altgesell</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gertrud">
+            <data key="label">Gertrud</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="else">
+            <data key="label">Else</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_hinter_der_scene">
+            <data key="label">Chor hinter der Scene</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_alte">
+            <data key="label">Die Alte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="friedel">
+            <data key="label">Friedel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="martin">
+            <data key="label">Martin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="christel">
+            <data key="label">Christel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="daemon">
+            <data key="label">Dämon</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mehrere_bauersleute">
+            <data key="label">Mehrere Bauersleute</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="erstes_weib">
+            <data key="label">Erstes Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweites_weib">
+            <data key="label">Zweites Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_bauer">
+            <data key="label">Erster Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ohles">
+            <data key="label">Ohles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="steffens">
+            <data key="label">Steffens</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="graf">
+            <data key="label">Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herzog">
+            <data key="label">Herzog</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herzogin">
+            <data key="label">Herzogin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_3-6">
+            <data key="label">Alle (III/6)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="gertrud-else">
+            <data key="label">Gertrud-Else</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rudolph">
+            <data key="label">Rudolph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="else" target="rudolph">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="herzogin" target="herzog">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="rudolph" target="friedel">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="else" target="friedel">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="suse" target="else">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="6" directed="false" source="christel" target="rudolph">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="hanns" target="rudolph">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="altgesell" target="rudolph">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="die_gesellen" target="rudolph">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

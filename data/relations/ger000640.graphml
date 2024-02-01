@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="der_aeltere_delmas">
+            <data key="label">Der ältere Delmas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_hofmeisterin">
+            <data key="label">Die Hofmeisterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_juengere_delmas">
+            <data key="label">Der jüngere Delmas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_delmas">
+            <data key="label">Herr Delmas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="der_aeltere_delmas" target="der_juengere_delmas">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="herr_delmas" target="der_aeltere_delmas">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="herr_delmas" target="der_juengere_delmas">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

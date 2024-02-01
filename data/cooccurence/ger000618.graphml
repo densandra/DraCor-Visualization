@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="glimour">
+            <data key="label">Glimour</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1935</data>
+        </node>
+        <node id="stephan">
+            <data key="label">Stephan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">436</data>
+        </node>
+        <node id="rose">
+            <data key="label">Rose</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">248</data>
+        </node>
+        <node id="kranberg">
+            <data key="label">Baron Kranberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">580</data>
+        </node>
+        <node id="ebrecht">
+            <data key="label">Ebrecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1868</data>
+        </node>
+        <node id="graefinn">
+            <data key="label">Gräfinn Herrbach</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">848</data>
+        </node>
+        <edge id="glimour|stephan" source="glimour" target="stephan">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="glimour|rose" source="glimour" target="rose">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="glimour|kranberg" source="glimour" target="kranberg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="glimour|ebrecht" source="glimour" target="ebrecht">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="glimour|graefinn" source="glimour" target="graefinn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stephan|rose" source="stephan" target="rose">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stephan|ebrecht" source="stephan" target="ebrecht">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rose|kranberg" source="rose" target="kranberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rose|ebrecht" source="rose" target="ebrecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kranberg|ebrecht" source="kranberg" target="ebrecht">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kranberg|graefinn" source="kranberg" target="graefinn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ebrecht|graefinn" source="ebrecht" target="graefinn">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

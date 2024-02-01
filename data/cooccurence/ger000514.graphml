@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="absyrtus">
+            <data key="label">Absyrtus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">947</data>
+        </node>
+        <node id="aietes">
+            <data key="label">Aietes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1624</data>
+        </node>
+        <node id="medea">
+            <data key="label">Medea</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3086</data>
+        </node>
+        <node id="jason">
+            <data key="label">Jason</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4428</data>
+        </node>
+        <node id="milo">
+            <data key="label">Milo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1000</data>
+        </node>
+        <node id="eine_jungfrau_1">
+            <data key="label">Eine Jungfrau (Erster Aufzug)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="gora">
+            <data key="label">Gora</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">454</data>
+        </node>
+        <node id="peritta">
+            <data key="label">Peritta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">109</data>
+        </node>
+        <node id="jungfrau_2">
+            <data key="label">Jungfrau (Zweiter Aufzug)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">82</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="erster_argonaut">
+            <data key="label">Erster Argonaut</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">72</data>
+        </node>
+        <node id="zweiter_argonaut">
+            <data key="label">Zweiter Argonaut</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="dritter_argonaut">
+            <data key="label">Dritter Argonaut</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">535</data>
+        </node>
+        <node id="mehrere_alle_vermischte_stimmen">
+            <data key="label">Mehrere/Alle/Vermischte Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="kolcher">
+            <data key="label">Kolcher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="argonaut">
+            <data key="label">Argonaut</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="soldat">
+            <data key="label">Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">56</data>
+        </node>
+        <edge id="absyrtus|aietes" source="absyrtus" target="aietes">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="absyrtus|medea" source="absyrtus" target="medea">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="absyrtus|eine_jungfrau_1" source="absyrtus" target="eine_jungfrau_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="absyrtus|jason" source="absyrtus" target="jason">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="absyrtus|gora" source="absyrtus" target="gora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="absyrtus|peritta" source="absyrtus" target="peritta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="absyrtus|jungfrau_2" source="absyrtus" target="jungfrau_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="absyrtus|milo" source="absyrtus" target="milo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="absyrtus|argonaut" source="absyrtus" target="argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="absyrtus|soldat" source="absyrtus" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|medea" source="aietes" target="medea">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="aietes|gora" source="aietes" target="gora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="aietes|peritta" source="aietes" target="peritta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|jungfrau_2" source="aietes" target="jungfrau_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|hauptmann" source="aietes" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|erster_argonaut" source="aietes" target="erster_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|zweiter_argonaut" source="aietes" target="zweiter_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|dritter_argonaut" source="aietes" target="dritter_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|mehrere_alle_vermischte_stimmen" source="aietes" target="mehrere_alle_vermischte_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|milo" source="aietes" target="milo">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="aietes|jason" source="aietes" target="jason">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="aietes|kolcher" source="aietes" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|argonaut" source="aietes" target="argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|soldat" source="aietes" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|eine_jungfrau_1" source="medea" target="eine_jungfrau_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|jason" source="medea" target="jason">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="medea|gora" source="medea" target="gora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="medea|peritta" source="medea" target="peritta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|jungfrau_2" source="medea" target="jungfrau_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|hauptmann" source="medea" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|erster_argonaut" source="medea" target="erster_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|zweiter_argonaut" source="medea" target="zweiter_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|dritter_argonaut" source="medea" target="dritter_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|mehrere_alle_vermischte_stimmen" source="medea" target="mehrere_alle_vermischte_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|milo" source="medea" target="milo">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="medea|kolcher" source="medea" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|argonaut" source="medea" target="argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|soldat" source="medea" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jason|milo" source="jason" target="milo">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jason|eine_jungfrau_1" source="jason" target="eine_jungfrau_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jason|hauptmann" source="jason" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jason|erster_argonaut" source="jason" target="erster_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jason|zweiter_argonaut" source="jason" target="zweiter_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jason|dritter_argonaut" source="jason" target="dritter_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jason|mehrere_alle_vermischte_stimmen" source="jason" target="mehrere_alle_vermischte_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jason|kolcher" source="jason" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jason|gora" source="jason" target="gora">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jason|argonaut" source="jason" target="argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jason|soldat" source="jason" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="milo|hauptmann" source="milo" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="milo|erster_argonaut" source="milo" target="erster_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="milo|zweiter_argonaut" source="milo" target="zweiter_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="milo|dritter_argonaut" source="milo" target="dritter_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="milo|mehrere_alle_vermischte_stimmen" source="milo" target="mehrere_alle_vermischte_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="milo|kolcher" source="milo" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="milo|gora" source="milo" target="gora">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="milo|argonaut" source="milo" target="argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="milo|soldat" source="milo" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|peritta" source="gora" target="peritta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|jungfrau_2" source="gora" target="jungfrau_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|soldat" source="gora" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peritta|jungfrau_2" source="peritta" target="jungfrau_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|erster_argonaut" source="hauptmann" target="erster_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|zweiter_argonaut" source="hauptmann" target="zweiter_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|dritter_argonaut" source="hauptmann" target="dritter_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|mehrere_alle_vermischte_stimmen" source="hauptmann" target="mehrere_alle_vermischte_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|kolcher" source="hauptmann" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_argonaut|zweiter_argonaut" source="erster_argonaut" target="zweiter_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_argonaut|dritter_argonaut" source="erster_argonaut" target="dritter_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_argonaut|mehrere_alle_vermischte_stimmen" source="erster_argonaut" target="mehrere_alle_vermischte_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_argonaut|kolcher" source="erster_argonaut" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_argonaut|dritter_argonaut" source="zweiter_argonaut" target="dritter_argonaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_argonaut|mehrere_alle_vermischte_stimmen" source="zweiter_argonaut" target="mehrere_alle_vermischte_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_argonaut|kolcher" source="zweiter_argonaut" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_argonaut|mehrere_alle_vermischte_stimmen" source="dritter_argonaut" target="mehrere_alle_vermischte_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_argonaut|kolcher" source="dritter_argonaut" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehrere_alle_vermischte_stimmen|kolcher" source="mehrere_alle_vermischte_stimmen" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

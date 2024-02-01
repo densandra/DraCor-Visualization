@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="fleder">
+            <data key="label">Hofrat Fleder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1274</data>
+        </node>
+        <node id="bote">
+            <data key="label">Bote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">107</data>
+        </node>
+        <node id="flitt">
+            <data key="label">Flitt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3601</data>
+        </node>
+        <node id="schlender">
+            <data key="label">Schlender</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1607</data>
+        </node>
+        <node id="knoll">
+            <data key="label">Knoll</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">643</data>
+        </node>
+        <node id="leonard">
+            <data key="label">Graf Leonard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1402</data>
+        </node>
+        <node id="flora">
+            <data key="label">Flora</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1514</data>
+        </node>
+        <node id="victor">
+            <data key="label">Victor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1254</data>
+        </node>
+        <node id="friedmann">
+            <data key="label">Friedmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">472</data>
+        </node>
+        <node id="adele">
+            <data key="label">Gräfin Adele</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1230</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">450</data>
+        </node>
+        <edge id="fleder|bote" source="fleder" target="bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fleder|flora" source="fleder" target="flora">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fleder|victor" source="fleder" target="victor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fleder|friedmann" source="fleder" target="friedmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fleder|adele" source="fleder" target="adele">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fleder|flitt" source="fleder" target="flitt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fleder|marie" source="fleder" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fleder|leonard" source="fleder" target="leonard">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fleder|schlender" source="fleder" target="schlender">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="flitt|schlender" source="flitt" target="schlender">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="flitt|knoll" source="flitt" target="knoll">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="flitt|flora" source="flitt" target="flora">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flitt|victor" source="flitt" target="victor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="flitt|friedmann" source="flitt" target="friedmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flitt|adele" source="flitt" target="adele">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="flitt|marie" source="flitt" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flitt|leonard" source="flitt" target="leonard">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schlender|knoll" source="schlender" target="knoll">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schlender|leonard" source="schlender" target="leonard">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schlender|flora" source="schlender" target="flora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schlender|victor" source="schlender" target="victor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schlender|friedmann" source="schlender" target="friedmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schlender|adele" source="schlender" target="adele">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schlender|marie" source="schlender" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knoll|adele" source="knoll" target="adele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knoll|leonard" source="knoll" target="leonard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knoll|victor" source="knoll" target="victor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonard|flora" source="leonard" target="flora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leonard|victor" source="leonard" target="victor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leonard|friedmann" source="leonard" target="friedmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leonard|adele" source="leonard" target="adele">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leonard|marie" source="leonard" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|victor" source="flora" target="victor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="flora|friedmann" source="flora" target="friedmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="flora|adele" source="flora" target="adele">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="flora|marie" source="flora" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="victor|friedmann" source="victor" target="friedmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="victor|adele" source="victor" target="adele">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="victor|marie" source="victor" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedmann|adele" source="friedmann" target="adele">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="friedmann|marie" source="friedmann" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adele|marie" source="adele" target="marie">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="mollwein">
+            <data key="label">Mollwein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">531</data>
+        </node>
+        <node id="sanitaetsrat">
+            <data key="label">Sanitätsrat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">546</data>
+        </node>
+        <node id="major">
+            <data key="label">Major</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">89</data>
+        </node>
+        <node id="goldbaum">
+            <data key="label">Goldbaum</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">185</data>
+        </node>
+        <node id="landrat">
+            <data key="label">Landrat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2495</data>
+        </node>
+        <node id="falk">
+            <data key="label">Falk</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">693</data>
+        </node>
+        <node id="niemeyer">
+            <data key="label">Niemeyer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4914</data>
+        </node>
+        <node id="piccolo">
+            <data key="label">Piccolo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="olga">
+            <data key="label">Olga</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">149</data>
+        </node>
+        <node id="poehlmann-catilina">
+            <data key="label">Pöhlmann (Catilina)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">292</data>
+        </node>
+        <node id="klausing-spartacus">
+            <data key="label">Klausing (Spartacus)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">745</data>
+        </node>
+        <node id="jadwiga">
+            <data key="label">Jadwiga</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">944</data>
+        </node>
+        <node id="fritz">
+            <data key="label">Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">741</data>
+        </node>
+        <node id="zedlitz">
+            <data key="label">Zedlitz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">963</data>
+        </node>
+        <node id="schimke">
+            <data key="label">Schimke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">108</data>
+        </node>
+        <node id="lydia">
+            <data key="label">Lydia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1136</data>
+        </node>
+        <node id="frommelt-moeros">
+            <data key="label">Frommelt (Möros)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="wache">
+            <data key="label">Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">30</data>
+        </node>
+        <node id="cassius">
+            <data key="label">Cassius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">207</data>
+        </node>
+        <node id="schladebach">
+            <data key="label">Schladebach</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">373</data>
+        </node>
+        <node id="baeckergeselle">
+            <data key="label">Bäckergeselle</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="die_beiden_wachen">
+            <data key="label">Die beiden Wachen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="polizei">
+            <data key="label">Polizei</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="patzkowski">
+            <data key="label">Patzkowski</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">154</data>
+        </node>
+        <node id="hoppe">
+            <data key="label">Hoppe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">683</data>
+        </node>
+        <node id="tamaschke">
+            <data key="label">Tamaschke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="schutzmann">
+            <data key="label">Schutzmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <edge id="mollwein|sanitaetsrat" source="mollwein" target="sanitaetsrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollwein|major" source="mollwein" target="major">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollwein|goldbaum" source="mollwein" target="goldbaum">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollwein|landrat" source="mollwein" target="landrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollwein|falk" source="mollwein" target="falk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollwein|niemeyer" source="mollwein" target="niemeyer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollwein|piccolo" source="mollwein" target="piccolo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sanitaetsrat|major" source="sanitaetsrat" target="major">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sanitaetsrat|goldbaum" source="sanitaetsrat" target="goldbaum">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sanitaetsrat|landrat" source="sanitaetsrat" target="landrat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sanitaetsrat|falk" source="sanitaetsrat" target="falk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sanitaetsrat|niemeyer" source="sanitaetsrat" target="niemeyer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sanitaetsrat|piccolo" source="sanitaetsrat" target="piccolo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sanitaetsrat|olga" source="sanitaetsrat" target="olga">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sanitaetsrat|jadwiga" source="sanitaetsrat" target="jadwiga">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sanitaetsrat|schimke" source="sanitaetsrat" target="schimke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sanitaetsrat|fritz" source="sanitaetsrat" target="fritz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="major|goldbaum" source="major" target="goldbaum">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="major|landrat" source="major" target="landrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="major|falk" source="major" target="falk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="major|niemeyer" source="major" target="niemeyer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="major|piccolo" source="major" target="piccolo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="goldbaum|landrat" source="goldbaum" target="landrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="goldbaum|falk" source="goldbaum" target="falk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="goldbaum|niemeyer" source="goldbaum" target="niemeyer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="goldbaum|piccolo" source="goldbaum" target="piccolo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat|falk" source="landrat" target="falk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="landrat|niemeyer" source="landrat" target="niemeyer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="landrat|piccolo" source="landrat" target="piccolo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat|hoppe" source="landrat" target="hoppe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat|lydia" source="landrat" target="lydia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat|tamaschke" source="landrat" target="tamaschke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat|schutzmann" source="landrat" target="schutzmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat|zedlitz" source="landrat" target="zedlitz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat|patzkowski" source="landrat" target="patzkowski">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat|olga" source="landrat" target="olga">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat|jadwiga" source="landrat" target="jadwiga">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat|schimke" source="landrat" target="schimke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat|fritz" source="landrat" target="fritz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="falk|niemeyer" source="falk" target="niemeyer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="falk|piccolo" source="falk" target="piccolo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="falk|olga" source="falk" target="olga">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="falk|jadwiga" source="falk" target="jadwiga">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="falk|schimke" source="falk" target="schimke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="falk|fritz" source="falk" target="fritz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="niemeyer|piccolo" source="niemeyer" target="piccolo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="niemeyer|olga" source="niemeyer" target="olga">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="niemeyer|poehlmann-catilina" source="niemeyer" target="poehlmann-catilina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="niemeyer|klausing-spartacus" source="niemeyer" target="klausing-spartacus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="niemeyer|jadwiga" source="niemeyer" target="jadwiga">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="niemeyer|fritz" source="niemeyer" target="fritz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="niemeyer|zedlitz" source="niemeyer" target="zedlitz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="niemeyer|schimke" source="niemeyer" target="schimke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="niemeyer|lydia" source="niemeyer" target="lydia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="niemeyer|hoppe" source="niemeyer" target="hoppe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="niemeyer|tamaschke" source="niemeyer" target="tamaschke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="niemeyer|schutzmann" source="niemeyer" target="schutzmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="niemeyer|patzkowski" source="niemeyer" target="patzkowski">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olga|poehlmann-catilina" source="olga" target="poehlmann-catilina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olga|klausing-spartacus" source="olga" target="klausing-spartacus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olga|jadwiga" source="olga" target="jadwiga">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="olga|fritz" source="olga" target="fritz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="olga|zedlitz" source="olga" target="zedlitz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olga|schimke" source="olga" target="schimke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="olga|lydia" source="olga" target="lydia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poehlmann-catilina|klausing-spartacus" source="poehlmann-catilina" target="klausing-spartacus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="poehlmann-catilina|jadwiga" source="poehlmann-catilina" target="jadwiga">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poehlmann-catilina|fritz" source="poehlmann-catilina" target="fritz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poehlmann-catilina|zedlitz" source="poehlmann-catilina" target="zedlitz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="poehlmann-catilina|schimke" source="poehlmann-catilina" target="schimke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poehlmann-catilina|lydia" source="poehlmann-catilina" target="lydia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poehlmann-catilina|frommelt-moeros" source="poehlmann-catilina" target="frommelt-moeros">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poehlmann-catilina|wache" source="poehlmann-catilina" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poehlmann-catilina|cassius" source="poehlmann-catilina" target="cassius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poehlmann-catilina|schladebach" source="poehlmann-catilina" target="schladebach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poehlmann-catilina|baeckergeselle" source="poehlmann-catilina" target="baeckergeselle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poehlmann-catilina|die_beiden_wachen" source="poehlmann-catilina" target="die_beiden_wachen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poehlmann-catilina|polizei" source="poehlmann-catilina" target="polizei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poehlmann-catilina|patzkowski" source="poehlmann-catilina" target="patzkowski">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klausing-spartacus|jadwiga" source="klausing-spartacus" target="jadwiga">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klausing-spartacus|fritz" source="klausing-spartacus" target="fritz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klausing-spartacus|zedlitz" source="klausing-spartacus" target="zedlitz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klausing-spartacus|schimke" source="klausing-spartacus" target="schimke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klausing-spartacus|lydia" source="klausing-spartacus" target="lydia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klausing-spartacus|frommelt-moeros" source="klausing-spartacus" target="frommelt-moeros">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klausing-spartacus|wache" source="klausing-spartacus" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klausing-spartacus|cassius" source="klausing-spartacus" target="cassius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klausing-spartacus|schladebach" source="klausing-spartacus" target="schladebach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klausing-spartacus|baeckergeselle" source="klausing-spartacus" target="baeckergeselle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klausing-spartacus|die_beiden_wachen" source="klausing-spartacus" target="die_beiden_wachen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klausing-spartacus|polizei" source="klausing-spartacus" target="polizei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klausing-spartacus|patzkowski" source="klausing-spartacus" target="patzkowski">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jadwiga|fritz" source="jadwiga" target="fritz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jadwiga|zedlitz" source="jadwiga" target="zedlitz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jadwiga|schimke" source="jadwiga" target="schimke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jadwiga|lydia" source="jadwiga" target="lydia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|zedlitz" source="fritz" target="zedlitz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|schimke" source="fritz" target="schimke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fritz|lydia" source="fritz" target="lydia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zedlitz|schimke" source="zedlitz" target="schimke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zedlitz|lydia" source="zedlitz" target="lydia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zedlitz|frommelt-moeros" source="zedlitz" target="frommelt-moeros">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zedlitz|wache" source="zedlitz" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zedlitz|cassius" source="zedlitz" target="cassius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zedlitz|schladebach" source="zedlitz" target="schladebach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zedlitz|baeckergeselle" source="zedlitz" target="baeckergeselle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zedlitz|die_beiden_wachen" source="zedlitz" target="die_beiden_wachen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zedlitz|polizei" source="zedlitz" target="polizei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zedlitz|patzkowski" source="zedlitz" target="patzkowski">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zedlitz|hoppe" source="zedlitz" target="hoppe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zedlitz|tamaschke" source="zedlitz" target="tamaschke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zedlitz|schutzmann" source="zedlitz" target="schutzmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schimke|lydia" source="schimke" target="lydia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lydia|hoppe" source="lydia" target="hoppe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lydia|tamaschke" source="lydia" target="tamaschke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lydia|schutzmann" source="lydia" target="schutzmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lydia|patzkowski" source="lydia" target="patzkowski">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frommelt-moeros|wache" source="frommelt-moeros" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frommelt-moeros|cassius" source="frommelt-moeros" target="cassius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frommelt-moeros|schladebach" source="frommelt-moeros" target="schladebach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frommelt-moeros|baeckergeselle" source="frommelt-moeros" target="baeckergeselle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frommelt-moeros|die_beiden_wachen" source="frommelt-moeros" target="die_beiden_wachen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frommelt-moeros|polizei" source="frommelt-moeros" target="polizei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frommelt-moeros|patzkowski" source="frommelt-moeros" target="patzkowski">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wache|cassius" source="wache" target="cassius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wache|schladebach" source="wache" target="schladebach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wache|baeckergeselle" source="wache" target="baeckergeselle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wache|die_beiden_wachen" source="wache" target="die_beiden_wachen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wache|polizei" source="wache" target="polizei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wache|patzkowski" source="wache" target="patzkowski">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cassius|schladebach" source="cassius" target="schladebach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cassius|baeckergeselle" source="cassius" target="baeckergeselle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cassius|die_beiden_wachen" source="cassius" target="die_beiden_wachen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cassius|polizei" source="cassius" target="polizei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cassius|patzkowski" source="cassius" target="patzkowski">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schladebach|baeckergeselle" source="schladebach" target="baeckergeselle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schladebach|die_beiden_wachen" source="schladebach" target="die_beiden_wachen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schladebach|polizei" source="schladebach" target="polizei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schladebach|patzkowski" source="schladebach" target="patzkowski">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baeckergeselle|die_beiden_wachen" source="baeckergeselle" target="die_beiden_wachen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baeckergeselle|polizei" source="baeckergeselle" target="polizei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baeckergeselle|patzkowski" source="baeckergeselle" target="patzkowski">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_beiden_wachen|polizei" source="die_beiden_wachen" target="polizei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_beiden_wachen|patzkowski" source="die_beiden_wachen" target="patzkowski">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="polizei|patzkowski" source="polizei" target="patzkowski">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="patzkowski|hoppe" source="patzkowski" target="hoppe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="patzkowski|tamaschke" source="patzkowski" target="tamaschke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="patzkowski|schutzmann" source="patzkowski" target="schutzmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hoppe|tamaschke" source="hoppe" target="tamaschke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hoppe|schutzmann" source="hoppe" target="schutzmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tamaschke|schutzmann" source="tamaschke" target="schutzmann">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

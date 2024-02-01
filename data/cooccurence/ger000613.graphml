@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="mariane">
+            <data key="label">Mariane</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1478</data>
+        </node>
+        <node id="franz">
+            <data key="label">Franz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">177</data>
+        </node>
+        <node id="dueval">
+            <data key="label">Heinrich Düval</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4109</data>
+        </node>
+        <node id="anton">
+            <data key="label">Anton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">151</data>
+        </node>
+        <node id="amalie">
+            <data key="label">Amalie von Charmille (Mally)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1192</data>
+        </node>
+        <node id="graf">
+            <data key="label">Graf von Sternfeld</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1016</data>
+        </node>
+        <node id="frau_von_doenberg">
+            <data key="label">Frau von Doenberg</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">762</data>
+        </node>
+        <node id="joseph">
+            <data key="label">Joseph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">153</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">365</data>
+        </node>
+        <edge id="mariane|franz" source="mariane" target="franz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mariane|dueval" source="mariane" target="dueval">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="mariane|anton" source="mariane" target="anton">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mariane|amalie" source="mariane" target="amalie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="mariane|frau_von_doenberg" source="mariane" target="frau_von_doenberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mariane|graf" source="mariane" target="graf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mariane|joseph" source="mariane" target="joseph">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mariane|hauptmann" source="mariane" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|dueval" source="franz" target="dueval">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="franz|anton" source="franz" target="anton">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="franz|joseph" source="franz" target="joseph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|hauptmann" source="franz" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dueval|anton" source="dueval" target="anton">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="dueval|amalie" source="dueval" target="amalie">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="dueval|graf" source="dueval" target="graf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dueval|frau_von_doenberg" source="dueval" target="frau_von_doenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dueval|joseph" source="dueval" target="joseph">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dueval|hauptmann" source="dueval" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|amalie" source="anton" target="amalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|graf" source="anton" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|joseph" source="anton" target="joseph">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="anton|hauptmann" source="anton" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|joseph" source="amalie" target="joseph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|frau_von_doenberg" source="graf" target="frau_von_doenberg">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

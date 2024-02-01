@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="bolzau">
+            <data key="label">Bolzau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bertha">
+            <data key="label">Bertha</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schnake">
+            <data key="label">Schnake</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="scheffler">
+            <data key="label">Scheffler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hartwig">
+            <data key="label">Hartwig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="steinkirch">
+            <data key="label">Steinkirch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ludmilla">
+            <data key="label">Ludmilla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="brimborius">
+            <data key="label">Brimborius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wilhelmine">
+            <data key="label">Wilhelmine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="franz">
+            <data key="label">Franz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="bertha" target="scheffler">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="wilhelmine" target="bolzau">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="ludmilla" target="wilhelmine">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="4" directed="false" source="schnake" target="brimborius">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="franz" target="bolzau">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="diener" target="scheffler">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

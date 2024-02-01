@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="hochfeld">
+            <data key="label">Hochfeld</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2415</data>
+        </node>
+        <node id="faustin">
+            <data key="label">Faustin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1110</data>
+        </node>
+        <node id="eulalia">
+            <data key="label">Eulalia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">566</data>
+        </node>
+        <node id="regine">
+            <data key="label">Regine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">506</data>
+        </node>
+        <node id="haller">
+            <data key="label">Haller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">299</data>
+        </node>
+        <node id="hupfer">
+            <data key="label">Herr von Hupfer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">719</data>
+        </node>
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="robert">
+            <data key="label">Robert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1252</data>
+        </node>
+        <node id="glatt">
+            <data key="label">Glatt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">680</data>
+        </node>
+        <node id="sebastian">
+            <data key="label">Sebastian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4070</data>
+        </node>
+        <node id="klotilde">
+            <data key="label">Klotilde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1063</data>
+        </node>
+        <node id="apollonia">
+            <data key="label">Apollonia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">723</data>
+        </node>
+        <node id="kapellmeister">
+            <data key="label">Kapellmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="graf_von_flambourg">
+            <data key="label">Graf von Flambourg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="wellenschlag">
+            <data key="label">Wellenschlag</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">319</data>
+        </node>
+        <edge id="hochfeld|faustin" source="hochfeld" target="faustin">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="hochfeld|eulalia" source="hochfeld" target="eulalia">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="hochfeld|regine" source="hochfeld" target="regine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hochfeld|haller" source="hochfeld" target="haller">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hochfeld|hupfer" source="hochfeld" target="hupfer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hochfeld|jakob" source="hochfeld" target="jakob">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hochfeld|robert" source="hochfeld" target="robert">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="hochfeld|glatt" source="hochfeld" target="glatt">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="hochfeld|sebastian" source="hochfeld" target="sebastian">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="hochfeld|klotilde" source="hochfeld" target="klotilde">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="hochfeld|apollonia" source="hochfeld" target="apollonia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochfeld|graf_von_flambourg" source="hochfeld" target="graf_von_flambourg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochfeld|wellenschlag" source="hochfeld" target="wellenschlag">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="faustin|haller" source="faustin" target="haller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faustin|hupfer" source="faustin" target="hupfer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faustin|eulalia" source="faustin" target="eulalia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="faustin|regine" source="faustin" target="regine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="faustin|jakob" source="faustin" target="jakob">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faustin|robert" source="faustin" target="robert">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="faustin|glatt" source="faustin" target="glatt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faustin|sebastian" source="faustin" target="sebastian">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="faustin|klotilde" source="faustin" target="klotilde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faustin|apollonia" source="faustin" target="apollonia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eulalia|regine" source="eulalia" target="regine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eulalia|haller" source="eulalia" target="haller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eulalia|hupfer" source="eulalia" target="hupfer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eulalia|jakob" source="eulalia" target="jakob">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eulalia|robert" source="eulalia" target="robert">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="eulalia|glatt" source="eulalia" target="glatt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eulalia|sebastian" source="eulalia" target="sebastian">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="eulalia|klotilde" source="eulalia" target="klotilde">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="eulalia|apollonia" source="eulalia" target="apollonia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eulalia|graf_von_flambourg" source="eulalia" target="graf_von_flambourg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eulalia|wellenschlag" source="eulalia" target="wellenschlag">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="regine|haller" source="regine" target="haller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="regine|hupfer" source="regine" target="hupfer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="regine|jakob" source="regine" target="jakob">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="regine|robert" source="regine" target="robert">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="regine|glatt" source="regine" target="glatt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="regine|sebastian" source="regine" target="sebastian">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="regine|klotilde" source="regine" target="klotilde">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="regine|apollonia" source="regine" target="apollonia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="haller|hupfer" source="haller" target="hupfer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haller|jakob" source="haller" target="jakob">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="haller|robert" source="haller" target="robert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="haller|glatt" source="haller" target="glatt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="haller|sebastian" source="haller" target="sebastian">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hupfer|jakob" source="hupfer" target="jakob">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hupfer|robert" source="hupfer" target="robert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hupfer|glatt" source="hupfer" target="glatt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hupfer|sebastian" source="hupfer" target="sebastian">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hupfer|klotilde" source="hupfer" target="klotilde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hupfer|apollonia" source="hupfer" target="apollonia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jakob|robert" source="jakob" target="robert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jakob|glatt" source="jakob" target="glatt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jakob|sebastian" source="jakob" target="sebastian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|glatt" source="robert" target="glatt">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="robert|sebastian" source="robert" target="sebastian">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="robert|klotilde" source="robert" target="klotilde">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="robert|apollonia" source="robert" target="apollonia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|kapellmeister" source="robert" target="kapellmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|wellenschlag" source="robert" target="wellenschlag">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="glatt|sebastian" source="glatt" target="sebastian">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="glatt|klotilde" source="glatt" target="klotilde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="glatt|apollonia" source="glatt" target="apollonia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="glatt|wellenschlag" source="glatt" target="wellenschlag">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sebastian|klotilde" source="sebastian" target="klotilde">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="sebastian|apollonia" source="sebastian" target="apollonia">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sebastian|kapellmeister" source="sebastian" target="kapellmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sebastian|graf_von_flambourg" source="sebastian" target="graf_von_flambourg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sebastian|wellenschlag" source="sebastian" target="wellenschlag">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klotilde|apollonia" source="klotilde" target="apollonia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klotilde|wellenschlag" source="klotilde" target="wellenschlag">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

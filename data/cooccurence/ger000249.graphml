@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="staleno">
+            <data key="label">Staleno</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2345</data>
+        </node>
+        <node id="leander">
+            <data key="label">Leander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">516</data>
+        </node>
+        <node id="philto">
+            <data key="label">Philto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1687</data>
+        </node>
+        <node id="lelio">
+            <data key="label">Lelio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1168</data>
+        </node>
+        <node id="maskarill">
+            <data key="label">Maskarill</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2519</data>
+        </node>
+        <node id="anselmo">
+            <data key="label">Anselmo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1706</data>
+        </node>
+        <node id="der_traeger">
+            <data key="label">Der Träger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">76</data>
+        </node>
+        <node id="raps">
+            <data key="label">Raps</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1122</data>
+        </node>
+        <node id="ein_andrer_traeger">
+            <data key="label">Ein andrer Träger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">304</data>
+        </node>
+        <edge id="staleno|leander" source="staleno" target="leander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="staleno|philto" source="staleno" target="philto">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="staleno|lelio" source="staleno" target="lelio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="staleno|maskarill" source="staleno" target="maskarill">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="staleno|anselmo" source="staleno" target="anselmo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philto|lelio" source="philto" target="lelio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philto|maskarill" source="philto" target="maskarill">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philto|anselmo" source="philto" target="anselmo">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lelio|maskarill" source="lelio" target="maskarill">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lelio|anselmo" source="lelio" target="anselmo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maskarill|anselmo" source="maskarill" target="anselmo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="maskarill|der_traeger" source="maskarill" target="der_traeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anselmo|der_traeger" source="anselmo" target="der_traeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anselmo|raps" source="anselmo" target="raps">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anselmo|ein_andrer_traeger" source="anselmo" target="ein_andrer_traeger">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

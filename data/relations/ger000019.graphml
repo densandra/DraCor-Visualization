@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="lefevre">
+            <data key="label">Lefêvre</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="germain">
+            <data key="label">Germain</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chapelle">
+            <data key="label">Chapelle</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="matthieu">
+            <data key="label">Matthieu</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="madeleine">
+            <data key="label">Madeleine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="la_roquette">
+            <data key="label">La Roquette</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="armande">
+            <data key="label">Armande</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="moliere">
+            <data key="label">Molière</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dubois">
+            <data key="label">Dubois</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lionne">
+            <data key="label">Lionne</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="delarive">
+            <data key="label">Delarive</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lakai">
+            <data key="label">Lakai</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ludwig">
+            <data key="label">Ludwig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="offizier">
+            <data key="label">Offizier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="louison">
+            <data key="label">Louison</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_theaterdiener">
+            <data key="label">Ein Theaterdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="germain" target="chapelle">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="2" directed="false" source="armande" target="louison">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="lakai" target="ludwig">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="bedienter" target="lionne">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

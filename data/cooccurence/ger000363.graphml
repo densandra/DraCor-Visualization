@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="licht">
+            <data key="label">Licht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1247</data>
+        </node>
+        <node id="adam">
+            <data key="label">Adam</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4952</data>
+        </node>
+        <node id="der_bediente">
+            <data key="label">Der Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">79</data>
+        </node>
+        <node id="erste_magd">
+            <data key="label">Erste Magd</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">56</data>
+        </node>
+        <node id="zweite_magd">
+            <data key="label">Zweite Magd</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">119</data>
+        </node>
+        <node id="walter">
+            <data key="label">Walter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2420</data>
+        </node>
+        <node id="der_buettel">
+            <data key="label">Der Büttel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="frau_marthe">
+            <data key="label">Frau Marthe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2409</data>
+        </node>
+        <node id="veit">
+            <data key="label">Veit</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">330</data>
+        </node>
+        <node id="ruprecht">
+            <data key="label">Ruprecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1803</data>
+        </node>
+        <node id="eve">
+            <data key="label">Eve</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">950</data>
+        </node>
+        <node id="frau_brigitte">
+            <data key="label">Frau Brigitte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">638</data>
+        </node>
+        <node id="mehrere">
+            <data key="label">Mehrere</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <edge id="licht|adam" source="licht" target="adam">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="licht|der_bediente" source="licht" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="licht|erste_magd" source="licht" target="erste_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="licht|zweite_magd" source="licht" target="zweite_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="licht|walter" source="licht" target="walter">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="licht|eve" source="licht" target="eve">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="licht|frau_marthe" source="licht" target="frau_marthe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="licht|ruprecht" source="licht" target="ruprecht">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="licht|veit" source="licht" target="veit">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="licht|frau_brigitte" source="licht" target="frau_brigitte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="licht|mehrere" source="licht" target="mehrere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adam|der_bediente" source="adam" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adam|erste_magd" source="adam" target="erste_magd">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="adam|zweite_magd" source="adam" target="zweite_magd">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adam|walter" source="adam" target="walter">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="adam|der_buettel" source="adam" target="der_buettel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adam|eve" source="adam" target="eve">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="adam|frau_marthe" source="adam" target="frau_marthe">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="adam|ruprecht" source="adam" target="ruprecht">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="adam|veit" source="adam" target="veit">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="adam|frau_brigitte" source="adam" target="frau_brigitte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bediente|erste_magd" source="der_bediente" target="erste_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bediente|zweite_magd" source="der_bediente" target="zweite_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_magd|zweite_magd" source="erste_magd" target="zweite_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_magd|walter" source="erste_magd" target="walter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erste_magd|ruprecht" source="erste_magd" target="ruprecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_magd|frau_marthe" source="erste_magd" target="frau_marthe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_magd|walter" source="zweite_magd" target="walter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_magd|der_buettel" source="zweite_magd" target="der_buettel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|der_buettel" source="walter" target="der_buettel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|eve" source="walter" target="eve">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="walter|frau_marthe" source="walter" target="frau_marthe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="walter|ruprecht" source="walter" target="ruprecht">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="walter|veit" source="walter" target="veit">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="walter|frau_brigitte" source="walter" target="frau_brigitte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walter|mehrere" source="walter" target="mehrere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_marthe|veit" source="frau_marthe" target="veit">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_marthe|ruprecht" source="frau_marthe" target="ruprecht">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frau_marthe|eve" source="frau_marthe" target="eve">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_marthe|frau_brigitte" source="frau_marthe" target="frau_brigitte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit|ruprecht" source="veit" target="ruprecht">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="veit|eve" source="veit" target="eve">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="veit|frau_brigitte" source="veit" target="frau_brigitte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="veit|mehrere" source="veit" target="mehrere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruprecht|eve" source="ruprecht" target="eve">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ruprecht|frau_brigitte" source="ruprecht" target="frau_brigitte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ruprecht|mehrere" source="ruprecht" target="mehrere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eve|frau_brigitte" source="eve" target="frau_brigitte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eve|mehrere" source="eve" target="mehrere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_brigitte|mehrere" source="frau_brigitte" target="mehrere">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

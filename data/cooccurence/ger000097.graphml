@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="wiedewitt">
+            <data key="label">Wiedewitt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">821</data>
+        </node>
+        <node id="kaeseberg">
+            <data key="label">Käseberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="von_moellerkuchen">
+            <data key="label">von Moellerkuchen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">87</data>
+        </node>
+        <node id="zweiter_magistratsbeamter">
+            <data key="label">Zweiter Magistratsbeamter (I. Akt)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="dritter_magistratsbeamter">
+            <data key="label">Dritter Magistratsbeamter (I. Akt)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="erster_ratsherr_2">
+            <data key="label">Erster Ratsherr (II. Akt)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="zweiter_ratsherr_2">
+            <data key="label">Zweiter Ratsherr (II. Akt)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="magistratsbeamter">
+            <data key="label">Magistratsbeamter (II. Akt)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="dritter_ratsherr_2">
+            <data key="label">Dritter Ratsherr (II. Akt)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="alle_2">
+            <data key="label">Alle (II. Akt)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="erster_ratsherr_3">
+            <data key="label">Erster Ratsherr (III. Akt)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="zweiter_ratsherr_3">
+            <data key="label">Zweiter Ratsherr (III. Akt)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="kaiser">
+            <data key="label">Der Kaiser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">295</data>
+        </node>
+        <node id="der_ratsherr_3">
+            <data key="label">Der Ratsherr (III. Akt)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="die_schildbuerger">
+            <data key="label">Die Schildbürger</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">77</data>
+        </node>
+        <edge id="wiedewitt|kaeseberg" source="wiedewitt" target="kaeseberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wiedewitt|von_moellerkuchen" source="wiedewitt" target="von_moellerkuchen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wiedewitt|zweiter_magistratsbeamter" source="wiedewitt" target="zweiter_magistratsbeamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiedewitt|dritter_magistratsbeamter" source="wiedewitt" target="dritter_magistratsbeamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiedewitt|erster_ratsherr_2" source="wiedewitt" target="erster_ratsherr_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiedewitt|zweiter_ratsherr_2" source="wiedewitt" target="zweiter_ratsherr_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiedewitt|magistratsbeamter" source="wiedewitt" target="magistratsbeamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiedewitt|dritter_ratsherr_2" source="wiedewitt" target="dritter_ratsherr_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiedewitt|alle_2" source="wiedewitt" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiedewitt|erster_ratsherr_3" source="wiedewitt" target="erster_ratsherr_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiedewitt|zweiter_ratsherr_3" source="wiedewitt" target="zweiter_ratsherr_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiedewitt|kaiser" source="wiedewitt" target="kaiser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wiedewitt|der_ratsherr_3" source="wiedewitt" target="der_ratsherr_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiedewitt|die_schildbuerger" source="wiedewitt" target="die_schildbuerger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kaeseberg|von_moellerkuchen" source="kaeseberg" target="von_moellerkuchen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kaeseberg|zweiter_magistratsbeamter" source="kaeseberg" target="zweiter_magistratsbeamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeseberg|dritter_magistratsbeamter" source="kaeseberg" target="dritter_magistratsbeamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeseberg|erster_ratsherr_2" source="kaeseberg" target="erster_ratsherr_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeseberg|zweiter_ratsherr_2" source="kaeseberg" target="zweiter_ratsherr_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeseberg|magistratsbeamter" source="kaeseberg" target="magistratsbeamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeseberg|dritter_ratsherr_2" source="kaeseberg" target="dritter_ratsherr_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeseberg|alle_2" source="kaeseberg" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeseberg|erster_ratsherr_3" source="kaeseberg" target="erster_ratsherr_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeseberg|zweiter_ratsherr_3" source="kaeseberg" target="zweiter_ratsherr_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeseberg|kaiser" source="kaeseberg" target="kaiser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeseberg|der_ratsherr_3" source="kaeseberg" target="der_ratsherr_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeseberg|die_schildbuerger" source="kaeseberg" target="die_schildbuerger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="von_moellerkuchen|zweiter_magistratsbeamter" source="von_moellerkuchen" target="zweiter_magistratsbeamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_moellerkuchen|dritter_magistratsbeamter" source="von_moellerkuchen" target="dritter_magistratsbeamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_moellerkuchen|erster_ratsherr_2" source="von_moellerkuchen" target="erster_ratsherr_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_moellerkuchen|zweiter_ratsherr_2" source="von_moellerkuchen" target="zweiter_ratsherr_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_moellerkuchen|magistratsbeamter" source="von_moellerkuchen" target="magistratsbeamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_moellerkuchen|dritter_ratsherr_2" source="von_moellerkuchen" target="dritter_ratsherr_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_moellerkuchen|alle_2" source="von_moellerkuchen" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_moellerkuchen|erster_ratsherr_3" source="von_moellerkuchen" target="erster_ratsherr_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_moellerkuchen|zweiter_ratsherr_3" source="von_moellerkuchen" target="zweiter_ratsherr_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_moellerkuchen|kaiser" source="von_moellerkuchen" target="kaiser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_moellerkuchen|der_ratsherr_3" source="von_moellerkuchen" target="der_ratsherr_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_moellerkuchen|die_schildbuerger" source="von_moellerkuchen" target="die_schildbuerger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_magistratsbeamter|dritter_magistratsbeamter" source="zweiter_magistratsbeamter" target="dritter_magistratsbeamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_ratsherr_2|zweiter_ratsherr_2" source="erster_ratsherr_2" target="zweiter_ratsherr_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_ratsherr_2|magistratsbeamter" source="erster_ratsherr_2" target="magistratsbeamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_ratsherr_2|dritter_ratsherr_2" source="erster_ratsherr_2" target="dritter_ratsherr_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_ratsherr_2|alle_2" source="erster_ratsherr_2" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_ratsherr_2|magistratsbeamter" source="zweiter_ratsherr_2" target="magistratsbeamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_ratsherr_2|dritter_ratsherr_2" source="zweiter_ratsherr_2" target="dritter_ratsherr_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_ratsherr_2|alle_2" source="zweiter_ratsherr_2" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magistratsbeamter|dritter_ratsherr_2" source="magistratsbeamter" target="dritter_ratsherr_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magistratsbeamter|alle_2" source="magistratsbeamter" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_ratsherr_2|alle_2" source="dritter_ratsherr_2" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_ratsherr_3|zweiter_ratsherr_3" source="erster_ratsherr_3" target="zweiter_ratsherr_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_ratsherr_3|kaiser" source="erster_ratsherr_3" target="kaiser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_ratsherr_3|der_ratsherr_3" source="erster_ratsherr_3" target="der_ratsherr_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_ratsherr_3|die_schildbuerger" source="erster_ratsherr_3" target="die_schildbuerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_ratsherr_3|kaiser" source="zweiter_ratsherr_3" target="kaiser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_ratsherr_3|der_ratsherr_3" source="zweiter_ratsherr_3" target="der_ratsherr_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_ratsherr_3|die_schildbuerger" source="zweiter_ratsherr_3" target="die_schildbuerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser|der_ratsherr_3" source="kaiser" target="der_ratsherr_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser|die_schildbuerger" source="kaiser" target="die_schildbuerger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_ratsherr_3|die_schildbuerger" source="der_ratsherr_3" target="die_schildbuerger">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

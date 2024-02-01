@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="johann">
+            <data key="label">Johann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1107</data>
+        </node>
+        <node id="major">
+            <data key="label">Major</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1087</data>
+        </node>
+        <node id="jenny">
+            <data key="label">Jenny</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">386</data>
+        </node>
+        <node id="barbier">
+            <data key="label">Barbier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">229</data>
+        </node>
+        <node id="milchfrau">
+            <data key="label">Milchfrau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">252</data>
+        </node>
+        <node id="paddemann">
+            <data key="label">Paddemann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">452</data>
+        </node>
+        <node id="assessor">
+            <data key="label">Assessor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">374</data>
+        </node>
+        <node id="kulike">
+            <data key="label">Kulike</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">266</data>
+        </node>
+        <edge id="johann|major" source="johann" target="major">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="johann|jenny" source="johann" target="jenny">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="johann|barbier" source="johann" target="barbier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann|milchfrau" source="johann" target="milchfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann|assessor" source="johann" target="assessor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="johann|kulike" source="johann" target="kulike">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann|paddemann" source="johann" target="paddemann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="major|jenny" source="major" target="jenny">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="major|barbier" source="major" target="barbier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="major|paddemann" source="major" target="paddemann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="major|assessor" source="major" target="assessor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="major|kulike" source="major" target="kulike">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jenny|assessor" source="jenny" target="assessor">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

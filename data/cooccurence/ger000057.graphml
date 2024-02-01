@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sir_john">
+            <data key="label">Sir John</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1208</data>
+        </node>
+        <node id="liddy">
+            <data key="label">Liddy</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1820</data>
+        </node>
+        <node id="der_knabe">
+            <data key="label">Der Knabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">293</data>
+        </node>
+        <node id="samuel">
+            <data key="label">Samuel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2414</data>
+        </node>
+        <node id="mistriss_smith">
+            <data key="label">Mistriss Smith</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1409</data>
+        </node>
+        <node id="gurli">
+            <data key="label">Gurli</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2719</data>
+        </node>
+        <node id="visitator">
+            <data key="label">Visitator</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1321</data>
+        </node>
+        <node id="musaffery">
+            <data key="label">Musaffery</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">445</data>
+        </node>
+        <node id="kaberdar">
+            <data key="label">Kaberdar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2984</data>
+        </node>
+        <node id="jack">
+            <data key="label">Jack</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1067</data>
+        </node>
+        <node id="robert">
+            <data key="label">Robert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1611</data>
+        </node>
+        <node id="fazir">
+            <data key="label">Fazir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1311</data>
+        </node>
+        <node id="maester_strussel">
+            <data key="label">Mäster Strussel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">436</data>
+        </node>
+        <node id="maester_staff">
+            <data key="label">Mäster Staff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">578</data>
+        </node>
+        <edge id="sir_john|liddy" source="sir_john" target="liddy">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="sir_john|mistriss_smith" source="sir_john" target="mistriss_smith">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sir_john|samuel" source="sir_john" target="samuel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sir_john|jack" source="sir_john" target="jack">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sir_john|robert" source="sir_john" target="robert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sir_john|visitator" source="sir_john" target="visitator">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sir_john|gurli" source="sir_john" target="gurli">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sir_john|kaberdar" source="sir_john" target="kaberdar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sir_john|maester_staff" source="sir_john" target="maester_staff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sir_john|fazir" source="sir_john" target="fazir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sir_john|musaffery" source="sir_john" target="musaffery">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liddy|der_knabe" source="liddy" target="der_knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liddy|samuel" source="liddy" target="samuel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="liddy|mistriss_smith" source="liddy" target="mistriss_smith">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="liddy|kaberdar" source="liddy" target="kaberdar">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="liddy|gurli" source="liddy" target="gurli">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="liddy|jack" source="liddy" target="jack">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="liddy|robert" source="liddy" target="robert">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="liddy|fazir" source="liddy" target="fazir">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="liddy|visitator" source="liddy" target="visitator">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="liddy|maester_staff" source="liddy" target="maester_staff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="liddy|musaffery" source="liddy" target="musaffery">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_knabe|kaberdar" source="der_knabe" target="kaberdar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="samuel|mistriss_smith" source="samuel" target="mistriss_smith">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="samuel|gurli" source="samuel" target="gurli">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="samuel|visitator" source="samuel" target="visitator">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="samuel|maester_strussel" source="samuel" target="maester_strussel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="samuel|maester_staff" source="samuel" target="maester_staff">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="samuel|kaberdar" source="samuel" target="kaberdar">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="samuel|robert" source="samuel" target="robert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="samuel|jack" source="samuel" target="jack">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="samuel|fazir" source="samuel" target="fazir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="samuel|musaffery" source="samuel" target="musaffery">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mistriss_smith|gurli" source="mistriss_smith" target="gurli">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="mistriss_smith|kaberdar" source="mistriss_smith" target="kaberdar">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mistriss_smith|musaffery" source="mistriss_smith" target="musaffery">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mistriss_smith|robert" source="mistriss_smith" target="robert">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mistriss_smith|fazir" source="mistriss_smith" target="fazir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mistriss_smith|jack" source="mistriss_smith" target="jack">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mistriss_smith|visitator" source="mistriss_smith" target="visitator">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mistriss_smith|maester_staff" source="mistriss_smith" target="maester_staff">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gurli|kaberdar" source="gurli" target="kaberdar">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="gurli|musaffery" source="gurli" target="musaffery">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gurli|jack" source="gurli" target="jack">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="gurli|visitator" source="gurli" target="visitator">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="gurli|maester_staff" source="gurli" target="maester_staff">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="gurli|robert" source="gurli" target="robert">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="gurli|fazir" source="gurli" target="fazir">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="visitator|musaffery" source="visitator" target="musaffery">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="visitator|kaberdar" source="visitator" target="kaberdar">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="visitator|maester_strussel" source="visitator" target="maester_strussel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="visitator|maester_staff" source="visitator" target="maester_staff">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="visitator|robert" source="visitator" target="robert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="visitator|jack" source="visitator" target="jack">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="musaffery|kaberdar" source="musaffery" target="kaberdar">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="musaffery|fazir" source="musaffery" target="fazir">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="musaffery|robert" source="musaffery" target="robert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="musaffery|jack" source="musaffery" target="jack">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaberdar|maester_staff" source="kaberdar" target="maester_staff">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kaberdar|robert" source="kaberdar" target="robert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kaberdar|jack" source="kaberdar" target="jack">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kaberdar|fazir" source="kaberdar" target="fazir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jack|robert" source="jack" target="robert">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="jack|fazir" source="jack" target="fazir">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="jack|maester_staff" source="jack" target="maester_staff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|fazir" source="robert" target="fazir">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="robert|maester_staff" source="robert" target="maester_staff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maester_strussel|maester_staff" source="maester_strussel" target="maester_staff">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

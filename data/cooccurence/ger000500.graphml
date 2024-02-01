@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="loredano">
+            <data key="label">Loredano</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">504</data>
+        </node>
+        <node id="flordelis">
+            <data key="label">Flordelis</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1198</data>
+        </node>
+        <node id="dorine">
+            <data key="label">Dorine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">459</data>
+        </node>
+        <node id="pandolf">
+            <data key="label">Pandolf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">256</data>
+        </node>
+        <node id="birbante">
+            <data key="label">Birbante</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">618</data>
+        </node>
+        <node id="guido">
+            <data key="label">Guido</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">431</data>
+        </node>
+        <edge id="loredano|flordelis" source="loredano" target="flordelis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="loredano|dorine" source="loredano" target="dorine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="loredano|pandolf" source="loredano" target="pandolf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="loredano|birbante" source="loredano" target="birbante">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="loredano|guido" source="loredano" target="guido">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flordelis|dorine" source="flordelis" target="dorine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flordelis|pandolf" source="flordelis" target="pandolf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flordelis|birbante" source="flordelis" target="birbante">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="flordelis|guido" source="flordelis" target="guido">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dorine|pandolf" source="dorine" target="pandolf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dorine|birbante" source="dorine" target="birbante">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dorine|guido" source="dorine" target="guido">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pandolf|birbante" source="pandolf" target="birbante">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pandolf|guido" source="pandolf" target="guido">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="birbante|guido" source="birbante" target="guido">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

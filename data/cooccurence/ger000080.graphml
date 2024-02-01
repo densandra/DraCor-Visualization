@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="fritz">
+            <data key="label">Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2580</data>
+        </node>
+        <node id="stimme_des_dieners">
+            <data key="label">Stimme des Dieners</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="theodor">
+            <data key="label">Theodor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2301</data>
+        </node>
+        <node id="mizi">
+            <data key="label">Mizi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1775</data>
+        </node>
+        <node id="christine">
+            <data key="label">Christine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2485</data>
+        </node>
+        <node id="der_herr">
+            <data key="label">Der Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">80</data>
+        </node>
+        <node id="katharina">
+            <data key="label">Katharina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">933</data>
+        </node>
+        <node id="weiring">
+            <data key="label">Weiring</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1368</data>
+        </node>
+        <node id="lina">
+            <data key="label">Lina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">54</data>
+        </node>
+        <edge id="fritz|stimme_des_dieners" source="fritz" target="stimme_des_dieners">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|theodor" source="fritz" target="theodor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fritz|mizi" source="fritz" target="mizi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fritz|christine" source="fritz" target="christine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fritz|der_herr" source="fritz" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|katharina" source="fritz" target="katharina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|weiring" source="fritz" target="weiring">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_des_dieners|theodor" source="stimme_des_dieners" target="theodor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_des_dieners|mizi" source="stimme_des_dieners" target="mizi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_des_dieners|christine" source="stimme_des_dieners" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_des_dieners|der_herr" source="stimme_des_dieners" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theodor|mizi" source="theodor" target="mizi">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="theodor|christine" source="theodor" target="christine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="theodor|der_herr" source="theodor" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theodor|katharina" source="theodor" target="katharina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theodor|weiring" source="theodor" target="weiring">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="theodor|lina" source="theodor" target="lina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mizi|christine" source="mizi" target="christine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mizi|der_herr" source="mizi" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mizi|katharina" source="mizi" target="katharina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mizi|weiring" source="mizi" target="weiring">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mizi|lina" source="mizi" target="lina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christine|der_herr" source="christine" target="der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christine|katharina" source="christine" target="katharina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christine|weiring" source="christine" target="weiring">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="christine|lina" source="christine" target="lina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|weiring" source="katharina" target="weiring">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weiring|lina" source="weiring" target="lina">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

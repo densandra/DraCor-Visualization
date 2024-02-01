@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="fuerstin">
+            <data key="label">Fürstin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="heyskal">
+            <data key="label">Rudolf von Heyskal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="skodny">
+            <data key="label">Skodny</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="judith">
+            <data key="label">Judith</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="westerhaus">
+            <data key="label">Westerhaus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="braunigl">
+            <data key="label">Braunigl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gysar">
+            <data key="label">Gysar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rufe">
+            <data key="label">Rufe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="arduin">
+            <data key="label">Arduin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ambros">
+            <data key="label">Ambros Doehl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eligius">
+            <data key="label">Eligius Fenz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="julia">
+            <data key="label">Julia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="seraphine">
+            <data key="label">Seraphine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="elisabeth">
+            <data key="label">Elisabeth</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="leindorf">
+            <data key="label">Leindorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_domino">
+            <data key="label">Erster Domino</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_domino">
+            <data key="label">Zweiter Domino</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="max">
+            <data key="label">Max von Reisenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="falkenir">
+            <data key="label">Ulrich Freiherr von Falkenir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="aurelie">
+            <data key="label">Aurelie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="albine">
+            <data key="label">Albine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ida">
+            <data key="label">Ida</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="meyerhofer">
+            <data key="label">Meyerhofer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="devona">
+            <data key="label">Die Devona</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_kleine_neger">
+            <data key="label">Der kleine Neger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hansen">
+            <data key="label">Hansen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gilda">
+            <data key="label">Gilda</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_hotelbediensteter">
+            <data key="label">Ein Hotelbediensteter </data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="westerhaus" target="julia">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="julia" target="judith">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="elisabeth" target="albine">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="4" directed="false" source="elisabeth" target="ida">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="5" directed="false" source="albine" target="ida">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="6" directed="false" source="eligius" target="seraphine">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="7" directed="false" source="eligius" target="elisabeth">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="8" directed="false" source="leindorf" target="elisabeth">
+            <data key="relation">lover_of</data>
+        </edge>
+        <edge id="9" directed="false" source="hansen" target="gilda">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

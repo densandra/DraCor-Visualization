@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="veturia">
+            <data key="label">Veturia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2321</data>
+        </node>
+        <node id="volumnia">
+            <data key="label">Volumnia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">931</data>
+        </node>
+        <node id="minutius">
+            <data key="label">Minutius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1646</data>
+        </node>
+        <node id="coriolan">
+            <data key="label">Coriolan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7876</data>
+        </node>
+        <node id="attus_tullus">
+            <data key="label">Attus Tullus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1196</data>
+        </node>
+        <node id="volturio">
+            <data key="label">Volturio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">884</data>
+        </node>
+        <node id="lucumo">
+            <data key="label">Lucumo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">938</data>
+        </node>
+        <node id="porus">
+            <data key="label">Porus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">160</data>
+        </node>
+        <node id="aruntius">
+            <data key="label">Aruntius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">237</data>
+        </node>
+        <node id="marcus">
+            <data key="label">Marcus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">775</data>
+        </node>
+        <node id="alle_die_krieger_2-5_bis_3-1">
+            <data key="label">Alle/Die Krieger (II/5–III/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="priester">
+            <data key="label">Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">143</data>
+        </node>
+        <node id="die_buerger">
+            <data key="label">Die Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="pontifex">
+            <data key="label">Pontifex</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">61</data>
+        </node>
+        <node id="sulpitius">
+            <data key="label">Sulpitius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1087</data>
+        </node>
+        <node id="centurio">
+            <data key="label">Centurio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <edge id="veturia|volumnia" source="veturia" target="volumnia">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="veturia|minutius" source="veturia" target="minutius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="veturia|coriolan" source="veturia" target="coriolan">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="veturia|marcus" source="veturia" target="marcus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volumnia|minutius" source="volumnia" target="minutius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="volumnia|coriolan" source="volumnia" target="coriolan">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="minutius|coriolan" source="minutius" target="coriolan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="minutius|lucumo" source="minutius" target="lucumo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minutius|attus_tullus" source="minutius" target="attus_tullus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minutius|pontifex" source="minutius" target="pontifex">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="coriolan|porus" source="coriolan" target="porus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="coriolan|lucumo" source="coriolan" target="lucumo">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="coriolan|volturio" source="coriolan" target="volturio">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="coriolan|attus_tullus" source="coriolan" target="attus_tullus">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="coriolan|marcus" source="coriolan" target="marcus">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="coriolan|alle_die_krieger_2-5_bis_3-1" source="coriolan" target="alle_die_krieger_2-5_bis_3-1">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="coriolan|aruntius" source="coriolan" target="aruntius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="coriolan|priester" source="coriolan" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="coriolan|die_buerger" source="coriolan" target="die_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="coriolan|pontifex" source="coriolan" target="pontifex">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="coriolan|sulpitius" source="coriolan" target="sulpitius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="coriolan|centurio" source="coriolan" target="centurio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="attus_tullus|volturio" source="attus_tullus" target="volturio">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="attus_tullus|lucumo" source="attus_tullus" target="lucumo">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="attus_tullus|porus" source="attus_tullus" target="porus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="attus_tullus|aruntius" source="attus_tullus" target="aruntius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="attus_tullus|marcus" source="attus_tullus" target="marcus">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="attus_tullus|alle_die_krieger_2-5_bis_3-1" source="attus_tullus" target="alle_die_krieger_2-5_bis_3-1">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="attus_tullus|priester" source="attus_tullus" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="attus_tullus|die_buerger" source="attus_tullus" target="die_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="attus_tullus|pontifex" source="attus_tullus" target="pontifex">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volturio|lucumo" source="volturio" target="lucumo">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="volturio|porus" source="volturio" target="porus">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="volturio|aruntius" source="volturio" target="aruntius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="volturio|marcus" source="volturio" target="marcus">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="volturio|alle_die_krieger_2-5_bis_3-1" source="volturio" target="alle_die_krieger_2-5_bis_3-1">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="volturio|die_buerger" source="volturio" target="die_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volturio|centurio" source="volturio" target="centurio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucumo|porus" source="lucumo" target="porus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lucumo|aruntius" source="lucumo" target="aruntius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lucumo|marcus" source="lucumo" target="marcus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lucumo|alle_die_krieger_2-5_bis_3-1" source="lucumo" target="alle_die_krieger_2-5_bis_3-1">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lucumo|die_buerger" source="lucumo" target="die_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucumo|pontifex" source="lucumo" target="pontifex">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="porus|aruntius" source="porus" target="aruntius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="porus|marcus" source="porus" target="marcus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="porus|alle_die_krieger_2-5_bis_3-1" source="porus" target="alle_die_krieger_2-5_bis_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aruntius|alle_die_krieger_2-5_bis_3-1" source="aruntius" target="alle_die_krieger_2-5_bis_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marcus|alle_die_krieger_2-5_bis_3-1" source="marcus" target="alle_die_krieger_2-5_bis_3-1">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marcus|die_buerger" source="marcus" target="die_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_die_krieger_2-5_bis_3-1|die_buerger" source="alle_die_krieger_2-5_bis_3-1" target="die_buerger">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

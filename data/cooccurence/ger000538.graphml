@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="pamphilius">
+            <data key="label">Pamphilius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">282</data>
+        </node>
+        <node id="cardenio">
+            <data key="label">Cardenio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8051</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="reyen">
+            <data key="label">Reyen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">885</data>
+        </node>
+        <node id="celinde">
+            <data key="label">Celinde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2274</data>
+        </node>
+        <node id="tyche">
+            <data key="label">Tyche</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1129</data>
+        </node>
+        <node id="sylvia">
+            <data key="label">Sylvia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="olympia">
+            <data key="label">Olympia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2199</data>
+        </node>
+        <node id="vireno">
+            <data key="label">Vireno</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">368</data>
+        </node>
+        <node id="die_zeit">
+            <data key="label">Die Zeit</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">160</data>
+        </node>
+        <node id="der_mensch">
+            <data key="label">Der Mensch</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">502</data>
+        </node>
+        <node id="storax">
+            <data key="label">Storax</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">252</data>
+        </node>
+        <node id="lysander">
+            <data key="label">Lysander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">695</data>
+        </node>
+        <node id="knecht">
+            <data key="label">Knecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="dorus">
+            <data key="label">Dorus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="cleon">
+            <data key="label">Cleon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">246</data>
+        </node>
+        <node id="das_gespenst_dess_ritters">
+            <data key="label">Das Gespenst deß Ritters</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <edge id="pamphilius|cardenio" source="pamphilius" target="cardenio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pamphilius|diener" source="pamphilius" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pamphilius|reyen" source="pamphilius" target="reyen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pamphilius|vireno" source="pamphilius" target="vireno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pamphilius|olympia" source="pamphilius" target="olympia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pamphilius|lysander" source="pamphilius" target="lysander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pamphilius|celinde" source="pamphilius" target="celinde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cardenio|diener" source="cardenio" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cardenio|reyen" source="cardenio" target="reyen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cardenio|olympia" source="cardenio" target="olympia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="cardenio|vireno" source="cardenio" target="vireno">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cardenio|die_zeit" source="cardenio" target="die_zeit">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cardenio|der_mensch" source="cardenio" target="der_mensch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cardenio|storax" source="cardenio" target="storax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cardenio|lysander" source="cardenio" target="lysander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cardenio|knecht" source="cardenio" target="knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cardenio|dorus" source="cardenio" target="dorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cardenio|tyche" source="cardenio" target="tyche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cardenio|celinde" source="cardenio" target="celinde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cardenio|cleon" source="cardenio" target="cleon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cardenio|das_gespenst_dess_ritters" source="cardenio" target="das_gespenst_dess_ritters">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|reyen" source="diener" target="reyen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reyen|celinde" source="reyen" target="celinde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="reyen|tyche" source="reyen" target="tyche">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="reyen|sylvia" source="reyen" target="sylvia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reyen|olympia" source="reyen" target="olympia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reyen|storax" source="reyen" target="storax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reyen|lysander" source="reyen" target="lysander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reyen|knecht" source="reyen" target="knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reyen|dorus" source="reyen" target="dorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reyen|cleon" source="reyen" target="cleon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reyen|das_gespenst_dess_ritters" source="reyen" target="das_gespenst_dess_ritters">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="celinde|tyche" source="celinde" target="tyche">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="celinde|sylvia" source="celinde" target="sylvia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="celinde|olympia" source="celinde" target="olympia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="celinde|storax" source="celinde" target="storax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="celinde|lysander" source="celinde" target="lysander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="celinde|knecht" source="celinde" target="knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="celinde|dorus" source="celinde" target="dorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="celinde|cleon" source="celinde" target="cleon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="celinde|das_gespenst_dess_ritters" source="celinde" target="das_gespenst_dess_ritters">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="celinde|vireno" source="celinde" target="vireno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tyche|sylvia" source="tyche" target="sylvia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tyche|olympia" source="tyche" target="olympia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tyche|storax" source="tyche" target="storax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tyche|lysander" source="tyche" target="lysander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tyche|knecht" source="tyche" target="knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tyche|dorus" source="tyche" target="dorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tyche|cleon" source="tyche" target="cleon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tyche|das_gespenst_dess_ritters" source="tyche" target="das_gespenst_dess_ritters">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olympia|vireno" source="olympia" target="vireno">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="olympia|die_zeit" source="olympia" target="die_zeit">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olympia|der_mensch" source="olympia" target="der_mensch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olympia|storax" source="olympia" target="storax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olympia|lysander" source="olympia" target="lysander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="olympia|knecht" source="olympia" target="knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olympia|dorus" source="olympia" target="dorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olympia|cleon" source="olympia" target="cleon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olympia|das_gespenst_dess_ritters" source="olympia" target="das_gespenst_dess_ritters">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vireno|die_zeit" source="vireno" target="die_zeit">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vireno|der_mensch" source="vireno" target="der_mensch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vireno|lysander" source="vireno" target="lysander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_zeit|der_mensch" source="die_zeit" target="der_mensch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="storax|lysander" source="storax" target="lysander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="storax|knecht" source="storax" target="knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="storax|dorus" source="storax" target="dorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="storax|cleon" source="storax" target="cleon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="storax|das_gespenst_dess_ritters" source="storax" target="das_gespenst_dess_ritters">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lysander|knecht" source="lysander" target="knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lysander|dorus" source="lysander" target="dorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lysander|cleon" source="lysander" target="cleon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lysander|das_gespenst_dess_ritters" source="lysander" target="das_gespenst_dess_ritters">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht|dorus" source="knecht" target="dorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht|cleon" source="knecht" target="cleon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht|das_gespenst_dess_ritters" source="knecht" target="das_gespenst_dess_ritters">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dorus|cleon" source="dorus" target="cleon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dorus|das_gespenst_dess_ritters" source="dorus" target="das_gespenst_dess_ritters">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cleon|das_gespenst_dess_ritters" source="cleon" target="das_gespenst_dess_ritters">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

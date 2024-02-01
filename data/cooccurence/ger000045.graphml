@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="die_trommler">
+            <data key="label">Die Trommler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="sonnsfeld">
+            <data key="label">Fräulein von Sonnsfeld</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1362</data>
+        </node>
+        <node id="eversmann">
+            <data key="label">Eversmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">798</data>
+        </node>
+        <node id="wilhelmine">
+            <data key="label">Wilhelmine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1843</data>
+        </node>
+        <node id="erbprinz">
+            <data key="label">Erbprinz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3561</data>
+        </node>
+        <node id="koenigin">
+            <data key="label">Königin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1378</data>
+        </node>
+        <node id="koenig">
+            <data key="label">König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4480</data>
+        </node>
+        <node id="grumbkow">
+            <data key="label">Grumbkow</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">254</data>
+        </node>
+        <node id="seckendorf">
+            <data key="label">Seckendorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">706</data>
+        </node>
+        <node id="lakai">
+            <data key="label">Lakai</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="hotham">
+            <data key="label">Hotham</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2698</data>
+        </node>
+        <node id="kamke">
+            <data key="label">Kamke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">68</data>
+        </node>
+        <node id="eckhof">
+            <data key="label">Eckhof</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">473</data>
+        </node>
+        <node id="erster_grenadier">
+            <data key="label">Erster Grenadier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="zweiter_grenadier">
+            <data key="label">Zweiter Grenadier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="dritter_grenadier">
+            <data key="label">Dritter Grenadier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="bediente">
+            <data key="label">Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="alle_3-1-4">
+            <data key="label">Alle (III/1/4)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="graf_schwerin">
+            <data key="label">Graf Schwerin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="graf_wartensleben">
+            <data key="label">Graf Wartensleben</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="alle_4-2-2">
+            <data key="label">Alle (IV/2/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="lakaien">
+            <data key="label">Lakaien</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="viereck">
+            <data key="label">Frau von Viereck</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">157</data>
+        </node>
+        <node id="holzendorf">
+            <data key="label">Frau von Holzendorf</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">78</data>
+        </node>
+        <node id="hofdamen">
+            <data key="label">Hofdamen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="alle_5-1-4_und_5-1-5">
+            <data key="label">Alle (V/1/4–5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <edge id="die_trommler|sonnsfeld" source="die_trommler" target="sonnsfeld">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_trommler|eversmann" source="die_trommler" target="eversmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sonnsfeld|eversmann" source="sonnsfeld" target="eversmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sonnsfeld|wilhelmine" source="sonnsfeld" target="wilhelmine">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sonnsfeld|erbprinz" source="sonnsfeld" target="erbprinz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sonnsfeld|koenigin" source="sonnsfeld" target="koenigin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sonnsfeld|eckhof" source="sonnsfeld" target="eckhof">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sonnsfeld|erster_grenadier" source="sonnsfeld" target="erster_grenadier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sonnsfeld|zweiter_grenadier" source="sonnsfeld" target="zweiter_grenadier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sonnsfeld|dritter_grenadier" source="sonnsfeld" target="dritter_grenadier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sonnsfeld|koenig" source="sonnsfeld" target="koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sonnsfeld|kamke" source="sonnsfeld" target="kamke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sonnsfeld|lakaien" source="sonnsfeld" target="lakaien">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eversmann|erbprinz" source="eversmann" target="erbprinz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="eversmann|koenig" source="eversmann" target="koenig">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="eversmann|koenigin" source="eversmann" target="koenigin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eversmann|wilhelmine" source="eversmann" target="wilhelmine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eversmann|grumbkow" source="eversmann" target="grumbkow">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="eversmann|seckendorf" source="eversmann" target="seckendorf">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="eversmann|hotham" source="eversmann" target="hotham">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="eversmann|graf_schwerin" source="eversmann" target="graf_schwerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eversmann|graf_wartensleben" source="eversmann" target="graf_wartensleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eversmann|alle_4-2-2" source="eversmann" target="alle_4-2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|erbprinz" source="wilhelmine" target="erbprinz">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="wilhelmine|koenig" source="wilhelmine" target="koenig">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wilhelmine|koenigin" source="wilhelmine" target="koenigin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wilhelmine|eckhof" source="wilhelmine" target="eckhof">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wilhelmine|erster_grenadier" source="wilhelmine" target="erster_grenadier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|zweiter_grenadier" source="wilhelmine" target="zweiter_grenadier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|dritter_grenadier" source="wilhelmine" target="dritter_grenadier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|bediente" source="wilhelmine" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|hotham" source="wilhelmine" target="hotham">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelmine|lakai" source="wilhelmine" target="lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|alle_5-1-4_und_5-1-5" source="wilhelmine" target="alle_5-1-4_und_5-1-5">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erbprinz|koenigin" source="erbprinz" target="koenigin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="erbprinz|koenig" source="erbprinz" target="koenig">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="erbprinz|lakai" source="erbprinz" target="lakai">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erbprinz|hotham" source="erbprinz" target="hotham">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="erbprinz|kamke" source="erbprinz" target="kamke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erbprinz|bediente" source="erbprinz" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erbprinz|grumbkow" source="erbprinz" target="grumbkow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erbprinz|seckendorf" source="erbprinz" target="seckendorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erbprinz|alle_3-1-4" source="erbprinz" target="alle_3-1-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erbprinz|graf_schwerin" source="erbprinz" target="graf_schwerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erbprinz|graf_wartensleben" source="erbprinz" target="graf_wartensleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erbprinz|alle_4-2-2" source="erbprinz" target="alle_4-2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erbprinz|alle_5-1-4_und_5-1-5" source="erbprinz" target="alle_5-1-4_und_5-1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|koenig" source="koenigin" target="koenig">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="koenigin|bediente" source="koenigin" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|hotham" source="koenigin" target="hotham">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenigin|lakai" source="koenigin" target="lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|grumbkow" source="koenigin" target="grumbkow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|seckendorf" source="koenigin" target="seckendorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|alle_3-1-4" source="koenigin" target="alle_3-1-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|viereck" source="koenigin" target="viereck">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenigin|holzendorf" source="koenigin" target="holzendorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|hofdamen" source="koenigin" target="hofdamen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenigin|alle_5-1-4_und_5-1-5" source="koenigin" target="alle_5-1-4_und_5-1-5">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig|grumbkow" source="koenig" target="grumbkow">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="koenig|seckendorf" source="koenig" target="seckendorf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="koenig|lakai" source="koenig" target="lakai">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenig|eckhof" source="koenig" target="eckhof">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|bediente" source="koenig" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|hotham" source="koenig" target="hotham">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="koenig|alle_3-1-4" source="koenig" target="alle_3-1-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|graf_schwerin" source="koenig" target="graf_schwerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|graf_wartensleben" source="koenig" target="graf_wartensleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|alle_4-2-2" source="koenig" target="alle_4-2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|hofdamen" source="koenig" target="hofdamen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|viereck" source="koenig" target="viereck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|alle_5-1-4_und_5-1-5" source="koenig" target="alle_5-1-4_und_5-1-5">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grumbkow|seckendorf" source="grumbkow" target="seckendorf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="grumbkow|hotham" source="grumbkow" target="hotham">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="grumbkow|alle_3-1-4" source="grumbkow" target="alle_3-1-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grumbkow|graf_schwerin" source="grumbkow" target="graf_schwerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grumbkow|graf_wartensleben" source="grumbkow" target="graf_wartensleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grumbkow|alle_4-2-2" source="grumbkow" target="alle_4-2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seckendorf|hotham" source="seckendorf" target="hotham">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="seckendorf|alle_3-1-4" source="seckendorf" target="alle_3-1-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seckendorf|graf_schwerin" source="seckendorf" target="graf_schwerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seckendorf|graf_wartensleben" source="seckendorf" target="graf_wartensleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seckendorf|alle_4-2-2" source="seckendorf" target="alle_4-2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lakai|bediente" source="lakai" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lakai|hotham" source="lakai" target="hotham">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hotham|kamke" source="hotham" target="kamke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hotham|bediente" source="hotham" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hotham|alle_3-1-4" source="hotham" target="alle_3-1-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hotham|graf_schwerin" source="hotham" target="graf_schwerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hotham|graf_wartensleben" source="hotham" target="graf_wartensleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hotham|alle_4-2-2" source="hotham" target="alle_4-2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hotham|alle_5-1-4_und_5-1-5" source="hotham" target="alle_5-1-4_und_5-1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kamke|lakaien" source="kamke" target="lakaien">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eckhof|erster_grenadier" source="eckhof" target="erster_grenadier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eckhof|zweiter_grenadier" source="eckhof" target="zweiter_grenadier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eckhof|dritter_grenadier" source="eckhof" target="dritter_grenadier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_grenadier|zweiter_grenadier" source="erster_grenadier" target="zweiter_grenadier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_grenadier|dritter_grenadier" source="erster_grenadier" target="dritter_grenadier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_grenadier|dritter_grenadier" source="zweiter_grenadier" target="dritter_grenadier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_schwerin|graf_wartensleben" source="graf_schwerin" target="graf_wartensleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_schwerin|alle_4-2-2" source="graf_schwerin" target="alle_4-2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_wartensleben|alle_4-2-2" source="graf_wartensleben" target="alle_4-2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viereck|holzendorf" source="viereck" target="holzendorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viereck|hofdamen" source="viereck" target="hofdamen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="holzendorf|hofdamen" source="holzendorf" target="hofdamen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

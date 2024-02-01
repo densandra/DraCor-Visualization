@@ -1,0 +1,3311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="galdino">
+            <data key="label">Galdino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">314</data>
+        </node>
+        <node id="alberto">
+            <data key="label">Alberto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">222</data>
+        </node>
+        <node id="die_mailaender">
+            <data key="label">Die Mailänder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">93</data>
+        </node>
+        <node id="der_vater">
+            <data key="label">Der Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">183</data>
+        </node>
+        <node id="der_sohn">
+            <data key="label">Der Sohn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="kardinal_ugolini">
+            <data key="label">Kardinal Ugolini</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">479</data>
+        </node>
+        <node id="gherardo">
+            <data key="label">Gherardo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1287</data>
+        </node>
+        <node id="die_lombarden">
+            <data key="label">Die Lombarden</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">74</data>
+        </node>
+        <node id="der_bote">
+            <data key="label">Der Bote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">182</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">500</data>
+        </node>
+        <node id="landolph">
+            <data key="label">Landolph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">907</data>
+        </node>
+        <node id="giso">
+            <data key="label">Giso</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">114</data>
+        </node>
+        <node id="ulrich">
+            <data key="label">Ulrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">170</data>
+        </node>
+        <node id="rudolph">
+            <data key="label">Rudolph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">60</data>
+        </node>
+        <node id="das_deutsche_heer_das_kaiserliche_heer">
+            <data key="label">Das deutsche Heer/Das kaiserliche Heer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <node id="heinrich_der_loewe">
+            <data key="label">Heinrich der Löwe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2613</data>
+        </node>
+        <node id="otto_von_wittelsbach">
+            <data key="label">Otto von Wittelsbach</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">281</data>
+        </node>
+        <node id="kaiser_friedrich">
+            <data key="label">Kaiser Friedrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5054</data>
+        </node>
+        <node id="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde">
+            <data key="label">Einer der vier um den Reichsschild stehenden Reichsherolde</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">89</data>
+        </node>
+        <node id="prinz_heinrich">
+            <data key="label">Prinz Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">313</data>
+        </node>
+        <node id="der_erzherzog_von_oesterreich">
+            <data key="label">Der Erzherzog von Österreich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">161</data>
+        </node>
+        <node id="graf_von_tirol">
+            <data key="label">Graf von Tirol</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="hohenzollern">
+            <data key="label">Hohenzollern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">195</data>
+        </node>
+        <node id="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="label">Ein Hauptmann des kaiserlichen Heers</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="ein_reichsherold">
+            <data key="label">Ein Reichsherold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="einer_der_lombarden_1">
+            <data key="label">Einer der Lombarden (1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="einer_der_lombarden_2">
+            <data key="label">Einer der Lombarden (2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">52</data>
+        </node>
+        <node id="beatrice">
+            <data key="label">Beatrice</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">876</data>
+        </node>
+        <node id="ein_krieger">
+            <data key="label">Ein Krieger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">44</data>
+        </node>
+        <node id="reichsherold">
+            <data key="label">Reichsherold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="graf_von_orla">
+            <data key="label">Graf von Orla</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">175</data>
+        </node>
+        <node id="jordanus_truchsess">
+            <data key="label">Jordanus Truchsess</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">662</data>
+        </node>
+        <node id="albrecht_von_roden">
+            <data key="label">Albrecht von Roden</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">137</data>
+        </node>
+        <node id="die_saechsischen_feldherren">
+            <data key="label">Die sächsischen Feldherren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="graf_von_andechs">
+            <data key="label">Graf von Andechs</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="ein_gewaffneter_1">
+            <data key="label">Ein Gewaffneter (1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">40</data>
+        </node>
+        <node id="das_sachsenheer">
+            <data key="label">Das Sachsenheer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="schwaebische_krieger">
+            <data key="label">Schwäbische Krieger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="fraenkische_krieger">
+            <data key="label">Fränkische Krieger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="ein_schwaebischer_ritter">
+            <data key="label">Ein schwäbischer Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="die_begleiter_heinrichs_des_loewen">
+            <data key="label">Die Begleiter Heinrichs des Löwen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="ein_gewaffneter_2">
+            <data key="label">Ein Gewaffneter (2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="erzbischof_von_mainz">
+            <data key="label">Erzbischof von Mainz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1078</data>
+        </node>
+        <node id="alle_anwesenden_akt_2">
+            <data key="label">Alle Anwesenden (2. Akt)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="die_mailaendischen_todesbanner">
+            <data key="label">Die mailändischen Todesbanner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="geschrei_der_lodenser">
+            <data key="label">Geschrei der Lodenser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="ein_veronesischer_krieger">
+            <data key="label">Ein veronesischer Krieger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="ein_hauptmann">
+            <data key="label">Ein Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="koenig_von_boehmen">
+            <data key="label">König von Böhmen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <node id="koenig_von_polen">
+            <data key="label">König von Polen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">67</data>
+        </node>
+        <node id="viele_hauptleute_des_heeres">
+            <data key="label">Viele Hauptleute des Heeres</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="ein_mailaender">
+            <data key="label">Ein Mailänder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="ein_anderer_mailaender">
+            <data key="label">Ein anderer Mailänder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="papst_alexander">
+            <data key="label">Papst Alexander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">742</data>
+        </node>
+        <node id="der_doge">
+            <data key="label">Der Doge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">171</data>
+        </node>
+        <node id="einer_der_senatoren">
+            <data key="label">Einer der Senatoren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="lauter_ruf_hinter_der_szene">
+            <data key="label">Lauter Ruf hinter der Szene</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="ein_diener">
+            <data key="label">Ein Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="monteferrat">
+            <data key="label">Monteferrat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">132</data>
+        </node>
+        <node id="das_volk">
+            <data key="label">Das Volk</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="landleute">
+            <data key="label">Landleute</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="der_kastellan_der_burg">
+            <data key="label">Der Kastellan der Burg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="heinrich_von_ofterdingen">
+            <data key="label">Heinrich von Ofterdingen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">437</data>
+        </node>
+        <node id="ein_turnierherold">
+            <data key="label">Ein Turnierherold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="ein_ritter">
+            <data key="label">Ein Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="graf_von_barcelona">
+            <data key="label">Graf von Barcelona</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">94</data>
+        </node>
+        <node id="graf_von_montpellier">
+            <data key="label">Graf von Montpellier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">78</data>
+        </node>
+        <node id="turnierherolde">
+            <data key="label">Turnierherolde</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="prinz_plantagenet">
+            <data key="label">Prinz Plantagenet</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="viele_stimmen">
+            <data key="label">Viele Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="reichsherolde">
+            <data key="label">Reichsherolde</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="die_gesandten_englands_und_frankreichs">
+            <data key="label">Die Gesandten Englands und Frankreichs</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="ein_provenzialischer_troubadour">
+            <data key="label">Ein provenzialischer Troubadour</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="alle_anwesenden_akt_3">
+            <data key="label">Alle Anwesenden (3. Akt)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="eine_schildwache">
+            <data key="label">Eine Schildwache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="koenig_waldemar">
+            <data key="label">König Waldemar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="grossfuerst_litauens">
+            <data key="label">Großfürst Litauens</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">32</data>
+        </node>
+        <node id="mathildis">
+            <data key="label">Mathildis</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">326</data>
+        </node>
+        <node id="erzbischoefe_fuersten_ritter">
+            <data key="label">Erzbischöfe/Fürsten/Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="constanze">
+            <data key="label">Constanze</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="alle_deutsche_und_normannen">
+            <data key="label">Alle (Deutsche und Normannen)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="alle_anwesenden_akt_4">
+            <data key="label">Alle Anwesenden (4. Akt)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <edge id="galdino|alberto" source="galdino" target="alberto">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="galdino|die_mailaender" source="galdino" target="die_mailaender">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="galdino|der_vater" source="galdino" target="der_vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|der_sohn" source="galdino" target="der_sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|kardinal_ugolini" source="galdino" target="kardinal_ugolini">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="galdino|gherardo" source="galdino" target="gherardo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="galdino|die_lombarden" source="galdino" target="die_lombarden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="galdino|der_bote" source="galdino" target="der_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|die_mailaendischen_todesbanner" source="galdino" target="die_mailaendischen_todesbanner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|kaiser_friedrich" source="galdino" target="kaiser_friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|erzbischof_von_mainz" source="galdino" target="erzbischof_von_mainz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|geschrei_der_lodenser" source="galdino" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|der_erzherzog_von_oesterreich" source="galdino" target="der_erzherzog_von_oesterreich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|ein_veronesischer_krieger" source="galdino" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|otto_von_wittelsbach" source="galdino" target="otto_von_wittelsbach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|ein_hauptmann" source="galdino" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|schwaebische_krieger" source="galdino" target="schwaebische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|hohenzollern" source="galdino" target="hohenzollern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|koenig_von_boehmen" source="galdino" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|koenig_von_polen" source="galdino" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|das_deutsche_heer_das_kaiserliche_heer" source="galdino" target="das_deutsche_heer_das_kaiserliche_heer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|prinz_heinrich" source="galdino" target="prinz_heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|viele_hauptleute_des_heeres" source="galdino" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|ein_mailaender" source="galdino" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galdino|ein_anderer_mailaender" source="galdino" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|die_mailaender" source="alberto" target="die_mailaender">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alberto|der_vater" source="alberto" target="der_vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|der_sohn" source="alberto" target="der_sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|kardinal_ugolini" source="alberto" target="kardinal_ugolini">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alberto|gherardo" source="alberto" target="gherardo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alberto|die_lombarden" source="alberto" target="die_lombarden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alberto|der_bote" source="alberto" target="der_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|die_mailaendischen_todesbanner" source="alberto" target="die_mailaendischen_todesbanner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|kaiser_friedrich" source="alberto" target="kaiser_friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|erzbischof_von_mainz" source="alberto" target="erzbischof_von_mainz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|geschrei_der_lodenser" source="alberto" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|der_erzherzog_von_oesterreich" source="alberto" target="der_erzherzog_von_oesterreich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|ein_veronesischer_krieger" source="alberto" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|otto_von_wittelsbach" source="alberto" target="otto_von_wittelsbach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|ein_hauptmann" source="alberto" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|schwaebische_krieger" source="alberto" target="schwaebische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|hohenzollern" source="alberto" target="hohenzollern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|koenig_von_boehmen" source="alberto" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|koenig_von_polen" source="alberto" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|das_deutsche_heer_das_kaiserliche_heer" source="alberto" target="das_deutsche_heer_das_kaiserliche_heer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|prinz_heinrich" source="alberto" target="prinz_heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|viele_hauptleute_des_heeres" source="alberto" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|ein_mailaender" source="alberto" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alberto|ein_anderer_mailaender" source="alberto" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|der_vater" source="die_mailaender" target="der_vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|der_sohn" source="die_mailaender" target="der_sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|kardinal_ugolini" source="die_mailaender" target="kardinal_ugolini">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_mailaender|gherardo" source="die_mailaender" target="gherardo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_mailaender|die_lombarden" source="die_mailaender" target="die_lombarden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_mailaender|der_bote" source="die_mailaender" target="der_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|die_mailaendischen_todesbanner" source="die_mailaender" target="die_mailaendischen_todesbanner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|kaiser_friedrich" source="die_mailaender" target="kaiser_friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|erzbischof_von_mainz" source="die_mailaender" target="erzbischof_von_mainz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|geschrei_der_lodenser" source="die_mailaender" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|der_erzherzog_von_oesterreich" source="die_mailaender" target="der_erzherzog_von_oesterreich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|ein_veronesischer_krieger" source="die_mailaender" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|otto_von_wittelsbach" source="die_mailaender" target="otto_von_wittelsbach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|ein_hauptmann" source="die_mailaender" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|schwaebische_krieger" source="die_mailaender" target="schwaebische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|hohenzollern" source="die_mailaender" target="hohenzollern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|koenig_von_boehmen" source="die_mailaender" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|koenig_von_polen" source="die_mailaender" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|das_deutsche_heer_das_kaiserliche_heer" source="die_mailaender" target="das_deutsche_heer_das_kaiserliche_heer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|prinz_heinrich" source="die_mailaender" target="prinz_heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|viele_hauptleute_des_heeres" source="die_mailaender" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|ein_mailaender" source="die_mailaender" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaender|ein_anderer_mailaender" source="die_mailaender" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_vater|der_sohn" source="der_vater" target="der_sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_vater|kardinal_ugolini" source="der_vater" target="kardinal_ugolini">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_vater|gherardo" source="der_vater" target="gherardo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_vater|die_lombarden" source="der_vater" target="die_lombarden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_vater|der_bote" source="der_vater" target="der_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_sohn|kardinal_ugolini" source="der_sohn" target="kardinal_ugolini">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_sohn|gherardo" source="der_sohn" target="gherardo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_sohn|die_lombarden" source="der_sohn" target="die_lombarden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_sohn|der_bote" source="der_sohn" target="der_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|gherardo" source="kardinal_ugolini" target="gherardo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kardinal_ugolini|die_lombarden" source="kardinal_ugolini" target="die_lombarden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kardinal_ugolini|der_bote" source="kardinal_ugolini" target="der_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|wilhelm" source="kardinal_ugolini" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|landolph" source="kardinal_ugolini" target="landolph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|giso" source="kardinal_ugolini" target="giso">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|ulrich" source="kardinal_ugolini" target="ulrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|rudolph" source="kardinal_ugolini" target="rudolph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|das_deutsche_heer_das_kaiserliche_heer" source="kardinal_ugolini" target="das_deutsche_heer_das_kaiserliche_heer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kardinal_ugolini|heinrich_der_loewe" source="kardinal_ugolini" target="heinrich_der_loewe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|otto_von_wittelsbach" source="kardinal_ugolini" target="otto_von_wittelsbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kardinal_ugolini|kaiser_friedrich" source="kardinal_ugolini" target="kaiser_friedrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kardinal_ugolini|einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" source="kardinal_ugolini" target="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|prinz_heinrich" source="kardinal_ugolini" target="prinz_heinrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kardinal_ugolini|der_erzherzog_von_oesterreich" source="kardinal_ugolini" target="der_erzherzog_von_oesterreich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kardinal_ugolini|graf_von_tirol" source="kardinal_ugolini" target="graf_von_tirol">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|hohenzollern" source="kardinal_ugolini" target="hohenzollern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kardinal_ugolini|ein_hauptmann_des_kaiserlichen_heers" source="kardinal_ugolini" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|ein_reichsherold" source="kardinal_ugolini" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|einer_der_lombarden_1" source="kardinal_ugolini" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|einer_der_lombarden_2" source="kardinal_ugolini" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|beatrice" source="kardinal_ugolini" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|ein_krieger" source="kardinal_ugolini" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|reichsherold" source="kardinal_ugolini" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|die_mailaendischen_todesbanner" source="kardinal_ugolini" target="die_mailaendischen_todesbanner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|erzbischof_von_mainz" source="kardinal_ugolini" target="erzbischof_von_mainz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|geschrei_der_lodenser" source="kardinal_ugolini" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|ein_veronesischer_krieger" source="kardinal_ugolini" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|ein_hauptmann" source="kardinal_ugolini" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|schwaebische_krieger" source="kardinal_ugolini" target="schwaebische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|koenig_von_boehmen" source="kardinal_ugolini" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|koenig_von_polen" source="kardinal_ugolini" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|viele_hauptleute_des_heeres" source="kardinal_ugolini" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|ein_mailaender" source="kardinal_ugolini" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kardinal_ugolini|ein_anderer_mailaender" source="kardinal_ugolini" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|die_lombarden" source="gherardo" target="die_lombarden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gherardo|der_bote" source="gherardo" target="der_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|die_mailaendischen_todesbanner" source="gherardo" target="die_mailaendischen_todesbanner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|kaiser_friedrich" source="gherardo" target="kaiser_friedrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gherardo|erzbischof_von_mainz" source="gherardo" target="erzbischof_von_mainz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gherardo|geschrei_der_lodenser" source="gherardo" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|der_erzherzog_von_oesterreich" source="gherardo" target="der_erzherzog_von_oesterreich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|ein_veronesischer_krieger" source="gherardo" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|otto_von_wittelsbach" source="gherardo" target="otto_von_wittelsbach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|ein_hauptmann" source="gherardo" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|schwaebische_krieger" source="gherardo" target="schwaebische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|hohenzollern" source="gherardo" target="hohenzollern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|koenig_von_boehmen" source="gherardo" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|koenig_von_polen" source="gherardo" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|das_deutsche_heer_das_kaiserliche_heer" source="gherardo" target="das_deutsche_heer_das_kaiserliche_heer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|prinz_heinrich" source="gherardo" target="prinz_heinrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gherardo|viele_hauptleute_des_heeres" source="gherardo" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|ein_mailaender" source="gherardo" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|ein_anderer_mailaender" source="gherardo" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|papst_alexander" source="gherardo" target="papst_alexander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|der_doge" source="gherardo" target="der_doge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|einer_der_senatoren" source="gherardo" target="einer_der_senatoren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|lauter_ruf_hinter_der_szene" source="gherardo" target="lauter_ruf_hinter_der_szene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|ein_diener" source="gherardo" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|monteferrat" source="gherardo" target="monteferrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gherardo|das_volk" source="gherardo" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|der_bote" source="die_lombarden" target="der_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|kaiser_friedrich" source="die_lombarden" target="kaiser_friedrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_lombarden|beatrice" source="die_lombarden" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|ein_gewaffneter_1" source="die_lombarden" target="ein_gewaffneter_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|heinrich_der_loewe" source="die_lombarden" target="heinrich_der_loewe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|jordanus_truchsess" source="die_lombarden" target="jordanus_truchsess">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|albrecht_von_roden" source="die_lombarden" target="albrecht_von_roden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|das_sachsenheer" source="die_lombarden" target="das_sachsenheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|schwaebische_krieger" source="die_lombarden" target="schwaebische_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_lombarden|fraenkische_krieger" source="die_lombarden" target="fraenkische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|ein_schwaebischer_ritter" source="die_lombarden" target="ein_schwaebischer_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|die_begleiter_heinrichs_des_loewen" source="die_lombarden" target="die_begleiter_heinrichs_des_loewen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|ein_gewaffneter_2" source="die_lombarden" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|erzbischof_von_mainz" source="die_lombarden" target="erzbischof_von_mainz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_lombarden|prinz_heinrich" source="die_lombarden" target="prinz_heinrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_lombarden|graf_von_tirol" source="die_lombarden" target="graf_von_tirol">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|alle_anwesenden_akt_2" source="die_lombarden" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|hohenzollern" source="die_lombarden" target="hohenzollern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_lombarden|die_mailaendischen_todesbanner" source="die_lombarden" target="die_mailaendischen_todesbanner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|geschrei_der_lodenser" source="die_lombarden" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|der_erzherzog_von_oesterreich" source="die_lombarden" target="der_erzherzog_von_oesterreich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|ein_veronesischer_krieger" source="die_lombarden" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|otto_von_wittelsbach" source="die_lombarden" target="otto_von_wittelsbach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|ein_hauptmann" source="die_lombarden" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|koenig_von_boehmen" source="die_lombarden" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|koenig_von_polen" source="die_lombarden" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|das_deutsche_heer_das_kaiserliche_heer" source="die_lombarden" target="das_deutsche_heer_das_kaiserliche_heer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|viele_hauptleute_des_heeres" source="die_lombarden" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|ein_mailaender" source="die_lombarden" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lombarden|ein_anderer_mailaender" source="die_lombarden" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|landolph" source="wilhelm" target="landolph">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wilhelm|giso" source="wilhelm" target="giso">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|ulrich" source="wilhelm" target="ulrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|rudolph" source="wilhelm" target="rudolph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|das_deutsche_heer_das_kaiserliche_heer" source="wilhelm" target="das_deutsche_heer_das_kaiserliche_heer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|heinrich_der_loewe" source="wilhelm" target="heinrich_der_loewe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wilhelm|otto_von_wittelsbach" source="wilhelm" target="otto_von_wittelsbach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|kaiser_friedrich" source="wilhelm" target="kaiser_friedrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" source="wilhelm" target="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|prinz_heinrich" source="wilhelm" target="prinz_heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|der_erzherzog_von_oesterreich" source="wilhelm" target="der_erzherzog_von_oesterreich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|graf_von_tirol" source="wilhelm" target="graf_von_tirol">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|hohenzollern" source="wilhelm" target="hohenzollern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|ein_hauptmann_des_kaiserlichen_heers" source="wilhelm" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|ein_reichsherold" source="wilhelm" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|einer_der_lombarden_1" source="wilhelm" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|einer_der_lombarden_2" source="wilhelm" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|beatrice" source="wilhelm" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|ein_krieger" source="wilhelm" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|reichsherold" source="wilhelm" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|eine_schildwache" source="wilhelm" target="eine_schildwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|jordanus_truchsess" source="wilhelm" target="jordanus_truchsess">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|graf_von_orla" source="wilhelm" target="graf_von_orla">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|albrecht_von_roden" source="wilhelm" target="albrecht_von_roden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|das_sachsenheer" source="wilhelm" target="das_sachsenheer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|koenig_waldemar" source="wilhelm" target="koenig_waldemar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|grossfuerst_litauens" source="wilhelm" target="grossfuerst_litauens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|mathildis" source="wilhelm" target="mathildis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|graf_von_barcelona" source="wilhelm" target="graf_von_barcelona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|graf_von_montpellier" source="wilhelm" target="graf_von_montpellier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|heinrich_von_ofterdingen" source="wilhelm" target="heinrich_von_ofterdingen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|erzbischof_von_mainz" source="wilhelm" target="erzbischof_von_mainz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|schwaebische_krieger" source="wilhelm" target="schwaebische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|fraenkische_krieger" source="wilhelm" target="fraenkische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|giso" source="landolph" target="giso">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|ulrich" source="landolph" target="ulrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|rudolph" source="landolph" target="rudolph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|das_deutsche_heer_das_kaiserliche_heer" source="landolph" target="das_deutsche_heer_das_kaiserliche_heer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="landolph|heinrich_der_loewe" source="landolph" target="heinrich_der_loewe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="landolph|otto_von_wittelsbach" source="landolph" target="otto_von_wittelsbach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|kaiser_friedrich" source="landolph" target="kaiser_friedrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="landolph|einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" source="landolph" target="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|prinz_heinrich" source="landolph" target="prinz_heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|der_erzherzog_von_oesterreich" source="landolph" target="der_erzherzog_von_oesterreich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="landolph|graf_von_tirol" source="landolph" target="graf_von_tirol">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|hohenzollern" source="landolph" target="hohenzollern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="landolph|ein_hauptmann_des_kaiserlichen_heers" source="landolph" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|ein_reichsherold" source="landolph" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|einer_der_lombarden_1" source="landolph" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|einer_der_lombarden_2" source="landolph" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|beatrice" source="landolph" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|ein_krieger" source="landolph" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|reichsherold" source="landolph" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|graf_von_orla" source="landolph" target="graf_von_orla">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="landolph|jordanus_truchsess" source="landolph" target="jordanus_truchsess">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="landolph|albrecht_von_roden" source="landolph" target="albrecht_von_roden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="landolph|die_saechsischen_feldherren" source="landolph" target="die_saechsischen_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|graf_von_andechs" source="landolph" target="graf_von_andechs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|eine_schildwache" source="landolph" target="eine_schildwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|das_sachsenheer" source="landolph" target="das_sachsenheer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="landolph|koenig_waldemar" source="landolph" target="koenig_waldemar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|grossfuerst_litauens" source="landolph" target="grossfuerst_litauens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|mathildis" source="landolph" target="mathildis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="landolph|graf_von_barcelona" source="landolph" target="graf_von_barcelona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|graf_von_montpellier" source="landolph" target="graf_von_montpellier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|heinrich_von_ofterdingen" source="landolph" target="heinrich_von_ofterdingen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|erzbischof_von_mainz" source="landolph" target="erzbischof_von_mainz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|schwaebische_krieger" source="landolph" target="schwaebische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landolph|fraenkische_krieger" source="landolph" target="fraenkische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|ulrich" source="giso" target="ulrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|rudolph" source="giso" target="rudolph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|das_deutsche_heer_das_kaiserliche_heer" source="giso" target="das_deutsche_heer_das_kaiserliche_heer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|heinrich_der_loewe" source="giso" target="heinrich_der_loewe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|otto_von_wittelsbach" source="giso" target="otto_von_wittelsbach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|kaiser_friedrich" source="giso" target="kaiser_friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" source="giso" target="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|prinz_heinrich" source="giso" target="prinz_heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|der_erzherzog_von_oesterreich" source="giso" target="der_erzherzog_von_oesterreich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|graf_von_tirol" source="giso" target="graf_von_tirol">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|hohenzollern" source="giso" target="hohenzollern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|ein_hauptmann_des_kaiserlichen_heers" source="giso" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|ein_reichsherold" source="giso" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|einer_der_lombarden_1" source="giso" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|einer_der_lombarden_2" source="giso" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|beatrice" source="giso" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|ein_krieger" source="giso" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giso|reichsherold" source="giso" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|rudolph" source="ulrich" target="rudolph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|das_deutsche_heer_das_kaiserliche_heer" source="ulrich" target="das_deutsche_heer_das_kaiserliche_heer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|heinrich_der_loewe" source="ulrich" target="heinrich_der_loewe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|otto_von_wittelsbach" source="ulrich" target="otto_von_wittelsbach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|kaiser_friedrich" source="ulrich" target="kaiser_friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" source="ulrich" target="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|prinz_heinrich" source="ulrich" target="prinz_heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|der_erzherzog_von_oesterreich" source="ulrich" target="der_erzherzog_von_oesterreich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|graf_von_tirol" source="ulrich" target="graf_von_tirol">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|hohenzollern" source="ulrich" target="hohenzollern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|ein_hauptmann_des_kaiserlichen_heers" source="ulrich" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|ein_reichsherold" source="ulrich" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|einer_der_lombarden_1" source="ulrich" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|einer_der_lombarden_2" source="ulrich" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|beatrice" source="ulrich" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|ein_krieger" source="ulrich" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrich|reichsherold" source="ulrich" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|das_deutsche_heer_das_kaiserliche_heer" source="rudolph" target="das_deutsche_heer_das_kaiserliche_heer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|heinrich_der_loewe" source="rudolph" target="heinrich_der_loewe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|otto_von_wittelsbach" source="rudolph" target="otto_von_wittelsbach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|kaiser_friedrich" source="rudolph" target="kaiser_friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" source="rudolph" target="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|prinz_heinrich" source="rudolph" target="prinz_heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|der_erzherzog_von_oesterreich" source="rudolph" target="der_erzherzog_von_oesterreich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|graf_von_tirol" source="rudolph" target="graf_von_tirol">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|hohenzollern" source="rudolph" target="hohenzollern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|ein_hauptmann_des_kaiserlichen_heers" source="rudolph" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|ein_reichsherold" source="rudolph" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|einer_der_lombarden_1" source="rudolph" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|einer_der_lombarden_2" source="rudolph" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|beatrice" source="rudolph" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|ein_krieger" source="rudolph" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|reichsherold" source="rudolph" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|heinrich_der_loewe" source="das_deutsche_heer_das_kaiserliche_heer" target="heinrich_der_loewe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|otto_von_wittelsbach" source="das_deutsche_heer_das_kaiserliche_heer" target="otto_von_wittelsbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|kaiser_friedrich" source="das_deutsche_heer_das_kaiserliche_heer" target="kaiser_friedrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" source="das_deutsche_heer_das_kaiserliche_heer" target="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|prinz_heinrich" source="das_deutsche_heer_das_kaiserliche_heer" target="prinz_heinrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|der_erzherzog_von_oesterreich" source="das_deutsche_heer_das_kaiserliche_heer" target="der_erzherzog_von_oesterreich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|graf_von_tirol" source="das_deutsche_heer_das_kaiserliche_heer" target="graf_von_tirol">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|hohenzollern" source="das_deutsche_heer_das_kaiserliche_heer" target="hohenzollern">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|ein_hauptmann_des_kaiserlichen_heers" source="das_deutsche_heer_das_kaiserliche_heer" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|ein_reichsherold" source="das_deutsche_heer_das_kaiserliche_heer" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|einer_der_lombarden_1" source="das_deutsche_heer_das_kaiserliche_heer" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|einer_der_lombarden_2" source="das_deutsche_heer_das_kaiserliche_heer" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|beatrice" source="das_deutsche_heer_das_kaiserliche_heer" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|ein_krieger" source="das_deutsche_heer_das_kaiserliche_heer" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|reichsherold" source="das_deutsche_heer_das_kaiserliche_heer" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|die_mailaendischen_todesbanner" source="das_deutsche_heer_das_kaiserliche_heer" target="die_mailaendischen_todesbanner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|erzbischof_von_mainz" source="das_deutsche_heer_das_kaiserliche_heer" target="erzbischof_von_mainz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|geschrei_der_lodenser" source="das_deutsche_heer_das_kaiserliche_heer" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|ein_veronesischer_krieger" source="das_deutsche_heer_das_kaiserliche_heer" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|ein_hauptmann" source="das_deutsche_heer_das_kaiserliche_heer" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|schwaebische_krieger" source="das_deutsche_heer_das_kaiserliche_heer" target="schwaebische_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|koenig_von_boehmen" source="das_deutsche_heer_das_kaiserliche_heer" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|koenig_von_polen" source="das_deutsche_heer_das_kaiserliche_heer" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|viele_hauptleute_des_heeres" source="das_deutsche_heer_das_kaiserliche_heer" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|ein_mailaender" source="das_deutsche_heer_das_kaiserliche_heer" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|ein_anderer_mailaender" source="das_deutsche_heer_das_kaiserliche_heer" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|graf_von_barcelona" source="das_deutsche_heer_das_kaiserliche_heer" target="graf_von_barcelona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|jordanus_truchsess" source="das_deutsche_heer_das_kaiserliche_heer" target="jordanus_truchsess">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|graf_von_montpellier" source="das_deutsche_heer_das_kaiserliche_heer" target="graf_von_montpellier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|heinrich_von_ofterdingen" source="das_deutsche_heer_das_kaiserliche_heer" target="heinrich_von_ofterdingen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|das_sachsenheer" source="das_deutsche_heer_das_kaiserliche_heer" target="das_sachsenheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_heer_das_kaiserliche_heer|fraenkische_krieger" source="das_deutsche_heer_das_kaiserliche_heer" target="fraenkische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|otto_von_wittelsbach" source="heinrich_der_loewe" target="otto_von_wittelsbach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|kaiser_friedrich" source="heinrich_der_loewe" target="kaiser_friedrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich_der_loewe|einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" source="heinrich_der_loewe" target="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|prinz_heinrich" source="heinrich_der_loewe" target="prinz_heinrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich_der_loewe|der_erzherzog_von_oesterreich" source="heinrich_der_loewe" target="der_erzherzog_von_oesterreich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich_der_loewe|graf_von_tirol" source="heinrich_der_loewe" target="graf_von_tirol">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich_der_loewe|hohenzollern" source="heinrich_der_loewe" target="hohenzollern">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich_der_loewe|ein_hauptmann_des_kaiserlichen_heers" source="heinrich_der_loewe" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|ein_reichsherold" source="heinrich_der_loewe" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|einer_der_lombarden_1" source="heinrich_der_loewe" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|einer_der_lombarden_2" source="heinrich_der_loewe" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|beatrice" source="heinrich_der_loewe" target="beatrice">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich_der_loewe|ein_krieger" source="heinrich_der_loewe" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|reichsherold" source="heinrich_der_loewe" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|graf_von_orla" source="heinrich_der_loewe" target="graf_von_orla">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich_der_loewe|jordanus_truchsess" source="heinrich_der_loewe" target="jordanus_truchsess">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="heinrich_der_loewe|albrecht_von_roden" source="heinrich_der_loewe" target="albrecht_von_roden">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich_der_loewe|die_saechsischen_feldherren" source="heinrich_der_loewe" target="die_saechsischen_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|graf_von_andechs" source="heinrich_der_loewe" target="graf_von_andechs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|ein_gewaffneter_1" source="heinrich_der_loewe" target="ein_gewaffneter_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|das_sachsenheer" source="heinrich_der_loewe" target="das_sachsenheer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich_der_loewe|schwaebische_krieger" source="heinrich_der_loewe" target="schwaebische_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich_der_loewe|fraenkische_krieger" source="heinrich_der_loewe" target="fraenkische_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich_der_loewe|ein_schwaebischer_ritter" source="heinrich_der_loewe" target="ein_schwaebischer_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|die_begleiter_heinrichs_des_loewen" source="heinrich_der_loewe" target="die_begleiter_heinrichs_des_loewen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|ein_gewaffneter_2" source="heinrich_der_loewe" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|erzbischof_von_mainz" source="heinrich_der_loewe" target="erzbischof_von_mainz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich_der_loewe|alle_anwesenden_akt_2" source="heinrich_der_loewe" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|eine_schildwache" source="heinrich_der_loewe" target="eine_schildwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|koenig_waldemar" source="heinrich_der_loewe" target="koenig_waldemar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|grossfuerst_litauens" source="heinrich_der_loewe" target="grossfuerst_litauens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|mathildis" source="heinrich_der_loewe" target="mathildis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich_der_loewe|graf_von_barcelona" source="heinrich_der_loewe" target="graf_von_barcelona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|graf_von_montpellier" source="heinrich_der_loewe" target="graf_von_montpellier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|heinrich_von_ofterdingen" source="heinrich_der_loewe" target="heinrich_von_ofterdingen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|kaiser_friedrich" source="otto_von_wittelsbach" target="kaiser_friedrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" source="otto_von_wittelsbach" target="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|prinz_heinrich" source="otto_von_wittelsbach" target="prinz_heinrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|der_erzherzog_von_oesterreich" source="otto_von_wittelsbach" target="der_erzherzog_von_oesterreich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|graf_von_tirol" source="otto_von_wittelsbach" target="graf_von_tirol">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|hohenzollern" source="otto_von_wittelsbach" target="hohenzollern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|ein_hauptmann_des_kaiserlichen_heers" source="otto_von_wittelsbach" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|ein_reichsherold" source="otto_von_wittelsbach" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|einer_der_lombarden_1" source="otto_von_wittelsbach" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|einer_der_lombarden_2" source="otto_von_wittelsbach" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|beatrice" source="otto_von_wittelsbach" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|ein_krieger" source="otto_von_wittelsbach" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|reichsherold" source="otto_von_wittelsbach" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|die_mailaendischen_todesbanner" source="otto_von_wittelsbach" target="die_mailaendischen_todesbanner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|erzbischof_von_mainz" source="otto_von_wittelsbach" target="erzbischof_von_mainz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|geschrei_der_lodenser" source="otto_von_wittelsbach" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|ein_veronesischer_krieger" source="otto_von_wittelsbach" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|ein_hauptmann" source="otto_von_wittelsbach" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|schwaebische_krieger" source="otto_von_wittelsbach" target="schwaebische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|koenig_von_boehmen" source="otto_von_wittelsbach" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|koenig_von_polen" source="otto_von_wittelsbach" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|viele_hauptleute_des_heeres" source="otto_von_wittelsbach" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|ein_mailaender" source="otto_von_wittelsbach" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_wittelsbach|ein_anderer_mailaender" source="otto_von_wittelsbach" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" source="kaiser_friedrich" target="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|prinz_heinrich" source="kaiser_friedrich" target="prinz_heinrich">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kaiser_friedrich|der_erzherzog_von_oesterreich" source="kaiser_friedrich" target="der_erzherzog_von_oesterreich">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kaiser_friedrich|graf_von_tirol" source="kaiser_friedrich" target="graf_von_tirol">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaiser_friedrich|hohenzollern" source="kaiser_friedrich" target="hohenzollern">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="kaiser_friedrich|ein_hauptmann_des_kaiserlichen_heers" source="kaiser_friedrich" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|ein_reichsherold" source="kaiser_friedrich" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|einer_der_lombarden_1" source="kaiser_friedrich" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|einer_der_lombarden_2" source="kaiser_friedrich" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|beatrice" source="kaiser_friedrich" target="beatrice">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kaiser_friedrich|ein_krieger" source="kaiser_friedrich" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|reichsherold" source="kaiser_friedrich" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|ein_gewaffneter_1" source="kaiser_friedrich" target="ein_gewaffneter_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|jordanus_truchsess" source="kaiser_friedrich" target="jordanus_truchsess">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaiser_friedrich|albrecht_von_roden" source="kaiser_friedrich" target="albrecht_von_roden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|das_sachsenheer" source="kaiser_friedrich" target="das_sachsenheer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaiser_friedrich|schwaebische_krieger" source="kaiser_friedrich" target="schwaebische_krieger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kaiser_friedrich|fraenkische_krieger" source="kaiser_friedrich" target="fraenkische_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaiser_friedrich|ein_schwaebischer_ritter" source="kaiser_friedrich" target="ein_schwaebischer_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|die_begleiter_heinrichs_des_loewen" source="kaiser_friedrich" target="die_begleiter_heinrichs_des_loewen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|ein_gewaffneter_2" source="kaiser_friedrich" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|erzbischof_von_mainz" source="kaiser_friedrich" target="erzbischof_von_mainz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kaiser_friedrich|alle_anwesenden_akt_2" source="kaiser_friedrich" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|die_mailaendischen_todesbanner" source="kaiser_friedrich" target="die_mailaendischen_todesbanner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|geschrei_der_lodenser" source="kaiser_friedrich" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|ein_veronesischer_krieger" source="kaiser_friedrich" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|ein_hauptmann" source="kaiser_friedrich" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|koenig_von_boehmen" source="kaiser_friedrich" target="koenig_von_boehmen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaiser_friedrich|koenig_von_polen" source="kaiser_friedrich" target="koenig_von_polen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaiser_friedrich|viele_hauptleute_des_heeres" source="kaiser_friedrich" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|ein_mailaender" source="kaiser_friedrich" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|ein_anderer_mailaender" source="kaiser_friedrich" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|papst_alexander" source="kaiser_friedrich" target="papst_alexander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|der_doge" source="kaiser_friedrich" target="der_doge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|einer_der_senatoren" source="kaiser_friedrich" target="einer_der_senatoren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|lauter_ruf_hinter_der_szene" source="kaiser_friedrich" target="lauter_ruf_hinter_der_szene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|ein_diener" source="kaiser_friedrich" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|monteferrat" source="kaiser_friedrich" target="monteferrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|das_volk" source="kaiser_friedrich" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|landleute" source="kaiser_friedrich" target="landleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|der_kastellan_der_burg" source="kaiser_friedrich" target="der_kastellan_der_burg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|heinrich_von_ofterdingen" source="kaiser_friedrich" target="heinrich_von_ofterdingen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kaiser_friedrich|ein_turnierherold" source="kaiser_friedrich" target="ein_turnierherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|ein_ritter" source="kaiser_friedrich" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|graf_von_barcelona" source="kaiser_friedrich" target="graf_von_barcelona">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaiser_friedrich|graf_von_montpellier" source="kaiser_friedrich" target="graf_von_montpellier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaiser_friedrich|turnierherolde" source="kaiser_friedrich" target="turnierherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|prinz_plantagenet" source="kaiser_friedrich" target="prinz_plantagenet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|viele_stimmen" source="kaiser_friedrich" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|reichsherolde" source="kaiser_friedrich" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|die_gesandten_englands_und_frankreichs" source="kaiser_friedrich" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|ein_provenzialischer_troubadour" source="kaiser_friedrich" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|alle_anwesenden_akt_3" source="kaiser_friedrich" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|erzbischoefe_fuersten_ritter" source="kaiser_friedrich" target="erzbischoefe_fuersten_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|constanze" source="kaiser_friedrich" target="constanze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|alle_deutsche_und_normannen" source="kaiser_friedrich" target="alle_deutsche_und_normannen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser_friedrich|alle_anwesenden_akt_4" source="kaiser_friedrich" target="alle_anwesenden_akt_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde|prinz_heinrich" source="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" target="prinz_heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde|der_erzherzog_von_oesterreich" source="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" target="der_erzherzog_von_oesterreich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde|graf_von_tirol" source="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" target="graf_von_tirol">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde|hohenzollern" source="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" target="hohenzollern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde|ein_hauptmann_des_kaiserlichen_heers" source="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde|ein_reichsherold" source="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde|einer_der_lombarden_1" source="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde|einer_der_lombarden_2" source="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde|beatrice" source="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde|ein_krieger" source="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde|reichsherold" source="einer_der_vier_um_den_reichsschild_stehenden_reichsherolde" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|der_erzherzog_von_oesterreich" source="prinz_heinrich" target="der_erzherzog_von_oesterreich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinz_heinrich|graf_von_tirol" source="prinz_heinrich" target="graf_von_tirol">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinz_heinrich|hohenzollern" source="prinz_heinrich" target="hohenzollern">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="prinz_heinrich|ein_hauptmann_des_kaiserlichen_heers" source="prinz_heinrich" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|ein_reichsherold" source="prinz_heinrich" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|einer_der_lombarden_1" source="prinz_heinrich" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|einer_der_lombarden_2" source="prinz_heinrich" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|beatrice" source="prinz_heinrich" target="beatrice">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="prinz_heinrich|ein_krieger" source="prinz_heinrich" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|reichsherold" source="prinz_heinrich" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|ein_gewaffneter_1" source="prinz_heinrich" target="ein_gewaffneter_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|jordanus_truchsess" source="prinz_heinrich" target="jordanus_truchsess">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|albrecht_von_roden" source="prinz_heinrich" target="albrecht_von_roden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|das_sachsenheer" source="prinz_heinrich" target="das_sachsenheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|schwaebische_krieger" source="prinz_heinrich" target="schwaebische_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinz_heinrich|fraenkische_krieger" source="prinz_heinrich" target="fraenkische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|ein_schwaebischer_ritter" source="prinz_heinrich" target="ein_schwaebischer_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|die_begleiter_heinrichs_des_loewen" source="prinz_heinrich" target="die_begleiter_heinrichs_des_loewen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|ein_gewaffneter_2" source="prinz_heinrich" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|erzbischof_von_mainz" source="prinz_heinrich" target="erzbischof_von_mainz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="prinz_heinrich|alle_anwesenden_akt_2" source="prinz_heinrich" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|die_mailaendischen_todesbanner" source="prinz_heinrich" target="die_mailaendischen_todesbanner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|geschrei_der_lodenser" source="prinz_heinrich" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|ein_veronesischer_krieger" source="prinz_heinrich" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|ein_hauptmann" source="prinz_heinrich" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|koenig_von_boehmen" source="prinz_heinrich" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|koenig_von_polen" source="prinz_heinrich" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|viele_hauptleute_des_heeres" source="prinz_heinrich" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|ein_mailaender" source="prinz_heinrich" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|ein_anderer_mailaender" source="prinz_heinrich" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|papst_alexander" source="prinz_heinrich" target="papst_alexander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|der_doge" source="prinz_heinrich" target="der_doge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|einer_der_senatoren" source="prinz_heinrich" target="einer_der_senatoren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|lauter_ruf_hinter_der_szene" source="prinz_heinrich" target="lauter_ruf_hinter_der_szene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|ein_diener" source="prinz_heinrich" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|monteferrat" source="prinz_heinrich" target="monteferrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|das_volk" source="prinz_heinrich" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|heinrich_von_ofterdingen" source="prinz_heinrich" target="heinrich_von_ofterdingen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|erzbischoefe_fuersten_ritter" source="prinz_heinrich" target="erzbischoefe_fuersten_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|constanze" source="prinz_heinrich" target="constanze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|alle_deutsche_und_normannen" source="prinz_heinrich" target="alle_deutsche_und_normannen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_heinrich|alle_anwesenden_akt_4" source="prinz_heinrich" target="alle_anwesenden_akt_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|graf_von_tirol" source="der_erzherzog_von_oesterreich" target="graf_von_tirol">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|hohenzollern" source="der_erzherzog_von_oesterreich" target="hohenzollern">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|ein_hauptmann_des_kaiserlichen_heers" source="der_erzherzog_von_oesterreich" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|ein_reichsherold" source="der_erzherzog_von_oesterreich" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|einer_der_lombarden_1" source="der_erzherzog_von_oesterreich" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|einer_der_lombarden_2" source="der_erzherzog_von_oesterreich" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|beatrice" source="der_erzherzog_von_oesterreich" target="beatrice">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|ein_krieger" source="der_erzherzog_von_oesterreich" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|reichsherold" source="der_erzherzog_von_oesterreich" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|die_mailaendischen_todesbanner" source="der_erzherzog_von_oesterreich" target="die_mailaendischen_todesbanner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|erzbischof_von_mainz" source="der_erzherzog_von_oesterreich" target="erzbischof_von_mainz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|geschrei_der_lodenser" source="der_erzherzog_von_oesterreich" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|ein_veronesischer_krieger" source="der_erzherzog_von_oesterreich" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|ein_hauptmann" source="der_erzherzog_von_oesterreich" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|schwaebische_krieger" source="der_erzherzog_von_oesterreich" target="schwaebische_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|koenig_von_boehmen" source="der_erzherzog_von_oesterreich" target="koenig_von_boehmen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|koenig_von_polen" source="der_erzherzog_von_oesterreich" target="koenig_von_polen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|viele_hauptleute_des_heeres" source="der_erzherzog_von_oesterreich" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|ein_mailaender" source="der_erzherzog_von_oesterreich" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|ein_anderer_mailaender" source="der_erzherzog_von_oesterreich" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|heinrich_von_ofterdingen" source="der_erzherzog_von_oesterreich" target="heinrich_von_ofterdingen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|ein_turnierherold" source="der_erzherzog_von_oesterreich" target="ein_turnierherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|ein_ritter" source="der_erzherzog_von_oesterreich" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|graf_von_barcelona" source="der_erzherzog_von_oesterreich" target="graf_von_barcelona">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|graf_von_montpellier" source="der_erzherzog_von_oesterreich" target="graf_von_montpellier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|turnierherolde" source="der_erzherzog_von_oesterreich" target="turnierherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|prinz_plantagenet" source="der_erzherzog_von_oesterreich" target="prinz_plantagenet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|viele_stimmen" source="der_erzherzog_von_oesterreich" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|reichsherolde" source="der_erzherzog_von_oesterreich" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|die_gesandten_englands_und_frankreichs" source="der_erzherzog_von_oesterreich" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|ein_provenzialischer_troubadour" source="der_erzherzog_von_oesterreich" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|alle_anwesenden_akt_3" source="der_erzherzog_von_oesterreich" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|jordanus_truchsess" source="der_erzherzog_von_oesterreich" target="jordanus_truchsess">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|das_sachsenheer" source="der_erzherzog_von_oesterreich" target="das_sachsenheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erzherzog_von_oesterreich|fraenkische_krieger" source="der_erzherzog_von_oesterreich" target="fraenkische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|hohenzollern" source="graf_von_tirol" target="hohenzollern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf_von_tirol|ein_hauptmann_des_kaiserlichen_heers" source="graf_von_tirol" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|ein_reichsherold" source="graf_von_tirol" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|einer_der_lombarden_1" source="graf_von_tirol" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|einer_der_lombarden_2" source="graf_von_tirol" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|beatrice" source="graf_von_tirol" target="beatrice">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf_von_tirol|ein_krieger" source="graf_von_tirol" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|reichsherold" source="graf_von_tirol" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|ein_gewaffneter_1" source="graf_von_tirol" target="ein_gewaffneter_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|jordanus_truchsess" source="graf_von_tirol" target="jordanus_truchsess">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|albrecht_von_roden" source="graf_von_tirol" target="albrecht_von_roden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|das_sachsenheer" source="graf_von_tirol" target="das_sachsenheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|schwaebische_krieger" source="graf_von_tirol" target="schwaebische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|fraenkische_krieger" source="graf_von_tirol" target="fraenkische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|ein_schwaebischer_ritter" source="graf_von_tirol" target="ein_schwaebischer_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|die_begleiter_heinrichs_des_loewen" source="graf_von_tirol" target="die_begleiter_heinrichs_des_loewen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|ein_gewaffneter_2" source="graf_von_tirol" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|erzbischof_von_mainz" source="graf_von_tirol" target="erzbischof_von_mainz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_tirol|alle_anwesenden_akt_2" source="graf_von_tirol" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|ein_hauptmann_des_kaiserlichen_heers" source="hohenzollern" target="ein_hauptmann_des_kaiserlichen_heers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|ein_reichsherold" source="hohenzollern" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|einer_der_lombarden_1" source="hohenzollern" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|einer_der_lombarden_2" source="hohenzollern" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|beatrice" source="hohenzollern" target="beatrice">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hohenzollern|ein_krieger" source="hohenzollern" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|reichsherold" source="hohenzollern" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|ein_gewaffneter_1" source="hohenzollern" target="ein_gewaffneter_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|jordanus_truchsess" source="hohenzollern" target="jordanus_truchsess">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hohenzollern|albrecht_von_roden" source="hohenzollern" target="albrecht_von_roden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|das_sachsenheer" source="hohenzollern" target="das_sachsenheer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hohenzollern|schwaebische_krieger" source="hohenzollern" target="schwaebische_krieger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hohenzollern|fraenkische_krieger" source="hohenzollern" target="fraenkische_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hohenzollern|ein_schwaebischer_ritter" source="hohenzollern" target="ein_schwaebischer_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|die_begleiter_heinrichs_des_loewen" source="hohenzollern" target="die_begleiter_heinrichs_des_loewen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|ein_gewaffneter_2" source="hohenzollern" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|erzbischof_von_mainz" source="hohenzollern" target="erzbischof_von_mainz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hohenzollern|alle_anwesenden_akt_2" source="hohenzollern" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|die_mailaendischen_todesbanner" source="hohenzollern" target="die_mailaendischen_todesbanner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|geschrei_der_lodenser" source="hohenzollern" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|ein_veronesischer_krieger" source="hohenzollern" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|ein_hauptmann" source="hohenzollern" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|koenig_von_boehmen" source="hohenzollern" target="koenig_von_boehmen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hohenzollern|koenig_von_polen" source="hohenzollern" target="koenig_von_polen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hohenzollern|viele_hauptleute_des_heeres" source="hohenzollern" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|ein_mailaender" source="hohenzollern" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|ein_anderer_mailaender" source="hohenzollern" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|heinrich_von_ofterdingen" source="hohenzollern" target="heinrich_von_ofterdingen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hohenzollern|ein_turnierherold" source="hohenzollern" target="ein_turnierherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|ein_ritter" source="hohenzollern" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|graf_von_barcelona" source="hohenzollern" target="graf_von_barcelona">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hohenzollern|graf_von_montpellier" source="hohenzollern" target="graf_von_montpellier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hohenzollern|turnierherolde" source="hohenzollern" target="turnierherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|prinz_plantagenet" source="hohenzollern" target="prinz_plantagenet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|viele_stimmen" source="hohenzollern" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|reichsherolde" source="hohenzollern" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|die_gesandten_englands_und_frankreichs" source="hohenzollern" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|ein_provenzialischer_troubadour" source="hohenzollern" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|alle_anwesenden_akt_3" source="hohenzollern" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|erzbischoefe_fuersten_ritter" source="hohenzollern" target="erzbischoefe_fuersten_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|constanze" source="hohenzollern" target="constanze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|alle_deutsche_und_normannen" source="hohenzollern" target="alle_deutsche_und_normannen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenzollern|alle_anwesenden_akt_4" source="hohenzollern" target="alle_anwesenden_akt_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hauptmann_des_kaiserlichen_heers|ein_reichsherold" source="ein_hauptmann_des_kaiserlichen_heers" target="ein_reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hauptmann_des_kaiserlichen_heers|einer_der_lombarden_1" source="ein_hauptmann_des_kaiserlichen_heers" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hauptmann_des_kaiserlichen_heers|einer_der_lombarden_2" source="ein_hauptmann_des_kaiserlichen_heers" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hauptmann_des_kaiserlichen_heers|beatrice" source="ein_hauptmann_des_kaiserlichen_heers" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hauptmann_des_kaiserlichen_heers|ein_krieger" source="ein_hauptmann_des_kaiserlichen_heers" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hauptmann_des_kaiserlichen_heers|reichsherold" source="ein_hauptmann_des_kaiserlichen_heers" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_reichsherold|einer_der_lombarden_1" source="ein_reichsherold" target="einer_der_lombarden_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_reichsherold|einer_der_lombarden_2" source="ein_reichsherold" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_reichsherold|beatrice" source="ein_reichsherold" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_reichsherold|ein_krieger" source="ein_reichsherold" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_reichsherold|reichsherold" source="ein_reichsherold" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_lombarden_1|einer_der_lombarden_2" source="einer_der_lombarden_1" target="einer_der_lombarden_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_lombarden_1|beatrice" source="einer_der_lombarden_1" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_lombarden_1|ein_krieger" source="einer_der_lombarden_1" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_lombarden_1|reichsherold" source="einer_der_lombarden_1" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_lombarden_2|beatrice" source="einer_der_lombarden_2" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_lombarden_2|ein_krieger" source="einer_der_lombarden_2" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_lombarden_2|reichsherold" source="einer_der_lombarden_2" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|ein_krieger" source="beatrice" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|reichsherold" source="beatrice" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|ein_gewaffneter_1" source="beatrice" target="ein_gewaffneter_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|jordanus_truchsess" source="beatrice" target="jordanus_truchsess">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|albrecht_von_roden" source="beatrice" target="albrecht_von_roden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|das_sachsenheer" source="beatrice" target="das_sachsenheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|schwaebische_krieger" source="beatrice" target="schwaebische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|fraenkische_krieger" source="beatrice" target="fraenkische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|ein_schwaebischer_ritter" source="beatrice" target="ein_schwaebischer_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|die_begleiter_heinrichs_des_loewen" source="beatrice" target="die_begleiter_heinrichs_des_loewen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|ein_gewaffneter_2" source="beatrice" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|erzbischof_von_mainz" source="beatrice" target="erzbischof_von_mainz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="beatrice|alle_anwesenden_akt_2" source="beatrice" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|landleute" source="beatrice" target="landleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|der_kastellan_der_burg" source="beatrice" target="der_kastellan_der_burg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|heinrich_von_ofterdingen" source="beatrice" target="heinrich_von_ofterdingen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="beatrice|ein_turnierherold" source="beatrice" target="ein_turnierherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|ein_ritter" source="beatrice" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|graf_von_barcelona" source="beatrice" target="graf_von_barcelona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|graf_von_montpellier" source="beatrice" target="graf_von_montpellier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|turnierherolde" source="beatrice" target="turnierherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|prinz_plantagenet" source="beatrice" target="prinz_plantagenet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|koenig_von_polen" source="beatrice" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|koenig_von_boehmen" source="beatrice" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|viele_stimmen" source="beatrice" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|reichsherolde" source="beatrice" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|die_gesandten_englands_und_frankreichs" source="beatrice" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|ein_provenzialischer_troubadour" source="beatrice" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|alle_anwesenden_akt_3" source="beatrice" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|erzbischoefe_fuersten_ritter" source="beatrice" target="erzbischoefe_fuersten_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|constanze" source="beatrice" target="constanze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|alle_deutsche_und_normannen" source="beatrice" target="alle_deutsche_und_normannen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|alle_anwesenden_akt_4" source="beatrice" target="alle_anwesenden_akt_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_krieger|reichsherold" source="ein_krieger" target="reichsherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_orla|jordanus_truchsess" source="graf_von_orla" target="jordanus_truchsess">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf_von_orla|albrecht_von_roden" source="graf_von_orla" target="albrecht_von_roden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf_von_orla|die_saechsischen_feldherren" source="graf_von_orla" target="die_saechsischen_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_orla|graf_von_andechs" source="graf_von_orla" target="graf_von_andechs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_orla|eine_schildwache" source="graf_von_orla" target="eine_schildwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_orla|das_sachsenheer" source="graf_von_orla" target="das_sachsenheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_orla|koenig_waldemar" source="graf_von_orla" target="koenig_waldemar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_orla|grossfuerst_litauens" source="graf_von_orla" target="grossfuerst_litauens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_orla|mathildis" source="graf_von_orla" target="mathildis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jordanus_truchsess|albrecht_von_roden" source="jordanus_truchsess" target="albrecht_von_roden">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jordanus_truchsess|die_saechsischen_feldherren" source="jordanus_truchsess" target="die_saechsischen_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jordanus_truchsess|graf_von_andechs" source="jordanus_truchsess" target="graf_von_andechs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jordanus_truchsess|ein_gewaffneter_1" source="jordanus_truchsess" target="ein_gewaffneter_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jordanus_truchsess|das_sachsenheer" source="jordanus_truchsess" target="das_sachsenheer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jordanus_truchsess|schwaebische_krieger" source="jordanus_truchsess" target="schwaebische_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jordanus_truchsess|fraenkische_krieger" source="jordanus_truchsess" target="fraenkische_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jordanus_truchsess|ein_schwaebischer_ritter" source="jordanus_truchsess" target="ein_schwaebischer_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jordanus_truchsess|die_begleiter_heinrichs_des_loewen" source="jordanus_truchsess" target="die_begleiter_heinrichs_des_loewen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jordanus_truchsess|ein_gewaffneter_2" source="jordanus_truchsess" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jordanus_truchsess|erzbischof_von_mainz" source="jordanus_truchsess" target="erzbischof_von_mainz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jordanus_truchsess|alle_anwesenden_akt_2" source="jordanus_truchsess" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jordanus_truchsess|eine_schildwache" source="jordanus_truchsess" target="eine_schildwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jordanus_truchsess|koenig_waldemar" source="jordanus_truchsess" target="koenig_waldemar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jordanus_truchsess|grossfuerst_litauens" source="jordanus_truchsess" target="grossfuerst_litauens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jordanus_truchsess|mathildis" source="jordanus_truchsess" target="mathildis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jordanus_truchsess|graf_von_barcelona" source="jordanus_truchsess" target="graf_von_barcelona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jordanus_truchsess|graf_von_montpellier" source="jordanus_truchsess" target="graf_von_montpellier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jordanus_truchsess|heinrich_von_ofterdingen" source="jordanus_truchsess" target="heinrich_von_ofterdingen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_roden|die_saechsischen_feldherren" source="albrecht_von_roden" target="die_saechsischen_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_roden|graf_von_andechs" source="albrecht_von_roden" target="graf_von_andechs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_roden|ein_gewaffneter_1" source="albrecht_von_roden" target="ein_gewaffneter_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_roden|das_sachsenheer" source="albrecht_von_roden" target="das_sachsenheer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albrecht_von_roden|schwaebische_krieger" source="albrecht_von_roden" target="schwaebische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_roden|fraenkische_krieger" source="albrecht_von_roden" target="fraenkische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_roden|ein_schwaebischer_ritter" source="albrecht_von_roden" target="ein_schwaebischer_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_roden|die_begleiter_heinrichs_des_loewen" source="albrecht_von_roden" target="die_begleiter_heinrichs_des_loewen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_roden|ein_gewaffneter_2" source="albrecht_von_roden" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_roden|erzbischof_von_mainz" source="albrecht_von_roden" target="erzbischof_von_mainz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_roden|alle_anwesenden_akt_2" source="albrecht_von_roden" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_roden|eine_schildwache" source="albrecht_von_roden" target="eine_schildwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_roden|koenig_waldemar" source="albrecht_von_roden" target="koenig_waldemar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_roden|grossfuerst_litauens" source="albrecht_von_roden" target="grossfuerst_litauens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_roden|mathildis" source="albrecht_von_roden" target="mathildis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_saechsischen_feldherren|graf_von_andechs" source="die_saechsischen_feldherren" target="graf_von_andechs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gewaffneter_1|das_sachsenheer" source="ein_gewaffneter_1" target="das_sachsenheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gewaffneter_1|schwaebische_krieger" source="ein_gewaffneter_1" target="schwaebische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gewaffneter_1|fraenkische_krieger" source="ein_gewaffneter_1" target="fraenkische_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gewaffneter_1|ein_schwaebischer_ritter" source="ein_gewaffneter_1" target="ein_schwaebischer_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gewaffneter_1|die_begleiter_heinrichs_des_loewen" source="ein_gewaffneter_1" target="die_begleiter_heinrichs_des_loewen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gewaffneter_1|ein_gewaffneter_2" source="ein_gewaffneter_1" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gewaffneter_1|erzbischof_von_mainz" source="ein_gewaffneter_1" target="erzbischof_von_mainz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gewaffneter_1|alle_anwesenden_akt_2" source="ein_gewaffneter_1" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_sachsenheer|schwaebische_krieger" source="das_sachsenheer" target="schwaebische_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_sachsenheer|fraenkische_krieger" source="das_sachsenheer" target="fraenkische_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_sachsenheer|ein_schwaebischer_ritter" source="das_sachsenheer" target="ein_schwaebischer_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_sachsenheer|die_begleiter_heinrichs_des_loewen" source="das_sachsenheer" target="die_begleiter_heinrichs_des_loewen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_sachsenheer|ein_gewaffneter_2" source="das_sachsenheer" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_sachsenheer|erzbischof_von_mainz" source="das_sachsenheer" target="erzbischof_von_mainz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_sachsenheer|alle_anwesenden_akt_2" source="das_sachsenheer" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_sachsenheer|eine_schildwache" source="das_sachsenheer" target="eine_schildwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_sachsenheer|koenig_waldemar" source="das_sachsenheer" target="koenig_waldemar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_sachsenheer|grossfuerst_litauens" source="das_sachsenheer" target="grossfuerst_litauens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_sachsenheer|mathildis" source="das_sachsenheer" target="mathildis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_sachsenheer|graf_von_barcelona" source="das_sachsenheer" target="graf_von_barcelona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_sachsenheer|graf_von_montpellier" source="das_sachsenheer" target="graf_von_montpellier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_sachsenheer|heinrich_von_ofterdingen" source="das_sachsenheer" target="heinrich_von_ofterdingen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|fraenkische_krieger" source="schwaebische_krieger" target="fraenkische_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schwaebische_krieger|ein_schwaebischer_ritter" source="schwaebische_krieger" target="ein_schwaebischer_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|die_begleiter_heinrichs_des_loewen" source="schwaebische_krieger" target="die_begleiter_heinrichs_des_loewen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|ein_gewaffneter_2" source="schwaebische_krieger" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|erzbischof_von_mainz" source="schwaebische_krieger" target="erzbischof_von_mainz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schwaebische_krieger|alle_anwesenden_akt_2" source="schwaebische_krieger" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|die_mailaendischen_todesbanner" source="schwaebische_krieger" target="die_mailaendischen_todesbanner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|geschrei_der_lodenser" source="schwaebische_krieger" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|ein_veronesischer_krieger" source="schwaebische_krieger" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|ein_hauptmann" source="schwaebische_krieger" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|koenig_von_boehmen" source="schwaebische_krieger" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|koenig_von_polen" source="schwaebische_krieger" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|viele_hauptleute_des_heeres" source="schwaebische_krieger" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|ein_mailaender" source="schwaebische_krieger" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|ein_anderer_mailaender" source="schwaebische_krieger" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|graf_von_barcelona" source="schwaebische_krieger" target="graf_von_barcelona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|graf_von_montpellier" source="schwaebische_krieger" target="graf_von_montpellier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwaebische_krieger|heinrich_von_ofterdingen" source="schwaebische_krieger" target="heinrich_von_ofterdingen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraenkische_krieger|ein_schwaebischer_ritter" source="fraenkische_krieger" target="ein_schwaebischer_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraenkische_krieger|die_begleiter_heinrichs_des_loewen" source="fraenkische_krieger" target="die_begleiter_heinrichs_des_loewen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraenkische_krieger|ein_gewaffneter_2" source="fraenkische_krieger" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraenkische_krieger|erzbischof_von_mainz" source="fraenkische_krieger" target="erzbischof_von_mainz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraenkische_krieger|alle_anwesenden_akt_2" source="fraenkische_krieger" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraenkische_krieger|graf_von_barcelona" source="fraenkische_krieger" target="graf_von_barcelona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraenkische_krieger|graf_von_montpellier" source="fraenkische_krieger" target="graf_von_montpellier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraenkische_krieger|heinrich_von_ofterdingen" source="fraenkische_krieger" target="heinrich_von_ofterdingen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_schwaebischer_ritter|die_begleiter_heinrichs_des_loewen" source="ein_schwaebischer_ritter" target="die_begleiter_heinrichs_des_loewen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_schwaebischer_ritter|ein_gewaffneter_2" source="ein_schwaebischer_ritter" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_schwaebischer_ritter|erzbischof_von_mainz" source="ein_schwaebischer_ritter" target="erzbischof_von_mainz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_schwaebischer_ritter|alle_anwesenden_akt_2" source="ein_schwaebischer_ritter" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_begleiter_heinrichs_des_loewen|ein_gewaffneter_2" source="die_begleiter_heinrichs_des_loewen" target="ein_gewaffneter_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_begleiter_heinrichs_des_loewen|erzbischof_von_mainz" source="die_begleiter_heinrichs_des_loewen" target="erzbischof_von_mainz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_begleiter_heinrichs_des_loewen|alle_anwesenden_akt_2" source="die_begleiter_heinrichs_des_loewen" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gewaffneter_2|erzbischof_von_mainz" source="ein_gewaffneter_2" target="erzbischof_von_mainz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gewaffneter_2|alle_anwesenden_akt_2" source="ein_gewaffneter_2" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|alle_anwesenden_akt_2" source="erzbischof_von_mainz" target="alle_anwesenden_akt_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|die_mailaendischen_todesbanner" source="erzbischof_von_mainz" target="die_mailaendischen_todesbanner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|geschrei_der_lodenser" source="erzbischof_von_mainz" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|ein_veronesischer_krieger" source="erzbischof_von_mainz" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|ein_hauptmann" source="erzbischof_von_mainz" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|koenig_von_boehmen" source="erzbischof_von_mainz" target="koenig_von_boehmen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|koenig_von_polen" source="erzbischof_von_mainz" target="koenig_von_polen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|viele_hauptleute_des_heeres" source="erzbischof_von_mainz" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|ein_mailaender" source="erzbischof_von_mainz" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|ein_anderer_mailaender" source="erzbischof_von_mainz" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|papst_alexander" source="erzbischof_von_mainz" target="papst_alexander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|der_doge" source="erzbischof_von_mainz" target="der_doge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|einer_der_senatoren" source="erzbischof_von_mainz" target="einer_der_senatoren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|lauter_ruf_hinter_der_szene" source="erzbischof_von_mainz" target="lauter_ruf_hinter_der_szene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|ein_diener" source="erzbischof_von_mainz" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|monteferrat" source="erzbischof_von_mainz" target="monteferrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|das_volk" source="erzbischof_von_mainz" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|heinrich_von_ofterdingen" source="erzbischof_von_mainz" target="heinrich_von_ofterdingen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|ein_turnierherold" source="erzbischof_von_mainz" target="ein_turnierherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|ein_ritter" source="erzbischof_von_mainz" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|graf_von_barcelona" source="erzbischof_von_mainz" target="graf_von_barcelona">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|graf_von_montpellier" source="erzbischof_von_mainz" target="graf_von_montpellier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|turnierherolde" source="erzbischof_von_mainz" target="turnierherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|prinz_plantagenet" source="erzbischof_von_mainz" target="prinz_plantagenet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|viele_stimmen" source="erzbischof_von_mainz" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|reichsherolde" source="erzbischof_von_mainz" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|die_gesandten_englands_und_frankreichs" source="erzbischof_von_mainz" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|ein_provenzialischer_troubadour" source="erzbischof_von_mainz" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof_von_mainz|alle_anwesenden_akt_3" source="erzbischof_von_mainz" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaendischen_todesbanner|geschrei_der_lodenser" source="die_mailaendischen_todesbanner" target="geschrei_der_lodenser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaendischen_todesbanner|ein_veronesischer_krieger" source="die_mailaendischen_todesbanner" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaendischen_todesbanner|ein_hauptmann" source="die_mailaendischen_todesbanner" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaendischen_todesbanner|koenig_von_boehmen" source="die_mailaendischen_todesbanner" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaendischen_todesbanner|koenig_von_polen" source="die_mailaendischen_todesbanner" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaendischen_todesbanner|viele_hauptleute_des_heeres" source="die_mailaendischen_todesbanner" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaendischen_todesbanner|ein_mailaender" source="die_mailaendischen_todesbanner" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mailaendischen_todesbanner|ein_anderer_mailaender" source="die_mailaendischen_todesbanner" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geschrei_der_lodenser|ein_veronesischer_krieger" source="geschrei_der_lodenser" target="ein_veronesischer_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geschrei_der_lodenser|ein_hauptmann" source="geschrei_der_lodenser" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geschrei_der_lodenser|koenig_von_boehmen" source="geschrei_der_lodenser" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geschrei_der_lodenser|koenig_von_polen" source="geschrei_der_lodenser" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geschrei_der_lodenser|viele_hauptleute_des_heeres" source="geschrei_der_lodenser" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geschrei_der_lodenser|ein_mailaender" source="geschrei_der_lodenser" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geschrei_der_lodenser|ein_anderer_mailaender" source="geschrei_der_lodenser" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_veronesischer_krieger|ein_hauptmann" source="ein_veronesischer_krieger" target="ein_hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_veronesischer_krieger|koenig_von_boehmen" source="ein_veronesischer_krieger" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_veronesischer_krieger|koenig_von_polen" source="ein_veronesischer_krieger" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_veronesischer_krieger|viele_hauptleute_des_heeres" source="ein_veronesischer_krieger" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_veronesischer_krieger|ein_mailaender" source="ein_veronesischer_krieger" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_veronesischer_krieger|ein_anderer_mailaender" source="ein_veronesischer_krieger" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hauptmann|koenig_von_boehmen" source="ein_hauptmann" target="koenig_von_boehmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hauptmann|koenig_von_polen" source="ein_hauptmann" target="koenig_von_polen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hauptmann|viele_hauptleute_des_heeres" source="ein_hauptmann" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hauptmann|ein_mailaender" source="ein_hauptmann" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hauptmann|ein_anderer_mailaender" source="ein_hauptmann" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|koenig_von_polen" source="koenig_von_boehmen" target="koenig_von_polen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig_von_boehmen|viele_hauptleute_des_heeres" source="koenig_von_boehmen" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|ein_mailaender" source="koenig_von_boehmen" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|ein_anderer_mailaender" source="koenig_von_boehmen" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|heinrich_von_ofterdingen" source="koenig_von_boehmen" target="heinrich_von_ofterdingen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|ein_turnierherold" source="koenig_von_boehmen" target="ein_turnierherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|ein_ritter" source="koenig_von_boehmen" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|graf_von_barcelona" source="koenig_von_boehmen" target="graf_von_barcelona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|graf_von_montpellier" source="koenig_von_boehmen" target="graf_von_montpellier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|turnierherolde" source="koenig_von_boehmen" target="turnierherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|prinz_plantagenet" source="koenig_von_boehmen" target="prinz_plantagenet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|viele_stimmen" source="koenig_von_boehmen" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|reichsherolde" source="koenig_von_boehmen" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|die_gesandten_englands_und_frankreichs" source="koenig_von_boehmen" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|ein_provenzialischer_troubadour" source="koenig_von_boehmen" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_boehmen|alle_anwesenden_akt_3" source="koenig_von_boehmen" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|viele_hauptleute_des_heeres" source="koenig_von_polen" target="viele_hauptleute_des_heeres">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|ein_mailaender" source="koenig_von_polen" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|ein_anderer_mailaender" source="koenig_von_polen" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|heinrich_von_ofterdingen" source="koenig_von_polen" target="heinrich_von_ofterdingen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|ein_turnierherold" source="koenig_von_polen" target="ein_turnierherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|ein_ritter" source="koenig_von_polen" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|graf_von_barcelona" source="koenig_von_polen" target="graf_von_barcelona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|graf_von_montpellier" source="koenig_von_polen" target="graf_von_montpellier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|turnierherolde" source="koenig_von_polen" target="turnierherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|prinz_plantagenet" source="koenig_von_polen" target="prinz_plantagenet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|viele_stimmen" source="koenig_von_polen" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|reichsherolde" source="koenig_von_polen" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|die_gesandten_englands_und_frankreichs" source="koenig_von_polen" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|ein_provenzialischer_troubadour" source="koenig_von_polen" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_von_polen|alle_anwesenden_akt_3" source="koenig_von_polen" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_hauptleute_des_heeres|ein_mailaender" source="viele_hauptleute_des_heeres" target="ein_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_hauptleute_des_heeres|ein_anderer_mailaender" source="viele_hauptleute_des_heeres" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_mailaender|ein_anderer_mailaender" source="ein_mailaender" target="ein_anderer_mailaender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papst_alexander|der_doge" source="papst_alexander" target="der_doge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papst_alexander|einer_der_senatoren" source="papst_alexander" target="einer_der_senatoren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papst_alexander|lauter_ruf_hinter_der_szene" source="papst_alexander" target="lauter_ruf_hinter_der_szene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papst_alexander|ein_diener" source="papst_alexander" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papst_alexander|monteferrat" source="papst_alexander" target="monteferrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papst_alexander|das_volk" source="papst_alexander" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_doge|einer_der_senatoren" source="der_doge" target="einer_der_senatoren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_doge|lauter_ruf_hinter_der_szene" source="der_doge" target="lauter_ruf_hinter_der_szene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_doge|ein_diener" source="der_doge" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_doge|monteferrat" source="der_doge" target="monteferrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_doge|das_volk" source="der_doge" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_senatoren|lauter_ruf_hinter_der_szene" source="einer_der_senatoren" target="lauter_ruf_hinter_der_szene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_senatoren|ein_diener" source="einer_der_senatoren" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_senatoren|monteferrat" source="einer_der_senatoren" target="monteferrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_senatoren|das_volk" source="einer_der_senatoren" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauter_ruf_hinter_der_szene|ein_diener" source="lauter_ruf_hinter_der_szene" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauter_ruf_hinter_der_szene|monteferrat" source="lauter_ruf_hinter_der_szene" target="monteferrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauter_ruf_hinter_der_szene|das_volk" source="lauter_ruf_hinter_der_szene" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener|monteferrat" source="ein_diener" target="monteferrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener|das_volk" source="ein_diener" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="monteferrat|das_volk" source="monteferrat" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landleute|der_kastellan_der_burg" source="landleute" target="der_kastellan_der_burg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|ein_turnierherold" source="heinrich_von_ofterdingen" target="ein_turnierherold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|ein_ritter" source="heinrich_von_ofterdingen" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|graf_von_barcelona" source="heinrich_von_ofterdingen" target="graf_von_barcelona">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|graf_von_montpellier" source="heinrich_von_ofterdingen" target="graf_von_montpellier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|turnierherolde" source="heinrich_von_ofterdingen" target="turnierherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|prinz_plantagenet" source="heinrich_von_ofterdingen" target="prinz_plantagenet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|viele_stimmen" source="heinrich_von_ofterdingen" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|reichsherolde" source="heinrich_von_ofterdingen" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|die_gesandten_englands_und_frankreichs" source="heinrich_von_ofterdingen" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|ein_provenzialischer_troubadour" source="heinrich_von_ofterdingen" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|alle_anwesenden_akt_3" source="heinrich_von_ofterdingen" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|erzbischoefe_fuersten_ritter" source="heinrich_von_ofterdingen" target="erzbischoefe_fuersten_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|constanze" source="heinrich_von_ofterdingen" target="constanze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|alle_deutsche_und_normannen" source="heinrich_von_ofterdingen" target="alle_deutsche_und_normannen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_von_ofterdingen|alle_anwesenden_akt_4" source="heinrich_von_ofterdingen" target="alle_anwesenden_akt_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_turnierherold|ein_ritter" source="ein_turnierherold" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_turnierherold|graf_von_barcelona" source="ein_turnierherold" target="graf_von_barcelona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_turnierherold|graf_von_montpellier" source="ein_turnierherold" target="graf_von_montpellier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_turnierherold|turnierherolde" source="ein_turnierherold" target="turnierherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_turnierherold|prinz_plantagenet" source="ein_turnierherold" target="prinz_plantagenet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_turnierherold|viele_stimmen" source="ein_turnierherold" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_turnierherold|reichsherolde" source="ein_turnierherold" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_turnierherold|die_gesandten_englands_und_frankreichs" source="ein_turnierherold" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_turnierherold|ein_provenzialischer_troubadour" source="ein_turnierherold" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_turnierherold|alle_anwesenden_akt_3" source="ein_turnierherold" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter|graf_von_barcelona" source="ein_ritter" target="graf_von_barcelona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter|graf_von_montpellier" source="ein_ritter" target="graf_von_montpellier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter|turnierherolde" source="ein_ritter" target="turnierherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter|prinz_plantagenet" source="ein_ritter" target="prinz_plantagenet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter|viele_stimmen" source="ein_ritter" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter|reichsherolde" source="ein_ritter" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter|die_gesandten_englands_und_frankreichs" source="ein_ritter" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter|ein_provenzialischer_troubadour" source="ein_ritter" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter|alle_anwesenden_akt_3" source="ein_ritter" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_barcelona|graf_von_montpellier" source="graf_von_barcelona" target="graf_von_montpellier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf_von_barcelona|turnierherolde" source="graf_von_barcelona" target="turnierherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_barcelona|prinz_plantagenet" source="graf_von_barcelona" target="prinz_plantagenet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_barcelona|viele_stimmen" source="graf_von_barcelona" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_barcelona|reichsherolde" source="graf_von_barcelona" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_barcelona|die_gesandten_englands_und_frankreichs" source="graf_von_barcelona" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_barcelona|ein_provenzialischer_troubadour" source="graf_von_barcelona" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_barcelona|alle_anwesenden_akt_3" source="graf_von_barcelona" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_montpellier|turnierherolde" source="graf_von_montpellier" target="turnierherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_montpellier|prinz_plantagenet" source="graf_von_montpellier" target="prinz_plantagenet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_montpellier|viele_stimmen" source="graf_von_montpellier" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_montpellier|reichsherolde" source="graf_von_montpellier" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_montpellier|die_gesandten_englands_und_frankreichs" source="graf_von_montpellier" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_montpellier|ein_provenzialischer_troubadour" source="graf_von_montpellier" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_montpellier|alle_anwesenden_akt_3" source="graf_von_montpellier" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="turnierherolde|prinz_plantagenet" source="turnierherolde" target="prinz_plantagenet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="turnierherolde|viele_stimmen" source="turnierherolde" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="turnierherolde|reichsherolde" source="turnierherolde" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="turnierherolde|die_gesandten_englands_und_frankreichs" source="turnierherolde" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="turnierherolde|ein_provenzialischer_troubadour" source="turnierherolde" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="turnierherolde|alle_anwesenden_akt_3" source="turnierherolde" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_plantagenet|viele_stimmen" source="prinz_plantagenet" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_plantagenet|reichsherolde" source="prinz_plantagenet" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_plantagenet|die_gesandten_englands_und_frankreichs" source="prinz_plantagenet" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_plantagenet|ein_provenzialischer_troubadour" source="prinz_plantagenet" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_plantagenet|alle_anwesenden_akt_3" source="prinz_plantagenet" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_stimmen|reichsherolde" source="viele_stimmen" target="reichsherolde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_stimmen|die_gesandten_englands_und_frankreichs" source="viele_stimmen" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_stimmen|ein_provenzialischer_troubadour" source="viele_stimmen" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_stimmen|alle_anwesenden_akt_3" source="viele_stimmen" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reichsherolde|die_gesandten_englands_und_frankreichs" source="reichsherolde" target="die_gesandten_englands_und_frankreichs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reichsherolde|ein_provenzialischer_troubadour" source="reichsherolde" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reichsherolde|alle_anwesenden_akt_3" source="reichsherolde" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_gesandten_englands_und_frankreichs|ein_provenzialischer_troubadour" source="die_gesandten_englands_und_frankreichs" target="ein_provenzialischer_troubadour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_gesandten_englands_und_frankreichs|alle_anwesenden_akt_3" source="die_gesandten_englands_und_frankreichs" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_provenzialischer_troubadour|alle_anwesenden_akt_3" source="ein_provenzialischer_troubadour" target="alle_anwesenden_akt_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_schildwache|koenig_waldemar" source="eine_schildwache" target="koenig_waldemar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_schildwache|grossfuerst_litauens" source="eine_schildwache" target="grossfuerst_litauens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_schildwache|mathildis" source="eine_schildwache" target="mathildis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_waldemar|grossfuerst_litauens" source="koenig_waldemar" target="grossfuerst_litauens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_waldemar|mathildis" source="koenig_waldemar" target="mathildis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grossfuerst_litauens|mathildis" source="grossfuerst_litauens" target="mathildis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischoefe_fuersten_ritter|constanze" source="erzbischoefe_fuersten_ritter" target="constanze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischoefe_fuersten_ritter|alle_deutsche_und_normannen" source="erzbischoefe_fuersten_ritter" target="alle_deutsche_und_normannen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischoefe_fuersten_ritter|alle_anwesenden_akt_4" source="erzbischoefe_fuersten_ritter" target="alle_anwesenden_akt_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="constanze|alle_deutsche_und_normannen" source="constanze" target="alle_deutsche_und_normannen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="constanze|alle_anwesenden_akt_4" source="constanze" target="alle_anwesenden_akt_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_deutsche_und_normannen|alle_anwesenden_akt_4" source="alle_deutsche_und_normannen" target="alle_anwesenden_akt_4">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="bella">
+            <data key="label">Bella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">757</data>
+        </node>
+        <node id="messaline">
+            <data key="label">Messaline</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1199</data>
+        </node>
+        <node id="biribinker">
+            <data key="label">Biribinker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">789</data>
+        </node>
+        <node id="der_soldat_4">
+            <data key="label">Der Soldat (Vierte Scene)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="fitzaldo">
+            <data key="label">Fitzaldo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">47</data>
+        </node>
+        <node id="hyacinth">
+            <data key="label">Hyacinth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="baham">
+            <data key="label">Baham</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="der_soldat_7">
+            <data key="label">Der Soldat (Siebente Scene)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">51</data>
+        </node>
+        <node id="cantareth">
+            <data key="label">Cantareth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">208</data>
+        </node>
+        <node id="erster_soldat">
+            <data key="label">Erster Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">386</data>
+        </node>
+        <node id="zweyter_soldat">
+            <data key="label">Zweyter Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">489</data>
+        </node>
+        <edge id="bella|messaline" source="bella" target="messaline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bella|biribinker" source="bella" target="biribinker">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bella|cantareth" source="bella" target="cantareth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bella|erster_soldat" source="bella" target="erster_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bella|zweyter_soldat" source="bella" target="zweyter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="messaline|fitzaldo" source="messaline" target="fitzaldo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="messaline|hyacinth" source="messaline" target="hyacinth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="messaline|baham" source="messaline" target="baham">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="messaline|cantareth" source="messaline" target="cantareth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biribinker|der_soldat_4" source="biribinker" target="der_soldat_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biribinker|erster_soldat" source="biribinker" target="erster_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biribinker|zweyter_soldat" source="biribinker" target="zweyter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fitzaldo|hyacinth" source="fitzaldo" target="hyacinth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fitzaldo|baham" source="fitzaldo" target="baham">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hyacinth|baham" source="hyacinth" target="baham">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|zweyter_soldat" source="erster_soldat" target="zweyter_soldat">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

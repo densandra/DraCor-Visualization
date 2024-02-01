@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="daradiridatumtarides">
+            <data key="label">Daradiridatumtarides</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="don_cacciadiavolo">
+            <data key="label">Don Cacciadiavolo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="don_diego">
+            <data key="label">Don Diego</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="antonia">
+            <data key="label">Antonia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="selene_selenissa">
+            <data key="label">Selene/Selenissa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="flaccilla">
+            <data key="label">Flaccilla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sophia">
+            <data key="label">Sophia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sempronius">
+            <data key="label">Sempronius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cyrilla">
+            <data key="label">Cyrilla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="horribilicribrifax">
+            <data key="label">Horribilicribrifax</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="page">
+            <data key="label">Page</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="coelestina">
+            <data key="label">Coelestina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="camilla">
+            <data key="label">Camilla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="palladius">
+            <data key="label">Palladius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_ander_page">
+            <data key="label">Der ander Page</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bonosus">
+            <data key="label">Bonosus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cleander">
+            <data key="label">Cleander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="harpax">
+            <data key="label">Harpax</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rabbi">
+            <data key="label">Rabbi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dionysis">
+            <data key="label">Dionysis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="florianus_florentin">
+            <data key="label">Florianus/Florentin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="florianus_florentin" target="palladius">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="2" directed="false" source="dionysis" target="cleander">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="antonia" target="selene_selenissa">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="flaccilla" target="sophia">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="camilla" target="coelestina">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="don_cacciadiavolo" target="daradiridatumtarides">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="don_diego" target="daradiridatumtarides">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="harpax" target="horribilicribrifax">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="page" target="coelestina">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="10" directed="false" source="der_ander_page" target="coelestina">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

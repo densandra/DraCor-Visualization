@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="berg">
+            <data key="label">Berg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">441</data>
+        </node>
+        <node id="annlieschen">
+            <data key="label">Annlieschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">741</data>
+        </node>
+        <node id="busch">
+            <data key="label">Busch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">545</data>
+        </node>
+        <node id="trudchen">
+            <data key="label">Trudchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">711</data>
+        </node>
+        <node id="thal">
+            <data key="label">Thal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">454</data>
+        </node>
+        <node id="kaetchen">
+            <data key="label">Kätchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">615</data>
+        </node>
+        <node id="page">
+            <data key="label">Page</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5005</data>
+        </node>
+        <node id="baron">
+            <data key="label">Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3942</data>
+        </node>
+        <node id="deborah">
+            <data key="label">Deborah</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">690</data>
+        </node>
+        <node id="ein_bedienter">
+            <data key="label">Ein Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="heldensinn">
+            <data key="label">Heldensinn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">908</data>
+        </node>
+        <node id="kreuzqueer">
+            <data key="label">Kreuzqueer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">644</data>
+        </node>
+        <node id="brennessel">
+            <data key="label">Brennessel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">881</data>
+        </node>
+        <node id="christine">
+            <data key="label">Christine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">110</data>
+        </node>
+        <node id="stiefel">
+            <data key="label">Stiefel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2040</data>
+        </node>
+        <node id="hanns">
+            <data key="label">Hanns</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">489</data>
+        </node>
+        <edge id="berg|annlieschen" source="berg" target="annlieschen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="berg|busch" source="berg" target="busch">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="berg|trudchen" source="berg" target="trudchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="berg|thal" source="berg" target="thal">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="berg|kaetchen" source="berg" target="kaetchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="berg|page" source="berg" target="page">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="berg|stiefel" source="berg" target="stiefel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="berg|hanns" source="berg" target="hanns">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="berg|brennessel" source="berg" target="brennessel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="berg|baron" source="berg" target="baron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="berg|deborah" source="berg" target="deborah">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annlieschen|busch" source="annlieschen" target="busch">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="annlieschen|trudchen" source="annlieschen" target="trudchen">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="annlieschen|thal" source="annlieschen" target="thal">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="annlieschen|kaetchen" source="annlieschen" target="kaetchen">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="annlieschen|page" source="annlieschen" target="page">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="annlieschen|baron" source="annlieschen" target="baron">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="annlieschen|deborah" source="annlieschen" target="deborah">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="annlieschen|ein_bedienter" source="annlieschen" target="ein_bedienter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="annlieschen|heldensinn" source="annlieschen" target="heldensinn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="annlieschen|hanns" source="annlieschen" target="hanns">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="annlieschen|stiefel" source="annlieschen" target="stiefel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="busch|trudchen" source="busch" target="trudchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="busch|thal" source="busch" target="thal">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="busch|kaetchen" source="busch" target="kaetchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="busch|page" source="busch" target="page">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="busch|hanns" source="busch" target="hanns">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="busch|heldensinn" source="busch" target="heldensinn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="busch|stiefel" source="busch" target="stiefel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="busch|baron" source="busch" target="baron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="busch|deborah" source="busch" target="deborah">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trudchen|thal" source="trudchen" target="thal">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="trudchen|kaetchen" source="trudchen" target="kaetchen">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="trudchen|page" source="trudchen" target="page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="trudchen|baron" source="trudchen" target="baron">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="trudchen|deborah" source="trudchen" target="deborah">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="trudchen|ein_bedienter" source="trudchen" target="ein_bedienter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="trudchen|heldensinn" source="trudchen" target="heldensinn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trudchen|kreuzqueer" source="trudchen" target="kreuzqueer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="trudchen|stiefel" source="trudchen" target="stiefel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trudchen|hanns" source="trudchen" target="hanns">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thal|kaetchen" source="thal" target="kaetchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thal|page" source="thal" target="page">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="thal|hanns" source="thal" target="hanns">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thal|kreuzqueer" source="thal" target="kreuzqueer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thal|stiefel" source="thal" target="stiefel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="thal|baron" source="thal" target="baron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thal|deborah" source="thal" target="deborah">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaetchen|page" source="kaetchen" target="page">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kaetchen|baron" source="kaetchen" target="baron">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="kaetchen|deborah" source="kaetchen" target="deborah">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kaetchen|ein_bedienter" source="kaetchen" target="ein_bedienter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kaetchen|heldensinn" source="kaetchen" target="heldensinn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaetchen|kreuzqueer" source="kaetchen" target="kreuzqueer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaetchen|brennessel" source="kaetchen" target="brennessel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaetchen|hanns" source="kaetchen" target="hanns">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaetchen|stiefel" source="kaetchen" target="stiefel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="page|christine" source="page" target="christine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="page|heldensinn" source="page" target="heldensinn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="page|brennessel" source="page" target="brennessel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="page|kreuzqueer" source="page" target="kreuzqueer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="page|deborah" source="page" target="deborah">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="page|baron" source="page" target="baron">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="page|stiefel" source="page" target="stiefel">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="page|hanns" source="page" target="hanns">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="baron|deborah" source="baron" target="deborah">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="baron|ein_bedienter" source="baron" target="ein_bedienter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baron|heldensinn" source="baron" target="heldensinn">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="baron|kreuzqueer" source="baron" target="kreuzqueer">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="baron|brennessel" source="baron" target="brennessel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="baron|christine" source="baron" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|stiefel" source="baron" target="stiefel">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="baron|hanns" source="baron" target="hanns">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="deborah|ein_bedienter" source="deborah" target="ein_bedienter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="deborah|heldensinn" source="deborah" target="heldensinn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="deborah|kreuzqueer" source="deborah" target="kreuzqueer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="deborah|brennessel" source="deborah" target="brennessel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="deborah|christine" source="deborah" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="deborah|stiefel" source="deborah" target="stiefel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="deborah|hanns" source="deborah" target="hanns">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bedienter|heldensinn" source="ein_bedienter" target="heldensinn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bedienter|kreuzqueer" source="ein_bedienter" target="kreuzqueer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heldensinn|brennessel" source="heldensinn" target="brennessel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="heldensinn|kreuzqueer" source="heldensinn" target="kreuzqueer">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="heldensinn|christine" source="heldensinn" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heldensinn|hanns" source="heldensinn" target="hanns">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="heldensinn|stiefel" source="heldensinn" target="stiefel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kreuzqueer|brennessel" source="kreuzqueer" target="brennessel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kreuzqueer|christine" source="kreuzqueer" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kreuzqueer|stiefel" source="kreuzqueer" target="stiefel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kreuzqueer|hanns" source="kreuzqueer" target="hanns">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="brennessel|christine" source="brennessel" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brennessel|hanns" source="brennessel" target="hanns">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="brennessel|stiefel" source="brennessel" target="stiefel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stiefel|hanns" source="stiefel" target="hanns">
+            <data key="weight">7</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="chor_ganzer_chor_alle">
+            <data key="label">Chor/Ganzer Chor/Alle</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">394</data>
+        </node>
+        <node id="hohepriester">
+            <data key="label">Hohepriester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">256</data>
+        </node>
+        <node id="sulamith">
+            <data key="label">Sulamith</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">421</data>
+        </node>
+        <node id="chor_der_maedchen_frauen_frauenchor">
+            <data key="label">Chor der Mädchen/Chor der Frauen/Frauenchor</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">184</data>
+        </node>
+        <node id="assad">
+            <data key="label">Assad</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1257</data>
+        </node>
+        <node id="baal-haanan">
+            <data key="label">Baal-Haanan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">155</data>
+        </node>
+        <node id="salomon">
+            <data key="label">Salomon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">647</data>
+        </node>
+        <node id="koenigin">
+            <data key="label">Königin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1168</data>
+        </node>
+        <node id="astaroth">
+            <data key="label">Astaroth</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">132</data>
+        </node>
+        <node id="tempelwaechter">
+            <data key="label">Tempelwächter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="chor_der_saenger">
+            <data key="label">Chor der Sänger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="chor_des_volkes_einzelne_stimmen">
+            <data key="label">Chor des Volkes/Einzelne Stimmen aus dem Volke</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="chor_der_priester">
+            <data key="label">Chor der Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="leviten">
+            <data key="label">Leviten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <edge id="chor_ganzer_chor_alle|assad" source="chor_ganzer_chor_alle" target="assad">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor_ganzer_chor_alle|hohepriester" source="chor_ganzer_chor_alle" target="hohepriester">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor_ganzer_chor_alle|sulamith" source="chor_ganzer_chor_alle" target="sulamith">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor_ganzer_chor_alle|baal-haanan" source="chor_ganzer_chor_alle" target="baal-haanan">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chor_ganzer_chor_alle|salomon" source="chor_ganzer_chor_alle" target="salomon">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor_ganzer_chor_alle|koenigin" source="chor_ganzer_chor_alle" target="koenigin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_ganzer_chor_alle|astaroth" source="chor_ganzer_chor_alle" target="astaroth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_ganzer_chor_alle|chor_der_priester" source="chor_ganzer_chor_alle" target="chor_der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_ganzer_chor_alle|leviten" source="chor_ganzer_chor_alle" target="leviten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_ganzer_chor_alle|chor_des_volkes_einzelne_stimmen" source="chor_ganzer_chor_alle" target="chor_des_volkes_einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_ganzer_chor_alle|chor_der_maedchen_frauen_frauenchor" source="chor_ganzer_chor_alle" target="chor_der_maedchen_frauen_frauenchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohepriester|assad" source="hohepriester" target="assad">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hohepriester|sulamith" source="hohepriester" target="sulamith">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hohepriester|baal-haanan" source="hohepriester" target="baal-haanan">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hohepriester|salomon" source="hohepriester" target="salomon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hohepriester|koenigin" source="hohepriester" target="koenigin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hohepriester|astaroth" source="hohepriester" target="astaroth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hohepriester|chor_der_saenger" source="hohepriester" target="chor_der_saenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohepriester|chor_des_volkes_einzelne_stimmen" source="hohepriester" target="chor_des_volkes_einzelne_stimmen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hohepriester|chor_der_priester" source="hohepriester" target="chor_der_priester">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hohepriester|chor_der_maedchen_frauen_frauenchor" source="hohepriester" target="chor_der_maedchen_frauen_frauenchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohepriester|leviten" source="hohepriester" target="leviten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sulamith|chor_der_maedchen_frauen_frauenchor" source="sulamith" target="chor_der_maedchen_frauen_frauenchor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sulamith|assad" source="sulamith" target="assad">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sulamith|baal-haanan" source="sulamith" target="baal-haanan">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sulamith|salomon" source="sulamith" target="salomon">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sulamith|koenigin" source="sulamith" target="koenigin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sulamith|astaroth" source="sulamith" target="astaroth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sulamith|chor_der_priester" source="sulamith" target="chor_der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sulamith|leviten" source="sulamith" target="leviten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sulamith|chor_des_volkes_einzelne_stimmen" source="sulamith" target="chor_des_volkes_einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maedchen_frauen_frauenchor|chor_der_saenger" source="chor_der_maedchen_frauen_frauenchor" target="chor_der_saenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maedchen_frauen_frauenchor|chor_des_volkes_einzelne_stimmen" source="chor_der_maedchen_frauen_frauenchor" target="chor_des_volkes_einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maedchen_frauen_frauenchor|chor_der_priester" source="chor_der_maedchen_frauen_frauenchor" target="chor_der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maedchen_frauen_frauenchor|salomon" source="chor_der_maedchen_frauen_frauenchor" target="salomon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maedchen_frauen_frauenchor|baal-haanan" source="chor_der_maedchen_frauen_frauenchor" target="baal-haanan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maedchen_frauen_frauenchor|assad" source="chor_der_maedchen_frauen_frauenchor" target="assad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="assad|baal-haanan" source="assad" target="baal-haanan">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="assad|salomon" source="assad" target="salomon">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="assad|koenigin" source="assad" target="koenigin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="assad|astaroth" source="assad" target="astaroth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="assad|tempelwaechter" source="assad" target="tempelwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="assad|chor_der_priester" source="assad" target="chor_der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="assad|leviten" source="assad" target="leviten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="assad|chor_des_volkes_einzelne_stimmen" source="assad" target="chor_des_volkes_einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baal-haanan|salomon" source="baal-haanan" target="salomon">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baal-haanan|koenigin" source="baal-haanan" target="koenigin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baal-haanan|astaroth" source="baal-haanan" target="astaroth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baal-haanan|chor_der_priester" source="baal-haanan" target="chor_der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baal-haanan|leviten" source="baal-haanan" target="leviten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baal-haanan|chor_des_volkes_einzelne_stimmen" source="baal-haanan" target="chor_des_volkes_einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salomon|koenigin" source="salomon" target="koenigin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="salomon|astaroth" source="salomon" target="astaroth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="salomon|chor_der_priester" source="salomon" target="chor_der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salomon|leviten" source="salomon" target="leviten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salomon|chor_des_volkes_einzelne_stimmen" source="salomon" target="chor_des_volkes_einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|astaroth" source="koenigin" target="astaroth">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenigin|tempelwaechter" source="koenigin" target="tempelwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|chor_der_priester" source="koenigin" target="chor_der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|leviten" source="koenigin" target="leviten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|chor_des_volkes_einzelne_stimmen" source="koenigin" target="chor_des_volkes_einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="astaroth|chor_der_priester" source="astaroth" target="chor_der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="astaroth|leviten" source="astaroth" target="leviten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="astaroth|chor_des_volkes_einzelne_stimmen" source="astaroth" target="chor_des_volkes_einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_saenger|chor_des_volkes_einzelne_stimmen" source="chor_der_saenger" target="chor_des_volkes_einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_saenger|chor_der_priester" source="chor_der_saenger" target="chor_der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_des_volkes_einzelne_stimmen|chor_der_priester" source="chor_des_volkes_einzelne_stimmen" target="chor_der_priester">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_des_volkes_einzelne_stimmen|leviten" source="chor_des_volkes_einzelne_stimmen" target="leviten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_priester|leviten" source="chor_der_priester" target="leviten">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

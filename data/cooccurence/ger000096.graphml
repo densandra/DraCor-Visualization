@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="miller">
+            <data key="label">Miller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3769</data>
+        </node>
+        <node id="millerin">
+            <data key="label">Millerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">561</data>
+        </node>
+        <node id="wurm">
+            <data key="label">Wurm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2019</data>
+        </node>
+        <node id="luise">
+            <data key="label">Luise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4347</data>
+        </node>
+        <node id="ferdinand">
+            <data key="label">Ferdinand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6061</data>
+        </node>
+        <node id="praesident">
+            <data key="label">Präsident von Walter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2857</data>
+        </node>
+        <node id="ein_kammerdiener_1-5">
+            <data key="label">Ein Kammerdiener (I/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="hofmarschall">
+            <data key="label">Hofmarschall von Kalb</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1122</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">384</data>
+        </node>
+        <node id="lady">
+            <data key="label">Lady Milford</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3407</data>
+        </node>
+        <node id="kammerdiener_2-2">
+            <data key="label">Kammerdiener (II/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">249</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="kammerdiener_3-1">
+            <data key="label">Kammerdiener (III/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="kammerdiener_4-1">
+            <data key="label">Kammerdiener (IV/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="ein_kammerdiener_4-6">
+            <data key="label">Ein Kammerdiener (IV/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="kammerdiener_4-9">
+            <data key="label">Kammerdiener (IV/9)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="alle_bediente">
+            <data key="label">Alle Bediente</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <edge id="miller|millerin" source="miller" target="millerin">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="miller|wurm" source="miller" target="wurm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="miller|luise" source="miller" target="luise">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="miller|ferdinand" source="miller" target="ferdinand">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="miller|praesident" source="miller" target="praesident">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="millerin|wurm" source="millerin" target="wurm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="millerin|luise" source="millerin" target="luise">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="millerin|ferdinand" source="millerin" target="ferdinand">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="millerin|praesident" source="millerin" target="praesident">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wurm|praesident" source="wurm" target="praesident">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wurm|ein_kammerdiener_1-5" source="wurm" target="ein_kammerdiener_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wurm|kammerdiener_3-1" source="wurm" target="kammerdiener_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wurm|luise" source="wurm" target="luise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wurm|ferdinand" source="wurm" target="ferdinand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luise|ferdinand" source="luise" target="ferdinand">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="luise|praesident" source="luise" target="praesident">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luise|lady" source="luise" target="lady">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ferdinand|praesident" source="ferdinand" target="praesident">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ferdinand|lady" source="ferdinand" target="lady">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ferdinand|kammerdiener_4-1" source="ferdinand" target="kammerdiener_4-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ferdinand|hofmarschall" source="ferdinand" target="hofmarschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident|ein_kammerdiener_1-5" source="praesident" target="ein_kammerdiener_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident|hofmarschall" source="praesident" target="hofmarschall">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="praesident|kammerdiener_3-1" source="praesident" target="kammerdiener_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofmarschall|kammerdiener_4-9" source="hofmarschall" target="kammerdiener_4-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofmarschall|lady" source="hofmarschall" target="lady">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofmarschall|sophie" source="hofmarschall" target="sophie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofmarschall|alle_bediente" source="hofmarschall" target="alle_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|lady" source="sophie" target="lady">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sophie|kammerdiener_2-2" source="sophie" target="kammerdiener_2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|bedienter" source="sophie" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|ein_kammerdiener_4-6" source="sophie" target="ein_kammerdiener_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|kammerdiener_4-9" source="sophie" target="kammerdiener_4-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|alle_bediente" source="sophie" target="alle_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lady|kammerdiener_2-2" source="lady" target="kammerdiener_2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lady|bedienter" source="lady" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lady|ein_kammerdiener_4-6" source="lady" target="ein_kammerdiener_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lady|kammerdiener_4-9" source="lady" target="kammerdiener_4-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lady|alle_bediente" source="lady" target="alle_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kammerdiener_2-2|bedienter" source="kammerdiener_2-2" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kammerdiener_4-9|alle_bediente" source="kammerdiener_4-9" target="alle_bediente">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

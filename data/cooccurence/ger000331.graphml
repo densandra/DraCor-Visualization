@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="franz">
+            <data key="label">Franz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">878</data>
+        </node>
+        <node id="louise">
+            <data key="label">Louise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">830</data>
+        </node>
+        <node id="kotzeluch">
+            <data key="label">Kotzeluch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2446</data>
+        </node>
+        <node id="brieftraeger">
+            <data key="label">Briefträger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="lorenz">
+            <data key="label">Lorenz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1390</data>
+        </node>
+        <node id="fritz">
+            <data key="label">Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">357</data>
+        </node>
+        <node id="die_traeger">
+            <data key="label">Die Träger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="magd">
+            <data key="label">Die Magd</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">54</data>
+        </node>
+        <edge id="franz|louise" source="franz" target="louise">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="franz|kotzeluch" source="franz" target="kotzeluch">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="franz|fritz" source="franz" target="fritz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="franz|lorenz" source="franz" target="lorenz">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="franz|die_traeger" source="franz" target="die_traeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|magd" source="franz" target="magd">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="louise|kotzeluch" source="louise" target="kotzeluch">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="louise|fritz" source="louise" target="fritz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="louise|lorenz" source="louise" target="lorenz">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="louise|die_traeger" source="louise" target="die_traeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="louise|magd" source="louise" target="magd">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kotzeluch|brieftraeger" source="kotzeluch" target="brieftraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kotzeluch|fritz" source="kotzeluch" target="fritz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kotzeluch|lorenz" source="kotzeluch" target="lorenz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kotzeluch|die_traeger" source="kotzeluch" target="die_traeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kotzeluch|magd" source="kotzeluch" target="magd">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lorenz|fritz" source="lorenz" target="fritz">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="lorenz|die_traeger" source="lorenz" target="die_traeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|magd" source="lorenz" target="magd">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fritz|die_traeger" source="fritz" target="die_traeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|magd" source="fritz" target="magd">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_traeger|magd" source="die_traeger" target="magd">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

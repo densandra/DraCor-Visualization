@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="silva">
+            <data key="label">De Silva</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jochai">
+            <data key="label">Jochai</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diener_1-2">
+            <data key="label">Diener (I/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="uriel">
+            <data key="label">Uriel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="santos">
+            <data key="label">Santos</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="manasse">
+            <data key="label">Manasse</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="simon">
+            <data key="label">Simon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="judith">
+            <data key="label">Judith</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_2-7">
+            <data key="label">Alle (II/7)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ruben">
+            <data key="label">Ruben</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="esther">
+            <data key="label">Esther</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="joel">
+            <data key="label">Joel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diener_4-1">
+            <data key="label">Diener (IV/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="akiba">
+            <data key="label">Akiba</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="embden">
+            <data key="label">Embden</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_4-6">
+            <data key="label">Alle (IV/6)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="baruch">
+            <data key="label">Baruch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="jochai" target="judith">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="joel" target="ruben">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="joel" target="uriel">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="4" directed="false" source="ruben" target="uriel">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="5" directed="false" source="manasse" target="judith">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="silva" target="judith">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="7" directed="false" source="esther" target="uriel">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="8" directed="false" source="simon" target="manasse">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

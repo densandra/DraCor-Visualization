@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="lottchen">
+            <data key="label">Lottchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5789</data>
+        </node>
+        <node id="cleon">
+            <data key="label">Cleon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3446</data>
+        </node>
+        <node id="siegmund">
+            <data key="label">Siegmund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1725</data>
+        </node>
+        <node id="damis">
+            <data key="label">Damis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2062</data>
+        </node>
+        <node id="julchen">
+            <data key="label">Julchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4869</data>
+        </node>
+        <node id="der_magister">
+            <data key="label">Der Magister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2187</data>
+        </node>
+        <node id="simon">
+            <data key="label">Simon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1522</data>
+        </node>
+        <node id="der_bediente">
+            <data key="label">Der Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <edge id="lottchen|cleon" source="lottchen" target="cleon">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lottchen|siegmund" source="lottchen" target="siegmund">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="lottchen|damis" source="lottchen" target="damis">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="lottchen|julchen" source="lottchen" target="julchen">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="lottchen|simon" source="lottchen" target="simon">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lottchen|der_bediente" source="lottchen" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lottchen|der_magister" source="lottchen" target="der_magister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cleon|siegmund" source="cleon" target="siegmund">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="cleon|der_magister" source="cleon" target="der_magister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="cleon|julchen" source="cleon" target="julchen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="cleon|simon" source="cleon" target="simon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cleon|damis" source="cleon" target="damis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="siegmund|damis" source="siegmund" target="damis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="siegmund|simon" source="siegmund" target="simon">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="siegmund|julchen" source="siegmund" target="julchen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="siegmund|der_magister" source="siegmund" target="der_magister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="siegmund|der_bediente" source="siegmund" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="damis|julchen" source="damis" target="julchen">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="damis|simon" source="damis" target="simon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="damis|der_magister" source="damis" target="der_magister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julchen|der_magister" source="julchen" target="der_magister">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="julchen|simon" source="julchen" target="simon">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="der_magister|simon" source="der_magister" target="simon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="simon|der_bediente" source="simon" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

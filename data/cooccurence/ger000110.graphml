@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="diether">
+            <data key="label">Diether</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1079</data>
+        </node>
+        <node id="kaethe">
+            <data key="label">Käthe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2425</data>
+        </node>
+        <node id="wagner">
+            <data key="label">Wagner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1656</data>
+        </node>
+        <node id="faust">
+            <data key="label">Faust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5888</data>
+        </node>
+        <node id="choralartiger_gesang">
+            <data key="label">Choralartiger Gesang</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="der_fremde">
+            <data key="label">Der Fremde</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1185</data>
+        </node>
+        <node id="dumpfe_stimme">
+            <data key="label">Dumpfe Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">96</data>
+        </node>
+        <node id="studenten">
+            <data key="label">Studenten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="erster_student">
+            <data key="label">Erster Student</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">286</data>
+        </node>
+        <node id="zweiter_student">
+            <data key="label">Zweiter Student</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <node id="dritter_student">
+            <data key="label">Dritter Student</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <node id="helene">
+            <data key="label">Helene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">463</data>
+        </node>
+        <node id="erster_leichentraeger">
+            <data key="label">Erster Leichenträger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">92</data>
+        </node>
+        <node id="zweiter_leichentraeger">
+            <data key="label">Zweiter Leichenträger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="anfuehrer">
+            <data key="label">Anführer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">81</data>
+        </node>
+        <node id="erste_maske">
+            <data key="label">Erste Maske</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="zweite_maske">
+            <data key="label">Zweite Maske</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="dritte_maske">
+            <data key="label">Dritte Maske</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="stimme_heftig_von_aussen">
+            <data key="label">Stimme (heftig von außen)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="gerichtsdiener">
+            <data key="label">Gerichtsdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <edge id="diether|kaethe" source="diether" target="kaethe">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="diether|wagner" source="diether" target="wagner">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="diether|faust" source="diether" target="faust">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="diether|erster_leichentraeger" source="diether" target="erster_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diether|zweiter_leichentraeger" source="diether" target="zweiter_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaethe|wagner" source="kaethe" target="wagner">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="kaethe|faust" source="kaethe" target="faust">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="kaethe|helene" source="kaethe" target="helene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|faust" source="wagner" target="faust">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="wagner|studenten" source="wagner" target="studenten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|der_fremde" source="wagner" target="der_fremde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wagner|erster_student" source="wagner" target="erster_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|zweiter_student" source="wagner" target="zweiter_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|dritter_student" source="wagner" target="dritter_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|choralartiger_gesang" source="faust" target="choralartiger_gesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|der_fremde" source="faust" target="der_fremde">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="faust|dumpfe_stimme" source="faust" target="dumpfe_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|studenten" source="faust" target="studenten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|erster_student" source="faust" target="erster_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|zweiter_student" source="faust" target="zweiter_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|dritter_student" source="faust" target="dritter_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|helene" source="faust" target="helene">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="faust|erster_leichentraeger" source="faust" target="erster_leichentraeger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|zweiter_leichentraeger" source="faust" target="zweiter_leichentraeger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|erste_maske" source="faust" target="erste_maske">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|zweite_maske" source="faust" target="zweite_maske">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|dritte_maske" source="faust" target="dritte_maske">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|stimme_heftig_von_aussen" source="faust" target="stimme_heftig_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|anfuehrer" source="faust" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_fremde|studenten" source="der_fremde" target="studenten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_fremde|erster_student" source="der_fremde" target="erster_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_fremde|zweiter_student" source="der_fremde" target="zweiter_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_fremde|dritter_student" source="der_fremde" target="dritter_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_fremde|anfuehrer" source="der_fremde" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_fremde|gerichtsdiener" source="der_fremde" target="gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten|erster_student" source="studenten" target="erster_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten|zweiter_student" source="studenten" target="zweiter_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten|dritter_student" source="studenten" target="dritter_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student|zweiter_student" source="erster_student" target="zweiter_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student|dritter_student" source="erster_student" target="dritter_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_student|dritter_student" source="zweiter_student" target="dritter_student">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_leichentraeger|zweiter_leichentraeger" source="erster_leichentraeger" target="zweiter_leichentraeger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_leichentraeger|anfuehrer" source="erster_leichentraeger" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anfuehrer|gerichtsdiener" source="anfuehrer" target="gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_maske|zweite_maske" source="erste_maske" target="zweite_maske">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_maske|dritte_maske" source="erste_maske" target="dritte_maske">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_maske|stimme_heftig_von_aussen" source="erste_maske" target="stimme_heftig_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_maske|dritte_maske" source="zweite_maske" target="dritte_maske">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_maske|stimme_heftig_von_aussen" source="zweite_maske" target="stimme_heftig_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_maske|stimme_heftig_von_aussen" source="dritte_maske" target="stimme_heftig_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

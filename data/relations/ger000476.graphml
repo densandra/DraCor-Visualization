@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="beerdigungsunternehmer">
+            <data key="label">Beerdigungsunternehmer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_alte_mann">
+            <data key="label">Der alte Mann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gott">
+            <data key="label">Gott</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tod">
+            <data key="label">Tod</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="beckmann">
+            <data key="label">Beckmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="elbe">
+            <data key="label">Elbe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_andere">
+            <data key="label">Der Andere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="maedchen">
+            <data key="label">Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_einbeinige">
+            <data key="label">Der Einbeinige</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="oberst">
+            <data key="label">Oberst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schwiegersohn">
+            <data key="label">Schwiegersohn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tochter">
+            <data key="label">Tochter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="direktor">
+            <data key="label">Direktor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_kramer">
+            <data key="label">Frau Kramer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="strassenfeger">
+            <data key="label">Straßenfeger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="direktor" target="mutter">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="schwiegersohn" target="tochter">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="der_einbeinige" target="maedchen">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="4" directed="false" source="direktor" target="tochter">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="mutter" target="tochter">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

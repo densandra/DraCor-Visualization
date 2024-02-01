@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="auguste">
+            <data key="label">Auguste</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1933</data>
+        </node>
+        <node id="meinold">
+            <data key="label">Dr. Meinold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1591</data>
+        </node>
+        <node id="euphrosine">
+            <data key="label">Euphrosine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1120</data>
+        </node>
+        <node id="alfred">
+            <data key="label">Alfred</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1015</data>
+        </node>
+        <node id="adelheid_von_burgen">
+            <data key="label">Adelheid von Burgen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2461</data>
+        </node>
+        <edge id="auguste|meinold" source="auguste" target="meinold">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="auguste|euphrosine" source="auguste" target="euphrosine">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="auguste|alfred" source="auguste" target="alfred">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="auguste|adelheid_von_burgen" source="auguste" target="adelheid_von_burgen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="meinold|euphrosine" source="meinold" target="euphrosine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="meinold|alfred" source="meinold" target="alfred">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="meinold|adelheid_von_burgen" source="meinold" target="adelheid_von_burgen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="euphrosine|alfred" source="euphrosine" target="alfred">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="euphrosine|adelheid_von_burgen" source="euphrosine" target="adelheid_von_burgen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alfred|adelheid_von_burgen" source="alfred" target="adelheid_von_burgen">
+            <data key="weight">4</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="damis">
+            <data key="label">Damis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7130</data>
+        </node>
+        <node id="anton">
+            <data key="label">Anton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7235</data>
+        </node>
+        <node id="chrysander">
+            <data key="label">Chrysander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3853</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3780</data>
+        </node>
+        <node id="juliane">
+            <data key="label">Juliane</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">715</data>
+        </node>
+        <node id="valer">
+            <data key="label">Valer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1940</data>
+        </node>
+        <edge id="damis|anton" source="damis" target="anton">
+            <data key="weight">18</data>
+        </edge>
+        <edge id="damis|chrysander" source="damis" target="chrysander">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="damis|lisette" source="damis" target="lisette">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="damis|valer" source="damis" target="valer">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="damis|juliane" source="damis" target="juliane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|chrysander" source="anton" target="chrysander">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="anton|juliane" source="anton" target="juliane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|lisette" source="anton" target="lisette">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="anton|valer" source="anton" target="valer">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="chrysander|lisette" source="chrysander" target="lisette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chrysander|juliane" source="chrysander" target="juliane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chrysander|valer" source="chrysander" target="valer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lisette|juliane" source="lisette" target="juliane">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lisette|valer" source="lisette" target="valer">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="juliane|valer" source="juliane" target="valer">
+            <data key="weight">4</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="zangler">
+            <data key="label">Zangler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2324</data>
+        </node>
+        <node id="sonders">
+            <data key="label">Sonders</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">787</data>
+        </node>
+        <node id="gertrud">
+            <data key="label">Gertrud</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">404</data>
+        </node>
+        <node id="kraps">
+            <data key="label">Kraps</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">320</data>
+        </node>
+        <node id="melchior">
+            <data key="label">Melchior</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2311</data>
+        </node>
+        <node id="hupfer">
+            <data key="label">Hupfer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">101</data>
+        </node>
+        <node id="weinberl">
+            <data key="label">Weinberl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4945</data>
+        </node>
+        <node id="christoph">
+            <data key="label">Christoph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1551</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">280</data>
+        </node>
+        <node id="hausmeister">
+            <data key="label">Hausmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">44</data>
+        </node>
+        <node id="brunninger">
+            <data key="label">Brunninger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">110</data>
+        </node>
+        <node id="philippine">
+            <data key="label">Philippine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">52</data>
+        </node>
+        <node id="madame_knorr">
+            <data key="label">Madame Knorr</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">710</data>
+        </node>
+        <node id="frau_von_fischer">
+            <data key="label">Frau von Fischer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">511</data>
+        </node>
+        <node id="kutscher">
+            <data key="label">Kutscher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">87</data>
+        </node>
+        <node id="kellner">
+            <data key="label">Kellner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">70</data>
+        </node>
+        <node id="zweiter_kellner">
+            <data key="label">Zweiter Kellner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="lisett">
+            <data key="label">Lisett</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">233</data>
+        </node>
+        <node id="fraeulein_blumenblatt">
+            <data key="label">Fräulein Blumenblatt</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">690</data>
+        </node>
+        <node id="wachter">
+            <data key="label">Wachter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">77</data>
+        </node>
+        <node id="die_uebrigen">
+            <data key="label">Die Übrigen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="rab">
+            <data key="label">Rab</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">268</data>
+        </node>
+        <edge id="zangler|sonders" source="zangler" target="sonders">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="zangler|gertrud" source="zangler" target="gertrud">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="zangler|kraps" source="zangler" target="kraps">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zangler|melchior" source="zangler" target="melchior">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="zangler|hupfer" source="zangler" target="hupfer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zangler|weinberl" source="zangler" target="weinberl">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="zangler|christoph" source="zangler" target="christoph">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="zangler|marie" source="zangler" target="marie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="zangler|brunninger" source="zangler" target="brunninger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zangler|kutscher" source="zangler" target="kutscher">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zangler|madame_knorr" source="zangler" target="madame_knorr">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="zangler|frau_von_fischer" source="zangler" target="frau_von_fischer">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="zangler|fraeulein_blumenblatt" source="zangler" target="fraeulein_blumenblatt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zangler|lisett" source="zangler" target="lisett">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zangler|wachter" source="zangler" target="wachter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zangler|die_uebrigen" source="zangler" target="die_uebrigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sonders|gertrud" source="sonders" target="gertrud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sonders|weinberl" source="sonders" target="weinberl">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="sonders|marie" source="sonders" target="marie">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="sonders|christoph" source="sonders" target="christoph">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sonders|melchior" source="sonders" target="melchior">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sonders|kellner" source="sonders" target="kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sonders|madame_knorr" source="sonders" target="madame_knorr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sonders|frau_von_fischer" source="sonders" target="frau_von_fischer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sonders|lisett" source="sonders" target="lisett">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sonders|fraeulein_blumenblatt" source="sonders" target="fraeulein_blumenblatt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sonders|wachter" source="sonders" target="wachter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sonders|die_uebrigen" source="sonders" target="die_uebrigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gertrud|christoph" source="gertrud" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gertrud|melchior" source="gertrud" target="melchior">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kraps|rab" source="kraps" target="rab">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kraps|weinberl" source="kraps" target="weinberl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kraps|christoph" source="kraps" target="christoph">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="melchior|hupfer" source="melchior" target="hupfer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melchior|kutscher" source="melchior" target="kutscher">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="melchior|marie" source="melchior" target="marie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="melchior|kellner" source="melchior" target="kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melchior|frau_von_fischer" source="melchior" target="frau_von_fischer">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="melchior|weinberl" source="melchior" target="weinberl">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="melchior|christoph" source="melchior" target="christoph">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="melchior|zweiter_kellner" source="melchior" target="zweiter_kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melchior|madame_knorr" source="melchior" target="madame_knorr">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="melchior|lisett" source="melchior" target="lisett">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="melchior|fraeulein_blumenblatt" source="melchior" target="fraeulein_blumenblatt">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="melchior|wachter" source="melchior" target="wachter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melchior|rab" source="melchior" target="rab">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weinberl|christoph" source="weinberl" target="christoph">
+            <data key="weight">28</data>
+        </edge>
+        <edge id="weinberl|marie" source="weinberl" target="marie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="weinberl|hausmeister" source="weinberl" target="hausmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weinberl|philippine" source="weinberl" target="philippine">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="weinberl|madame_knorr" source="weinberl" target="madame_knorr">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="weinberl|frau_von_fischer" source="weinberl" target="frau_von_fischer">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="weinberl|kellner" source="weinberl" target="kellner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="weinberl|zweiter_kellner" source="weinberl" target="zweiter_kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weinberl|wachter" source="weinberl" target="wachter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="weinberl|fraeulein_blumenblatt" source="weinberl" target="fraeulein_blumenblatt">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="weinberl|kutscher" source="weinberl" target="kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weinberl|lisett" source="weinberl" target="lisett">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="weinberl|die_uebrigen" source="weinberl" target="die_uebrigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weinberl|rab" source="weinberl" target="rab">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christoph|marie" source="christoph" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="christoph|hausmeister" source="christoph" target="hausmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|philippine" source="christoph" target="philippine">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="christoph|madame_knorr" source="christoph" target="madame_knorr">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="christoph|frau_von_fischer" source="christoph" target="frau_von_fischer">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="christoph|kellner" source="christoph" target="kellner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="christoph|zweiter_kellner" source="christoph" target="zweiter_kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|wachter" source="christoph" target="wachter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christoph|fraeulein_blumenblatt" source="christoph" target="fraeulein_blumenblatt">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="christoph|kutscher" source="christoph" target="kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|lisett" source="christoph" target="lisett">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="christoph|die_uebrigen" source="christoph" target="die_uebrigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|rab" source="christoph" target="rab">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|kellner" source="marie" target="kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|madame_knorr" source="marie" target="madame_knorr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|frau_von_fischer" source="marie" target="frau_von_fischer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|fraeulein_blumenblatt" source="marie" target="fraeulein_blumenblatt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippine|madame_knorr" source="philippine" target="madame_knorr">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="philippine|frau_von_fischer" source="philippine" target="frau_von_fischer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madame_knorr|frau_von_fischer" source="madame_knorr" target="frau_von_fischer">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="madame_knorr|kellner" source="madame_knorr" target="kellner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="madame_knorr|zweiter_kellner" source="madame_knorr" target="zweiter_kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madame_knorr|fraeulein_blumenblatt" source="madame_knorr" target="fraeulein_blumenblatt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="madame_knorr|lisett" source="madame_knorr" target="lisett">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madame_knorr|wachter" source="madame_knorr" target="wachter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_fischer|kellner" source="frau_von_fischer" target="kellner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_fischer|zweiter_kellner" source="frau_von_fischer" target="zweiter_kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_fischer|fraeulein_blumenblatt" source="frau_von_fischer" target="fraeulein_blumenblatt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_fischer|lisett" source="frau_von_fischer" target="lisett">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_fischer|wachter" source="frau_von_fischer" target="wachter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kutscher|wachter" source="kutscher" target="wachter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kutscher|fraeulein_blumenblatt" source="kutscher" target="fraeulein_blumenblatt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellner|zweiter_kellner" source="kellner" target="zweiter_kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisett|fraeulein_blumenblatt" source="lisett" target="fraeulein_blumenblatt">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lisett|wachter" source="lisett" target="wachter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraeulein_blumenblatt|wachter" source="fraeulein_blumenblatt" target="wachter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wachter|die_uebrigen" source="wachter" target="die_uebrigen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

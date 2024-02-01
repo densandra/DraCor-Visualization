@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="duport">
+            <data key="label">Duport</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1644</data>
+        </node>
+        <node id="louis">
+            <data key="label">Louis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">118</data>
+        </node>
+        <node id="madam_duport">
+            <data key="label">Madam Duport</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1386</data>
+        </node>
+        <node id="la_brie">
+            <data key="label">La Brie</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">557</data>
+        </node>
+        <node id="julie">
+            <data key="label">Julie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">570</data>
+        </node>
+        <node id="antoinette">
+            <data key="label">Antoinette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">859</data>
+        </node>
+        <node id="marquis">
+            <data key="label">Marquis de Rozieres</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">931</data>
+        </node>
+        <node id="erste_dame">
+            <data key="label">Erste Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">103</data>
+        </node>
+        <node id="zweyte_dame">
+            <data key="label">Zweyte Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="dritte_dame">
+            <data key="label">Dritte Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <node id="vierte_dame">
+            <data key="label">Vierte Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">51</data>
+        </node>
+        <node id="fuenfte_dame">
+            <data key="label">Fünfte Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">49</data>
+        </node>
+        <node id="sechste_dame">
+            <data key="label">Sechste Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="eine_dame">
+            <data key="label">Eine Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="erster_herr">
+            <data key="label">Erster Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="zweyter_herr">
+            <data key="label">Zweyter Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="dritter_herr">
+            <data key="label">Dritter Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="vierter_herr">
+            <data key="label">Vierter Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="fuenfter_herr">
+            <data key="label">Fünfter Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="sechster_herr">
+            <data key="label">Sechster Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">32</data>
+        </node>
+        <edge id="duport|louis" source="duport" target="louis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duport|madam_duport" source="duport" target="madam_duport">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="duport|la_brie" source="duport" target="la_brie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duport|julie" source="duport" target="julie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="duport|antoinette" source="duport" target="antoinette">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="duport|marquis" source="duport" target="marquis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="duport|erste_dame" source="duport" target="erste_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duport|zweyte_dame" source="duport" target="zweyte_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duport|dritte_dame" source="duport" target="dritte_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duport|vierte_dame" source="duport" target="vierte_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duport|fuenfte_dame" source="duport" target="fuenfte_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duport|sechste_dame" source="duport" target="sechste_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duport|erster_herr" source="duport" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duport|zweyter_herr" source="duport" target="zweyter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duport|dritter_herr" source="duport" target="dritter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duport|vierter_herr" source="duport" target="vierter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duport|fuenfter_herr" source="duport" target="fuenfter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duport|sechster_herr" source="duport" target="sechster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madam_duport|la_brie" source="madam_duport" target="la_brie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madam_duport|julie" source="madam_duport" target="julie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madam_duport|antoinette" source="madam_duport" target="antoinette">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madam_duport|marquis" source="madam_duport" target="marquis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="madam_duport|erste_dame" source="madam_duport" target="erste_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madam_duport|zweyte_dame" source="madam_duport" target="zweyte_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madam_duport|dritte_dame" source="madam_duport" target="dritte_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madam_duport|vierte_dame" source="madam_duport" target="vierte_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madam_duport|fuenfte_dame" source="madam_duport" target="fuenfte_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madam_duport|sechste_dame" source="madam_duport" target="sechste_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madam_duport|eine_dame" source="madam_duport" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madam_duport|erster_herr" source="madam_duport" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madam_duport|zweyter_herr" source="madam_duport" target="zweyter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madam_duport|dritter_herr" source="madam_duport" target="dritter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madam_duport|vierter_herr" source="madam_duport" target="vierter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madam_duport|fuenfter_herr" source="madam_duport" target="fuenfter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madam_duport|sechster_herr" source="madam_duport" target="sechster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_brie|antoinette" source="la_brie" target="antoinette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_brie|marquis" source="la_brie" target="marquis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|antoinette" source="julie" target="antoinette">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="julie|marquis" source="julie" target="marquis">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="julie|erste_dame" source="julie" target="erste_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|zweyte_dame" source="julie" target="zweyte_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|dritte_dame" source="julie" target="dritte_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|vierte_dame" source="julie" target="vierte_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|fuenfte_dame" source="julie" target="fuenfte_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|sechste_dame" source="julie" target="sechste_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|eine_dame" source="julie" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antoinette|marquis" source="antoinette" target="marquis">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="antoinette|erste_dame" source="antoinette" target="erste_dame">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="antoinette|zweyte_dame" source="antoinette" target="zweyte_dame">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="antoinette|dritte_dame" source="antoinette" target="dritte_dame">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="antoinette|vierte_dame" source="antoinette" target="vierte_dame">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="antoinette|fuenfte_dame" source="antoinette" target="fuenfte_dame">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="antoinette|sechste_dame" source="antoinette" target="sechste_dame">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="antoinette|eine_dame" source="antoinette" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antoinette|erster_herr" source="antoinette" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antoinette|zweyter_herr" source="antoinette" target="zweyter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antoinette|dritter_herr" source="antoinette" target="dritter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antoinette|vierter_herr" source="antoinette" target="vierter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antoinette|fuenfter_herr" source="antoinette" target="fuenfter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antoinette|sechster_herr" source="antoinette" target="sechster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|erste_dame" source="marquis" target="erste_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|zweyte_dame" source="marquis" target="zweyte_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|dritte_dame" source="marquis" target="dritte_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|vierte_dame" source="marquis" target="vierte_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|fuenfte_dame" source="marquis" target="fuenfte_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|sechste_dame" source="marquis" target="sechste_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|eine_dame" source="marquis" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dame|zweyte_dame" source="erste_dame" target="zweyte_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erste_dame|dritte_dame" source="erste_dame" target="dritte_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erste_dame|vierte_dame" source="erste_dame" target="vierte_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erste_dame|fuenfte_dame" source="erste_dame" target="fuenfte_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erste_dame|sechste_dame" source="erste_dame" target="sechste_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erste_dame|eine_dame" source="erste_dame" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dame|erster_herr" source="erste_dame" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dame|zweyter_herr" source="erste_dame" target="zweyter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dame|dritter_herr" source="erste_dame" target="dritter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dame|vierter_herr" source="erste_dame" target="vierter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dame|fuenfter_herr" source="erste_dame" target="fuenfter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dame|sechster_herr" source="erste_dame" target="sechster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyte_dame|dritte_dame" source="zweyte_dame" target="dritte_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweyte_dame|vierte_dame" source="zweyte_dame" target="vierte_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweyte_dame|fuenfte_dame" source="zweyte_dame" target="fuenfte_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweyte_dame|sechste_dame" source="zweyte_dame" target="sechste_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweyte_dame|eine_dame" source="zweyte_dame" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyte_dame|erster_herr" source="zweyte_dame" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyte_dame|zweyter_herr" source="zweyte_dame" target="zweyter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyte_dame|dritter_herr" source="zweyte_dame" target="dritter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyte_dame|vierter_herr" source="zweyte_dame" target="vierter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyte_dame|fuenfter_herr" source="zweyte_dame" target="fuenfter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyte_dame|sechster_herr" source="zweyte_dame" target="sechster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dame|vierte_dame" source="dritte_dame" target="vierte_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dritte_dame|fuenfte_dame" source="dritte_dame" target="fuenfte_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dritte_dame|sechste_dame" source="dritte_dame" target="sechste_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dritte_dame|eine_dame" source="dritte_dame" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dame|erster_herr" source="dritte_dame" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dame|zweyter_herr" source="dritte_dame" target="zweyter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dame|dritter_herr" source="dritte_dame" target="dritter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dame|vierter_herr" source="dritte_dame" target="vierter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dame|fuenfter_herr" source="dritte_dame" target="fuenfter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dame|sechster_herr" source="dritte_dame" target="sechster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dame|fuenfte_dame" source="vierte_dame" target="fuenfte_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="vierte_dame|sechste_dame" source="vierte_dame" target="sechste_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="vierte_dame|eine_dame" source="vierte_dame" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dame|erster_herr" source="vierte_dame" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dame|zweyter_herr" source="vierte_dame" target="zweyter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dame|dritter_herr" source="vierte_dame" target="dritter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dame|vierter_herr" source="vierte_dame" target="vierter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dame|fuenfter_herr" source="vierte_dame" target="fuenfter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dame|sechster_herr" source="vierte_dame" target="sechster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dame|sechste_dame" source="fuenfte_dame" target="sechste_dame">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fuenfte_dame|eine_dame" source="fuenfte_dame" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dame|erster_herr" source="fuenfte_dame" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dame|zweyter_herr" source="fuenfte_dame" target="zweyter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dame|dritter_herr" source="fuenfte_dame" target="dritter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dame|vierter_herr" source="fuenfte_dame" target="vierter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dame|fuenfter_herr" source="fuenfte_dame" target="fuenfter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dame|sechster_herr" source="fuenfte_dame" target="sechster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sechste_dame|eine_dame" source="sechste_dame" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sechste_dame|erster_herr" source="sechste_dame" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sechste_dame|zweyter_herr" source="sechste_dame" target="zweyter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sechste_dame|dritter_herr" source="sechste_dame" target="dritter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sechste_dame|vierter_herr" source="sechste_dame" target="vierter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sechste_dame|fuenfter_herr" source="sechste_dame" target="fuenfter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sechste_dame|sechster_herr" source="sechste_dame" target="sechster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|zweyter_herr" source="erster_herr" target="zweyter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|dritter_herr" source="erster_herr" target="dritter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|vierter_herr" source="erster_herr" target="vierter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|fuenfter_herr" source="erster_herr" target="fuenfter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|sechster_herr" source="erster_herr" target="sechster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyter_herr|dritter_herr" source="zweyter_herr" target="dritter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyter_herr|vierter_herr" source="zweyter_herr" target="vierter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyter_herr|fuenfter_herr" source="zweyter_herr" target="fuenfter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyter_herr|sechster_herr" source="zweyter_herr" target="sechster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_herr|vierter_herr" source="dritter_herr" target="vierter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_herr|fuenfter_herr" source="dritter_herr" target="fuenfter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_herr|sechster_herr" source="dritter_herr" target="sechster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_herr|fuenfter_herr" source="vierter_herr" target="fuenfter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_herr|sechster_herr" source="vierter_herr" target="sechster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfter_herr|sechster_herr" source="fuenfter_herr" target="sechster_herr">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

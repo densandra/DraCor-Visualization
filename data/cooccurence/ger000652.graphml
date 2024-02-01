@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="baumann">
+            <data key="label">Baumann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3882</data>
+        </node>
+        <node id="amalia">
+            <data key="label">Amalia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">985</data>
+        </node>
+        <node id="julchen">
+            <data key="label">Julchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">206</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">192</data>
+        </node>
+        <node id="herr_ruebe">
+            <data key="label">Herr Rübe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1042</data>
+        </node>
+        <node id="ein_bedienter">
+            <data key="label">Ein Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">106</data>
+        </node>
+        <node id="der_andere_bediente">
+            <data key="label">Der andere Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="ernst">
+            <data key="label">Ernst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">267</data>
+        </node>
+        <node id="hannchen">
+            <data key="label">Hannchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">187</data>
+        </node>
+        <node id="der_graf">
+            <data key="label">Der Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">583</data>
+        </node>
+        <edge id="baumann|amalia" source="baumann" target="amalia">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="baumann|julchen" source="baumann" target="julchen">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="baumann|wilhelm" source="baumann" target="wilhelm">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baumann|herr_ruebe" source="baumann" target="herr_ruebe">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baumann|ein_bedienter" source="baumann" target="ein_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baumann|der_andere_bediente" source="baumann" target="der_andere_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baumann|ernst" source="baumann" target="ernst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baumann|hannchen" source="baumann" target="hannchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baumann|der_graf" source="baumann" target="der_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalia|julchen" source="amalia" target="julchen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="amalia|wilhelm" source="amalia" target="wilhelm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amalia|herr_ruebe" source="amalia" target="herr_ruebe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="amalia|ein_bedienter" source="amalia" target="ein_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalia|der_andere_bediente" source="amalia" target="der_andere_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalia|ernst" source="amalia" target="ernst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amalia|hannchen" source="amalia" target="hannchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julchen|wilhelm" source="julchen" target="wilhelm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="julchen|hannchen" source="julchen" target="hannchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="julchen|ernst" source="julchen" target="ernst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|herr_ruebe" source="wilhelm" target="herr_ruebe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|der_graf" source="wilhelm" target="der_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|hannchen" source="wilhelm" target="hannchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|ernst" source="wilhelm" target="ernst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bedienter|der_andere_bediente" source="ein_bedienter" target="der_andere_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|hannchen" source="ernst" target="hannchen">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

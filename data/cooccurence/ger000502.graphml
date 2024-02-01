@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="wespe">
+            <data key="label">Doctor Alfred Wespe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3760</data>
+        </node>
+        <node id="honau">
+            <data key="label">Ludwig Honau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3244</data>
+        </node>
+        <node id="adam">
+            <data key="label">Adam</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">905</data>
+        </node>
+        <node id="zuendorf">
+            <data key="label">Herr von Zündorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2646</data>
+        </node>
+        <node id="wellstein">
+            <data key="label">Wellstein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1798</data>
+        </node>
+        <node id="thekla">
+            <data key="label">Thekla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1850</data>
+        </node>
+        <node id="theudelinde">
+            <data key="label">Theudelinde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2419</data>
+        </node>
+        <node id="elisabeth">
+            <data key="label">Elisabeth</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2636</data>
+        </node>
+        <node id="friederike">
+            <data key="label">Friederike</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="christoph">
+            <data key="label">Christoph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">794</data>
+        </node>
+        <node id="schreier">
+            <data key="label">Schreier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="johanne">
+            <data key="label">Johanne</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <edge id="wespe|honau" source="wespe" target="honau">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="wespe|adam" source="wespe" target="adam">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="wespe|zuendorf" source="wespe" target="zuendorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wespe|elisabeth" source="wespe" target="elisabeth">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wespe|thekla" source="wespe" target="thekla">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wespe|friederike" source="wespe" target="friederike">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wespe|theudelinde" source="wespe" target="theudelinde">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wespe|wellstein" source="wespe" target="wellstein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wespe|christoph" source="wespe" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="honau|adam" source="honau" target="adam">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="honau|zuendorf" source="honau" target="zuendorf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="honau|wellstein" source="honau" target="wellstein">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="honau|thekla" source="honau" target="thekla">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="honau|friederike" source="honau" target="friederike">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="honau|elisabeth" source="honau" target="elisabeth">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="honau|theudelinde" source="honau" target="theudelinde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adam|wellstein" source="adam" target="wellstein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="adam|thekla" source="adam" target="thekla">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="adam|theudelinde" source="adam" target="theudelinde">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="adam|christoph" source="adam" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adam|elisabeth" source="adam" target="elisabeth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adam|zuendorf" source="adam" target="zuendorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zuendorf|wellstein" source="zuendorf" target="wellstein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="zuendorf|elisabeth" source="zuendorf" target="elisabeth">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="zuendorf|thekla" source="zuendorf" target="thekla">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="zuendorf|christoph" source="zuendorf" target="christoph">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="zuendorf|friederike" source="zuendorf" target="friederike">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zuendorf|theudelinde" source="zuendorf" target="theudelinde">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wellstein|thekla" source="wellstein" target="thekla">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="wellstein|schreier" source="wellstein" target="schreier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wellstein|friederike" source="wellstein" target="friederike">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wellstein|elisabeth" source="wellstein" target="elisabeth">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wellstein|theudelinde" source="wellstein" target="theudelinde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thekla|elisabeth" source="thekla" target="elisabeth">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="thekla|friederike" source="thekla" target="friederike">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="thekla|theudelinde" source="thekla" target="theudelinde">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="thekla|schreier" source="thekla" target="schreier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thekla|christoph" source="thekla" target="christoph">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="theudelinde|johanne" source="theudelinde" target="johanne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theudelinde|elisabeth" source="theudelinde" target="elisabeth">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="theudelinde|christoph" source="theudelinde" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theudelinde|friederike" source="theudelinde" target="friederike">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|friederike" source="elisabeth" target="friederike">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="elisabeth|christoph" source="elisabeth" target="christoph">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

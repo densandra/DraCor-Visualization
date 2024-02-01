@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="fiebig">
+            <data key="label">Fiebig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7445</data>
+        </node>
+        <node id="hahn">
+            <data key="label">Hahn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">836</data>
+        </node>
+        <node id="frau_fiebig">
+            <data key="label">Frau Fiebig</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">322</data>
+        </node>
+        <node id="anna">
+            <data key="label">Anna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">69</data>
+        </node>
+        <node id="meischen">
+            <data key="label">Meischen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">983</data>
+        </node>
+        <node id="gehrke">
+            <data key="label">Gehrke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3253</data>
+        </node>
+        <node id="werner">
+            <data key="label">Werner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2359</data>
+        </node>
+        <node id="junge">
+            <data key="label">Junge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">171</data>
+        </node>
+        <node id="styczinski">
+            <data key="label">Styczinski</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">257</data>
+        </node>
+        <node id="bellermann">
+            <data key="label">Bellermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">718</data>
+        </node>
+        <node id="gendarm">
+            <data key="label">Gendarm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">53</data>
+        </node>
+        <node id="amtsvorsteher">
+            <data key="label">Amtsvorsteher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">424</data>
+        </node>
+        <node id="schwabe">
+            <data key="label">Schwabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">76</data>
+        </node>
+        <node id="naphtali">
+            <data key="label">Naphtali</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">246</data>
+        </node>
+        <node id="dienstmann">
+            <data key="label">Dienstmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">82</data>
+        </node>
+        <node id="waschfrau">
+            <data key="label">Waschfrau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <edge id="fiebig|hahn" source="fiebig" target="hahn">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fiebig|frau_fiebig" source="fiebig" target="frau_fiebig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiebig|anna" source="fiebig" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiebig|meischen" source="fiebig" target="meischen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fiebig|gehrke" source="fiebig" target="gehrke">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fiebig|werner" source="fiebig" target="werner">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fiebig|junge" source="fiebig" target="junge">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fiebig|styczinski" source="fiebig" target="styczinski">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fiebig|bellermann" source="fiebig" target="bellermann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fiebig|gendarm" source="fiebig" target="gendarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiebig|amtsvorsteher" source="fiebig" target="amtsvorsteher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiebig|schwabe" source="fiebig" target="schwabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiebig|naphtali" source="fiebig" target="naphtali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiebig|dienstmann" source="fiebig" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiebig|waschfrau" source="fiebig" target="waschfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hahn|frau_fiebig" source="hahn" target="frau_fiebig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hahn|anna" source="hahn" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hahn|meischen" source="hahn" target="meischen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hahn|gehrke" source="hahn" target="gehrke">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hahn|werner" source="hahn" target="werner">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hahn|junge" source="hahn" target="junge">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hahn|styczinski" source="hahn" target="styczinski">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hahn|bellermann" source="hahn" target="bellermann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hahn|gendarm" source="hahn" target="gendarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hahn|amtsvorsteher" source="hahn" target="amtsvorsteher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hahn|schwabe" source="hahn" target="schwabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hahn|naphtali" source="hahn" target="naphtali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hahn|dienstmann" source="hahn" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hahn|waschfrau" source="hahn" target="waschfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_fiebig|anna" source="frau_fiebig" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_fiebig|meischen" source="frau_fiebig" target="meischen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_fiebig|gehrke" source="frau_fiebig" target="gehrke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_fiebig|werner" source="frau_fiebig" target="werner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|meischen" source="anna" target="meischen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|gehrke" source="anna" target="gehrke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|werner" source="anna" target="werner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meischen|gehrke" source="meischen" target="gehrke">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="meischen|werner" source="meischen" target="werner">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="meischen|junge" source="meischen" target="junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meischen|styczinski" source="meischen" target="styczinski">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="meischen|bellermann" source="meischen" target="bellermann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="meischen|gendarm" source="meischen" target="gendarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meischen|amtsvorsteher" source="meischen" target="amtsvorsteher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meischen|schwabe" source="meischen" target="schwabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meischen|naphtali" source="meischen" target="naphtali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meischen|dienstmann" source="meischen" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gehrke|werner" source="gehrke" target="werner">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="gehrke|junge" source="gehrke" target="junge">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gehrke|styczinski" source="gehrke" target="styczinski">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gehrke|bellermann" source="gehrke" target="bellermann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gehrke|gendarm" source="gehrke" target="gendarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gehrke|amtsvorsteher" source="gehrke" target="amtsvorsteher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gehrke|schwabe" source="gehrke" target="schwabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gehrke|naphtali" source="gehrke" target="naphtali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gehrke|dienstmann" source="gehrke" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gehrke|waschfrau" source="gehrke" target="waschfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|junge" source="werner" target="junge">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="werner|styczinski" source="werner" target="styczinski">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="werner|bellermann" source="werner" target="bellermann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="werner|gendarm" source="werner" target="gendarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|amtsvorsteher" source="werner" target="amtsvorsteher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|schwabe" source="werner" target="schwabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|naphtali" source="werner" target="naphtali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|dienstmann" source="werner" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|waschfrau" source="werner" target="waschfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="junge|styczinski" source="junge" target="styczinski">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="junge|bellermann" source="junge" target="bellermann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="junge|gendarm" source="junge" target="gendarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="junge|waschfrau" source="junge" target="waschfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="styczinski|bellermann" source="styczinski" target="bellermann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="styczinski|gendarm" source="styczinski" target="gendarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="styczinski|amtsvorsteher" source="styczinski" target="amtsvorsteher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="styczinski|schwabe" source="styczinski" target="schwabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="styczinski|naphtali" source="styczinski" target="naphtali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="styczinski|dienstmann" source="styczinski" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="styczinski|waschfrau" source="styczinski" target="waschfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellermann|gendarm" source="bellermann" target="gendarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellermann|amtsvorsteher" source="bellermann" target="amtsvorsteher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellermann|schwabe" source="bellermann" target="schwabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellermann|naphtali" source="bellermann" target="naphtali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellermann|dienstmann" source="bellermann" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellermann|waschfrau" source="bellermann" target="waschfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amtsvorsteher|schwabe" source="amtsvorsteher" target="schwabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amtsvorsteher|naphtali" source="amtsvorsteher" target="naphtali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amtsvorsteher|dienstmann" source="amtsvorsteher" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwabe|naphtali" source="schwabe" target="naphtali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwabe|dienstmann" source="schwabe" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="naphtali|dienstmann" source="naphtali" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

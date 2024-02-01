@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="matthes">
+            <data key="label">Matthes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rudolph">
+            <data key="label">Rudolph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="anton">
+            <data key="label">Anton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="oberfoersterin">
+            <data key="label">Oberförsterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="oberfoerster">
+            <data key="label">Oberförster</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schulz">
+            <data key="label">Schulz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="friedrike">
+            <data key="label">Friedrike</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_bursche">
+            <data key="label">Ein Bursche</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kordelchen">
+            <data key="label">Kordelchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pastor">
+            <data key="label">Pastor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wirtin">
+            <data key="label">Wirtin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="baerbel">
+            <data key="label">Bärbel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gerichtsschreiber">
+            <data key="label">Gerichtsschreiber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="romann">
+            <data key="label">Romann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kappe">
+            <data key="label">Kappe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_bauern">
+            <data key="label">Die Bauern</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="der_alte_bauer">
+            <data key="label">Der alte Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="amtmann">
+            <data key="label">Amtmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="oberfoerster" target="oberfoersterin">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="oberfoerster" target="anton">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="oberfoersterin" target="anton">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="friedrike" target="oberfoerster">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="5" directed="false" source="oberfoerster" target="friedrike">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="amtmann" target="kordelchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="7" directed="false" source="matthes" target="oberfoerster">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="rudolph" target="oberfoerster">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="wirtin" target="baerbel">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

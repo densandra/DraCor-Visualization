@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1277</data>
+        </node>
+        <node id="walter">
+            <data key="label">Walter Horst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1834</data>
+        </node>
+        <node id="emil">
+            <data key="label">Emil</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1254</data>
+        </node>
+        <node id="fremder_ludwig_horst">
+            <data key="label">Fremder/Ludwig Horst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">820</data>
+        </node>
+        <edge id="sophie|walter" source="sophie" target="walter">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="sophie|emil" source="sophie" target="emil">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sophie|fremder_ludwig_horst" source="sophie" target="fremder_ludwig_horst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="walter|emil" source="walter" target="emil">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="walter|fremder_ludwig_horst" source="walter" target="fremder_ludwig_horst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emil|fremder_ludwig_horst" source="emil" target="fremder_ludwig_horst">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

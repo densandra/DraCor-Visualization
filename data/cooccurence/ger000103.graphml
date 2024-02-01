@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="amante">
+            <data key="label">Amante</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1457</data>
+        </node>
+        <node id="paulo">
+            <data key="label">Paulo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1020</data>
+        </node>
+        <node id="laura">
+            <data key="label">Laura</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">619</data>
+        </node>
+        <node id="julio">
+            <data key="label">Julio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5000</data>
+        </node>
+        <node id="ludovico">
+            <data key="label">Ludovico</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">826</data>
+        </node>
+        <node id="pirro">
+            <data key="label">Pirro</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">63</data>
+        </node>
+        <node id="solina">
+            <data key="label">Donna Solina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4498</data>
+        </node>
+        <node id="pasquino">
+            <data key="label">Pasquino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">308</data>
+        </node>
+        <node id="galbino">
+            <data key="label">Prinz Galbino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3913</data>
+        </node>
+        <node id="rosaline">
+            <data key="label">Rosaline</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">191</data>
+        </node>
+        <node id="herzogin">
+            <data key="label">Herzogin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1356</data>
+        </node>
+        <node id="rosaura">
+            <data key="label">Rosaura</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">70</data>
+        </node>
+        <node id="drullo">
+            <data key="label">Graf Drullo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2446</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="galanteriekraemerin">
+            <data key="label">Galanteriekrämerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="carlo">
+            <data key="label">Carlo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">215</data>
+        </node>
+        <node id="stallmeister">
+            <data key="label">Stallmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="kammerdiener">
+            <data key="label">Kammerdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="abgeordneter">
+            <data key="label">Abgeordneter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <edge id="amante|paulo" source="amante" target="paulo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="amante|laura" source="amante" target="laura">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amante|julio" source="amante" target="julio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amante|pirro" source="amante" target="pirro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amante|solina" source="amante" target="solina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paulo|laura" source="paulo" target="laura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paulo|julio" source="paulo" target="julio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paulo|pirro" source="paulo" target="pirro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paulo|solina" source="paulo" target="solina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laura|julio" source="laura" target="julio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julio|ludovico" source="julio" target="ludovico">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="julio|pirro" source="julio" target="pirro">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="julio|solina" source="julio" target="solina">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="julio|rosaura" source="julio" target="rosaura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julio|drullo" source="julio" target="drullo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="julio|galanteriekraemerin" source="julio" target="galanteriekraemerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julio|galbino" source="julio" target="galbino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julio|herzogin" source="julio" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julio|carlo" source="julio" target="carlo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julio|abgeordneter" source="julio" target="abgeordneter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludovico|pirro" source="ludovico" target="pirro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludovico|solina" source="ludovico" target="solina">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ludovico|pasquino" source="ludovico" target="pasquino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludovico|galbino" source="ludovico" target="galbino">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ludovico|drullo" source="ludovico" target="drullo">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ludovico|bedienter" source="ludovico" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludovico|carlo" source="ludovico" target="carlo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ludovico|herzogin" source="ludovico" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pirro|solina" source="pirro" target="solina">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="pirro|rosaura" source="pirro" target="rosaura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pirro|drullo" source="pirro" target="drullo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pirro|galanteriekraemerin" source="pirro" target="galanteriekraemerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="solina|rosaline" source="solina" target="rosaline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="solina|herzogin" source="solina" target="herzogin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="solina|rosaura" source="solina" target="rosaura">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="solina|drullo" source="solina" target="drullo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="solina|galanteriekraemerin" source="solina" target="galanteriekraemerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="solina|galbino" source="solina" target="galbino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="solina|carlo" source="solina" target="carlo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="solina|abgeordneter" source="solina" target="abgeordneter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pasquino|galbino" source="pasquino" target="galbino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galbino|drullo" source="galbino" target="drullo">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="galbino|bedienter" source="galbino" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galbino|carlo" source="galbino" target="carlo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="galbino|herzogin" source="galbino" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galbino|stallmeister" source="galbino" target="stallmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="galbino|kammerdiener" source="galbino" target="kammerdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosaline|herzogin" source="rosaline" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosaline|rosaura" source="rosaline" target="rosaura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|rosaura" source="herzogin" target="rosaura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|drullo" source="herzogin" target="drullo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|carlo" source="herzogin" target="carlo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosaura|drullo" source="rosaura" target="drullo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosaura|galanteriekraemerin" source="rosaura" target="galanteriekraemerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drullo|bedienter" source="drullo" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drullo|galanteriekraemerin" source="drullo" target="galanteriekraemerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drullo|carlo" source="drullo" target="carlo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="drullo|stallmeister" source="drullo" target="stallmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drullo|kammerdiener" source="drullo" target="kammerdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stallmeister|kammerdiener" source="stallmeister" target="kammerdiener">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

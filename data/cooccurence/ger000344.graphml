@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sturmwald">
+            <data key="label">Sturmwald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1492</data>
+        </node>
+        <node id="stoessel">
+            <data key="label">Stößel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3073</data>
+        </node>
+        <node id="claudia">
+            <data key="label">Claudia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2049</data>
+        </node>
+        <node id="rosalie">
+            <data key="label">Rosalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1842</data>
+        </node>
+        <node id="leonore">
+            <data key="label">Leonore</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1667</data>
+        </node>
+        <node id="gotthold">
+            <data key="label">Gotthold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1716</data>
+        </node>
+        <node id="sichel">
+            <data key="label">Sichel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3328</data>
+        </node>
+        <node id="krautmann">
+            <data key="label">Krautmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1075</data>
+        </node>
+        <node id="gallus">
+            <data key="label">Gallus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">283</data>
+        </node>
+        <node id="kommissaer">
+            <data key="label">Kommissär</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">186</data>
+        </node>
+        <edge id="sturmwald|stoessel" source="sturmwald" target="stoessel">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="sturmwald|claudia" source="sturmwald" target="claudia">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="sturmwald|rosalie" source="sturmwald" target="rosalie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sturmwald|leonore" source="sturmwald" target="leonore">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sturmwald|gotthold" source="sturmwald" target="gotthold">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sturmwald|sichel" source="sturmwald" target="sichel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sturmwald|kommissaer" source="sturmwald" target="kommissaer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sturmwald|krautmann" source="sturmwald" target="krautmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stoessel|claudia" source="stoessel" target="claudia">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="stoessel|rosalie" source="stoessel" target="rosalie">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="stoessel|leonore" source="stoessel" target="leonore">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="stoessel|sichel" source="stoessel" target="sichel">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="stoessel|gotthold" source="stoessel" target="gotthold">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="stoessel|krautmann" source="stoessel" target="krautmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stoessel|kommissaer" source="stoessel" target="kommissaer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="claudia|rosalie" source="claudia" target="rosalie">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="claudia|leonore" source="claudia" target="leonore">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="claudia|sichel" source="claudia" target="sichel">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="claudia|gotthold" source="claudia" target="gotthold">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="claudia|kommissaer" source="claudia" target="kommissaer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="claudia|krautmann" source="claudia" target="krautmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|leonore" source="rosalie" target="leonore">
+            <data key="weight">18</data>
+        </edge>
+        <edge id="rosalie|sichel" source="rosalie" target="sichel">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="rosalie|gotthold" source="rosalie" target="gotthold">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="rosalie|kommissaer" source="rosalie" target="kommissaer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosalie|krautmann" source="rosalie" target="krautmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonore|sichel" source="leonore" target="sichel">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="leonore|gotthold" source="leonore" target="gotthold">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="leonore|kommissaer" source="leonore" target="kommissaer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leonore|krautmann" source="leonore" target="krautmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gotthold|sichel" source="gotthold" target="sichel">
+            <data key="weight">19</data>
+        </edge>
+        <edge id="gotthold|kommissaer" source="gotthold" target="kommissaer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gotthold|krautmann" source="gotthold" target="krautmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sichel|kommissaer" source="sichel" target="kommissaer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sichel|krautmann" source="sichel" target="krautmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krautmann|gallus" source="krautmann" target="gallus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krautmann|kommissaer" source="krautmann" target="kommissaer">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

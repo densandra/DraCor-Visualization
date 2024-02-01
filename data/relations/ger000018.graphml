@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="lieschen">
+            <data key="label">Lieschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gretchen">
+            <data key="label">Gretchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="capitain">
+            <data key="label">Capitain</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="miller">
+            <data key="label">Miller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="buchdrucker">
+            <data key="label">Buchdrucker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cornet">
+            <data key="label">Cornet</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="weigenand">
+            <data key="label">Weigenand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eppelmeier">
+            <data key="label">Eppelmeier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dappelius">
+            <data key="label">Dappelius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="knorzheimer">
+            <data key="label">Knorzheimer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schmuttler">
+            <data key="label">Schmuttler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="leimpfann">
+            <data key="label">Leimpfann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mehrere_andere">
+            <data key="label">Mehrere Andere</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="eine_stimme">
+            <data key="label">Eine Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pompier">
+            <data key="label">Pompier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tambour">
+            <data key="label">Tambour</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="capitain" target="lieschen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="gretchen" target="capitain">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="3" directed="false" source="weigenand" target="lieschen">
+            <data key="relation">lover_of</data>
+        </edge>
+    </graph>
+</graphml>

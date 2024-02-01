@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="johanna">
+            <data key="label">Johanna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="felix">
+            <data key="label">Felix</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sala">
+            <data key="label">Sala</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="doktor_reumann">
+            <data key="label">Doktor Reumann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_wegrat">
+            <data key="label">Frau Wegrat</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wegrat">
+            <data key="label">Professor Wegrat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diener_bei_fichtner">
+            <data key="label">Diener bei Fichtner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="julian">
+            <data key="label">Julian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="irene">
+            <data key="label">Irene Herms</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stubenmaedchen">
+            <data key="label">Stubenmädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diener_bei_sala">
+            <data key="label">Diener bei Sala</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="frau_wegrat" target="wegrat">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="wegrat" target="felix">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="frau_wegrat" target="felix">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="wegrat" target="johanna">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="frau_wegrat" target="johanna">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="diener_bei_fichtner" target="julian">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="diener_bei_sala" target="sala">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="stubenmaedchen" target="wegrat">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

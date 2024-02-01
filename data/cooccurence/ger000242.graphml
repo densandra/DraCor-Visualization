@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="faust">
+            <data key="label">Faust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1896</data>
+        </node>
+        <node id="mephistopheles">
+            <data key="label">Mephistopheles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1141</data>
+        </node>
+        <node id="wohlhaldt">
+            <data key="label">Wohlhaldt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">461</data>
+        </node>
+        <node id="wagner">
+            <data key="label">Wagner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">316</data>
+        </node>
+        <node id="kaylinger">
+            <data key="label">Kaylinger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">348</data>
+        </node>
+        <node id="moor">
+            <data key="label">Moor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">126</data>
+        </node>
+        <node id="roeschen">
+            <data key="label">Röschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">624</data>
+        </node>
+        <node id="franz">
+            <data key="label">Franz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">581</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">359</data>
+        </node>
+        <node id="kunigunde">
+            <data key="label">Kunigunde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">946</data>
+        </node>
+        <node id="gulf">
+            <data key="label">Gulf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">169</data>
+        </node>
+        <node id="hugo">
+            <data key="label">Hugo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">579</data>
+        </node>
+        <node id="knappe">
+            <data key="label">Knappe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <node id="kunigundens_dienerin">
+            <data key="label">Kunigundens Dienerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="hugos_begleiter">
+            <data key="label">Begleiter von Hugo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <node id="chor_der_geister">
+            <data key="label">Chor der Geister</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="eine_hexe">
+            <data key="label">Eine Hexe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">100</data>
+        </node>
+        <node id="sycorax">
+            <data key="label">Sycorax</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">155</data>
+        </node>
+        <node id="hexen">
+            <data key="label">Hexen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="drei_hexen">
+            <data key="label">Drei Hexen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="hochzeitsgaeste">
+            <data key="label">Hochzeitsgäste</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="chor_der_maenner">
+            <data key="label">Chor der Männer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <edge id="faust|mephistopheles" source="faust" target="mephistopheles">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="faust|roeschen" source="faust" target="roeschen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="faust|franz" source="faust" target="franz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="faust|chor" source="faust" target="chor">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="faust|wohlhaldt" source="faust" target="wohlhaldt">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="faust|wagner" source="faust" target="wagner">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="faust|moor" source="faust" target="moor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|kaylinger" source="faust" target="kaylinger">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="faust|hugo" source="faust" target="hugo">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="faust|gulf" source="faust" target="gulf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="faust|kunigunde" source="faust" target="kunigunde">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="faust|kunigundens_dienerin" source="faust" target="kunigundens_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|hugos_begleiter" source="faust" target="hugos_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|chor_der_geister" source="faust" target="chor_der_geister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|sycorax" source="faust" target="sycorax">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|hexen" source="faust" target="hexen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|drei_hexen" source="faust" target="drei_hexen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|chor_der_maenner" source="faust" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|roeschen" source="mephistopheles" target="roeschen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mephistopheles|franz" source="mephistopheles" target="franz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mephistopheles|kunigunde" source="mephistopheles" target="kunigunde">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="mephistopheles|hugo" source="mephistopheles" target="hugo">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="mephistopheles|gulf" source="mephistopheles" target="gulf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mephistopheles|kunigundens_dienerin" source="mephistopheles" target="kunigundens_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|hugos_begleiter" source="mephistopheles" target="hugos_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|chor" source="mephistopheles" target="chor">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="mephistopheles|chor_der_geister" source="mephistopheles" target="chor_der_geister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mephistopheles|sycorax" source="mephistopheles" target="sycorax">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mephistopheles|hexen" source="mephistopheles" target="hexen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|drei_hexen" source="mephistopheles" target="drei_hexen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|chor_der_maenner" source="mephistopheles" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|wohlhaldt" source="mephistopheles" target="wohlhaldt">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mephistopheles|wagner" source="mephistopheles" target="wagner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mephistopheles|moor" source="mephistopheles" target="moor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|kaylinger" source="mephistopheles" target="kaylinger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wohlhaldt|wagner" source="wohlhaldt" target="wagner">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="wohlhaldt|kaylinger" source="wohlhaldt" target="kaylinger">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="wohlhaldt|moor" source="wohlhaldt" target="moor">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wohlhaldt|franz" source="wohlhaldt" target="franz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wohlhaldt|chor" source="wohlhaldt" target="chor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wohlhaldt|roeschen" source="wohlhaldt" target="roeschen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wohlhaldt|hugo" source="wohlhaldt" target="hugo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wohlhaldt|kunigunde" source="wohlhaldt" target="kunigunde">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="wohlhaldt|chor_der_maenner" source="wohlhaldt" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|kaylinger" source="wagner" target="kaylinger">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="wagner|moor" source="wagner" target="moor">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wagner|franz" source="wagner" target="franz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wagner|chor" source="wagner" target="chor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wagner|roeschen" source="wagner" target="roeschen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wagner|hugo" source="wagner" target="hugo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wagner|kunigunde" source="wagner" target="kunigunde">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wagner|chor_der_maenner" source="wagner" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaylinger|moor" source="kaylinger" target="moor">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kaylinger|franz" source="kaylinger" target="franz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kaylinger|chor" source="kaylinger" target="chor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaylinger|roeschen" source="kaylinger" target="roeschen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaylinger|kunigunde" source="kaylinger" target="kunigunde">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kaylinger|hugo" source="kaylinger" target="hugo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaylinger|chor_der_maenner" source="kaylinger" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="moor|franz" source="moor" target="franz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="moor|chor" source="moor" target="chor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="moor|roeschen" source="moor" target="roeschen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="moor|kunigunde" source="moor" target="kunigunde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="moor|hugo" source="moor" target="hugo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="moor|chor_der_maenner" source="moor" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roeschen|franz" source="roeschen" target="franz">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="roeschen|hugo" source="roeschen" target="hugo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="roeschen|kunigunde" source="roeschen" target="kunigunde">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="roeschen|chor" source="roeschen" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roeschen|chor_der_maenner" source="roeschen" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|chor" source="franz" target="chor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="franz|hugo" source="franz" target="hugo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="franz|kunigunde" source="franz" target="kunigunde">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="franz|chor_der_maenner" source="franz" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|hugo" source="chor" target="hugo">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="chor|hugos_begleiter" source="chor" target="hugos_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|chor_der_geister" source="chor" target="chor_der_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|gulf" source="chor" target="gulf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|kunigunde" source="chor" target="kunigunde">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor|eine_hexe" source="chor" target="eine_hexe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|sycorax" source="chor" target="sycorax">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor|hexen" source="chor" target="hexen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|drei_hexen" source="chor" target="drei_hexen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|hochzeitsgaeste" source="chor" target="hochzeitsgaeste">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|chor_der_maenner" source="chor" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunigunde|gulf" source="kunigunde" target="gulf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kunigunde|hugo" source="kunigunde" target="hugo">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="kunigunde|kunigundens_dienerin" source="kunigunde" target="kunigundens_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunigunde|chor_der_geister" source="kunigunde" target="chor_der_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunigunde|hochzeitsgaeste" source="kunigunde" target="hochzeitsgaeste">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunigunde|chor_der_maenner" source="kunigunde" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gulf|hugo" source="gulf" target="hugo">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gulf|kunigundens_dienerin" source="gulf" target="kunigundens_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gulf|chor_der_geister" source="gulf" target="chor_der_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|knappe" source="hugo" target="knappe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|kunigundens_dienerin" source="hugo" target="kunigundens_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|hugos_begleiter" source="hugo" target="hugos_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|chor_der_geister" source="hugo" target="chor_der_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|hochzeitsgaeste" source="hugo" target="hochzeitsgaeste">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|chor_der_maenner" source="hugo" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sycorax|hexen" source="sycorax" target="hexen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sycorax|drei_hexen" source="sycorax" target="drei_hexen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hexen|drei_hexen" source="hexen" target="drei_hexen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="guldberg">
+            <data key="label">Guldberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4796</data>
+        </node>
+        <node id="ranzau">
+            <data key="label">Graf Ranzau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2638</data>
+        </node>
+        <node id="koeller">
+            <data key="label">Köller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1822</data>
+        </node>
+        <node id="lorenz">
+            <data key="label">Lorenz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">466</data>
+        </node>
+        <node id="koenigin">
+            <data key="label">Königin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2105</data>
+        </node>
+        <node id="gallen">
+            <data key="label">Gräfin Gallen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">974</data>
+        </node>
+        <node id="koenig">
+            <data key="label">König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">458</data>
+        </node>
+        <node id="struensee">
+            <data key="label">Struensee</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4668</data>
+        </node>
+        <edge id="guldberg|ranzau" source="guldberg" target="ranzau">
+            <data key="weight">19</data>
+        </edge>
+        <edge id="guldberg|koeller" source="guldberg" target="koeller">
+            <data key="weight">17</data>
+        </edge>
+        <edge id="guldberg|lorenz" source="guldberg" target="lorenz">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="guldberg|koenigin" source="guldberg" target="koenigin">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="guldberg|gallen" source="guldberg" target="gallen">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="guldberg|koenig" source="guldberg" target="koenig">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="guldberg|struensee" source="guldberg" target="struensee">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="ranzau|koeller" source="ranzau" target="koeller">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="ranzau|lorenz" source="ranzau" target="lorenz">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="ranzau|koenig" source="ranzau" target="koenig">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="ranzau|koenigin" source="ranzau" target="koenigin">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="ranzau|struensee" source="ranzau" target="struensee">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="ranzau|gallen" source="ranzau" target="gallen">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="koeller|lorenz" source="koeller" target="lorenz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="koeller|koenig" source="koeller" target="koenig">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="koeller|koenigin" source="koeller" target="koenigin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="koeller|struensee" source="koeller" target="struensee">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="koeller|gallen" source="koeller" target="gallen">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="lorenz|koenig" source="lorenz" target="koenig">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lorenz|koenigin" source="lorenz" target="koenigin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lorenz|struensee" source="lorenz" target="struensee">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lorenz|gallen" source="lorenz" target="gallen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="koenigin|gallen" source="koenigin" target="gallen">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="koenigin|koenig" source="koenigin" target="koenig">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="koenigin|struensee" source="koenigin" target="struensee">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="gallen|koenig" source="gallen" target="koenig">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="gallen|struensee" source="gallen" target="struensee">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="koenig|struensee" source="koenig" target="struensee">
+            <data key="weight">9</data>
+        </edge>
+    </graph>
+</graphml>

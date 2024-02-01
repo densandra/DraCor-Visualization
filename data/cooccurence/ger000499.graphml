@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="praesidentin">
+            <data key="label">Präsidentin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1276</data>
+        </node>
+        <node id="marquis">
+            <data key="label">Marquis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">651</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1283</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">61</data>
+        </node>
+        <node id="justi">
+            <data key="label">Justi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">89</data>
+        </node>
+        <node id="amalie">
+            <data key="label">Amalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1048</data>
+        </node>
+        <node id="alsdorff">
+            <data key="label">Alsdorff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6115</data>
+        </node>
+        <node id="strobel">
+            <data key="label">Strobel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1981</data>
+        </node>
+        <node id="volk">
+            <data key="label">Volk</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">316</data>
+        </node>
+        <node id="hempel">
+            <data key="label">Hempel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">126</data>
+        </node>
+        <node id="reuter">
+            <data key="label">Reuter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">152</data>
+        </node>
+        <node id="baermann">
+            <data key="label">Bärmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">199</data>
+        </node>
+        <node id="finke">
+            <data key="label">Finke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">171</data>
+        </node>
+        <node id="mantius">
+            <data key="label">Mantius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">84</data>
+        </node>
+        <node id="hannchen">
+            <data key="label">Hannchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1490</data>
+        </node>
+        <edge id="praesidentin|marquis" source="praesidentin" target="marquis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="praesidentin|bedienter" source="praesidentin" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesidentin|justi" source="praesidentin" target="justi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesidentin|amalie" source="praesidentin" target="amalie">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="praesidentin|hauptmann" source="praesidentin" target="hauptmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="praesidentin|strobel" source="praesidentin" target="strobel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesidentin|alsdorff" source="praesidentin" target="alsdorff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marquis|hauptmann" source="marquis" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|alsdorff" source="marquis" target="alsdorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|strobel" source="marquis" target="strobel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|amalie" source="hauptmann" target="amalie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hauptmann|alsdorff" source="hauptmann" target="alsdorff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hauptmann|hannchen" source="hauptmann" target="hannchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|strobel" source="hauptmann" target="strobel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bedienter|justi" source="bedienter" target="justi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bedienter|strobel" source="bedienter" target="strobel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="justi|alsdorff" source="justi" target="alsdorff">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="justi|volk" source="justi" target="volk">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="justi|reuter" source="justi" target="reuter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="justi|baermann" source="justi" target="baermann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="justi|finke" source="justi" target="finke">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="justi|mantius" source="justi" target="mantius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="justi|strobel" source="justi" target="strobel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="justi|hempel" source="justi" target="hempel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amalie|strobel" source="amalie" target="strobel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="amalie|hannchen" source="amalie" target="hannchen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="amalie|alsdorff" source="amalie" target="alsdorff">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="alsdorff|strobel" source="alsdorff" target="strobel">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="alsdorff|volk" source="alsdorff" target="volk">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="alsdorff|reuter" source="alsdorff" target="reuter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="alsdorff|baermann" source="alsdorff" target="baermann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="alsdorff|finke" source="alsdorff" target="finke">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="alsdorff|mantius" source="alsdorff" target="mantius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="alsdorff|hempel" source="alsdorff" target="hempel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="alsdorff|hannchen" source="alsdorff" target="hannchen">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="strobel|volk" source="strobel" target="volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="strobel|reuter" source="strobel" target="reuter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="strobel|baermann" source="strobel" target="baermann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="strobel|finke" source="strobel" target="finke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="strobel|mantius" source="strobel" target="mantius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="strobel|hempel" source="strobel" target="hempel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="strobel|hannchen" source="strobel" target="hannchen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="volk|hempel" source="volk" target="hempel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="volk|reuter" source="volk" target="reuter">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="volk|baermann" source="volk" target="baermann">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="volk|finke" source="volk" target="finke">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="volk|mantius" source="volk" target="mantius">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hempel|reuter" source="hempel" target="reuter">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hempel|baermann" source="hempel" target="baermann">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hempel|finke" source="hempel" target="finke">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hempel|mantius" source="hempel" target="mantius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="reuter|baermann" source="reuter" target="baermann">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="reuter|finke" source="reuter" target="finke">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="reuter|mantius" source="reuter" target="mantius">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="baermann|finke" source="baermann" target="finke">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="baermann|mantius" source="baermann" target="mantius">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="finke|mantius" source="finke" target="mantius">
+            <data key="weight">5</data>
+        </edge>
+    </graph>
+</graphml>

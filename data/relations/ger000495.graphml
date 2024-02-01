@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="berg">
+            <data key="label">Berg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="annlieschen">
+            <data key="label">Annlieschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="busch">
+            <data key="label">Busch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="trudchen">
+            <data key="label">Trudchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="thal">
+            <data key="label">Thal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kaetchen">
+            <data key="label">Kätchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="page">
+            <data key="label">Page</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="baron">
+            <data key="label">Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="deborah">
+            <data key="label">Deborah</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_bedienter">
+            <data key="label">Ein Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="heldensinn">
+            <data key="label">Heldensinn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kreuzqueer">
+            <data key="label">Kreuzqueer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="brennessel">
+            <data key="label">Brennessel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="christine">
+            <data key="label">Christine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stiefel">
+            <data key="label">Stiefel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hanns">
+            <data key="label">Hanns</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="baron" target="deborah">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="baron" target="annlieschen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="baron" target="trudchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="baron" target="kaetchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="page" target="baron">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="6" directed="false" source="stiefel" target="page">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="hanns" target="baron">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="christine" target="deborah">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

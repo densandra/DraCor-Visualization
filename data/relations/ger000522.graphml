@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="die_mutter">
+            <data key="label">Die Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alfred">
+            <data key="label">Alfred</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_grossmutter">
+            <data key="label">Die Großmutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_hierlinger_ferdinand">
+            <data key="label">Der Hierlinger Ferdinand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="valerie">
+            <data key="label">Valerie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="oskar">
+            <data key="label">Oskar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ida">
+            <data key="label">Ida</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="havlitschek">
+            <data key="label">Havlitschek</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rittmeister">
+            <data key="label">Rittmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marianne">
+            <data key="label">Marianne</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_gnaedige_frau">
+            <data key="label">Eine gnädige Frau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zauberkoenig">
+            <data key="label">Zauberkönig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erste_tante">
+            <data key="label">Erste Tante</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweite_tante">
+            <data key="label">Zweite Tante</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erich">
+            <data key="label">Erich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="emma">
+            <data key="label">Emma</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="helene">
+            <data key="label">Helene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_dienstbot">
+            <data key="label">Der Dienstbot</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="baronin">
+            <data key="label">Baronin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="beichtvater">
+            <data key="label">Beichtvater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_kavalier_des_maedchens">
+            <data key="label">Der Kavalier des Mädchens</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="das_maedchen">
+            <data key="label">Das Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_ober">
+            <data key="label">Der Ober</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_mister">
+            <data key="label">Der Mister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_conferencier">
+            <data key="label">Der Conférencier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_gemuetliche_stimme">
+            <data key="label">Eine gemütliche Stimme</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="alfred" target="der_hierlinger_ferdinand">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="rittmeister" target="der_mister">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="3" directed="false" source="die_grossmutter" target="die_mutter">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="die_mutter" target="alfred">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="zauberkoenig" target="marianne">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="havlitschek" target="oskar">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="erich" target="zauberkoenig">
+            <data key="relation">related_with</data>
+        </edge>
+    </graph>
+</graphml>

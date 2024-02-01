@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="constanze">
+            <data key="label">Constanze</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="claerchen">
+            <data key="label">Clärchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bast">
+            <data key="label">Bast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_poet">
+            <data key="label">Erster Poet</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweyter_poet">
+            <data key="label">Zweyter Poet</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nikolo">
+            <data key="label">Nikolo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="albert">
+            <data key="label">Albert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="truebe">
+            <data key="label">Trübe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lukrezia">
+            <data key="label">Lukrezia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="virginia">
+            <data key="label">Virginia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="orpheus">
+            <data key="label">Orpheus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="bast" target="truebe">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="truebe" target="constanze">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="claerchen" target="constanze">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="albert" target="constanze">
+            <data key="relation">lover_of</data>
+        </edge>
+    </graph>
+</graphml>

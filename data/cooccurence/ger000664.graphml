@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="walter">
+            <data key="label">Walter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2597</data>
+        </node>
+        <node id="boehm">
+            <data key="label">Böhm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">202</data>
+        </node>
+        <node id="knabe">
+            <data key="label">Knabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">30</data>
+        </node>
+        <node id="maedchen">
+            <data key="label">Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">96</data>
+        </node>
+        <node id="klara">
+            <data key="label">Klara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1161</data>
+        </node>
+        <node id="hubert">
+            <data key="label">Hubert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1298</data>
+        </node>
+        <node id="philipp">
+            <data key="label">Philipp</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">253</data>
+        </node>
+        <edge id="walter|boehm" source="walter" target="boehm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walter|knabe" source="walter" target="knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|maedchen" source="walter" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|klara" source="walter" target="klara">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walter|hubert" source="walter" target="hubert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="boehm|knabe" source="boehm" target="knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boehm|maedchen" source="boehm" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knabe|maedchen" source="knabe" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|hubert" source="klara" target="hubert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hubert|philipp" source="hubert" target="philipp">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

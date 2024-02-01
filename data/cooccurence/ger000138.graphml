@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="friedrich">
+            <data key="label">Friedrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">483</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">44</data>
+        </node>
+        <node id="amalie">
+            <data key="label">Amalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">227</data>
+        </node>
+        <node id="erstes_gespenst">
+            <data key="label">Erstes Gespenst</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">266</data>
+        </node>
+        <node id="zweites_gespenst">
+            <data key="label">Zweites Gespenst</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">172</data>
+        </node>
+        <node id="drittes_gespenst">
+            <data key="label">Drittes Gespenst</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">125</data>
+        </node>
+        <edge id="friedrich|lisette" source="friedrich" target="lisette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|amalie" source="friedrich" target="amalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|erstes_gespenst" source="friedrich" target="erstes_gespenst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|zweites_gespenst" source="friedrich" target="zweites_gespenst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|drittes_gespenst" source="friedrich" target="drittes_gespenst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|amalie" source="lisette" target="amalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|erstes_gespenst" source="lisette" target="erstes_gespenst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|zweites_gespenst" source="lisette" target="zweites_gespenst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|drittes_gespenst" source="lisette" target="drittes_gespenst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|erstes_gespenst" source="amalie" target="erstes_gespenst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|zweites_gespenst" source="amalie" target="zweites_gespenst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|drittes_gespenst" source="amalie" target="drittes_gespenst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_gespenst|zweites_gespenst" source="erstes_gespenst" target="zweites_gespenst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_gespenst|drittes_gespenst" source="erstes_gespenst" target="drittes_gespenst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_gespenst|drittes_gespenst" source="zweites_gespenst" target="drittes_gespenst">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

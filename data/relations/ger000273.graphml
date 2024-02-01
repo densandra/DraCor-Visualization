@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="landrath">
+            <data key="label">Landrath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ernestine">
+            <data key="label">Ernestine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_von_kiel">
+            <data key="label">Herr von Kiel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="elise">
+            <data key="label">Elise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kommerzienrath">
+            <data key="label">Kommerzienrath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="martin">
+            <data key="label">Martin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="reitknecht">
+            <data key="label">Reitknecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bauer">
+            <data key="label">Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="elise" target="kommerzienrath">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="2" directed="false" source="ernestine" target="elise">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="reitknecht" target="landrath">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

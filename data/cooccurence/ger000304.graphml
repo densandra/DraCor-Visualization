@@ -1,0 +1,587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="michl">
+            <data key="label">Michl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">299</data>
+        </node>
+        <node id="die_bursche">
+            <data key="label">Die Bursche</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">147</data>
+        </node>
+        <node id="loisl">
+            <data key="label">Loisl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">152</data>
+        </node>
+        <node id="veit">
+            <data key="label">Veit</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">249</data>
+        </node>
+        <node id="martin">
+            <data key="label">Martin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">138</data>
+        </node>
+        <node id="steinklopferhanns">
+            <data key="label">Steinklopferhanns</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4536</data>
+        </node>
+        <node id="sepp">
+            <data key="label">Sepp</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">52</data>
+        </node>
+        <node id="marthe">
+            <data key="label">Marthe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">63</data>
+        </node>
+        <node id="anton">
+            <data key="label">Anton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2910</data>
+        </node>
+        <node id="liesel">
+            <data key="label">Liesel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">328</data>
+        </node>
+        <node id="die_bauern">
+            <data key="label">Die Bauern</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="grossbauer">
+            <data key="label">Großbauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1050</data>
+        </node>
+        <node id="einzelne_alle_mehrere_1-4_und_1-6">
+            <data key="label">Einzelne/Alle/Mehrere (I/4 und I/6)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="brenninger">
+            <data key="label">Brenninger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1419</data>
+        </node>
+        <node id="klaus">
+            <data key="label">Klaus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">173</data>
+        </node>
+        <node id="mathies">
+            <data key="label">Mathies</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">205</data>
+        </node>
+        <node id="altlechner">
+            <data key="label">Altlechner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">468</data>
+        </node>
+        <node id="josepha">
+            <data key="label">Josepha</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1839</data>
+        </node>
+        <node id="einige_mehrere_alle_2-6_bis_2-9">
+            <data key="label">Einige/Mehrere/Alle (II/6–9)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">30</data>
+        </node>
+        <node id="tobias">
+            <data key="label">Tobias</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">126</data>
+        </node>
+        <node id="ursel">
+            <data key="label">Ursel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="chor_der_wallfahrer">
+            <data key="label">Chor der Wallfahrer</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">29</data>
+        </node>
+        <node id="mehrere_weiber">
+            <data key="label">Mehrere Weiber</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <edge id="michl|die_bursche" source="michl" target="die_bursche">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="michl|loisl" source="michl" target="loisl">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="michl|veit" source="michl" target="veit">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="michl|martin" source="michl" target="martin">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="michl|steinklopferhanns" source="michl" target="steinklopferhanns">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="michl|sepp" source="michl" target="sepp">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="michl|marthe" source="michl" target="marthe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michl|anton" source="michl" target="anton">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="michl|liesel" source="michl" target="liesel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michl|die_bauern" source="michl" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michl|grossbauer" source="michl" target="grossbauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michl|einzelne_alle_mehrere_1-4_und_1-6" source="michl" target="einzelne_alle_mehrere_1-4_und_1-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michl|brenninger" source="michl" target="brenninger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michl|mathies" source="michl" target="mathies">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michl|klaus" source="michl" target="klaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michl|einige_mehrere_alle_2-6_bis_2-9" source="michl" target="einige_mehrere_alle_2-6_bis_2-9">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michl|altlechner" source="michl" target="altlechner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bursche|loisl" source="die_bursche" target="loisl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="die_bursche|veit" source="die_bursche" target="veit">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="die_bursche|martin" source="die_bursche" target="martin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="die_bursche|steinklopferhanns" source="die_bursche" target="steinklopferhanns">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="die_bursche|sepp" source="die_bursche" target="sepp">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="die_bursche|marthe" source="die_bursche" target="marthe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_bursche|anton" source="die_bursche" target="anton">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_bursche|die_bauern" source="die_bursche" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bursche|grossbauer" source="die_bursche" target="grossbauer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_bursche|einzelne_alle_mehrere_1-4_und_1-6" source="die_bursche" target="einzelne_alle_mehrere_1-4_und_1-6">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_bursche|brenninger" source="die_bursche" target="brenninger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bursche|klaus" source="die_bursche" target="klaus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bursche|mathies" source="die_bursche" target="mathies">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bursche|altlechner" source="die_bursche" target="altlechner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_bursche|liesel" source="die_bursche" target="liesel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|veit" source="loisl" target="veit">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="loisl|martin" source="loisl" target="martin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="loisl|steinklopferhanns" source="loisl" target="steinklopferhanns">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="loisl|sepp" source="loisl" target="sepp">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="loisl|marthe" source="loisl" target="marthe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|anton" source="loisl" target="anton">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="loisl|liesel" source="loisl" target="liesel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="loisl|mathies" source="loisl" target="mathies">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|brenninger" source="loisl" target="brenninger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|klaus" source="loisl" target="klaus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|einige_mehrere_alle_2-6_bis_2-9" source="loisl" target="einige_mehrere_alle_2-6_bis_2-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|altlechner" source="loisl" target="altlechner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|grossbauer" source="loisl" target="grossbauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit|martin" source="veit" target="martin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="veit|steinklopferhanns" source="veit" target="steinklopferhanns">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="veit|sepp" source="veit" target="sepp">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="veit|marthe" source="veit" target="marthe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="veit|anton" source="veit" target="anton">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="veit|die_bauern" source="veit" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit|grossbauer" source="veit" target="grossbauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="veit|einzelne_alle_mehrere_1-4_und_1-6" source="veit" target="einzelne_alle_mehrere_1-4_und_1-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit|brenninger" source="veit" target="brenninger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="veit|mathies" source="veit" target="mathies">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit|klaus" source="veit" target="klaus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit|einige_mehrere_alle_2-6_bis_2-9" source="veit" target="einige_mehrere_alle_2-6_bis_2-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit|liesel" source="veit" target="liesel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit|altlechner" source="veit" target="altlechner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martin|steinklopferhanns" source="martin" target="steinklopferhanns">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="martin|sepp" source="martin" target="sepp">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="martin|marthe" source="martin" target="marthe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="martin|anton" source="martin" target="anton">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="martin|die_bauern" source="martin" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martin|grossbauer" source="martin" target="grossbauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="martin|einzelne_alle_mehrere_1-4_und_1-6" source="martin" target="einzelne_alle_mehrere_1-4_und_1-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martin|brenninger" source="martin" target="brenninger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="martin|mathies" source="martin" target="mathies">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="martin|klaus" source="martin" target="klaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="martin|einige_mehrere_alle_2-6_bis_2-9" source="martin" target="einige_mehrere_alle_2-6_bis_2-9">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="martin|liesel" source="martin" target="liesel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martin|altlechner" source="martin" target="altlechner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="steinklopferhanns|sepp" source="steinklopferhanns" target="sepp">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="steinklopferhanns|marthe" source="steinklopferhanns" target="marthe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="steinklopferhanns|anton" source="steinklopferhanns" target="anton">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="steinklopferhanns|liesel" source="steinklopferhanns" target="liesel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="steinklopferhanns|die_bauern" source="steinklopferhanns" target="die_bauern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="steinklopferhanns|grossbauer" source="steinklopferhanns" target="grossbauer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="steinklopferhanns|einzelne_alle_mehrere_1-4_und_1-6" source="steinklopferhanns" target="einzelne_alle_mehrere_1-4_und_1-6">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="steinklopferhanns|brenninger" source="steinklopferhanns" target="brenninger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="steinklopferhanns|klaus" source="steinklopferhanns" target="klaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="steinklopferhanns|mathies" source="steinklopferhanns" target="mathies">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="steinklopferhanns|altlechner" source="steinklopferhanns" target="altlechner">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="steinklopferhanns|josepha" source="steinklopferhanns" target="josepha">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="steinklopferhanns|einige_mehrere_alle_2-6_bis_2-9" source="steinklopferhanns" target="einige_mehrere_alle_2-6_bis_2-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="steinklopferhanns|chor_der_wallfahrer" source="steinklopferhanns" target="chor_der_wallfahrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="steinklopferhanns|mehrere_weiber" source="steinklopferhanns" target="mehrere_weiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sepp|marthe" source="sepp" target="marthe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sepp|anton" source="sepp" target="anton">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sepp|liesel" source="sepp" target="liesel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sepp|altlechner" source="sepp" target="altlechner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sepp|grossbauer" source="sepp" target="grossbauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marthe|anton" source="marthe" target="anton">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marthe|die_bauern" source="marthe" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marthe|grossbauer" source="marthe" target="grossbauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marthe|einzelne_alle_mehrere_1-4_und_1-6" source="marthe" target="einzelne_alle_mehrere_1-4_und_1-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marthe|brenninger" source="marthe" target="brenninger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|liesel" source="anton" target="liesel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="anton|die_bauern" source="anton" target="die_bauern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anton|grossbauer" source="anton" target="grossbauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anton|einzelne_alle_mehrere_1-4_und_1-6" source="anton" target="einzelne_alle_mehrere_1-4_und_1-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|brenninger" source="anton" target="brenninger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|josepha" source="anton" target="josepha">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="anton|altlechner" source="anton" target="altlechner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anton|chor_der_wallfahrer" source="anton" target="chor_der_wallfahrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|mehrere_weiber" source="anton" target="mehrere_weiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesel|altlechner" source="liesel" target="altlechner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="liesel|grossbauer" source="liesel" target="grossbauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesel|chor_der_wallfahrer" source="liesel" target="chor_der_wallfahrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesel|josepha" source="liesel" target="josepha">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesel|mehrere_weiber" source="liesel" target="mehrere_weiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesel|die_bauern" source="liesel" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|grossbauer" source="die_bauern" target="grossbauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|einzelne_alle_mehrere_1-4_und_1-6" source="die_bauern" target="einzelne_alle_mehrere_1-4_und_1-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|brenninger" source="die_bauern" target="brenninger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|altlechner" source="die_bauern" target="altlechner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|chor_der_wallfahrer" source="die_bauern" target="chor_der_wallfahrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|josepha" source="die_bauern" target="josepha">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|mehrere_weiber" source="die_bauern" target="mehrere_weiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grossbauer|einzelne_alle_mehrere_1-4_und_1-6" source="grossbauer" target="einzelne_alle_mehrere_1-4_und_1-6">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grossbauer|brenninger" source="grossbauer" target="brenninger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grossbauer|klaus" source="grossbauer" target="klaus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grossbauer|mathies" source="grossbauer" target="mathies">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grossbauer|altlechner" source="grossbauer" target="altlechner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="einzelne_alle_mehrere_1-4_und_1-6|brenninger" source="einzelne_alle_mehrere_1-4_und_1-6" target="brenninger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einzelne_alle_mehrere_1-4_und_1-6|klaus" source="einzelne_alle_mehrere_1-4_und_1-6" target="klaus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einzelne_alle_mehrere_1-4_und_1-6|mathies" source="einzelne_alle_mehrere_1-4_und_1-6" target="mathies">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einzelne_alle_mehrere_1-4_und_1-6|altlechner" source="einzelne_alle_mehrere_1-4_und_1-6" target="altlechner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brenninger|mathies" source="brenninger" target="mathies">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brenninger|klaus" source="brenninger" target="klaus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brenninger|einige_mehrere_alle_2-6_bis_2-9" source="brenninger" target="einige_mehrere_alle_2-6_bis_2-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|mathies" source="klaus" target="mathies">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="klaus|altlechner" source="klaus" target="altlechner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klaus|einige_mehrere_alle_2-6_bis_2-9" source="klaus" target="einige_mehrere_alle_2-6_bis_2-9">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mathies|altlechner" source="mathies" target="altlechner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mathies|einige_mehrere_alle_2-6_bis_2-9" source="mathies" target="einige_mehrere_alle_2-6_bis_2-9">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="altlechner|einige_mehrere_alle_2-6_bis_2-9" source="altlechner" target="einige_mehrere_alle_2-6_bis_2-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="altlechner|josepha" source="altlechner" target="josepha">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="altlechner|chor_der_wallfahrer" source="altlechner" target="chor_der_wallfahrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="altlechner|mehrere_weiber" source="altlechner" target="mehrere_weiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="josepha|tobias" source="josepha" target="tobias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="josepha|ursel" source="josepha" target="ursel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="josepha|chor_der_wallfahrer" source="josepha" target="chor_der_wallfahrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="josepha|mehrere_weiber" source="josepha" target="mehrere_weiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tobias|ursel" source="tobias" target="ursel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_wallfahrer|mehrere_weiber" source="chor_der_wallfahrer" target="mehrere_weiber">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

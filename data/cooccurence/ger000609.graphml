@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="georg_werner">
+            <data key="label">Georg Werner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1774</data>
+        </node>
+        <node id="helene">
+            <data key="label">Helene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2486</data>
+        </node>
+        <node id="eugen_von_mansfeld">
+            <data key="label">Eugen von Mansfeld</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1624</data>
+        </node>
+        <node id="camilla_von_heimburg">
+            <data key="label">Camilla von Heimburg</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1308</data>
+        </node>
+        <node id="heinrich_oswald">
+            <data key="label">Heinrich Oswald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1311</data>
+        </node>
+        <edge id="georg_werner|helene" source="georg_werner" target="helene">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="georg_werner|eugen_von_mansfeld" source="georg_werner" target="eugen_von_mansfeld">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="georg_werner|camilla_von_heimburg" source="georg_werner" target="camilla_von_heimburg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="georg_werner|heinrich_oswald" source="georg_werner" target="heinrich_oswald">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="helene|eugen_von_mansfeld" source="helene" target="eugen_von_mansfeld">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="helene|camilla_von_heimburg" source="helene" target="camilla_von_heimburg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="helene|heinrich_oswald" source="helene" target="heinrich_oswald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eugen_von_mansfeld|heinrich_oswald" source="eugen_von_mansfeld" target="heinrich_oswald">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="eugen_von_mansfeld|camilla_von_heimburg" source="eugen_von_mansfeld" target="camilla_von_heimburg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="camilla_von_heimburg|heinrich_oswald" source="camilla_von_heimburg" target="heinrich_oswald">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

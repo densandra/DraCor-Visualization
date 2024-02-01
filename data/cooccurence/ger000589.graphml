@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="trink">
+            <data key="label">Trink</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1216</data>
+        </node>
+        <node id="frau_von_mayenthal">
+            <data key="label">Frau von Mayenthal</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1160</data>
+        </node>
+        <node id="list">
+            <data key="label">List</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">322</data>
+        </node>
+        <node id="kaethe">
+            <data key="label">Käthe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">182</data>
+        </node>
+        <node id="pulvernagel">
+            <data key="label">Pulvernagel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1097</data>
+        </node>
+        <node id="rittersporn">
+            <data key="label">Rittersporn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">560</data>
+        </node>
+        <node id="puettner">
+            <data key="label">Püttner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">323</data>
+        </node>
+        <node id="wolff">
+            <data key="label">Wolff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">756</data>
+        </node>
+        <node id="friderich">
+            <data key="label">Friderich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1379</data>
+        </node>
+        <node id="graf">
+            <data key="label">Graf Baumberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">335</data>
+        </node>
+        <edge id="trink|frau_von_mayenthal" source="trink" target="frau_von_mayenthal">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="trink|list" source="trink" target="list">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="trink|kaethe" source="trink" target="kaethe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="trink|pulvernagel" source="trink" target="pulvernagel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="trink|rittersporn" source="trink" target="rittersporn">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="trink|puettner" source="trink" target="puettner">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="trink|wolff" source="trink" target="wolff">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="trink|friderich" source="trink" target="friderich">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frau_von_mayenthal|list" source="frau_von_mayenthal" target="list">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_mayenthal|pulvernagel" source="frau_von_mayenthal" target="pulvernagel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_mayenthal|rittersporn" source="frau_von_mayenthal" target="rittersporn">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frau_von_mayenthal|friderich" source="frau_von_mayenthal" target="friderich">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="frau_von_mayenthal|wolff" source="frau_von_mayenthal" target="wolff">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_mayenthal|puettner" source="frau_von_mayenthal" target="puettner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_von_mayenthal|kaethe" source="frau_von_mayenthal" target="kaethe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_mayenthal|graf" source="frau_von_mayenthal" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="list|kaethe" source="list" target="kaethe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="list|pulvernagel" source="list" target="pulvernagel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="list|rittersporn" source="list" target="rittersporn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="list|friderich" source="list" target="friderich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="list|wolff" source="list" target="wolff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaethe|wolff" source="kaethe" target="wolff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaethe|puettner" source="kaethe" target="puettner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaethe|pulvernagel" source="kaethe" target="pulvernagel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaethe|friderich" source="kaethe" target="friderich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaethe|rittersporn" source="kaethe" target="rittersporn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pulvernagel|rittersporn" source="pulvernagel" target="rittersporn">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="pulvernagel|puettner" source="pulvernagel" target="puettner">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="pulvernagel|wolff" source="pulvernagel" target="wolff">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="pulvernagel|friderich" source="pulvernagel" target="friderich">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="pulvernagel|graf" source="pulvernagel" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rittersporn|puettner" source="rittersporn" target="puettner">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="rittersporn|wolff" source="rittersporn" target="wolff">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="rittersporn|friderich" source="rittersporn" target="friderich">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="rittersporn|graf" source="rittersporn" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="puettner|wolff" source="puettner" target="wolff">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="puettner|friderich" source="puettner" target="friderich">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="puettner|graf" source="puettner" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolff|friderich" source="wolff" target="friderich">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="wolff|graf" source="wolff" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friderich|graf" source="friderich" target="graf">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

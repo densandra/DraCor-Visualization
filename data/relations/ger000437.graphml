@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="sosias">
+            <data key="label">Sosias</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="merkur">
+            <data key="label">Merkur</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jupiter">
+            <data key="label">Jupiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alkmene">
+            <data key="label">Alkmene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="charis">
+            <data key="label">Charis</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="amphitryon">
+            <data key="label">Amphitryon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_feldherr">
+            <data key="label">Erster Feldherr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_feldherr">
+            <data key="label">Zweiter Feldherr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_feldherr">
+            <data key="label">Dritter Feldherr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einer_aus_dem_volk">
+            <data key="label">Einer aus dem Volk</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_oberster">
+            <data key="label">Zweiter Oberster</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_oberster">
+            <data key="label">Erster Oberster</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="das_volk">
+            <data key="label">Das Volk</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_obersten">
+            <data key="label">Die Obersten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_feldherren">
+            <data key="label">Die Feldherren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="alkmene" target="amphitryon">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="charis" target="sosias">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="sosias" target="amphitryon">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

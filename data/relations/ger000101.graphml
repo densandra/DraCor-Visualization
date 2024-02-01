@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="joab">
+            <data key="label">Joab</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herodes">
+            <data key="label">Herodes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="judas">
+            <data key="label">Judas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sameas">
+            <data key="label">Sameas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="serubabel">
+            <data key="label">Serubabel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="titus">
+            <data key="label">Titus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_diener_1-3">
+            <data key="label">Ein Diener (I/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mariamne">
+            <data key="label">Mariamne</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_diener_1-5">
+            <data key="label">Ein Diener (I/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="joseph">
+            <data key="label">Joseph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alexandra">
+            <data key="label">Alexandra</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_diener_2-4">
+            <data key="label">Ein Diener (II/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_diener_2-5">
+            <data key="label">Ein Diener (II/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="philo">
+            <data key="label">Philo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="salome">
+            <data key="label">Salome</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="soemus">
+            <data key="label">Soemus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_bote">
+            <data key="label">Ein Bote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="moses">
+            <data key="label">Moses</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="artaxerxes">
+            <data key="label">Artaxerxes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jehu">
+            <data key="label">Jehu</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="silo">
+            <data key="label">Silo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stimmen_im_hintergrund">
+            <data key="label">Stimmen im Hintergrund</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="aaron">
+            <data key="label">Aaron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_diener_5-8">
+            <data key="label">Ein Diener (V/8)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_koenig">
+            <data key="label">Erster König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_koenig">
+            <data key="label">Zweiter König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_koenig">
+            <data key="label">Dritter König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="mariamne" target="herodes">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="herodes" target="salome">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="alexandra" target="mariamne">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="joseph" target="herodes">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="silo" target="philo">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

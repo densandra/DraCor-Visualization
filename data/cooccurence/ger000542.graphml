@@ -1,0 +1,1250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="wagner">
+            <data key="label">Wagner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">116</data>
+        </node>
+        <node id="faust">
+            <data key="label">Faust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1644</data>
+        </node>
+        <node id="der_erste_student_aus_krakau">
+            <data key="label">Der erste Student aus Krakau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <node id="der_zweite_student_aus_krakau">
+            <data key="label">Der zweite Student aus Krakau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">46</data>
+        </node>
+        <node id="der_dritte_student_aus_krakau">
+            <data key="label">Der dritte Student aus Krakau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">360</data>
+        </node>
+        <node id="erste_stimme">
+            <data key="label">Erste Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="zweite_stimme">
+            <data key="label">Zweite Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="dritte_stimme">
+            <data key="label">Dritte Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="vierte_stimme">
+            <data key="label">Vierte Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="fuenfte_stimme">
+            <data key="label">Fünfte Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="sechste_stimme">
+            <data key="label">Sechste Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="mephistopheles">
+            <data key="label">Mephistopheles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">849</data>
+        </node>
+        <node id="maenner">
+            <data key="label">Männer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="der_soldat">
+            <data key="label">Der Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">136</data>
+        </node>
+        <node id="leutnant">
+            <data key="label">Leutnant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="zeremonienmeister">
+            <data key="label">Zeremonienmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">87</data>
+        </node>
+        <node id="herzog">
+            <data key="label">Herzog</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">106</data>
+        </node>
+        <node id="herzogin">
+            <data key="label">Herzogin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">282</data>
+        </node>
+        <node id="frauen">
+            <data key="label">Frauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="erster_student_in_wittenberg">
+            <data key="label">Erster Student in Wittenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">67</data>
+        </node>
+        <node id="ein_student_andere_gruppe_angeheitert">
+            <data key="label">Ein Student, andere Gruppe, angeheitert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="zweiter_student_in_wittenberg">
+            <data key="label">Zweiter Student in Wittenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="theologe">
+            <data key="label">Theologe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="studenten_zweites_bild">
+            <data key="label">Studenten (Zweites Bild)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="vierter_student_in_wittenberg">
+            <data key="label">Vierter Student in Wittenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="jurist">
+            <data key="label">Jurist</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="naturgelehrter">
+            <data key="label">Naturgelehrter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="ein_anderer">
+            <data key="label">Ein anderer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="dritter_student_in_wittenberg">
+            <data key="label">Dritter Student in Wittenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="ein_student_1_zweites_bild">
+            <data key="label">Ein Student (Zweites Bild)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="protestanten">
+            <data key="label">Protestanten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">67</data>
+        </node>
+        <node id="katholiken">
+            <data key="label">Katholiken</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="ein_student_2_zweites_bild">
+            <data key="label">Ein Student (Zweites Bild)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="einer_1_zweites_bild">
+            <data key="label">Einer (Zweites Bild)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="einer_2_zweites_bild">
+            <data key="label">Einer (Zweites Bild)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="des_nachtwaechters_stimme">
+            <data key="label">Des Nachtwächters Stimme</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">79</data>
+        </node>
+        <node id="erster_student_letztes_bild">
+            <data key="label">Erster Student (Letztes Bild)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="studenten_letztes_bild">
+            <data key="label">Studenten (Letztes Bild)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">114</data>
+        </node>
+        <node id="einer_letztes_bild">
+            <data key="label">Einer (Letztes Bild)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <edge id="wagner|faust" source="wagner" target="faust">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wagner|der_erste_student_aus_krakau" source="wagner" target="der_erste_student_aus_krakau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|der_zweite_student_aus_krakau" source="wagner" target="der_zweite_student_aus_krakau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|der_dritte_student_aus_krakau" source="wagner" target="der_dritte_student_aus_krakau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|des_nachtwaechters_stimme" source="wagner" target="des_nachtwaechters_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|erster_student_letztes_bild" source="wagner" target="erster_student_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|studenten_letztes_bild" source="wagner" target="studenten_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|einer_letztes_bild" source="wagner" target="einer_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|chor" source="wagner" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|herzogin" source="wagner" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|mephistopheles" source="wagner" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|der_erste_student_aus_krakau" source="faust" target="der_erste_student_aus_krakau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|der_zweite_student_aus_krakau" source="faust" target="der_zweite_student_aus_krakau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|der_dritte_student_aus_krakau" source="faust" target="der_dritte_student_aus_krakau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|chor" source="faust" target="chor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="faust|erste_stimme" source="faust" target="erste_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|zweite_stimme" source="faust" target="zweite_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|dritte_stimme" source="faust" target="dritte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|vierte_stimme" source="faust" target="vierte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|fuenfte_stimme" source="faust" target="fuenfte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|sechste_stimme" source="faust" target="sechste_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|mephistopheles" source="faust" target="mephistopheles">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="faust|maenner" source="faust" target="maenner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|der_soldat" source="faust" target="der_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|leutnant" source="faust" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|zeremonienmeister" source="faust" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|herzog" source="faust" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|herzogin" source="faust" target="herzogin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|frauen" source="faust" target="frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|erster_student_in_wittenberg" source="faust" target="erster_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|ein_student_andere_gruppe_angeheitert" source="faust" target="ein_student_andere_gruppe_angeheitert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|zweiter_student_in_wittenberg" source="faust" target="zweiter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|theologe" source="faust" target="theologe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|studenten_zweites_bild" source="faust" target="studenten_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|vierter_student_in_wittenberg" source="faust" target="vierter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|jurist" source="faust" target="jurist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|naturgelehrter" source="faust" target="naturgelehrter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|ein_anderer" source="faust" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|dritter_student_in_wittenberg" source="faust" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|ein_student_1_zweites_bild" source="faust" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|protestanten" source="faust" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|katholiken" source="faust" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|ein_student_2_zweites_bild" source="faust" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|einer_1_zweites_bild" source="faust" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|einer_2_zweites_bild" source="faust" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|des_nachtwaechters_stimme" source="faust" target="des_nachtwaechters_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|erster_student_letztes_bild" source="faust" target="erster_student_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|studenten_letztes_bild" source="faust" target="studenten_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|einer_letztes_bild" source="faust" target="einer_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|der_zweite_student_aus_krakau" source="der_erste_student_aus_krakau" target="der_zweite_student_aus_krakau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|der_dritte_student_aus_krakau" source="der_erste_student_aus_krakau" target="der_dritte_student_aus_krakau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|chor" source="der_erste_student_aus_krakau" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|erster_student_in_wittenberg" source="der_erste_student_aus_krakau" target="erster_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|ein_student_andere_gruppe_angeheitert" source="der_erste_student_aus_krakau" target="ein_student_andere_gruppe_angeheitert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|zweiter_student_in_wittenberg" source="der_erste_student_aus_krakau" target="zweiter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|theologe" source="der_erste_student_aus_krakau" target="theologe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|studenten_zweites_bild" source="der_erste_student_aus_krakau" target="studenten_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|vierter_student_in_wittenberg" source="der_erste_student_aus_krakau" target="vierter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|jurist" source="der_erste_student_aus_krakau" target="jurist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|naturgelehrter" source="der_erste_student_aus_krakau" target="naturgelehrter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|ein_anderer" source="der_erste_student_aus_krakau" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|dritter_student_in_wittenberg" source="der_erste_student_aus_krakau" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|ein_student_1_zweites_bild" source="der_erste_student_aus_krakau" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|protestanten" source="der_erste_student_aus_krakau" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|katholiken" source="der_erste_student_aus_krakau" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|ein_student_2_zweites_bild" source="der_erste_student_aus_krakau" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|einer_1_zweites_bild" source="der_erste_student_aus_krakau" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|einer_2_zweites_bild" source="der_erste_student_aus_krakau" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_student_aus_krakau|mephistopheles" source="der_erste_student_aus_krakau" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|der_dritte_student_aus_krakau" source="der_zweite_student_aus_krakau" target="der_dritte_student_aus_krakau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|chor" source="der_zweite_student_aus_krakau" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|erster_student_in_wittenberg" source="der_zweite_student_aus_krakau" target="erster_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|ein_student_andere_gruppe_angeheitert" source="der_zweite_student_aus_krakau" target="ein_student_andere_gruppe_angeheitert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|zweiter_student_in_wittenberg" source="der_zweite_student_aus_krakau" target="zweiter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|theologe" source="der_zweite_student_aus_krakau" target="theologe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|studenten_zweites_bild" source="der_zweite_student_aus_krakau" target="studenten_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|vierter_student_in_wittenberg" source="der_zweite_student_aus_krakau" target="vierter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|jurist" source="der_zweite_student_aus_krakau" target="jurist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|naturgelehrter" source="der_zweite_student_aus_krakau" target="naturgelehrter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|ein_anderer" source="der_zweite_student_aus_krakau" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|dritter_student_in_wittenberg" source="der_zweite_student_aus_krakau" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|ein_student_1_zweites_bild" source="der_zweite_student_aus_krakau" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|protestanten" source="der_zweite_student_aus_krakau" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|katholiken" source="der_zweite_student_aus_krakau" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|ein_student_2_zweites_bild" source="der_zweite_student_aus_krakau" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|einer_1_zweites_bild" source="der_zweite_student_aus_krakau" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|einer_2_zweites_bild" source="der_zweite_student_aus_krakau" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_student_aus_krakau|mephistopheles" source="der_zweite_student_aus_krakau" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|chor" source="der_dritte_student_aus_krakau" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|erster_student_in_wittenberg" source="der_dritte_student_aus_krakau" target="erster_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|ein_student_andere_gruppe_angeheitert" source="der_dritte_student_aus_krakau" target="ein_student_andere_gruppe_angeheitert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|zweiter_student_in_wittenberg" source="der_dritte_student_aus_krakau" target="zweiter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|theologe" source="der_dritte_student_aus_krakau" target="theologe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|studenten_zweites_bild" source="der_dritte_student_aus_krakau" target="studenten_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|vierter_student_in_wittenberg" source="der_dritte_student_aus_krakau" target="vierter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|jurist" source="der_dritte_student_aus_krakau" target="jurist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|naturgelehrter" source="der_dritte_student_aus_krakau" target="naturgelehrter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|ein_anderer" source="der_dritte_student_aus_krakau" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|dritter_student_in_wittenberg" source="der_dritte_student_aus_krakau" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|ein_student_1_zweites_bild" source="der_dritte_student_aus_krakau" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|protestanten" source="der_dritte_student_aus_krakau" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|katholiken" source="der_dritte_student_aus_krakau" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|ein_student_2_zweites_bild" source="der_dritte_student_aus_krakau" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|einer_1_zweites_bild" source="der_dritte_student_aus_krakau" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|einer_2_zweites_bild" source="der_dritte_student_aus_krakau" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dritte_student_aus_krakau|mephistopheles" source="der_dritte_student_aus_krakau" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|erste_stimme" source="chor" target="erste_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|zweite_stimme" source="chor" target="zweite_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|dritte_stimme" source="chor" target="dritte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|vierte_stimme" source="chor" target="vierte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|fuenfte_stimme" source="chor" target="fuenfte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|sechste_stimme" source="chor" target="sechste_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|mephistopheles" source="chor" target="mephistopheles">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor|maenner" source="chor" target="maenner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|zeremonienmeister" source="chor" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|herzog" source="chor" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|herzogin" source="chor" target="herzogin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|frauen" source="chor" target="frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|erster_student_in_wittenberg" source="chor" target="erster_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|ein_student_andere_gruppe_angeheitert" source="chor" target="ein_student_andere_gruppe_angeheitert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|zweiter_student_in_wittenberg" source="chor" target="zweiter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|theologe" source="chor" target="theologe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|studenten_zweites_bild" source="chor" target="studenten_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|vierter_student_in_wittenberg" source="chor" target="vierter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|jurist" source="chor" target="jurist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|naturgelehrter" source="chor" target="naturgelehrter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|ein_anderer" source="chor" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|dritter_student_in_wittenberg" source="chor" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|ein_student_1_zweites_bild" source="chor" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|protestanten" source="chor" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|katholiken" source="chor" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|ein_student_2_zweites_bild" source="chor" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|einer_1_zweites_bild" source="chor" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|einer_2_zweites_bild" source="chor" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|des_nachtwaechters_stimme" source="chor" target="des_nachtwaechters_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|erster_student_letztes_bild" source="chor" target="erster_student_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|studenten_letztes_bild" source="chor" target="studenten_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|einer_letztes_bild" source="chor" target="einer_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_stimme|zweite_stimme" source="erste_stimme" target="zweite_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_stimme|dritte_stimme" source="erste_stimme" target="dritte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_stimme|vierte_stimme" source="erste_stimme" target="vierte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_stimme|fuenfte_stimme" source="erste_stimme" target="fuenfte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_stimme|sechste_stimme" source="erste_stimme" target="sechste_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_stimme|mephistopheles" source="erste_stimme" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_stimme|maenner" source="erste_stimme" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_stimme|dritte_stimme" source="zweite_stimme" target="dritte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_stimme|vierte_stimme" source="zweite_stimme" target="vierte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_stimme|fuenfte_stimme" source="zweite_stimme" target="fuenfte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_stimme|sechste_stimme" source="zweite_stimme" target="sechste_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_stimme|mephistopheles" source="zweite_stimme" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_stimme|maenner" source="zweite_stimme" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_stimme|vierte_stimme" source="dritte_stimme" target="vierte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_stimme|fuenfte_stimme" source="dritte_stimme" target="fuenfte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_stimme|sechste_stimme" source="dritte_stimme" target="sechste_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_stimme|mephistopheles" source="dritte_stimme" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_stimme|maenner" source="dritte_stimme" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_stimme|fuenfte_stimme" source="vierte_stimme" target="fuenfte_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_stimme|sechste_stimme" source="vierte_stimme" target="sechste_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_stimme|mephistopheles" source="vierte_stimme" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_stimme|maenner" source="vierte_stimme" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_stimme|sechste_stimme" source="fuenfte_stimme" target="sechste_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_stimme|mephistopheles" source="fuenfte_stimme" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_stimme|maenner" source="fuenfte_stimme" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sechste_stimme|mephistopheles" source="sechste_stimme" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sechste_stimme|maenner" source="sechste_stimme" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|maenner" source="mephistopheles" target="maenner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mephistopheles|der_soldat" source="mephistopheles" target="der_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|leutnant" source="mephistopheles" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|zeremonienmeister" source="mephistopheles" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|herzog" source="mephistopheles" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|herzogin" source="mephistopheles" target="herzogin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mephistopheles|frauen" source="mephistopheles" target="frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|erster_student_in_wittenberg" source="mephistopheles" target="erster_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|ein_student_andere_gruppe_angeheitert" source="mephistopheles" target="ein_student_andere_gruppe_angeheitert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|zweiter_student_in_wittenberg" source="mephistopheles" target="zweiter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|theologe" source="mephistopheles" target="theologe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|studenten_zweites_bild" source="mephistopheles" target="studenten_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|vierter_student_in_wittenberg" source="mephistopheles" target="vierter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|jurist" source="mephistopheles" target="jurist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|naturgelehrter" source="mephistopheles" target="naturgelehrter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|ein_anderer" source="mephistopheles" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|dritter_student_in_wittenberg" source="mephistopheles" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|ein_student_1_zweites_bild" source="mephistopheles" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|protestanten" source="mephistopheles" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|katholiken" source="mephistopheles" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|ein_student_2_zweites_bild" source="mephistopheles" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|einer_1_zweites_bild" source="mephistopheles" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|einer_2_zweites_bild" source="mephistopheles" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|des_nachtwaechters_stimme" source="mephistopheles" target="des_nachtwaechters_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|erster_student_letztes_bild" source="mephistopheles" target="erster_student_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|studenten_letztes_bild" source="mephistopheles" target="studenten_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|einer_letztes_bild" source="mephistopheles" target="einer_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maenner|zeremonienmeister" source="maenner" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maenner|herzog" source="maenner" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maenner|herzogin" source="maenner" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maenner|frauen" source="maenner" target="frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_soldat|leutnant" source="der_soldat" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zeremonienmeister|herzog" source="zeremonienmeister" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zeremonienmeister|herzogin" source="zeremonienmeister" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zeremonienmeister|frauen" source="zeremonienmeister" target="frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|herzogin" source="herzog" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|frauen" source="herzog" target="frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|frauen" source="herzogin" target="frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|des_nachtwaechters_stimme" source="herzogin" target="des_nachtwaechters_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|erster_student_letztes_bild" source="herzogin" target="erster_student_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|studenten_letztes_bild" source="herzogin" target="studenten_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|einer_letztes_bild" source="herzogin" target="einer_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|ein_student_andere_gruppe_angeheitert" source="erster_student_in_wittenberg" target="ein_student_andere_gruppe_angeheitert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|zweiter_student_in_wittenberg" source="erster_student_in_wittenberg" target="zweiter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|theologe" source="erster_student_in_wittenberg" target="theologe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|studenten_zweites_bild" source="erster_student_in_wittenberg" target="studenten_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|vierter_student_in_wittenberg" source="erster_student_in_wittenberg" target="vierter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|jurist" source="erster_student_in_wittenberg" target="jurist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|naturgelehrter" source="erster_student_in_wittenberg" target="naturgelehrter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|ein_anderer" source="erster_student_in_wittenberg" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|dritter_student_in_wittenberg" source="erster_student_in_wittenberg" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|ein_student_1_zweites_bild" source="erster_student_in_wittenberg" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|protestanten" source="erster_student_in_wittenberg" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|katholiken" source="erster_student_in_wittenberg" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|ein_student_2_zweites_bild" source="erster_student_in_wittenberg" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|einer_1_zweites_bild" source="erster_student_in_wittenberg" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_in_wittenberg|einer_2_zweites_bild" source="erster_student_in_wittenberg" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_andere_gruppe_angeheitert|zweiter_student_in_wittenberg" source="ein_student_andere_gruppe_angeheitert" target="zweiter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_andere_gruppe_angeheitert|theologe" source="ein_student_andere_gruppe_angeheitert" target="theologe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_andere_gruppe_angeheitert|studenten_zweites_bild" source="ein_student_andere_gruppe_angeheitert" target="studenten_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_andere_gruppe_angeheitert|vierter_student_in_wittenberg" source="ein_student_andere_gruppe_angeheitert" target="vierter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_andere_gruppe_angeheitert|jurist" source="ein_student_andere_gruppe_angeheitert" target="jurist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_andere_gruppe_angeheitert|naturgelehrter" source="ein_student_andere_gruppe_angeheitert" target="naturgelehrter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_andere_gruppe_angeheitert|ein_anderer" source="ein_student_andere_gruppe_angeheitert" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_andere_gruppe_angeheitert|dritter_student_in_wittenberg" source="ein_student_andere_gruppe_angeheitert" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_andere_gruppe_angeheitert|ein_student_1_zweites_bild" source="ein_student_andere_gruppe_angeheitert" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_andere_gruppe_angeheitert|protestanten" source="ein_student_andere_gruppe_angeheitert" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_andere_gruppe_angeheitert|katholiken" source="ein_student_andere_gruppe_angeheitert" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_andere_gruppe_angeheitert|ein_student_2_zweites_bild" source="ein_student_andere_gruppe_angeheitert" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_andere_gruppe_angeheitert|einer_1_zweites_bild" source="ein_student_andere_gruppe_angeheitert" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_andere_gruppe_angeheitert|einer_2_zweites_bild" source="ein_student_andere_gruppe_angeheitert" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_student_in_wittenberg|theologe" source="zweiter_student_in_wittenberg" target="theologe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_student_in_wittenberg|studenten_zweites_bild" source="zweiter_student_in_wittenberg" target="studenten_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_student_in_wittenberg|vierter_student_in_wittenberg" source="zweiter_student_in_wittenberg" target="vierter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_student_in_wittenberg|jurist" source="zweiter_student_in_wittenberg" target="jurist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_student_in_wittenberg|naturgelehrter" source="zweiter_student_in_wittenberg" target="naturgelehrter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_student_in_wittenberg|ein_anderer" source="zweiter_student_in_wittenberg" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_student_in_wittenberg|dritter_student_in_wittenberg" source="zweiter_student_in_wittenberg" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_student_in_wittenberg|ein_student_1_zweites_bild" source="zweiter_student_in_wittenberg" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_student_in_wittenberg|protestanten" source="zweiter_student_in_wittenberg" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_student_in_wittenberg|katholiken" source="zweiter_student_in_wittenberg" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_student_in_wittenberg|ein_student_2_zweites_bild" source="zweiter_student_in_wittenberg" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_student_in_wittenberg|einer_1_zweites_bild" source="zweiter_student_in_wittenberg" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_student_in_wittenberg|einer_2_zweites_bild" source="zweiter_student_in_wittenberg" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theologe|studenten_zweites_bild" source="theologe" target="studenten_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theologe|vierter_student_in_wittenberg" source="theologe" target="vierter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theologe|jurist" source="theologe" target="jurist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theologe|naturgelehrter" source="theologe" target="naturgelehrter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theologe|ein_anderer" source="theologe" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theologe|dritter_student_in_wittenberg" source="theologe" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theologe|ein_student_1_zweites_bild" source="theologe" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theologe|protestanten" source="theologe" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theologe|katholiken" source="theologe" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theologe|ein_student_2_zweites_bild" source="theologe" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theologe|einer_1_zweites_bild" source="theologe" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theologe|einer_2_zweites_bild" source="theologe" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten_zweites_bild|vierter_student_in_wittenberg" source="studenten_zweites_bild" target="vierter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten_zweites_bild|jurist" source="studenten_zweites_bild" target="jurist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten_zweites_bild|naturgelehrter" source="studenten_zweites_bild" target="naturgelehrter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten_zweites_bild|ein_anderer" source="studenten_zweites_bild" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten_zweites_bild|dritter_student_in_wittenberg" source="studenten_zweites_bild" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten_zweites_bild|ein_student_1_zweites_bild" source="studenten_zweites_bild" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten_zweites_bild|protestanten" source="studenten_zweites_bild" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten_zweites_bild|katholiken" source="studenten_zweites_bild" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten_zweites_bild|ein_student_2_zweites_bild" source="studenten_zweites_bild" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten_zweites_bild|einer_1_zweites_bild" source="studenten_zweites_bild" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten_zweites_bild|einer_2_zweites_bild" source="studenten_zweites_bild" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_student_in_wittenberg|jurist" source="vierter_student_in_wittenberg" target="jurist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_student_in_wittenberg|naturgelehrter" source="vierter_student_in_wittenberg" target="naturgelehrter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_student_in_wittenberg|ein_anderer" source="vierter_student_in_wittenberg" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_student_in_wittenberg|dritter_student_in_wittenberg" source="vierter_student_in_wittenberg" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_student_in_wittenberg|ein_student_1_zweites_bild" source="vierter_student_in_wittenberg" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_student_in_wittenberg|protestanten" source="vierter_student_in_wittenberg" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_student_in_wittenberg|katholiken" source="vierter_student_in_wittenberg" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_student_in_wittenberg|ein_student_2_zweites_bild" source="vierter_student_in_wittenberg" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_student_in_wittenberg|einer_1_zweites_bild" source="vierter_student_in_wittenberg" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_student_in_wittenberg|einer_2_zweites_bild" source="vierter_student_in_wittenberg" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jurist|naturgelehrter" source="jurist" target="naturgelehrter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jurist|ein_anderer" source="jurist" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jurist|dritter_student_in_wittenberg" source="jurist" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jurist|ein_student_1_zweites_bild" source="jurist" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jurist|protestanten" source="jurist" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jurist|katholiken" source="jurist" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jurist|ein_student_2_zweites_bild" source="jurist" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jurist|einer_1_zweites_bild" source="jurist" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jurist|einer_2_zweites_bild" source="jurist" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="naturgelehrter|ein_anderer" source="naturgelehrter" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="naturgelehrter|dritter_student_in_wittenberg" source="naturgelehrter" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="naturgelehrter|ein_student_1_zweites_bild" source="naturgelehrter" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="naturgelehrter|protestanten" source="naturgelehrter" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="naturgelehrter|katholiken" source="naturgelehrter" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="naturgelehrter|ein_student_2_zweites_bild" source="naturgelehrter" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="naturgelehrter|einer_1_zweites_bild" source="naturgelehrter" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="naturgelehrter|einer_2_zweites_bild" source="naturgelehrter" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer|dritter_student_in_wittenberg" source="ein_anderer" target="dritter_student_in_wittenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer|ein_student_1_zweites_bild" source="ein_anderer" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer|protestanten" source="ein_anderer" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer|katholiken" source="ein_anderer" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer|ein_student_2_zweites_bild" source="ein_anderer" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer|einer_1_zweites_bild" source="ein_anderer" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer|einer_2_zweites_bild" source="ein_anderer" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_student_in_wittenberg|ein_student_1_zweites_bild" source="dritter_student_in_wittenberg" target="ein_student_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_student_in_wittenberg|protestanten" source="dritter_student_in_wittenberg" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_student_in_wittenberg|katholiken" source="dritter_student_in_wittenberg" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_student_in_wittenberg|ein_student_2_zweites_bild" source="dritter_student_in_wittenberg" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_student_in_wittenberg|einer_1_zweites_bild" source="dritter_student_in_wittenberg" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_student_in_wittenberg|einer_2_zweites_bild" source="dritter_student_in_wittenberg" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_1_zweites_bild|protestanten" source="ein_student_1_zweites_bild" target="protestanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_1_zweites_bild|katholiken" source="ein_student_1_zweites_bild" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_1_zweites_bild|ein_student_2_zweites_bild" source="ein_student_1_zweites_bild" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_1_zweites_bild|einer_1_zweites_bild" source="ein_student_1_zweites_bild" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_1_zweites_bild|einer_2_zweites_bild" source="ein_student_1_zweites_bild" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="protestanten|katholiken" source="protestanten" target="katholiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="protestanten|ein_student_2_zweites_bild" source="protestanten" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="protestanten|einer_1_zweites_bild" source="protestanten" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="protestanten|einer_2_zweites_bild" source="protestanten" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katholiken|ein_student_2_zweites_bild" source="katholiken" target="ein_student_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katholiken|einer_1_zweites_bild" source="katholiken" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katholiken|einer_2_zweites_bild" source="katholiken" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_2_zweites_bild|einer_1_zweites_bild" source="ein_student_2_zweites_bild" target="einer_1_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_student_2_zweites_bild|einer_2_zweites_bild" source="ein_student_2_zweites_bild" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_1_zweites_bild|einer_2_zweites_bild" source="einer_1_zweites_bild" target="einer_2_zweites_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="des_nachtwaechters_stimme|erster_student_letztes_bild" source="des_nachtwaechters_stimme" target="erster_student_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="des_nachtwaechters_stimme|studenten_letztes_bild" source="des_nachtwaechters_stimme" target="studenten_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="des_nachtwaechters_stimme|einer_letztes_bild" source="des_nachtwaechters_stimme" target="einer_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_letztes_bild|studenten_letztes_bild" source="erster_student_letztes_bild" target="studenten_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_student_letztes_bild|einer_letztes_bild" source="erster_student_letztes_bild" target="einer_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="studenten_letztes_bild|einer_letztes_bild" source="studenten_letztes_bild" target="einer_letztes_bild">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

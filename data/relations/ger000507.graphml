@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="eumenides">
+            <data key="label">Eumenides Düster</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ullo">
+            <data key="label">Ullo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="manona">
+            <data key="label">Manona</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hold">
+            <data key="label">Hold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="thorwald">
+            <data key="label">Thorwald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="eumenides" target="manona">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="ullo" target="eumenides">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="eumenides" target="hold">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="manona" target="hold">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

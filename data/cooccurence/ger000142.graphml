@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1326</data>
+        </node>
+        <node id="unbekannter">
+            <data key="label">Ein Unbekannter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2940</data>
+        </node>
+        <node id="franz">
+            <data key="label">Franz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1705</data>
+        </node>
+        <node id="greis">
+            <data key="label">Ein Greis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1013</data>
+        </node>
+        <node id="eulalia">
+            <data key="label">Eulalia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3769</data>
+        </node>
+        <node id="bittermann">
+            <data key="label">Bittermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2385</data>
+        </node>
+        <node id="der_major">
+            <data key="label">Major von der Horst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3870</data>
+        </node>
+        <node id="der_graf">
+            <data key="label">Der Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1362</data>
+        </node>
+        <node id="graefin">
+            <data key="label">Die Gräfin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1755</data>
+        </node>
+        <node id="lotte">
+            <data key="label">Lotte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1059</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="malchen">
+            <data key="label">Malchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <edge id="peter|unbekannter" source="peter" target="unbekannter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|franz" source="peter" target="franz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|eulalia" source="peter" target="eulalia">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="peter|bittermann" source="peter" target="bittermann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="peter|der_major" source="peter" target="der_major">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="peter|greis" source="peter" target="greis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|der_graf" source="peter" target="der_graf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="peter|lotte" source="peter" target="lotte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="peter|graefin" source="peter" target="graefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="unbekannter|franz" source="unbekannter" target="franz">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="unbekannter|greis" source="unbekannter" target="greis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="unbekannter|lotte" source="unbekannter" target="lotte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="unbekannter|der_major" source="unbekannter" target="der_major">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="unbekannter|eulalia" source="unbekannter" target="eulalia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="unbekannter|malchen" source="unbekannter" target="malchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="unbekannter|wilhelm" source="unbekannter" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|greis" source="franz" target="greis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="franz|lotte" source="franz" target="lotte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|graefin" source="franz" target="graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|der_major" source="franz" target="der_major">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="franz|wilhelm" source="franz" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|malchen" source="franz" target="malchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="greis|eulalia" source="greis" target="eulalia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="greis|der_major" source="greis" target="der_major">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eulalia|bittermann" source="eulalia" target="bittermann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="eulalia|der_major" source="eulalia" target="der_major">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="eulalia|der_graf" source="eulalia" target="der_graf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="eulalia|graefin" source="eulalia" target="graefin">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="eulalia|lotte" source="eulalia" target="lotte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eulalia|malchen" source="eulalia" target="malchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eulalia|wilhelm" source="eulalia" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bittermann|der_major" source="bittermann" target="der_major">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="bittermann|der_graf" source="bittermann" target="der_graf">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="bittermann|graefin" source="bittermann" target="graefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bittermann|lotte" source="bittermann" target="lotte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_major|der_graf" source="der_major" target="der_graf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="der_major|graefin" source="der_major" target="graefin">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="der_major|lotte" source="der_major" target="lotte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_major|wilhelm" source="der_major" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_major|malchen" source="der_major" target="malchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_graf|graefin" source="der_graf" target="graefin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wilhelm|malchen" source="wilhelm" target="malchen">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

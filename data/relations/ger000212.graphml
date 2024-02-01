@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="reigen">
+            <data key="label">Reigen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sigurd">
+            <data key="label">Sigurd</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hiordisa">
+            <data key="label">Hiordisa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="greis">
+            <data key="label">Greis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="faffner">
+            <data key="label">Faffner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_schwalbe">
+            <data key="label">Eine Schwalbe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="andere_schwalbe">
+            <data key="label">Andere Schwalbe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wurdur">
+            <data key="label">Wurdur</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="werdandi">
+            <data key="label">Werdandi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="skuld">
+            <data key="label">Skuld</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="brynhildis">
+            <data key="label">Brynhildis</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="grimhildis">
+            <data key="label">Grimhildis</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zofe_2">
+            <data key="label">Zofe (II)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gunnar">
+            <data key="label">Gunnar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hoegne">
+            <data key="label">Högne</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alswin">
+            <data key="label">Alswin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="giuke">
+            <data key="label">Giuke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bote">
+            <data key="label">Ein Bote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_diener_3">
+            <data key="label">Ein Diener (III)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zofe_3">
+            <data key="label">Zofe (III)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gudruna">
+            <data key="label">Gudruna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_diener_4">
+            <data key="label">Ein Diener (IV)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="waechter">
+            <data key="label">Wächter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="guttorm">
+            <data key="label">Guttorm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zofe_6">
+            <data key="label">Zofe (VI)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stimmen_von_aussen">
+            <data key="label">Stimmen von außen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="grimhildis" target="giuke">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="hiordisa" target="sigurd">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="reigen" target="sigurd">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="giuke" target="gudruna">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="giuke" target="gunnar">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="giuke" target="hoegne">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="7" directed="false" source="giuke" target="guttorm">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

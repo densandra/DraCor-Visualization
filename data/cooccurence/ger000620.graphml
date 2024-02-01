@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="benedikt">
+            <data key="label">Benedikt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1038</data>
+        </node>
+        <node id="justine">
+            <data key="label">Justine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4777</data>
+        </node>
+        <node id="sternberg">
+            <data key="label">Sternberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2100</data>
+        </node>
+        <node id="gerhard">
+            <data key="label">Gerhard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4899</data>
+        </node>
+        <node id="madam_anker">
+            <data key="label">Madam Anker</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">773</data>
+        </node>
+        <node id="therese">
+            <data key="label">Therese</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1611</data>
+        </node>
+        <node id="pistorius">
+            <data key="label">Pistorius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1334</data>
+        </node>
+        <node id="weinhold">
+            <data key="label">Weinhold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2196</data>
+        </node>
+        <node id="wittwe_ungewitter">
+            <data key="label">Wittwe Ungewitter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2460</data>
+        </node>
+        <node id="bieder">
+            <data key="label">Bieder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">559</data>
+        </node>
+        <edge id="benedikt|justine" source="benedikt" target="justine">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="benedikt|sternberg" source="benedikt" target="sternberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="benedikt|gerhard" source="benedikt" target="gerhard">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="benedikt|wittwe_ungewitter" source="benedikt" target="wittwe_ungewitter">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="benedikt|weinhold" source="benedikt" target="weinhold">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="justine|sternberg" source="justine" target="sternberg">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="justine|gerhard" source="justine" target="gerhard">
+            <data key="weight">28</data>
+        </edge>
+        <edge id="justine|madam_anker" source="justine" target="madam_anker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="justine|therese" source="justine" target="therese">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="justine|pistorius" source="justine" target="pistorius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="justine|weinhold" source="justine" target="weinhold">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="justine|wittwe_ungewitter" source="justine" target="wittwe_ungewitter">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="justine|bieder" source="justine" target="bieder">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sternberg|gerhard" source="sternberg" target="gerhard">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="sternberg|madam_anker" source="sternberg" target="madam_anker">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sternberg|therese" source="sternberg" target="therese">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="sternberg|wittwe_ungewitter" source="sternberg" target="wittwe_ungewitter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sternberg|bieder" source="sternberg" target="bieder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sternberg|weinhold" source="sternberg" target="weinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gerhard|madam_anker" source="gerhard" target="madam_anker">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gerhard|therese" source="gerhard" target="therese">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="gerhard|pistorius" source="gerhard" target="pistorius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gerhard|weinhold" source="gerhard" target="weinhold">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="gerhard|wittwe_ungewitter" source="gerhard" target="wittwe_ungewitter">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="gerhard|bieder" source="gerhard" target="bieder">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="madam_anker|therese" source="madam_anker" target="therese">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="madam_anker|wittwe_ungewitter" source="madam_anker" target="wittwe_ungewitter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madam_anker|bieder" source="madam_anker" target="bieder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|wittwe_ungewitter" source="therese" target="wittwe_ungewitter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|bieder" source="therese" target="bieder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pistorius|wittwe_ungewitter" source="pistorius" target="wittwe_ungewitter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pistorius|weinhold" source="pistorius" target="weinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weinhold|wittwe_ungewitter" source="weinhold" target="wittwe_ungewitter">
+            <data key="weight">16</data>
+        </edge>
+        <edge id="weinhold|bieder" source="weinhold" target="bieder">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

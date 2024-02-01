@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="friz">
+            <data key="label">Friz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">453</data>
+        </node>
+        <node id="rosalinde">
+            <data key="label">Rosalinde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2554</data>
+        </node>
+        <node id="faust">
+            <data key="label">Doktor Faust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1674</data>
+        </node>
+        <node id="unsichtbarer_chor">
+            <data key="label">Unsichtbarer Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">88</data>
+        </node>
+        <edge id="friz|rosalinde" source="friz" target="rosalinde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosalinde|faust" source="rosalinde" target="faust">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="rosalinde|unsichtbarer_chor" source="rosalinde" target="unsichtbarer_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|unsichtbarer_chor" source="faust" target="unsichtbarer_chor">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

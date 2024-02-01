@@ -1,0 +1,1526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">443</data>
+        </node>
+        <node id="klagenfurter">
+            <data key="label">Klagenfurter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1310</data>
+        </node>
+        <node id="schenk">
+            <data key="label">Schenk</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6255</data>
+        </node>
+        <node id="braun">
+            <data key="label">Braun</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">183</data>
+        </node>
+        <node id="dietrich">
+            <data key="label">Dietrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1132</data>
+        </node>
+        <node id="rosa">
+            <data key="label">Rosa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">200</data>
+        </node>
+        <node id="lassmann">
+            <data key="label">Laßmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">420</data>
+        </node>
+        <node id="fischer">
+            <data key="label">Fischer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">29</data>
+        </node>
+        <node id="frau_lassmann">
+            <data key="label">Frau Laßmann</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">600</data>
+        </node>
+        <node id="faerber">
+            <data key="label">Färber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">151</data>
+        </node>
+        <node id="trotz">
+            <data key="label">Trotz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1012</data>
+        </node>
+        <node id="rund">
+            <data key="label">Rund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">209</data>
+        </node>
+        <node id="flora">
+            <data key="label">Flora</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3134</data>
+        </node>
+        <node id="tiedtken">
+            <data key="label">Tiedtken</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">782</data>
+        </node>
+        <node id="werra">
+            <data key="label">Werra</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">334</data>
+        </node>
+        <node id="klara">
+            <data key="label">Klara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">101</data>
+        </node>
+        <node id="praezold">
+            <data key="label">Präzold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">293</data>
+        </node>
+        <node id="dr_bossenius">
+            <data key="label">Dr. Bossenius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">141</data>
+        </node>
+        <node id="damen">
+            <data key="label">Damen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="strauss">
+            <data key="label">Strauß</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">815</data>
+        </node>
+        <node id="kellnerin">
+            <data key="label">Kellnerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="seebald">
+            <data key="label">Seebald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2980</data>
+        </node>
+        <node id="lecharjow">
+            <data key="label">Lecharjow</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2298</data>
+        </node>
+        <node id="frau_schenk">
+            <data key="label">Frau Schenk</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1764</data>
+        </node>
+        <node id="tessendorff">
+            <data key="label">Tessendorff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1408</data>
+        </node>
+        <node id="trambahnfuehrer">
+            <data key="label">Trambahnführer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="trambahnschaffnerin">
+            <data key="label">Trambahnschaffnerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">57</data>
+        </node>
+        <node id="ein_arbeiter">
+            <data key="label">Ein Arbeiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="stimmen">
+            <data key="label">(Viele) Stimmen (V. Akt)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="arbeiter-viele-rufe">
+            <data key="label">Arbeiter/Viele/Rufe (V. Akt)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="leutnant">
+            <data key="label">Leutnant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="unteroffizier">
+            <data key="label">Unteroffizier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="soldaten">
+            <data key="label">Soldaten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="dr_karfunkelstein">
+            <data key="label">Dr. Karfunkelstein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">53</data>
+        </node>
+        <edge id="marie|klagenfurter" source="marie" target="klagenfurter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|schenk" source="marie" target="schenk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|braun" source="marie" target="braun">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|dietrich" source="marie" target="dietrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|rosa" source="marie" target="rosa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|lassmann" source="marie" target="lassmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|fischer" source="marie" target="fischer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|frau_lassmann" source="marie" target="frau_lassmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|faerber" source="marie" target="faerber">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|trotz" source="marie" target="trotz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|rund" source="marie" target="rund">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|flora" source="marie" target="flora">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|tiedtken" source="marie" target="tiedtken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|trambahnfuehrer" source="marie" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|trambahnschaffnerin" source="marie" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|lecharjow" source="marie" target="lecharjow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|seebald" source="marie" target="seebald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|ein_arbeiter" source="marie" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|stimmen" source="marie" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|strauss" source="marie" target="strauss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|tessendorff" source="marie" target="tessendorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|arbeiter-viele-rufe" source="marie" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|leutnant" source="marie" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|unteroffizier" source="marie" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|soldaten" source="marie" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|dr_karfunkelstein" source="marie" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|schenk" source="klagenfurter" target="schenk">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="klagenfurter|braun" source="klagenfurter" target="braun">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|dietrich" source="klagenfurter" target="dietrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="klagenfurter|rosa" source="klagenfurter" target="rosa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klagenfurter|lassmann" source="klagenfurter" target="lassmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klagenfurter|fischer" source="klagenfurter" target="fischer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|frau_lassmann" source="klagenfurter" target="frau_lassmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="klagenfurter|faerber" source="klagenfurter" target="faerber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|trotz" source="klagenfurter" target="trotz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klagenfurter|rund" source="klagenfurter" target="rund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|flora" source="klagenfurter" target="flora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="klagenfurter|tiedtken" source="klagenfurter" target="tiedtken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|werra" source="klagenfurter" target="werra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|klara" source="klagenfurter" target="klara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|praezold" source="klagenfurter" target="praezold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|dr_bossenius" source="klagenfurter" target="dr_bossenius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|damen" source="klagenfurter" target="damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|strauss" source="klagenfurter" target="strauss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|kellnerin" source="klagenfurter" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|seebald" source="klagenfurter" target="seebald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klagenfurter|lecharjow" source="klagenfurter" target="lecharjow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|frau_schenk" source="klagenfurter" target="frau_schenk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagenfurter|tessendorff" source="klagenfurter" target="tessendorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|braun" source="schenk" target="braun">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schenk|dietrich" source="schenk" target="dietrich">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="schenk|rosa" source="schenk" target="rosa">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schenk|lassmann" source="schenk" target="lassmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schenk|fischer" source="schenk" target="fischer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schenk|frau_lassmann" source="schenk" target="frau_lassmann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schenk|faerber" source="schenk" target="faerber">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schenk|trotz" source="schenk" target="trotz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schenk|rund" source="schenk" target="rund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schenk|flora" source="schenk" target="flora">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="schenk|tiedtken" source="schenk" target="tiedtken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schenk|werra" source="schenk" target="werra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|klara" source="schenk" target="klara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|praezold" source="schenk" target="praezold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|dr_bossenius" source="schenk" target="dr_bossenius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|damen" source="schenk" target="damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|strauss" source="schenk" target="strauss">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schenk|kellnerin" source="schenk" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|seebald" source="schenk" target="seebald">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schenk|lecharjow" source="schenk" target="lecharjow">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schenk|frau_schenk" source="schenk" target="frau_schenk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schenk|tessendorff" source="schenk" target="tessendorff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schenk|trambahnfuehrer" source="schenk" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|trambahnschaffnerin" source="schenk" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|ein_arbeiter" source="schenk" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|stimmen" source="schenk" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|arbeiter-viele-rufe" source="schenk" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|leutnant" source="schenk" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|unteroffizier" source="schenk" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|soldaten" source="schenk" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schenk|dr_karfunkelstein" source="schenk" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braun|dietrich" source="braun" target="dietrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="braun|rosa" source="braun" target="rosa">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="braun|lassmann" source="braun" target="lassmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="braun|fischer" source="braun" target="fischer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="braun|frau_lassmann" source="braun" target="frau_lassmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="braun|faerber" source="braun" target="faerber">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="braun|trotz" source="braun" target="trotz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="braun|rund" source="braun" target="rund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="braun|flora" source="braun" target="flora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="braun|tiedtken" source="braun" target="tiedtken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="braun|frau_schenk" source="braun" target="frau_schenk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braun|lecharjow" source="braun" target="lecharjow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="braun|seebald" source="braun" target="seebald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="braun|trambahnfuehrer" source="braun" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braun|trambahnschaffnerin" source="braun" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braun|ein_arbeiter" source="braun" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braun|stimmen" source="braun" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braun|strauss" source="braun" target="strauss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braun|tessendorff" source="braun" target="tessendorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braun|arbeiter-viele-rufe" source="braun" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braun|leutnant" source="braun" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braun|unteroffizier" source="braun" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braun|soldaten" source="braun" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braun|dr_karfunkelstein" source="braun" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|rosa" source="dietrich" target="rosa">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="dietrich|lassmann" source="dietrich" target="lassmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dietrich|fischer" source="dietrich" target="fischer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dietrich|frau_lassmann" source="dietrich" target="frau_lassmann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="dietrich|faerber" source="dietrich" target="faerber">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dietrich|trotz" source="dietrich" target="trotz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="dietrich|rund" source="dietrich" target="rund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dietrich|flora" source="dietrich" target="flora">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="dietrich|tiedtken" source="dietrich" target="tiedtken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dietrich|werra" source="dietrich" target="werra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|klara" source="dietrich" target="klara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|praezold" source="dietrich" target="praezold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|dr_bossenius" source="dietrich" target="dr_bossenius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|damen" source="dietrich" target="damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|strauss" source="dietrich" target="strauss">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dietrich|kellnerin" source="dietrich" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|seebald" source="dietrich" target="seebald">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="dietrich|lecharjow" source="dietrich" target="lecharjow">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dietrich|frau_schenk" source="dietrich" target="frau_schenk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dietrich|tessendorff" source="dietrich" target="tessendorff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dietrich|trambahnfuehrer" source="dietrich" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|trambahnschaffnerin" source="dietrich" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|ein_arbeiter" source="dietrich" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|stimmen" source="dietrich" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|arbeiter-viele-rufe" source="dietrich" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|leutnant" source="dietrich" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|unteroffizier" source="dietrich" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|soldaten" source="dietrich" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|dr_karfunkelstein" source="dietrich" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|lassmann" source="rosa" target="lassmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosa|fischer" source="rosa" target="fischer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosa|frau_lassmann" source="rosa" target="frau_lassmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosa|faerber" source="rosa" target="faerber">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosa|trotz" source="rosa" target="trotz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="rosa|rund" source="rosa" target="rund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosa|flora" source="rosa" target="flora">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="rosa|tiedtken" source="rosa" target="tiedtken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosa|werra" source="rosa" target="werra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|klara" source="rosa" target="klara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|praezold" source="rosa" target="praezold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|dr_bossenius" source="rosa" target="dr_bossenius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|damen" source="rosa" target="damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|strauss" source="rosa" target="strauss">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosa|kellnerin" source="rosa" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|seebald" source="rosa" target="seebald">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosa|lecharjow" source="rosa" target="lecharjow">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosa|frau_schenk" source="rosa" target="frau_schenk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|trambahnfuehrer" source="rosa" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|trambahnschaffnerin" source="rosa" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|ein_arbeiter" source="rosa" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|stimmen" source="rosa" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|tessendorff" source="rosa" target="tessendorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|arbeiter-viele-rufe" source="rosa" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|leutnant" source="rosa" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|unteroffizier" source="rosa" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|soldaten" source="rosa" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|dr_karfunkelstein" source="rosa" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|fischer" source="lassmann" target="fischer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lassmann|frau_lassmann" source="lassmann" target="frau_lassmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lassmann|faerber" source="lassmann" target="faerber">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lassmann|trotz" source="lassmann" target="trotz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lassmann|rund" source="lassmann" target="rund">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lassmann|flora" source="lassmann" target="flora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lassmann|tiedtken" source="lassmann" target="tiedtken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lassmann|werra" source="lassmann" target="werra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|klara" source="lassmann" target="klara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|praezold" source="lassmann" target="praezold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|dr_bossenius" source="lassmann" target="dr_bossenius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|damen" source="lassmann" target="damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|strauss" source="lassmann" target="strauss">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lassmann|kellnerin" source="lassmann" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|seebald" source="lassmann" target="seebald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lassmann|lecharjow" source="lassmann" target="lecharjow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lassmann|trambahnfuehrer" source="lassmann" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|trambahnschaffnerin" source="lassmann" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|ein_arbeiter" source="lassmann" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|stimmen" source="lassmann" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|tessendorff" source="lassmann" target="tessendorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|arbeiter-viele-rufe" source="lassmann" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|leutnant" source="lassmann" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|unteroffizier" source="lassmann" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|soldaten" source="lassmann" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lassmann|dr_karfunkelstein" source="lassmann" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|frau_lassmann" source="fischer" target="frau_lassmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fischer|faerber" source="fischer" target="faerber">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fischer|trotz" source="fischer" target="trotz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fischer|rund" source="fischer" target="rund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fischer|flora" source="fischer" target="flora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fischer|tiedtken" source="fischer" target="tiedtken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fischer|frau_schenk" source="fischer" target="frau_schenk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|lecharjow" source="fischer" target="lecharjow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fischer|seebald" source="fischer" target="seebald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fischer|trambahnfuehrer" source="fischer" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|trambahnschaffnerin" source="fischer" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|ein_arbeiter" source="fischer" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|stimmen" source="fischer" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|strauss" source="fischer" target="strauss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|tessendorff" source="fischer" target="tessendorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|arbeiter-viele-rufe" source="fischer" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|leutnant" source="fischer" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|unteroffizier" source="fischer" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|soldaten" source="fischer" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|dr_karfunkelstein" source="fischer" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|faerber" source="frau_lassmann" target="faerber">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_lassmann|trotz" source="frau_lassmann" target="trotz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_lassmann|rund" source="frau_lassmann" target="rund">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_lassmann|flora" source="frau_lassmann" target="flora">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_lassmann|tiedtken" source="frau_lassmann" target="tiedtken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_lassmann|werra" source="frau_lassmann" target="werra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|klara" source="frau_lassmann" target="klara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|praezold" source="frau_lassmann" target="praezold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|dr_bossenius" source="frau_lassmann" target="dr_bossenius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|damen" source="frau_lassmann" target="damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|strauss" source="frau_lassmann" target="strauss">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_lassmann|kellnerin" source="frau_lassmann" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|seebald" source="frau_lassmann" target="seebald">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_lassmann|lecharjow" source="frau_lassmann" target="lecharjow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_lassmann|frau_schenk" source="frau_lassmann" target="frau_schenk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|tessendorff" source="frau_lassmann" target="tessendorff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_lassmann|trambahnfuehrer" source="frau_lassmann" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|trambahnschaffnerin" source="frau_lassmann" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|ein_arbeiter" source="frau_lassmann" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|stimmen" source="frau_lassmann" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|arbeiter-viele-rufe" source="frau_lassmann" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|leutnant" source="frau_lassmann" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|unteroffizier" source="frau_lassmann" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|soldaten" source="frau_lassmann" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_lassmann|dr_karfunkelstein" source="frau_lassmann" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faerber|trotz" source="faerber" target="trotz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="faerber|rund" source="faerber" target="rund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="faerber|flora" source="faerber" target="flora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="faerber|tiedtken" source="faerber" target="tiedtken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faerber|frau_schenk" source="faerber" target="frau_schenk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faerber|lecharjow" source="faerber" target="lecharjow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faerber|seebald" source="faerber" target="seebald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faerber|trambahnfuehrer" source="faerber" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faerber|trambahnschaffnerin" source="faerber" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faerber|ein_arbeiter" source="faerber" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faerber|stimmen" source="faerber" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faerber|strauss" source="faerber" target="strauss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faerber|tessendorff" source="faerber" target="tessendorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faerber|arbeiter-viele-rufe" source="faerber" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faerber|leutnant" source="faerber" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faerber|unteroffizier" source="faerber" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faerber|soldaten" source="faerber" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faerber|dr_karfunkelstein" source="faerber" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|rund" source="trotz" target="rund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="trotz|flora" source="trotz" target="flora">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="trotz|tiedtken" source="trotz" target="tiedtken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="trotz|werra" source="trotz" target="werra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|klara" source="trotz" target="klara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|praezold" source="trotz" target="praezold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|dr_bossenius" source="trotz" target="dr_bossenius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|damen" source="trotz" target="damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|strauss" source="trotz" target="strauss">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="trotz|kellnerin" source="trotz" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|seebald" source="trotz" target="seebald">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="trotz|lecharjow" source="trotz" target="lecharjow">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="trotz|frau_schenk" source="trotz" target="frau_schenk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|trambahnfuehrer" source="trotz" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|trambahnschaffnerin" source="trotz" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|ein_arbeiter" source="trotz" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|stimmen" source="trotz" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|tessendorff" source="trotz" target="tessendorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|arbeiter-viele-rufe" source="trotz" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|leutnant" source="trotz" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|unteroffizier" source="trotz" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|soldaten" source="trotz" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trotz|dr_karfunkelstein" source="trotz" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rund|flora" source="rund" target="flora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rund|tiedtken" source="rund" target="tiedtken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rund|frau_schenk" source="rund" target="frau_schenk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rund|lecharjow" source="rund" target="lecharjow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rund|seebald" source="rund" target="seebald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rund|trambahnfuehrer" source="rund" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rund|trambahnschaffnerin" source="rund" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rund|ein_arbeiter" source="rund" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rund|stimmen" source="rund" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rund|strauss" source="rund" target="strauss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rund|tessendorff" source="rund" target="tessendorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rund|arbeiter-viele-rufe" source="rund" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rund|leutnant" source="rund" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rund|unteroffizier" source="rund" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rund|soldaten" source="rund" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rund|dr_karfunkelstein" source="rund" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|tiedtken" source="flora" target="tiedtken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flora|werra" source="flora" target="werra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|klara" source="flora" target="klara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|praezold" source="flora" target="praezold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|dr_bossenius" source="flora" target="dr_bossenius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|damen" source="flora" target="damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|strauss" source="flora" target="strauss">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flora|kellnerin" source="flora" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|seebald" source="flora" target="seebald">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="flora|lecharjow" source="flora" target="lecharjow">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="flora|frau_schenk" source="flora" target="frau_schenk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flora|tessendorff" source="flora" target="tessendorff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flora|trambahnfuehrer" source="flora" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|trambahnschaffnerin" source="flora" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|ein_arbeiter" source="flora" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|stimmen" source="flora" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|arbeiter-viele-rufe" source="flora" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|leutnant" source="flora" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|unteroffizier" source="flora" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|soldaten" source="flora" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|dr_karfunkelstein" source="flora" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiedtken|trambahnfuehrer" source="tiedtken" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiedtken|trambahnschaffnerin" source="tiedtken" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiedtken|lecharjow" source="tiedtken" target="lecharjow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiedtken|seebald" source="tiedtken" target="seebald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiedtken|ein_arbeiter" source="tiedtken" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiedtken|stimmen" source="tiedtken" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiedtken|strauss" source="tiedtken" target="strauss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiedtken|tessendorff" source="tiedtken" target="tessendorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiedtken|arbeiter-viele-rufe" source="tiedtken" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiedtken|leutnant" source="tiedtken" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiedtken|unteroffizier" source="tiedtken" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiedtken|soldaten" source="tiedtken" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiedtken|dr_karfunkelstein" source="tiedtken" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werra|klara" source="werra" target="klara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werra|praezold" source="werra" target="praezold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werra|dr_bossenius" source="werra" target="dr_bossenius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werra|damen" source="werra" target="damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werra|strauss" source="werra" target="strauss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werra|kellnerin" source="werra" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werra|seebald" source="werra" target="seebald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werra|lecharjow" source="werra" target="lecharjow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|praezold" source="klara" target="praezold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|dr_bossenius" source="klara" target="dr_bossenius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|damen" source="klara" target="damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|strauss" source="klara" target="strauss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|kellnerin" source="klara" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|seebald" source="klara" target="seebald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|lecharjow" source="klara" target="lecharjow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praezold|dr_bossenius" source="praezold" target="dr_bossenius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praezold|damen" source="praezold" target="damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praezold|strauss" source="praezold" target="strauss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praezold|kellnerin" source="praezold" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praezold|seebald" source="praezold" target="seebald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praezold|lecharjow" source="praezold" target="lecharjow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_bossenius|damen" source="dr_bossenius" target="damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_bossenius|strauss" source="dr_bossenius" target="strauss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_bossenius|kellnerin" source="dr_bossenius" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_bossenius|seebald" source="dr_bossenius" target="seebald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_bossenius|lecharjow" source="dr_bossenius" target="lecharjow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="damen|strauss" source="damen" target="strauss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="damen|kellnerin" source="damen" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="damen|seebald" source="damen" target="seebald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="damen|lecharjow" source="damen" target="lecharjow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strauss|kellnerin" source="strauss" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strauss|seebald" source="strauss" target="seebald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="strauss|lecharjow" source="strauss" target="lecharjow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="strauss|trambahnfuehrer" source="strauss" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strauss|trambahnschaffnerin" source="strauss" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strauss|ein_arbeiter" source="strauss" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strauss|stimmen" source="strauss" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strauss|tessendorff" source="strauss" target="tessendorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strauss|arbeiter-viele-rufe" source="strauss" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strauss|leutnant" source="strauss" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strauss|unteroffizier" source="strauss" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strauss|soldaten" source="strauss" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strauss|dr_karfunkelstein" source="strauss" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellnerin|seebald" source="kellnerin" target="seebald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellnerin|lecharjow" source="kellnerin" target="lecharjow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seebald|lecharjow" source="seebald" target="lecharjow">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="seebald|frau_schenk" source="seebald" target="frau_schenk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="seebald|tessendorff" source="seebald" target="tessendorff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="seebald|trambahnfuehrer" source="seebald" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seebald|trambahnschaffnerin" source="seebald" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seebald|ein_arbeiter" source="seebald" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seebald|stimmen" source="seebald" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seebald|arbeiter-viele-rufe" source="seebald" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seebald|leutnant" source="seebald" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seebald|unteroffizier" source="seebald" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seebald|soldaten" source="seebald" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seebald|dr_karfunkelstein" source="seebald" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lecharjow|frau_schenk" source="lecharjow" target="frau_schenk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lecharjow|trambahnfuehrer" source="lecharjow" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lecharjow|trambahnschaffnerin" source="lecharjow" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lecharjow|ein_arbeiter" source="lecharjow" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lecharjow|stimmen" source="lecharjow" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lecharjow|tessendorff" source="lecharjow" target="tessendorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lecharjow|arbeiter-viele-rufe" source="lecharjow" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lecharjow|leutnant" source="lecharjow" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lecharjow|unteroffizier" source="lecharjow" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lecharjow|soldaten" source="lecharjow" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lecharjow|dr_karfunkelstein" source="lecharjow" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_schenk|tessendorff" source="frau_schenk" target="tessendorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tessendorff|trambahnfuehrer" source="tessendorff" target="trambahnfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tessendorff|trambahnschaffnerin" source="tessendorff" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tessendorff|ein_arbeiter" source="tessendorff" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tessendorff|stimmen" source="tessendorff" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tessendorff|arbeiter-viele-rufe" source="tessendorff" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tessendorff|leutnant" source="tessendorff" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tessendorff|unteroffizier" source="tessendorff" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tessendorff|soldaten" source="tessendorff" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tessendorff|dr_karfunkelstein" source="tessendorff" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnfuehrer|trambahnschaffnerin" source="trambahnfuehrer" target="trambahnschaffnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnfuehrer|ein_arbeiter" source="trambahnfuehrer" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnfuehrer|stimmen" source="trambahnfuehrer" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnfuehrer|arbeiter-viele-rufe" source="trambahnfuehrer" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnfuehrer|leutnant" source="trambahnfuehrer" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnfuehrer|unteroffizier" source="trambahnfuehrer" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnfuehrer|soldaten" source="trambahnfuehrer" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnfuehrer|dr_karfunkelstein" source="trambahnfuehrer" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnschaffnerin|ein_arbeiter" source="trambahnschaffnerin" target="ein_arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnschaffnerin|stimmen" source="trambahnschaffnerin" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnschaffnerin|arbeiter-viele-rufe" source="trambahnschaffnerin" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnschaffnerin|leutnant" source="trambahnschaffnerin" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnschaffnerin|unteroffizier" source="trambahnschaffnerin" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnschaffnerin|soldaten" source="trambahnschaffnerin" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trambahnschaffnerin|dr_karfunkelstein" source="trambahnschaffnerin" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_arbeiter|stimmen" source="ein_arbeiter" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_arbeiter|arbeiter-viele-rufe" source="ein_arbeiter" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_arbeiter|leutnant" source="ein_arbeiter" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_arbeiter|unteroffizier" source="ein_arbeiter" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_arbeiter|soldaten" source="ein_arbeiter" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_arbeiter|dr_karfunkelstein" source="ein_arbeiter" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|arbeiter-viele-rufe" source="stimmen" target="arbeiter-viele-rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|leutnant" source="stimmen" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|unteroffizier" source="stimmen" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|soldaten" source="stimmen" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|dr_karfunkelstein" source="stimmen" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arbeiter-viele-rufe|leutnant" source="arbeiter-viele-rufe" target="leutnant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arbeiter-viele-rufe|unteroffizier" source="arbeiter-viele-rufe" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arbeiter-viele-rufe|soldaten" source="arbeiter-viele-rufe" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arbeiter-viele-rufe|dr_karfunkelstein" source="arbeiter-viele-rufe" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutnant|unteroffizier" source="leutnant" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutnant|soldaten" source="leutnant" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutnant|dr_karfunkelstein" source="leutnant" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="unteroffizier|soldaten" source="unteroffizier" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="unteroffizier|dr_karfunkelstein" source="unteroffizier" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soldaten|dr_karfunkelstein" source="soldaten" target="dr_karfunkelstein">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

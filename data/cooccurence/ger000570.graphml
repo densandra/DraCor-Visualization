@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="allgemeiner_chor">
+            <data key="label">Chor/Allgemeiner Chor/Alle</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">475</data>
+        </node>
+        <node id="kaiser">
+            <data key="label">Kaiser Heinrich VI.</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">846</data>
+        </node>
+        <node id="irmengard">
+            <data key="label">Irmengard</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">956</data>
+        </node>
+        <node id="philipp">
+            <data key="label">Philipp</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">618</data>
+        </node>
+        <node id="chor_der_fuersten">
+            <data key="label">Chor der Fürsten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">523</data>
+        </node>
+        <node id="chor_der_deutschen_ritter">
+            <data key="label">Chor der deutschen Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">371</data>
+        </node>
+        <node id="chor_der_frauen">
+            <data key="label">Chor der Frauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">122</data>
+        </node>
+        <node id="erzbischof">
+            <data key="label">Der Erzbischof von Mainz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">166</data>
+        </node>
+        <node id="burggraf">
+            <data key="label">Der Burggraf des Kaisers</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">141</data>
+        </node>
+        <node id="chor_der_franzoesischen_ritter">
+            <data key="label">Chor der französischen Ritter und Troubadours</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">161</data>
+        </node>
+        <node id="koenig">
+            <data key="label">Philipp August, König von Frankreich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">527</data>
+        </node>
+        <node id="heinrich_der_loewe">
+            <data key="label">Heinrich der Löwe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1274</data>
+        </node>
+        <node id="agnes">
+            <data key="label">Agnes</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">863</data>
+        </node>
+        <node id="die_begleiterinnen">
+            <data key="label">Die Begleiterinnen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="erster_fuerst">
+            <data key="label">Erster Fürst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="zweiter_fuerst">
+            <data key="label">Zweiter Fürst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="dritter_fuerst">
+            <data key="label">Dritter Fürst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="vierter_fuerst">
+            <data key="label">Vierter Fürst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="theobald">
+            <data key="label">Theobald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="stimmen_von_aussen">
+            <data key="label">Stimmen von Außen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="kerkerwache">
+            <data key="label">Kerkerwache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="wache">
+            <data key="label">Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="chor_der_nonnen">
+            <data key="label">Chor der Nonnen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">72</data>
+        </node>
+        <node id="chor_des_volks">
+            <data key="label">Chor des Volks</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">69</data>
+        </node>
+        <node id="kampfrichter">
+            <data key="label">Kampfrichter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">40</data>
+        </node>
+        <node id="der_schwarze_ritter">
+            <data key="label">Der schwarze Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="heinrich_der_sohn">
+            <data key="label">Heinrich der Sohn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">44</data>
+        </node>
+        <edge id="allgemeiner_chor|kaiser" source="allgemeiner_chor" target="kaiser">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="allgemeiner_chor|irmengard" source="allgemeiner_chor" target="irmengard">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="allgemeiner_chor|philipp" source="allgemeiner_chor" target="philipp">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="allgemeiner_chor|chor_der_fuersten" source="allgemeiner_chor" target="chor_der_fuersten">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="allgemeiner_chor|chor_der_deutschen_ritter" source="allgemeiner_chor" target="chor_der_deutschen_ritter">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="allgemeiner_chor|chor_der_frauen" source="allgemeiner_chor" target="chor_der_frauen">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="allgemeiner_chor|erzbischof" source="allgemeiner_chor" target="erzbischof">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="allgemeiner_chor|burggraf" source="allgemeiner_chor" target="burggraf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="allgemeiner_chor|chor_der_franzoesischen_ritter" source="allgemeiner_chor" target="chor_der_franzoesischen_ritter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="allgemeiner_chor|koenig" source="allgemeiner_chor" target="koenig">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="allgemeiner_chor|agnes" source="allgemeiner_chor" target="agnes">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="allgemeiner_chor|heinrich_der_loewe" source="allgemeiner_chor" target="heinrich_der_loewe">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="allgemeiner_chor|theobald" source="allgemeiner_chor" target="theobald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="allgemeiner_chor|kampfrichter" source="allgemeiner_chor" target="kampfrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="allgemeiner_chor|der_schwarze_ritter" source="allgemeiner_chor" target="der_schwarze_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="allgemeiner_chor|heinrich_der_sohn" source="allgemeiner_chor" target="heinrich_der_sohn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaiser|irmengard" source="kaiser" target="irmengard">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="kaiser|philipp" source="kaiser" target="philipp">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="kaiser|chor_der_fuersten" source="kaiser" target="chor_der_fuersten">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="kaiser|chor_der_deutschen_ritter" source="kaiser" target="chor_der_deutschen_ritter">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="kaiser|chor_der_frauen" source="kaiser" target="chor_der_frauen">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="kaiser|erzbischof" source="kaiser" target="erzbischof">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaiser|burggraf" source="kaiser" target="burggraf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kaiser|chor_der_franzoesischen_ritter" source="kaiser" target="chor_der_franzoesischen_ritter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kaiser|koenig" source="kaiser" target="koenig">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="kaiser|agnes" source="kaiser" target="agnes">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kaiser|heinrich_der_loewe" source="kaiser" target="heinrich_der_loewe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kaiser|theobald" source="kaiser" target="theobald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaiser|kampfrichter" source="kaiser" target="kampfrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser|der_schwarze_ritter" source="kaiser" target="der_schwarze_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser|heinrich_der_sohn" source="kaiser" target="heinrich_der_sohn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="irmengard|philipp" source="irmengard" target="philipp">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="irmengard|chor_der_fuersten" source="irmengard" target="chor_der_fuersten">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="irmengard|chor_der_deutschen_ritter" source="irmengard" target="chor_der_deutschen_ritter">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="irmengard|chor_der_frauen" source="irmengard" target="chor_der_frauen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="irmengard|erzbischof" source="irmengard" target="erzbischof">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="irmengard|burggraf" source="irmengard" target="burggraf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="irmengard|chor_der_franzoesischen_ritter" source="irmengard" target="chor_der_franzoesischen_ritter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="irmengard|koenig" source="irmengard" target="koenig">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="irmengard|agnes" source="irmengard" target="agnes">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="irmengard|heinrich_der_loewe" source="irmengard" target="heinrich_der_loewe">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="irmengard|erster_fuerst" source="irmengard" target="erster_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irmengard|zweiter_fuerst" source="irmengard" target="zweiter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irmengard|dritter_fuerst" source="irmengard" target="dritter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irmengard|vierter_fuerst" source="irmengard" target="vierter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irmengard|theobald" source="irmengard" target="theobald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="irmengard|chor_des_volks" source="irmengard" target="chor_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irmengard|chor_der_nonnen" source="irmengard" target="chor_der_nonnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irmengard|kampfrichter" source="irmengard" target="kampfrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irmengard|der_schwarze_ritter" source="irmengard" target="der_schwarze_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irmengard|heinrich_der_sohn" source="irmengard" target="heinrich_der_sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philipp|chor_der_fuersten" source="philipp" target="chor_der_fuersten">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="philipp|chor_der_deutschen_ritter" source="philipp" target="chor_der_deutschen_ritter">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="philipp|chor_der_frauen" source="philipp" target="chor_der_frauen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="philipp|erzbischof" source="philipp" target="erzbischof">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="philipp|burggraf" source="philipp" target="burggraf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="philipp|chor_der_franzoesischen_ritter" source="philipp" target="chor_der_franzoesischen_ritter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="philipp|koenig" source="philipp" target="koenig">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="philipp|heinrich_der_loewe" source="philipp" target="heinrich_der_loewe">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="philipp|agnes" source="philipp" target="agnes">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="philipp|erster_fuerst" source="philipp" target="erster_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philipp|zweiter_fuerst" source="philipp" target="zweiter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philipp|dritter_fuerst" source="philipp" target="dritter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philipp|vierter_fuerst" source="philipp" target="vierter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philipp|theobald" source="philipp" target="theobald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philipp|chor_des_volks" source="philipp" target="chor_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philipp|chor_der_nonnen" source="philipp" target="chor_der_nonnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philipp|kampfrichter" source="philipp" target="kampfrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philipp|der_schwarze_ritter" source="philipp" target="der_schwarze_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philipp|heinrich_der_sohn" source="philipp" target="heinrich_der_sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_fuersten|chor_der_deutschen_ritter" source="chor_der_fuersten" target="chor_der_deutschen_ritter">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="chor_der_fuersten|chor_der_frauen" source="chor_der_fuersten" target="chor_der_frauen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chor_der_fuersten|erzbischof" source="chor_der_fuersten" target="erzbischof">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_fuersten|burggraf" source="chor_der_fuersten" target="burggraf">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="chor_der_fuersten|chor_der_franzoesischen_ritter" source="chor_der_fuersten" target="chor_der_franzoesischen_ritter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor_der_fuersten|koenig" source="chor_der_fuersten" target="koenig">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="chor_der_fuersten|erster_fuerst" source="chor_der_fuersten" target="erster_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_fuersten|zweiter_fuerst" source="chor_der_fuersten" target="zweiter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_fuersten|dritter_fuerst" source="chor_der_fuersten" target="dritter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_fuersten|vierter_fuerst" source="chor_der_fuersten" target="vierter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_fuersten|agnes" source="chor_der_fuersten" target="agnes">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor_der_fuersten|heinrich_der_loewe" source="chor_der_fuersten" target="heinrich_der_loewe">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="chor_der_fuersten|theobald" source="chor_der_fuersten" target="theobald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_fuersten|der_schwarze_ritter" source="chor_der_fuersten" target="der_schwarze_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_fuersten|heinrich_der_sohn" source="chor_der_fuersten" target="heinrich_der_sohn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_deutschen_ritter|chor_der_frauen" source="chor_der_deutschen_ritter" target="chor_der_frauen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chor_der_deutschen_ritter|erzbischof" source="chor_der_deutschen_ritter" target="erzbischof">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_deutschen_ritter|burggraf" source="chor_der_deutschen_ritter" target="burggraf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chor_der_deutschen_ritter|chor_der_franzoesischen_ritter" source="chor_der_deutschen_ritter" target="chor_der_franzoesischen_ritter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor_der_deutschen_ritter|koenig" source="chor_der_deutschen_ritter" target="koenig">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chor_der_deutschen_ritter|erster_fuerst" source="chor_der_deutschen_ritter" target="erster_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_deutschen_ritter|zweiter_fuerst" source="chor_der_deutschen_ritter" target="zweiter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_deutschen_ritter|dritter_fuerst" source="chor_der_deutschen_ritter" target="dritter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_deutschen_ritter|vierter_fuerst" source="chor_der_deutschen_ritter" target="vierter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_deutschen_ritter|agnes" source="chor_der_deutschen_ritter" target="agnes">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor_der_deutschen_ritter|heinrich_der_loewe" source="chor_der_deutschen_ritter" target="heinrich_der_loewe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chor_der_deutschen_ritter|theobald" source="chor_der_deutschen_ritter" target="theobald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_deutschen_ritter|der_schwarze_ritter" source="chor_der_deutschen_ritter" target="der_schwarze_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_deutschen_ritter|heinrich_der_sohn" source="chor_der_deutschen_ritter" target="heinrich_der_sohn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_frauen|erzbischof" source="chor_der_frauen" target="erzbischof">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_frauen|burggraf" source="chor_der_frauen" target="burggraf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_frauen|chor_der_franzoesischen_ritter" source="chor_der_frauen" target="chor_der_franzoesischen_ritter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor_der_frauen|koenig" source="chor_der_frauen" target="koenig">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chor_der_frauen|agnes" source="chor_der_frauen" target="agnes">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_frauen|heinrich_der_loewe" source="chor_der_frauen" target="heinrich_der_loewe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor_der_frauen|kampfrichter" source="chor_der_frauen" target="kampfrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_frauen|der_schwarze_ritter" source="chor_der_frauen" target="der_schwarze_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_frauen|heinrich_der_sohn" source="chor_der_frauen" target="heinrich_der_sohn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_frauen|theobald" source="chor_der_frauen" target="theobald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof|burggraf" source="erzbischof" target="burggraf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof|chor_der_nonnen" source="erzbischof" target="chor_der_nonnen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erzbischof|agnes" source="erzbischof" target="agnes">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="erzbischof|heinrich_der_loewe" source="erzbischof" target="heinrich_der_loewe">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="erzbischof|koenig" source="erzbischof" target="koenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erzbischof|chor_des_volks" source="erzbischof" target="chor_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof|chor_der_franzoesischen_ritter" source="erzbischof" target="chor_der_franzoesischen_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof|der_schwarze_ritter" source="erzbischof" target="der_schwarze_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof|heinrich_der_sohn" source="erzbischof" target="heinrich_der_sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof|theobald" source="erzbischof" target="theobald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burggraf|heinrich_der_loewe" source="burggraf" target="heinrich_der_loewe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="burggraf|theobald" source="burggraf" target="theobald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="burggraf|koenig" source="burggraf" target="koenig">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="burggraf|agnes" source="burggraf" target="agnes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burggraf|stimmen_von_aussen" source="burggraf" target="stimmen_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burggraf|kerkerwache" source="burggraf" target="kerkerwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burggraf|wache" source="burggraf" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burggraf|chor_der_franzoesischen_ritter" source="burggraf" target="chor_der_franzoesischen_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burggraf|heinrich_der_sohn" source="burggraf" target="heinrich_der_sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_franzoesischen_ritter|koenig" source="chor_der_franzoesischen_ritter" target="koenig">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor_der_franzoesischen_ritter|agnes" source="chor_der_franzoesischen_ritter" target="agnes">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor_der_franzoesischen_ritter|heinrich_der_loewe" source="chor_der_franzoesischen_ritter" target="heinrich_der_loewe">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor_der_franzoesischen_ritter|der_schwarze_ritter" source="chor_der_franzoesischen_ritter" target="der_schwarze_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_franzoesischen_ritter|heinrich_der_sohn" source="chor_der_franzoesischen_ritter" target="heinrich_der_sohn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_franzoesischen_ritter|theobald" source="chor_der_franzoesischen_ritter" target="theobald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|agnes" source="koenig" target="agnes">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="koenig|heinrich_der_loewe" source="koenig" target="heinrich_der_loewe">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="koenig|theobald" source="koenig" target="theobald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig|chor_des_volks" source="koenig" target="chor_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|chor_der_nonnen" source="koenig" target="chor_der_nonnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|kampfrichter" source="koenig" target="kampfrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|der_schwarze_ritter" source="koenig" target="der_schwarze_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|heinrich_der_sohn" source="koenig" target="heinrich_der_sohn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich_der_loewe|agnes" source="heinrich_der_loewe" target="agnes">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="heinrich_der_loewe|theobald" source="heinrich_der_loewe" target="theobald">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich_der_loewe|stimmen_von_aussen" source="heinrich_der_loewe" target="stimmen_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|kerkerwache" source="heinrich_der_loewe" target="kerkerwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|wache" source="heinrich_der_loewe" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|chor_des_volks" source="heinrich_der_loewe" target="chor_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|chor_der_nonnen" source="heinrich_der_loewe" target="chor_der_nonnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|der_schwarze_ritter" source="heinrich_der_loewe" target="der_schwarze_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_loewe|heinrich_der_sohn" source="heinrich_der_loewe" target="heinrich_der_sohn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agnes|die_begleiterinnen" source="agnes" target="die_begleiterinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|erster_fuerst" source="agnes" target="erster_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|zweiter_fuerst" source="agnes" target="zweiter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|dritter_fuerst" source="agnes" target="dritter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|vierter_fuerst" source="agnes" target="vierter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|theobald" source="agnes" target="theobald">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agnes|chor_der_nonnen" source="agnes" target="chor_der_nonnen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agnes|chor_des_volks" source="agnes" target="chor_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|der_schwarze_ritter" source="agnes" target="der_schwarze_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|heinrich_der_sohn" source="agnes" target="heinrich_der_sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_fuerst|zweiter_fuerst" source="erster_fuerst" target="zweiter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_fuerst|dritter_fuerst" source="erster_fuerst" target="dritter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_fuerst|vierter_fuerst" source="erster_fuerst" target="vierter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_fuerst|dritter_fuerst" source="zweiter_fuerst" target="dritter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_fuerst|vierter_fuerst" source="zweiter_fuerst" target="vierter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_fuerst|vierter_fuerst" source="dritter_fuerst" target="vierter_fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theobald|stimmen_von_aussen" source="theobald" target="stimmen_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theobald|kerkerwache" source="theobald" target="kerkerwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theobald|der_schwarze_ritter" source="theobald" target="der_schwarze_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theobald|heinrich_der_sohn" source="theobald" target="heinrich_der_sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_von_aussen|kerkerwache" source="stimmen_von_aussen" target="kerkerwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_nonnen|chor_des_volks" source="chor_der_nonnen" target="chor_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schwarze_ritter|heinrich_der_sohn" source="der_schwarze_ritter" target="heinrich_der_sohn">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

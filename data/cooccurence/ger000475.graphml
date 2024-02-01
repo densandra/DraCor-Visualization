@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="regine">
+            <data key="label">Regine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5215</data>
+        </node>
+        <node id="fraeulein_mertens">
+            <data key="label">Fräulein Mertens</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1055</data>
+        </node>
+        <node id="thomas">
+            <data key="label">Thomas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8422</data>
+        </node>
+        <node id="maria">
+            <data key="label">Maria</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4423</data>
+        </node>
+        <node id="anselm">
+            <data key="label">Anselm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5745</data>
+        </node>
+        <node id="stader">
+            <data key="label">Stader</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2840</data>
+        </node>
+        <node id="josef">
+            <data key="label">Josef</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2718</data>
+        </node>
+        <edge id="regine|fraeulein_mertens" source="regine" target="fraeulein_mertens">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="regine|thomas" source="regine" target="thomas">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="regine|maria" source="regine" target="maria">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="regine|anselm" source="regine" target="anselm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="regine|stader" source="regine" target="stader">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="regine|josef" source="regine" target="josef">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraeulein_mertens|thomas" source="fraeulein_mertens" target="thomas">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fraeulein_mertens|maria" source="fraeulein_mertens" target="maria">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fraeulein_mertens|anselm" source="fraeulein_mertens" target="anselm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraeulein_mertens|stader" source="fraeulein_mertens" target="stader">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraeulein_mertens|josef" source="fraeulein_mertens" target="josef">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thomas|maria" source="thomas" target="maria">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="thomas|anselm" source="thomas" target="anselm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thomas|stader" source="thomas" target="stader">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thomas|josef" source="thomas" target="josef">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maria|anselm" source="maria" target="anselm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maria|stader" source="maria" target="stader">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maria|josef" source="maria" target="josef">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anselm|stader" source="anselm" target="stader">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anselm|josef" source="anselm" target="josef">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stader|josef" source="stader" target="josef">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

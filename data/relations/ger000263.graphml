@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="helene">
+            <data key="label">Helene Kreiner</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="joseph">
+            <data key="label">Joseph Kreiner (Sohn)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich Hörmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_zeitungsfrau">
+            <data key="label">Die Zeitungsfrau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_kreiner">
+            <data key="label">Frau Kreiner</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_kreiner">
+            <data key="label">Herr Kreiner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="babette">
+            <data key="label">Babette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="frau_kreiner" target="herr_kreiner">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="herr_kreiner" target="joseph">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="herr_kreiner" target="helene">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="frau_kreiner" target="joseph">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="frau_kreiner" target="helene">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="frosch">
+            <data key="label">Commissions-Rath Frosch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2041</data>
+        </node>
+        <node id="julie">
+            <data key="label">Julie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">700</data>
+        </node>
+        <node id="wiesen">
+            <data key="label">Fähndrich von Wiesen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">765</data>
+        </node>
+        <node id="trott">
+            <data key="label">Hauptmann von Trott</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">976</data>
+        </node>
+        <node id="major">
+            <data key="label">Major von Düna</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">974</data>
+        </node>
+        <node id="generalin">
+            <data key="label">Generalin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">301</data>
+        </node>
+        <node id="general">
+            <data key="label">General von Wildruff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">235</data>
+        </node>
+        <node id="adjutant">
+            <data key="label">Adjutant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <edge id="frosch|julie" source="frosch" target="julie">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="frosch|wiesen" source="frosch" target="wiesen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frosch|trott" source="frosch" target="trott">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="frosch|major" source="frosch" target="major">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frosch|generalin" source="frosch" target="generalin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frosch|general" source="frosch" target="general">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frosch|adjutant" source="frosch" target="adjutant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|wiesen" source="julie" target="wiesen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|trott" source="julie" target="trott">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|generalin" source="julie" target="generalin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="julie|general" source="julie" target="general">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiesen|trott" source="wiesen" target="trott">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wiesen|major" source="wiesen" target="major">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="trott|major" source="trott" target="major">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="trott|general" source="trott" target="general">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="major|adjutant" source="major" target="adjutant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="major|general" source="major" target="general">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="generalin|general" source="generalin" target="general">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

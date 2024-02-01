@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="lieschen">
+            <data key="label">Lieschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2081</data>
+        </node>
+        <node id="gretchen">
+            <data key="label">Gretchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">914</data>
+        </node>
+        <node id="capitain">
+            <data key="label">Capitain</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2980</data>
+        </node>
+        <node id="miller">
+            <data key="label">Miller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1995</data>
+        </node>
+        <node id="buchdrucker">
+            <data key="label">Buchdrucker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="cornet">
+            <data key="label">Cornet</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">715</data>
+        </node>
+        <node id="weigenand">
+            <data key="label">Weigenand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">669</data>
+        </node>
+        <node id="eppelmeier">
+            <data key="label">Eppelmeier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">723</data>
+        </node>
+        <node id="dappelius">
+            <data key="label">Dappelius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">370</data>
+        </node>
+        <node id="knorzheimer">
+            <data key="label">Knorzheimer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">996</data>
+        </node>
+        <node id="schmuttler">
+            <data key="label">Schmuttler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">243</data>
+        </node>
+        <node id="leimpfann">
+            <data key="label">Leimpfann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">113</data>
+        </node>
+        <node id="mehrere_andere">
+            <data key="label">Mehrere Andere</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="eine_stimme">
+            <data key="label">Eine Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="pompier">
+            <data key="label">Pompier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="tambour">
+            <data key="label">Tambour</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <edge id="lieschen|gretchen" source="lieschen" target="gretchen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lieschen|capitain" source="lieschen" target="capitain">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="lieschen|miller" source="lieschen" target="miller">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="lieschen|cornet" source="lieschen" target="cornet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|weigenand" source="lieschen" target="weigenand">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="lieschen|eppelmeier" source="lieschen" target="eppelmeier">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lieschen|dappelius" source="lieschen" target="dappelius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lieschen|knorzheimer" source="lieschen" target="knorzheimer">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lieschen|schmuttler" source="lieschen" target="schmuttler">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lieschen|leimpfann" source="lieschen" target="leimpfann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|mehrere_andere" source="lieschen" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|eine_stimme" source="lieschen" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|pompier" source="lieschen" target="pompier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|tambour" source="lieschen" target="tambour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gretchen|capitain" source="gretchen" target="capitain">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gretchen|miller" source="gretchen" target="miller">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gretchen|buchdrucker" source="gretchen" target="buchdrucker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gretchen|cornet" source="gretchen" target="cornet">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gretchen|eppelmeier" source="gretchen" target="eppelmeier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gretchen|weigenand" source="gretchen" target="weigenand">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gretchen|knorzheimer" source="gretchen" target="knorzheimer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="capitain|miller" source="capitain" target="miller">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="capitain|buchdrucker" source="capitain" target="buchdrucker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="capitain|cornet" source="capitain" target="cornet">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="capitain|eppelmeier" source="capitain" target="eppelmeier">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="capitain|dappelius" source="capitain" target="dappelius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="capitain|knorzheimer" source="capitain" target="knorzheimer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="capitain|schmuttler" source="capitain" target="schmuttler">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="capitain|leimpfann" source="capitain" target="leimpfann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="capitain|mehrere_andere" source="capitain" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="capitain|eine_stimme" source="capitain" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="capitain|pompier" source="capitain" target="pompier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="capitain|tambour" source="capitain" target="tambour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="capitain|weigenand" source="capitain" target="weigenand">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="miller|buchdrucker" source="miller" target="buchdrucker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miller|knorzheimer" source="miller" target="knorzheimer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="miller|schmuttler" source="miller" target="schmuttler">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="miller|eppelmeier" source="miller" target="eppelmeier">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="miller|dappelius" source="miller" target="dappelius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="miller|leimpfann" source="miller" target="leimpfann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miller|mehrere_andere" source="miller" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miller|eine_stimme" source="miller" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miller|pompier" source="miller" target="pompier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miller|tambour" source="miller" target="tambour">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miller|weigenand" source="miller" target="weigenand">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="weigenand|eppelmeier" source="weigenand" target="eppelmeier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="weigenand|knorzheimer" source="weigenand" target="knorzheimer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eppelmeier|dappelius" source="eppelmeier" target="dappelius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eppelmeier|knorzheimer" source="eppelmeier" target="knorzheimer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eppelmeier|schmuttler" source="eppelmeier" target="schmuttler">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eppelmeier|leimpfann" source="eppelmeier" target="leimpfann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eppelmeier|mehrere_andere" source="eppelmeier" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eppelmeier|eine_stimme" source="eppelmeier" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dappelius|knorzheimer" source="dappelius" target="knorzheimer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dappelius|schmuttler" source="dappelius" target="schmuttler">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dappelius|leimpfann" source="dappelius" target="leimpfann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dappelius|mehrere_andere" source="dappelius" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dappelius|eine_stimme" source="dappelius" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knorzheimer|schmuttler" source="knorzheimer" target="schmuttler">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="knorzheimer|leimpfann" source="knorzheimer" target="leimpfann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knorzheimer|mehrere_andere" source="knorzheimer" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knorzheimer|eine_stimme" source="knorzheimer" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmuttler|leimpfann" source="schmuttler" target="leimpfann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmuttler|mehrere_andere" source="schmuttler" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmuttler|eine_stimme" source="schmuttler" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leimpfann|mehrere_andere" source="leimpfann" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leimpfann|eine_stimme" source="leimpfann" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehrere_andere|eine_stimme" source="mehrere_andere" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pompier|tambour" source="pompier" target="tambour">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="arno">
+            <data key="label">Arno</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1666</data>
+        </node>
+        <node id="hartmann">
+            <data key="label">Hartmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">591</data>
+        </node>
+        <node id="oberst">
+            <data key="label">Kraun</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">346</data>
+        </node>
+        <node id="schrink">
+            <data key="label">Graf Schrink</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">798</data>
+        </node>
+        <node id="major">
+            <data key="label">Graf Zerbki (Major)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">769</data>
+        </node>
+        <node id="zerbki">
+            <data key="label">Graf Zerbki (Unterlieutenant)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">92</data>
+        </node>
+        <node id="feldwebel">
+            <data key="label">Ein Feldwebel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">192</data>
+        </node>
+        <node id="gefangener">
+            <data key="label">Ein Gefangener kayserlicher Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">908</data>
+        </node>
+        <node id="koenig">
+            <data key="label">Friedrich II.</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">811</data>
+        </node>
+        <edge id="arno|hartmann" source="arno" target="hartmann">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="arno|major" source="arno" target="major">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="arno|schrink" source="arno" target="schrink">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="arno|zerbki" source="arno" target="zerbki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arno|oberst" source="arno" target="oberst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="arno|feldwebel" source="arno" target="feldwebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arno|gefangener" source="arno" target="gefangener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="arno|koenig" source="arno" target="koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hartmann|oberst" source="hartmann" target="oberst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hartmann|schrink" source="hartmann" target="schrink">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hartmann|major" source="hartmann" target="major">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hartmann|gefangener" source="hartmann" target="gefangener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|schrink" source="oberst" target="schrink">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="oberst|major" source="oberst" target="major">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="oberst|feldwebel" source="oberst" target="feldwebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|koenig" source="oberst" target="koenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="oberst|gefangener" source="oberst" target="gefangener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schrink|major" source="schrink" target="major">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schrink|zerbki" source="schrink" target="zerbki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schrink|feldwebel" source="schrink" target="feldwebel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schrink|gefangener" source="schrink" target="gefangener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schrink|koenig" source="schrink" target="koenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="major|zerbki" source="major" target="zerbki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="major|koenig" source="major" target="koenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="major|gefangener" source="major" target="gefangener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="feldwebel|gefangener" source="feldwebel" target="gefangener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gefangener|koenig" source="gefangener" target="koenig">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

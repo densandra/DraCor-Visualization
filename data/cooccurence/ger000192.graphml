@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="herr_gotthart">
+            <data key="label">Herr Gotthart</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3862</data>
+        </node>
+        <node id="dr_muskat">
+            <data key="label">Dr. Muskat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1216</data>
+        </node>
+        <node id="dr_krebsstein">
+            <data key="label">Dr. Krebsstein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1171</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3941</data>
+        </node>
+        <node id="kathrine">
+            <data key="label">Kathrine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">603</data>
+        </node>
+        <node id="ernst_gotthart">
+            <data key="label">Ernst Gotthart</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4335</data>
+        </node>
+        <node id="jungfer_froehlichin">
+            <data key="label">Jungfer Fröhlichin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3904</data>
+        </node>
+        <node id="frau_kreuzin">
+            <data key="label">Frau Kreuzin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">950</data>
+        </node>
+        <node id="herr_froehlich">
+            <data key="label">Herr Fröhlich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">304</data>
+        </node>
+        <edge id="herr_gotthart|dr_muskat" source="herr_gotthart" target="dr_muskat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_gotthart|dr_krebsstein" source="herr_gotthart" target="dr_krebsstein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_gotthart|heinrich" source="herr_gotthart" target="heinrich">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="herr_gotthart|kathrine" source="herr_gotthart" target="kathrine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="herr_gotthart|ernst_gotthart" source="herr_gotthart" target="ernst_gotthart">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="herr_gotthart|jungfer_froehlichin" source="herr_gotthart" target="jungfer_froehlichin">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="herr_gotthart|frau_kreuzin" source="herr_gotthart" target="frau_kreuzin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_gotthart|herr_froehlich" source="herr_gotthart" target="herr_froehlich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dr_muskat|dr_krebsstein" source="dr_muskat" target="dr_krebsstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_muskat|ernst_gotthart" source="dr_muskat" target="ernst_gotthart">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dr_muskat|jungfer_froehlichin" source="dr_muskat" target="jungfer_froehlichin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dr_muskat|frau_kreuzin" source="dr_muskat" target="frau_kreuzin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dr_muskat|heinrich" source="dr_muskat" target="heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_krebsstein|ernst_gotthart" source="dr_krebsstein" target="ernst_gotthart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|kathrine" source="heinrich" target="kathrine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich|ernst_gotthart" source="heinrich" target="ernst_gotthart">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="heinrich|frau_kreuzin" source="heinrich" target="frau_kreuzin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich|jungfer_froehlichin" source="heinrich" target="jungfer_froehlichin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich|herr_froehlich" source="heinrich" target="herr_froehlich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathrine|ernst_gotthart" source="kathrine" target="ernst_gotthart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathrine|jungfer_froehlichin" source="kathrine" target="jungfer_froehlichin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst_gotthart|frau_kreuzin" source="ernst_gotthart" target="frau_kreuzin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ernst_gotthart|jungfer_froehlichin" source="ernst_gotthart" target="jungfer_froehlichin">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="ernst_gotthart|herr_froehlich" source="ernst_gotthart" target="herr_froehlich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jungfer_froehlichin|frau_kreuzin" source="jungfer_froehlichin" target="frau_kreuzin">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="jungfer_froehlichin|herr_froehlich" source="jungfer_froehlichin" target="herr_froehlich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_kreuzin|herr_froehlich" source="frau_kreuzin" target="herr_froehlich">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

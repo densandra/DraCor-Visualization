@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="publicum">
+            <data key="label">Das Publicum (als Reisender)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">895</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor der Haidschnucken</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">977</data>
+        </node>
+        <node id="nimmermann">
+            <data key="label">Nimmermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1086</data>
+        </node>
+        <node id="chorfuehrer">
+            <data key="label">Chorführer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1285</data>
+        </node>
+        <node id="jokaste">
+            <data key="label">Jokaste</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">961</data>
+        </node>
+        <node id="erste_hebamme">
+            <data key="label">Erste Hebamme</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">90</data>
+        </node>
+        <node id="zweite_hebamme">
+            <data key="label">Zweite Hebamme</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">118</data>
+        </node>
+        <node id="diagoras">
+            <data key="label">Diagoras</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1140</data>
+        </node>
+        <node id="zelinde">
+            <data key="label">Zelinde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1133</data>
+        </node>
+        <node id="lajus">
+            <data key="label">Lajus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">436</data>
+        </node>
+        <node id="tiresias">
+            <data key="label">Tiresias</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1100</data>
+        </node>
+        <node id="melchior">
+            <data key="label">Melchior</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">299</data>
+        </node>
+        <node id="polybus">
+            <data key="label">Polybus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">456</data>
+        </node>
+        <node id="oedipus">
+            <data key="label">Oedipus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1160</data>
+        </node>
+        <node id="die_pythia">
+            <data key="label">Die Pythia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">243</data>
+        </node>
+        <node id="kindeskind">
+            <data key="label">Kindeskind</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">184</data>
+        </node>
+        <node id="kind">
+            <data key="label">Kind</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">213</data>
+        </node>
+        <node id="die_sphinx">
+            <data key="label">Die Sphinx</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">744</data>
+        </node>
+        <node id="distichon">
+            <data key="label">Distichon</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="balthasar">
+            <data key="label">Balthasar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">550</data>
+        </node>
+        <node id="geist_des_lajus">
+            <data key="label">Geist des Lajus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="verstand">
+            <data key="label">Verstand</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">798</data>
+        </node>
+        <edge id="publicum|chor" source="publicum" target="chor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="publicum|nimmermann" source="publicum" target="nimmermann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="publicum|chorfuehrer" source="publicum" target="chorfuehrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="publicum|verstand" source="publicum" target="verstand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|nimmermann" source="chor" target="nimmermann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|chorfuehrer" source="chor" target="chorfuehrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|verstand" source="chor" target="verstand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nimmermann|chorfuehrer" source="nimmermann" target="chorfuehrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nimmermann|verstand" source="nimmermann" target="verstand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chorfuehrer|verstand" source="chorfuehrer" target="verstand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jokaste|erste_hebamme" source="jokaste" target="erste_hebamme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jokaste|zweite_hebamme" source="jokaste" target="zweite_hebamme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jokaste|diagoras" source="jokaste" target="diagoras">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jokaste|zelinde" source="jokaste" target="zelinde">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jokaste|lajus" source="jokaste" target="lajus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jokaste|tiresias" source="jokaste" target="tiresias">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jokaste|melchior" source="jokaste" target="melchior">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jokaste|polybus" source="jokaste" target="polybus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jokaste|oedipus" source="jokaste" target="oedipus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jokaste|die_pythia" source="jokaste" target="die_pythia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jokaste|kindeskind" source="jokaste" target="kindeskind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jokaste|kind" source="jokaste" target="kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jokaste|die_sphinx" source="jokaste" target="die_sphinx">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jokaste|distichon" source="jokaste" target="distichon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jokaste|balthasar" source="jokaste" target="balthasar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jokaste|geist_des_lajus" source="jokaste" target="geist_des_lajus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_hebamme|zweite_hebamme" source="erste_hebamme" target="zweite_hebamme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_hebamme|diagoras" source="erste_hebamme" target="diagoras">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_hebamme|zelinde" source="erste_hebamme" target="zelinde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_hebamme|lajus" source="erste_hebamme" target="lajus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_hebamme|tiresias" source="erste_hebamme" target="tiresias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_hebamme|melchior" source="erste_hebamme" target="melchior">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_hebamme|polybus" source="erste_hebamme" target="polybus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_hebamme|diagoras" source="zweite_hebamme" target="diagoras">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_hebamme|zelinde" source="zweite_hebamme" target="zelinde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_hebamme|lajus" source="zweite_hebamme" target="lajus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_hebamme|tiresias" source="zweite_hebamme" target="tiresias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_hebamme|melchior" source="zweite_hebamme" target="melchior">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_hebamme|polybus" source="zweite_hebamme" target="polybus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diagoras|zelinde" source="diagoras" target="zelinde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="diagoras|lajus" source="diagoras" target="lajus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diagoras|tiresias" source="diagoras" target="tiresias">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="diagoras|melchior" source="diagoras" target="melchior">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diagoras|polybus" source="diagoras" target="polybus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="diagoras|oedipus" source="diagoras" target="oedipus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diagoras|balthasar" source="diagoras" target="balthasar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diagoras|geist_des_lajus" source="diagoras" target="geist_des_lajus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zelinde|lajus" source="zelinde" target="lajus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zelinde|tiresias" source="zelinde" target="tiresias">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zelinde|melchior" source="zelinde" target="melchior">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zelinde|polybus" source="zelinde" target="polybus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zelinde|oedipus" source="zelinde" target="oedipus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zelinde|die_pythia" source="zelinde" target="die_pythia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zelinde|kindeskind" source="zelinde" target="kindeskind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zelinde|kind" source="zelinde" target="kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zelinde|die_sphinx" source="zelinde" target="die_sphinx">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zelinde|distichon" source="zelinde" target="distichon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zelinde|balthasar" source="zelinde" target="balthasar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zelinde|geist_des_lajus" source="zelinde" target="geist_des_lajus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lajus|tiresias" source="lajus" target="tiresias">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lajus|melchior" source="lajus" target="melchior">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lajus|polybus" source="lajus" target="polybus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lajus|oedipus" source="lajus" target="oedipus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lajus|die_pythia" source="lajus" target="die_pythia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lajus|kindeskind" source="lajus" target="kindeskind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lajus|kind" source="lajus" target="kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lajus|die_sphinx" source="lajus" target="die_sphinx">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lajus|distichon" source="lajus" target="distichon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiresias|melchior" source="tiresias" target="melchior">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tiresias|polybus" source="tiresias" target="polybus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tiresias|oedipus" source="tiresias" target="oedipus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tiresias|die_pythia" source="tiresias" target="die_pythia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiresias|kindeskind" source="tiresias" target="kindeskind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiresias|kind" source="tiresias" target="kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiresias|die_sphinx" source="tiresias" target="die_sphinx">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiresias|distichon" source="tiresias" target="distichon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiresias|balthasar" source="tiresias" target="balthasar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tiresias|geist_des_lajus" source="tiresias" target="geist_des_lajus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melchior|polybus" source="melchior" target="polybus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melchior|oedipus" source="melchior" target="oedipus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melchior|die_pythia" source="melchior" target="die_pythia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melchior|kindeskind" source="melchior" target="kindeskind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melchior|kind" source="melchior" target="kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melchior|die_sphinx" source="melchior" target="die_sphinx">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melchior|distichon" source="melchior" target="distichon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="polybus|oedipus" source="polybus" target="oedipus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="polybus|balthasar" source="polybus" target="balthasar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="polybus|geist_des_lajus" source="polybus" target="geist_des_lajus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oedipus|die_pythia" source="oedipus" target="die_pythia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oedipus|kindeskind" source="oedipus" target="kindeskind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oedipus|kind" source="oedipus" target="kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oedipus|die_sphinx" source="oedipus" target="die_sphinx">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oedipus|distichon" source="oedipus" target="distichon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oedipus|balthasar" source="oedipus" target="balthasar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oedipus|geist_des_lajus" source="oedipus" target="geist_des_lajus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_pythia|kindeskind" source="die_pythia" target="kindeskind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_pythia|kind" source="die_pythia" target="kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_pythia|die_sphinx" source="die_pythia" target="die_sphinx">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_pythia|distichon" source="die_pythia" target="distichon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kindeskind|kind" source="kindeskind" target="kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kindeskind|die_sphinx" source="kindeskind" target="die_sphinx">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kindeskind|distichon" source="kindeskind" target="distichon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kind|die_sphinx" source="kind" target="die_sphinx">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kind|distichon" source="kind" target="distichon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_sphinx|distichon" source="die_sphinx" target="distichon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="balthasar|geist_des_lajus" source="balthasar" target="geist_des_lajus">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

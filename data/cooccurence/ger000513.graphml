@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="jungfrauen_chor">
+            <data key="label">Jungfrauen/Chor</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="medea">
+            <data key="label">Medea</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">707</data>
+        </node>
+        <node id="eine_der_jungfrauen">
+            <data key="label">Eine der Jungfrauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="gora">
+            <data key="label">Gora</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">132</data>
+        </node>
+        <node id="peritta">
+            <data key="label">Peritta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="kolcher_bote">
+            <data key="label">Kolcher/Bote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">56</data>
+        </node>
+        <node id="aietes">
+            <data key="label">Aietes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">978</data>
+        </node>
+        <node id="phryxus">
+            <data key="label">Phryxus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1521</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="ein_kolcher_aus_dem_hause">
+            <data key="label">Ein Kolcher (aus dem Hause)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="kolcher">
+            <data key="label">Kolcher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="gewaffnete">
+            <data key="label">Gewaffnete</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <edge id="jungfrauen_chor|medea" source="jungfrauen_chor" target="medea">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfrauen_chor|eine_der_jungfrauen" source="jungfrauen_chor" target="eine_der_jungfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfrauen_chor|gora" source="jungfrauen_chor" target="gora">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfrauen_chor|peritta" source="jungfrauen_chor" target="peritta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfrauen_chor|kolcher_bote" source="jungfrauen_chor" target="kolcher_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfrauen_chor|aietes" source="jungfrauen_chor" target="aietes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfrauen_chor|phryxus" source="jungfrauen_chor" target="phryxus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfrauen_chor|hauptmann" source="jungfrauen_chor" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfrauen_chor|ein_kolcher_aus_dem_hause" source="jungfrauen_chor" target="ein_kolcher_aus_dem_hause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfrauen_chor|kolcher" source="jungfrauen_chor" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfrauen_chor|gewaffnete" source="jungfrauen_chor" target="gewaffnete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|eine_der_jungfrauen" source="medea" target="eine_der_jungfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|gora" source="medea" target="gora">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|peritta" source="medea" target="peritta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|kolcher_bote" source="medea" target="kolcher_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|aietes" source="medea" target="aietes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|phryxus" source="medea" target="phryxus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|hauptmann" source="medea" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|ein_kolcher_aus_dem_hause" source="medea" target="ein_kolcher_aus_dem_hause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|kolcher" source="medea" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|gewaffnete" source="medea" target="gewaffnete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_der_jungfrauen|gora" source="eine_der_jungfrauen" target="gora">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_der_jungfrauen|peritta" source="eine_der_jungfrauen" target="peritta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_der_jungfrauen|kolcher_bote" source="eine_der_jungfrauen" target="kolcher_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_der_jungfrauen|aietes" source="eine_der_jungfrauen" target="aietes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_der_jungfrauen|phryxus" source="eine_der_jungfrauen" target="phryxus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_der_jungfrauen|hauptmann" source="eine_der_jungfrauen" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_der_jungfrauen|ein_kolcher_aus_dem_hause" source="eine_der_jungfrauen" target="ein_kolcher_aus_dem_hause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_der_jungfrauen|kolcher" source="eine_der_jungfrauen" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_der_jungfrauen|gewaffnete" source="eine_der_jungfrauen" target="gewaffnete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|peritta" source="gora" target="peritta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|kolcher_bote" source="gora" target="kolcher_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|aietes" source="gora" target="aietes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|phryxus" source="gora" target="phryxus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|hauptmann" source="gora" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|ein_kolcher_aus_dem_hause" source="gora" target="ein_kolcher_aus_dem_hause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|kolcher" source="gora" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|gewaffnete" source="gora" target="gewaffnete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peritta|kolcher_bote" source="peritta" target="kolcher_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peritta|aietes" source="peritta" target="aietes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peritta|phryxus" source="peritta" target="phryxus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peritta|hauptmann" source="peritta" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peritta|ein_kolcher_aus_dem_hause" source="peritta" target="ein_kolcher_aus_dem_hause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peritta|kolcher" source="peritta" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peritta|gewaffnete" source="peritta" target="gewaffnete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kolcher_bote|aietes" source="kolcher_bote" target="aietes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kolcher_bote|phryxus" source="kolcher_bote" target="phryxus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kolcher_bote|hauptmann" source="kolcher_bote" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kolcher_bote|ein_kolcher_aus_dem_hause" source="kolcher_bote" target="ein_kolcher_aus_dem_hause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kolcher_bote|kolcher" source="kolcher_bote" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kolcher_bote|gewaffnete" source="kolcher_bote" target="gewaffnete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|phryxus" source="aietes" target="phryxus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|hauptmann" source="aietes" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|ein_kolcher_aus_dem_hause" source="aietes" target="ein_kolcher_aus_dem_hause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|kolcher" source="aietes" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aietes|gewaffnete" source="aietes" target="gewaffnete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phryxus|hauptmann" source="phryxus" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phryxus|ein_kolcher_aus_dem_hause" source="phryxus" target="ein_kolcher_aus_dem_hause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phryxus|kolcher" source="phryxus" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phryxus|gewaffnete" source="phryxus" target="gewaffnete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|ein_kolcher_aus_dem_hause" source="hauptmann" target="ein_kolcher_aus_dem_hause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|kolcher" source="hauptmann" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|gewaffnete" source="hauptmann" target="gewaffnete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_kolcher_aus_dem_hause|kolcher" source="ein_kolcher_aus_dem_hause" target="kolcher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_kolcher_aus_dem_hause|gewaffnete" source="ein_kolcher_aus_dem_hause" target="gewaffnete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kolcher|gewaffnete" source="kolcher" target="gewaffnete">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

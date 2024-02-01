@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="der_prinz">
+            <data key="label">Der Prinz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4002</data>
+        </node>
+        <node id="der_kammerdiener">
+            <data key="label">Der Kammerdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="conti">
+            <data key="label">Conti</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">604</data>
+        </node>
+        <node id="marinelli">
+            <data key="label">Marinelli</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4343</data>
+        </node>
+        <node id="camillo_rota">
+            <data key="label">Camillo Rota</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">78</data>
+        </node>
+        <node id="claudia">
+            <data key="label">Claudia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1581</data>
+        </node>
+        <node id="pirro">
+            <data key="label">Pirro</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">263</data>
+        </node>
+        <node id="odoardo">
+            <data key="label">Odoardo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2441</data>
+        </node>
+        <node id="angelo">
+            <data key="label">Angelo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">487</data>
+        </node>
+        <node id="emilia">
+            <data key="label">Emilia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1702</data>
+        </node>
+        <node id="appiani">
+            <data key="label">Appiani</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">852</data>
+        </node>
+        <node id="battista">
+            <data key="label">Battista</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">152</data>
+        </node>
+        <node id="orsina">
+            <data key="label">Orsina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2111</data>
+        </node>
+        <edge id="der_prinz|der_kammerdiener" source="der_prinz" target="der_kammerdiener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_prinz|conti" source="der_prinz" target="conti">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_prinz|marinelli" source="der_prinz" target="marinelli">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="der_prinz|camillo_rota" source="der_prinz" target="camillo_rota">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_prinz|emilia" source="der_prinz" target="emilia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_prinz|battista" source="der_prinz" target="battista">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_prinz|orsina" source="der_prinz" target="orsina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_prinz|odoardo" source="der_prinz" target="odoardo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marinelli|pirro" source="marinelli" target="pirro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marinelli|appiani" source="marinelli" target="appiani">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marinelli|claudia" source="marinelli" target="claudia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marinelli|angelo" source="marinelli" target="angelo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marinelli|battista" source="marinelli" target="battista">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marinelli|emilia" source="marinelli" target="emilia">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="marinelli|orsina" source="marinelli" target="orsina">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marinelli|odoardo" source="marinelli" target="odoardo">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="claudia|pirro" source="claudia" target="pirro">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="claudia|odoardo" source="claudia" target="odoardo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="claudia|emilia" source="claudia" target="emilia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="claudia|appiani" source="claudia" target="appiani">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="claudia|battista" source="claudia" target="battista">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="claudia|orsina" source="claudia" target="orsina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pirro|angelo" source="pirro" target="angelo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pirro|odoardo" source="pirro" target="odoardo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pirro|appiani" source="pirro" target="appiani">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="odoardo|orsina" source="odoardo" target="orsina">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="odoardo|emilia" source="odoardo" target="emilia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="emilia|appiani" source="emilia" target="appiani">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emilia|battista" source="emilia" target="battista">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

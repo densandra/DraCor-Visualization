@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="kartenaufschlaegerin">
+            <data key="label">Kartenaufschlägerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="adelaide">
+            <data key="label">Adelaide</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zdenka">
+            <data key="label">Zdenka</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="matteo">
+            <data key="label">Matteo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="arabella">
+            <data key="label">Arabella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="elemer">
+            <data key="label">Elemer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="waldner">
+            <data key="label">Waldner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zimmerkellner">
+            <data key="label">Zimmerkellner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mandryka">
+            <data key="label">Mandryka</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="welko">
+            <data key="label">Welko</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lamoral">
+            <data key="label">Lamoral</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dominik">
+            <data key="label">Dominik</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_fiakermilli">
+            <data key="label">Die Fiakermilli</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fiaker">
+            <data key="label">Fiaker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="piccolo">
+            <data key="label">Piccolo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_gaeste">
+            <data key="label">Die Gäste</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="einer_der_spieler">
+            <data key="label">Einer der Spieler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_drei_spieler">
+            <data key="label">Die drei Spieler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="adelaide" target="waldner">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="waldner" target="arabella">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="waldner" target="zdenka">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="adelaide" target="arabella">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="adelaide" target="zdenka">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="welko" target="mandryka">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="robert">
+            <data key="label">Robert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2783</data>
+        </node>
+        <node id="prinzessin">
+            <data key="label">Prinzessin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">289</data>
+        </node>
+        <node id="runde">
+            <data key="label">Runde</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="major">
+            <data key="label">Major</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">115</data>
+        </node>
+        <node id="lord_hot">
+            <data key="label">Lord Hot</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">585</data>
+        </node>
+        <node id="lord_hamilton">
+            <data key="label">Lord Hamilton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">384</data>
+        </node>
+        <node id="williams">
+            <data key="label">Williams</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="tognina">
+            <data key="label">Tognina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">338</data>
+        </node>
+        <node id="wundarzt">
+            <data key="label">Wundarzt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="beichtvater">
+            <data key="label">Beichtvater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">282</data>
+        </node>
+        <edge id="robert|prinzessin" source="robert" target="prinzessin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|runde" source="robert" target="runde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|major" source="robert" target="major">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|lord_hot" source="robert" target="lord_hot">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="robert|lord_hamilton" source="robert" target="lord_hamilton">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|williams" source="robert" target="williams">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|peter" source="robert" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|tognina" source="robert" target="tognina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|wundarzt" source="robert" target="wundarzt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|beichtvater" source="robert" target="beichtvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin|runde" source="prinzessin" target="runde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin|major" source="prinzessin" target="major">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinzessin|lord_hot" source="prinzessin" target="lord_hot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="runde|major" source="runde" target="major">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lord_hot|lord_hamilton" source="lord_hot" target="lord_hamilton">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lord_hot|williams" source="lord_hot" target="williams">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lord_hot|peter" source="lord_hot" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lord_hot|tognina" source="lord_hot" target="tognina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lord_hot|wundarzt" source="lord_hot" target="wundarzt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lord_hot|beichtvater" source="lord_hot" target="beichtvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lord_hamilton|williams" source="lord_hamilton" target="williams">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lord_hamilton|peter" source="lord_hamilton" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lord_hamilton|tognina" source="lord_hamilton" target="tognina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lord_hamilton|wundarzt" source="lord_hamilton" target="wundarzt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lord_hamilton|beichtvater" source="lord_hamilton" target="beichtvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="williams|peter" source="williams" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="williams|tognina" source="williams" target="tognina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="williams|wundarzt" source="williams" target="wundarzt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="williams|beichtvater" source="williams" target="beichtvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|tognina" source="peter" target="tognina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|wundarzt" source="peter" target="wundarzt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|beichtvater" source="peter" target="beichtvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tognina|wundarzt" source="tognina" target="wundarzt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tognina|beichtvater" source="tognina" target="beichtvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wundarzt|beichtvater" source="wundarzt" target="beichtvater">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

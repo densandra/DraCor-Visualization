@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="justine">
+            <data key="label">Justine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2666</data>
+        </node>
+        <node id="therese">
+            <data key="label">Therese</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">556</data>
+        </node>
+        <node id="diener_bei_schmorr">
+            <data key="label">Diener bei Schmorr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="fidelis">
+            <data key="label">Fidelis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8476</data>
+        </node>
+        <node id="zupp">
+            <data key="label">Zupp</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">472</data>
+        </node>
+        <node id="habusch">
+            <data key="label">Habusch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">310</data>
+        </node>
+        <node id="luz">
+            <data key="label">Luzie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2075</data>
+        </node>
+        <node id="diener_bei_oynhusen">
+            <data key="label">Diener bei Oynhusen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="eva">
+            <data key="label">Eva</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2191</data>
+        </node>
+        <node id="kuno">
+            <data key="label">Kuno</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1527</data>
+        </node>
+        <node id="martl">
+            <data key="label">Martl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1193</data>
+        </node>
+        <edge id="justine|therese" source="justine" target="therese">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="justine|diener_bei_schmorr" source="justine" target="diener_bei_schmorr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="justine|fidelis" source="justine" target="fidelis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="justine|zupp" source="justine" target="zupp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="justine|habusch" source="justine" target="habusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="justine|luz" source="justine" target="luz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="justine|kuno" source="justine" target="kuno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="justine|martl" source="justine" target="martl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|diener_bei_schmorr" source="therese" target="diener_bei_schmorr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|fidelis" source="therese" target="fidelis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="therese|zupp" source="therese" target="zupp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|habusch" source="therese" target="habusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|luz" source="therese" target="luz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="therese|kuno" source="therese" target="kuno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|martl" source="therese" target="martl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_bei_schmorr|fidelis" source="diener_bei_schmorr" target="fidelis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_bei_schmorr|zupp" source="diener_bei_schmorr" target="zupp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_bei_schmorr|habusch" source="diener_bei_schmorr" target="habusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_bei_schmorr|luz" source="diener_bei_schmorr" target="luz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fidelis|zupp" source="fidelis" target="zupp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fidelis|habusch" source="fidelis" target="habusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fidelis|luz" source="fidelis" target="luz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fidelis|diener_bei_oynhusen" source="fidelis" target="diener_bei_oynhusen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fidelis|eva" source="fidelis" target="eva">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fidelis|kuno" source="fidelis" target="kuno">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fidelis|martl" source="fidelis" target="martl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zupp|habusch" source="zupp" target="habusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zupp|luz" source="zupp" target="luz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="habusch|luz" source="habusch" target="luz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luz|kuno" source="luz" target="kuno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luz|martl" source="luz" target="martl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_bei_oynhusen|eva" source="diener_bei_oynhusen" target="eva">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_bei_oynhusen|kuno" source="diener_bei_oynhusen" target="kuno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|kuno" source="eva" target="kuno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kuno|martl" source="kuno" target="martl">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

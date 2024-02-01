@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="hans">
+            <data key="label">Hans von Zanow</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5127</data>
+        </node>
+        <node id="wilhelmine">
+            <data key="label">Wilhelmine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">730</data>
+        </node>
+        <node id="fritz_fritze">
+            <data key="label">Fritz/Fritze</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">584</data>
+        </node>
+        <node id="guerge">
+            <data key="label">Gürge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">721</data>
+        </node>
+        <node id="lieschen">
+            <data key="label">Lieschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2326</data>
+        </node>
+        <node id="wutzkofius">
+            <data key="label">Wutzkofius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">586</data>
+        </node>
+        <node id="frau_muellern">
+            <data key="label">Frau Müllern</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1688</data>
+        </node>
+        <node id="renner">
+            <data key="label">Renner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">378</data>
+        </node>
+        <node id="graefin">
+            <data key="label">Gräfin von Saalheim</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1922</data>
+        </node>
+        <node id="chevalier">
+            <data key="label">Chevalier de la Meau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">765</data>
+        </node>
+        <node id="graf">
+            <data key="label">Graf von Erlenstein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">777</data>
+        </node>
+        <node id="baron">
+            <data key="label">Baron Link</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">354</data>
+        </node>
+        <node id="aufwaerter">
+            <data key="label">Aufwärter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="jude">
+            <data key="label">Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">77</data>
+        </node>
+        <node id="soldat">
+            <data key="label">Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="koerner">
+            <data key="label">Körner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">149</data>
+        </node>
+        <node id="johann">
+            <data key="label">Johann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">429</data>
+        </node>
+        <edge id="hans|wilhelmine" source="hans" target="wilhelmine">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="hans|fritz_fritze" source="hans" target="fritz_fritze">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hans|guerge" source="hans" target="guerge">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="hans|lieschen" source="hans" target="lieschen">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="hans|wutzkofius" source="hans" target="wutzkofius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hans|frau_muellern" source="hans" target="frau_muellern">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="hans|renner" source="hans" target="renner">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="hans|graefin" source="hans" target="graefin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hans|chevalier" source="hans" target="chevalier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hans|graf" source="hans" target="graf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hans|baron" source="hans" target="baron">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="hans|aufwaerter" source="hans" target="aufwaerter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|jude" source="hans" target="jude">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hans|soldat" source="hans" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|koerner" source="hans" target="koerner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hans|johann" source="hans" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|fritz_fritze" source="wilhelmine" target="fritz_fritze">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelmine|guerge" source="wilhelmine" target="guerge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|lieschen" source="wilhelmine" target="lieschen">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="wilhelmine|wutzkofius" source="wilhelmine" target="wutzkofius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|frau_muellern" source="wilhelmine" target="frau_muellern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelmine|baron" source="wilhelmine" target="baron">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelmine|chevalier" source="wilhelmine" target="chevalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|graf" source="wilhelmine" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|johann" source="wilhelmine" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz_fritze|guerge" source="fritz_fritze" target="guerge">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fritz_fritze|lieschen" source="fritz_fritze" target="lieschen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fritz_fritze|wutzkofius" source="fritz_fritze" target="wutzkofius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fritz_fritze|graefin" source="fritz_fritze" target="graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz_fritze|graf" source="fritz_fritze" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz_fritze|johann" source="fritz_fritze" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guerge|lieschen" source="guerge" target="lieschen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="guerge|wutzkofius" source="guerge" target="wutzkofius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guerge|graefin" source="guerge" target="graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guerge|koerner" source="guerge" target="koerner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="guerge|johann" source="guerge" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|wutzkofius" source="lieschen" target="wutzkofius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lieschen|frau_muellern" source="lieschen" target="frau_muellern">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lieschen|baron" source="lieschen" target="baron">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lieschen|aufwaerter" source="lieschen" target="aufwaerter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|chevalier" source="lieschen" target="chevalier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lieschen|graefin" source="lieschen" target="graefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lieschen|graf" source="lieschen" target="graf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lieschen|soldat" source="lieschen" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|renner" source="lieschen" target="renner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|jude" source="lieschen" target="jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|koerner" source="lieschen" target="koerner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lieschen|johann" source="lieschen" target="johann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_muellern|renner" source="frau_muellern" target="renner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_muellern|graefin" source="frau_muellern" target="graefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_muellern|chevalier" source="frau_muellern" target="chevalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_muellern|baron" source="frau_muellern" target="baron">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_muellern|aufwaerter" source="frau_muellern" target="aufwaerter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_muellern|graf" source="frau_muellern" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="renner|jude" source="renner" target="jude">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="renner|soldat" source="renner" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graefin|chevalier" source="graefin" target="chevalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graefin|graf" source="graefin" target="graf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf|baron" source="graf" target="baron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|johann" source="graf" target="johann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baron|aufwaerter" source="baron" target="aufwaerter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jude|soldat" source="jude" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

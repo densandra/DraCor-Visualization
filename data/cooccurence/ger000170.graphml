@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="isaak">
+            <data key="label">Isaak</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1251</data>
+        </node>
+        <node id="rahel">
+            <data key="label">Rahel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1967</data>
+        </node>
+        <node id="esther">
+            <data key="label">Esther</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1067</data>
+        </node>
+        <node id="koenig">
+            <data key="label">König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6756</data>
+        </node>
+        <node id="manrique">
+            <data key="label">Manrique</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1460</data>
+        </node>
+        <node id="koenigin">
+            <data key="label">Königin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">467</data>
+        </node>
+        <node id="garceran">
+            <data key="label">Garceran</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1239</data>
+        </node>
+        <node id="eine_weiberstimme">
+            <data key="label">Eine Weiberstimme</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="knappe">
+            <data key="label">Knappe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">102</data>
+        </node>
+        <node id="diener_3">
+            <data key="label">Diener (III)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="bittsteller">
+            <data key="label">Bittsteller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="zweiter_bittsteller">
+            <data key="label">Zweiter Bittsteller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="dritter_bittsteller">
+            <data key="label">Dritter Bittsteller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="diener_4">
+            <data key="label">Diener (IV)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="kammerfrau">
+            <data key="label">Kammerfrau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="von_aussen">
+            <data key="label">Stimmen von außen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <edge id="isaak|rahel" source="isaak" target="rahel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="isaak|esther" source="isaak" target="esther">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="isaak|koenig" source="isaak" target="koenig">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="isaak|manrique" source="isaak" target="manrique">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="isaak|koenigin" source="isaak" target="koenigin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="isaak|garceran" source="isaak" target="garceran">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="isaak|eine_weiberstimme" source="isaak" target="eine_weiberstimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isaak|knappe" source="isaak" target="knappe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isaak|diener_3" source="isaak" target="diener_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isaak|bittsteller" source="isaak" target="bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isaak|zweiter_bittsteller" source="isaak" target="zweiter_bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isaak|dritter_bittsteller" source="isaak" target="dritter_bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isaak|von_aussen" source="isaak" target="von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rahel|esther" source="rahel" target="esther">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rahel|koenig" source="rahel" target="koenig">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rahel|manrique" source="rahel" target="manrique">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rahel|koenigin" source="rahel" target="koenigin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rahel|garceran" source="rahel" target="garceran">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rahel|eine_weiberstimme" source="rahel" target="eine_weiberstimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rahel|knappe" source="rahel" target="knappe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rahel|diener_3" source="rahel" target="diener_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rahel|bittsteller" source="rahel" target="bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rahel|zweiter_bittsteller" source="rahel" target="zweiter_bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rahel|dritter_bittsteller" source="rahel" target="dritter_bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esther|koenig" source="esther" target="koenig">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="esther|manrique" source="esther" target="manrique">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="esther|koenigin" source="esther" target="koenigin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="esther|garceran" source="esther" target="garceran">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="esther|eine_weiberstimme" source="esther" target="eine_weiberstimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esther|knappe" source="esther" target="knappe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esther|diener_3" source="esther" target="diener_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esther|bittsteller" source="esther" target="bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esther|zweiter_bittsteller" source="esther" target="zweiter_bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esther|dritter_bittsteller" source="esther" target="dritter_bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esther|von_aussen" source="esther" target="von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|manrique" source="koenig" target="manrique">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="koenig|koenigin" source="koenig" target="koenigin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="koenig|garceran" source="koenig" target="garceran">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="koenig|eine_weiberstimme" source="koenig" target="eine_weiberstimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|knappe" source="koenig" target="knappe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig|diener_3" source="koenig" target="diener_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|bittsteller" source="koenig" target="bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|zweiter_bittsteller" source="koenig" target="zweiter_bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|dritter_bittsteller" source="koenig" target="dritter_bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|diener_4" source="koenig" target="diener_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|kammerfrau" source="koenig" target="kammerfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|von_aussen" source="koenig" target="von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="manrique|koenigin" source="manrique" target="koenigin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="manrique|garceran" source="manrique" target="garceran">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="manrique|eine_weiberstimme" source="manrique" target="eine_weiberstimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="manrique|knappe" source="manrique" target="knappe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="manrique|diener_3" source="manrique" target="diener_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="manrique|diener_4" source="manrique" target="diener_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="manrique|kammerfrau" source="manrique" target="kammerfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="manrique|von_aussen" source="manrique" target="von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|garceran" source="koenigin" target="garceran">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="koenigin|eine_weiberstimme" source="koenigin" target="eine_weiberstimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|knappe" source="koenigin" target="knappe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenigin|diener_3" source="koenigin" target="diener_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|diener_4" source="koenigin" target="diener_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|kammerfrau" source="koenigin" target="kammerfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|von_aussen" source="koenigin" target="von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="garceran|eine_weiberstimme" source="garceran" target="eine_weiberstimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="garceran|knappe" source="garceran" target="knappe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="garceran|diener_3" source="garceran" target="diener_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="garceran|bittsteller" source="garceran" target="bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="garceran|zweiter_bittsteller" source="garceran" target="zweiter_bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="garceran|dritter_bittsteller" source="garceran" target="dritter_bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="garceran|diener_4" source="garceran" target="diener_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="garceran|kammerfrau" source="garceran" target="kammerfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="garceran|von_aussen" source="garceran" target="von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knappe|diener_3" source="knappe" target="diener_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knappe|diener_4" source="knappe" target="diener_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knappe|kammerfrau" source="knappe" target="kammerfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bittsteller|zweiter_bittsteller" source="bittsteller" target="zweiter_bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bittsteller|dritter_bittsteller" source="bittsteller" target="dritter_bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_bittsteller|dritter_bittsteller" source="zweiter_bittsteller" target="dritter_bittsteller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_4|kammerfrau" source="diener_4" target="kammerfrau">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

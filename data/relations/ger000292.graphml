@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="chor_der_schiffer">
+            <data key="label">Chor der Schiffer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ottokar">
+            <data key="label">Ottokar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="czipra">
+            <data key="label">Czipra</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="barinkay">
+            <data key="label">Barinkay</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="carnero">
+            <data key="label">Carnero</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="saffi">
+            <data key="label">Saffi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zsupan">
+            <data key="label">Zsupán</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mirabella">
+            <data key="label">Mirabella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="arsena">
+            <data key="label">Arsena</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_der_maedchen">
+            <data key="label">Chor der Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_der_zigeuner">
+            <data key="label">Chor der Zigeuner</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="zsupans_gruppe">
+            <data key="label">Chor der Zsupán'schen Gruppe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="barinkays_gruppe">
+            <data key="label">Barinkays Gruppe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="pali">
+            <data key="label">Pali</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_der_zigeunerinnen">
+            <data key="label">Chor der Zigeunerinnen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="graf_homonay">
+            <data key="label">Graf Homonay</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_der_soldaten">
+            <data key="label">Chor der Soldaten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="allgemeiner_chor">
+            <data key="label">Allgemeiner Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="zsupan" target="arsena">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="mirabella" target="zsupan">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="mirabella" target="ottokar">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="magier">
+            <data key="label">Magier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1741</data>
+        </node>
+        <node id="ligares">
+            <data key="label">Ligares</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2785</data>
+        </node>
+        <node id="zeno">
+            <data key="label">Zeno</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1067</data>
+        </node>
+        <node id="bote">
+            <data key="label">Bote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="cassandra">
+            <data key="label">Cassandra</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">771</data>
+        </node>
+        <node id="timandras">
+            <data key="label">Timandras</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">503</data>
+        </node>
+        <node id="ladikae">
+            <data key="label">Ladikä</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">870</data>
+        </node>
+        <node id="mandane">
+            <data key="label">Mandane</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">300</data>
+        </node>
+        <node id="knabe">
+            <data key="label">Knabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">113</data>
+        </node>
+        <edge id="magier|ligares" source="magier" target="ligares">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="magier|zeno" source="magier" target="zeno">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="magier|bote" source="magier" target="bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magier|cassandra" source="magier" target="cassandra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magier|timandras" source="magier" target="timandras">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="magier|ladikae" source="magier" target="ladikae">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="magier|mandane" source="magier" target="mandane">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="magier|knabe" source="magier" target="knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ligares|zeno" source="ligares" target="zeno">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ligares|bote" source="ligares" target="bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ligares|cassandra" source="ligares" target="cassandra">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ligares|timandras" source="ligares" target="timandras">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ligares|ladikae" source="ligares" target="ladikae">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ligares|mandane" source="ligares" target="mandane">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ligares|knabe" source="ligares" target="knabe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zeno|bote" source="zeno" target="bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zeno|cassandra" source="zeno" target="cassandra">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zeno|timandras" source="zeno" target="timandras">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zeno|ladikae" source="zeno" target="ladikae">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zeno|mandane" source="zeno" target="mandane">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zeno|knabe" source="zeno" target="knabe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bote|cassandra" source="bote" target="cassandra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bote|timandras" source="bote" target="timandras">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bote|ladikae" source="bote" target="ladikae">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bote|mandane" source="bote" target="mandane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cassandra|timandras" source="cassandra" target="timandras">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cassandra|ladikae" source="cassandra" target="ladikae">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cassandra|mandane" source="cassandra" target="mandane">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cassandra|knabe" source="cassandra" target="knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="timandras|ladikae" source="timandras" target="ladikae">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="timandras|mandane" source="timandras" target="mandane">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="timandras|knabe" source="timandras" target="knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ladikae|mandane" source="ladikae" target="mandane">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ladikae|knabe" source="ladikae" target="knabe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mandane|knabe" source="mandane" target="knabe">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

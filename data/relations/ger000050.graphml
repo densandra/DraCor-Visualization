@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="aspermonte">
+            <data key="label">Aspermonte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="julius">
+            <data key="label">Julius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="guido">
+            <data key="label">Guido</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erzbischof">
+            <data key="label">Erzbischof</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_fuerst">
+            <data key="label">Der Fürst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="caecilia">
+            <data key="label">Cäcilia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="aebtissin">
+            <data key="label">Äbtissin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="blanka">
+            <data key="label">Blanka</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="porzia">
+            <data key="label">Porzia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_alter_bauer">
+            <data key="label">Ein alter Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_bedienter_4-5">
+            <data key="label">Ein Bedienter (IV/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einer_von_den_bewaffneten">
+            <data key="label">Einer von den Bewaffneten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marcellus">
+            <data key="label">Marcellus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="arzt">
+            <data key="label">Arzt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nonne">
+            <data key="label">Nonne</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_bedienter_5-5">
+            <data key="label">Ein Bedienter (V/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="der_fuerst" target="erzbischof">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="aspermonte" target="julius">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="3" directed="false" source="der_fuerst" target="julius">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="der_fuerst" target="guido">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="caecilia" target="der_fuerst">
+            <data key="relation">related_with</data>
+        </edge>
+    </graph>
+</graphml>

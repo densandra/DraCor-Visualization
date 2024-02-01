@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="heink">
+            <data key="label">Gustav Heink</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6152</data>
+        </node>
+        <node id="frau_fanny_mell">
+            <data key="label">Frau Fanny Mell</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">51</data>
+        </node>
+        <node id="frau_claire_floderer">
+            <data key="label">Frau Claire Floderer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">167</data>
+        </node>
+        <node id="fraeulein_selma_meier">
+            <data key="label">Fräulein Selma Meier</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">289</data>
+        </node>
+        <node id="eva">
+            <data key="label">Eva Gerndl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1645</data>
+        </node>
+        <node id="frau_doktor_kann">
+            <data key="label">Frau Doktor Kann</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <node id="miss_garden">
+            <data key="label">Miss Garden</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">247</data>
+        </node>
+        <node id="fraeulein_wehner">
+            <data key="label">Fräulein Wehner</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">551</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5832</data>
+        </node>
+        <node id="johann">
+            <data key="label">Johann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="eine_stimme">
+            <data key="label">Eine Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="jura">
+            <data key="label">Dr. Franz Jura</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6689</data>
+        </node>
+        <node id="pollinger">
+            <data key="label">Pollinger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1093</data>
+        </node>
+        <node id="frau_pollinger">
+            <data key="label">Frau Pollinger</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">513</data>
+        </node>
+        <node id="delfine">
+            <data key="label">Delfine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1501</data>
+        </node>
+        <node id="die_magd">
+            <data key="label">Die Magd</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <edge id="heink|frau_fanny_mell" source="heink" target="frau_fanny_mell">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heink|frau_claire_floderer" source="heink" target="frau_claire_floderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heink|fraeulein_selma_meier" source="heink" target="fraeulein_selma_meier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heink|eva" source="heink" target="eva">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heink|frau_doktor_kann" source="heink" target="frau_doktor_kann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heink|miss_garden" source="heink" target="miss_garden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heink|fraeulein_wehner" source="heink" target="fraeulein_wehner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heink|marie" source="heink" target="marie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heink|johann" source="heink" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heink|eine_stimme" source="heink" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heink|jura" source="heink" target="jura">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heink|pollinger" source="heink" target="pollinger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heink|frau_pollinger" source="heink" target="frau_pollinger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heink|delfine" source="heink" target="delfine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heink|die_magd" source="heink" target="die_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_fanny_mell|frau_claire_floderer" source="frau_fanny_mell" target="frau_claire_floderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_fanny_mell|fraeulein_selma_meier" source="frau_fanny_mell" target="fraeulein_selma_meier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_fanny_mell|eva" source="frau_fanny_mell" target="eva">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_fanny_mell|frau_doktor_kann" source="frau_fanny_mell" target="frau_doktor_kann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_fanny_mell|miss_garden" source="frau_fanny_mell" target="miss_garden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_fanny_mell|fraeulein_wehner" source="frau_fanny_mell" target="fraeulein_wehner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_fanny_mell|marie" source="frau_fanny_mell" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_fanny_mell|johann" source="frau_fanny_mell" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_fanny_mell|eine_stimme" source="frau_fanny_mell" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_fanny_mell|jura" source="frau_fanny_mell" target="jura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_claire_floderer|fraeulein_selma_meier" source="frau_claire_floderer" target="fraeulein_selma_meier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_claire_floderer|eva" source="frau_claire_floderer" target="eva">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_claire_floderer|frau_doktor_kann" source="frau_claire_floderer" target="frau_doktor_kann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_claire_floderer|miss_garden" source="frau_claire_floderer" target="miss_garden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_claire_floderer|fraeulein_wehner" source="frau_claire_floderer" target="fraeulein_wehner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_claire_floderer|marie" source="frau_claire_floderer" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_claire_floderer|johann" source="frau_claire_floderer" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_claire_floderer|eine_stimme" source="frau_claire_floderer" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_claire_floderer|jura" source="frau_claire_floderer" target="jura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_selma_meier|eva" source="fraeulein_selma_meier" target="eva">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_selma_meier|frau_doktor_kann" source="fraeulein_selma_meier" target="frau_doktor_kann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_selma_meier|miss_garden" source="fraeulein_selma_meier" target="miss_garden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_selma_meier|fraeulein_wehner" source="fraeulein_selma_meier" target="fraeulein_wehner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_selma_meier|marie" source="fraeulein_selma_meier" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_selma_meier|johann" source="fraeulein_selma_meier" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_selma_meier|eine_stimme" source="fraeulein_selma_meier" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_selma_meier|jura" source="fraeulein_selma_meier" target="jura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|frau_doktor_kann" source="eva" target="frau_doktor_kann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|miss_garden" source="eva" target="miss_garden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|fraeulein_wehner" source="eva" target="fraeulein_wehner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|marie" source="eva" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eva|johann" source="eva" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|eine_stimme" source="eva" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|jura" source="eva" target="jura">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eva|frau_pollinger" source="eva" target="frau_pollinger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|delfine" source="eva" target="delfine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|pollinger" source="eva" target="pollinger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_doktor_kann|miss_garden" source="frau_doktor_kann" target="miss_garden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_doktor_kann|fraeulein_wehner" source="frau_doktor_kann" target="fraeulein_wehner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_doktor_kann|marie" source="frau_doktor_kann" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_doktor_kann|johann" source="frau_doktor_kann" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_doktor_kann|eine_stimme" source="frau_doktor_kann" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_doktor_kann|jura" source="frau_doktor_kann" target="jura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miss_garden|fraeulein_wehner" source="miss_garden" target="fraeulein_wehner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miss_garden|marie" source="miss_garden" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miss_garden|johann" source="miss_garden" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miss_garden|eine_stimme" source="miss_garden" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miss_garden|jura" source="miss_garden" target="jura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_wehner|marie" source="fraeulein_wehner" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_wehner|johann" source="fraeulein_wehner" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_wehner|eine_stimme" source="fraeulein_wehner" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_wehner|jura" source="fraeulein_wehner" target="jura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|johann" source="marie" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|eine_stimme" source="marie" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|jura" source="marie" target="jura">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marie|pollinger" source="marie" target="pollinger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|frau_pollinger" source="marie" target="frau_pollinger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|delfine" source="marie" target="delfine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|die_magd" source="marie" target="die_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann|eine_stimme" source="johann" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann|jura" source="johann" target="jura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_stimme|jura" source="eine_stimme" target="jura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jura|pollinger" source="jura" target="pollinger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jura|frau_pollinger" source="jura" target="frau_pollinger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jura|delfine" source="jura" target="delfine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jura|die_magd" source="jura" target="die_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pollinger|frau_pollinger" source="pollinger" target="frau_pollinger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pollinger|delfine" source="pollinger" target="delfine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pollinger|die_magd" source="pollinger" target="die_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_pollinger|delfine" source="frau_pollinger" target="delfine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_pollinger|die_magd" source="frau_pollinger" target="die_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="delfine|die_magd" source="delfine" target="die_magd">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

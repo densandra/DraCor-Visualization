@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3363</data>
+        </node>
+        <node id="cathrine">
+            <data key="label">Cathrine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2576</data>
+        </node>
+        <node id="muffel">
+            <data key="label">Muffel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4047</data>
+        </node>
+        <node id="tempelstolz">
+            <data key="label">Tempelstolz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1950</data>
+        </node>
+        <node id="wahrmund">
+            <data key="label">Herr Wahrmund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2661</data>
+        </node>
+        <node id="wilhelmine">
+            <data key="label">Fräulein Wilhelmine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2459</data>
+        </node>
+        <node id="frau_von_birkenhayn">
+            <data key="label">Frau von Birkenhayn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1973</data>
+        </node>
+        <node id="herr_von_roseneck">
+            <data key="label">Herr von Roseneck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3211</data>
+        </node>
+        <node id="brigitte">
+            <data key="label">Brigitte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1122</data>
+        </node>
+        <edge id="peter|cathrine" source="peter" target="cathrine">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="peter|muffel" source="peter" target="muffel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="peter|brigitte" source="peter" target="brigitte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="peter|herr_von_roseneck" source="peter" target="herr_von_roseneck">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="peter|wahrmund" source="peter" target="wahrmund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|tempelstolz" source="peter" target="tempelstolz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="peter|frau_von_birkenhayn" source="peter" target="frau_von_birkenhayn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="peter|wilhelmine" source="peter" target="wilhelmine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cathrine|muffel" source="cathrine" target="muffel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="cathrine|tempelstolz" source="cathrine" target="tempelstolz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cathrine|herr_von_roseneck" source="cathrine" target="herr_von_roseneck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cathrine|frau_von_birkenhayn" source="cathrine" target="frau_von_birkenhayn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cathrine|wilhelmine" source="cathrine" target="wilhelmine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="muffel|tempelstolz" source="muffel" target="tempelstolz">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="muffel|wilhelmine" source="muffel" target="wilhelmine">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="muffel|herr_von_roseneck" source="muffel" target="herr_von_roseneck">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="muffel|frau_von_birkenhayn" source="muffel" target="frau_von_birkenhayn">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="muffel|wahrmund" source="muffel" target="wahrmund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tempelstolz|wilhelmine" source="tempelstolz" target="wilhelmine">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="tempelstolz|herr_von_roseneck" source="tempelstolz" target="herr_von_roseneck">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tempelstolz|frau_von_birkenhayn" source="tempelstolz" target="frau_von_birkenhayn">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="tempelstolz|brigitte" source="tempelstolz" target="brigitte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wahrmund|wilhelmine" source="wahrmund" target="wilhelmine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wahrmund|herr_von_roseneck" source="wahrmund" target="herr_von_roseneck">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wahrmund|frau_von_birkenhayn" source="wahrmund" target="frau_von_birkenhayn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|frau_von_birkenhayn" source="wilhelmine" target="frau_von_birkenhayn">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="wilhelmine|herr_von_roseneck" source="wilhelmine" target="herr_von_roseneck">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="frau_von_birkenhayn|herr_von_roseneck" source="frau_von_birkenhayn" target="herr_von_roseneck">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="frau_von_birkenhayn|brigitte" source="frau_von_birkenhayn" target="brigitte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_roseneck|brigitte" source="herr_von_roseneck" target="brigitte">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

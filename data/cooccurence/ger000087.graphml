@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sir_william">
+            <data key="label">Sir William</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1707</data>
+        </node>
+        <node id="waitwell">
+            <data key="label">Waitwell</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1496</data>
+        </node>
+        <node id="der_wirt">
+            <data key="label">Der Wirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">261</data>
+        </node>
+        <node id="mellefont">
+            <data key="label">Mellefont</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6409</data>
+        </node>
+        <node id="norton">
+            <data key="label">Norton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">813</data>
+        </node>
+        <node id="betty">
+            <data key="label">Betty</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">394</data>
+        </node>
+        <node id="sara">
+            <data key="label">Sara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7397</data>
+        </node>
+        <node id="marwood">
+            <data key="label">Marwood</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5974</data>
+        </node>
+        <node id="hannah">
+            <data key="label">Hannah</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">207</data>
+        </node>
+        <node id="der_bediente">
+            <data key="label">Der Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <node id="arabella">
+            <data key="label">Arabella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">309</data>
+        </node>
+        <edge id="sir_william|waitwell" source="sir_william" target="waitwell">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sir_william|der_wirt" source="sir_william" target="der_wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sir_william|sara" source="sir_william" target="sara">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sir_william|mellefont" source="sir_william" target="mellefont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sir_william|norton" source="sir_william" target="norton">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="waitwell|der_wirt" source="waitwell" target="der_wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="waitwell|betty" source="waitwell" target="betty">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="waitwell|sara" source="waitwell" target="sara">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mellefont|norton" source="mellefont" target="norton">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="mellefont|betty" source="mellefont" target="betty">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mellefont|sara" source="mellefont" target="sara">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="mellefont|marwood" source="mellefont" target="marwood">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="mellefont|arabella" source="mellefont" target="arabella">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mellefont|hannah" source="mellefont" target="hannah">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="norton|betty" source="norton" target="betty">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="norton|sara" source="norton" target="sara">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="betty|sara" source="betty" target="sara">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="betty|marwood" source="betty" target="marwood">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sara|marwood" source="sara" target="marwood">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="marwood|hannah" source="marwood" target="hannah">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="marwood|der_bediente" source="marwood" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marwood|arabella" source="marwood" target="arabella">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hannah|der_bediente" source="hannah" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hannah|arabella" source="hannah" target="arabella">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

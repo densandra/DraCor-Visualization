@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="sekretaer">
+            <data key="label">Sekretär Ahlden</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="oberkommissaer">
+            <data key="label">Oberkommissär</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ruhberg_vater">
+            <data key="label">Ruhberg Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="christian">
+            <data key="label">Christian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="louise">
+            <data key="label">Louise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="madame_ruhberg">
+            <data key="label">Madame Ruhberg</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="salomon">
+            <data key="label">Salomon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ladendiener">
+            <data key="label">Ladendiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="henriette">
+            <data key="label">Henriette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ruhberg_der_sohn">
+            <data key="label">Ruhberg der Sohn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="baron">
+            <data key="label">Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="haushofmeister">
+            <data key="label">Haushofmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gerichtsdiener">
+            <data key="label">Gerichtsdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hofrath">
+            <data key="label">Hofrath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hofraethin">
+            <data key="label">Hofräthin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="doktor">
+            <data key="label">Doktor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="madame_ruhberg" target="ruhberg_vater">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="hofrath" target="hofraethin">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="oberkommissaer" target="sekretaer">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="ruhberg_vater" target="ruhberg_der_sohn">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="ruhberg_vater" target="louise">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="christian" target="ruhberg_vater">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="henriette" target="ruhberg_vater">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

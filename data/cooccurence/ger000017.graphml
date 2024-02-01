@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="johanna">
+            <data key="label">Johanna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2002</data>
+        </node>
+        <node id="felix">
+            <data key="label">Felix</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3272</data>
+        </node>
+        <node id="sala">
+            <data key="label">Sala</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5121</data>
+        </node>
+        <node id="doktor_reumann">
+            <data key="label">Doktor Reumann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">964</data>
+        </node>
+        <node id="frau_wegrat">
+            <data key="label">Frau Wegrat</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">475</data>
+        </node>
+        <node id="wegrat">
+            <data key="label">Professor Wegrat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1958</data>
+        </node>
+        <node id="diener_bei_fichtner">
+            <data key="label">Diener bei Fichtner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="julian">
+            <data key="label">Julian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4230</data>
+        </node>
+        <node id="irene">
+            <data key="label">Irene Herms</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2529</data>
+        </node>
+        <node id="stubenmaedchen">
+            <data key="label">Stubenmädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="diener_bei_sala">
+            <data key="label">Diener bei Sala</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <edge id="johanna|felix" source="johanna" target="felix">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="johanna|sala" source="johanna" target="sala">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="johanna|doktor_reumann" source="johanna" target="doktor_reumann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="johanna|wegrat" source="johanna" target="wegrat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="johanna|frau_wegrat" source="johanna" target="frau_wegrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|julian" source="johanna" target="julian">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="johanna|stubenmaedchen" source="johanna" target="stubenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="felix|frau_wegrat" source="felix" target="frau_wegrat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="felix|sala" source="felix" target="sala">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="felix|doktor_reumann" source="felix" target="doktor_reumann">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="felix|wegrat" source="felix" target="wegrat">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="felix|diener_bei_fichtner" source="felix" target="diener_bei_fichtner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="felix|julian" source="felix" target="julian">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="felix|irene" source="felix" target="irene">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="felix|stubenmaedchen" source="felix" target="stubenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="felix|diener_bei_sala" source="felix" target="diener_bei_sala">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sala|doktor_reumann" source="sala" target="doktor_reumann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sala|frau_wegrat" source="sala" target="frau_wegrat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sala|wegrat" source="sala" target="wegrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sala|diener_bei_fichtner" source="sala" target="diener_bei_fichtner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sala|julian" source="sala" target="julian">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="sala|irene" source="sala" target="irene">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sala|diener_bei_sala" source="sala" target="diener_bei_sala">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doktor_reumann|frau_wegrat" source="doktor_reumann" target="frau_wegrat">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="doktor_reumann|wegrat" source="doktor_reumann" target="wegrat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="doktor_reumann|julian" source="doktor_reumann" target="julian">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_wegrat|wegrat" source="frau_wegrat" target="wegrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wegrat|julian" source="wegrat" target="julian">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wegrat|stubenmaedchen" source="wegrat" target="stubenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_bei_fichtner|julian" source="diener_bei_fichtner" target="julian">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="diener_bei_fichtner|irene" source="diener_bei_fichtner" target="irene">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="julian|irene" source="julian" target="irene">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="julian|stubenmaedchen" source="julian" target="stubenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julian|diener_bei_sala" source="julian" target="diener_bei_sala">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

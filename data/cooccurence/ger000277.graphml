@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="genia">
+            <data key="label">Frau Genia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4655</data>
+        </node>
+        <node id="stubenmaedchen">
+            <data key="label">Stubenmädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="frau_wahl">
+            <data key="label">Frau Wahl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1473</data>
+        </node>
+        <node id="erna">
+            <data key="label">Erna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1682</data>
+        </node>
+        <node id="otto">
+            <data key="label">Otto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">829</data>
+        </node>
+        <node id="mauer">
+            <data key="label">Doktor Mauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2253</data>
+        </node>
+        <node id="friedrich">
+            <data key="label">Friedrich Hofreiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8514</data>
+        </node>
+        <node id="paul">
+            <data key="label">Paul Kreindl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">805</data>
+        </node>
+        <node id="stimmen_vom_tennisplatz">
+            <data key="label">Stimmen vom Tennisplatz</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="adele">
+            <data key="label">Adele</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">380</data>
+        </node>
+        <node id="stanzides">
+            <data key="label">Stanzides</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">285</data>
+        </node>
+        <node id="natter">
+            <data key="label">Herr Natter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">483</data>
+        </node>
+        <node id="frau_meinhold">
+            <data key="label">Frau Meinhold</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1182</data>
+        </node>
+        <node id="meyer">
+            <data key="label">Doktor Meyer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">124</data>
+        </node>
+        <node id="rosenstock">
+            <data key="label">Rosenstock</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">484</data>
+        </node>
+        <node id="erster_tourist">
+            <data key="label">Erster Tourist</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">135</data>
+        </node>
+        <node id="zweiter_tourist">
+            <data key="label">Zweiter Tourist</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="herr">
+            <data key="label">Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="serknitz">
+            <data key="label">Serknitz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">465</data>
+        </node>
+        <node id="aigner">
+            <data key="label">Doktor von Aigner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1031</data>
+        </node>
+        <node id="die_spanierin">
+            <data key="label">Die Spanierin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="rhon">
+            <data key="label">Albert Rhon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">848</data>
+        </node>
+        <node id="eine_sehr_schoene_englaenderin">
+            <data key="label">Eine sehr schöne Engländerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="penn">
+            <data key="label">Der Führer Penn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">165</data>
+        </node>
+        <node id="gustl">
+            <data key="label">Gustl Wahl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">568</data>
+        </node>
+        <node id="frau_rhon">
+            <data key="label">Frau Rhon</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="ein_boy">
+            <data key="label">Ein Boy</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="kinder">
+            <data key="label">Kinder</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="kinderstimme_im_garten">
+            <data key="label">Kinderstimme im Garten (Percy)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <edge id="genia|stubenmaedchen" source="genia" target="stubenmaedchen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="genia|frau_wahl" source="genia" target="frau_wahl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="genia|erna" source="genia" target="erna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="genia|otto" source="genia" target="otto">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="genia|mauer" source="genia" target="mauer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="genia|friedrich" source="genia" target="friedrich">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="genia|paul" source="genia" target="paul">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="genia|stimmen_vom_tennisplatz" source="genia" target="stimmen_vom_tennisplatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="genia|adele" source="genia" target="adele">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="genia|stanzides" source="genia" target="stanzides">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="genia|natter" source="genia" target="natter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="genia|frau_meinhold" source="genia" target="frau_meinhold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="genia|kinder" source="genia" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="genia|gustl" source="genia" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="genia|kinderstimme_im_garten" source="genia" target="kinderstimme_im_garten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stubenmaedchen|frau_wahl" source="stubenmaedchen" target="frau_wahl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stubenmaedchen|erna" source="stubenmaedchen" target="erna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="stubenmaedchen|otto" source="stubenmaedchen" target="otto">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stubenmaedchen|mauer" source="stubenmaedchen" target="mauer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="stubenmaedchen|friedrich" source="stubenmaedchen" target="friedrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="stubenmaedchen|paul" source="stubenmaedchen" target="paul">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stubenmaedchen|stimmen_vom_tennisplatz" source="stubenmaedchen" target="stimmen_vom_tennisplatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stubenmaedchen|adele" source="stubenmaedchen" target="adele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stubenmaedchen|stanzides" source="stubenmaedchen" target="stanzides">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stubenmaedchen|natter" source="stubenmaedchen" target="natter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stubenmaedchen|frau_meinhold" source="stubenmaedchen" target="frau_meinhold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stubenmaedchen|kinderstimme_im_garten" source="stubenmaedchen" target="kinderstimme_im_garten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|erna" source="frau_wahl" target="erna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_wahl|otto" source="frau_wahl" target="otto">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_wahl|mauer" source="frau_wahl" target="mauer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_wahl|friedrich" source="frau_wahl" target="friedrich">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_wahl|paul" source="frau_wahl" target="paul">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_wahl|stimmen_vom_tennisplatz" source="frau_wahl" target="stimmen_vom_tennisplatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|adele" source="frau_wahl" target="adele">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_wahl|stanzides" source="frau_wahl" target="stanzides">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_wahl|natter" source="frau_wahl" target="natter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_wahl|frau_meinhold" source="frau_wahl" target="frau_meinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|meyer" source="frau_wahl" target="meyer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|rosenstock" source="frau_wahl" target="rosenstock">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|erster_tourist" source="frau_wahl" target="erster_tourist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|zweiter_tourist" source="frau_wahl" target="zweiter_tourist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|herr" source="frau_wahl" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|serknitz" source="frau_wahl" target="serknitz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|aigner" source="frau_wahl" target="aigner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|die_spanierin" source="frau_wahl" target="die_spanierin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|rhon" source="frau_wahl" target="rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|eine_sehr_schoene_englaenderin" source="frau_wahl" target="eine_sehr_schoene_englaenderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|penn" source="frau_wahl" target="penn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|gustl" source="frau_wahl" target="gustl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_wahl|frau_rhon" source="frau_wahl" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|ein_boy" source="frau_wahl" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wahl|kinder" source="frau_wahl" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|otto" source="erna" target="otto">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erna|mauer" source="erna" target="mauer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="erna|friedrich" source="erna" target="friedrich">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="erna|paul" source="erna" target="paul">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="erna|stimmen_vom_tennisplatz" source="erna" target="stimmen_vom_tennisplatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|adele" source="erna" target="adele">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erna|stanzides" source="erna" target="stanzides">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erna|natter" source="erna" target="natter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erna|frau_meinhold" source="erna" target="frau_meinhold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erna|meyer" source="erna" target="meyer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|rosenstock" source="erna" target="rosenstock">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|erster_tourist" source="erna" target="erster_tourist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|zweiter_tourist" source="erna" target="zweiter_tourist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|herr" source="erna" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|serknitz" source="erna" target="serknitz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|aigner" source="erna" target="aigner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|die_spanierin" source="erna" target="die_spanierin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|rhon" source="erna" target="rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|eine_sehr_schoene_englaenderin" source="erna" target="eine_sehr_schoene_englaenderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|penn" source="erna" target="penn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|gustl" source="erna" target="gustl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erna|frau_rhon" source="erna" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|ein_boy" source="erna" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|kinder" source="erna" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erna|kinderstimme_im_garten" source="erna" target="kinderstimme_im_garten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto|mauer" source="otto" target="mauer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="otto|friedrich" source="otto" target="friedrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="otto|paul" source="otto" target="paul">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="otto|stimmen_vom_tennisplatz" source="otto" target="stimmen_vom_tennisplatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto|adele" source="otto" target="adele">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="otto|stanzides" source="otto" target="stanzides">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="otto|natter" source="otto" target="natter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="otto|frau_meinhold" source="otto" target="frau_meinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto|kinder" source="otto" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto|gustl" source="otto" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mauer|friedrich" source="mauer" target="friedrich">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mauer|paul" source="mauer" target="paul">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mauer|stimmen_vom_tennisplatz" source="mauer" target="stimmen_vom_tennisplatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mauer|adele" source="mauer" target="adele">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mauer|stanzides" source="mauer" target="stanzides">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mauer|natter" source="mauer" target="natter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mauer|frau_meinhold" source="mauer" target="frau_meinhold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mauer|kinder" source="mauer" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mauer|gustl" source="mauer" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mauer|kinderstimme_im_garten" source="mauer" target="kinderstimme_im_garten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|paul" source="friedrich" target="paul">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="friedrich|stimmen_vom_tennisplatz" source="friedrich" target="stimmen_vom_tennisplatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|adele" source="friedrich" target="adele">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="friedrich|stanzides" source="friedrich" target="stanzides">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="friedrich|natter" source="friedrich" target="natter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="friedrich|frau_meinhold" source="friedrich" target="frau_meinhold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="friedrich|meyer" source="friedrich" target="meyer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|rosenstock" source="friedrich" target="rosenstock">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|erster_tourist" source="friedrich" target="erster_tourist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|zweiter_tourist" source="friedrich" target="zweiter_tourist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|herr" source="friedrich" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|serknitz" source="friedrich" target="serknitz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|aigner" source="friedrich" target="aigner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|die_spanierin" source="friedrich" target="die_spanierin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|rhon" source="friedrich" target="rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|eine_sehr_schoene_englaenderin" source="friedrich" target="eine_sehr_schoene_englaenderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|penn" source="friedrich" target="penn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|gustl" source="friedrich" target="gustl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="friedrich|frau_rhon" source="friedrich" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|ein_boy" source="friedrich" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|kinder" source="friedrich" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|kinderstimme_im_garten" source="friedrich" target="kinderstimme_im_garten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|stimmen_vom_tennisplatz" source="paul" target="stimmen_vom_tennisplatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|adele" source="paul" target="adele">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="paul|stanzides" source="paul" target="stanzides">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="paul|natter" source="paul" target="natter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="paul|frau_meinhold" source="paul" target="frau_meinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|meyer" source="paul" target="meyer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|rosenstock" source="paul" target="rosenstock">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|erster_tourist" source="paul" target="erster_tourist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|zweiter_tourist" source="paul" target="zweiter_tourist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|herr" source="paul" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|serknitz" source="paul" target="serknitz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|aigner" source="paul" target="aigner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|die_spanierin" source="paul" target="die_spanierin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|rhon" source="paul" target="rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|eine_sehr_schoene_englaenderin" source="paul" target="eine_sehr_schoene_englaenderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|penn" source="paul" target="penn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|gustl" source="paul" target="gustl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="paul|frau_rhon" source="paul" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|ein_boy" source="paul" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul|kinder" source="paul" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_vom_tennisplatz|adele" source="stimmen_vom_tennisplatz" target="adele">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_vom_tennisplatz|stanzides" source="stimmen_vom_tennisplatz" target="stanzides">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_vom_tennisplatz|natter" source="stimmen_vom_tennisplatz" target="natter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_vom_tennisplatz|frau_meinhold" source="stimmen_vom_tennisplatz" target="frau_meinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adele|stanzides" source="adele" target="stanzides">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adele|natter" source="adele" target="natter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adele|frau_meinhold" source="adele" target="frau_meinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adele|kinder" source="adele" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adele|gustl" source="adele" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stanzides|natter" source="stanzides" target="natter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stanzides|frau_meinhold" source="stanzides" target="frau_meinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stanzides|kinder" source="stanzides" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stanzides|gustl" source="stanzides" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="natter|frau_meinhold" source="natter" target="frau_meinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="natter|kinder" source="natter" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="natter|gustl" source="natter" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_meinhold|kinderstimme_im_garten" source="frau_meinhold" target="kinderstimme_im_garten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meyer|rosenstock" source="meyer" target="rosenstock">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meyer|erster_tourist" source="meyer" target="erster_tourist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meyer|zweiter_tourist" source="meyer" target="zweiter_tourist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meyer|herr" source="meyer" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meyer|serknitz" source="meyer" target="serknitz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meyer|aigner" source="meyer" target="aigner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meyer|die_spanierin" source="meyer" target="die_spanierin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meyer|rhon" source="meyer" target="rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meyer|eine_sehr_schoene_englaenderin" source="meyer" target="eine_sehr_schoene_englaenderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meyer|penn" source="meyer" target="penn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meyer|gustl" source="meyer" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meyer|frau_rhon" source="meyer" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meyer|ein_boy" source="meyer" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosenstock|erster_tourist" source="rosenstock" target="erster_tourist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosenstock|zweiter_tourist" source="rosenstock" target="zweiter_tourist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosenstock|herr" source="rosenstock" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosenstock|serknitz" source="rosenstock" target="serknitz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosenstock|aigner" source="rosenstock" target="aigner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosenstock|die_spanierin" source="rosenstock" target="die_spanierin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosenstock|rhon" source="rosenstock" target="rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosenstock|eine_sehr_schoene_englaenderin" source="rosenstock" target="eine_sehr_schoene_englaenderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosenstock|penn" source="rosenstock" target="penn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosenstock|gustl" source="rosenstock" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosenstock|frau_rhon" source="rosenstock" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosenstock|ein_boy" source="rosenstock" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_tourist|zweiter_tourist" source="erster_tourist" target="zweiter_tourist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_tourist|herr" source="erster_tourist" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_tourist|serknitz" source="erster_tourist" target="serknitz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_tourist|aigner" source="erster_tourist" target="aigner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_tourist|die_spanierin" source="erster_tourist" target="die_spanierin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_tourist|rhon" source="erster_tourist" target="rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_tourist|eine_sehr_schoene_englaenderin" source="erster_tourist" target="eine_sehr_schoene_englaenderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_tourist|penn" source="erster_tourist" target="penn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_tourist|gustl" source="erster_tourist" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_tourist|frau_rhon" source="erster_tourist" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_tourist|ein_boy" source="erster_tourist" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_tourist|herr" source="zweiter_tourist" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_tourist|serknitz" source="zweiter_tourist" target="serknitz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_tourist|aigner" source="zweiter_tourist" target="aigner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_tourist|die_spanierin" source="zweiter_tourist" target="die_spanierin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_tourist|rhon" source="zweiter_tourist" target="rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_tourist|eine_sehr_schoene_englaenderin" source="zweiter_tourist" target="eine_sehr_schoene_englaenderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_tourist|penn" source="zweiter_tourist" target="penn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_tourist|gustl" source="zweiter_tourist" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_tourist|frau_rhon" source="zweiter_tourist" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_tourist|ein_boy" source="zweiter_tourist" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr|serknitz" source="herr" target="serknitz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr|aigner" source="herr" target="aigner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr|die_spanierin" source="herr" target="die_spanierin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr|rhon" source="herr" target="rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr|eine_sehr_schoene_englaenderin" source="herr" target="eine_sehr_schoene_englaenderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr|penn" source="herr" target="penn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr|gustl" source="herr" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr|frau_rhon" source="herr" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr|ein_boy" source="herr" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="serknitz|aigner" source="serknitz" target="aigner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="serknitz|die_spanierin" source="serknitz" target="die_spanierin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="serknitz|rhon" source="serknitz" target="rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="serknitz|eine_sehr_schoene_englaenderin" source="serknitz" target="eine_sehr_schoene_englaenderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="serknitz|penn" source="serknitz" target="penn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="serknitz|gustl" source="serknitz" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="serknitz|frau_rhon" source="serknitz" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="serknitz|ein_boy" source="serknitz" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aigner|die_spanierin" source="aigner" target="die_spanierin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aigner|rhon" source="aigner" target="rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aigner|eine_sehr_schoene_englaenderin" source="aigner" target="eine_sehr_schoene_englaenderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aigner|penn" source="aigner" target="penn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aigner|gustl" source="aigner" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aigner|frau_rhon" source="aigner" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aigner|ein_boy" source="aigner" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_spanierin|rhon" source="die_spanierin" target="rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_spanierin|eine_sehr_schoene_englaenderin" source="die_spanierin" target="eine_sehr_schoene_englaenderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_spanierin|penn" source="die_spanierin" target="penn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_spanierin|gustl" source="die_spanierin" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_spanierin|frau_rhon" source="die_spanierin" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_spanierin|ein_boy" source="die_spanierin" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rhon|eine_sehr_schoene_englaenderin" source="rhon" target="eine_sehr_schoene_englaenderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rhon|penn" source="rhon" target="penn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rhon|gustl" source="rhon" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rhon|frau_rhon" source="rhon" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rhon|ein_boy" source="rhon" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_sehr_schoene_englaenderin|penn" source="eine_sehr_schoene_englaenderin" target="penn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_sehr_schoene_englaenderin|gustl" source="eine_sehr_schoene_englaenderin" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_sehr_schoene_englaenderin|frau_rhon" source="eine_sehr_schoene_englaenderin" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_sehr_schoene_englaenderin|ein_boy" source="eine_sehr_schoene_englaenderin" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="penn|gustl" source="penn" target="gustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="penn|frau_rhon" source="penn" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="penn|ein_boy" source="penn" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gustl|frau_rhon" source="gustl" target="frau_rhon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gustl|ein_boy" source="gustl" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gustl|kinder" source="gustl" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_rhon|ein_boy" source="frau_rhon" target="ein_boy">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

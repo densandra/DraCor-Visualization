@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="marcus">
+            <data key="label">Marcus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lucius">
+            <data key="label">Lucius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="virginia">
+            <data key="label">Virginia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="albina">
+            <data key="label">Albina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="quintus">
+            <data key="label">Quintus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ruffus">
+            <data key="label">Ruffus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="numitorius">
+            <data key="label">Numitorius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="icilius">
+            <data key="label">Icilius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_1-5">
+            <data key="label">Alle (I/5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_paar_vom_volke_2-2">
+            <data key="label">Ein paar vom Volke (II/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="das_volk_2-3">
+            <data key="label">Das Volk (II/3)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="appius">
+            <data key="label">Appius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_2-5">
+            <data key="label">Alle (II/5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="das_volk_2-5">
+            <data key="label">Das Volk (II/5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="einige_vom_volk_3-3">
+            <data key="label">Einige vom Volk (III/3)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="alle_3-3">
+            <data key="label">Alle (III/3)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="virginius">
+            <data key="label">Virginius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="valerius">
+            <data key="label">Valerius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_zeugen">
+            <data key="label">Die Zeugen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="laelia">
+            <data key="label">Lälia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="das_volk_4-6">
+            <data key="label">Das Volk (IV/6)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="virginia" target="icilius">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="marcus" target="laelia">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="virginius" target="virginia">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="numitorius" target="virginius">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="5" directed="false" source="albina" target="virginia">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="lucius" target="appius">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="eumenides">
+            <data key="label">Eumenides Düster</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2703</data>
+        </node>
+        <node id="ullo">
+            <data key="label">Ullo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">76</data>
+        </node>
+        <node id="manona">
+            <data key="label">Manona</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">844</data>
+        </node>
+        <node id="hold">
+            <data key="label">Hold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">755</data>
+        </node>
+        <node id="thorwald">
+            <data key="label">Thorwald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">165</data>
+        </node>
+        <edge id="eumenides|ullo" source="eumenides" target="ullo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eumenides|manona" source="eumenides" target="manona">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eumenides|hold" source="eumenides" target="hold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eumenides|thorwald" source="eumenides" target="thorwald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="manona|hold" source="manona" target="hold">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="manona|thorwald" source="manona" target="thorwald">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

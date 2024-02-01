@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="beerdigungsunternehmer">
+            <data key="label">Beerdigungsunternehmer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">359</data>
+        </node>
+        <node id="der_alte_mann">
+            <data key="label">Der alte Mann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="gott">
+            <data key="label">Gott</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">304</data>
+        </node>
+        <node id="tod">
+            <data key="label">Tod</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">199</data>
+        </node>
+        <node id="beckmann">
+            <data key="label">Beckmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10310</data>
+        </node>
+        <node id="elbe">
+            <data key="label">Elbe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">442</data>
+        </node>
+        <node id="der_andere">
+            <data key="label">Der Andere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1366</data>
+        </node>
+        <node id="maedchen">
+            <data key="label">Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">917</data>
+        </node>
+        <node id="der_einbeinige">
+            <data key="label">Der Einbeinige</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">409</data>
+        </node>
+        <node id="oberst">
+            <data key="label">Oberst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">707</data>
+        </node>
+        <node id="schwiegersohn">
+            <data key="label">Schwiegersohn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">70</data>
+        </node>
+        <node id="tochter">
+            <data key="label">Tochter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">97</data>
+        </node>
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">89</data>
+        </node>
+        <node id="direktor">
+            <data key="label">Direktor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1161</data>
+        </node>
+        <node id="frau_kramer">
+            <data key="label">Frau Kramer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">720</data>
+        </node>
+        <node id="strassenfeger">
+            <data key="label">Straßenfeger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">132</data>
+        </node>
+        <edge id="beerdigungsunternehmer|der_alte_mann" source="beerdigungsunternehmer" target="der_alte_mann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beerdigungsunternehmer|gott" source="beerdigungsunternehmer" target="gott">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beerdigungsunternehmer|tod" source="beerdigungsunternehmer" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_alte_mann|gott" source="der_alte_mann" target="gott">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_alte_mann|tod" source="der_alte_mann" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott|tod" source="gott" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott|beckmann" source="gott" target="beckmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott|frau_kramer" source="gott" target="frau_kramer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott|der_andere" source="gott" target="der_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott|strassenfeger" source="gott" target="strassenfeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott|oberst" source="gott" target="oberst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott|direktor" source="gott" target="direktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott|maedchen" source="gott" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott|der_einbeinige" source="gott" target="der_einbeinige">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beckmann|elbe" source="beckmann" target="elbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beckmann|der_andere" source="beckmann" target="der_andere">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="beckmann|maedchen" source="beckmann" target="maedchen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="beckmann|der_einbeinige" source="beckmann" target="der_einbeinige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="beckmann|oberst" source="beckmann" target="oberst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="beckmann|schwiegersohn" source="beckmann" target="schwiegersohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beckmann|tochter" source="beckmann" target="tochter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beckmann|mutter" source="beckmann" target="mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beckmann|direktor" source="beckmann" target="direktor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="beckmann|frau_kramer" source="beckmann" target="frau_kramer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beckmann|strassenfeger" source="beckmann" target="strassenfeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_andere|maedchen" source="der_andere" target="maedchen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_andere|der_einbeinige" source="der_andere" target="der_einbeinige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_andere|direktor" source="der_andere" target="direktor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_andere|frau_kramer" source="der_andere" target="frau_kramer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_andere|strassenfeger" source="der_andere" target="strassenfeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_andere|oberst" source="der_andere" target="oberst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maedchen|der_einbeinige" source="maedchen" target="der_einbeinige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maedchen|frau_kramer" source="maedchen" target="frau_kramer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maedchen|strassenfeger" source="maedchen" target="strassenfeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maedchen|oberst" source="maedchen" target="oberst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maedchen|direktor" source="maedchen" target="direktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einbeinige|frau_kramer" source="der_einbeinige" target="frau_kramer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einbeinige|strassenfeger" source="der_einbeinige" target="strassenfeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einbeinige|oberst" source="der_einbeinige" target="oberst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einbeinige|direktor" source="der_einbeinige" target="direktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|schwiegersohn" source="oberst" target="schwiegersohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|tochter" source="oberst" target="tochter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|mutter" source="oberst" target="mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|frau_kramer" source="oberst" target="frau_kramer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|strassenfeger" source="oberst" target="strassenfeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|direktor" source="oberst" target="direktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwiegersohn|tochter" source="schwiegersohn" target="tochter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwiegersohn|mutter" source="schwiegersohn" target="mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tochter|mutter" source="tochter" target="mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|frau_kramer" source="direktor" target="frau_kramer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor|strassenfeger" source="direktor" target="strassenfeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_kramer|strassenfeger" source="frau_kramer" target="strassenfeger">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="robert">
+            <data key="label">Robert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jeny">
+            <data key="label">Jeny</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="breiden">
+            <data key="label">Breiden</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="betty">
+            <data key="label">Betty</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kepler">
+            <data key="label">Kepler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="john">
+            <data key="label">John</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="william">
+            <data key="label">William</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="georg">
+            <data key="label">Georg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nollet">
+            <data key="label">Graf Nollet</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Ein Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lieutenant">
+            <data key="label">Lieutenant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="klinton">
+            <data key="label">General Klinton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="karl" target="robert">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="breiden" target="robert">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="3" directed="false" source="kepler" target="betty">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="4" directed="false" source="robert" target="jeny">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="robert" target="georg">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="robert" target="william">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="7" directed="false" source="robert" target="john">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="8" directed="false" source="lieutenant" target="klinton">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="karl" target="klinton">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="10" directed="false" source="kepler" target="robert">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

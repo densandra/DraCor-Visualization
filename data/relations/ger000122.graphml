@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="philemon">
+            <data key="label">Philemon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="phillis">
+            <data key="label">Phillis</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sylvia">
+            <data key="label">Sylvia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mirtillo">
+            <data key="label">Mirtillo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sylvan">
+            <data key="label">Sylvan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="seladon">
+            <data key="label">Seladon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mirta">
+            <data key="label">Mirta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mops">
+            <data key="label">Mops</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="silen">
+            <data key="label">Silen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="damon">
+            <data key="label">Damon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="galathe">
+            <data key="label">Galathe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="doris">
+            <data key="label">Doris</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="oktober">
+            <data key="label">Oktober</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="verehrung">
+            <data key="label">Verehrung</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="treue">
+            <data key="label">Treue</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="liebe">
+            <data key="label">Liebe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="freude">
+            <data key="label">Freude</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="damon" target="philemon">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="doris" target="seladon">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="philemon" target="seladon">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="philemon" target="phillis">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="philemon" target="sylvia">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="mirta" target="philemon">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="damon" target="doris">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="8" directed="false" source="damon" target="galathe">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="9" directed="false" source="mirtillo" target="doris">
+            <data key="relation">lover_of</data>
+        </edge>
+        <edge id="10" directed="false" source="sylvan" target="seladon">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="11" directed="false" source="mops" target="mirtillo">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="12" directed="false" source="silen" target="damon">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

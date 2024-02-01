@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="wild">
+            <data key="label">Wild</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3499</data>
+        </node>
+        <node id="blasius">
+            <data key="label">Blasius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1425</data>
+        </node>
+        <node id="la_feu">
+            <data key="label">La Feu</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1673</data>
+        </node>
+        <node id="der_wirt">
+            <data key="label">Der Wirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="berkley">
+            <data key="label">Berkley</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3144</data>
+        </node>
+        <node id="caroline">
+            <data key="label">Caroline</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1331</data>
+        </node>
+        <node id="louise">
+            <data key="label">Louise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1263</data>
+        </node>
+        <node id="kathrin">
+            <data key="label">Kathrin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">745</data>
+        </node>
+        <node id="betty">
+            <data key="label">Betty</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">101</data>
+        </node>
+        <node id="kapitaen">
+            <data key="label">Kapitän</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1366</data>
+        </node>
+        <node id="mohr">
+            <data key="label">Mohr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">734</data>
+        </node>
+        <node id="bediente">
+            <data key="label">Bediente</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="lord_bushy">
+            <data key="label">Lord Bushy</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">494</data>
+        </node>
+        <edge id="wild|blasius" source="wild" target="blasius">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="wild|la_feu" source="wild" target="la_feu">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="wild|der_wirt" source="wild" target="der_wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wild|betty" source="wild" target="betty">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wild|kathrin" source="wild" target="kathrin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wild|louise" source="wild" target="louise">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wild|caroline" source="wild" target="caroline">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="wild|berkley" source="wild" target="berkley">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wild|kapitaen" source="wild" target="kapitaen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wild|mohr" source="wild" target="mohr">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wild|lord_bushy" source="wild" target="lord_bushy">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="blasius|la_feu" source="blasius" target="la_feu">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="blasius|der_wirt" source="blasius" target="der_wirt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="blasius|betty" source="blasius" target="betty">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blasius|kathrin" source="blasius" target="kathrin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="blasius|louise" source="blasius" target="louise">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="blasius|kapitaen" source="blasius" target="kapitaen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="blasius|mohr" source="blasius" target="mohr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blasius|caroline" source="blasius" target="caroline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_feu|der_wirt" source="la_feu" target="der_wirt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="la_feu|betty" source="la_feu" target="betty">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_feu|kathrin" source="la_feu" target="kathrin">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="la_feu|louise" source="la_feu" target="louise">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="la_feu|kapitaen" source="la_feu" target="kapitaen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="la_feu|mohr" source="la_feu" target="mohr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_feu|caroline" source="la_feu" target="caroline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_feu|berkley" source="la_feu" target="berkley">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wirt|kapitaen" source="der_wirt" target="kapitaen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wirt|mohr" source="der_wirt" target="mohr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="berkley|caroline" source="berkley" target="caroline">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="berkley|bediente" source="berkley" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="berkley|kapitaen" source="berkley" target="kapitaen">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="berkley|mohr" source="berkley" target="mohr">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="berkley|kathrin" source="berkley" target="kathrin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="berkley|louise" source="berkley" target="louise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="berkley|lord_bushy" source="berkley" target="lord_bushy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caroline|louise" source="caroline" target="louise">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="caroline|kathrin" source="caroline" target="kathrin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="caroline|kapitaen" source="caroline" target="kapitaen">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="caroline|mohr" source="caroline" target="mohr">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="caroline|betty" source="caroline" target="betty">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caroline|lord_bushy" source="caroline" target="lord_bushy">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="louise|kathrin" source="louise" target="kathrin">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="louise|kapitaen" source="louise" target="kapitaen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="louise|mohr" source="louise" target="mohr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathrin|kapitaen" source="kathrin" target="kapitaen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kathrin|mohr" source="kathrin" target="mohr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kapitaen|mohr" source="kapitaen" target="mohr">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kapitaen|lord_bushy" source="kapitaen" target="lord_bushy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mohr|lord_bushy" source="mohr" target="lord_bushy">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

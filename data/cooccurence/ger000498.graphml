@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="harlequin">
+            <data key="label">Harlequin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2666</data>
+        </node>
+        <node id="koenig_caromasko">
+            <data key="label">König Caromasko</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">823</data>
+        </node>
+        <node id="koenigin_tritina">
+            <data key="label">Königin Tritina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">474</data>
+        </node>
+        <node id="caromaskos_vater">
+            <data key="label">Caromaskos Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">93</data>
+        </node>
+        <node id="die_koenige_die_andern">
+            <data key="label">Die Könige/Die Andern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="koenig_chrysal">
+            <data key="label">König Chrysal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <node id="nachfolger_von_koenig_chrysal">
+            <data key="label">Nachfolger von König Chrysal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="koenig_straldo">
+            <data key="label">König Straldo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <node id="der_grosse_koenig">
+            <data key="label">Der große König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">162</data>
+        </node>
+        <node id="ali">
+            <data key="label">Ali</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="zuma">
+            <data key="label">Zuma</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="alles">
+            <data key="label">Auf einmal rief alles</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="colombine">
+            <data key="label">Colombine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1597</data>
+        </node>
+        <node id="gleba">
+            <data key="label">Gleba</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2148</data>
+        </node>
+        <node id="prinz_zed">
+            <data key="label">Prinz Zed</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">587</data>
+        </node>
+        <node id="pedrilla">
+            <data key="label">Pedrilla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">107</data>
+        </node>
+        <node id="volk">
+            <data key="label">Volk</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">501</data>
+        </node>
+        <node id="prinz_seiden-wurm">
+            <data key="label">Prinz Seiden-Wurm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">821</data>
+        </node>
+        <node id="minister_bim">
+            <data key="label">Minister Bim</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">520</data>
+        </node>
+        <node id="poet_stumpf">
+            <data key="label">Poet Stumpf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">344</data>
+        </node>
+        <node id="general_bonze">
+            <data key="label">General Bonze</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">225</data>
+        </node>
+        <node id="der_philosoph">
+            <data key="label">Der Philosoph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">227</data>
+        </node>
+        <node id="andrena">
+            <data key="label">Andrena</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">41</data>
+        </node>
+        <node id="general_forsak">
+            <data key="label">General Forsak</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">74</data>
+        </node>
+        <node id="graez">
+            <data key="label">Gräz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">81</data>
+        </node>
+        <node id="prinz_aster">
+            <data key="label">Prinz Aster</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">405</data>
+        </node>
+        <node id="prinzessin_purperine">
+            <data key="label">Prinzessin Purperine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">73</data>
+        </node>
+        <node id="das_gesindel">
+            <data key="label">Das Gesindel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="die_alten">
+            <data key="label">Die Alten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="das_lumpengesindel">
+            <data key="label">Das Lumpengesindel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="die_reichen">
+            <data key="label">Die Reichen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="vorsteher_des_volks">
+            <data key="label">Vorsteher des Volks</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="der_syndicus">
+            <data key="label">Der Syndicus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="einer_aus_dem_parterre">
+            <data key="label">Einer aus dem Parterre</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">56</data>
+        </node>
+        <edge id="harlequin|colombine" source="harlequin" target="colombine">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="harlequin|gleba" source="harlequin" target="gleba">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="harlequin|der_grosse_koenig" source="harlequin" target="der_grosse_koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harlequin|pedrilla" source="harlequin" target="pedrilla">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="harlequin|prinz_zed" source="harlequin" target="prinz_zed">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="harlequin|minister_bim" source="harlequin" target="minister_bim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="harlequin|volk" source="harlequin" target="volk">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="harlequin|prinz_seiden-wurm" source="harlequin" target="prinz_seiden-wurm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harlequin|das_gesindel" source="harlequin" target="das_gesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harlequin|prinz_aster" source="harlequin" target="prinz_aster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harlequin|general_forsak" source="harlequin" target="general_forsak">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harlequin|poet_stumpf" source="harlequin" target="poet_stumpf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harlequin|graez" source="harlequin" target="graez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harlequin|der_philosoph" source="harlequin" target="der_philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harlequin|die_alten" source="harlequin" target="die_alten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harlequin|das_lumpengesindel" source="harlequin" target="das_lumpengesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harlequin|die_reichen" source="harlequin" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harlequin|vorsteher_des_volks" source="harlequin" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harlequin|der_syndicus" source="harlequin" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harlequin|einer_aus_dem_parterre" source="harlequin" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_caromasko|koenigin_tritina" source="koenig_caromasko" target="koenigin_tritina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_caromasko|caromaskos_vater" source="koenig_caromasko" target="caromaskos_vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_caromasko|die_koenige_die_andern" source="koenig_caromasko" target="die_koenige_die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_caromasko|koenig_chrysal" source="koenig_caromasko" target="koenig_chrysal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_caromasko|nachfolger_von_koenig_chrysal" source="koenig_caromasko" target="nachfolger_von_koenig_chrysal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_caromasko|koenig_straldo" source="koenig_caromasko" target="koenig_straldo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_caromasko|der_grosse_koenig" source="koenig_caromasko" target="der_grosse_koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_caromasko|ali" source="koenig_caromasko" target="ali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_caromasko|zuma" source="koenig_caromasko" target="zuma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_caromasko|alles" source="koenig_caromasko" target="alles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caromaskos_vater|die_koenige_die_andern" source="caromaskos_vater" target="die_koenige_die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caromaskos_vater|koenig_chrysal" source="caromaskos_vater" target="koenig_chrysal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caromaskos_vater|nachfolger_von_koenig_chrysal" source="caromaskos_vater" target="nachfolger_von_koenig_chrysal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caromaskos_vater|koenig_straldo" source="caromaskos_vater" target="koenig_straldo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caromaskos_vater|der_grosse_koenig" source="caromaskos_vater" target="der_grosse_koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caromaskos_vater|ali" source="caromaskos_vater" target="ali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caromaskos_vater|zuma" source="caromaskos_vater" target="zuma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caromaskos_vater|alles" source="caromaskos_vater" target="alles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_koenige_die_andern|koenig_chrysal" source="die_koenige_die_andern" target="koenig_chrysal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_koenige_die_andern|nachfolger_von_koenig_chrysal" source="die_koenige_die_andern" target="nachfolger_von_koenig_chrysal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_koenige_die_andern|koenig_straldo" source="die_koenige_die_andern" target="koenig_straldo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_koenige_die_andern|der_grosse_koenig" source="die_koenige_die_andern" target="der_grosse_koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_koenige_die_andern|ali" source="die_koenige_die_andern" target="ali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_koenige_die_andern|zuma" source="die_koenige_die_andern" target="zuma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_koenige_die_andern|alles" source="die_koenige_die_andern" target="alles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_chrysal|nachfolger_von_koenig_chrysal" source="koenig_chrysal" target="nachfolger_von_koenig_chrysal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_chrysal|koenig_straldo" source="koenig_chrysal" target="koenig_straldo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_chrysal|der_grosse_koenig" source="koenig_chrysal" target="der_grosse_koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_chrysal|ali" source="koenig_chrysal" target="ali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_chrysal|zuma" source="koenig_chrysal" target="zuma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_chrysal|alles" source="koenig_chrysal" target="alles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachfolger_von_koenig_chrysal|koenig_straldo" source="nachfolger_von_koenig_chrysal" target="koenig_straldo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachfolger_von_koenig_chrysal|der_grosse_koenig" source="nachfolger_von_koenig_chrysal" target="der_grosse_koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachfolger_von_koenig_chrysal|ali" source="nachfolger_von_koenig_chrysal" target="ali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachfolger_von_koenig_chrysal|zuma" source="nachfolger_von_koenig_chrysal" target="zuma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachfolger_von_koenig_chrysal|alles" source="nachfolger_von_koenig_chrysal" target="alles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_straldo|der_grosse_koenig" source="koenig_straldo" target="der_grosse_koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_straldo|ali" source="koenig_straldo" target="ali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_straldo|zuma" source="koenig_straldo" target="zuma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_straldo|alles" source="koenig_straldo" target="alles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_grosse_koenig|ali" source="der_grosse_koenig" target="ali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_grosse_koenig|zuma" source="der_grosse_koenig" target="zuma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_grosse_koenig|alles" source="der_grosse_koenig" target="alles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_grosse_koenig|gleba" source="der_grosse_koenig" target="gleba">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_grosse_koenig|volk" source="der_grosse_koenig" target="volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_grosse_koenig|andrena" source="der_grosse_koenig" target="andrena">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_grosse_koenig|prinz_seiden-wurm" source="der_grosse_koenig" target="prinz_seiden-wurm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_grosse_koenig|minister_bim" source="der_grosse_koenig" target="minister_bim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_grosse_koenig|prinz_aster" source="der_grosse_koenig" target="prinz_aster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ali|zuma" source="ali" target="zuma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ali|alles" source="ali" target="alles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zuma|alles" source="zuma" target="alles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colombine|pedrilla" source="colombine" target="pedrilla">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="colombine|prinz_seiden-wurm" source="colombine" target="prinz_seiden-wurm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="colombine|minister_bim" source="colombine" target="minister_bim">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="colombine|prinz_zed" source="colombine" target="prinz_zed">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="colombine|gleba" source="colombine" target="gleba">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="colombine|volk" source="colombine" target="volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colombine|das_gesindel" source="colombine" target="das_gesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colombine|prinz_aster" source="colombine" target="prinz_aster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colombine|general_forsak" source="colombine" target="general_forsak">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colombine|poet_stumpf" source="colombine" target="poet_stumpf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colombine|graez" source="colombine" target="graez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colombine|der_philosoph" source="colombine" target="der_philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colombine|die_alten" source="colombine" target="die_alten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colombine|das_lumpengesindel" source="colombine" target="das_lumpengesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colombine|die_reichen" source="colombine" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colombine|vorsteher_des_volks" source="colombine" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colombine|der_syndicus" source="colombine" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colombine|einer_aus_dem_parterre" source="colombine" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gleba|volk" source="gleba" target="volk">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gleba|minister_bim" source="gleba" target="minister_bim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gleba|pedrilla" source="gleba" target="pedrilla">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gleba|prinz_zed" source="gleba" target="prinz_zed">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gleba|poet_stumpf" source="gleba" target="poet_stumpf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gleba|general_forsak" source="gleba" target="general_forsak">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gleba|graez" source="gleba" target="graez">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gleba|der_philosoph" source="gleba" target="der_philosoph">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gleba|prinz_seiden-wurm" source="gleba" target="prinz_seiden-wurm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gleba|das_gesindel" source="gleba" target="das_gesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gleba|prinz_aster" source="gleba" target="prinz_aster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gleba|die_alten" source="gleba" target="die_alten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gleba|das_lumpengesindel" source="gleba" target="das_lumpengesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gleba|die_reichen" source="gleba" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gleba|vorsteher_des_volks" source="gleba" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gleba|der_syndicus" source="gleba" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gleba|einer_aus_dem_parterre" source="gleba" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_zed|pedrilla" source="prinz_zed" target="pedrilla">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="prinz_zed|minister_bim" source="prinz_zed" target="minister_bim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinz_zed|volk" source="prinz_zed" target="volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_zed|prinz_seiden-wurm" source="prinz_zed" target="prinz_seiden-wurm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_zed|das_gesindel" source="prinz_zed" target="das_gesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_zed|prinz_aster" source="prinz_zed" target="prinz_aster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_zed|general_forsak" source="prinz_zed" target="general_forsak">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_zed|poet_stumpf" source="prinz_zed" target="poet_stumpf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_zed|graez" source="prinz_zed" target="graez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_zed|der_philosoph" source="prinz_zed" target="der_philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_zed|die_alten" source="prinz_zed" target="die_alten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_zed|das_lumpengesindel" source="prinz_zed" target="das_lumpengesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_zed|die_reichen" source="prinz_zed" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_zed|vorsteher_des_volks" source="prinz_zed" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_zed|der_syndicus" source="prinz_zed" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_zed|einer_aus_dem_parterre" source="prinz_zed" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pedrilla|prinz_seiden-wurm" source="pedrilla" target="prinz_seiden-wurm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pedrilla|minister_bim" source="pedrilla" target="minister_bim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="volk|andrena" source="volk" target="andrena">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|prinz_seiden-wurm" source="volk" target="prinz_seiden-wurm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="volk|minister_bim" source="volk" target="minister_bim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="volk|das_gesindel" source="volk" target="das_gesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|prinz_aster" source="volk" target="prinz_aster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|general_forsak" source="volk" target="general_forsak">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|poet_stumpf" source="volk" target="poet_stumpf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|graez" source="volk" target="graez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|der_philosoph" source="volk" target="der_philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|die_alten" source="volk" target="die_alten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|das_lumpengesindel" source="volk" target="das_lumpengesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|die_reichen" source="volk" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|vorsteher_des_volks" source="volk" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|der_syndicus" source="volk" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|einer_aus_dem_parterre" source="volk" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|minister_bim" source="prinz_seiden-wurm" target="minister_bim">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|poet_stumpf" source="prinz_seiden-wurm" target="poet_stumpf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|general_bonze" source="prinz_seiden-wurm" target="general_bonze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|der_philosoph" source="prinz_seiden-wurm" target="der_philosoph">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|andrena" source="prinz_seiden-wurm" target="andrena">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|prinz_aster" source="prinz_seiden-wurm" target="prinz_aster">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|das_gesindel" source="prinz_seiden-wurm" target="das_gesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|general_forsak" source="prinz_seiden-wurm" target="general_forsak">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|graez" source="prinz_seiden-wurm" target="graez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|die_alten" source="prinz_seiden-wurm" target="die_alten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|das_lumpengesindel" source="prinz_seiden-wurm" target="das_lumpengesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|die_reichen" source="prinz_seiden-wurm" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|vorsteher_des_volks" source="prinz_seiden-wurm" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|der_syndicus" source="prinz_seiden-wurm" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_seiden-wurm|einer_aus_dem_parterre" source="prinz_seiden-wurm" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minister_bim|poet_stumpf" source="minister_bim" target="poet_stumpf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="minister_bim|general_bonze" source="minister_bim" target="general_bonze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minister_bim|der_philosoph" source="minister_bim" target="der_philosoph">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="minister_bim|andrena" source="minister_bim" target="andrena">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minister_bim|prinz_aster" source="minister_bim" target="prinz_aster">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="minister_bim|das_gesindel" source="minister_bim" target="das_gesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minister_bim|general_forsak" source="minister_bim" target="general_forsak">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minister_bim|graez" source="minister_bim" target="graez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minister_bim|die_alten" source="minister_bim" target="die_alten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minister_bim|das_lumpengesindel" source="minister_bim" target="das_lumpengesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minister_bim|die_reichen" source="minister_bim" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minister_bim|vorsteher_des_volks" source="minister_bim" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minister_bim|der_syndicus" source="minister_bim" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minister_bim|einer_aus_dem_parterre" source="minister_bim" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poet_stumpf|das_gesindel" source="poet_stumpf" target="das_gesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poet_stumpf|prinz_aster" source="poet_stumpf" target="prinz_aster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poet_stumpf|general_forsak" source="poet_stumpf" target="general_forsak">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poet_stumpf|graez" source="poet_stumpf" target="graez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poet_stumpf|der_philosoph" source="poet_stumpf" target="der_philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poet_stumpf|die_alten" source="poet_stumpf" target="die_alten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poet_stumpf|das_lumpengesindel" source="poet_stumpf" target="das_lumpengesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poet_stumpf|die_reichen" source="poet_stumpf" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poet_stumpf|vorsteher_des_volks" source="poet_stumpf" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poet_stumpf|der_syndicus" source="poet_stumpf" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poet_stumpf|einer_aus_dem_parterre" source="poet_stumpf" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_philosoph|das_gesindel" source="der_philosoph" target="das_gesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_philosoph|prinz_aster" source="der_philosoph" target="prinz_aster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_philosoph|general_forsak" source="der_philosoph" target="general_forsak">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_philosoph|graez" source="der_philosoph" target="graez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_philosoph|die_alten" source="der_philosoph" target="die_alten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_philosoph|das_lumpengesindel" source="der_philosoph" target="das_lumpengesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_philosoph|die_reichen" source="der_philosoph" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_philosoph|vorsteher_des_volks" source="der_philosoph" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_philosoph|der_syndicus" source="der_philosoph" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_philosoph|einer_aus_dem_parterre" source="der_philosoph" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="general_forsak|das_gesindel" source="general_forsak" target="das_gesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="general_forsak|prinz_aster" source="general_forsak" target="prinz_aster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="general_forsak|graez" source="general_forsak" target="graez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="general_forsak|die_alten" source="general_forsak" target="die_alten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="general_forsak|das_lumpengesindel" source="general_forsak" target="das_lumpengesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="general_forsak|die_reichen" source="general_forsak" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="general_forsak|vorsteher_des_volks" source="general_forsak" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="general_forsak|der_syndicus" source="general_forsak" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="general_forsak|einer_aus_dem_parterre" source="general_forsak" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graez|das_gesindel" source="graez" target="das_gesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graez|prinz_aster" source="graez" target="prinz_aster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graez|die_alten" source="graez" target="die_alten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graez|das_lumpengesindel" source="graez" target="das_lumpengesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graez|die_reichen" source="graez" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graez|vorsteher_des_volks" source="graez" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graez|der_syndicus" source="graez" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graez|einer_aus_dem_parterre" source="graez" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_aster|prinzessin_purperine" source="prinz_aster" target="prinzessin_purperine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_aster|das_gesindel" source="prinz_aster" target="das_gesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_aster|die_alten" source="prinz_aster" target="die_alten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_aster|das_lumpengesindel" source="prinz_aster" target="das_lumpengesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_aster|die_reichen" source="prinz_aster" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_aster|vorsteher_des_volks" source="prinz_aster" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_aster|der_syndicus" source="prinz_aster" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_aster|einer_aus_dem_parterre" source="prinz_aster" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_gesindel|die_alten" source="das_gesindel" target="die_alten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_gesindel|das_lumpengesindel" source="das_gesindel" target="das_lumpengesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_gesindel|die_reichen" source="das_gesindel" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_gesindel|vorsteher_des_volks" source="das_gesindel" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_gesindel|der_syndicus" source="das_gesindel" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_gesindel|einer_aus_dem_parterre" source="das_gesindel" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_alten|das_lumpengesindel" source="die_alten" target="das_lumpengesindel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_alten|die_reichen" source="die_alten" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_alten|vorsteher_des_volks" source="die_alten" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_alten|der_syndicus" source="die_alten" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_alten|einer_aus_dem_parterre" source="die_alten" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_lumpengesindel|die_reichen" source="das_lumpengesindel" target="die_reichen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_lumpengesindel|vorsteher_des_volks" source="das_lumpengesindel" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_lumpengesindel|der_syndicus" source="das_lumpengesindel" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_lumpengesindel|einer_aus_dem_parterre" source="das_lumpengesindel" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_reichen|vorsteher_des_volks" source="die_reichen" target="vorsteher_des_volks">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_reichen|der_syndicus" source="die_reichen" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_reichen|einer_aus_dem_parterre" source="die_reichen" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsteher_des_volks|der_syndicus" source="vorsteher_des_volks" target="der_syndicus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsteher_des_volks|einer_aus_dem_parterre" source="vorsteher_des_volks" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_syndicus|einer_aus_dem_parterre" source="der_syndicus" target="einer_aus_dem_parterre">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

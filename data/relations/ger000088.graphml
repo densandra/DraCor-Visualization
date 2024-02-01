@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="der_prinz">
+            <data key="label">Der Prinz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_kammerdiener">
+            <data key="label">Der Kammerdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="conti">
+            <data key="label">Conti</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marinelli">
+            <data key="label">Marinelli</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="camillo_rota">
+            <data key="label">Camillo Rota</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="claudia">
+            <data key="label">Claudia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pirro">
+            <data key="label">Pirro</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="odoardo">
+            <data key="label">Odoardo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="angelo">
+            <data key="label">Angelo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="emilia">
+            <data key="label">Emilia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="appiani">
+            <data key="label">Appiani</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="battista">
+            <data key="label">Battista</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="orsina">
+            <data key="label">Orsina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="odoardo" target="emilia">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="claudia" target="emilia">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="marinelli" target="der_prinz">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="camillo_rota" target="der_prinz">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

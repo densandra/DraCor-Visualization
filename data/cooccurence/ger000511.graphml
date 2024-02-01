@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="dorn">
+            <data key="label">Dorn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1560</data>
+        </node>
+        <node id="foerster">
+            <data key="label">Förster</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">353</data>
+        </node>
+        <node id="johann">
+            <data key="label">Johann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">508</data>
+        </node>
+        <node id="friederike">
+            <data key="label">Friederike</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">492</data>
+        </node>
+        <node id="eduard">
+            <data key="label">Eduard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">291</data>
+        </node>
+        <node id="leonore">
+            <data key="label">Leonore</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">189</data>
+        </node>
+        <edge id="dorn|foerster" source="dorn" target="foerster">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="dorn|johann" source="dorn" target="johann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dorn|friederike" source="dorn" target="friederike">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dorn|eduard" source="dorn" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dorn|leonore" source="dorn" target="leonore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="foerster|johann" source="foerster" target="johann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="foerster|friederike" source="foerster" target="friederike">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="foerster|eduard" source="foerster" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="foerster|leonore" source="foerster" target="leonore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann|friederike" source="johann" target="friederike">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="johann|eduard" source="johann" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann|leonore" source="johann" target="leonore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friederike|eduard" source="friederike" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friederike|leonore" source="friederike" target="leonore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eduard|leonore" source="eduard" target="leonore">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

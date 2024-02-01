@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="oberst">
+            <data key="label">Oberst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4394</data>
+        </node>
+        <node id="ida">
+            <data key="label">Ida</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">564</data>
+        </node>
+        <node id="oldendorf">
+            <data key="label">Oldendorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1477</data>
+        </node>
+        <node id="senden">
+            <data key="label">Senden</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1382</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">191</data>
+        </node>
+        <node id="blumenberg">
+            <data key="label">Blumenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">683</data>
+        </node>
+        <node id="schmock">
+            <data key="label">Schmock</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">768</data>
+        </node>
+        <node id="adelheid">
+            <data key="label">Adelheid Runeck</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4248</data>
+        </node>
+        <node id="korb">
+            <data key="label">Korb</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">830</data>
+        </node>
+        <node id="bolz">
+            <data key="label">Conrad Bolz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6800</data>
+        </node>
+        <node id="mueller">
+            <data key="label">Müller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">139</data>
+        </node>
+        <node id="bellmaus">
+            <data key="label">Bellmaus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">573</data>
+        </node>
+        <node id="kaempe">
+            <data key="label">Kämpe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">353</data>
+        </node>
+        <node id="henning">
+            <data key="label">Buchdrucker Henning</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">99</data>
+        </node>
+        <node id="pavoni">
+            <data key="label">Madame Pavoni</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="gast">
+            <data key="label">Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="piepenbrink">
+            <data key="label">Piepenbrink</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1147</data>
+        </node>
+        <node id="frau_piepenbrink">
+            <data key="label">Frau Piepenbrink</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">71</data>
+        </node>
+        <node id="kleinmichel">
+            <data key="label">Kleinmichel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">90</data>
+        </node>
+        <node id="fritz_kleinmichel">
+            <data key="label">Fritz Kleinmichel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">129</data>
+        </node>
+        <node id="berta">
+            <data key="label">Berta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="maennerchor">
+            <data key="label">Männerchor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="koerner">
+            <data key="label">Körner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="schwarz">
+            <data key="label">Schwarz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">69</data>
+        </node>
+        <edge id="oberst|ida" source="oberst" target="ida">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="oberst|oldendorf" source="oberst" target="oldendorf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="oberst|senden" source="oberst" target="senden">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="oberst|karl" source="oberst" target="karl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="oberst|blumenberg" source="oberst" target="blumenberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="oberst|schmock" source="oberst" target="schmock">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="oberst|adelheid" source="oberst" target="adelheid">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="oberst|korb" source="oberst" target="korb">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="oberst|gast" source="oberst" target="gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|henning" source="oberst" target="henning">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|bolz" source="oberst" target="bolz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="oberst|kaempe" source="oberst" target="kaempe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="oberst|bellmaus" source="oberst" target="bellmaus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="oberst|piepenbrink" source="oberst" target="piepenbrink">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="oberst|frau_piepenbrink" source="oberst" target="frau_piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|kleinmichel" source="oberst" target="kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|fritz_kleinmichel" source="oberst" target="fritz_kleinmichel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="oberst|berta" source="oberst" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|maennerchor" source="oberst" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|mueller" source="oberst" target="mueller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|koerner" source="oberst" target="koerner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|schwarz" source="oberst" target="schwarz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|oldendorf" source="ida" target="oldendorf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ida|senden" source="ida" target="senden">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ida|karl" source="ida" target="karl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ida|blumenberg" source="ida" target="blumenberg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ida|schmock" source="ida" target="schmock">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|adelheid" source="ida" target="adelheid">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ida|korb" source="ida" target="korb">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ida|bolz" source="ida" target="bolz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ida|bellmaus" source="ida" target="bellmaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ida|piepenbrink" source="ida" target="piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|maennerchor" source="ida" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|fritz_kleinmichel" source="ida" target="fritz_kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|mueller" source="ida" target="mueller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|kaempe" source="ida" target="kaempe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|koerner" source="ida" target="koerner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|schwarz" source="ida" target="schwarz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oldendorf|senden" source="oldendorf" target="senden">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="oldendorf|karl" source="oldendorf" target="karl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="oldendorf|blumenberg" source="oldendorf" target="blumenberg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="oldendorf|schmock" source="oldendorf" target="schmock">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oldendorf|adelheid" source="oldendorf" target="adelheid">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="oldendorf|korb" source="oldendorf" target="korb">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="oldendorf|bolz" source="oldendorf" target="bolz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="oldendorf|mueller" source="oldendorf" target="mueller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="oldendorf|bellmaus" source="oldendorf" target="bellmaus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="oldendorf|kaempe" source="oldendorf" target="kaempe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="oldendorf|henning" source="oldendorf" target="henning">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oldendorf|pavoni" source="oldendorf" target="pavoni">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oldendorf|piepenbrink" source="oldendorf" target="piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oldendorf|maennerchor" source="oldendorf" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oldendorf|fritz_kleinmichel" source="oldendorf" target="fritz_kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oldendorf|koerner" source="oldendorf" target="koerner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oldendorf|schwarz" source="oldendorf" target="schwarz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="senden|karl" source="senden" target="karl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="senden|blumenberg" source="senden" target="blumenberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="senden|schmock" source="senden" target="schmock">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="senden|adelheid" source="senden" target="adelheid">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="senden|korb" source="senden" target="korb">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="senden|gast" source="senden" target="gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="senden|henning" source="senden" target="henning">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="senden|bolz" source="senden" target="bolz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="senden|kaempe" source="senden" target="kaempe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="senden|bellmaus" source="senden" target="bellmaus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="senden|piepenbrink" source="senden" target="piepenbrink">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="senden|frau_piepenbrink" source="senden" target="frau_piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="senden|kleinmichel" source="senden" target="kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="senden|fritz_kleinmichel" source="senden" target="fritz_kleinmichel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="senden|berta" source="senden" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="senden|maennerchor" source="senden" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="senden|mueller" source="senden" target="mueller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="senden|koerner" source="senden" target="koerner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="senden|schwarz" source="senden" target="schwarz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|blumenberg" source="karl" target="blumenberg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="karl|schmock" source="karl" target="schmock">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|adelheid" source="karl" target="adelheid">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="karl|korb" source="karl" target="korb">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="karl|bolz" source="karl" target="bolz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|bellmaus" source="karl" target="bellmaus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|piepenbrink" source="karl" target="piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|maennerchor" source="karl" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|fritz_kleinmichel" source="karl" target="fritz_kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blumenberg|schmock" source="blumenberg" target="schmock">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="blumenberg|adelheid" source="blumenberg" target="adelheid">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="blumenberg|korb" source="blumenberg" target="korb">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="blumenberg|gast" source="blumenberg" target="gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blumenberg|henning" source="blumenberg" target="henning">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blumenberg|bolz" source="blumenberg" target="bolz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="blumenberg|kaempe" source="blumenberg" target="kaempe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blumenberg|bellmaus" source="blumenberg" target="bellmaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="blumenberg|piepenbrink" source="blumenberg" target="piepenbrink">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="blumenberg|frau_piepenbrink" source="blumenberg" target="frau_piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blumenberg|kleinmichel" source="blumenberg" target="kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blumenberg|fritz_kleinmichel" source="blumenberg" target="fritz_kleinmichel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="blumenberg|berta" source="blumenberg" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blumenberg|maennerchor" source="blumenberg" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmock|adelheid" source="schmock" target="adelheid">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schmock|korb" source="schmock" target="korb">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schmock|gast" source="schmock" target="gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmock|henning" source="schmock" target="henning">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmock|bolz" source="schmock" target="bolz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmock|kaempe" source="schmock" target="kaempe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmock|bellmaus" source="schmock" target="bellmaus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmock|piepenbrink" source="schmock" target="piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmock|frau_piepenbrink" source="schmock" target="frau_piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmock|kleinmichel" source="schmock" target="kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmock|fritz_kleinmichel" source="schmock" target="fritz_kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmock|berta" source="schmock" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelheid|korb" source="adelheid" target="korb">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="adelheid|gast" source="adelheid" target="gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelheid|henning" source="adelheid" target="henning">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelheid|bolz" source="adelheid" target="bolz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="adelheid|kaempe" source="adelheid" target="kaempe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adelheid|bellmaus" source="adelheid" target="bellmaus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="adelheid|piepenbrink" source="adelheid" target="piepenbrink">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adelheid|frau_piepenbrink" source="adelheid" target="frau_piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelheid|kleinmichel" source="adelheid" target="kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelheid|fritz_kleinmichel" source="adelheid" target="fritz_kleinmichel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adelheid|berta" source="adelheid" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelheid|maennerchor" source="adelheid" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelheid|mueller" source="adelheid" target="mueller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelheid|koerner" source="adelheid" target="koerner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelheid|schwarz" source="adelheid" target="schwarz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="korb|bolz" source="korb" target="bolz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="korb|mueller" source="korb" target="mueller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="korb|bellmaus" source="korb" target="bellmaus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="korb|kaempe" source="korb" target="kaempe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="korb|henning" source="korb" target="henning">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="korb|pavoni" source="korb" target="pavoni">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="korb|gast" source="korb" target="gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="korb|piepenbrink" source="korb" target="piepenbrink">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="korb|frau_piepenbrink" source="korb" target="frau_piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="korb|kleinmichel" source="korb" target="kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="korb|fritz_kleinmichel" source="korb" target="fritz_kleinmichel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="korb|berta" source="korb" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="korb|maennerchor" source="korb" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bolz|mueller" source="bolz" target="mueller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bolz|bellmaus" source="bolz" target="bellmaus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bolz|kaempe" source="bolz" target="kaempe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bolz|henning" source="bolz" target="henning">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bolz|pavoni" source="bolz" target="pavoni">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bolz|gast" source="bolz" target="gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bolz|piepenbrink" source="bolz" target="piepenbrink">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bolz|frau_piepenbrink" source="bolz" target="frau_piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bolz|kleinmichel" source="bolz" target="kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bolz|fritz_kleinmichel" source="bolz" target="fritz_kleinmichel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bolz|berta" source="bolz" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bolz|maennerchor" source="bolz" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bolz|koerner" source="bolz" target="koerner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bolz|schwarz" source="bolz" target="schwarz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|bellmaus" source="mueller" target="bellmaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mueller|kaempe" source="mueller" target="kaempe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mueller|henning" source="mueller" target="henning">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|pavoni" source="mueller" target="pavoni">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|koerner" source="mueller" target="koerner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|schwarz" source="mueller" target="schwarz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellmaus|kaempe" source="bellmaus" target="kaempe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bellmaus|henning" source="bellmaus" target="henning">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bellmaus|pavoni" source="bellmaus" target="pavoni">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellmaus|gast" source="bellmaus" target="gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellmaus|piepenbrink" source="bellmaus" target="piepenbrink">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bellmaus|frau_piepenbrink" source="bellmaus" target="frau_piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellmaus|kleinmichel" source="bellmaus" target="kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellmaus|fritz_kleinmichel" source="bellmaus" target="fritz_kleinmichel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bellmaus|berta" source="bellmaus" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellmaus|maennerchor" source="bellmaus" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellmaus|koerner" source="bellmaus" target="koerner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bellmaus|schwarz" source="bellmaus" target="schwarz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaempe|henning" source="kaempe" target="henning">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaempe|pavoni" source="kaempe" target="pavoni">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaempe|gast" source="kaempe" target="gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaempe|piepenbrink" source="kaempe" target="piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaempe|frau_piepenbrink" source="kaempe" target="frau_piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaempe|kleinmichel" source="kaempe" target="kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaempe|fritz_kleinmichel" source="kaempe" target="fritz_kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaempe|berta" source="kaempe" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaempe|koerner" source="kaempe" target="koerner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaempe|schwarz" source="kaempe" target="schwarz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="henning|pavoni" source="henning" target="pavoni">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="henning|gast" source="henning" target="gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="henning|piepenbrink" source="henning" target="piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="henning|frau_piepenbrink" source="henning" target="frau_piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="henning|kleinmichel" source="henning" target="kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="henning|fritz_kleinmichel" source="henning" target="fritz_kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="henning|berta" source="henning" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gast|piepenbrink" source="gast" target="piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gast|frau_piepenbrink" source="gast" target="frau_piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gast|kleinmichel" source="gast" target="kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gast|fritz_kleinmichel" source="gast" target="fritz_kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gast|berta" source="gast" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="piepenbrink|frau_piepenbrink" source="piepenbrink" target="frau_piepenbrink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="piepenbrink|kleinmichel" source="piepenbrink" target="kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="piepenbrink|fritz_kleinmichel" source="piepenbrink" target="fritz_kleinmichel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="piepenbrink|berta" source="piepenbrink" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="piepenbrink|maennerchor" source="piepenbrink" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_piepenbrink|kleinmichel" source="frau_piepenbrink" target="kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_piepenbrink|fritz_kleinmichel" source="frau_piepenbrink" target="fritz_kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_piepenbrink|berta" source="frau_piepenbrink" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kleinmichel|fritz_kleinmichel" source="kleinmichel" target="fritz_kleinmichel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kleinmichel|berta" source="kleinmichel" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz_kleinmichel|berta" source="fritz_kleinmichel" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz_kleinmichel|maennerchor" source="fritz_kleinmichel" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koerner|schwarz" source="koerner" target="schwarz">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

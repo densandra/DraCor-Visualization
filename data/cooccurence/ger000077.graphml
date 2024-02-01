@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="speth">
+            <data key="label">Speth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3181</data>
+        </node>
+        <node id="frau_speth">
+            <data key="label">Frau Speth</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">801</data>
+        </node>
+        <node id="willibald">
+            <data key="label">Willibald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1997</data>
+        </node>
+        <node id="ein_diener">
+            <data key="label">Ein Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">51</data>
+        </node>
+        <node id="ida">
+            <data key="label">Ida</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">603</data>
+        </node>
+        <node id="claudine">
+            <data key="label">Claudine Briesen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1823</data>
+        </node>
+        <node id="frau_von_austen">
+            <data key="label">Frau von Austen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">493</data>
+        </node>
+        <node id="sonderrath">
+            <data key="label">Sonderrath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1473</data>
+        </node>
+        <node id="seybold">
+            <data key="label">Seybold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1061</data>
+        </node>
+        <node id="frau_von_thielen">
+            <data key="label">Frau von Thielen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">84</data>
+        </node>
+        <edge id="speth|frau_speth" source="speth" target="frau_speth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="speth|willibald" source="speth" target="willibald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="speth|ein_diener" source="speth" target="ein_diener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="speth|sonderrath" source="speth" target="sonderrath">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="speth|ida" source="speth" target="ida">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="speth|seybold" source="speth" target="seybold">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="speth|frau_von_thielen" source="speth" target="frau_von_thielen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willibald|ein_diener" source="willibald" target="ein_diener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="willibald|ida" source="willibald" target="ida">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="willibald|claudine" source="willibald" target="claudine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="willibald|frau_von_austen" source="willibald" target="frau_von_austen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="willibald|sonderrath" source="willibald" target="sonderrath">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="willibald|seybold" source="willibald" target="seybold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener|sonderrath" source="ein_diener" target="sonderrath">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener|ida" source="ein_diener" target="ida">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener|claudine" source="ein_diener" target="claudine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener|frau_von_austen" source="ein_diener" target="frau_von_austen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener|seybold" source="ein_diener" target="seybold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ida|claudine" source="ida" target="claudine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ida|frau_von_austen" source="ida" target="frau_von_austen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ida|sonderrath" source="ida" target="sonderrath">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ida|seybold" source="ida" target="seybold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="claudine|frau_von_austen" source="claudine" target="frau_von_austen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="claudine|sonderrath" source="claudine" target="sonderrath">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="claudine|seybold" source="claudine" target="seybold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_austen|sonderrath" source="frau_von_austen" target="sonderrath">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_von_austen|seybold" source="frau_von_austen" target="seybold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sonderrath|seybold" source="sonderrath" target="seybold">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="seybold|frau_von_thielen" source="seybold" target="frau_von_thielen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

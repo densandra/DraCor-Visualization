@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="linares">
+            <data key="label">Linares</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">889</data>
+        </node>
+        <node id="jeronimo">
+            <data key="label">Jeronimo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3833</data>
+        </node>
+        <node id="maria">
+            <data key="label">Maria</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3394</data>
+        </node>
+        <node id="balboa">
+            <data key="label">Balboa</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4085</data>
+        </node>
+        <node id="pedrarias">
+            <data key="label">Pedrarias</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2539</data>
+        </node>
+        <node id="eskimosa">
+            <data key="label">Eskimosa</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">700</data>
+        </node>
+        <node id="alle_1-5">
+            <data key="label">Alle (I/5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="bothe">
+            <data key="label">Bothe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="pinto">
+            <data key="label">Pinto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">229</data>
+        </node>
+        <node id="alle_2-5">
+            <data key="label">Alle (II/5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="suligo">
+            <data key="label">Suligo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="almes">
+            <data key="label">Almes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">86</data>
+        </node>
+        <node id="medina">
+            <data key="label">Medina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">70</data>
+        </node>
+        <node id="volk">
+            <data key="label">Volk</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="einer_der_richter">
+            <data key="label">Einer der Richter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <edge id="linares|jeronimo" source="linares" target="jeronimo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="linares|balboa" source="linares" target="balboa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="linares|pedrarias" source="linares" target="pedrarias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="linares|maria" source="linares" target="maria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="linares|alle_2-5" source="linares" target="alle_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="linares|suligo" source="linares" target="suligo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="linares|almes" source="linares" target="almes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jeronimo|maria" source="jeronimo" target="maria">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="jeronimo|balboa" source="jeronimo" target="balboa">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="jeronimo|pedrarias" source="jeronimo" target="pedrarias">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jeronimo|volk" source="jeronimo" target="volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jeronimo|einer_der_richter" source="jeronimo" target="einer_der_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jeronimo|eskimosa" source="jeronimo" target="eskimosa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maria|balboa" source="maria" target="balboa">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="maria|pedrarias" source="maria" target="pedrarias">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="maria|eskimosa" source="maria" target="eskimosa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maria|alle_1-5" source="maria" target="alle_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maria|bothe" source="maria" target="bothe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maria|alle_2-5" source="maria" target="alle_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maria|medina" source="maria" target="medina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="balboa|pedrarias" source="balboa" target="pedrarias">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="balboa|eskimosa" source="balboa" target="eskimosa">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="balboa|alle_1-5" source="balboa" target="alle_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="balboa|bothe" source="balboa" target="bothe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="balboa|alle_2-5" source="balboa" target="alle_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="balboa|volk" source="balboa" target="volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="balboa|einer_der_richter" source="balboa" target="einer_der_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pedrarias|eskimosa" source="pedrarias" target="eskimosa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pedrarias|alle_1-5" source="pedrarias" target="alle_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pedrarias|bothe" source="pedrarias" target="bothe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pedrarias|pinto" source="pedrarias" target="pinto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pedrarias|alle_2-5" source="pedrarias" target="alle_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pedrarias|volk" source="pedrarias" target="volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pedrarias|einer_der_richter" source="pedrarias" target="einer_der_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eskimosa|alle_1-5" source="eskimosa" target="alle_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eskimosa|bothe" source="eskimosa" target="bothe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-5|bothe" source="alle_1-5" target="bothe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="suligo|almes" source="suligo" target="almes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|einer_der_richter" source="volk" target="einer_der_richter">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

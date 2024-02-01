@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="sarazenenkoenig">
+            <data key="label">Sarazenenkönig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="grisaldo">
+            <data key="label">Grisaldo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="almerine">
+            <data key="label">Almerine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="malvizino">
+            <data key="label">Malvizino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ballona">
+            <data key="label">Ballona</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="prinz_zifaldo">
+            <data key="label">Prinz Zifaldo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kastilier">
+            <data key="label">Die Kastilier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="curio">
+            <data key="label">Curio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="infantin">
+            <data key="label">Infantin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lilla">
+            <data key="label">Lilla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bastiano">
+            <data key="label">Bastiano</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="don_fernando">
+            <data key="label">Don Fernando</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="truffaldino">
+            <data key="label">Truffaldino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="koenig">
+            <data key="label">König von Kastilien</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="saluzzo">
+            <data key="label">Saluzzo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_aragonier">
+            <data key="label">1. Aragonier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="isabella">
+            <data key="label">Isabella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_mann_5-1a">
+            <data key="label">Ein Mann (V/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einer_von_den_maennern_5-1b">
+            <data key="label">Einer von den Männern (V/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_mann_5-1c">
+            <data key="label">Ein Mann (V/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="koenig" target="infantin">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="sarazenenkoenig" target="prinz_zifaldo">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="sarazenenkoenig" target="almerine">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="don_fernando" target="bastiano">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="don_fernando" target="lilla">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="kastilier" target="koenig">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

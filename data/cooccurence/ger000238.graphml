@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="kandaules">
+            <data key="label">Kandaules</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4399</data>
+        </node>
+        <node id="thoas">
+            <data key="label">Thoas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1282</data>
+        </node>
+        <node id="gyges">
+            <data key="label">Gyges</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4781</data>
+        </node>
+        <node id="rhodope">
+            <data key="label">Rhodope</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3494</data>
+        </node>
+        <node id="hero">
+            <data key="label">Hero</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">416</data>
+        </node>
+        <node id="lesbia">
+            <data key="label">Lesbia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">550</data>
+        </node>
+        <node id="volk">
+            <data key="label">Volk</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="ein_diener">
+            <data key="label">Ein Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="karna">
+            <data key="label">Karna</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <edge id="kandaules|thoas" source="kandaules" target="thoas">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kandaules|gyges" source="kandaules" target="gyges">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kandaules|rhodope" source="kandaules" target="rhodope">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kandaules|hero" source="kandaules" target="hero">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kandaules|lesbia" source="kandaules" target="lesbia">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kandaules|volk" source="kandaules" target="volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kandaules|ein_diener" source="kandaules" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kandaules|karna" source="kandaules" target="karna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thoas|gyges" source="thoas" target="gyges">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="thoas|rhodope" source="thoas" target="rhodope">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thoas|hero" source="thoas" target="hero">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thoas|lesbia" source="thoas" target="lesbia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="thoas|volk" source="thoas" target="volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thoas|ein_diener" source="thoas" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thoas|karna" source="thoas" target="karna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gyges|rhodope" source="gyges" target="rhodope">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gyges|hero" source="gyges" target="hero">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gyges|lesbia" source="gyges" target="lesbia">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gyges|volk" source="gyges" target="volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gyges|ein_diener" source="gyges" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gyges|karna" source="gyges" target="karna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rhodope|hero" source="rhodope" target="hero">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rhodope|lesbia" source="rhodope" target="lesbia">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="rhodope|volk" source="rhodope" target="volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rhodope|ein_diener" source="rhodope" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rhodope|karna" source="rhodope" target="karna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hero|lesbia" source="hero" target="lesbia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hero|volk" source="hero" target="volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hero|ein_diener" source="hero" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hero|karna" source="hero" target="karna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lesbia|volk" source="lesbia" target="volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lesbia|ein_diener" source="lesbia" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lesbia|karna" source="lesbia" target="karna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="volk|ein_diener" source="volk" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|karna" source="volk" target="karna">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

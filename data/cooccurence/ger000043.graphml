@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="theobald">
+            <data key="label">Theobald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1169</data>
+        </node>
+        <node id="agnes">
+            <data key="label">Agnes</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3524</data>
+        </node>
+        <node id="knippeldollinger">
+            <data key="label">Knippeldollinger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">380</data>
+        </node>
+        <node id="barbara">
+            <data key="label">Barbara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">453</data>
+        </node>
+        <node id="caspar_bernauer">
+            <data key="label">Caspar Bernauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1512</data>
+        </node>
+        <node id="albrecht">
+            <data key="label">Albrecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4808</data>
+        </node>
+        <node id="buergermeister">
+            <data key="label">Bürgermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">302</data>
+        </node>
+        <node id="nothhafft_von_wernberg">
+            <data key="label">Nothhafft von Wernberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">585</data>
+        </node>
+        <node id="frauenhoven">
+            <data key="label">Rolf von Frauenhoven</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">566</data>
+        </node>
+        <node id="toerring">
+            <data key="label">Törring</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1216</data>
+        </node>
+        <node id="ein_knappe">
+            <data key="label">Ein Knappe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="martha">
+            <data key="label">Martha</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="ernst">
+            <data key="label">Ernst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4456</data>
+        </node>
+        <node id="stachus">
+            <data key="label">Stachus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">233</data>
+        </node>
+        <node id="preising">
+            <data key="label">Preising</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2398</data>
+        </node>
+        <node id="kastellan">
+            <data key="label">Kastellan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">199</data>
+        </node>
+        <node id="marschall_von_pappenheim">
+            <data key="label">Marschall von Pappenheim</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">196</data>
+        </node>
+        <node id="pienzenau">
+            <data key="label">Pienzenau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="otto_von_bern">
+            <data key="label">Otto von Bern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="ignaz_von_seyboltstorff">
+            <data key="label">Ignaz von Seyboltstorff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="schildknapp">
+            <data key="label">Ein Schildknapp</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="hans_von_laeubelfing">
+            <data key="label">Hans von Läubelfing</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="der_kastellan">
+            <data key="label">Der Kastellan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">54</data>
+        </node>
+        <node id="die_knechte">
+            <data key="label">Die Knechte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="die_reisigen">
+            <data key="label">Die Reisigen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="emeran_nusperger_zu_kalmperg">
+            <data key="label">Emeran Nusperger zu Kalmperg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="ein_haescher">
+            <data key="label">Ein Häscher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="einige_andere_alle_stimmen">
+            <data key="label">Einige/Andere/Alle/Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="der_herold">
+            <data key="label">Der Herold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">239</data>
+        </node>
+        <node id="die_ritter">
+            <data key="label">Die Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="der_legat">
+            <data key="label">Der Legat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <edge id="theobald|agnes" source="theobald" target="agnes">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="theobald|knippeldollinger" source="theobald" target="knippeldollinger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="theobald|barbara" source="theobald" target="barbara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theobald|caspar_bernauer" source="theobald" target="caspar_bernauer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="theobald|toerring" source="theobald" target="toerring">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="theobald|der_kastellan" source="theobald" target="der_kastellan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theobald|marschall_von_pappenheim" source="theobald" target="marschall_von_pappenheim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="theobald|die_knechte" source="theobald" target="die_knechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theobald|die_reisigen" source="theobald" target="die_reisigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theobald|preising" source="theobald" target="preising">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theobald|albrecht" source="theobald" target="albrecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theobald|nothhafft_von_wernberg" source="theobald" target="nothhafft_von_wernberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theobald|frauenhoven" source="theobald" target="frauenhoven">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|knippeldollinger" source="agnes" target="knippeldollinger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="agnes|barbara" source="agnes" target="barbara">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agnes|caspar_bernauer" source="agnes" target="caspar_bernauer">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="agnes|albrecht" source="agnes" target="albrecht">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="agnes|nothhafft_von_wernberg" source="agnes" target="nothhafft_von_wernberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agnes|frauenhoven" source="agnes" target="frauenhoven">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agnes|toerring" source="agnes" target="toerring">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="agnes|martha" source="agnes" target="martha">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|buergermeister" source="agnes" target="buergermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|kastellan" source="agnes" target="kastellan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|der_kastellan" source="agnes" target="der_kastellan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|marschall_von_pappenheim" source="agnes" target="marschall_von_pappenheim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|die_knechte" source="agnes" target="die_knechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|die_reisigen" source="agnes" target="die_reisigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|preising" source="agnes" target="preising">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="agnes|emeran_nusperger_zu_kalmperg" source="agnes" target="emeran_nusperger_zu_kalmperg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|ein_haescher" source="agnes" target="ein_haescher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knippeldollinger|caspar_bernauer" source="knippeldollinger" target="caspar_bernauer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="knippeldollinger|albrecht" source="knippeldollinger" target="albrecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knippeldollinger|nothhafft_von_wernberg" source="knippeldollinger" target="nothhafft_von_wernberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knippeldollinger|frauenhoven" source="knippeldollinger" target="frauenhoven">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knippeldollinger|toerring" source="knippeldollinger" target="toerring">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knippeldollinger|barbara" source="knippeldollinger" target="barbara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knippeldollinger|martha" source="knippeldollinger" target="martha">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knippeldollinger|buergermeister" source="knippeldollinger" target="buergermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barbara|albrecht" source="barbara" target="albrecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barbara|nothhafft_von_wernberg" source="barbara" target="nothhafft_von_wernberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barbara|frauenhoven" source="barbara" target="frauenhoven">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barbara|toerring" source="barbara" target="toerring">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barbara|caspar_bernauer" source="barbara" target="caspar_bernauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barbara|martha" source="barbara" target="martha">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barbara|buergermeister" source="barbara" target="buergermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caspar_bernauer|albrecht" source="caspar_bernauer" target="albrecht">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="caspar_bernauer|nothhafft_von_wernberg" source="caspar_bernauer" target="nothhafft_von_wernberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="caspar_bernauer|frauenhoven" source="caspar_bernauer" target="frauenhoven">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="caspar_bernauer|toerring" source="caspar_bernauer" target="toerring">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="caspar_bernauer|martha" source="caspar_bernauer" target="martha">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caspar_bernauer|buergermeister" source="caspar_bernauer" target="buergermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|buergermeister" source="albrecht" target="buergermeister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="albrecht|nothhafft_von_wernberg" source="albrecht" target="nothhafft_von_wernberg">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="albrecht|frauenhoven" source="albrecht" target="frauenhoven">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="albrecht|toerring" source="albrecht" target="toerring">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="albrecht|ein_knappe" source="albrecht" target="ein_knappe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|martha" source="albrecht" target="martha">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|kastellan" source="albrecht" target="kastellan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albrecht|preising" source="albrecht" target="preising">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="albrecht|ernst" source="albrecht" target="ernst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="albrecht|marschall_von_pappenheim" source="albrecht" target="marschall_von_pappenheim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albrecht|pienzenau" source="albrecht" target="pienzenau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|otto_von_bern" source="albrecht" target="otto_von_bern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|ignaz_von_seyboltstorff" source="albrecht" target="ignaz_von_seyboltstorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|schildknapp" source="albrecht" target="schildknapp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|hans_von_laeubelfing" source="albrecht" target="hans_von_laeubelfing">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|einige_andere_alle_stimmen" source="albrecht" target="einige_andere_alle_stimmen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albrecht|der_herold" source="albrecht" target="der_herold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|die_ritter" source="albrecht" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|die_reisigen" source="albrecht" target="die_reisigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|der_legat" source="albrecht" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buergermeister|nothhafft_von_wernberg" source="buergermeister" target="nothhafft_von_wernberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="buergermeister|frauenhoven" source="buergermeister" target="frauenhoven">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="buergermeister|toerring" source="buergermeister" target="toerring">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="buergermeister|martha" source="buergermeister" target="martha">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nothhafft_von_wernberg|frauenhoven" source="nothhafft_von_wernberg" target="frauenhoven">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="nothhafft_von_wernberg|toerring" source="nothhafft_von_wernberg" target="toerring">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="nothhafft_von_wernberg|ein_knappe" source="nothhafft_von_wernberg" target="ein_knappe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nothhafft_von_wernberg|martha" source="nothhafft_von_wernberg" target="martha">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nothhafft_von_wernberg|kastellan" source="nothhafft_von_wernberg" target="kastellan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nothhafft_von_wernberg|marschall_von_pappenheim" source="nothhafft_von_wernberg" target="marschall_von_pappenheim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nothhafft_von_wernberg|der_herold" source="nothhafft_von_wernberg" target="der_herold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nothhafft_von_wernberg|die_ritter" source="nothhafft_von_wernberg" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nothhafft_von_wernberg|preising" source="nothhafft_von_wernberg" target="preising">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nothhafft_von_wernberg|ernst" source="nothhafft_von_wernberg" target="ernst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nothhafft_von_wernberg|einige_andere_alle_stimmen" source="nothhafft_von_wernberg" target="einige_andere_alle_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nothhafft_von_wernberg|die_reisigen" source="nothhafft_von_wernberg" target="die_reisigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nothhafft_von_wernberg|der_legat" source="nothhafft_von_wernberg" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauenhoven|toerring" source="frauenhoven" target="toerring">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frauenhoven|ein_knappe" source="frauenhoven" target="ein_knappe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauenhoven|martha" source="frauenhoven" target="martha">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauenhoven|marschall_von_pappenheim" source="frauenhoven" target="marschall_von_pappenheim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauenhoven|der_herold" source="frauenhoven" target="der_herold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauenhoven|die_ritter" source="frauenhoven" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauenhoven|preising" source="frauenhoven" target="preising">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauenhoven|ernst" source="frauenhoven" target="ernst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauenhoven|einige_andere_alle_stimmen" source="frauenhoven" target="einige_andere_alle_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauenhoven|die_reisigen" source="frauenhoven" target="die_reisigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauenhoven|der_legat" source="frauenhoven" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toerring|ein_knappe" source="toerring" target="ein_knappe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toerring|martha" source="toerring" target="martha">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toerring|marschall_von_pappenheim" source="toerring" target="marschall_von_pappenheim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toerring|die_knechte" source="toerring" target="die_knechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toerring|die_reisigen" source="toerring" target="die_reisigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toerring|preising" source="toerring" target="preising">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|stachus" source="ernst" target="stachus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernst|preising" source="ernst" target="preising">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ernst|marschall_von_pappenheim" source="ernst" target="marschall_von_pappenheim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernst|pienzenau" source="ernst" target="pienzenau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernst|otto_von_bern" source="ernst" target="otto_von_bern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernst|ignaz_von_seyboltstorff" source="ernst" target="ignaz_von_seyboltstorff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernst|schildknapp" source="ernst" target="schildknapp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|hans_von_laeubelfing" source="ernst" target="hans_von_laeubelfing">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|einige_andere_alle_stimmen" source="ernst" target="einige_andere_alle_stimmen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernst|der_herold" source="ernst" target="der_herold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|die_ritter" source="ernst" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|die_reisigen" source="ernst" target="die_reisigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|der_legat" source="ernst" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stachus|preising" source="stachus" target="preising">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preising|marschall_von_pappenheim" source="preising" target="marschall_von_pappenheim">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="preising|pienzenau" source="preising" target="pienzenau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preising|otto_von_bern" source="preising" target="otto_von_bern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preising|ignaz_von_seyboltstorff" source="preising" target="ignaz_von_seyboltstorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preising|schildknapp" source="preising" target="schildknapp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preising|hans_von_laeubelfing" source="preising" target="hans_von_laeubelfing">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preising|die_knechte" source="preising" target="die_knechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preising|die_reisigen" source="preising" target="die_reisigen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="preising|emeran_nusperger_zu_kalmperg" source="preising" target="emeran_nusperger_zu_kalmperg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preising|ein_haescher" source="preising" target="ein_haescher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preising|der_herold" source="preising" target="der_herold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preising|die_ritter" source="preising" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preising|einige_andere_alle_stimmen" source="preising" target="einige_andere_alle_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preising|der_legat" source="preising" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschall_von_pappenheim|pienzenau" source="marschall_von_pappenheim" target="pienzenau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschall_von_pappenheim|otto_von_bern" source="marschall_von_pappenheim" target="otto_von_bern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschall_von_pappenheim|ignaz_von_seyboltstorff" source="marschall_von_pappenheim" target="ignaz_von_seyboltstorff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschall_von_pappenheim|schildknapp" source="marschall_von_pappenheim" target="schildknapp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschall_von_pappenheim|hans_von_laeubelfing" source="marschall_von_pappenheim" target="hans_von_laeubelfing">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschall_von_pappenheim|die_knechte" source="marschall_von_pappenheim" target="die_knechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschall_von_pappenheim|die_reisigen" source="marschall_von_pappenheim" target="die_reisigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pienzenau|otto_von_bern" source="pienzenau" target="otto_von_bern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pienzenau|ignaz_von_seyboltstorff" source="pienzenau" target="ignaz_von_seyboltstorff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pienzenau|schildknapp" source="pienzenau" target="schildknapp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pienzenau|hans_von_laeubelfing" source="pienzenau" target="hans_von_laeubelfing">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_bern|ignaz_von_seyboltstorff" source="otto_von_bern" target="ignaz_von_seyboltstorff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="otto_von_bern|schildknapp" source="otto_von_bern" target="schildknapp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto_von_bern|hans_von_laeubelfing" source="otto_von_bern" target="hans_von_laeubelfing">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ignaz_von_seyboltstorff|schildknapp" source="ignaz_von_seyboltstorff" target="schildknapp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ignaz_von_seyboltstorff|hans_von_laeubelfing" source="ignaz_von_seyboltstorff" target="hans_von_laeubelfing">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schildknapp|hans_von_laeubelfing" source="schildknapp" target="hans_von_laeubelfing">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_knechte|die_reisigen" source="die_knechte" target="die_reisigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_reisigen|der_herold" source="die_reisigen" target="der_herold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_reisigen|die_ritter" source="die_reisigen" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_reisigen|einige_andere_alle_stimmen" source="die_reisigen" target="einige_andere_alle_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_reisigen|der_legat" source="die_reisigen" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emeran_nusperger_zu_kalmperg|ein_haescher" source="emeran_nusperger_zu_kalmperg" target="ein_haescher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_andere_alle_stimmen|der_herold" source="einige_andere_alle_stimmen" target="der_herold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_andere_alle_stimmen|die_ritter" source="einige_andere_alle_stimmen" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_andere_alle_stimmen|der_legat" source="einige_andere_alle_stimmen" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_herold|die_ritter" source="der_herold" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_herold|der_legat" source="der_herold" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_ritter|der_legat" source="die_ritter" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

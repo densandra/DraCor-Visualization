@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="ambrosio">
+            <data key="label">Ambrosio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2236</data>
+        </node>
+        <node id="bartolino">
+            <data key="label">Bartolino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">773</data>
+        </node>
+        <node id="angiolina">
+            <data key="label">Angiolina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1122</data>
+        </node>
+        <node id="eine_stimme_von_draussen">
+            <data key="label">Eine Stimme von draußen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="sebastiano">
+            <data key="label">Sebastiano</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">460</data>
+        </node>
+        <node id="herr_gregorio">
+            <data key="label">Herr Gregorio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">856</data>
+        </node>
+        <node id="anselmo">
+            <data key="label">Anselmo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">430</data>
+        </node>
+        <node id="ein_soldat">
+            <data key="label">Ein Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="der_bauer">
+            <data key="label">Der Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">165</data>
+        </node>
+        <edge id="ambrosio|bartolino" source="ambrosio" target="bartolino">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ambrosio|angiolina" source="ambrosio" target="angiolina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ambrosio|eine_stimme_von_draussen" source="ambrosio" target="eine_stimme_von_draussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ambrosio|sebastiano" source="ambrosio" target="sebastiano">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ambrosio|herr_gregorio" source="ambrosio" target="herr_gregorio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ambrosio|anselmo" source="ambrosio" target="anselmo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ambrosio|ein_soldat" source="ambrosio" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ambrosio|der_bauer" source="ambrosio" target="der_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bartolino|angiolina" source="bartolino" target="angiolina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bartolino|eine_stimme_von_draussen" source="bartolino" target="eine_stimme_von_draussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bartolino|sebastiano" source="bartolino" target="sebastiano">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bartolino|herr_gregorio" source="bartolino" target="herr_gregorio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bartolino|anselmo" source="bartolino" target="anselmo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bartolino|ein_soldat" source="bartolino" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bartolino|der_bauer" source="bartolino" target="der_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="angiolina|eine_stimme_von_draussen" source="angiolina" target="eine_stimme_von_draussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sebastiano|herr_gregorio" source="sebastiano" target="herr_gregorio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sebastiano|anselmo" source="sebastiano" target="anselmo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sebastiano|ein_soldat" source="sebastiano" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sebastiano|der_bauer" source="sebastiano" target="der_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_gregorio|anselmo" source="herr_gregorio" target="anselmo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_gregorio|ein_soldat" source="herr_gregorio" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_gregorio|der_bauer" source="herr_gregorio" target="der_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anselmo|ein_soldat" source="anselmo" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anselmo|der_bauer" source="anselmo" target="der_bauer">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="hero">
+            <data key="label">Hero</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6342</data>
+        </node>
+        <node id="janthe">
+            <data key="label">Janthe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">805</data>
+        </node>
+        <node id="priester">
+            <data key="label">Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3476</data>
+        </node>
+        <node id="vater">
+            <data key="label">Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">235</data>
+        </node>
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">158</data>
+        </node>
+        <node id="der_sklave">
+            <data key="label">Der Sklave</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="naukleros">
+            <data key="label">Naukleros</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3102</data>
+        </node>
+        <node id="tempelhueter">
+            <data key="label">Tempelhüter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">816</data>
+        </node>
+        <node id="die_priester">
+            <data key="label">Die Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="das_volk">
+            <data key="label">Das Volk</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="leander">
+            <data key="label">Leander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1193</data>
+        </node>
+        <edge id="hero|janthe" source="hero" target="janthe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hero|priester" source="hero" target="priester">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hero|vater" source="hero" target="vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hero|mutter" source="hero" target="mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hero|der_sklave" source="hero" target="der_sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hero|naukleros" source="hero" target="naukleros">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hero|tempelhueter" source="hero" target="tempelhueter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hero|die_priester" source="hero" target="die_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hero|das_volk" source="hero" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hero|leander" source="hero" target="leander">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="janthe|priester" source="janthe" target="priester">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="janthe|vater" source="janthe" target="vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="janthe|mutter" source="janthe" target="mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="janthe|der_sklave" source="janthe" target="der_sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="janthe|naukleros" source="janthe" target="naukleros">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="janthe|tempelhueter" source="janthe" target="tempelhueter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="janthe|die_priester" source="janthe" target="die_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="janthe|das_volk" source="janthe" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="janthe|leander" source="janthe" target="leander">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="priester|vater" source="priester" target="vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="priester|mutter" source="priester" target="mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="priester|der_sklave" source="priester" target="der_sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="priester|naukleros" source="priester" target="naukleros">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="priester|tempelhueter" source="priester" target="tempelhueter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="priester|die_priester" source="priester" target="die_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="priester|das_volk" source="priester" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="priester|leander" source="priester" target="leander">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="vater|mutter" source="vater" target="mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vater|der_sklave" source="vater" target="der_sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vater|naukleros" source="vater" target="naukleros">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vater|tempelhueter" source="vater" target="tempelhueter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vater|die_priester" source="vater" target="die_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vater|das_volk" source="vater" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vater|leander" source="vater" target="leander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|der_sklave" source="mutter" target="der_sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|naukleros" source="mutter" target="naukleros">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|tempelhueter" source="mutter" target="tempelhueter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|die_priester" source="mutter" target="die_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|das_volk" source="mutter" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|leander" source="mutter" target="leander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_sklave|naukleros" source="der_sklave" target="naukleros">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_sklave|tempelhueter" source="der_sklave" target="tempelhueter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_sklave|die_priester" source="der_sklave" target="die_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_sklave|das_volk" source="der_sklave" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_sklave|leander" source="der_sklave" target="leander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="naukleros|tempelhueter" source="naukleros" target="tempelhueter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="naukleros|die_priester" source="naukleros" target="die_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="naukleros|das_volk" source="naukleros" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="naukleros|leander" source="naukleros" target="leander">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tempelhueter|die_priester" source="tempelhueter" target="die_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tempelhueter|das_volk" source="tempelhueter" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tempelhueter|leander" source="tempelhueter" target="leander">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_priester|das_volk" source="die_priester" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_priester|leander" source="die_priester" target="leander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_volk|leander" source="das_volk" target="leander">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

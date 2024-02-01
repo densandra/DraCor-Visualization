@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="laszlo">
+            <data key="label">Laszlo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">288</data>
+        </node>
+        <node id="maruschka">
+            <data key="label">Maruschka</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">674</data>
+        </node>
+        <node id="laszlos_vater">
+            <data key="label">Laszlos Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">58</data>
+        </node>
+        <node id="der_vater">
+            <data key="label">Der Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">247</data>
+        </node>
+        <node id="die_mutter">
+            <data key="label">Die Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">98</data>
+        </node>
+        <edge id="laszlo|maruschka" source="laszlo" target="maruschka">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="laszlo|laszlos_vater" source="laszlo" target="laszlos_vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laszlo|der_vater" source="laszlo" target="der_vater">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="laszlo|die_mutter" source="laszlo" target="die_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maruschka|laszlos_vater" source="maruschka" target="laszlos_vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maruschka|der_vater" source="maruschka" target="der_vater">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="maruschka|die_mutter" source="maruschka" target="die_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_vater|die_mutter" source="der_vater" target="die_mutter">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

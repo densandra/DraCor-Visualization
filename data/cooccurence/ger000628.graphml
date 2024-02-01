@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="gioconda">
+            <data key="label">Gioconda</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3440</data>
+        </node>
+        <node id="laurette">
+            <data key="label">Laurette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">124</data>
+        </node>
+        <node id="cotaldi">
+            <data key="label">Cotaldi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2593</data>
+        </node>
+        <node id="antonio">
+            <data key="label">Antonio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1312</data>
+        </node>
+        <node id="gianetta">
+            <data key="label">Gianetta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1293</data>
+        </node>
+        <node id="montano">
+            <data key="label">Montano</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1584</data>
+        </node>
+        <node id="pietro">
+            <data key="label">Pietro</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <node id="arzt">
+            <data key="label">Arzt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">91</data>
+        </node>
+        <edge id="gioconda|laurette" source="gioconda" target="laurette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gioconda|cotaldi" source="gioconda" target="cotaldi">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="gioconda|montano" source="gioconda" target="montano">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gioconda|antonio" source="gioconda" target="antonio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gioconda|gianetta" source="gioconda" target="gianetta">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="laurette|cotaldi" source="laurette" target="cotaldi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cotaldi|pietro" source="cotaldi" target="pietro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cotaldi|montano" source="cotaldi" target="montano">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cotaldi|antonio" source="cotaldi" target="antonio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cotaldi|gianetta" source="cotaldi" target="gianetta">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="antonio|gianetta" source="antonio" target="gianetta">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="antonio|montano" source="antonio" target="montano">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="antonio|arzt" source="antonio" target="arzt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gianetta|montano" source="gianetta" target="montano">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="gianetta|arzt" source="gianetta" target="arzt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="montano|pietro" source="montano" target="pietro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="montano|arzt" source="montano" target="arzt">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

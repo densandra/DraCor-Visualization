@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="chor_ganzer_chor_alle">
+            <data key="label">Chor/Ganzer Chor/Alle</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="hohepriester">
+            <data key="label">Hohepriester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sulamith">
+            <data key="label">Sulamith</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_der_maedchen_frauen_frauenchor">
+            <data key="label">Chor der Mädchen/Chor der Frauen/Frauenchor</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="assad">
+            <data key="label">Assad</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="baal-haanan">
+            <data key="label">Baal-Haanan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="salomon">
+            <data key="label">Salomon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="koenigin">
+            <data key="label">Königin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="astaroth">
+            <data key="label">Astaroth</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tempelwaechter">
+            <data key="label">Tempelwächter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_der_saenger">
+            <data key="label">Chor der Sänger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_des_volkes_einzelne_stimmen">
+            <data key="label">Chor des Volkes/Einzelne Stimmen aus dem Volke</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_der_priester">
+            <data key="label">Chor der Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="leviten">
+            <data key="label">Leviten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="hohepriester" target="sulamith">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="astaroth" target="koenigin">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

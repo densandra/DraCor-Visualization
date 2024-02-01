@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="diener_nureddins">
+            <data key="label">Diener Nureddins/Chor der Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">455</data>
+        </node>
+        <node id="nureddin">
+            <data key="label">Nureddin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1534</data>
+        </node>
+        <node id="bostana">
+            <data key="label">Bostana</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">644</data>
+        </node>
+        <node id="abul">
+            <data key="label">Abul</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1507</data>
+        </node>
+        <node id="margiana">
+            <data key="label">Margiana</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">385</data>
+        </node>
+        <node id="kadi">
+            <data key="label">Kadi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">431</data>
+        </node>
+        <node id="erster_muezzin">
+            <data key="label">Erster Muezzin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="zweiter_muezzin">
+            <data key="label">Zweiter Muezzin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="dritter_muezzin">
+            <data key="label">Dritter Muezzin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="stimme_eines_sklaven">
+            <data key="label">Stimme eines Sklaven</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="stimmen">
+            <data key="label">Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="freunde_des_kadi">
+            <data key="label">Freunde des Kadi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">44</data>
+        </node>
+        <node id="klagefrauen">
+            <data key="label">Klagefrauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="bewohner_bagdads">
+            <data key="label">Bewohner Bagdads</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">41</data>
+        </node>
+        <node id="vier_bewaffnete">
+            <data key="label">Vier Bewaffnete</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="kalif">
+            <data key="label">Der Kalif</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">187</data>
+        </node>
+        <node id="chor_alle">
+            <data key="label">Chor/Alle</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">75</data>
+        </node>
+        <node id="maenner">
+            <data key="label">Männer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <edge id="diener_nureddins|nureddin" source="diener_nureddins" target="nureddin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="diener_nureddins|abul" source="diener_nureddins" target="abul">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="diener_nureddins|kadi" source="diener_nureddins" target="kadi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_nureddins|freunde_des_kadi" source="diener_nureddins" target="freunde_des_kadi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_nureddins|klagefrauen" source="diener_nureddins" target="klagefrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_nureddins|bewohner_bagdads" source="diener_nureddins" target="bewohner_bagdads">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nureddin|bostana" source="nureddin" target="bostana">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="nureddin|abul" source="nureddin" target="abul">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="nureddin|margiana" source="nureddin" target="margiana">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="nureddin|stimme_eines_sklaven" source="nureddin" target="stimme_eines_sklaven">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nureddin|stimmen" source="nureddin" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nureddin|kadi" source="nureddin" target="kadi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nureddin|chor_alle" source="nureddin" target="chor_alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nureddin|kalif" source="nureddin" target="kalif">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nureddin|klagefrauen" source="nureddin" target="klagefrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nureddin|maenner" source="nureddin" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bostana|margiana" source="bostana" target="margiana">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bostana|kadi" source="bostana" target="kadi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bostana|erster_muezzin" source="bostana" target="erster_muezzin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bostana|zweiter_muezzin" source="bostana" target="zweiter_muezzin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bostana|dritter_muezzin" source="bostana" target="dritter_muezzin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bostana|abul" source="bostana" target="abul">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bostana|stimme_eines_sklaven" source="bostana" target="stimme_eines_sklaven">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bostana|stimmen" source="bostana" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bostana|chor_alle" source="bostana" target="chor_alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bostana|kalif" source="bostana" target="kalif">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bostana|klagefrauen" source="bostana" target="klagefrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bostana|maenner" source="bostana" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abul|margiana" source="abul" target="margiana">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="abul|stimme_eines_sklaven" source="abul" target="stimme_eines_sklaven">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="abul|stimmen" source="abul" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abul|kadi" source="abul" target="kadi">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="abul|freunde_des_kadi" source="abul" target="freunde_des_kadi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abul|klagefrauen" source="abul" target="klagefrauen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="abul|bewohner_bagdads" source="abul" target="bewohner_bagdads">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abul|vier_bewaffnete" source="abul" target="vier_bewaffnete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abul|kalif" source="abul" target="kalif">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="abul|chor_alle" source="abul" target="chor_alle">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="abul|maenner" source="abul" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="margiana|kadi" source="margiana" target="kadi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="margiana|erster_muezzin" source="margiana" target="erster_muezzin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="margiana|zweiter_muezzin" source="margiana" target="zweiter_muezzin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="margiana|dritter_muezzin" source="margiana" target="dritter_muezzin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="margiana|stimme_eines_sklaven" source="margiana" target="stimme_eines_sklaven">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="margiana|stimmen" source="margiana" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="margiana|chor_alle" source="margiana" target="chor_alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="margiana|kalif" source="margiana" target="kalif">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="margiana|klagefrauen" source="margiana" target="klagefrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="margiana|maenner" source="margiana" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kadi|erster_muezzin" source="kadi" target="erster_muezzin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kadi|zweiter_muezzin" source="kadi" target="zweiter_muezzin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kadi|dritter_muezzin" source="kadi" target="dritter_muezzin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kadi|freunde_des_kadi" source="kadi" target="freunde_des_kadi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kadi|klagefrauen" source="kadi" target="klagefrauen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kadi|bewohner_bagdads" source="kadi" target="bewohner_bagdads">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kadi|vier_bewaffnete" source="kadi" target="vier_bewaffnete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kadi|kalif" source="kadi" target="kalif">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kadi|chor_alle" source="kadi" target="chor_alle">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kadi|maenner" source="kadi" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_muezzin|zweiter_muezzin" source="erster_muezzin" target="zweiter_muezzin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_muezzin|dritter_muezzin" source="erster_muezzin" target="dritter_muezzin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_muezzin|dritter_muezzin" source="zweiter_muezzin" target="dritter_muezzin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_eines_sklaven|stimmen" source="stimme_eines_sklaven" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freunde_des_kadi|klagefrauen" source="freunde_des_kadi" target="klagefrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freunde_des_kadi|bewohner_bagdads" source="freunde_des_kadi" target="bewohner_bagdads">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagefrauen|bewohner_bagdads" source="klagefrauen" target="bewohner_bagdads">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagefrauen|chor_alle" source="klagefrauen" target="chor_alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagefrauen|kalif" source="klagefrauen" target="kalif">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klagefrauen|maenner" source="klagefrauen" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vier_bewaffnete|kalif" source="vier_bewaffnete" target="kalif">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vier_bewaffnete|chor_alle" source="vier_bewaffnete" target="chor_alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kalif|chor_alle" source="kalif" target="chor_alle">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kalif|maenner" source="kalif" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_alle|maenner" source="chor_alle" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="madame_hammel">
+            <data key="label">Madame Hammel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kohlentraeger">
+            <data key="label">Kohlenträger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_hammel">
+            <data key="label">Herr Hammel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frenz">
+            <data key="label">Frenz</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_hannlapps">
+            <data key="label">Frau Hannlapps</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dorthee">
+            <data key="label">Dorthee</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lissbeth">
+            <data key="label">Lißbeth</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="susann">
+            <data key="label">Susann</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schwaebin">
+            <data key="label">Schwäbin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schmidt">
+            <data key="label">Schmidt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="herr_hammel" target="madame_hammel">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="frenz" target="herr_hammel">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="frenz" target="madame_hammel">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="frau_hannlapps" target="frenz">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

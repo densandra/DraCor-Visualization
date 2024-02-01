@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="langenberg">
+            <data key="label">Langenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">649</data>
+        </node>
+        <node id="constanze">
+            <data key="label">Constanze</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1609</data>
+        </node>
+        <node id="gustchen">
+            <data key="label">Gustchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">298</data>
+        </node>
+        <node id="backes">
+            <data key="label">Backes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">240</data>
+        </node>
+        <node id="hahnenbein">
+            <data key="label">Hahnenbein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">238</data>
+        </node>
+        <node id="moritz">
+            <data key="label">Moritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1546</data>
+        </node>
+        <node id="frau_greiner">
+            <data key="label">Frau Greiner</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">168</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">515</data>
+        </node>
+        <edge id="langenberg|constanze" source="langenberg" target="constanze">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="langenberg|gustchen" source="langenberg" target="gustchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="langenberg|moritz" source="langenberg" target="moritz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="langenberg|hauptmann" source="langenberg" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="langenberg|backes" source="langenberg" target="backes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="langenberg|hahnenbein" source="langenberg" target="hahnenbein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="constanze|gustchen" source="constanze" target="gustchen">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="constanze|backes" source="constanze" target="backes">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="constanze|hahnenbein" source="constanze" target="hahnenbein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="constanze|moritz" source="constanze" target="moritz">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="constanze|frau_greiner" source="constanze" target="frau_greiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="constanze|hauptmann" source="constanze" target="hauptmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gustchen|backes" source="gustchen" target="backes">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gustchen|hahnenbein" source="gustchen" target="hahnenbein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gustchen|moritz" source="gustchen" target="moritz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="gustchen|hauptmann" source="gustchen" target="hauptmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="backes|hahnenbein" source="backes" target="hahnenbein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="backes|moritz" source="backes" target="moritz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="backes|hauptmann" source="backes" target="hauptmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hahnenbein|moritz" source="hahnenbein" target="moritz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hahnenbein|hauptmann" source="hahnenbein" target="hauptmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="moritz|frau_greiner" source="moritz" target="frau_greiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="moritz|hauptmann" source="moritz" target="hauptmann">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

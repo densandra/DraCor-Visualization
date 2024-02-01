@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="dominik">
+            <data key="label">Dominik</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">117</data>
+        </node>
+        <node id="alle_1-1">
+            <data key="label">Alle (I/1)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="ein_kraemer">
+            <data key="label">Ein Krämer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <node id="frau_von_erbsenstein">
+            <data key="label">Frau von Erbsenstein</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1949</data>
+        </node>
+        <node id="nanett">
+            <data key="label">Nanett</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">89</data>
+        </node>
+        <node id="kauz">
+            <data key="label">Kauz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2750</data>
+        </node>
+        <node id="schnoferl">
+            <data key="label">Schnoferl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7120</data>
+        </node>
+        <node id="gigl">
+            <data key="label">Gigl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1463</data>
+        </node>
+        <node id="thekla">
+            <data key="label">Thekla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">582</data>
+        </node>
+        <node id="chor_der_gesellschaft">
+            <data key="label">Chor der Gesellschaft</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="rosalie">
+            <data key="label">Rosalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1053</data>
+        </node>
+        <node id="sabine">
+            <data key="label">Sabine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">601</data>
+        </node>
+        <node id="peppi">
+            <data key="label">Peppi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">175</data>
+        </node>
+        <node id="knoepfel">
+            <data key="label">Knöpfel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">275</data>
+        </node>
+        <node id="madame_storch">
+            <data key="label">Madame Storch</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">761</data>
+        </node>
+        <edge id="dominik|alle_1-1" source="dominik" target="alle_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dominik|ein_kraemer" source="dominik" target="ein_kraemer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dominik|frau_von_erbsenstein" source="dominik" target="frau_von_erbsenstein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dominik|kauz" source="dominik" target="kauz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dominik|schnoferl" source="dominik" target="schnoferl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dominik|nanett" source="dominik" target="nanett">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-1|ein_kraemer" source="alle_1-1" target="ein_kraemer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_erbsenstein|nanett" source="frau_von_erbsenstein" target="nanett">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_von_erbsenstein|kauz" source="frau_von_erbsenstein" target="kauz">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="frau_von_erbsenstein|schnoferl" source="frau_von_erbsenstein" target="schnoferl">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="frau_von_erbsenstein|gigl" source="frau_von_erbsenstein" target="gigl">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="frau_von_erbsenstein|thekla" source="frau_von_erbsenstein" target="thekla">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_erbsenstein|madame_storch" source="frau_von_erbsenstein" target="madame_storch">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_von_erbsenstein|peppi" source="frau_von_erbsenstein" target="peppi">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_von_erbsenstein|rosalie" source="frau_von_erbsenstein" target="rosalie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_erbsenstein|sabine" source="frau_von_erbsenstein" target="sabine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nanett|kauz" source="nanett" target="kauz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nanett|schnoferl" source="nanett" target="schnoferl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nanett|gigl" source="nanett" target="gigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nanett|thekla" source="nanett" target="thekla">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kauz|schnoferl" source="kauz" target="schnoferl">
+            <data key="weight">18</data>
+        </edge>
+        <edge id="kauz|gigl" source="kauz" target="gigl">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="kauz|thekla" source="kauz" target="thekla">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kauz|madame_storch" source="kauz" target="madame_storch">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="kauz|peppi" source="kauz" target="peppi">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="kauz|sabine" source="kauz" target="sabine">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="kauz|rosalie" source="kauz" target="rosalie">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="kauz|knoepfel" source="kauz" target="knoepfel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schnoferl|gigl" source="schnoferl" target="gigl">
+            <data key="weight">19</data>
+        </edge>
+        <edge id="schnoferl|thekla" source="schnoferl" target="thekla">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="schnoferl|chor_der_gesellschaft" source="schnoferl" target="chor_der_gesellschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schnoferl|knoepfel" source="schnoferl" target="knoepfel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schnoferl|madame_storch" source="schnoferl" target="madame_storch">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="schnoferl|rosalie" source="schnoferl" target="rosalie">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="schnoferl|sabine" source="schnoferl" target="sabine">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="schnoferl|peppi" source="schnoferl" target="peppi">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="gigl|thekla" source="gigl" target="thekla">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="gigl|peppi" source="gigl" target="peppi">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="gigl|rosalie" source="gigl" target="rosalie">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="gigl|sabine" source="gigl" target="sabine">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="gigl|madame_storch" source="gigl" target="madame_storch">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="gigl|knoepfel" source="gigl" target="knoepfel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thekla|madame_storch" source="thekla" target="madame_storch">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="thekla|rosalie" source="thekla" target="rosalie">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="thekla|sabine" source="thekla" target="sabine">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="thekla|knoepfel" source="thekla" target="knoepfel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thekla|peppi" source="thekla" target="peppi">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosalie|sabine" source="rosalie" target="sabine">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="rosalie|peppi" source="rosalie" target="peppi">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="rosalie|knoepfel" source="rosalie" target="knoepfel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="rosalie|madame_storch" source="rosalie" target="madame_storch">
+            <data key="weight">16</data>
+        </edge>
+        <edge id="sabine|peppi" source="sabine" target="peppi">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="sabine|knoepfel" source="sabine" target="knoepfel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sabine|madame_storch" source="sabine" target="madame_storch">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="peppi|knoepfel" source="peppi" target="knoepfel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="peppi|madame_storch" source="peppi" target="madame_storch">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="knoepfel|madame_storch" source="knoepfel" target="madame_storch">
+            <data key="weight">5</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="kneetschke">
+            <data key="label">Kneetschke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">591</data>
+        </node>
+        <node id="postbote">
+            <data key="label">Postbote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">88</data>
+        </node>
+        <node id="kathi">
+            <data key="label">Kathi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">298</data>
+        </node>
+        <node id="die_beiden_domestiken">
+            <data key="label">Die beiden Domestiken</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="papa">
+            <data key="label">Papa</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">280</data>
+        </node>
+        <node id="wladimir">
+            <data key="label">Wladimir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">241</data>
+        </node>
+        <node id="mama">
+            <data key="label">Mama</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">149</data>
+        </node>
+        <node id="geist">
+            <data key="label">Geist</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="onkel">
+            <data key="label">Onkel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">40</data>
+        </node>
+        <node id="tante">
+            <data key="label">Tante</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <edge id="kneetschke|postbote" source="kneetschke" target="postbote">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kneetschke|kathi" source="kneetschke" target="kathi">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kneetschke|die_beiden_domestiken" source="kneetschke" target="die_beiden_domestiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kneetschke|papa" source="kneetschke" target="papa">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kneetschke|wladimir" source="kneetschke" target="wladimir">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kneetschke|mama" source="kneetschke" target="mama">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kneetschke|geist" source="kneetschke" target="geist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kneetschke|onkel" source="kneetschke" target="onkel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kneetschke|tante" source="kneetschke" target="tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="postbote|kathi" source="postbote" target="kathi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="postbote|die_beiden_domestiken" source="postbote" target="die_beiden_domestiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="postbote|papa" source="postbote" target="papa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="postbote|wladimir" source="postbote" target="wladimir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="postbote|onkel" source="postbote" target="onkel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="postbote|tante" source="postbote" target="tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathi|die_beiden_domestiken" source="kathi" target="die_beiden_domestiken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathi|papa" source="kathi" target="papa">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kathi|wladimir" source="kathi" target="wladimir">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kathi|mama" source="kathi" target="mama">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kathi|geist" source="kathi" target="geist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathi|onkel" source="kathi" target="onkel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathi|tante" source="kathi" target="tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_beiden_domestiken|papa" source="die_beiden_domestiken" target="papa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_beiden_domestiken|wladimir" source="die_beiden_domestiken" target="wladimir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papa|wladimir" source="papa" target="wladimir">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="papa|mama" source="papa" target="mama">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="papa|geist" source="papa" target="geist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wladimir|mama" source="wladimir" target="mama">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wladimir|geist" source="wladimir" target="geist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mama|geist" source="mama" target="geist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="onkel|tante" source="onkel" target="tante">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

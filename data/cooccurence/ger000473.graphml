@@ -1,0 +1,929 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="barjac">
+            <data key="label">Barjac</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">109</data>
+        </node>
+        <node id="epinay">
+            <data key="label">Marquise d'Epinay</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">696</data>
+        </node>
+        <node id="grimm">
+            <data key="label">Grimm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">582</data>
+        </node>
+        <node id="holbach">
+            <data key="label">Baron von Holbach</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">287</data>
+        </node>
+        <node id="quinault">
+            <data key="label">Doris Quinault</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2499</data>
+        </node>
+        <node id="lambert">
+            <data key="label">Saint-Lambert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">525</data>
+        </node>
+        <node id="boufflers">
+            <data key="label">Marquise de Boufflers</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="gesellschaft_alle_die_anderen">
+            <data key="label">Gesellschaft/Alle/Alle Übrigen/Alles/Die Anderen (I/7–11)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="diener_1-7">
+            <data key="label">Diener (I/7)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="diderot">
+            <data key="label">Diderot</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">387</data>
+        </node>
+        <node id="narziss">
+            <data key="label">Narziß Rameau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3907</data>
+        </node>
+        <node id="dubarry">
+            <data key="label">Graf Dubarry</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">589</data>
+        </node>
+        <node id="choiseul">
+            <data key="label">Herzog von Choiseul-d'Amboise</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2865</data>
+        </node>
+        <node id="lakai">
+            <data key="label">Lakai</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="colette">
+            <data key="label">Colette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="terray">
+            <data key="label">Abbé Terray</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="silhouette">
+            <data key="label">Marquis Silhouette</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="maupeou">
+            <data key="label">Maupeou</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="erster_kavalier">
+            <data key="label">Erster Kavalier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="zweiter_kavalier">
+            <data key="label">Zweiter Kavalier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="pompadour">
+            <data key="label">Marquise de Pompadour</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2234</data>
+        </node>
+        <node id="erster_page">
+            <data key="label">Erster Page</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="zweiter_page">
+            <data key="label">Zweiter Page</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="sechs_hofdamen">
+            <data key="label">Sechs Hofdamen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="zwei_kammerdiener">
+            <data key="label">Zwei Kammerdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="wache">
+            <data key="label">Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="eine_dame">
+            <data key="label">Eine Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="conti">
+            <data key="label">Conti</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">154</data>
+        </node>
+        <node id="koenigin">
+            <data key="label">Königin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">621</data>
+        </node>
+        <node id="diener_4-1_und_4-2">
+            <data key="label">Diener (IV/1–2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="stimme_gardist">
+            <data key="label">Stimme (Gardist)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="stimme_posten">
+            <data key="label">Stimme (Posten)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="drei_hofdamen">
+            <data key="label">Drei Hofdamen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="ein_kavalier">
+            <data key="label">Ein Kavalier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="zwei_gardisten">
+            <data key="label">Zwei Gardisten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <edge id="barjac|epinay" source="barjac" target="epinay">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="barjac|grimm" source="barjac" target="grimm">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="barjac|holbach" source="barjac" target="holbach">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="barjac|quinault" source="barjac" target="quinault">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="barjac|lambert" source="barjac" target="lambert">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="barjac|boufflers" source="barjac" target="boufflers">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="barjac|gesellschaft_alle_die_anderen" source="barjac" target="gesellschaft_alle_die_anderen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="barjac|diener_1-7" source="barjac" target="diener_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barjac|diderot" source="barjac" target="diderot">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="barjac|narziss" source="barjac" target="narziss">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="epinay|grimm" source="epinay" target="grimm">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="epinay|holbach" source="epinay" target="holbach">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="epinay|boufflers" source="epinay" target="boufflers">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="epinay|gesellschaft_alle_die_anderen" source="epinay" target="gesellschaft_alle_die_anderen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="epinay|diener_1-7" source="epinay" target="diener_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epinay|lambert" source="epinay" target="lambert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="epinay|quinault" source="epinay" target="quinault">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="epinay|diderot" source="epinay" target="diderot">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="epinay|narziss" source="epinay" target="narziss">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="epinay|choiseul" source="epinay" target="choiseul">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="epinay|pompadour" source="epinay" target="pompadour">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="epinay|terray" source="epinay" target="terray">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="epinay|dubarry" source="epinay" target="dubarry">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="epinay|silhouette" source="epinay" target="silhouette">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="epinay|erster_page" source="epinay" target="erster_page">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="epinay|maupeou" source="epinay" target="maupeou">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="epinay|erster_kavalier" source="epinay" target="erster_kavalier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="epinay|zweiter_kavalier" source="epinay" target="zweiter_kavalier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="epinay|zweiter_page" source="epinay" target="zweiter_page">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="epinay|sechs_hofdamen" source="epinay" target="sechs_hofdamen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="epinay|zwei_kammerdiener" source="epinay" target="zwei_kammerdiener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="epinay|eine_dame" source="epinay" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grimm|holbach" source="grimm" target="holbach">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="grimm|boufflers" source="grimm" target="boufflers">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="grimm|gesellschaft_alle_die_anderen" source="grimm" target="gesellschaft_alle_die_anderen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="grimm|diener_1-7" source="grimm" target="diener_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grimm|lambert" source="grimm" target="lambert">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="grimm|quinault" source="grimm" target="quinault">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="grimm|diderot" source="grimm" target="diderot">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="grimm|narziss" source="grimm" target="narziss">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="holbach|quinault" source="holbach" target="quinault">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="holbach|lambert" source="holbach" target="lambert">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="holbach|boufflers" source="holbach" target="boufflers">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="holbach|gesellschaft_alle_die_anderen" source="holbach" target="gesellschaft_alle_die_anderen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="holbach|diener_1-7" source="holbach" target="diener_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="holbach|diderot" source="holbach" target="diderot">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="holbach|narziss" source="holbach" target="narziss">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="quinault|lambert" source="quinault" target="lambert">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="quinault|boufflers" source="quinault" target="boufflers">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="quinault|gesellschaft_alle_die_anderen" source="quinault" target="gesellschaft_alle_die_anderen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="quinault|diener_1-7" source="quinault" target="diener_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quinault|diderot" source="quinault" target="diderot">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="quinault|narziss" source="quinault" target="narziss">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="quinault|colette" source="quinault" target="colette">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="quinault|conti" source="quinault" target="conti">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="quinault|koenigin" source="quinault" target="koenigin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="quinault|diener_4-1_und_4-2" source="quinault" target="diener_4-1_und_4-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quinault|choiseul" source="quinault" target="choiseul">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="quinault|dubarry" source="quinault" target="dubarry">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="quinault|pompadour" source="quinault" target="pompadour">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="quinault|zwei_gardisten" source="quinault" target="zwei_gardisten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quinault|drei_hofdamen" source="quinault" target="drei_hofdamen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quinault|erster_page" source="quinault" target="erster_page">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quinault|zweiter_page" source="quinault" target="zweiter_page">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quinault|erster_kavalier" source="quinault" target="erster_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quinault|zweiter_kavalier" source="quinault" target="zweiter_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quinault|terray" source="quinault" target="terray">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quinault|maupeou" source="quinault" target="maupeou">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quinault|silhouette" source="quinault" target="silhouette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lambert|boufflers" source="lambert" target="boufflers">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lambert|gesellschaft_alle_die_anderen" source="lambert" target="gesellschaft_alle_die_anderen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lambert|diener_1-7" source="lambert" target="diener_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lambert|diderot" source="lambert" target="diderot">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lambert|narziss" source="lambert" target="narziss">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lambert|lakai" source="lambert" target="lakai">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lambert|choiseul" source="lambert" target="choiseul">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="lambert|conti" source="lambert" target="conti">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lambert|koenigin" source="lambert" target="koenigin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lambert|diener_4-1_und_4-2" source="lambert" target="diener_4-1_und_4-2">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lambert|pompadour" source="lambert" target="pompadour">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lambert|zwei_gardisten" source="lambert" target="zwei_gardisten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lambert|dubarry" source="lambert" target="dubarry">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lambert|drei_hofdamen" source="lambert" target="drei_hofdamen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lambert|erster_page" source="lambert" target="erster_page">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lambert|zweiter_page" source="lambert" target="zweiter_page">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lambert|erster_kavalier" source="lambert" target="erster_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lambert|zweiter_kavalier" source="lambert" target="zweiter_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lambert|terray" source="lambert" target="terray">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lambert|maupeou" source="lambert" target="maupeou">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lambert|silhouette" source="lambert" target="silhouette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boufflers|gesellschaft_alle_die_anderen" source="boufflers" target="gesellschaft_alle_die_anderen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="boufflers|diener_1-7" source="boufflers" target="diener_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boufflers|diderot" source="boufflers" target="diderot">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="boufflers|narziss" source="boufflers" target="narziss">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="boufflers|conti" source="boufflers" target="conti">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="boufflers|koenigin" source="boufflers" target="koenigin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="boufflers|diener_4-1_und_4-2" source="boufflers" target="diener_4-1_und_4-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boufflers|choiseul" source="boufflers" target="choiseul">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesellschaft_alle_die_anderen|diener_1-7" source="gesellschaft_alle_die_anderen" target="diener_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesellschaft_alle_die_anderen|diderot" source="gesellschaft_alle_die_anderen" target="diderot">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gesellschaft_alle_die_anderen|narziss" source="gesellschaft_alle_die_anderen" target="narziss">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="diderot|narziss" source="diderot" target="narziss">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="narziss|colette" source="narziss" target="colette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="narziss|choiseul" source="narziss" target="choiseul">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="narziss|pompadour" source="narziss" target="pompadour">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="narziss|zwei_gardisten" source="narziss" target="zwei_gardisten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="narziss|dubarry" source="narziss" target="dubarry">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="narziss|drei_hofdamen" source="narziss" target="drei_hofdamen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="narziss|erster_page" source="narziss" target="erster_page">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="narziss|zweiter_page" source="narziss" target="zweiter_page">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="narziss|erster_kavalier" source="narziss" target="erster_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="narziss|zweiter_kavalier" source="narziss" target="zweiter_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="narziss|terray" source="narziss" target="terray">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="narziss|maupeou" source="narziss" target="maupeou">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="narziss|silhouette" source="narziss" target="silhouette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dubarry|choiseul" source="dubarry" target="choiseul">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="dubarry|terray" source="dubarry" target="terray">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="dubarry|silhouette" source="dubarry" target="silhouette">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="dubarry|maupeou" source="dubarry" target="maupeou">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="dubarry|erster_kavalier" source="dubarry" target="erster_kavalier">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="dubarry|zweiter_kavalier" source="dubarry" target="zweiter_kavalier">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="dubarry|pompadour" source="dubarry" target="pompadour">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="dubarry|erster_page" source="dubarry" target="erster_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="dubarry|zweiter_page" source="dubarry" target="zweiter_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="dubarry|sechs_hofdamen" source="dubarry" target="sechs_hofdamen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dubarry|zwei_kammerdiener" source="dubarry" target="zwei_kammerdiener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dubarry|wache" source="dubarry" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dubarry|eine_dame" source="dubarry" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dubarry|drei_hofdamen" source="dubarry" target="drei_hofdamen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dubarry|ein_kavalier" source="dubarry" target="ein_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="choiseul|lakai" source="choiseul" target="lakai">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="choiseul|terray" source="choiseul" target="terray">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="choiseul|silhouette" source="choiseul" target="silhouette">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="choiseul|maupeou" source="choiseul" target="maupeou">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="choiseul|erster_kavalier" source="choiseul" target="erster_kavalier">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="choiseul|zweiter_kavalier" source="choiseul" target="zweiter_kavalier">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="choiseul|pompadour" source="choiseul" target="pompadour">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="choiseul|erster_page" source="choiseul" target="erster_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="choiseul|zweiter_page" source="choiseul" target="zweiter_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="choiseul|sechs_hofdamen" source="choiseul" target="sechs_hofdamen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="choiseul|zwei_kammerdiener" source="choiseul" target="zwei_kammerdiener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="choiseul|wache" source="choiseul" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="choiseul|eine_dame" source="choiseul" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="choiseul|koenigin" source="choiseul" target="koenigin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="choiseul|diener_4-1_und_4-2" source="choiseul" target="diener_4-1_und_4-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="choiseul|conti" source="choiseul" target="conti">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="choiseul|colette" source="choiseul" target="colette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="choiseul|stimme_gardist" source="choiseul" target="stimme_gardist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="choiseul|stimme_posten" source="choiseul" target="stimme_posten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="choiseul|drei_hofdamen" source="choiseul" target="drei_hofdamen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="choiseul|ein_kavalier" source="choiseul" target="ein_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="choiseul|zwei_gardisten" source="choiseul" target="zwei_gardisten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="terray|silhouette" source="terray" target="silhouette">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="terray|maupeou" source="terray" target="maupeou">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="terray|erster_kavalier" source="terray" target="erster_kavalier">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="terray|zweiter_kavalier" source="terray" target="zweiter_kavalier">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="terray|pompadour" source="terray" target="pompadour">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="terray|erster_page" source="terray" target="erster_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="terray|zweiter_page" source="terray" target="zweiter_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="terray|sechs_hofdamen" source="terray" target="sechs_hofdamen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="terray|zwei_kammerdiener" source="terray" target="zwei_kammerdiener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="terray|wache" source="terray" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="terray|drei_hofdamen" source="terray" target="drei_hofdamen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="terray|ein_kavalier" source="terray" target="ein_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="silhouette|maupeou" source="silhouette" target="maupeou">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="silhouette|erster_kavalier" source="silhouette" target="erster_kavalier">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="silhouette|zweiter_kavalier" source="silhouette" target="zweiter_kavalier">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="silhouette|pompadour" source="silhouette" target="pompadour">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="silhouette|erster_page" source="silhouette" target="erster_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="silhouette|zweiter_page" source="silhouette" target="zweiter_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="silhouette|sechs_hofdamen" source="silhouette" target="sechs_hofdamen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="silhouette|zwei_kammerdiener" source="silhouette" target="zwei_kammerdiener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="silhouette|wache" source="silhouette" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="silhouette|eine_dame" source="silhouette" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="silhouette|drei_hofdamen" source="silhouette" target="drei_hofdamen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="silhouette|ein_kavalier" source="silhouette" target="ein_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maupeou|erster_kavalier" source="maupeou" target="erster_kavalier">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="maupeou|zweiter_kavalier" source="maupeou" target="zweiter_kavalier">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="maupeou|pompadour" source="maupeou" target="pompadour">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="maupeou|erster_page" source="maupeou" target="erster_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="maupeou|zweiter_page" source="maupeou" target="zweiter_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="maupeou|sechs_hofdamen" source="maupeou" target="sechs_hofdamen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="maupeou|zwei_kammerdiener" source="maupeou" target="zwei_kammerdiener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="maupeou|wache" source="maupeou" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maupeou|eine_dame" source="maupeou" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maupeou|drei_hofdamen" source="maupeou" target="drei_hofdamen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maupeou|ein_kavalier" source="maupeou" target="ein_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_kavalier|zweiter_kavalier" source="erster_kavalier" target="zweiter_kavalier">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="erster_kavalier|pompadour" source="erster_kavalier" target="pompadour">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="erster_kavalier|erster_page" source="erster_kavalier" target="erster_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="erster_kavalier|zweiter_page" source="erster_kavalier" target="zweiter_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="erster_kavalier|sechs_hofdamen" source="erster_kavalier" target="sechs_hofdamen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_kavalier|zwei_kammerdiener" source="erster_kavalier" target="zwei_kammerdiener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_kavalier|wache" source="erster_kavalier" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_kavalier|drei_hofdamen" source="erster_kavalier" target="drei_hofdamen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_kavalier|ein_kavalier" source="erster_kavalier" target="ein_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_kavalier|pompadour" source="zweiter_kavalier" target="pompadour">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="zweiter_kavalier|erster_page" source="zweiter_kavalier" target="erster_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="zweiter_kavalier|zweiter_page" source="zweiter_kavalier" target="zweiter_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="zweiter_kavalier|sechs_hofdamen" source="zweiter_kavalier" target="sechs_hofdamen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweiter_kavalier|zwei_kammerdiener" source="zweiter_kavalier" target="zwei_kammerdiener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweiter_kavalier|wache" source="zweiter_kavalier" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_kavalier|drei_hofdamen" source="zweiter_kavalier" target="drei_hofdamen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_kavalier|ein_kavalier" source="zweiter_kavalier" target="ein_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pompadour|erster_page" source="pompadour" target="erster_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="pompadour|zweiter_page" source="pompadour" target="zweiter_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="pompadour|sechs_hofdamen" source="pompadour" target="sechs_hofdamen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pompadour|zwei_kammerdiener" source="pompadour" target="zwei_kammerdiener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pompadour|wache" source="pompadour" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pompadour|eine_dame" source="pompadour" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pompadour|stimme_gardist" source="pompadour" target="stimme_gardist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pompadour|stimme_posten" source="pompadour" target="stimme_posten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pompadour|drei_hofdamen" source="pompadour" target="drei_hofdamen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pompadour|ein_kavalier" source="pompadour" target="ein_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pompadour|zwei_gardisten" source="pompadour" target="zwei_gardisten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_page|zweiter_page" source="erster_page" target="zweiter_page">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="erster_page|sechs_hofdamen" source="erster_page" target="sechs_hofdamen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_page|zwei_kammerdiener" source="erster_page" target="zwei_kammerdiener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_page|wache" source="erster_page" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_page|drei_hofdamen" source="erster_page" target="drei_hofdamen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_page|ein_kavalier" source="erster_page" target="ein_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_page|sechs_hofdamen" source="zweiter_page" target="sechs_hofdamen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweiter_page|zwei_kammerdiener" source="zweiter_page" target="zwei_kammerdiener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweiter_page|wache" source="zweiter_page" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_page|drei_hofdamen" source="zweiter_page" target="drei_hofdamen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_page|ein_kavalier" source="zweiter_page" target="ein_kavalier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sechs_hofdamen|zwei_kammerdiener" source="sechs_hofdamen" target="zwei_kammerdiener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sechs_hofdamen|wache" source="sechs_hofdamen" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zwei_kammerdiener|wache" source="zwei_kammerdiener" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="conti|koenigin" source="conti" target="koenigin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="conti|diener_4-1_und_4-2" source="conti" target="diener_4-1_und_4-2">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenigin|diener_4-1_und_4-2" source="koenigin" target="diener_4-1_und_4-2">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stimme_gardist|stimme_posten" source="stimme_gardist" target="stimme_posten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_gardist|drei_hofdamen" source="stimme_gardist" target="drei_hofdamen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_posten|drei_hofdamen" source="stimme_posten" target="drei_hofdamen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drei_hofdamen|ein_kavalier" source="drei_hofdamen" target="ein_kavalier">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

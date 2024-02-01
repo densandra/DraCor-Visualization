@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="absyrtus">
+            <data key="label">Absyrtus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="aietes">
+            <data key="label">Aietes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="medea">
+            <data key="label">Medea</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jason">
+            <data key="label">Jason</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="milo">
+            <data key="label">Milo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_jungfrau_1">
+            <data key="label">Eine Jungfrau (Erster Aufzug)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gora">
+            <data key="label">Gora</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="peritta">
+            <data key="label">Peritta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jungfrau_2">
+            <data key="label">Jungfrau (Zweiter Aufzug)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_argonaut">
+            <data key="label">Erster Argonaut</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_argonaut">
+            <data key="label">Zweiter Argonaut</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_argonaut">
+            <data key="label">Dritter Argonaut</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mehrere_alle_vermischte_stimmen">
+            <data key="label">Mehrere/Alle/Vermischte Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="kolcher">
+            <data key="label">Kolcher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="argonaut">
+            <data key="label">Argonaut</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="soldat">
+            <data key="label">Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="jason" target="milo">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="aietes" target="medea">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="aietes" target="absyrtus">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="gora" target="medea">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="peritta" target="medea">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

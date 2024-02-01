@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="cyrus">
+            <data key="label">Cyrus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1036</data>
+        </node>
+        <node id="sigelvax">
+            <data key="label">Sigelvax</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">643</data>
+        </node>
+        <node id="kulican">
+            <data key="label">Kulican</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2172</data>
+        </node>
+        <node id="mortong">
+            <data key="label">Mortong</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">466</data>
+        </node>
+        <node id="pumphia">
+            <data key="label">Pumphia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2385</data>
+        </node>
+        <node id="pinxi">
+            <data key="label">Pinxi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">108</data>
+        </node>
+        <node id="knab">
+            <data key="label">Knab</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">132</data>
+        </node>
+        <node id="das_volk">
+            <data key="label">Das Volk</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="faustibus">
+            <data key="label">Faustibus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">987</data>
+        </node>
+        <node id="miketey">
+            <data key="label">Miketey</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">49</data>
+        </node>
+        <node id="soffocles">
+            <data key="label">Soffocles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">141</data>
+        </node>
+        <node id="arleckin">
+            <data key="label">Arleckin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <node id="colombina">
+            <data key="label">Colombina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">199</data>
+        </node>
+        <node id="chorus">
+            <data key="label">Chorus</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">29</data>
+        </node>
+        <edge id="cyrus|sigelvax" source="cyrus" target="sigelvax">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="cyrus|faustibus" source="cyrus" target="faustibus">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="cyrus|mortong" source="cyrus" target="mortong">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="cyrus|kulican" source="cyrus" target="kulican">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="cyrus|pumphia" source="cyrus" target="pumphia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="cyrus|pinxi" source="cyrus" target="pinxi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cyrus|miketey" source="cyrus" target="miketey">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sigelvax|das_volk" source="sigelvax" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sigelvax|mortong" source="sigelvax" target="mortong">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sigelvax|pumphia" source="sigelvax" target="pumphia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sigelvax|kulican" source="sigelvax" target="kulican">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sigelvax|faustibus" source="sigelvax" target="faustibus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sigelvax|pinxi" source="sigelvax" target="pinxi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sigelvax|miketey" source="sigelvax" target="miketey">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kulican|mortong" source="kulican" target="mortong">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="kulican|pumphia" source="kulican" target="pumphia">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="kulican|pinxi" source="kulican" target="pinxi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kulican|knab" source="kulican" target="knab">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kulican|das_volk" source="kulican" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kulican|faustibus" source="kulican" target="faustibus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kulican|miketey" source="kulican" target="miketey">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kulican|soffocles" source="kulican" target="soffocles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mortong|pumphia" source="mortong" target="pumphia">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="mortong|das_volk" source="mortong" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mortong|faustibus" source="mortong" target="faustibus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mortong|pinxi" source="mortong" target="pinxi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mortong|miketey" source="mortong" target="miketey">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mortong|soffocles" source="mortong" target="soffocles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pumphia|pinxi" source="pumphia" target="pinxi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pumphia|knab" source="pumphia" target="knab">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pumphia|das_volk" source="pumphia" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pumphia|faustibus" source="pumphia" target="faustibus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pumphia|miketey" source="pumphia" target="miketey">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pinxi|knab" source="pinxi" target="knab">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pinxi|miketey" source="pinxi" target="miketey">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pinxi|faustibus" source="pinxi" target="faustibus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faustibus|miketey" source="faustibus" target="miketey">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="arleckin|colombina" source="arleckin" target="colombina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arleckin|chorus" source="arleckin" target="chorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colombina|chorus" source="colombina" target="chorus">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

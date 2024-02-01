@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="isabella">
+            <data key="label">Isabella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5394</data>
+        </node>
+        <node id="diego">
+            <data key="label">Diego</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">524</data>
+        </node>
+        <node id="erster_chor">
+            <data key="label">Erster Chor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">999</data>
+        </node>
+        <node id="zweiter_chor">
+            <data key="label">Zweiter Chor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">424</data>
+        </node>
+        <node id="chor">
+            <data key="label">Der ganze Chor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1985</data>
+        </node>
+        <node id="einer_aus_dem_chor_1-3">
+            <data key="label">Einer aus dem Chor (I/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">120</data>
+        </node>
+        <node id="ein_zweiter_1-3">
+            <data key="label">Ein Zweiter (I/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">98</data>
+        </node>
+        <node id="don_manuel">
+            <data key="label">Don Manuel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2455</data>
+        </node>
+        <node id="don_cesar">
+            <data key="label">Don Cesar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3435</data>
+        </node>
+        <node id="bote_1-6">
+            <data key="label">Bote (I/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">79</data>
+        </node>
+        <node id="einer_aus_dem_chor_1-8">
+            <data key="label">Einer aus dem Chor (I/8)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">201</data>
+        </node>
+        <node id="ein_zweiter_1-8">
+            <data key="label">Ein Zweiter (I/8)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">180</data>
+        </node>
+        <node id="ein_dritter_1-8">
+            <data key="label">Ein Dritter (I/8)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">201</data>
+        </node>
+        <node id="beatrice">
+            <data key="label">Beatrice</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1778</data>
+        </node>
+        <node id="einer_aus_dem_chor_3-5">
+            <data key="label">Einer aus dem Chor (III/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">91</data>
+        </node>
+        <node id="ein_zweiter_3-5">
+            <data key="label">Ein Zweiter (III/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">101</data>
+        </node>
+        <node id="ein_dritter_3-5">
+            <data key="label">Ein Dritter (III/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">217</data>
+        </node>
+        <node id="bote_4-2_und_4-3">
+            <data key="label">Bote (IV/2–3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">126</data>
+        </node>
+        <edge id="isabella|diego" source="isabella" target="diego">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="isabella|chor" source="isabella" target="chor">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="isabella|don_manuel" source="isabella" target="don_manuel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="isabella|don_cesar" source="isabella" target="don_cesar">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="isabella|bote_4-2_und_4-3" source="isabella" target="bote_4-2_und_4-3">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="isabella|beatrice" source="isabella" target="beatrice">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="isabella|erster_chor" source="isabella" target="erster_chor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="isabella|zweiter_chor" source="isabella" target="zweiter_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diego|don_manuel" source="diego" target="don_manuel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diego|don_cesar" source="diego" target="don_cesar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diego|chor" source="diego" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diego|bote_4-2_und_4-3" source="diego" target="bote_4-2_und_4-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diego|beatrice" source="diego" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_chor|zweiter_chor" source="erster_chor" target="zweiter_chor">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="erster_chor|chor" source="erster_chor" target="chor">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="erster_chor|einer_aus_dem_chor_1-3" source="erster_chor" target="einer_aus_dem_chor_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_chor|ein_zweiter_1-3" source="erster_chor" target="ein_zweiter_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_chor|don_cesar" source="erster_chor" target="don_cesar">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="erster_chor|don_manuel" source="erster_chor" target="don_manuel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_chor|beatrice" source="erster_chor" target="beatrice">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweiter_chor|chor" source="zweiter_chor" target="chor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_chor|einer_aus_dem_chor_1-3" source="zweiter_chor" target="einer_aus_dem_chor_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_chor|ein_zweiter_1-3" source="zweiter_chor" target="ein_zweiter_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_chor|bote_1-6" source="zweiter_chor" target="bote_1-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_chor|don_cesar" source="zweiter_chor" target="don_cesar">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_chor|don_manuel" source="zweiter_chor" target="don_manuel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweiter_chor|beatrice" source="zweiter_chor" target="beatrice">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|einer_aus_dem_chor_1-3" source="chor" target="einer_aus_dem_chor_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|ein_zweiter_1-3" source="chor" target="ein_zweiter_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|don_manuel" source="chor" target="don_manuel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor|don_cesar" source="chor" target="don_cesar">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="chor|einer_aus_dem_chor_1-8" source="chor" target="einer_aus_dem_chor_1-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|ein_zweiter_1-8" source="chor" target="ein_zweiter_1-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|ein_dritter_1-8" source="chor" target="ein_dritter_1-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|beatrice" source="chor" target="beatrice">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chor|einer_aus_dem_chor_3-5" source="chor" target="einer_aus_dem_chor_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|ein_zweiter_3-5" source="chor" target="ein_zweiter_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|ein_dritter_3-5" source="chor" target="ein_dritter_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|bote_4-2_und_4-3" source="chor" target="bote_4-2_und_4-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_aus_dem_chor_1-3|ein_zweiter_1-3" source="einer_aus_dem_chor_1-3" target="ein_zweiter_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_manuel|don_cesar" source="don_manuel" target="don_cesar">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="don_manuel|bote_1-6" source="don_manuel" target="bote_1-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_manuel|beatrice" source="don_manuel" target="beatrice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_cesar|bote_1-6" source="don_cesar" target="bote_1-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_cesar|beatrice" source="don_cesar" target="beatrice">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="einer_aus_dem_chor_1-8|ein_zweiter_1-8" source="einer_aus_dem_chor_1-8" target="ein_zweiter_1-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_aus_dem_chor_1-8|ein_dritter_1-8" source="einer_aus_dem_chor_1-8" target="ein_dritter_1-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_zweiter_1-8|ein_dritter_1-8" source="ein_zweiter_1-8" target="ein_dritter_1-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beatrice|bote_4-2_und_4-3" source="beatrice" target="bote_4-2_und_4-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_aus_dem_chor_3-5|ein_zweiter_3-5" source="einer_aus_dem_chor_3-5" target="ein_zweiter_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_aus_dem_chor_3-5|ein_dritter_3-5" source="einer_aus_dem_chor_3-5" target="ein_dritter_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_zweiter_3-5|ein_dritter_3-5" source="ein_zweiter_3-5" target="ein_dritter_3-5">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="campano">
+            <data key="label">Peter Campano</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">562</data>
+        </node>
+        <node id="isabelle">
+            <data key="label">Isabelle</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1191</data>
+        </node>
+        <node id="lilli">
+            <data key="label">Lilli</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">843</data>
+        </node>
+        <node id="erstes_maedchen">
+            <data key="label">Erstes Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">76</data>
+        </node>
+        <node id="zweites_maedchen">
+            <data key="label">Zweites Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">74</data>
+        </node>
+        <node id="drittes_maedchen">
+            <data key="label">Drittes Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">79</data>
+        </node>
+        <node id="benno">
+            <data key="label">Graf Benno</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">172</data>
+        </node>
+        <edge id="campano|isabelle" source="campano" target="isabelle">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="campano|lilli" source="campano" target="lilli">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="campano|benno" source="campano" target="benno">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="campano|erstes_maedchen" source="campano" target="erstes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="campano|zweites_maedchen" source="campano" target="zweites_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="campano|drittes_maedchen" source="campano" target="drittes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isabelle|lilli" source="isabelle" target="lilli">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="isabelle|benno" source="isabelle" target="benno">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="isabelle|erstes_maedchen" source="isabelle" target="erstes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isabelle|zweites_maedchen" source="isabelle" target="zweites_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isabelle|drittes_maedchen" source="isabelle" target="drittes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lilli|benno" source="lilli" target="benno">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lilli|erstes_maedchen" source="lilli" target="erstes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lilli|zweites_maedchen" source="lilli" target="zweites_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lilli|drittes_maedchen" source="lilli" target="drittes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedchen|zweites_maedchen" source="erstes_maedchen" target="zweites_maedchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erstes_maedchen|drittes_maedchen" source="erstes_maedchen" target="drittes_maedchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erstes_maedchen|benno" source="erstes_maedchen" target="benno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedchen|drittes_maedchen" source="zweites_maedchen" target="drittes_maedchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweites_maedchen|benno" source="zweites_maedchen" target="benno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drittes_maedchen|benno" source="drittes_maedchen" target="benno">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

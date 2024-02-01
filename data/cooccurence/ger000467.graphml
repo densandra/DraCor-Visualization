@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="rauch">
+            <data key="label">Rauch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">686</data>
+        </node>
+        <node id="der_ausrufer">
+            <data key="label">Der Ausrufer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">282</data>
+        </node>
+        <node id="speer">
+            <data key="label">Speer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">305</data>
+        </node>
+        <node id="der_liliputaner">
+            <data key="label">Der Liliputaner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">74</data>
+        </node>
+        <node id="karoline">
+            <data key="label">Karoline</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1818</data>
+        </node>
+        <node id="kasimir">
+            <data key="label">Kasimir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1844</data>
+        </node>
+        <node id="schuerzinger">
+            <data key="label">Schürzinger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">883</data>
+        </node>
+        <node id="der_merkl_franz">
+            <data key="label">Der Merkl Franz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">723</data>
+        </node>
+        <node id="erna">
+            <data key="label">Erna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">783</data>
+        </node>
+        <node id="elli">
+            <data key="label">Elli</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">85</data>
+        </node>
+        <node id="maria">
+            <data key="label">Maria</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">165</data>
+        </node>
+        <node id="juanita">
+            <data key="label">Juanita</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">89</data>
+        </node>
+        <node id="die_dicke_dame">
+            <data key="label">Die dicke Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="alles">
+            <data key="label">Alles</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">188</data>
+        </node>
+        <node id="kellnerin">
+            <data key="label">Die Kellnerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="der_sanitaeter">
+            <data key="label">Der Sanitäter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">192</data>
+        </node>
+        <node id="der_arzt">
+            <data key="label">Der Arzt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">30</data>
+        </node>
+        <edge id="rauch|der_ausrufer" source="rauch" target="der_ausrufer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rauch|speer" source="rauch" target="speer">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="rauch|der_liliputaner" source="rauch" target="der_liliputaner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rauch|karoline" source="rauch" target="karoline">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="rauch|kasimir" source="rauch" target="kasimir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rauch|schuerzinger" source="rauch" target="schuerzinger">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="rauch|der_sanitaeter" source="rauch" target="der_sanitaeter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ausrufer|speer" source="der_ausrufer" target="speer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ausrufer|der_liliputaner" source="der_ausrufer" target="der_liliputaner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_ausrufer|karoline" source="der_ausrufer" target="karoline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ausrufer|kasimir" source="der_ausrufer" target="kasimir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ausrufer|juanita" source="der_ausrufer" target="juanita">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_ausrufer|die_dicke_dame" source="der_ausrufer" target="die_dicke_dame">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="speer|der_liliputaner" source="speer" target="der_liliputaner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="speer|karoline" source="speer" target="karoline">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="speer|kasimir" source="speer" target="kasimir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="speer|schuerzinger" source="speer" target="schuerzinger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="speer|maria" source="speer" target="maria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="speer|elli" source="speer" target="elli">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_liliputaner|karoline" source="der_liliputaner" target="karoline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_liliputaner|kasimir" source="der_liliputaner" target="kasimir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_liliputaner|juanita" source="der_liliputaner" target="juanita">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_liliputaner|die_dicke_dame" source="der_liliputaner" target="die_dicke_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karoline|kasimir" source="karoline" target="kasimir">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="karoline|schuerzinger" source="karoline" target="schuerzinger">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="karoline|der_merkl_franz" source="karoline" target="der_merkl_franz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karoline|der_sanitaeter" source="karoline" target="der_sanitaeter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="karoline|maria" source="karoline" target="maria">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karoline|elli" source="karoline" target="elli">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karoline|erna" source="karoline" target="erna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kasimir|der_merkl_franz" source="kasimir" target="der_merkl_franz">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="kasimir|erna" source="kasimir" target="erna">
+            <data key="weight">16</data>
+        </edge>
+        <edge id="kasimir|schuerzinger" source="kasimir" target="schuerzinger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kasimir|maria" source="kasimir" target="maria">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kasimir|elli" source="kasimir" target="elli">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kasimir|kellnerin" source="kasimir" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuerzinger|der_merkl_franz" source="schuerzinger" target="der_merkl_franz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schuerzinger|erna" source="schuerzinger" target="erna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_merkl_franz|erna" source="der_merkl_franz" target="erna">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="der_merkl_franz|maria" source="der_merkl_franz" target="maria">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_merkl_franz|elli" source="der_merkl_franz" target="elli">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_merkl_franz|kellnerin" source="der_merkl_franz" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elli|maria" source="elli" target="maria">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="elli|kellnerin" source="elli" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maria|kellnerin" source="maria" target="kellnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juanita|die_dicke_dame" source="juanita" target="die_dicke_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_sanitaeter|der_arzt" source="der_sanitaeter" target="der_arzt">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

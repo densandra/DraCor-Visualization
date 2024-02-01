@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="der_verwalter">
+            <data key="label">Der Verwalter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">875</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1247</data>
+        </node>
+        <node id="die_baroninn">
+            <data key="label">Die Baroninn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2236</data>
+        </node>
+        <node id="der_hauptmann">
+            <data key="label">Der Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1117</data>
+        </node>
+        <node id="leonore">
+            <data key="label">Leonore</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">408</data>
+        </node>
+        <node id="der_bediente">
+            <data key="label">Der Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="baron">
+            <data key="label">Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1964</data>
+        </node>
+        <node id="major">
+            <data key="label">Major</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">826</data>
+        </node>
+        <node id="blumenkranz">
+            <data key="label">Blumenkranz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1656</data>
+        </node>
+        <node id="reitbahn">
+            <data key="label">Reitbahn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1699</data>
+        </node>
+        <node id="notarius">
+            <data key="label">Notarius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">412</data>
+        </node>
+        <edge id="der_verwalter|lisette" source="der_verwalter" target="lisette">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_verwalter|die_baroninn" source="der_verwalter" target="die_baroninn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_verwalter|der_hauptmann" source="der_verwalter" target="der_hauptmann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="der_verwalter|leonore" source="der_verwalter" target="leonore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_verwalter|baron" source="der_verwalter" target="baron">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_verwalter|reitbahn" source="der_verwalter" target="reitbahn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_verwalter|blumenkranz" source="der_verwalter" target="blumenkranz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lisette|die_baroninn" source="lisette" target="die_baroninn">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lisette|leonore" source="lisette" target="leonore">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lisette|der_hauptmann" source="lisette" target="der_hauptmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lisette|baron" source="lisette" target="baron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|notarius" source="lisette" target="notarius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lisette|reitbahn" source="lisette" target="reitbahn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_baroninn|der_hauptmann" source="die_baroninn" target="der_hauptmann">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="die_baroninn|leonore" source="die_baroninn" target="leonore">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="die_baroninn|der_bediente" source="die_baroninn" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_baroninn|baron" source="die_baroninn" target="baron">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="die_baroninn|major" source="die_baroninn" target="major">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="die_baroninn|blumenkranz" source="die_baroninn" target="blumenkranz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="die_baroninn|reitbahn" source="die_baroninn" target="reitbahn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_baroninn|notarius" source="die_baroninn" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hauptmann|leonore" source="der_hauptmann" target="leonore">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="der_hauptmann|baron" source="der_hauptmann" target="baron">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="der_hauptmann|major" source="der_hauptmann" target="major">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="der_hauptmann|blumenkranz" source="der_hauptmann" target="blumenkranz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="der_hauptmann|reitbahn" source="der_hauptmann" target="reitbahn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_hauptmann|notarius" source="der_hauptmann" target="notarius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leonore|baron" source="leonore" target="baron">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="leonore|major" source="leonore" target="major">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leonore|reitbahn" source="leonore" target="reitbahn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leonore|blumenkranz" source="leonore" target="blumenkranz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leonore|notarius" source="leonore" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|major" source="baron" target="major">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="baron|blumenkranz" source="baron" target="blumenkranz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="baron|reitbahn" source="baron" target="reitbahn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baron|notarius" source="baron" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="major|blumenkranz" source="major" target="blumenkranz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="major|reitbahn" source="major" target="reitbahn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="major|notarius" source="major" target="notarius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="blumenkranz|reitbahn" source="blumenkranz" target="reitbahn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="blumenkranz|notarius" source="blumenkranz" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reitbahn|notarius" source="reitbahn" target="notarius">
+            <data key="weight">6</data>
+        </edge>
+    </graph>
+</graphml>

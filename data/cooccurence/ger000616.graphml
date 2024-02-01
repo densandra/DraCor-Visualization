@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="philotas">
+            <data key="label">Philotas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2182</data>
+        </node>
+        <node id="strato">
+            <data key="label">Strato</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">407</data>
+        </node>
+        <node id="aridaeus">
+            <data key="label">Aridäus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">609</data>
+        </node>
+        <node id="parmenio">
+            <data key="label">Parmenio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">195</data>
+        </node>
+        <edge id="philotas|strato" source="philotas" target="strato">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="philotas|aridaeus" source="philotas" target="aridaeus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="philotas|parmenio" source="philotas" target="parmenio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strato|aridaeus" source="strato" target="aridaeus">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

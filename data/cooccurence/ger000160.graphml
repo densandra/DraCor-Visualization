@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="gunther">
+            <data key="label">Gunther</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1283</data>
+        </node>
+        <node id="ruedeger">
+            <data key="label">Rüdeger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1654</data>
+        </node>
+        <node id="hagen">
+            <data key="label">Hagen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4044</data>
+        </node>
+        <node id="ute">
+            <data key="label">Ute</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">418</data>
+        </node>
+        <node id="gerenot">
+            <data key="label">Gerenot</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">218</data>
+        </node>
+        <node id="kriemhild">
+            <data key="label">Kriemhild</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5196</data>
+        </node>
+        <node id="giselher">
+            <data key="label">Giselher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">511</data>
+        </node>
+        <node id="werbel">
+            <data key="label">Werbel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">558</data>
+        </node>
+        <node id="rumolt">
+            <data key="label">Rumolt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">347</data>
+        </node>
+        <node id="volker">
+            <data key="label">Volker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1319</data>
+        </node>
+        <node id="dankwart">
+            <data key="label">Dankwart</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">259</data>
+        </node>
+        <node id="kaplan">
+            <data key="label">Kaplan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="goetelinde">
+            <data key="label">Götelinde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">190</data>
+        </node>
+        <node id="dietrich">
+            <data key="label">Dietrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1385</data>
+        </node>
+        <node id="hildebrant">
+            <data key="label">Hildebrant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">586</data>
+        </node>
+        <node id="iring">
+            <data key="label">Iring</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">98</data>
+        </node>
+        <node id="thuering">
+            <data key="label">Thüring</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">181</data>
+        </node>
+        <node id="gudrun">
+            <data key="label">Gudrun</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">136</data>
+        </node>
+        <node id="etzel">
+            <data key="label">Etzel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2263</data>
+        </node>
+        <node id="pilgrim">
+            <data key="label">Pilgrim</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">41</data>
+        </node>
+        <node id="ein_heune">
+            <data key="label">Ein Heune</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <edge id="gunther|ruedeger" source="gunther" target="ruedeger">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gunther|hagen" source="gunther" target="hagen">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="gunther|ute" source="gunther" target="ute">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gunther|gerenot" source="gunther" target="gerenot">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="gunther|kriemhild" source="gunther" target="kriemhild">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="gunther|werbel" source="gunther" target="werbel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gunther|rumolt" source="gunther" target="rumolt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gunther|volker" source="gunther" target="volker">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="gunther|dankwart" source="gunther" target="dankwart">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gunther|kaplan" source="gunther" target="kaplan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gunther|giselher" source="gunther" target="giselher">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gunther|goetelinde" source="gunther" target="goetelinde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gunther|gudrun" source="gunther" target="gudrun">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gunther|dietrich" source="gunther" target="dietrich">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="gunther|etzel" source="gunther" target="etzel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gunther|hildebrant" source="gunther" target="hildebrant">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gunther|ein_heune" source="gunther" target="ein_heune">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruedeger|kriemhild" source="ruedeger" target="kriemhild">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="ruedeger|ute" source="ruedeger" target="ute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruedeger|goetelinde" source="ruedeger" target="goetelinde">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ruedeger|dietrich" source="ruedeger" target="dietrich">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="ruedeger|hildebrant" source="ruedeger" target="hildebrant">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ruedeger|iring" source="ruedeger" target="iring">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruedeger|thuering" source="ruedeger" target="thuering">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruedeger|gudrun" source="ruedeger" target="gudrun">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ruedeger|hagen" source="ruedeger" target="hagen">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="ruedeger|volker" source="ruedeger" target="volker">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ruedeger|giselher" source="ruedeger" target="giselher">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ruedeger|gerenot" source="ruedeger" target="gerenot">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ruedeger|werbel" source="ruedeger" target="werbel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruedeger|etzel" source="ruedeger" target="etzel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hagen|ute" source="hagen" target="ute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hagen|gerenot" source="hagen" target="gerenot">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hagen|werbel" source="hagen" target="werbel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hagen|rumolt" source="hagen" target="rumolt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hagen|volker" source="hagen" target="volker">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="hagen|dankwart" source="hagen" target="dankwart">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hagen|kaplan" source="hagen" target="kaplan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hagen|goetelinde" source="hagen" target="goetelinde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hagen|giselher" source="hagen" target="giselher">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="hagen|gudrun" source="hagen" target="gudrun">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hagen|dietrich" source="hagen" target="dietrich">
+            <data key="weight">16</data>
+        </edge>
+        <edge id="hagen|kriemhild" source="hagen" target="kriemhild">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="hagen|etzel" source="hagen" target="etzel">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="hagen|pilgrim" source="hagen" target="pilgrim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hagen|hildebrant" source="hagen" target="hildebrant">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="hagen|ein_heune" source="hagen" target="ein_heune">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ute|gerenot" source="ute" target="gerenot">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ute|kriemhild" source="ute" target="kriemhild">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ute|giselher" source="ute" target="giselher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gerenot|giselher" source="gerenot" target="giselher">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="gerenot|kriemhild" source="gerenot" target="kriemhild">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gerenot|goetelinde" source="gerenot" target="goetelinde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gerenot|gudrun" source="gerenot" target="gudrun">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gerenot|volker" source="gerenot" target="volker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gerenot|dietrich" source="gerenot" target="dietrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gerenot|dankwart" source="gerenot" target="dankwart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gerenot|hildebrant" source="gerenot" target="hildebrant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kriemhild|giselher" source="kriemhild" target="giselher">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kriemhild|werbel" source="kriemhild" target="werbel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="kriemhild|etzel" source="kriemhild" target="etzel">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="kriemhild|dietrich" source="kriemhild" target="dietrich">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="kriemhild|volker" source="kriemhild" target="volker">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kriemhild|dankwart" source="kriemhild" target="dankwart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kriemhild|hildebrant" source="kriemhild" target="hildebrant">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kriemhild|ein_heune" source="kriemhild" target="ein_heune">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giselher|volker" source="giselher" target="volker">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="giselher|goetelinde" source="giselher" target="goetelinde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giselher|gudrun" source="giselher" target="gudrun">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giselher|dietrich" source="giselher" target="dietrich">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="giselher|etzel" source="giselher" target="etzel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giselher|hildebrant" source="giselher" target="hildebrant">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="giselher|dankwart" source="giselher" target="dankwart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werbel|rumolt" source="werbel" target="rumolt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="werbel|volker" source="werbel" target="volker">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="werbel|dankwart" source="werbel" target="dankwart">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="werbel|kaplan" source="werbel" target="kaplan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werbel|etzel" source="werbel" target="etzel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="werbel|dietrich" source="werbel" target="dietrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rumolt|volker" source="rumolt" target="volker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rumolt|dankwart" source="rumolt" target="dankwart">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="rumolt|kaplan" source="rumolt" target="kaplan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volker|dankwart" source="volker" target="dankwart">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="volker|kaplan" source="volker" target="kaplan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volker|goetelinde" source="volker" target="goetelinde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="volker|gudrun" source="volker" target="gudrun">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volker|dietrich" source="volker" target="dietrich">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="volker|etzel" source="volker" target="etzel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dankwart|kaplan" source="dankwart" target="kaplan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dankwart|etzel" source="dankwart" target="etzel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dankwart|dietrich" source="dankwart" target="dietrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dankwart|hildebrant" source="dankwart" target="hildebrant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="goetelinde|dietrich" source="goetelinde" target="dietrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="goetelinde|hildebrant" source="goetelinde" target="hildebrant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="goetelinde|iring" source="goetelinde" target="iring">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="goetelinde|thuering" source="goetelinde" target="thuering">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="goetelinde|gudrun" source="goetelinde" target="gudrun">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dietrich|hildebrant" source="dietrich" target="hildebrant">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="dietrich|iring" source="dietrich" target="iring">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|thuering" source="dietrich" target="thuering">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|gudrun" source="dietrich" target="gudrun">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dietrich|etzel" source="dietrich" target="etzel">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="dietrich|ein_heune" source="dietrich" target="ein_heune">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hildebrant|iring" source="hildebrant" target="iring">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hildebrant|thuering" source="hildebrant" target="thuering">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hildebrant|gudrun" source="hildebrant" target="gudrun">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hildebrant|etzel" source="hildebrant" target="etzel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hildebrant|ein_heune" source="hildebrant" target="ein_heune">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="iring|thuering" source="iring" target="thuering">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="iring|gudrun" source="iring" target="gudrun">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thuering|gudrun" source="thuering" target="gudrun">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="etzel|ein_heune" source="etzel" target="ein_heune">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

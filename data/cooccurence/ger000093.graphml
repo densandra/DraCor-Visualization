@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="christoph">
+            <data key="label">Christoph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4470</data>
+        </node>
+        <node id="hochmann">
+            <data key="label">Hochmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">252</data>
+        </node>
+        <node id="torf">
+            <data key="label">Torf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">335</data>
+        </node>
+        <node id="robert">
+            <data key="label">Robert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4804</data>
+        </node>
+        <node id="schlenkheim">
+            <data key="label">Schlenkheim</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1414</data>
+        </node>
+        <node id="sandel">
+            <data key="label">Dr. Sandel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">617</data>
+        </node>
+        <node id="helfer">
+            <data key="label">Helfer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1250</data>
+        </node>
+        <node id="henriette">
+            <data key="label">Henriette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">243</data>
+        </node>
+        <node id="johann">
+            <data key="label">Johann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="grund">
+            <data key="label">Grund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">376</data>
+        </node>
+        <node id="hager">
+            <data key="label">Hager</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">117</data>
+        </node>
+        <node id="rohr">
+            <data key="label">Rohr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="alle_2-3">
+            <data key="label">Alle (II/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="tossmann">
+            <data key="label">Toßmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1528</data>
+        </node>
+        <node id="martin">
+            <data key="label">Martin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">678</data>
+        </node>
+        <node id="frau_von_brigge">
+            <data key="label">Frau von Brigge</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">453</data>
+        </node>
+        <node id="karoline">
+            <data key="label">Karoline</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">111</data>
+        </node>
+        <node id="elegius">
+            <data key="label">Elegius Obenaus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">700</data>
+        </node>
+        <node id="schnapper">
+            <data key="label">Schnapper</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">170</data>
+        </node>
+        <node id="stuermer">
+            <data key="label">Stürmer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">61</data>
+        </node>
+        <node id="die_offiziere">
+            <data key="label">Die Offiziere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="gruenmann">
+            <data key="label">Grünmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">41</data>
+        </node>
+        <node id="haller">
+            <data key="label">Haller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="die_bauern_mehrere_bauern_alle">
+            <data key="label">Die Bauern/Mehrere Bauern/Alle (III/8–9)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">80</data>
+        </node>
+        <node id="der_richter">
+            <data key="label">Der Richter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">124</data>
+        </node>
+        <node id="jacques">
+            <data key="label">Jacques</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="leopold">
+            <data key="label">Leopold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="matthias">
+            <data key="label">Matthias</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="charles">
+            <data key="label">Charles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="glanzberg">
+            <data key="label">Glanzberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">47</data>
+        </node>
+        <node id="madame_flor">
+            <data key="label">Madame Flor</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">86</data>
+        </node>
+        <node id="alle_4-8">
+            <data key="label">Alle (IV/8)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <edge id="christoph|hochmann" source="christoph" target="hochmann">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="christoph|torf" source="christoph" target="torf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="christoph|robert" source="christoph" target="robert">
+            <data key="weight">20</data>
+        </edge>
+        <edge id="christoph|schlenkheim" source="christoph" target="schlenkheim">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="christoph|sandel" source="christoph" target="sandel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="christoph|helfer" source="christoph" target="helfer">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="christoph|henriette" source="christoph" target="henriette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|johann" source="christoph" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|grund" source="christoph" target="grund">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="christoph|hager" source="christoph" target="hager">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|rohr" source="christoph" target="rohr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|alle_2-3" source="christoph" target="alle_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|diener" source="christoph" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|martin" source="christoph" target="martin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="christoph|frau_von_brigge" source="christoph" target="frau_von_brigge">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christoph|karoline" source="christoph" target="karoline">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christoph|elegius" source="christoph" target="elegius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|schnapper" source="christoph" target="schnapper">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="christoph|stuermer" source="christoph" target="stuermer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|die_offiziere" source="christoph" target="die_offiziere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|gruenmann" source="christoph" target="gruenmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|die_bauern_mehrere_bauern_alle" source="christoph" target="die_bauern_mehrere_bauern_alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|der_richter" source="christoph" target="der_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|jacques" source="christoph" target="jacques">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|leopold" source="christoph" target="leopold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|matthias" source="christoph" target="matthias">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="christoph|charles" source="christoph" target="charles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|tossmann" source="christoph" target="tossmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="christoph|glanzberg" source="christoph" target="glanzberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|madame_flor" source="christoph" target="madame_flor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochmann|torf" source="hochmann" target="torf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hochmann|robert" source="hochmann" target="robert">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hochmann|helfer" source="hochmann" target="helfer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hochmann|henriette" source="hochmann" target="henriette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochmann|schlenkheim" source="hochmann" target="schlenkheim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochmann|sandel" source="hochmann" target="sandel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochmann|johann" source="hochmann" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochmann|die_bauern_mehrere_bauern_alle" source="hochmann" target="die_bauern_mehrere_bauern_alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochmann|grund" source="hochmann" target="grund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochmann|martin" source="hochmann" target="martin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochmann|elegius" source="hochmann" target="elegius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochmann|der_richter" source="hochmann" target="der_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="torf|robert" source="torf" target="robert">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="torf|sandel" source="torf" target="sandel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="torf|schlenkheim" source="torf" target="schlenkheim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="torf|helfer" source="torf" target="helfer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="torf|henriette" source="torf" target="henriette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="torf|johann" source="torf" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="torf|die_bauern_mehrere_bauern_alle" source="torf" target="die_bauern_mehrere_bauern_alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="torf|grund" source="torf" target="grund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="torf|martin" source="torf" target="martin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="torf|elegius" source="torf" target="elegius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="torf|der_richter" source="torf" target="der_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|schlenkheim" source="robert" target="schlenkheim">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="robert|sandel" source="robert" target="sandel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="robert|helfer" source="robert" target="helfer">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="robert|henriette" source="robert" target="henriette">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="robert|johann" source="robert" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|grund" source="robert" target="grund">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|hager" source="robert" target="hager">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|rohr" source="robert" target="rohr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|alle_2-3" source="robert" target="alle_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|diener" source="robert" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|tossmann" source="robert" target="tossmann">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="robert|martin" source="robert" target="martin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|frau_von_brigge" source="robert" target="frau_von_brigge">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="robert|karoline" source="robert" target="karoline">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="robert|elegius" source="robert" target="elegius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|schnapper" source="robert" target="schnapper">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|stuermer" source="robert" target="stuermer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|die_offiziere" source="robert" target="die_offiziere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|gruenmann" source="robert" target="gruenmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|die_bauern_mehrere_bauern_alle" source="robert" target="die_bauern_mehrere_bauern_alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|der_richter" source="robert" target="der_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|glanzberg" source="robert" target="glanzberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|madame_flor" source="robert" target="madame_flor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|alle_4-8" source="robert" target="alle_4-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlenkheim|sandel" source="schlenkheim" target="sandel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schlenkheim|helfer" source="schlenkheim" target="helfer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schlenkheim|henriette" source="schlenkheim" target="henriette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlenkheim|johann" source="schlenkheim" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sandel|henriette" source="sandel" target="henriette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sandel|helfer" source="sandel" target="helfer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sandel|johann" source="sandel" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helfer|henriette" source="helfer" target="henriette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helfer|johann" source="helfer" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helfer|matthias" source="helfer" target="matthias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helfer|glanzberg" source="helfer" target="glanzberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helfer|tossmann" source="helfer" target="tossmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="helfer|madame_flor" source="helfer" target="madame_flor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helfer|alle_4-8" source="helfer" target="alle_4-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="henriette|johann" source="henriette" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grund|hager" source="grund" target="hager">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grund|rohr" source="grund" target="rohr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grund|alle_2-3" source="grund" target="alle_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grund|haller" source="grund" target="haller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grund|martin" source="grund" target="martin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grund|die_bauern_mehrere_bauern_alle" source="grund" target="die_bauern_mehrere_bauern_alle">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grund|der_richter" source="grund" target="der_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grund|elegius" source="grund" target="elegius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hager|rohr" source="hager" target="rohr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hager|alle_2-3" source="hager" target="alle_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hager|haller" source="hager" target="haller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rohr|alle_2-3" source="rohr" target="alle_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tossmann|glanzberg" source="tossmann" target="glanzberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tossmann|madame_flor" source="tossmann" target="madame_flor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tossmann|alle_4-8" source="tossmann" target="alle_4-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martin|die_bauern_mehrere_bauern_alle" source="martin" target="die_bauern_mehrere_bauern_alle">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="martin|der_richter" source="martin" target="der_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="martin|elegius" source="martin" target="elegius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_brigge|karoline" source="frau_von_brigge" target="karoline">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_brigge|schnapper" source="frau_von_brigge" target="schnapper">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_brigge|stuermer" source="frau_von_brigge" target="stuermer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_brigge|die_offiziere" source="frau_von_brigge" target="die_offiziere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_brigge|gruenmann" source="frau_von_brigge" target="gruenmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karoline|schnapper" source="karoline" target="schnapper">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karoline|stuermer" source="karoline" target="stuermer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karoline|die_offiziere" source="karoline" target="die_offiziere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karoline|gruenmann" source="karoline" target="gruenmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elegius|die_bauern_mehrere_bauern_alle" source="elegius" target="die_bauern_mehrere_bauern_alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elegius|der_richter" source="elegius" target="der_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schnapper|stuermer" source="schnapper" target="stuermer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schnapper|die_offiziere" source="schnapper" target="die_offiziere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schnapper|gruenmann" source="schnapper" target="gruenmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stuermer|die_offiziere" source="stuermer" target="die_offiziere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stuermer|gruenmann" source="stuermer" target="gruenmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_offiziere|gruenmann" source="die_offiziere" target="gruenmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern_mehrere_bauern_alle|der_richter" source="die_bauern_mehrere_bauern_alle" target="der_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jacques|leopold" source="jacques" target="leopold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jacques|matthias" source="jacques" target="matthias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jacques|charles" source="jacques" target="charles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leopold|matthias" source="leopold" target="matthias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leopold|charles" source="leopold" target="charles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matthias|charles" source="matthias" target="charles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="glanzberg|madame_flor" source="glanzberg" target="madame_flor">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

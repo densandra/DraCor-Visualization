@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="der_moderne_zeitgeist">
+            <data key="label">Der moderne Zeitgeist</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rinaldo">
+            <data key="label">Rinaldo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="clemens">
+            <data key="label">Clemens</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tine">
+            <data key="label">Tine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="clemens" target="tine">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="der_moderne_zeitgeist" target="rinaldo">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

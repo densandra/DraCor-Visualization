@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="mirza">
+            <data key="label">Mirza</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1300</data>
+        </node>
+        <node id="massud">
+            <data key="label">Massud</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">995</data>
+        </node>
+        <node id="zanga">
+            <data key="label">Zanga</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3050</data>
+        </node>
+        <node id="rustan">
+            <data key="label">Rustan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4728</data>
+        </node>
+        <node id="koenig">
+            <data key="label">Der König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2073</data>
+        </node>
+        <node id="der_mann_vom_felsen">
+            <data key="label">Der Mann auf dem Felsen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">100</data>
+        </node>
+        <node id="guelnare">
+            <data key="label">Gülnare</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1050</data>
+        </node>
+        <node id="kaemmerer">
+            <data key="label">Kämmerer (II. Aufzug)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="das_volk">
+            <data key="label">Das Volk</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="kaemmerling">
+            <data key="label">Kämmerling (III. Aufzug)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">84</data>
+        </node>
+        <node id="karkhan">
+            <data key="label">Karkhan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">561</data>
+        </node>
+        <node id="die_alte">
+            <data key="label">Die Alte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">446</data>
+        </node>
+        <node id="ein_kaemmerer">
+            <data key="label">Ein Kämmerer (IV. Aufzug)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="der_alte">
+            <data key="label">Der Alte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="eine_dienerin">
+            <data key="label">Eine Dienerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="anfuehrer">
+            <data key="label">Anführer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <edge id="mirza|massud" source="mirza" target="massud">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mirza|zanga" source="mirza" target="zanga">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mirza|rustan" source="mirza" target="rustan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mirza|karkhan" source="mirza" target="karkhan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirza|ein_kaemmerer" source="mirza" target="ein_kaemmerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirza|hauptmann" source="mirza" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirza|guelnare" source="mirza" target="guelnare">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirza|der_alte" source="mirza" target="der_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirza|eine_dienerin" source="mirza" target="eine_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirza|anfuehrer" source="mirza" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="massud|zanga" source="massud" target="zanga">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="massud|rustan" source="massud" target="rustan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="massud|karkhan" source="massud" target="karkhan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="massud|ein_kaemmerer" source="massud" target="ein_kaemmerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="massud|hauptmann" source="massud" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="massud|guelnare" source="massud" target="guelnare">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="massud|der_alte" source="massud" target="der_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="massud|eine_dienerin" source="massud" target="eine_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="massud|anfuehrer" source="massud" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zanga|rustan" source="zanga" target="rustan">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="zanga|koenig" source="zanga" target="koenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zanga|der_mann_vom_felsen" source="zanga" target="der_mann_vom_felsen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zanga|guelnare" source="zanga" target="guelnare">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zanga|kaemmerer" source="zanga" target="kaemmerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zanga|das_volk" source="zanga" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zanga|kaemmerling" source="zanga" target="kaemmerling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zanga|karkhan" source="zanga" target="karkhan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zanga|die_alte" source="zanga" target="die_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zanga|ein_kaemmerer" source="zanga" target="ein_kaemmerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zanga|hauptmann" source="zanga" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zanga|der_alte" source="zanga" target="der_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zanga|eine_dienerin" source="zanga" target="eine_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zanga|anfuehrer" source="zanga" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rustan|koenig" source="rustan" target="koenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rustan|der_mann_vom_felsen" source="rustan" target="der_mann_vom_felsen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rustan|guelnare" source="rustan" target="guelnare">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rustan|kaemmerer" source="rustan" target="kaemmerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rustan|das_volk" source="rustan" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rustan|kaemmerling" source="rustan" target="kaemmerling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rustan|karkhan" source="rustan" target="karkhan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rustan|die_alte" source="rustan" target="die_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rustan|ein_kaemmerer" source="rustan" target="ein_kaemmerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rustan|hauptmann" source="rustan" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rustan|der_alte" source="rustan" target="der_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rustan|eine_dienerin" source="rustan" target="eine_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rustan|anfuehrer" source="rustan" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|der_mann_vom_felsen" source="koenig" target="der_mann_vom_felsen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|guelnare" source="koenig" target="guelnare">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig|kaemmerer" source="koenig" target="kaemmerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|das_volk" source="koenig" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|kaemmerling" source="koenig" target="kaemmerling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|karkhan" source="koenig" target="karkhan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|die_alte" source="koenig" target="die_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_mann_vom_felsen|guelnare" source="der_mann_vom_felsen" target="guelnare">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_mann_vom_felsen|kaemmerer" source="der_mann_vom_felsen" target="kaemmerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guelnare|kaemmerer" source="guelnare" target="kaemmerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guelnare|das_volk" source="guelnare" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guelnare|kaemmerling" source="guelnare" target="kaemmerling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guelnare|karkhan" source="guelnare" target="karkhan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="guelnare|die_alte" source="guelnare" target="die_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guelnare|ein_kaemmerer" source="guelnare" target="ein_kaemmerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guelnare|hauptmann" source="guelnare" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guelnare|der_alte" source="guelnare" target="der_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guelnare|eine_dienerin" source="guelnare" target="eine_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guelnare|anfuehrer" source="guelnare" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_volk|kaemmerling" source="das_volk" target="kaemmerling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_volk|karkhan" source="das_volk" target="karkhan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_volk|die_alte" source="das_volk" target="die_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaemmerling|karkhan" source="kaemmerling" target="karkhan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaemmerling|die_alte" source="kaemmerling" target="die_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karkhan|die_alte" source="karkhan" target="die_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karkhan|ein_kaemmerer" source="karkhan" target="ein_kaemmerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karkhan|hauptmann" source="karkhan" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karkhan|der_alte" source="karkhan" target="der_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karkhan|eine_dienerin" source="karkhan" target="eine_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karkhan|anfuehrer" source="karkhan" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_kaemmerer|hauptmann" source="ein_kaemmerer" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_kaemmerer|der_alte" source="ein_kaemmerer" target="der_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_kaemmerer|eine_dienerin" source="ein_kaemmerer" target="eine_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_kaemmerer|anfuehrer" source="ein_kaemmerer" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|der_alte" source="hauptmann" target="der_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|eine_dienerin" source="hauptmann" target="eine_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|anfuehrer" source="hauptmann" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_alte|eine_dienerin" source="der_alte" target="eine_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_alte|anfuehrer" source="der_alte" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_dienerin|anfuehrer" source="eine_dienerin" target="anfuehrer">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

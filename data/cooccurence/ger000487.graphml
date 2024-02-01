@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="karoline">
+            <data key="label">Karoline</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1358</data>
+        </node>
+        <node id="graf">
+            <data key="label">Graf von Hecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1322</data>
+        </node>
+        <node id="hans">
+            <data key="label">Hans</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">351</data>
+        </node>
+        <node id="baron">
+            <data key="label">Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1130</data>
+        </node>
+        <edge id="karoline|graf" source="karoline" target="graf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="karoline|hans" source="karoline" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karoline|baron" source="karoline" target="baron">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf|hans" source="graf" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|baron" source="graf" target="baron">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

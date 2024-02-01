@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="bolzau">
+            <data key="label">Bolzau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3400</data>
+        </node>
+        <node id="bertha">
+            <data key="label">Bertha</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2073</data>
+        </node>
+        <node id="schnake">
+            <data key="label">Schnake</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1658</data>
+        </node>
+        <node id="scheffler">
+            <data key="label">Scheffler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1799</data>
+        </node>
+        <node id="hartwig">
+            <data key="label">Hartwig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3049</data>
+        </node>
+        <node id="steinkirch">
+            <data key="label">Steinkirch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1273</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="ludmilla">
+            <data key="label">Ludmilla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">567</data>
+        </node>
+        <node id="brimborius">
+            <data key="label">Brimborius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">482</data>
+        </node>
+        <node id="wilhelmine">
+            <data key="label">Wilhelmine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1709</data>
+        </node>
+        <node id="franz">
+            <data key="label">Franz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <edge id="bolzau|bertha" source="bolzau" target="bertha">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="bolzau|wilhelmine" source="bolzau" target="wilhelmine">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="bolzau|ludmilla" source="bolzau" target="ludmilla">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="bolzau|franz" source="bolzau" target="franz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bolzau|schnake" source="bolzau" target="schnake">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="bolzau|brimborius" source="bolzau" target="brimborius">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="bolzau|scheffler" source="bolzau" target="scheffler">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="bolzau|hartwig" source="bolzau" target="hartwig">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="bolzau|steinkirch" source="bolzau" target="steinkirch">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="bertha|schnake" source="bertha" target="schnake">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bertha|scheffler" source="bertha" target="scheffler">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="bertha|steinkirch" source="bertha" target="steinkirch">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="bertha|ludmilla" source="bertha" target="ludmilla">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="bertha|brimborius" source="bertha" target="brimborius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bertha|franz" source="bertha" target="franz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bertha|wilhelmine" source="bertha" target="wilhelmine">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="bertha|hartwig" source="bertha" target="hartwig">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schnake|scheffler" source="schnake" target="scheffler">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schnake|franz" source="schnake" target="franz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schnake|wilhelmine" source="schnake" target="wilhelmine">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schnake|ludmilla" source="schnake" target="ludmilla">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schnake|hartwig" source="schnake" target="hartwig">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schnake|brimborius" source="schnake" target="brimborius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schnake|steinkirch" source="schnake" target="steinkirch">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="scheffler|hartwig" source="scheffler" target="hartwig">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="scheffler|steinkirch" source="scheffler" target="steinkirch">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="scheffler|franz" source="scheffler" target="franz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="scheffler|brimborius" source="scheffler" target="brimborius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scheffler|wilhelmine" source="scheffler" target="wilhelmine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="scheffler|ludmilla" source="scheffler" target="ludmilla">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hartwig|steinkirch" source="hartwig" target="steinkirch">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hartwig|franz" source="hartwig" target="franz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hartwig|wilhelmine" source="hartwig" target="wilhelmine">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="hartwig|ludmilla" source="hartwig" target="ludmilla">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hartwig|brimborius" source="hartwig" target="brimborius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="steinkirch|diener" source="steinkirch" target="diener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="steinkirch|ludmilla" source="steinkirch" target="ludmilla">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="steinkirch|wilhelmine" source="steinkirch" target="wilhelmine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="diener|ludmilla" source="diener" target="ludmilla">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ludmilla|wilhelmine" source="ludmilla" target="wilhelmine">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="ludmilla|franz" source="ludmilla" target="franz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludmilla|brimborius" source="ludmilla" target="brimborius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brimborius|wilhelmine" source="brimborius" target="wilhelmine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|franz" source="wilhelmine" target="franz">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

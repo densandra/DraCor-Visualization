@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="die_jungfer">
+            <data key="label">Die Jungfer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">44</data>
+        </node>
+        <node id="beschliesserin">
+            <data key="label">Beschließerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">108</data>
+        </node>
+        <node id="gaertner">
+            <data key="label">Gärtner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <node id="baronin">
+            <data key="label">Baronin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2048</data>
+        </node>
+        <node id="kutscher">
+            <data key="label">Kutscher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">57</data>
+        </node>
+        <node id="general">
+            <data key="label">General</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">588</data>
+        </node>
+        <node id="jaromir">
+            <data key="label">Jaromir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2073</data>
+        </node>
+        <node id="der_kleine_jaromir">
+            <data key="label">Der kleine Jaromir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">419</data>
+        </node>
+        <node id="anna">
+            <data key="label">Anna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1391</data>
+        </node>
+        <node id="theodor">
+            <data key="label">Theodor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4833</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">383</data>
+        </node>
+        <node id="melanie">
+            <data key="label">Melanie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1994</data>
+        </node>
+        <node id="hermine">
+            <data key="label">Hermine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">317</data>
+        </node>
+        <edge id="die_jungfer|beschliesserin" source="die_jungfer" target="beschliesserin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_jungfer|gaertner" source="die_jungfer" target="gaertner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_jungfer|baronin" source="die_jungfer" target="baronin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_jungfer|marie" source="die_jungfer" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_jungfer|general" source="die_jungfer" target="general">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_jungfer|anna" source="die_jungfer" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beschliesserin|gaertner" source="beschliesserin" target="gaertner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="beschliesserin|baronin" source="beschliesserin" target="baronin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaertner|baronin" source="gaertner" target="baronin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gaertner|theodor" source="gaertner" target="theodor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gaertner|hermine" source="gaertner" target="hermine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaertner|melanie" source="gaertner" target="melanie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaertner|anna" source="gaertner" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaertner|general" source="gaertner" target="general">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaertner|jaromir" source="gaertner" target="jaromir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaertner|marie" source="gaertner" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baronin|kutscher" source="baronin" target="kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baronin|general" source="baronin" target="general">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="baronin|jaromir" source="baronin" target="jaromir">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baronin|der_kleine_jaromir" source="baronin" target="der_kleine_jaromir">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baronin|anna" source="baronin" target="anna">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="baronin|theodor" source="baronin" target="theodor">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="baronin|marie" source="baronin" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baronin|melanie" source="baronin" target="melanie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baronin|hermine" source="baronin" target="hermine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="general|jaromir" source="general" target="jaromir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="general|der_kleine_jaromir" source="general" target="der_kleine_jaromir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="general|anna" source="general" target="anna">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="general|theodor" source="general" target="theodor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="general|marie" source="general" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="general|melanie" source="general" target="melanie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jaromir|melanie" source="jaromir" target="melanie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jaromir|hermine" source="jaromir" target="hermine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jaromir|marie" source="jaromir" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jaromir|theodor" source="jaromir" target="theodor">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jaromir|anna" source="jaromir" target="anna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_kleine_jaromir|anna" source="der_kleine_jaromir" target="anna">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="der_kleine_jaromir|melanie" source="der_kleine_jaromir" target="melanie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kleine_jaromir|theodor" source="der_kleine_jaromir" target="theodor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_kleine_jaromir|marie" source="der_kleine_jaromir" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kleine_jaromir|hermine" source="der_kleine_jaromir" target="hermine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|melanie" source="anna" target="melanie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anna|theodor" source="anna" target="theodor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="anna|marie" source="anna" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="theodor|melanie" source="theodor" target="melanie">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="theodor|hermine" source="theodor" target="hermine">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="theodor|marie" source="theodor" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|melanie" source="marie" target="melanie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melanie|hermine" source="melanie" target="hermine">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

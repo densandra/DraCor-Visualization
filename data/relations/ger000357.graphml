@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="just">
+            <data key="label">Just</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_wirt">
+            <data key="label">Der Wirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="von_tellheim">
+            <data key="label">Major von Tellheim</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_dame">
+            <data key="label">Eine Dame in Trauer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_bediente">
+            <data key="label">Der Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="paul_werner">
+            <data key="label">Paul Werner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="das_fraeulein">
+            <data key="label">Minna von Barnhelm</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="franziska">
+            <data key="label">Franziska</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="riccaut">
+            <data key="label">Riccaut</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_feldjaeger">
+            <data key="label">Der Feldjäger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_eine_bediente">
+            <data key="label">Der eine Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_andere_bediente">
+            <data key="label">Der andere Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_graf">
+            <data key="label">Graf von Bruchsall</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="der_graf" target="das_fraeulein">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="2" directed="false" source="franziska" target="das_fraeulein">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="just" target="von_tellheim">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="paul_werner" target="von_tellheim">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

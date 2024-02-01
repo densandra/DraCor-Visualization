@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="orgon">
+            <data key="label">Herr Orgon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="philipp">
+            <data key="label">Philipp</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="timant">
+            <data key="label">Timant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="damon">
+            <data key="label">Damon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="geronte">
+            <data key="label">Herr Geronte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="climene">
+            <data key="label">Climene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="damon" target="timant">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="orgon" target="timant">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="philipp" target="timant">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="geronte" target="climene">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="lisette" target="climene">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

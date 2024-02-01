@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="baron">
+            <data key="label">Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2642</data>
+        </node>
+        <node id="krabbe">
+            <data key="label">Krabbe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2990</data>
+        </node>
+        <node id="pellmann">
+            <data key="label">Pellmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">124</data>
+        </node>
+        <node id="emma">
+            <data key="label">Emma</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1652</data>
+        </node>
+        <node id="fritze">
+            <data key="label">Fritze</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1136</data>
+        </node>
+        <node id="gustav">
+            <data key="label">Gustav</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">793</data>
+        </node>
+        <node id="julius">
+            <data key="label">Julius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2117</data>
+        </node>
+        <node id="julius_krabbe">
+            <data key="label">Julius Krabbe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1340</data>
+        </node>
+        <node id="eweline">
+            <data key="label">Eweline</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">996</data>
+        </node>
+        <node id="barbara">
+            <data key="label">Barbara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1325</data>
+        </node>
+        <node id="magister">
+            <data key="label">Magister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">277</data>
+        </node>
+        <node id="gottlieb">
+            <data key="label">Gottlieb</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">598</data>
+        </node>
+        <node id="klara">
+            <data key="label">Klara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">61</data>
+        </node>
+        <edge id="baron|krabbe" source="baron" target="krabbe">
+            <data key="weight">19</data>
+        </edge>
+        <edge id="baron|pellmann" source="baron" target="pellmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baron|magister" source="baron" target="magister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baron|gottlieb" source="baron" target="gottlieb">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baron|julius" source="baron" target="julius">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="baron|julius_krabbe" source="baron" target="julius_krabbe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="baron|gustav" source="baron" target="gustav">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|emma" source="baron" target="emma">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="baron|barbara" source="baron" target="barbara">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baron|eweline" source="baron" target="eweline">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="baron|klara" source="baron" target="klara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|fritze" source="baron" target="fritze">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="krabbe|pellmann" source="krabbe" target="pellmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="krabbe|magister" source="krabbe" target="magister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="krabbe|julius_krabbe" source="krabbe" target="julius_krabbe">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="krabbe|julius" source="krabbe" target="julius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="krabbe|gottlieb" source="krabbe" target="gottlieb">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="krabbe|gustav" source="krabbe" target="gustav">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krabbe|fritze" source="krabbe" target="fritze">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="krabbe|eweline" source="krabbe" target="eweline">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="krabbe|klara" source="krabbe" target="klara">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="krabbe|emma" source="krabbe" target="emma">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="krabbe|barbara" source="krabbe" target="barbara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emma|fritze" source="emma" target="fritze">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emma|gustav" source="emma" target="gustav">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="emma|julius" source="emma" target="julius">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="emma|eweline" source="emma" target="eweline">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emma|julius_krabbe" source="emma" target="julius_krabbe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="emma|barbara" source="emma" target="barbara">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fritze|julius" source="fritze" target="julius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fritze|julius_krabbe" source="fritze" target="julius_krabbe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fritze|eweline" source="fritze" target="eweline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritze|barbara" source="fritze" target="barbara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gustav|julius" source="gustav" target="julius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julius|julius_krabbe" source="julius" target="julius_krabbe">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="julius|eweline" source="julius" target="eweline">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="julius|barbara" source="julius" target="barbara">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="julius|gottlieb" source="julius" target="gottlieb">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julius_krabbe|eweline" source="julius_krabbe" target="eweline">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="julius_krabbe|gottlieb" source="julius_krabbe" target="gottlieb">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julius_krabbe|barbara" source="julius_krabbe" target="barbara">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eweline|klara" source="eweline" target="klara">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eweline|barbara" source="eweline" target="barbara">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

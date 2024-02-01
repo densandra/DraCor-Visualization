@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="la_sourdiere">
+            <data key="label">La Sourdiere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="coronis">
+            <data key="label">Coronis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="carondas">
+            <data key="label">Carondas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_erste_damenspieler">
+            <data key="label">Der erste Damenspieler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_zweyte_damenspieler">
+            <data key="label">Der zweyte Damenspieler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_ritter">
+            <data key="label">Der Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_abt">
+            <data key="label">Der Abt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dorant">
+            <data key="label">Dorant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="la_flesche">
+            <data key="label">La Flesche</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_jobelin">
+            <data key="label">Herr Jobelin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="louischen">
+            <data key="label">Louischen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_jerome">
+            <data key="label">Frau Jerome</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="herr_jobelin" target="la_sourdiere">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="dorant" target="der_ritter">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="3" directed="false" source="dorant" target="coronis">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="4" directed="false" source="dorant" target="der_abt">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="5" directed="false" source="der_ritter" target="coronis">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="6" directed="false" source="der_ritter" target="der_abt">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="7" directed="false" source="coronis" target="der_abt">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="8" directed="false" source="frau_jerome" target="louischen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="9" directed="false" source="dorant" target="louischen">
+            <data key="relation">lover_of</data>
+        </edge>
+        <edge id="10" directed="false" source="la_flesche" target="dorant">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

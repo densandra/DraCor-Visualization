@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="baron">
+            <data key="label">Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4703</data>
+        </node>
+        <node id="venier">
+            <data key="label">Venier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">843</data>
+        </node>
+        <node id="le_duc">
+            <data key="label">Le Duc</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">241</data>
+        </node>
+        <node id="sassi">
+            <data key="label">Sassi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">100</data>
+        </node>
+        <node id="die_mutter">
+            <data key="label">Die Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">111</data>
+        </node>
+        <node id="die_corticelli">
+            <data key="label">Die Corticelli</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">52</data>
+        </node>
+        <node id="salaino">
+            <data key="label">Salaino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">180</data>
+        </node>
+        <node id="marfisa">
+            <data key="label">Marfisa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">262</data>
+        </node>
+        <node id="redegonda">
+            <data key="label">Redegonda</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">514</data>
+        </node>
+        <node id="achilles">
+            <data key="label">Achilles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">78</data>
+        </node>
+        <node id="der_abbate">
+            <data key="label">Der Abbate</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">149</data>
+        </node>
+        <node id="juwelier">
+            <data key="label">Juwelier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">70</data>
+        </node>
+        <node id="lorenzo">
+            <data key="label">Lorenzo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1558</data>
+        </node>
+        <node id="vittoria">
+            <data key="label">Vittoria</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4042</data>
+        </node>
+        <node id="cesarino">
+            <data key="label">Cesarino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">876</data>
+        </node>
+        <node id="der_graf">
+            <data key="label">Der Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <edge id="baron|venier" source="baron" target="venier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|le_duc" source="baron" target="le_duc">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|sassi" source="baron" target="sassi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|die_mutter" source="baron" target="die_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|die_corticelli" source="baron" target="die_corticelli">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|salaino" source="baron" target="salaino">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baron|marfisa" source="baron" target="marfisa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baron|redegonda" source="baron" target="redegonda">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baron|achilles" source="baron" target="achilles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|der_abbate" source="baron" target="der_abbate">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baron|juwelier" source="baron" target="juwelier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|lorenzo" source="baron" target="lorenzo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baron|vittoria" source="baron" target="vittoria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baron|cesarino" source="baron" target="cesarino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|der_graf" source="baron" target="der_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venier|le_duc" source="venier" target="le_duc">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venier|sassi" source="venier" target="sassi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venier|die_mutter" source="venier" target="die_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venier|die_corticelli" source="venier" target="die_corticelli">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venier|salaino" source="venier" target="salaino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venier|marfisa" source="venier" target="marfisa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venier|redegonda" source="venier" target="redegonda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venier|achilles" source="venier" target="achilles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venier|der_abbate" source="venier" target="der_abbate">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venier|juwelier" source="venier" target="juwelier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venier|lorenzo" source="venier" target="lorenzo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venier|vittoria" source="venier" target="vittoria">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="le_duc|sassi" source="le_duc" target="sassi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="le_duc|die_mutter" source="le_duc" target="die_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="le_duc|die_corticelli" source="le_duc" target="die_corticelli">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="le_duc|salaino" source="le_duc" target="salaino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="le_duc|marfisa" source="le_duc" target="marfisa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="le_duc|redegonda" source="le_duc" target="redegonda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="le_duc|achilles" source="le_duc" target="achilles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="le_duc|der_abbate" source="le_duc" target="der_abbate">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="le_duc|juwelier" source="le_duc" target="juwelier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="le_duc|lorenzo" source="le_duc" target="lorenzo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="le_duc|vittoria" source="le_duc" target="vittoria">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sassi|die_mutter" source="sassi" target="die_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sassi|die_corticelli" source="sassi" target="die_corticelli">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sassi|salaino" source="sassi" target="salaino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sassi|marfisa" source="sassi" target="marfisa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sassi|redegonda" source="sassi" target="redegonda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sassi|achilles" source="sassi" target="achilles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sassi|der_abbate" source="sassi" target="der_abbate">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sassi|juwelier" source="sassi" target="juwelier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sassi|lorenzo" source="sassi" target="lorenzo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sassi|vittoria" source="sassi" target="vittoria">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mutter|die_corticelli" source="die_mutter" target="die_corticelli">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mutter|salaino" source="die_mutter" target="salaino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mutter|marfisa" source="die_mutter" target="marfisa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mutter|redegonda" source="die_mutter" target="redegonda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mutter|achilles" source="die_mutter" target="achilles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mutter|der_abbate" source="die_mutter" target="der_abbate">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mutter|juwelier" source="die_mutter" target="juwelier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mutter|lorenzo" source="die_mutter" target="lorenzo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mutter|vittoria" source="die_mutter" target="vittoria">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_corticelli|salaino" source="die_corticelli" target="salaino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_corticelli|marfisa" source="die_corticelli" target="marfisa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_corticelli|redegonda" source="die_corticelli" target="redegonda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_corticelli|achilles" source="die_corticelli" target="achilles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_corticelli|der_abbate" source="die_corticelli" target="der_abbate">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_corticelli|juwelier" source="die_corticelli" target="juwelier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_corticelli|lorenzo" source="die_corticelli" target="lorenzo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_corticelli|vittoria" source="die_corticelli" target="vittoria">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salaino|marfisa" source="salaino" target="marfisa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="salaino|redegonda" source="salaino" target="redegonda">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="salaino|achilles" source="salaino" target="achilles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salaino|der_abbate" source="salaino" target="der_abbate">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="salaino|juwelier" source="salaino" target="juwelier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salaino|lorenzo" source="salaino" target="lorenzo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="salaino|vittoria" source="salaino" target="vittoria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="salaino|cesarino" source="salaino" target="cesarino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salaino|der_graf" source="salaino" target="der_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marfisa|redegonda" source="marfisa" target="redegonda">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marfisa|achilles" source="marfisa" target="achilles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marfisa|der_abbate" source="marfisa" target="der_abbate">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marfisa|juwelier" source="marfisa" target="juwelier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marfisa|lorenzo" source="marfisa" target="lorenzo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marfisa|vittoria" source="marfisa" target="vittoria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marfisa|cesarino" source="marfisa" target="cesarino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marfisa|der_graf" source="marfisa" target="der_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="redegonda|achilles" source="redegonda" target="achilles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="redegonda|der_abbate" source="redegonda" target="der_abbate">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="redegonda|juwelier" source="redegonda" target="juwelier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="redegonda|lorenzo" source="redegonda" target="lorenzo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="redegonda|vittoria" source="redegonda" target="vittoria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="redegonda|cesarino" source="redegonda" target="cesarino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="redegonda|der_graf" source="redegonda" target="der_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="achilles|der_abbate" source="achilles" target="der_abbate">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="achilles|juwelier" source="achilles" target="juwelier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="achilles|lorenzo" source="achilles" target="lorenzo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="achilles|vittoria" source="achilles" target="vittoria">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_abbate|juwelier" source="der_abbate" target="juwelier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_abbate|lorenzo" source="der_abbate" target="lorenzo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_abbate|vittoria" source="der_abbate" target="vittoria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_abbate|cesarino" source="der_abbate" target="cesarino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_abbate|der_graf" source="der_abbate" target="der_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juwelier|lorenzo" source="juwelier" target="lorenzo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juwelier|vittoria" source="juwelier" target="vittoria">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenzo|vittoria" source="lorenzo" target="vittoria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lorenzo|cesarino" source="lorenzo" target="cesarino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenzo|der_graf" source="lorenzo" target="der_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vittoria|cesarino" source="vittoria" target="cesarino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vittoria|der_graf" source="vittoria" target="der_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cesarino|der_graf" source="cesarino" target="der_graf">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

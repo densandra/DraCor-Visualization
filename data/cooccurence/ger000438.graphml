@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="jungfrauen">
+            <data key="label">Jungfrauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">179</data>
+        </node>
+        <node id="emma">
+            <data key="label">Emma</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">577</data>
+        </node>
+        <node id="eine_spinnerin">
+            <data key="label">Eine Spinnerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="eginhard">
+            <data key="label">Eginhard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">581</data>
+        </node>
+        <node id="maenner">
+            <data key="label">Männer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <node id="die_ritter">
+            <data key="label">Die Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">380</data>
+        </node>
+        <node id="frauen">
+            <data key="label">Frauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">701</data>
+        </node>
+        <node id="roland">
+            <data key="label">Roland</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">618</data>
+        </node>
+        <node id="fierrabras">
+            <data key="label">Fierrabras</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">585</data>
+        </node>
+        <node id="maennerchor_maenner_1-7_und_1-8">
+            <data key="label">Männerchor/Männer (I/7–8)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="krieger">
+            <data key="label">Krieger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="brutamonte">
+            <data key="label">Brutamonte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">120</data>
+        </node>
+        <node id="die_mauren">
+            <data key="label">Die Mauren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">231</data>
+        </node>
+        <node id="ogier">
+            <data key="label">Ogier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <node id="florinda">
+            <data key="label">Florinda</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">625</data>
+        </node>
+        <node id="maragond">
+            <data key="label">Maragond</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">159</data>
+        </node>
+        <node id="boland">
+            <data key="label">Boland</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">287</data>
+        </node>
+        <edge id="jungfrauen|emma" source="jungfrauen" target="emma">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jungfrauen|eine_spinnerin" source="jungfrauen" target="eine_spinnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfrauen|maenner" source="jungfrauen" target="maenner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jungfrauen|die_ritter" source="jungfrauen" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jungfrauen|frauen" source="jungfrauen" target="frauen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jungfrauen|karl" source="jungfrauen" target="karl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jungfrauen|roland" source="jungfrauen" target="roland">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jungfrauen|fierrabras" source="jungfrauen" target="fierrabras">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="emma|eine_spinnerin" source="emma" target="eine_spinnerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emma|eginhard" source="emma" target="eginhard">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="emma|karl" source="emma" target="karl">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="emma|fierrabras" source="emma" target="fierrabras">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="emma|roland" source="emma" target="roland">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emma|maenner" source="emma" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emma|die_ritter" source="emma" target="die_ritter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emma|frauen" source="emma" target="frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emma|maennerchor_maenner_1-7_und_1-8" source="emma" target="maennerchor_maenner_1-7_und_1-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emma|krieger" source="emma" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emma|boland" source="emma" target="boland">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emma|die_mauren" source="emma" target="die_mauren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emma|florinda" source="emma" target="florinda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eginhard|maennerchor_maenner_1-7_und_1-8" source="eginhard" target="maennerchor_maenner_1-7_und_1-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eginhard|fierrabras" source="eginhard" target="fierrabras">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="eginhard|die_ritter" source="eginhard" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eginhard|roland" source="eginhard" target="roland">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eginhard|brutamonte" source="eginhard" target="brutamonte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eginhard|die_mauren" source="eginhard" target="die_mauren">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eginhard|boland" source="eginhard" target="boland">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eginhard|florinda" source="eginhard" target="florinda">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eginhard|maragond" source="eginhard" target="maragond">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eginhard|karl" source="eginhard" target="karl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maenner|die_ritter" source="maenner" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maenner|frauen" source="maenner" target="frauen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maenner|karl" source="maenner" target="karl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maenner|roland" source="maenner" target="roland">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maenner|fierrabras" source="maenner" target="fierrabras">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_ritter|frauen" source="die_ritter" target="frauen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_ritter|karl" source="die_ritter" target="karl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="die_ritter|roland" source="die_ritter" target="roland">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="die_ritter|fierrabras" source="die_ritter" target="fierrabras">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="die_ritter|krieger" source="die_ritter" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_ritter|ogier" source="die_ritter" target="ogier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_ritter|die_mauren" source="die_ritter" target="die_mauren">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_ritter|florinda" source="die_ritter" target="florinda">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="die_ritter|boland" source="die_ritter" target="boland">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="die_ritter|brutamonte" source="die_ritter" target="brutamonte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauen|karl" source="frauen" target="karl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frauen|roland" source="frauen" target="roland">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frauen|fierrabras" source="frauen" target="fierrabras">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|roland" source="karl" target="roland">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="karl|fierrabras" source="karl" target="fierrabras">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="karl|krieger" source="karl" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|boland" source="karl" target="boland">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|die_mauren" source="karl" target="die_mauren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|florinda" source="karl" target="florinda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roland|fierrabras" source="roland" target="fierrabras">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="roland|krieger" source="roland" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roland|ogier" source="roland" target="ogier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roland|die_mauren" source="roland" target="die_mauren">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="roland|florinda" source="roland" target="florinda">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="roland|boland" source="roland" target="boland">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="roland|brutamonte" source="roland" target="brutamonte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fierrabras|maennerchor_maenner_1-7_und_1-8" source="fierrabras" target="maennerchor_maenner_1-7_und_1-8">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fierrabras|krieger" source="fierrabras" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fierrabras|boland" source="fierrabras" target="boland">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fierrabras|die_mauren" source="fierrabras" target="die_mauren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fierrabras|florinda" source="fierrabras" target="florinda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brutamonte|die_mauren" source="brutamonte" target="die_mauren">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="brutamonte|boland" source="brutamonte" target="boland">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="brutamonte|florinda" source="brutamonte" target="florinda">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="brutamonte|maragond" source="brutamonte" target="maragond">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mauren|florinda" source="die_mauren" target="florinda">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_mauren|boland" source="die_mauren" target="boland">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="florinda|maragond" source="florinda" target="maragond">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="florinda|boland" source="florinda" target="boland">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="maragond|boland" source="maragond" target="boland">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

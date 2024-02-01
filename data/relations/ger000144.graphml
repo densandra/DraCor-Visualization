@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="cyrus">
+            <data key="label">Cyrus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sigelvax">
+            <data key="label">Sigelvax</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kulican">
+            <data key="label">Kulican</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mortong">
+            <data key="label">Mortong</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pumphia">
+            <data key="label">Pumphia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pinxi">
+            <data key="label">Pinxi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="knab">
+            <data key="label">Knab</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="das_volk">
+            <data key="label">Das Volk</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="faustibus">
+            <data key="label">Faustibus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="miketey">
+            <data key="label">Miketey</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="soffocles">
+            <data key="label">Soffocles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="arleckin">
+            <data key="label">Arleckin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="colombina">
+            <data key="label">Colombina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chorus">
+            <data key="label">Chorus</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="pumphia" target="faustibus">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="pumphia" target="miketey">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="sigelvax" target="cyrus">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="mortong" target="kulican">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="soffocles" target="kulican">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="pinxi" target="kulican">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

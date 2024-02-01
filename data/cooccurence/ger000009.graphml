@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="tobis">
+            <data key="label">Tobis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">511</data>
+        </node>
+        <node id="jeremis">
+            <data key="label">Jeremis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">275</data>
+        </node>
+        <node id="michel">
+            <data key="label">Michel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">111</data>
+        </node>
+        <node id="jobst">
+            <data key="label">Jobst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">155</data>
+        </node>
+        <node id="greif">
+            <data key="label">Greif</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">384</data>
+        </node>
+        <node id="der_lieutenant">
+            <data key="label">Der Lieutenant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1070</data>
+        </node>
+        <node id="der_obriste">
+            <data key="label">Der Obriste</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1052</data>
+        </node>
+        <node id="die_bauern">
+            <data key="label">Die Bauern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <node id="lene">
+            <data key="label">Lene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">348</data>
+        </node>
+        <node id="nathan">
+            <data key="label">Nathan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">319</data>
+        </node>
+        <node id="baerbchen">
+            <data key="label">Bärbchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1159</data>
+        </node>
+        <node id="suschen">
+            <data key="label">Suschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">253</data>
+        </node>
+        <node id="lukas">
+            <data key="label">Lukas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1001</data>
+        </node>
+        <node id="fikfak">
+            <data key="label">Fikfak</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2249</data>
+        </node>
+        <node id="eve">
+            <data key="label">Eve</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">222</data>
+        </node>
+        <node id="der_aeltere_bauer">
+            <data key="label">Der ältere Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">72</data>
+        </node>
+        <node id="soldaten">
+            <data key="label">Soldaten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="paul">
+            <data key="label">Paul</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">240</data>
+        </node>
+        <edge id="tobis|jeremis" source="tobis" target="jeremis">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="tobis|michel" source="tobis" target="michel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tobis|jobst" source="tobis" target="jobst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tobis|greif" source="tobis" target="greif">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tobis|der_lieutenant" source="tobis" target="der_lieutenant">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tobis|der_obriste" source="tobis" target="der_obriste">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tobis|die_bauern" source="tobis" target="die_bauern">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tobis|lukas" source="tobis" target="lukas">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="tobis|nathan" source="tobis" target="nathan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tobis|fikfak" source="tobis" target="fikfak">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="tobis|eve" source="tobis" target="eve">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tobis|der_aeltere_bauer" source="tobis" target="der_aeltere_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tobis|baerbchen" source="tobis" target="baerbchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tobis|soldaten" source="tobis" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tobis|paul" source="tobis" target="paul">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jeremis|michel" source="jeremis" target="michel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jeremis|jobst" source="jeremis" target="jobst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jeremis|greif" source="jeremis" target="greif">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jeremis|der_lieutenant" source="jeremis" target="der_lieutenant">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jeremis|der_obriste" source="jeremis" target="der_obriste">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jeremis|die_bauern" source="jeremis" target="die_bauern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jeremis|lukas" source="jeremis" target="lukas">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jeremis|nathan" source="jeremis" target="nathan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jeremis|fikfak" source="jeremis" target="fikfak">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jeremis|paul" source="jeremis" target="paul">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jeremis|baerbchen" source="jeremis" target="baerbchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jeremis|eve" source="jeremis" target="eve">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|jobst" source="michel" target="jobst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michel|greif" source="michel" target="greif">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|lukas" source="michel" target="lukas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|nathan" source="michel" target="nathan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|die_bauern" source="michel" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|fikfak" source="michel" target="fikfak">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jobst|greif" source="jobst" target="greif">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jobst|lukas" source="jobst" target="lukas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jobst|nathan" source="jobst" target="nathan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jobst|die_bauern" source="jobst" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jobst|fikfak" source="jobst" target="fikfak">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="greif|nathan" source="greif" target="nathan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="greif|der_obriste" source="greif" target="der_obriste">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="greif|der_lieutenant" source="greif" target="der_lieutenant">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="greif|fikfak" source="greif" target="fikfak">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="greif|lukas" source="greif" target="lukas">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="greif|eve" source="greif" target="eve">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="greif|die_bauern" source="greif" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="greif|der_aeltere_bauer" source="greif" target="der_aeltere_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="greif|baerbchen" source="greif" target="baerbchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="greif|soldaten" source="greif" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="greif|paul" source="greif" target="paul">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_lieutenant|der_obriste" source="der_lieutenant" target="der_obriste">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="der_lieutenant|die_bauern" source="der_lieutenant" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_lieutenant|lene" source="der_lieutenant" target="lene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_lieutenant|baerbchen" source="der_lieutenant" target="baerbchen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_lieutenant|lukas" source="der_lieutenant" target="lukas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_lieutenant|fikfak" source="der_lieutenant" target="fikfak">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_lieutenant|paul" source="der_lieutenant" target="paul">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_lieutenant|eve" source="der_lieutenant" target="eve">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_obriste|die_bauern" source="der_obriste" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_obriste|lene" source="der_obriste" target="lene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_obriste|nathan" source="der_obriste" target="nathan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_obriste|baerbchen" source="der_obriste" target="baerbchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_obriste|fikfak" source="der_obriste" target="fikfak">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_obriste|lukas" source="der_obriste" target="lukas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_obriste|paul" source="der_obriste" target="paul">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_obriste|eve" source="der_obriste" target="eve">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|lukas" source="die_bauern" target="lukas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_bauern|nathan" source="die_bauern" target="nathan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|fikfak" source="die_bauern" target="fikfak">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_bauern|eve" source="die_bauern" target="eve">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|der_aeltere_bauer" source="die_bauern" target="der_aeltere_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|baerbchen" source="die_bauern" target="baerbchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|soldaten" source="die_bauern" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lene|fikfak" source="lene" target="fikfak">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lene|lukas" source="lene" target="lukas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nathan|lukas" source="nathan" target="lukas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nathan|fikfak" source="nathan" target="fikfak">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baerbchen|suschen" source="baerbchen" target="suschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baerbchen|lukas" source="baerbchen" target="lukas">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baerbchen|fikfak" source="baerbchen" target="fikfak">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baerbchen|eve" source="baerbchen" target="eve">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baerbchen|der_aeltere_bauer" source="baerbchen" target="der_aeltere_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baerbchen|soldaten" source="baerbchen" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baerbchen|paul" source="baerbchen" target="paul">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lukas|fikfak" source="lukas" target="fikfak">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="lukas|eve" source="lukas" target="eve">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lukas|der_aeltere_bauer" source="lukas" target="der_aeltere_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lukas|soldaten" source="lukas" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lukas|paul" source="lukas" target="paul">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fikfak|eve" source="fikfak" target="eve">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fikfak|der_aeltere_bauer" source="fikfak" target="der_aeltere_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fikfak|soldaten" source="fikfak" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fikfak|paul" source="fikfak" target="paul">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eve|der_aeltere_bauer" source="eve" target="der_aeltere_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eve|soldaten" source="eve" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eve|paul" source="eve" target="paul">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_aeltere_bauer|soldaten" source="der_aeltere_bauer" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

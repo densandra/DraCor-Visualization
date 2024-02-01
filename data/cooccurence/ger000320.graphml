@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="herrmann">
+            <data key="label">Herrmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3984</data>
+        </node>
+        <node id="caroline">
+            <data key="label">Caroline</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3379</data>
+        </node>
+        <node id="arnold">
+            <data key="label">Arnold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1594</data>
+        </node>
+        <node id="der_graf">
+            <data key="label">Der Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3281</data>
+        </node>
+        <node id="valentin">
+            <data key="label">Valentin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">245</data>
+        </node>
+        <node id="die_graefinn">
+            <data key="label">Die Gräfinn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2188</data>
+        </node>
+        <node id="chrysander">
+            <data key="label">Chrysander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2366</data>
+        </node>
+        <node id="valer">
+            <data key="label">Valer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2391</data>
+        </node>
+        <node id="johann">
+            <data key="label">Johann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2542</data>
+        </node>
+        <node id="fraeulein_christinchen">
+            <data key="label">Fräulein Christinchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1040</data>
+        </node>
+        <edge id="herrmann|caroline" source="herrmann" target="caroline">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="herrmann|arnold" source="herrmann" target="arnold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herrmann|chrysander" source="herrmann" target="chrysander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herrmann|der_graf" source="herrmann" target="der_graf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="herrmann|die_graefinn" source="herrmann" target="die_graefinn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herrmann|johann" source="herrmann" target="johann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herrmann|valer" source="herrmann" target="valer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caroline|arnold" source="caroline" target="arnold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caroline|die_graefinn" source="caroline" target="die_graefinn">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="caroline|johann" source="caroline" target="johann">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="caroline|der_graf" source="caroline" target="der_graf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="caroline|valer" source="caroline" target="valer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="arnold|der_graf" source="arnold" target="der_graf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="arnold|valentin" source="arnold" target="valentin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arnold|johann" source="arnold" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_graf|valentin" source="der_graf" target="valentin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_graf|chrysander" source="der_graf" target="chrysander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_graf|johann" source="der_graf" target="johann">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="der_graf|die_graefinn" source="der_graf" target="die_graefinn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_graf|valer" source="der_graf" target="valer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_graf|fraeulein_christinchen" source="der_graf" target="fraeulein_christinchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valentin|die_graefinn" source="valentin" target="die_graefinn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valentin|johann" source="valentin" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_graefinn|valer" source="die_graefinn" target="valer">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="die_graefinn|fraeulein_christinchen" source="die_graefinn" target="fraeulein_christinchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_graefinn|chrysander" source="die_graefinn" target="chrysander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_graefinn|johann" source="die_graefinn" target="johann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chrysander|johann" source="chrysander" target="johann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chrysander|fraeulein_christinchen" source="chrysander" target="fraeulein_christinchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valer|johann" source="valer" target="johann">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="johann|fraeulein_christinchen" source="johann" target="fraeulein_christinchen">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

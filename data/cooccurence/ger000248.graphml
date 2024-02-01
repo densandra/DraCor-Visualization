@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="mariechen">
+            <data key="label">Mariechen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">562</data>
+        </node>
+        <node id="pauline">
+            <data key="label">Pauline</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5271</data>
+        </node>
+        <node id="frau_weidenhammer">
+            <data key="label">Frau Weidenhammer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">824</data>
+        </node>
+        <node id="rese">
+            <data key="label">Rese</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3306</data>
+        </node>
+        <node id="meister_oelze">
+            <data key="label">Meister Oelze</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3213</data>
+        </node>
+        <node id="emil">
+            <data key="label">Emil</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1232</data>
+        </node>
+        <node id="frau_kramer">
+            <data key="label">Frau Kramer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="patschke">
+            <data key="label">Patschke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">254</data>
+        </node>
+        <edge id="mariechen|pauline" source="mariechen" target="pauline">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mariechen|frau_weidenhammer" source="mariechen" target="frau_weidenhammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mariechen|rese" source="mariechen" target="rese">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mariechen|meister_oelze" source="mariechen" target="meister_oelze">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mariechen|emil" source="mariechen" target="emil">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mariechen|frau_kramer" source="mariechen" target="frau_kramer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mariechen|patschke" source="mariechen" target="patschke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pauline|frau_weidenhammer" source="pauline" target="frau_weidenhammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pauline|rese" source="pauline" target="rese">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pauline|meister_oelze" source="pauline" target="meister_oelze">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pauline|emil" source="pauline" target="emil">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pauline|frau_kramer" source="pauline" target="frau_kramer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pauline|patschke" source="pauline" target="patschke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_weidenhammer|rese" source="frau_weidenhammer" target="rese">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_weidenhammer|meister_oelze" source="frau_weidenhammer" target="meister_oelze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_weidenhammer|emil" source="frau_weidenhammer" target="emil">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_weidenhammer|frau_kramer" source="frau_weidenhammer" target="frau_kramer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rese|meister_oelze" source="rese" target="meister_oelze">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rese|emil" source="rese" target="emil">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rese|frau_kramer" source="rese" target="frau_kramer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rese|patschke" source="rese" target="patschke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meister_oelze|emil" source="meister_oelze" target="emil">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="meister_oelze|frau_kramer" source="meister_oelze" target="frau_kramer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meister_oelze|patschke" source="meister_oelze" target="patschke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emil|frau_kramer" source="emil" target="frau_kramer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emil|patschke" source="emil" target="patschke">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="chor_der_zimmerleute">
+            <data key="label">Chor der Zimmerleute</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">288</data>
+        </node>
+        <node id="zar">
+            <data key="label">Zar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2050</data>
+        </node>
+        <node id="iwanow">
+            <data key="label">Iwanow</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2798</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2471</data>
+        </node>
+        <node id="lefort">
+            <data key="label">Lefort</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">427</data>
+        </node>
+        <node id="meisterin_browe">
+            <data key="label">Meisterin Browe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">416</data>
+        </node>
+        <node id="van_bett">
+            <data key="label">van Bett</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3473</data>
+        </node>
+        <node id="die_peter">
+            <data key="label">Die Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="lord">
+            <data key="label">Lord</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">575</data>
+        </node>
+        <node id="marquis">
+            <data key="label">Marquis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">978</data>
+        </node>
+        <node id="chor_1-16">
+            <data key="label">Chor (I/16)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">122</data>
+        </node>
+        <node id="die_maedchen_1-16">
+            <data key="label">Die Mädchen (I/16)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="chor_stimmen_gaeste_alle_2">
+            <data key="label">Chor/Stimmen/Gäste/Alle (II. Aufzug)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">374</data>
+        </node>
+        <node id="maenner">
+            <data key="label">Männer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="frauen">
+            <data key="label">Frauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="offizier">
+            <data key="label">Offizier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">71</data>
+        </node>
+        <node id="chor_alle_3-1_und_3-2">
+            <data key="label">Chor/Alle (III/1–2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">264</data>
+        </node>
+        <node id="die_maedchen_3-1">
+            <data key="label">Die Mädchen (III/1)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="chor_alle_3-10_und_3-11">
+            <data key="label">Chor/Alle (III/10–11)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">159</data>
+        </node>
+        <node id="ratsdiener">
+            <data key="label">Ratsdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <edge id="chor_der_zimmerleute|zar" source="chor_der_zimmerleute" target="zar">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_zimmerleute|iwanow" source="chor_der_zimmerleute" target="iwanow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_zimmerleute|van_bett" source="chor_der_zimmerleute" target="van_bett">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_zimmerleute|die_peter" source="chor_der_zimmerleute" target="die_peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zar|iwanow" source="zar" target="iwanow">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="zar|marie" source="zar" target="marie">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="zar|lefort" source="zar" target="lefort">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="zar|meisterin_browe" source="zar" target="meisterin_browe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="zar|van_bett" source="zar" target="van_bett">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="zar|die_peter" source="zar" target="die_peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zar|marquis" source="zar" target="marquis">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="zar|chor_1-16" source="zar" target="chor_1-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zar|die_maedchen_1-16" source="zar" target="die_maedchen_1-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zar|chor_stimmen_gaeste_alle_2" source="zar" target="chor_stimmen_gaeste_alle_2">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="zar|lord" source="zar" target="lord">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zar|offizier" source="zar" target="offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zar|chor_alle_3-1_und_3-2" source="zar" target="chor_alle_3-1_und_3-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zar|chor_alle_3-10_und_3-11" source="zar" target="chor_alle_3-10_und_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="iwanow|marie" source="iwanow" target="marie">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="iwanow|meisterin_browe" source="iwanow" target="meisterin_browe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="iwanow|van_bett" source="iwanow" target="van_bett">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="iwanow|die_peter" source="iwanow" target="die_peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="iwanow|marquis" source="iwanow" target="marquis">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="iwanow|chor_1-16" source="iwanow" target="chor_1-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="iwanow|die_maedchen_1-16" source="iwanow" target="die_maedchen_1-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="iwanow|lefort" source="iwanow" target="lefort">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="iwanow|chor_stimmen_gaeste_alle_2" source="iwanow" target="chor_stimmen_gaeste_alle_2">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="iwanow|lord" source="iwanow" target="lord">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="iwanow|offizier" source="iwanow" target="offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="iwanow|chor_alle_3-10_und_3-11" source="iwanow" target="chor_alle_3-10_und_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="iwanow|ratsdiener" source="iwanow" target="ratsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|marquis" source="marie" target="marquis">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="marie|chor_1-16" source="marie" target="chor_1-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|meisterin_browe" source="marie" target="meisterin_browe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="marie|die_maedchen_1-16" source="marie" target="die_maedchen_1-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|lefort" source="marie" target="lefort">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|chor_stimmen_gaeste_alle_2" source="marie" target="chor_stimmen_gaeste_alle_2">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marie|van_bett" source="marie" target="van_bett">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="marie|lord" source="marie" target="lord">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|offizier" source="marie" target="offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|chor_alle_3-10_und_3-11" source="marie" target="chor_alle_3-10_und_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|ratsdiener" source="marie" target="ratsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lefort|chor_stimmen_gaeste_alle_2" source="lefort" target="chor_stimmen_gaeste_alle_2">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lefort|marquis" source="lefort" target="marquis">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lefort|van_bett" source="lefort" target="van_bett">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lefort|lord" source="lefort" target="lord">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lefort|meisterin_browe" source="lefort" target="meisterin_browe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lefort|offizier" source="lefort" target="offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meisterin_browe|van_bett" source="meisterin_browe" target="van_bett">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="meisterin_browe|lord" source="meisterin_browe" target="lord">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="meisterin_browe|chor_1-16" source="meisterin_browe" target="chor_1-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meisterin_browe|die_maedchen_1-16" source="meisterin_browe" target="die_maedchen_1-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meisterin_browe|marquis" source="meisterin_browe" target="marquis">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="meisterin_browe|chor_stimmen_gaeste_alle_2" source="meisterin_browe" target="chor_stimmen_gaeste_alle_2">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="meisterin_browe|offizier" source="meisterin_browe" target="offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="van_bett|die_peter" source="van_bett" target="die_peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="van_bett|lord" source="van_bett" target="lord">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="van_bett|marquis" source="van_bett" target="marquis">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="van_bett|chor_stimmen_gaeste_alle_2" source="van_bett" target="chor_stimmen_gaeste_alle_2">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="van_bett|offizier" source="van_bett" target="offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="van_bett|chor_alle_3-1_und_3-2" source="van_bett" target="chor_alle_3-1_und_3-2">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="van_bett|die_maedchen_3-1" source="van_bett" target="die_maedchen_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="van_bett|chor_alle_3-10_und_3-11" source="van_bett" target="chor_alle_3-10_und_3-11">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="van_bett|ratsdiener" source="van_bett" target="ratsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lord|marquis" source="lord" target="marquis">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lord|chor_stimmen_gaeste_alle_2" source="lord" target="chor_stimmen_gaeste_alle_2">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lord|offizier" source="lord" target="offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|chor_1-16" source="marquis" target="chor_1-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|die_maedchen_1-16" source="marquis" target="die_maedchen_1-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|chor_stimmen_gaeste_alle_2" source="marquis" target="chor_stimmen_gaeste_alle_2">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marquis|offizier" source="marquis" target="offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_1-16|die_maedchen_1-16" source="chor_1-16" target="die_maedchen_1-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_stimmen_gaeste_alle_2|maenner" source="chor_stimmen_gaeste_alle_2" target="maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_stimmen_gaeste_alle_2|frauen" source="chor_stimmen_gaeste_alle_2" target="frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_stimmen_gaeste_alle_2|offizier" source="chor_stimmen_gaeste_alle_2" target="offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maenner|frauen" source="maenner" target="frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_alle_3-1_und_3-2|die_maedchen_3-1" source="chor_alle_3-1_und_3-2" target="die_maedchen_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_alle_3-10_und_3-11|ratsdiener" source="chor_alle_3-10_und_3-11" target="ratsdiener">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

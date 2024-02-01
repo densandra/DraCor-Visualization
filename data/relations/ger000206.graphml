@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="zangler">
+            <data key="label">Zangler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sonders">
+            <data key="label">Sonders</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gertrud">
+            <data key="label">Gertrud</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kraps">
+            <data key="label">Kraps</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="melchior">
+            <data key="label">Melchior</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hupfer">
+            <data key="label">Hupfer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="weinberl">
+            <data key="label">Weinberl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="christoph">
+            <data key="label">Christoph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hausmeister">
+            <data key="label">Hausmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="brunninger">
+            <data key="label">Brunninger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="philippine">
+            <data key="label">Philippine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="madame_knorr">
+            <data key="label">Madame Knorr</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_von_fischer">
+            <data key="label">Frau von Fischer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kutscher">
+            <data key="label">Kutscher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kellner">
+            <data key="label">Kellner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_kellner">
+            <data key="label">Zweiter Kellner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lisett">
+            <data key="label">Lisett</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fraeulein_blumenblatt">
+            <data key="label">Fräulein Blumenblatt</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wachter">
+            <data key="label">Wachter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_uebrigen">
+            <data key="label">Die Übrigen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="rab">
+            <data key="label">Rab</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="marie" target="zangler">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="2" directed="false" source="marie" target="zangler">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="weinberl" target="zangler">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="christoph" target="zangler">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="kraps" target="zangler">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="gertrud" target="zangler">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="fraeulein_blumenblatt" target="zangler">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="8" directed="false" source="lisett" target="fraeulein_blumenblatt">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

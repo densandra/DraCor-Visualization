@@ -1,0 +1,701 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="schulmeister">
+            <data key="label">Der Schulmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3845</data>
+        </node>
+        <node id="tobies">
+            <data key="label">Tobies</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">306</data>
+        </node>
+        <node id="gottliebchen">
+            <data key="label">Gottliebchen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">57</data>
+        </node>
+        <node id="teufel">
+            <data key="label">Der Teufel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3124</data>
+        </node>
+        <node id="erster_naturhistoriker">
+            <data key="label">Erster Naturhistoriker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">383</data>
+        </node>
+        <node id="zweiter_naturhistoriker">
+            <data key="label">Zweiter Naturhistoriker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">237</data>
+        </node>
+        <node id="dritter_naturhistoriker">
+            <data key="label">Dritter Naturhistoriker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">117</data>
+        </node>
+        <node id="vierter_naturhistoriker">
+            <data key="label">Vierter Naturhistoriker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">205</data>
+        </node>
+        <node id="rattengift">
+            <data key="label">Rattengift</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1694</data>
+        </node>
+        <node id="liddy">
+            <data key="label">Liddy</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">944</data>
+        </node>
+        <node id="wernthal">
+            <data key="label">Herr von Wernthal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">337</data>
+        </node>
+        <node id="baron">
+            <data key="label">Baron von Haldungen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">819</data>
+        </node>
+        <node id="ein_diener_1-3">
+            <data key="label">Ein Diener (I/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="der_bediente_1-4">
+            <data key="label">Ein Bedienter (I/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">29</data>
+        </node>
+        <node id="schmied">
+            <data key="label">Der Schmied</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">254</data>
+        </node>
+        <node id="freiherr">
+            <data key="label">Freiherr von Mordax</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">290</data>
+        </node>
+        <node id="mollfels">
+            <data key="label">Mollfels</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1714</data>
+        </node>
+        <node id="der_bediente_2-4">
+            <data key="label">Ein Bedienter (II/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="gretchen">
+            <data key="label">Gretchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">74</data>
+        </node>
+        <node id="einer_von_ihnen">
+            <data key="label">Einer von ihnen (den Naturhistorikern)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="die_spiessgesellen">
+            <data key="label">Die Spießgesellen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="der_hauswirt">
+            <data key="label">Der Hauswirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="ein_diener_3-6a">
+            <data key="label">Ein Diener (III/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="des_teufels_grossmutter">
+            <data key="label">Des Teufels Großmutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">70</data>
+        </node>
+        <node id="nero">
+            <data key="label">Kaiser Nero</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="der_bediente_3-6b">
+            <data key="label">Ein Bedienter (III/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="grabbe">
+            <data key="label">Grabbe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <edge id="schulmeister|tobies" source="schulmeister" target="tobies">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulmeister|gottliebchen" source="schulmeister" target="gottliebchen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schulmeister|erster_naturhistoriker" source="schulmeister" target="erster_naturhistoriker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulmeister|zweiter_naturhistoriker" source="schulmeister" target="zweiter_naturhistoriker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulmeister|dritter_naturhistoriker" source="schulmeister" target="dritter_naturhistoriker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulmeister|vierter_naturhistoriker" source="schulmeister" target="vierter_naturhistoriker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulmeister|teufel" source="schulmeister" target="teufel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schulmeister|rattengift" source="schulmeister" target="rattengift">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schulmeister|liddy" source="schulmeister" target="liddy">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulmeister|wernthal" source="schulmeister" target="wernthal">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulmeister|baron" source="schulmeister" target="baron">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulmeister|ein_diener_1-3" source="schulmeister" target="ein_diener_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|mollfels" source="schulmeister" target="mollfels">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="schulmeister|schmied" source="schulmeister" target="schmied">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|gretchen" source="schulmeister" target="gretchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|einer_von_ihnen" source="schulmeister" target="einer_von_ihnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|freiherr" source="schulmeister" target="freiherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulmeister|die_spiessgesellen" source="schulmeister" target="die_spiessgesellen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|der_hauswirt" source="schulmeister" target="der_hauswirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|ein_diener_3-6a" source="schulmeister" target="ein_diener_3-6a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|des_teufels_grossmutter" source="schulmeister" target="des_teufels_grossmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|nero" source="schulmeister" target="nero">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|der_bediente_3-6b" source="schulmeister" target="der_bediente_3-6b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|grabbe" source="schulmeister" target="grabbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tobies|gottliebchen" source="tobies" target="gottliebchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tobies|mollfels" source="tobies" target="mollfels">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottliebchen|erster_naturhistoriker" source="gottliebchen" target="erster_naturhistoriker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottliebchen|zweiter_naturhistoriker" source="gottliebchen" target="zweiter_naturhistoriker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottliebchen|dritter_naturhistoriker" source="gottliebchen" target="dritter_naturhistoriker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottliebchen|vierter_naturhistoriker" source="gottliebchen" target="vierter_naturhistoriker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottliebchen|teufel" source="gottliebchen" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottliebchen|rattengift" source="gottliebchen" target="rattengift">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gottliebchen|liddy" source="gottliebchen" target="liddy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottliebchen|wernthal" source="gottliebchen" target="wernthal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottliebchen|baron" source="gottliebchen" target="baron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottliebchen|ein_diener_1-3" source="gottliebchen" target="ein_diener_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottliebchen|schmied" source="gottliebchen" target="schmied">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottliebchen|gretchen" source="gottliebchen" target="gretchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottliebchen|mollfels" source="gottliebchen" target="mollfels">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="teufel|erster_naturhistoriker" source="teufel" target="erster_naturhistoriker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="teufel|zweiter_naturhistoriker" source="teufel" target="zweiter_naturhistoriker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="teufel|dritter_naturhistoriker" source="teufel" target="dritter_naturhistoriker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="teufel|vierter_naturhistoriker" source="teufel" target="vierter_naturhistoriker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="teufel|rattengift" source="teufel" target="rattengift">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="teufel|liddy" source="teufel" target="liddy">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="teufel|wernthal" source="teufel" target="wernthal">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="teufel|baron" source="teufel" target="baron">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="teufel|ein_diener_1-3" source="teufel" target="ein_diener_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="teufel|der_bediente_1-4" source="teufel" target="der_bediente_1-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="teufel|schmied" source="teufel" target="schmied">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="teufel|freiherr" source="teufel" target="freiherr">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="teufel|die_spiessgesellen" source="teufel" target="die_spiessgesellen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="teufel|mollfels" source="teufel" target="mollfels">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="teufel|der_hauswirt" source="teufel" target="der_hauswirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="teufel|ein_diener_3-6a" source="teufel" target="ein_diener_3-6a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="teufel|des_teufels_grossmutter" source="teufel" target="des_teufels_grossmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="teufel|nero" source="teufel" target="nero">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="teufel|der_bediente_3-6b" source="teufel" target="der_bediente_3-6b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="teufel|grabbe" source="teufel" target="grabbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_naturhistoriker|zweiter_naturhistoriker" source="erster_naturhistoriker" target="zweiter_naturhistoriker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_naturhistoriker|dritter_naturhistoriker" source="erster_naturhistoriker" target="dritter_naturhistoriker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_naturhistoriker|vierter_naturhistoriker" source="erster_naturhistoriker" target="vierter_naturhistoriker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_naturhistoriker|rattengift" source="erster_naturhistoriker" target="rattengift">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_naturhistoriker|liddy" source="erster_naturhistoriker" target="liddy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_naturhistoriker|wernthal" source="erster_naturhistoriker" target="wernthal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_naturhistoriker|baron" source="erster_naturhistoriker" target="baron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_naturhistoriker|ein_diener_1-3" source="erster_naturhistoriker" target="ein_diener_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_naturhistoriker|einer_von_ihnen" source="erster_naturhistoriker" target="einer_von_ihnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_naturhistoriker|mollfels" source="erster_naturhistoriker" target="mollfels">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_naturhistoriker|dritter_naturhistoriker" source="zweiter_naturhistoriker" target="dritter_naturhistoriker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_naturhistoriker|vierter_naturhistoriker" source="zweiter_naturhistoriker" target="vierter_naturhistoriker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_naturhistoriker|rattengift" source="zweiter_naturhistoriker" target="rattengift">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_naturhistoriker|liddy" source="zweiter_naturhistoriker" target="liddy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_naturhistoriker|wernthal" source="zweiter_naturhistoriker" target="wernthal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_naturhistoriker|baron" source="zweiter_naturhistoriker" target="baron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_naturhistoriker|ein_diener_1-3" source="zweiter_naturhistoriker" target="ein_diener_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_naturhistoriker|einer_von_ihnen" source="zweiter_naturhistoriker" target="einer_von_ihnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_naturhistoriker|mollfels" source="zweiter_naturhistoriker" target="mollfels">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_naturhistoriker|vierter_naturhistoriker" source="dritter_naturhistoriker" target="vierter_naturhistoriker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dritter_naturhistoriker|rattengift" source="dritter_naturhistoriker" target="rattengift">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dritter_naturhistoriker|liddy" source="dritter_naturhistoriker" target="liddy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_naturhistoriker|wernthal" source="dritter_naturhistoriker" target="wernthal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_naturhistoriker|baron" source="dritter_naturhistoriker" target="baron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_naturhistoriker|ein_diener_1-3" source="dritter_naturhistoriker" target="ein_diener_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_naturhistoriker|einer_von_ihnen" source="dritter_naturhistoriker" target="einer_von_ihnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_naturhistoriker|mollfels" source="dritter_naturhistoriker" target="mollfels">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_naturhistoriker|rattengift" source="vierter_naturhistoriker" target="rattengift">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vierter_naturhistoriker|liddy" source="vierter_naturhistoriker" target="liddy">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_naturhistoriker|wernthal" source="vierter_naturhistoriker" target="wernthal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_naturhistoriker|baron" source="vierter_naturhistoriker" target="baron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_naturhistoriker|ein_diener_1-3" source="vierter_naturhistoriker" target="ein_diener_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_naturhistoriker|einer_von_ihnen" source="vierter_naturhistoriker" target="einer_von_ihnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_naturhistoriker|mollfels" source="vierter_naturhistoriker" target="mollfels">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rattengift|liddy" source="rattengift" target="liddy">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rattengift|wernthal" source="rattengift" target="wernthal">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rattengift|baron" source="rattengift" target="baron">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rattengift|ein_diener_1-3" source="rattengift" target="ein_diener_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rattengift|schmied" source="rattengift" target="schmied">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rattengift|gretchen" source="rattengift" target="gretchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rattengift|mollfels" source="rattengift" target="mollfels">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rattengift|einer_von_ihnen" source="rattengift" target="einer_von_ihnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rattengift|der_hauswirt" source="rattengift" target="der_hauswirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rattengift|freiherr" source="rattengift" target="freiherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rattengift|ein_diener_3-6a" source="rattengift" target="ein_diener_3-6a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rattengift|des_teufels_grossmutter" source="rattengift" target="des_teufels_grossmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rattengift|nero" source="rattengift" target="nero">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rattengift|der_bediente_3-6b" source="rattengift" target="der_bediente_3-6b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rattengift|grabbe" source="rattengift" target="grabbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liddy|wernthal" source="liddy" target="wernthal">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="liddy|baron" source="liddy" target="baron">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="liddy|ein_diener_1-3" source="liddy" target="ein_diener_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liddy|der_bediente_2-4" source="liddy" target="der_bediente_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liddy|mollfels" source="liddy" target="mollfels">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="liddy|der_hauswirt" source="liddy" target="der_hauswirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liddy|freiherr" source="liddy" target="freiherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liddy|ein_diener_3-6a" source="liddy" target="ein_diener_3-6a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liddy|des_teufels_grossmutter" source="liddy" target="des_teufels_grossmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liddy|nero" source="liddy" target="nero">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liddy|der_bediente_3-6b" source="liddy" target="der_bediente_3-6b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liddy|grabbe" source="liddy" target="grabbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wernthal|baron" source="wernthal" target="baron">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wernthal|ein_diener_1-3" source="wernthal" target="ein_diener_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wernthal|freiherr" source="wernthal" target="freiherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wernthal|der_hauswirt" source="wernthal" target="der_hauswirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wernthal|mollfels" source="wernthal" target="mollfels">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wernthal|ein_diener_3-6a" source="wernthal" target="ein_diener_3-6a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wernthal|des_teufels_grossmutter" source="wernthal" target="des_teufels_grossmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wernthal|nero" source="wernthal" target="nero">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wernthal|der_bediente_3-6b" source="wernthal" target="der_bediente_3-6b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wernthal|grabbe" source="wernthal" target="grabbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|ein_diener_1-3" source="baron" target="ein_diener_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|der_bediente_2-4" source="baron" target="der_bediente_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|mollfels" source="baron" target="mollfels">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baron|der_hauswirt" source="baron" target="der_hauswirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|freiherr" source="baron" target="freiherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|ein_diener_3-6a" source="baron" target="ein_diener_3-6a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|des_teufels_grossmutter" source="baron" target="des_teufels_grossmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|nero" source="baron" target="nero">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|der_bediente_3-6b" source="baron" target="der_bediente_3-6b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|grabbe" source="baron" target="grabbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bediente_1-4|schmied" source="der_bediente_1-4" target="schmied">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmied|gretchen" source="schmied" target="gretchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmied|mollfels" source="schmied" target="mollfels">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freiherr|die_spiessgesellen" source="freiherr" target="die_spiessgesellen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freiherr|mollfels" source="freiherr" target="mollfels">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="freiherr|der_hauswirt" source="freiherr" target="der_hauswirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freiherr|ein_diener_3-6a" source="freiherr" target="ein_diener_3-6a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freiherr|des_teufels_grossmutter" source="freiherr" target="des_teufels_grossmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freiherr|nero" source="freiherr" target="nero">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freiherr|der_bediente_3-6b" source="freiherr" target="der_bediente_3-6b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freiherr|grabbe" source="freiherr" target="grabbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollfels|der_bediente_2-4" source="mollfels" target="der_bediente_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollfels|gretchen" source="mollfels" target="gretchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollfels|einer_von_ihnen" source="mollfels" target="einer_von_ihnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollfels|die_spiessgesellen" source="mollfels" target="die_spiessgesellen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollfels|der_hauswirt" source="mollfels" target="der_hauswirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollfels|ein_diener_3-6a" source="mollfels" target="ein_diener_3-6a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollfels|des_teufels_grossmutter" source="mollfels" target="des_teufels_grossmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollfels|nero" source="mollfels" target="nero">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollfels|der_bediente_3-6b" source="mollfels" target="der_bediente_3-6b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mollfels|grabbe" source="mollfels" target="grabbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hauswirt|ein_diener_3-6a" source="der_hauswirt" target="ein_diener_3-6a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hauswirt|des_teufels_grossmutter" source="der_hauswirt" target="des_teufels_grossmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hauswirt|nero" source="der_hauswirt" target="nero">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hauswirt|der_bediente_3-6b" source="der_hauswirt" target="der_bediente_3-6b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hauswirt|grabbe" source="der_hauswirt" target="grabbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener_3-6a|des_teufels_grossmutter" source="ein_diener_3-6a" target="des_teufels_grossmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener_3-6a|nero" source="ein_diener_3-6a" target="nero">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener_3-6a|der_bediente_3-6b" source="ein_diener_3-6a" target="der_bediente_3-6b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener_3-6a|grabbe" source="ein_diener_3-6a" target="grabbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="des_teufels_grossmutter|nero" source="des_teufels_grossmutter" target="nero">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="des_teufels_grossmutter|der_bediente_3-6b" source="des_teufels_grossmutter" target="der_bediente_3-6b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="des_teufels_grossmutter|grabbe" source="des_teufels_grossmutter" target="grabbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|der_bediente_3-6b" source="nero" target="der_bediente_3-6b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|grabbe" source="nero" target="grabbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bediente_3-6b|grabbe" source="der_bediente_3-6b" target="grabbe">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

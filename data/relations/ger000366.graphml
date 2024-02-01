@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="anton">
+            <data key="label">Anton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="joseph">
+            <data key="label">Joseph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="christian">
+            <data key="label">Christian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gluthammer">
+            <data key="label">Gluthammer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kathi">
+            <data key="label">Kathi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lips">
+            <data key="label">Lips</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stifler">
+            <data key="label">Stifler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wixer">
+            <data key="label">Wixer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sporner">
+            <data key="label">Sporner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="madame_schleier">
+            <data key="label">Madame Schleier</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_herren">
+            <data key="label">Die Herren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="krautkopf">
+            <data key="label">Krautkopf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_knecht_2-1">
+            <data key="label">Erster Knecht (II/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_knecht_2-1">
+            <data key="label">Zweiter Knecht (II/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_knecht_2-1">
+            <data key="label">Dritter Knecht (II/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vierter_knecht_2-1">
+            <data key="label">Vierter Knecht (II/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_knecht_2-4">
+            <data key="label">Erster Knecht (II/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_knecht_2-4">
+            <data key="label">Zweiter Knecht (II/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_knecht_2-4">
+            <data key="label">Dritter Knecht (II/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="justitiaer">
+            <data key="label">Justitiär</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_3-11">
+            <data key="label">Alle (III/11)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="lips" target="sporner">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="lips" target="stifler">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="3" directed="false" source="lips" target="wixer">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="4" directed="false" source="sporner" target="stifler">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="5" directed="false" source="sporner" target="wixer">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="6" directed="false" source="stifler" target="wixer">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="7" directed="false" source="kathi" target="krautkopf">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="8" directed="false" source="anton" target="lips">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="joseph" target="lips">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="10" directed="false" source="christian" target="lips">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="cathrine">
+            <data key="label">Cathrine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3298</data>
+        </node>
+        <node id="philinte">
+            <data key="label">Philinte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4166</data>
+        </node>
+        <node id="nicander">
+            <data key="label">Nicander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4239</data>
+        </node>
+        <node id="juliane">
+            <data key="label">Juliane</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3929</data>
+        </node>
+        <node id="agenor">
+            <data key="label">Agenor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3361</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">356</data>
+        </node>
+        <node id="agathe">
+            <data key="label">Agathe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">232</data>
+        </node>
+        <edge id="cathrine|philinte" source="cathrine" target="philinte">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="cathrine|juliane" source="cathrine" target="juliane">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="cathrine|nicander" source="cathrine" target="nicander">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="cathrine|agenor" source="cathrine" target="agenor">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="cathrine|heinrich" source="cathrine" target="heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cathrine|agathe" source="cathrine" target="agathe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philinte|nicander" source="philinte" target="nicander">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="philinte|juliane" source="philinte" target="juliane">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="philinte|agenor" source="philinte" target="agenor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="nicander|juliane" source="nicander" target="juliane">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="nicander|heinrich" source="nicander" target="heinrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nicander|agenor" source="nicander" target="agenor">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="juliane|agenor" source="juliane" target="agenor">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="juliane|agathe" source="juliane" target="agathe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agenor|agathe" source="agenor" target="agathe">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

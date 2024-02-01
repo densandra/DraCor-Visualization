@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="herr_oronte">
+            <data key="label">Herr Oronte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">729</data>
+        </node>
+        <node id="jungfer_ohldin">
+            <data key="label">Jungfer Ohldin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1512</data>
+        </node>
+        <node id="frau_oronte">
+            <data key="label">Frau Oronte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">349</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1484</data>
+        </node>
+        <node id="lelio">
+            <data key="label">Lelio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">663</data>
+        </node>
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1650</data>
+        </node>
+        <node id="clitander">
+            <data key="label">Clitander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1145</data>
+        </node>
+        <node id="herr_kraeusel">
+            <data key="label">Herr Kräusel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1080</data>
+        </node>
+        <node id="der_schneider">
+            <data key="label">Der Schneider</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">80</data>
+        </node>
+        <node id="herr_rehfuss">
+            <data key="label">Herr Rehfuss</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">205</data>
+        </node>
+        <node id="von_schlag">
+            <data key="label">Herr von Schlag</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">245</data>
+        </node>
+        <edge id="herr_oronte|jungfer_ohldin" source="herr_oronte" target="jungfer_ohldin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="herr_oronte|frau_oronte" source="herr_oronte" target="frau_oronte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_oronte|lelio" source="herr_oronte" target="lelio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_oronte|lisette" source="herr_oronte" target="lisette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_oronte|von_schlag" source="herr_oronte" target="von_schlag">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="herr_oronte|peter" source="herr_oronte" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_oronte|herr_kraeusel" source="herr_oronte" target="herr_kraeusel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_oronte|clitander" source="herr_oronte" target="clitander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfer_ohldin|frau_oronte" source="jungfer_ohldin" target="frau_oronte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jungfer_ohldin|lisette" source="jungfer_ohldin" target="lisette">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="jungfer_ohldin|clitander" source="jungfer_ohldin" target="clitander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jungfer_ohldin|herr_kraeusel" source="jungfer_ohldin" target="herr_kraeusel">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="jungfer_ohldin|der_schneider" source="jungfer_ohldin" target="der_schneider">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfer_ohldin|lelio" source="jungfer_ohldin" target="lelio">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jungfer_ohldin|peter" source="jungfer_ohldin" target="peter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="jungfer_ohldin|herr_rehfuss" source="jungfer_ohldin" target="herr_rehfuss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfer_ohldin|von_schlag" source="jungfer_ohldin" target="von_schlag">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_oronte|lelio" source="frau_oronte" target="lelio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_oronte|von_schlag" source="frau_oronte" target="von_schlag">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_oronte|lisette" source="frau_oronte" target="lisette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|lelio" source="lisette" target="lelio">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="lisette|peter" source="lisette" target="peter">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lisette|clitander" source="lisette" target="clitander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|herr_kraeusel" source="lisette" target="herr_kraeusel">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lisette|der_schneider" source="lisette" target="der_schneider">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|herr_rehfuss" source="lisette" target="herr_rehfuss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|von_schlag" source="lisette" target="von_schlag">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lelio|peter" source="lelio" target="peter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lelio|clitander" source="lelio" target="clitander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lelio|herr_kraeusel" source="lelio" target="herr_kraeusel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lelio|herr_rehfuss" source="lelio" target="herr_rehfuss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lelio|von_schlag" source="lelio" target="von_schlag">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="peter|herr_kraeusel" source="peter" target="herr_kraeusel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="peter|herr_rehfuss" source="peter" target="herr_rehfuss">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|von_schlag" source="peter" target="von_schlag">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="clitander|von_schlag" source="clitander" target="von_schlag">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_kraeusel|der_schneider" source="herr_kraeusel" target="der_schneider">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_kraeusel|von_schlag" source="herr_kraeusel" target="von_schlag">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

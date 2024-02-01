@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sternow_vater">
+            <data key="label">Geheimerath Sternow</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">727</data>
+        </node>
+        <node id="louise">
+            <data key="label">Louise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">255</data>
+        </node>
+        <node id="eduard">
+            <data key="label">Eduard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">414</data>
+        </node>
+        <node id="hornburg">
+            <data key="label">Graf von Hornburg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">180</data>
+        </node>
+        <edge id="sternow_vater|louise" source="sternow_vater" target="louise">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sternow_vater|hornburg" source="sternow_vater" target="hornburg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sternow_vater|eduard" source="sternow_vater" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="louise|eduard" source="louise" target="eduard">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="louise|hornburg" source="louise" target="hornburg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eduard|hornburg" source="eduard" target="hornburg">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

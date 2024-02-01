@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="frau_selicke">
+            <data key="label">Frau Selicke</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="walter">
+            <data key="label">Walter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="albert">
+            <data key="label">Albert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kopelke">
+            <data key="label">Kopelke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="linchen">
+            <data key="label">Linchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wendt">
+            <data key="label">Gustav Wendt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="toni">
+            <data key="label">Toni</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="selicke">
+            <data key="label">Eduard Selicke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="frau_selicke" target="selicke">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="selicke" target="linchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="selicke" target="toni">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="selicke" target="albert">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="selicke" target="walter">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="frau_selicke" target="linchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="7" directed="false" source="frau_selicke" target="toni">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="8" directed="false" source="frau_selicke" target="albert">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="9" directed="false" source="frau_selicke" target="walter">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="10" directed="false" source="selicke" target="wendt">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="11" directed="false" source="frau_selicke" target="wendt">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

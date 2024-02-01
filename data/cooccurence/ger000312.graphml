@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="etschmann">
+            <data key="label">Etschmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">263</data>
+        </node>
+        <node id="elsi">
+            <data key="label">Elsi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">288</data>
+        </node>
+        <node id="mathis">
+            <data key="label">Mathis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">150</data>
+        </node>
+        <node id="speckbacher">
+            <data key="label">Joseph Speckbacher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1807</data>
+        </node>
+        <node id="herzog">
+            <data key="label">Der Herzog von Danzig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1599</data>
+        </node>
+        <node id="la_coste">
+            <data key="label">La Coste</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">501</data>
+        </node>
+        <node id="fallern">
+            <data key="label">Fallern von Rodeneck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">281</data>
+        </node>
+        <node id="mayer">
+            <data key="label">Peter Mayer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">326</data>
+        </node>
+        <node id="haspinger">
+            <data key="label">Der Kapuziner Joachim Haspinger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">605</data>
+        </node>
+        <node id="die_andern">
+            <data key="label">Die Andern</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="andreas_hofer">
+            <data key="label">Andreas Hofer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4468</data>
+        </node>
+        <node id="volk">
+            <data key="label">Volk</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">71</data>
+        </node>
+        <node id="ein_bote">
+            <data key="label">Ein Bote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="der_tiroler_1-9">
+            <data key="label">Der Tiroler (I/9)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="fleury">
+            <data key="label">Fleury</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">445</data>
+        </node>
+        <node id="eisenstecken">
+            <data key="label">Eisenstecken</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">335</data>
+        </node>
+        <node id="ein_offizier">
+            <data key="label">Ein Offizier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">44</data>
+        </node>
+        <node id="frau_straubing">
+            <data key="label">Frau Straubing</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">297</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="die_rainer">
+            <data key="label">Gebrüder Rainer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">72</data>
+        </node>
+        <node id="mehrere_tiroler_alle_2-8">
+            <data key="label">Mehrere Tiroler/Alle (II/8)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">52</data>
+        </node>
+        <node id="einer_2-9a">
+            <data key="label">Einer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="ein_anderer">
+            <data key="label">Ein Anderer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="einer_2-9b">
+            <data key="label">Einer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="alle_2-9">
+            <data key="label">Alle (II/9)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="kanzler">
+            <data key="label">Kanzler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1064</data>
+        </node>
+        <node id="legationsrat">
+            <data key="label">Legationsrat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">560</data>
+        </node>
+        <node id="ein_kabinettssekretaer">
+            <data key="label">Ein Kabinettssekretär</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="ein_tiroler_4-1">
+            <data key="label">Ein Tiroler (IV/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="vizekoenig">
+            <data key="label">Vizekönig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1410</data>
+        </node>
+        <node id="paraguay">
+            <data key="label">Graf Paraguay</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">637</data>
+        </node>
+        <node id="ein_page">
+            <data key="label">Ein Page</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <node id="weib_tirolerin">
+            <data key="label">Ein Weib/Die Tirolerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">103</data>
+        </node>
+        <node id="erstes_kind">
+            <data key="label">Ein Kind</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="zweites_kind">
+            <data key="label">Zweites Kind</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="baerbel">
+            <data key="label">Bärbel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">326</data>
+        </node>
+        <node id="donay">
+            <data key="label">Der Priester Donay</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">117</data>
+        </node>
+        <node id="raynouard">
+            <data key="label">Raynouard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">93</data>
+        </node>
+        <node id="johann">
+            <data key="label">Johann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <edge id="etschmann|elsi" source="etschmann" target="elsi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="etschmann|mathis" source="etschmann" target="mathis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="etschmann|speckbacher" source="etschmann" target="speckbacher">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="etschmann|herzog" source="etschmann" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="etschmann|fallern" source="etschmann" target="fallern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="etschmann|la_coste" source="etschmann" target="la_coste">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="etschmann|andreas_hofer" source="etschmann" target="andreas_hofer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="etschmann|frau_straubing" source="etschmann" target="frau_straubing">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="etschmann|heinrich" source="etschmann" target="heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="etschmann|eisenstecken" source="etschmann" target="eisenstecken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elsi|speckbacher" source="elsi" target="speckbacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elsi|weib_tirolerin" source="elsi" target="weib_tirolerin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="elsi|erstes_kind" source="elsi" target="erstes_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elsi|zweites_kind" source="elsi" target="zweites_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elsi|baerbel" source="elsi" target="baerbel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="elsi|andreas_hofer" source="elsi" target="andreas_hofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elsi|donay" source="elsi" target="donay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mathis|speckbacher" source="mathis" target="speckbacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="speckbacher|herzog" source="speckbacher" target="herzog">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="speckbacher|la_coste" source="speckbacher" target="la_coste">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="speckbacher|fallern" source="speckbacher" target="fallern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="speckbacher|mayer" source="speckbacher" target="mayer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="speckbacher|haspinger" source="speckbacher" target="haspinger">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="speckbacher|die_andern" source="speckbacher" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="speckbacher|andreas_hofer" source="speckbacher" target="andreas_hofer">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="speckbacher|volk" source="speckbacher" target="volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="speckbacher|ein_bote" source="speckbacher" target="ein_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="speckbacher|der_tiroler_1-9" source="speckbacher" target="der_tiroler_1-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="speckbacher|eisenstecken" source="speckbacher" target="eisenstecken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="speckbacher|ein_tiroler_4-1" source="speckbacher" target="ein_tiroler_4-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|la_coste" source="herzog" target="la_coste">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="herzog|fallern" source="herzog" target="fallern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|fleury" source="herzog" target="fleury">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="herzog|ein_offizier" source="herzog" target="ein_offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|einer_2-9a" source="herzog" target="einer_2-9a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|ein_anderer" source="herzog" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|einer_2-9b" source="herzog" target="einer_2-9b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|alle_2-9" source="herzog" target="alle_2-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|andreas_hofer" source="herzog" target="andreas_hofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_coste|fallern" source="la_coste" target="fallern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_coste|fleury" source="la_coste" target="fleury">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="la_coste|ein_offizier" source="la_coste" target="ein_offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_coste|andreas_hofer" source="la_coste" target="andreas_hofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fallern|mayer" source="fallern" target="mayer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fallern|andreas_hofer" source="fallern" target="andreas_hofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fallern|eisenstecken" source="fallern" target="eisenstecken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="haspinger|die_andern" source="haspinger" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haspinger|andreas_hofer" source="haspinger" target="andreas_hofer">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="haspinger|volk" source="haspinger" target="volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="haspinger|ein_bote" source="haspinger" target="ein_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haspinger|der_tiroler_1-9" source="haspinger" target="der_tiroler_1-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haspinger|eisenstecken" source="haspinger" target="eisenstecken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="haspinger|ein_tiroler_4-1" source="haspinger" target="ein_tiroler_4-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas_hofer|volk" source="andreas_hofer" target="volk">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="andreas_hofer|ein_bote" source="andreas_hofer" target="ein_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas_hofer|der_tiroler_1-9" source="andreas_hofer" target="der_tiroler_1-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas_hofer|eisenstecken" source="andreas_hofer" target="eisenstecken">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="andreas_hofer|frau_straubing" source="andreas_hofer" target="frau_straubing">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas_hofer|heinrich" source="andreas_hofer" target="heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas_hofer|die_rainer" source="andreas_hofer" target="die_rainer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas_hofer|mehrere_tiroler_alle_2-8" source="andreas_hofer" target="mehrere_tiroler_alle_2-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas_hofer|ein_tiroler_4-1" source="andreas_hofer" target="ein_tiroler_4-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas_hofer|vizekoenig" source="andreas_hofer" target="vizekoenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="andreas_hofer|paraguay" source="andreas_hofer" target="paraguay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas_hofer|donay" source="andreas_hofer" target="donay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas_hofer|baerbel" source="andreas_hofer" target="baerbel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas_hofer|weib_tirolerin" source="andreas_hofer" target="weib_tirolerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas_hofer|johann" source="andreas_hofer" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas_hofer|raynouard" source="andreas_hofer" target="raynouard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|ein_bote" source="volk" target="ein_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|der_tiroler_1-9" source="volk" target="der_tiroler_1-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|ein_tiroler_4-1" source="volk" target="ein_tiroler_4-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bote|der_tiroler_1-9" source="ein_bote" target="der_tiroler_1-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fleury|ein_offizier" source="fleury" target="ein_offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fleury|einer_2-9a" source="fleury" target="einer_2-9a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fleury|ein_anderer" source="fleury" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fleury|einer_2-9b" source="fleury" target="einer_2-9b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fleury|alle_2-9" source="fleury" target="alle_2-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eisenstecken|die_rainer" source="eisenstecken" target="die_rainer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eisenstecken|mehrere_tiroler_alle_2-8" source="eisenstecken" target="mehrere_tiroler_alle_2-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_straubing|heinrich" source="frau_straubing" target="heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_rainer|mehrere_tiroler_alle_2-8" source="die_rainer" target="mehrere_tiroler_alle_2-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_2-9a|ein_anderer" source="einer_2-9a" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_2-9a|einer_2-9b" source="einer_2-9a" target="einer_2-9b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_2-9a|alle_2-9" source="einer_2-9a" target="alle_2-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer|einer_2-9b" source="ein_anderer" target="einer_2-9b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer|alle_2-9" source="ein_anderer" target="alle_2-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_2-9b|alle_2-9" source="einer_2-9b" target="alle_2-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kanzler|legationsrat" source="kanzler" target="legationsrat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kanzler|ein_kabinettssekretaer" source="kanzler" target="ein_kabinettssekretaer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legationsrat|ein_kabinettssekretaer" source="legationsrat" target="ein_kabinettssekretaer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vizekoenig|paraguay" source="vizekoenig" target="paraguay">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vizekoenig|ein_page" source="vizekoenig" target="ein_page">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paraguay|ein_page" source="paraguay" target="ein_page">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paraguay|donay" source="paraguay" target="donay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paraguay|raynouard" source="paraguay" target="raynouard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weib_tirolerin|erstes_kind" source="weib_tirolerin" target="erstes_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weib_tirolerin|zweites_kind" source="weib_tirolerin" target="zweites_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weib_tirolerin|baerbel" source="weib_tirolerin" target="baerbel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="weib_tirolerin|donay" source="weib_tirolerin" target="donay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_kind|zweites_kind" source="erstes_kind" target="zweites_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baerbel|donay" source="baerbel" target="donay">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="donay|raynouard" source="donay" target="raynouard">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

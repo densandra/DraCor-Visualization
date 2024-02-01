@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="daja">
+            <data key="label">Daja</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2600</data>
+        </node>
+        <node id="nathan">
+            <data key="label">Nathan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6668</data>
+        </node>
+        <node id="recha">
+            <data key="label">Recha</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2250</data>
+        </node>
+        <node id="derwisch">
+            <data key="label">Derwisch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1816</data>
+        </node>
+        <node id="tempelherr">
+            <data key="label">Tempelherr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5768</data>
+        </node>
+        <node id="klosterbruder">
+            <data key="label">Klosterbruder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2000</data>
+        </node>
+        <node id="sittah">
+            <data key="label">Sittah</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1773</data>
+        </node>
+        <node id="saladin">
+            <data key="label">Saladin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4154</data>
+        </node>
+        <node id="patriarch">
+            <data key="label">Patriarch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">713</data>
+        </node>
+        <node id="ein_sklave">
+            <data key="label">Ein Sklave</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="ein_mameluck">
+            <data key="label">Ein Mameluck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">66</data>
+        </node>
+        <node id="zweiter_mameluck">
+            <data key="label">Zweiter Mameluck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">95</data>
+        </node>
+        <node id="dritter_mameluck">
+            <data key="label">Dritter Mameluck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="mansor">
+            <data key="label">Mansor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <edge id="daja|nathan" source="daja" target="nathan">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="daja|recha" source="daja" target="recha">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="daja|tempelherr" source="daja" target="tempelherr">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="nathan|recha" source="nathan" target="recha">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nathan|derwisch" source="nathan" target="derwisch">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nathan|tempelherr" source="nathan" target="tempelherr">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="nathan|saladin" source="nathan" target="saladin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nathan|klosterbruder" source="nathan" target="klosterbruder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nathan|sittah" source="nathan" target="sittah">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="recha|tempelherr" source="recha" target="tempelherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="recha|sittah" source="recha" target="sittah">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="recha|saladin" source="recha" target="saladin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="derwisch|saladin" source="derwisch" target="saladin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="derwisch|sittah" source="derwisch" target="sittah">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tempelherr|klosterbruder" source="tempelherr" target="klosterbruder">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tempelherr|patriarch" source="tempelherr" target="patriarch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tempelherr|saladin" source="tempelherr" target="saladin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tempelherr|sittah" source="tempelherr" target="sittah">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klosterbruder|patriarch" source="klosterbruder" target="patriarch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sittah|saladin" source="sittah" target="saladin">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="sittah|ein_sklave" source="sittah" target="ein_sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saladin|ein_sklave" source="saladin" target="ein_sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saladin|ein_mameluck" source="saladin" target="ein_mameluck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saladin|zweiter_mameluck" source="saladin" target="zweiter_mameluck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saladin|dritter_mameluck" source="saladin" target="dritter_mameluck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saladin|mansor" source="saladin" target="mansor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_mameluck|zweiter_mameluck" source="ein_mameluck" target="zweiter_mameluck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_mameluck|dritter_mameluck" source="ein_mameluck" target="dritter_mameluck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_mameluck|dritter_mameluck" source="zweiter_mameluck" target="dritter_mameluck">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

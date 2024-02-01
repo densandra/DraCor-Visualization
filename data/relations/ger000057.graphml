@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="sir_john">
+            <data key="label">Sir John</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="liddy">
+            <data key="label">Liddy</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_knabe">
+            <data key="label">Der Knabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="samuel">
+            <data key="label">Samuel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mistriss_smith">
+            <data key="label">Mistriss Smith</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gurli">
+            <data key="label">Gurli</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="visitator">
+            <data key="label">Visitator</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="musaffery">
+            <data key="label">Musaffery</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kaberdar">
+            <data key="label">Kaberdar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jack">
+            <data key="label">Jack</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="robert">
+            <data key="label">Robert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fazir">
+            <data key="label">Fazir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="maester_strussel">
+            <data key="label">Mäster Strussel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="maester_staff">
+            <data key="label">Mäster Staff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="sir_john" target="mistriss_smith">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="sir_john" target="robert">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="sir_john" target="samuel">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="sir_john" target="liddy">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="kaberdar" target="gurli">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

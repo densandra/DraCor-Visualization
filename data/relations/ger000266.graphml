@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="don_juan">
+            <data key="label">Don Juan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="leporello">
+            <data key="label">Leporello</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_alte_fischer">
+            <data key="label">Der alte Fischer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="prozession">
+            <data key="label">Prozession</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ghita">
+            <data key="label">Ghita</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_moench">
+            <data key="label">Der Mönch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_strolch">
+            <data key="label">Erster Strolch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_strolch">
+            <data key="label">Zweiter Strolch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gianotto">
+            <data key="label">Gianotto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wirth">
+            <data key="label">Wirth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="biondetta">
+            <data key="label">Biondetta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="martina">
+            <data key="label">Martina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="graefin">
+            <data key="label">Gräfin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stimmen">
+            <data key="label">Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="biondetta" target="wirth">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="graefin" target="ghita">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="graefin" target="gianotto">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="biondetta" target="graefin">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="leporello" target="don_juan">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="diener" target="graefin">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

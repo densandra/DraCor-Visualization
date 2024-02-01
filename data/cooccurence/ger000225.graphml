@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sabine">
+            <data key="label">Sabine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2413</data>
+        </node>
+        <node id="die_magd">
+            <data key="label">Die Magd</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">84</data>
+        </node>
+        <node id="frau_staar">
+            <data key="label">Frau Staar</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3155</data>
+        </node>
+        <node id="herr_staar">
+            <data key="label">Herr Staar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1255</data>
+        </node>
+        <node id="buergermeister">
+            <data key="label">Bürgermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2838</data>
+        </node>
+        <node id="bauer">
+            <data key="label">Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">100</data>
+        </node>
+        <node id="frau_brendel">
+            <data key="label">Frau Brendel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">902</data>
+        </node>
+        <node id="frau_morgenroth">
+            <data key="label">Frau Morgenroth</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">821</data>
+        </node>
+        <node id="sperling">
+            <data key="label">Sperling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1485</data>
+        </node>
+        <node id="die_kinder">
+            <data key="label">Die Kinder</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="olmers">
+            <data key="label">Olmers</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1515</data>
+        </node>
+        <node id="nachtwaechter">
+            <data key="label">Nachtwächter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <node id="klaus">
+            <data key="label">Klaus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">518</data>
+        </node>
+        <edge id="sabine|die_magd" source="sabine" target="die_magd">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sabine|frau_staar" source="sabine" target="frau_staar">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="sabine|herr_staar" source="sabine" target="herr_staar">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="sabine|buergermeister" source="sabine" target="buergermeister">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="sabine|bauer" source="sabine" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sabine|sperling" source="sabine" target="sperling">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="sabine|die_kinder" source="sabine" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sabine|frau_brendel" source="sabine" target="frau_brendel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sabine|frau_morgenroth" source="sabine" target="frau_morgenroth">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sabine|olmers" source="sabine" target="olmers">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="sabine|klaus" source="sabine" target="klaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_magd|buergermeister" source="die_magd" target="buergermeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_magd|frau_staar" source="die_magd" target="frau_staar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_magd|olmers" source="die_magd" target="olmers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_magd|herr_staar" source="die_magd" target="herr_staar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_staar|herr_staar" source="frau_staar" target="herr_staar">
+            <data key="weight">19</data>
+        </edge>
+        <edge id="frau_staar|buergermeister" source="frau_staar" target="buergermeister">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="frau_staar|bauer" source="frau_staar" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_staar|frau_brendel" source="frau_staar" target="frau_brendel">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="frau_staar|frau_morgenroth" source="frau_staar" target="frau_morgenroth">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="frau_staar|sperling" source="frau_staar" target="sperling">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="frau_staar|die_kinder" source="frau_staar" target="die_kinder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_staar|olmers" source="frau_staar" target="olmers">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="frau_staar|nachtwaechter" source="frau_staar" target="nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_staar|klaus" source="frau_staar" target="klaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_staar|buergermeister" source="herr_staar" target="buergermeister">
+            <data key="weight">16</data>
+        </edge>
+        <edge id="herr_staar|bauer" source="herr_staar" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_staar|sperling" source="herr_staar" target="sperling">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="herr_staar|die_kinder" source="herr_staar" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_staar|frau_brendel" source="herr_staar" target="frau_brendel">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="herr_staar|frau_morgenroth" source="herr_staar" target="frau_morgenroth">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="herr_staar|olmers" source="herr_staar" target="olmers">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="herr_staar|klaus" source="herr_staar" target="klaus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="buergermeister|bauer" source="buergermeister" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buergermeister|sperling" source="buergermeister" target="sperling">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="buergermeister|die_kinder" source="buergermeister" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buergermeister|frau_brendel" source="buergermeister" target="frau_brendel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="buergermeister|frau_morgenroth" source="buergermeister" target="frau_morgenroth">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="buergermeister|olmers" source="buergermeister" target="olmers">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="buergermeister|klaus" source="buergermeister" target="klaus">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frau_brendel|frau_morgenroth" source="frau_brendel" target="frau_morgenroth">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="frau_brendel|sperling" source="frau_brendel" target="sperling">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="frau_brendel|die_kinder" source="frau_brendel" target="die_kinder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_brendel|olmers" source="frau_brendel" target="olmers">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_morgenroth|sperling" source="frau_morgenroth" target="sperling">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="frau_morgenroth|die_kinder" source="frau_morgenroth" target="die_kinder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_morgenroth|olmers" source="frau_morgenroth" target="olmers">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sperling|die_kinder" source="sperling" target="die_kinder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sperling|olmers" source="sperling" target="olmers">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="sperling|nachtwaechter" source="sperling" target="nachtwaechter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sperling|klaus" source="sperling" target="klaus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="olmers|klaus" source="olmers" target="klaus">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="chor_1-1">
+            <data key="label">Chor (I/1)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">29</data>
+        </node>
+        <node id="fritz">
+            <data key="label">Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">203</data>
+        </node>
+        <node id="johann">
+            <data key="label">Johann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">287</data>
+        </node>
+        <node id="pralling">
+            <data key="label">Pralling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">78</data>
+        </node>
+        <node id="wolf">
+            <data key="label">Wolf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1310</data>
+        </node>
+        <node id="gruendling">
+            <data key="label">Gründling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">241</data>
+        </node>
+        <node id="sockel">
+            <data key="label">Sockel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">405</data>
+        </node>
+        <node id="valentin">
+            <data key="label">Valentin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4387</data>
+        </node>
+        <node id="rosa">
+            <data key="label">Rosa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1868</data>
+        </node>
+        <node id="helm">
+            <data key="label">Helm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">98</data>
+        </node>
+        <node id="alle_1-7_bis_1-9">
+            <data key="label">Alle (I/7–9)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="walter">
+            <data key="label">Walter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">57</data>
+        </node>
+        <node id="dumont">
+            <data key="label">Dumont</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">547</data>
+        </node>
+        <node id="flottwell">
+            <data key="label">Flottwell</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4377</data>
+        </node>
+        <node id="ein_gast">
+            <data key="label">Ein Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="cheristane">
+            <data key="label">Cheristane</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">979</data>
+        </node>
+        <node id="azur">
+            <data key="label">Azur</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">83</data>
+        </node>
+        <node id="jagdchor">
+            <data key="label">Jagdchor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">81</data>
+        </node>
+        <node id="chor_2-1">
+            <data key="label">Chor (II/1)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">67</data>
+        </node>
+        <node id="der_bettler">
+            <data key="label">Der Bettler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">785</data>
+        </node>
+        <node id="haushofmeister">
+            <data key="label">Haushofmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">77</data>
+        </node>
+        <node id="diener_2-3">
+            <data key="label">Diener (II/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="weib">
+            <data key="label">Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">283</data>
+        </node>
+        <node id="juwelier">
+            <data key="label">Juwelier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">124</data>
+        </node>
+        <node id="klugheim">
+            <data key="label">Klugheim</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">333</data>
+        </node>
+        <node id="amalie">
+            <data key="label">Amalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">158</data>
+        </node>
+        <node id="flitterstein">
+            <data key="label">Flitterstein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">73</data>
+        </node>
+        <node id="chor_gaeste_2-11">
+            <data key="label">Chor/Gäste (II/11)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">71</data>
+        </node>
+        <node id="kellermeister">
+            <data key="label">Kellermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="arzt">
+            <data key="label">Arzt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="betti">
+            <data key="label">Betti</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="bediente_chor">
+            <data key="label">Bediente/Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">78</data>
+        </node>
+        <node id="thomas">
+            <data key="label">Thomas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">120</data>
+        </node>
+        <node id="max">
+            <data key="label">Max</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">58</data>
+        </node>
+        <node id="gaertner">
+            <data key="label">Gärtner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">317</data>
+        </node>
+        <node id="diener_3-3">
+            <data key="label">Diener (III/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="liese">
+            <data key="label">Liese</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">308</data>
+        </node>
+        <node id="michael">
+            <data key="label">Michael</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="hiesel">
+            <data key="label">Hiesel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">79</data>
+        </node>
+        <node id="pepi">
+            <data key="label">Pepi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <node id="hansel">
+            <data key="label">Hansel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">174</data>
+        </node>
+        <node id="alle_chor_3-11">
+            <data key="label">Alle/Chor (III/11)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">51</data>
+        </node>
+        <node id="senner_und_sennerinnen">
+            <data key="label">Senner und Sennerinnen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <edge id="chor_1-1|fritz" source="chor_1-1" target="fritz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_1-1|johann" source="chor_1-1" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|johann" source="fritz" target="johann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fritz|pralling" source="fritz" target="pralling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|wolf" source="fritz" target="wolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann|pralling" source="johann" target="pralling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann|wolf" source="johann" target="wolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pralling|helm" source="pralling" target="helm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pralling|wolf" source="pralling" target="wolf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pralling|alle_1-7_bis_1-9" source="pralling" target="alle_1-7_bis_1-9">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pralling|walter" source="pralling" target="walter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pralling|flottwell" source="pralling" target="flottwell">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pralling|ein_gast" source="pralling" target="ein_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pralling|valentin" source="pralling" target="valentin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pralling|dumont" source="pralling" target="dumont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pralling|sockel" source="pralling" target="sockel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolf|gruendling" source="wolf" target="gruendling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolf|sockel" source="wolf" target="sockel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wolf|helm" source="wolf" target="helm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wolf|alle_1-7_bis_1-9" source="wolf" target="alle_1-7_bis_1-9">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wolf|walter" source="wolf" target="walter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wolf|flottwell" source="wolf" target="flottwell">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="wolf|ein_gast" source="wolf" target="ein_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolf|valentin" source="wolf" target="valentin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wolf|dumont" source="wolf" target="dumont">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wolf|rosa" source="wolf" target="rosa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wolf|juwelier" source="wolf" target="juwelier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolf|der_bettler" source="wolf" target="der_bettler">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wolf|chor_gaeste_2-11" source="wolf" target="chor_gaeste_2-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolf|klugheim" source="wolf" target="klugheim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wolf|flitterstein" source="wolf" target="flitterstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolf|amalie" source="wolf" target="amalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolf|bediente_chor" source="wolf" target="bediente_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolf|gaertner" source="wolf" target="gaertner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolf|diener_3-3" source="wolf" target="diener_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sockel|flottwell" source="sockel" target="flottwell">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sockel|alle_1-7_bis_1-9" source="sockel" target="alle_1-7_bis_1-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sockel|ein_gast" source="sockel" target="ein_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sockel|helm" source="sockel" target="helm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sockel|walter" source="sockel" target="walter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sockel|valentin" source="sockel" target="valentin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sockel|dumont" source="sockel" target="dumont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valentin|rosa" source="valentin" target="rosa">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="valentin|flottwell" source="valentin" target="flottwell">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="valentin|alle_1-7_bis_1-9" source="valentin" target="alle_1-7_bis_1-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valentin|ein_gast" source="valentin" target="ein_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valentin|helm" source="valentin" target="helm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valentin|walter" source="valentin" target="walter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valentin|dumont" source="valentin" target="dumont">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valentin|jagdchor" source="valentin" target="jagdchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valentin|chor_2-1" source="valentin" target="chor_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valentin|der_bettler" source="valentin" target="der_bettler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valentin|kellermeister" source="valentin" target="kellermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valentin|bediente_chor" source="valentin" target="bediente_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valentin|liese" source="valentin" target="liese">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="valentin|hansel" source="valentin" target="hansel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="valentin|pepi" source="valentin" target="pepi">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="valentin|hiesel" source="valentin" target="hiesel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="valentin|michael" source="valentin" target="michael">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valentin|alle_chor_3-11" source="valentin" target="alle_chor_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valentin|senner_und_sennerinnen" source="valentin" target="senner_und_sennerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|chor_2-1" source="rosa" target="chor_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|der_bettler" source="rosa" target="der_bettler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|dumont" source="rosa" target="dumont">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosa|flottwell" source="rosa" target="flottwell">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosa|kellermeister" source="rosa" target="kellermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|bediente_chor" source="rosa" target="bediente_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|liese" source="rosa" target="liese">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosa|hansel" source="rosa" target="hansel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosa|hiesel" source="rosa" target="hiesel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosa|michael" source="rosa" target="michael">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosa|pepi" source="rosa" target="pepi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosa|alle_chor_3-11" source="rosa" target="alle_chor_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|senner_und_sennerinnen" source="rosa" target="senner_und_sennerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helm|alle_1-7_bis_1-9" source="helm" target="alle_1-7_bis_1-9">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="helm|walter" source="helm" target="walter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="helm|flottwell" source="helm" target="flottwell">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helm|ein_gast" source="helm" target="ein_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helm|dumont" source="helm" target="dumont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-7_bis_1-9|walter" source="alle_1-7_bis_1-9" target="walter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alle_1-7_bis_1-9|dumont" source="alle_1-7_bis_1-9" target="dumont">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alle_1-7_bis_1-9|flottwell" source="alle_1-7_bis_1-9" target="flottwell">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-7_bis_1-9|ein_gast" source="alle_1-7_bis_1-9" target="ein_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|flottwell" source="walter" target="flottwell">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walter|ein_gast" source="walter" target="ein_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|dumont" source="walter" target="dumont">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walter|chor_gaeste_2-11" source="walter" target="chor_gaeste_2-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|klugheim" source="walter" target="klugheim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|flitterstein" source="walter" target="flitterstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|amalie" source="walter" target="amalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|der_bettler" source="walter" target="der_bettler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dumont|flottwell" source="dumont" target="flottwell">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dumont|ein_gast" source="dumont" target="ein_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dumont|weib" source="dumont" target="weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dumont|chor_gaeste_2-11" source="dumont" target="chor_gaeste_2-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dumont|klugheim" source="dumont" target="klugheim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dumont|flitterstein" source="dumont" target="flitterstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dumont|amalie" source="dumont" target="amalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dumont|der_bettler" source="dumont" target="der_bettler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flottwell|ein_gast" source="flottwell" target="ein_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flottwell|cheristane" source="flottwell" target="cheristane">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flottwell|haushofmeister" source="flottwell" target="haushofmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flottwell|der_bettler" source="flottwell" target="der_bettler">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="flottwell|diener_2-3" source="flottwell" target="diener_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flottwell|juwelier" source="flottwell" target="juwelier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flottwell|amalie" source="flottwell" target="amalie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="flottwell|klugheim" source="flottwell" target="klugheim">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="flottwell|flitterstein" source="flottwell" target="flitterstein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flottwell|chor_gaeste_2-11" source="flottwell" target="chor_gaeste_2-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flottwell|betti" source="flottwell" target="betti">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flottwell|thomas" source="flottwell" target="thomas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flottwell|max" source="flottwell" target="max">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flottwell|gaertner" source="flottwell" target="gaertner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flottwell|diener_3-3" source="flottwell" target="diener_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flottwell|liese" source="flottwell" target="liese">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="flottwell|hansel" source="flottwell" target="hansel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="flottwell|pepi" source="flottwell" target="pepi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flottwell|hiesel" source="flottwell" target="hiesel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="flottwell|michael" source="flottwell" target="michael">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flottwell|alle_chor_3-11" source="flottwell" target="alle_chor_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flottwell|senner_und_sennerinnen" source="flottwell" target="senner_und_sennerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cheristane|azur" source="cheristane" target="azur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cheristane|der_bettler" source="cheristane" target="der_bettler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_2-1|der_bettler" source="chor_2-1" target="der_bettler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bettler|diener_2-3" source="der_bettler" target="diener_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bettler|juwelier" source="der_bettler" target="juwelier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bettler|chor_gaeste_2-11" source="der_bettler" target="chor_gaeste_2-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bettler|klugheim" source="der_bettler" target="klugheim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bettler|flitterstein" source="der_bettler" target="flitterstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bettler|amalie" source="der_bettler" target="amalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klugheim|amalie" source="klugheim" target="amalie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="klugheim|flitterstein" source="klugheim" target="flitterstein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klugheim|chor_gaeste_2-11" source="klugheim" target="chor_gaeste_2-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klugheim|arzt" source="klugheim" target="arzt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klugheim|betti" source="klugheim" target="betti">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|flitterstein" source="amalie" target="flitterstein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amalie|chor_gaeste_2-11" source="amalie" target="chor_gaeste_2-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|arzt" source="amalie" target="arzt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|betti" source="amalie" target="betti">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|thomas" source="amalie" target="thomas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|max" source="amalie" target="max">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flitterstein|chor_gaeste_2-11" source="flitterstein" target="chor_gaeste_2-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thomas|max" source="thomas" target="max">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gaertner|diener_3-3" source="gaertner" target="diener_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liese|michael" source="liese" target="michael">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="liese|hiesel" source="liese" target="hiesel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="liese|pepi" source="liese" target="pepi">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="liese|hansel" source="liese" target="hansel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="liese|alle_chor_3-11" source="liese" target="alle_chor_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liese|senner_und_sennerinnen" source="liese" target="senner_und_sennerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|hiesel" source="michael" target="hiesel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="michael|pepi" source="michael" target="pepi">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="michael|hansel" source="michael" target="hansel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="michael|alle_chor_3-11" source="michael" target="alle_chor_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|senner_und_sennerinnen" source="michael" target="senner_und_sennerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hiesel|pepi" source="hiesel" target="pepi">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hiesel|hansel" source="hiesel" target="hansel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hiesel|alle_chor_3-11" source="hiesel" target="alle_chor_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hiesel|senner_und_sennerinnen" source="hiesel" target="senner_und_sennerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pepi|hansel" source="pepi" target="hansel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="pepi|alle_chor_3-11" source="pepi" target="alle_chor_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pepi|senner_und_sennerinnen" source="pepi" target="senner_und_sennerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hansel|alle_chor_3-11" source="hansel" target="alle_chor_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hansel|senner_und_sennerinnen" source="hansel" target="senner_und_sennerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_chor_3-11|senner_und_sennerinnen" source="alle_chor_3-11" target="senner_und_sennerinnen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

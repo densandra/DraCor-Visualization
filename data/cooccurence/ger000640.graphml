@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="der_aeltere_delmas">
+            <data key="label">Der ältere Delmas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">537</data>
+        </node>
+        <node id="die_hofmeisterin">
+            <data key="label">Die Hofmeisterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">214</data>
+        </node>
+        <node id="der_juengere_delmas">
+            <data key="label">Der jüngere Delmas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">823</data>
+        </node>
+        <node id="herr_delmas">
+            <data key="label">Herr Delmas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">977</data>
+        </node>
+        <edge id="der_aeltere_delmas|die_hofmeisterin" source="der_aeltere_delmas" target="die_hofmeisterin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="der_aeltere_delmas|der_juengere_delmas" source="der_aeltere_delmas" target="der_juengere_delmas">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="der_aeltere_delmas|herr_delmas" source="der_aeltere_delmas" target="herr_delmas">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="die_hofmeisterin|der_juengere_delmas" source="die_hofmeisterin" target="der_juengere_delmas">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_hofmeisterin|herr_delmas" source="die_hofmeisterin" target="herr_delmas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_juengere_delmas|herr_delmas" source="der_juengere_delmas" target="herr_delmas">
+            <data key="weight">4</data>
+        </edge>
+    </graph>
+</graphml>

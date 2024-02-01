@@ -1,0 +1,2978 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="spielansager">
+            <data key="label">Spielansager</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">71</data>
+        </node>
+        <node id="gott_der_herr">
+            <data key="label">Gott der Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">200</data>
+        </node>
+        <node id="tod">
+            <data key="label">Tod</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">326</data>
+        </node>
+        <node id="jedermann">
+            <data key="label">Jedermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4781</data>
+        </node>
+        <node id="koch">
+            <data key="label">Koch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="gesell">
+            <data key="label">Gesell</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">817</data>
+        </node>
+        <node id="armer_nachbar">
+            <data key="label">Armer Nachbar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">141</data>
+        </node>
+        <node id="schuldknecht">
+            <data key="label">Schuldknecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">244</data>
+        </node>
+        <node id="schuldknechts_weib">
+            <data key="label">Schuldknechts Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">114</data>
+        </node>
+        <node id="jedermanns_mutter">
+            <data key="label">Jedermanns Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">702</data>
+        </node>
+        <node id="buhlschaft">
+            <data key="label">Buhlschaft</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">319</data>
+        </node>
+        <node id="vorsaenger">
+            <data key="label">Vorsänger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">30</data>
+        </node>
+        <node id="alle">
+            <data key="label">Alle (Die Gäste)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">79</data>
+        </node>
+        <node id="ein_fraeulein_a">
+            <data key="label">Ein Fräulein</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="dicker_vetter">
+            <data key="label">Dicker Vetter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">377</data>
+        </node>
+        <node id="duenner_vetter">
+            <data key="label">Dünner Vetter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">228</data>
+        </node>
+        <node id="ein_gast_a">
+            <data key="label">Ein Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="ein_fraeulein_b">
+            <data key="label">Ein Fräulein</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="ein_gast_b">
+            <data key="label">Ein Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="ein_fraeulein_c">
+            <data key="label">Ein Fräulein</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="ein_anderes_fraeulein_d">
+            <data key="label">Ein anderes Fräulein</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">32</data>
+        </node>
+        <node id="ein_drittes_fraeulein_e">
+            <data key="label">Ein drittes Fräulein</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">55</data>
+        </node>
+        <node id="ein_gast_c">
+            <data key="label">Ein Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="ein_fraeulein_f">
+            <data key="label">Ein Fräulein</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="ein_anderes_fraeulein_g">
+            <data key="label">Ein anderes Fräulein</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="ein_gast_d">
+            <data key="label">Ein Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="ein_anderer_e">
+            <data key="label">Ein anderer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="ein_gast_f">
+            <data key="label">Ein Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">30</data>
+        </node>
+        <node id="ein_anderer_gast_g">
+            <data key="label">Ein anderer Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="ein_gast_h">
+            <data key="label">Ein Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="ein_anderer_i">
+            <data key="label">Ein anderer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="ein_fraeulein_h">
+            <data key="label">Ein Fräulein</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="ein_anderer_j">
+            <data key="label">Ein anderer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="ein_gast_k">
+            <data key="label">Ein Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="ein_anderer_l">
+            <data key="label">Ein anderer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="stimmen">
+            <data key="label">Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="hausvogt">
+            <data key="label">Hausvogt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="knecht_a">
+            <data key="label">Knecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="mammon">
+            <data key="label">Mammon</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">345</data>
+        </node>
+        <node id="werke">
+            <data key="label">Werke</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">545</data>
+        </node>
+        <node id="glaube">
+            <data key="label">Glaube</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">510</data>
+        </node>
+        <node id="knecht_b">
+            <data key="label">Knecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="teufel">
+            <data key="label">Teufel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">572</data>
+        </node>
+        <edge id="spielansager|gott_der_herr" source="spielansager" target="gott_der_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|tod" source="spielansager" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|jedermann" source="spielansager" target="jedermann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|koch" source="spielansager" target="koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|gesell" source="spielansager" target="gesell">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|armer_nachbar" source="spielansager" target="armer_nachbar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|schuldknecht" source="spielansager" target="schuldknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|schuldknechts_weib" source="spielansager" target="schuldknechts_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|jedermanns_mutter" source="spielansager" target="jedermanns_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|buhlschaft" source="spielansager" target="buhlschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|vorsaenger" source="spielansager" target="vorsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|alle" source="spielansager" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_fraeulein_a" source="spielansager" target="ein_fraeulein_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|dicker_vetter" source="spielansager" target="dicker_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|duenner_vetter" source="spielansager" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_gast_a" source="spielansager" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_fraeulein_b" source="spielansager" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_gast_b" source="spielansager" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_fraeulein_c" source="spielansager" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_anderes_fraeulein_d" source="spielansager" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_drittes_fraeulein_e" source="spielansager" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_gast_c" source="spielansager" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_fraeulein_f" source="spielansager" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_anderes_fraeulein_g" source="spielansager" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_gast_d" source="spielansager" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_anderer_e" source="spielansager" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_gast_f" source="spielansager" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_anderer_gast_g" source="spielansager" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_gast_h" source="spielansager" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_anderer_i" source="spielansager" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_fraeulein_h" source="spielansager" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_anderer_j" source="spielansager" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_gast_k" source="spielansager" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|ein_anderer_l" source="spielansager" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|stimmen" source="spielansager" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|hausvogt" source="spielansager" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|knecht_a" source="spielansager" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|mammon" source="spielansager" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|werke" source="spielansager" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|glaube" source="spielansager" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|knecht_b" source="spielansager" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spielansager|teufel" source="spielansager" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|tod" source="gott_der_herr" target="tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|jedermann" source="gott_der_herr" target="jedermann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|koch" source="gott_der_herr" target="koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|gesell" source="gott_der_herr" target="gesell">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|armer_nachbar" source="gott_der_herr" target="armer_nachbar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|schuldknecht" source="gott_der_herr" target="schuldknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|schuldknechts_weib" source="gott_der_herr" target="schuldknechts_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|jedermanns_mutter" source="gott_der_herr" target="jedermanns_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|buhlschaft" source="gott_der_herr" target="buhlschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|vorsaenger" source="gott_der_herr" target="vorsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|alle" source="gott_der_herr" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_fraeulein_a" source="gott_der_herr" target="ein_fraeulein_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|dicker_vetter" source="gott_der_herr" target="dicker_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|duenner_vetter" source="gott_der_herr" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_gast_a" source="gott_der_herr" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_fraeulein_b" source="gott_der_herr" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_gast_b" source="gott_der_herr" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_fraeulein_c" source="gott_der_herr" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_anderes_fraeulein_d" source="gott_der_herr" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_drittes_fraeulein_e" source="gott_der_herr" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_gast_c" source="gott_der_herr" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_fraeulein_f" source="gott_der_herr" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_anderes_fraeulein_g" source="gott_der_herr" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_gast_d" source="gott_der_herr" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_anderer_e" source="gott_der_herr" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_gast_f" source="gott_der_herr" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_anderer_gast_g" source="gott_der_herr" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_gast_h" source="gott_der_herr" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_anderer_i" source="gott_der_herr" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_fraeulein_h" source="gott_der_herr" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_anderer_j" source="gott_der_herr" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_gast_k" source="gott_der_herr" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|ein_anderer_l" source="gott_der_herr" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|stimmen" source="gott_der_herr" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|hausvogt" source="gott_der_herr" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|knecht_a" source="gott_der_herr" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|mammon" source="gott_der_herr" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|werke" source="gott_der_herr" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|glaube" source="gott_der_herr" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|knecht_b" source="gott_der_herr" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gott_der_herr|teufel" source="gott_der_herr" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|jedermann" source="tod" target="jedermann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|koch" source="tod" target="koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|gesell" source="tod" target="gesell">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|armer_nachbar" source="tod" target="armer_nachbar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|schuldknecht" source="tod" target="schuldknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|schuldknechts_weib" source="tod" target="schuldknechts_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|jedermanns_mutter" source="tod" target="jedermanns_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|buhlschaft" source="tod" target="buhlschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|vorsaenger" source="tod" target="vorsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|alle" source="tod" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_fraeulein_a" source="tod" target="ein_fraeulein_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|dicker_vetter" source="tod" target="dicker_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|duenner_vetter" source="tod" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_gast_a" source="tod" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_fraeulein_b" source="tod" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_gast_b" source="tod" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_fraeulein_c" source="tod" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_anderes_fraeulein_d" source="tod" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_drittes_fraeulein_e" source="tod" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_gast_c" source="tod" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_fraeulein_f" source="tod" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_anderes_fraeulein_g" source="tod" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_gast_d" source="tod" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_anderer_e" source="tod" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_gast_f" source="tod" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_anderer_gast_g" source="tod" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_gast_h" source="tod" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_anderer_i" source="tod" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_fraeulein_h" source="tod" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_anderer_j" source="tod" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_gast_k" source="tod" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|ein_anderer_l" source="tod" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|stimmen" source="tod" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|hausvogt" source="tod" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|knecht_a" source="tod" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|mammon" source="tod" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|werke" source="tod" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|glaube" source="tod" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|knecht_b" source="tod" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tod|teufel" source="tod" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|koch" source="jedermann" target="koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|gesell" source="jedermann" target="gesell">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|armer_nachbar" source="jedermann" target="armer_nachbar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|schuldknecht" source="jedermann" target="schuldknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|schuldknechts_weib" source="jedermann" target="schuldknechts_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|jedermanns_mutter" source="jedermann" target="jedermanns_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|buhlschaft" source="jedermann" target="buhlschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|vorsaenger" source="jedermann" target="vorsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|alle" source="jedermann" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_fraeulein_a" source="jedermann" target="ein_fraeulein_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|dicker_vetter" source="jedermann" target="dicker_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|duenner_vetter" source="jedermann" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_gast_a" source="jedermann" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_fraeulein_b" source="jedermann" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_gast_b" source="jedermann" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_fraeulein_c" source="jedermann" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_anderes_fraeulein_d" source="jedermann" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_drittes_fraeulein_e" source="jedermann" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_gast_c" source="jedermann" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_fraeulein_f" source="jedermann" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_anderes_fraeulein_g" source="jedermann" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_gast_d" source="jedermann" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_anderer_e" source="jedermann" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_gast_f" source="jedermann" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_anderer_gast_g" source="jedermann" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_gast_h" source="jedermann" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_anderer_i" source="jedermann" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_fraeulein_h" source="jedermann" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_anderer_j" source="jedermann" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_gast_k" source="jedermann" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|ein_anderer_l" source="jedermann" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|stimmen" source="jedermann" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|hausvogt" source="jedermann" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|knecht_a" source="jedermann" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|mammon" source="jedermann" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|werke" source="jedermann" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|glaube" source="jedermann" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|knecht_b" source="jedermann" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermann|teufel" source="jedermann" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|gesell" source="koch" target="gesell">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|armer_nachbar" source="koch" target="armer_nachbar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|schuldknecht" source="koch" target="schuldknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|schuldknechts_weib" source="koch" target="schuldknechts_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|jedermanns_mutter" source="koch" target="jedermanns_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|buhlschaft" source="koch" target="buhlschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|vorsaenger" source="koch" target="vorsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|alle" source="koch" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_fraeulein_a" source="koch" target="ein_fraeulein_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|dicker_vetter" source="koch" target="dicker_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|duenner_vetter" source="koch" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_gast_a" source="koch" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_fraeulein_b" source="koch" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_gast_b" source="koch" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_fraeulein_c" source="koch" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_anderes_fraeulein_d" source="koch" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_drittes_fraeulein_e" source="koch" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_gast_c" source="koch" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_fraeulein_f" source="koch" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_anderes_fraeulein_g" source="koch" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_gast_d" source="koch" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_anderer_e" source="koch" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_gast_f" source="koch" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_anderer_gast_g" source="koch" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_gast_h" source="koch" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_anderer_i" source="koch" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_fraeulein_h" source="koch" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_anderer_j" source="koch" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_gast_k" source="koch" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|ein_anderer_l" source="koch" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|stimmen" source="koch" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|hausvogt" source="koch" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|knecht_a" source="koch" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|mammon" source="koch" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|werke" source="koch" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|glaube" source="koch" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|knecht_b" source="koch" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|teufel" source="koch" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|armer_nachbar" source="gesell" target="armer_nachbar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|schuldknecht" source="gesell" target="schuldknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|schuldknechts_weib" source="gesell" target="schuldknechts_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|jedermanns_mutter" source="gesell" target="jedermanns_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|buhlschaft" source="gesell" target="buhlschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|vorsaenger" source="gesell" target="vorsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|alle" source="gesell" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_fraeulein_a" source="gesell" target="ein_fraeulein_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|dicker_vetter" source="gesell" target="dicker_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|duenner_vetter" source="gesell" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_gast_a" source="gesell" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_fraeulein_b" source="gesell" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_gast_b" source="gesell" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_fraeulein_c" source="gesell" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_anderes_fraeulein_d" source="gesell" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_drittes_fraeulein_e" source="gesell" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_gast_c" source="gesell" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_fraeulein_f" source="gesell" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_anderes_fraeulein_g" source="gesell" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_gast_d" source="gesell" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_anderer_e" source="gesell" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_gast_f" source="gesell" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_anderer_gast_g" source="gesell" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_gast_h" source="gesell" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_anderer_i" source="gesell" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_fraeulein_h" source="gesell" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_anderer_j" source="gesell" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_gast_k" source="gesell" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|ein_anderer_l" source="gesell" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|stimmen" source="gesell" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|hausvogt" source="gesell" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|knecht_a" source="gesell" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|mammon" source="gesell" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|werke" source="gesell" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|glaube" source="gesell" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|knecht_b" source="gesell" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gesell|teufel" source="gesell" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|schuldknecht" source="armer_nachbar" target="schuldknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|schuldknechts_weib" source="armer_nachbar" target="schuldknechts_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|jedermanns_mutter" source="armer_nachbar" target="jedermanns_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|buhlschaft" source="armer_nachbar" target="buhlschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|vorsaenger" source="armer_nachbar" target="vorsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|alle" source="armer_nachbar" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_fraeulein_a" source="armer_nachbar" target="ein_fraeulein_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|dicker_vetter" source="armer_nachbar" target="dicker_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|duenner_vetter" source="armer_nachbar" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_gast_a" source="armer_nachbar" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_fraeulein_b" source="armer_nachbar" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_gast_b" source="armer_nachbar" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_fraeulein_c" source="armer_nachbar" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_anderes_fraeulein_d" source="armer_nachbar" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_drittes_fraeulein_e" source="armer_nachbar" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_gast_c" source="armer_nachbar" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_fraeulein_f" source="armer_nachbar" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_anderes_fraeulein_g" source="armer_nachbar" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_gast_d" source="armer_nachbar" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_anderer_e" source="armer_nachbar" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_gast_f" source="armer_nachbar" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_anderer_gast_g" source="armer_nachbar" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_gast_h" source="armer_nachbar" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_anderer_i" source="armer_nachbar" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_fraeulein_h" source="armer_nachbar" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_anderer_j" source="armer_nachbar" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_gast_k" source="armer_nachbar" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|ein_anderer_l" source="armer_nachbar" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|stimmen" source="armer_nachbar" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|hausvogt" source="armer_nachbar" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|knecht_a" source="armer_nachbar" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|mammon" source="armer_nachbar" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|werke" source="armer_nachbar" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|glaube" source="armer_nachbar" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|knecht_b" source="armer_nachbar" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="armer_nachbar|teufel" source="armer_nachbar" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|schuldknechts_weib" source="schuldknecht" target="schuldknechts_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|jedermanns_mutter" source="schuldknecht" target="jedermanns_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|buhlschaft" source="schuldknecht" target="buhlschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|vorsaenger" source="schuldknecht" target="vorsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|alle" source="schuldknecht" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_fraeulein_a" source="schuldknecht" target="ein_fraeulein_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|dicker_vetter" source="schuldknecht" target="dicker_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|duenner_vetter" source="schuldknecht" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_gast_a" source="schuldknecht" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_fraeulein_b" source="schuldknecht" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_gast_b" source="schuldknecht" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_fraeulein_c" source="schuldknecht" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_anderes_fraeulein_d" source="schuldknecht" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_drittes_fraeulein_e" source="schuldknecht" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_gast_c" source="schuldknecht" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_fraeulein_f" source="schuldknecht" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_anderes_fraeulein_g" source="schuldknecht" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_gast_d" source="schuldknecht" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_anderer_e" source="schuldknecht" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_gast_f" source="schuldknecht" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_anderer_gast_g" source="schuldknecht" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_gast_h" source="schuldknecht" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_anderer_i" source="schuldknecht" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_fraeulein_h" source="schuldknecht" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_anderer_j" source="schuldknecht" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_gast_k" source="schuldknecht" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|ein_anderer_l" source="schuldknecht" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|stimmen" source="schuldknecht" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|hausvogt" source="schuldknecht" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|knecht_a" source="schuldknecht" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|mammon" source="schuldknecht" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|werke" source="schuldknecht" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|glaube" source="schuldknecht" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|knecht_b" source="schuldknecht" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknecht|teufel" source="schuldknecht" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|jedermanns_mutter" source="schuldknechts_weib" target="jedermanns_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|buhlschaft" source="schuldknechts_weib" target="buhlschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|vorsaenger" source="schuldknechts_weib" target="vorsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|alle" source="schuldknechts_weib" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_fraeulein_a" source="schuldknechts_weib" target="ein_fraeulein_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|dicker_vetter" source="schuldknechts_weib" target="dicker_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|duenner_vetter" source="schuldknechts_weib" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_gast_a" source="schuldknechts_weib" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_fraeulein_b" source="schuldknechts_weib" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_gast_b" source="schuldknechts_weib" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_fraeulein_c" source="schuldknechts_weib" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_anderes_fraeulein_d" source="schuldknechts_weib" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_drittes_fraeulein_e" source="schuldknechts_weib" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_gast_c" source="schuldknechts_weib" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_fraeulein_f" source="schuldknechts_weib" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_anderes_fraeulein_g" source="schuldknechts_weib" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_gast_d" source="schuldknechts_weib" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_anderer_e" source="schuldknechts_weib" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_gast_f" source="schuldknechts_weib" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_anderer_gast_g" source="schuldknechts_weib" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_gast_h" source="schuldknechts_weib" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_anderer_i" source="schuldknechts_weib" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_fraeulein_h" source="schuldknechts_weib" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_anderer_j" source="schuldknechts_weib" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_gast_k" source="schuldknechts_weib" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|ein_anderer_l" source="schuldknechts_weib" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|stimmen" source="schuldknechts_weib" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|hausvogt" source="schuldknechts_weib" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|knecht_a" source="schuldknechts_weib" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|mammon" source="schuldknechts_weib" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|werke" source="schuldknechts_weib" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|glaube" source="schuldknechts_weib" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|knecht_b" source="schuldknechts_weib" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuldknechts_weib|teufel" source="schuldknechts_weib" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|buhlschaft" source="jedermanns_mutter" target="buhlschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|vorsaenger" source="jedermanns_mutter" target="vorsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|alle" source="jedermanns_mutter" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_fraeulein_a" source="jedermanns_mutter" target="ein_fraeulein_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|dicker_vetter" source="jedermanns_mutter" target="dicker_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|duenner_vetter" source="jedermanns_mutter" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_gast_a" source="jedermanns_mutter" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_fraeulein_b" source="jedermanns_mutter" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_gast_b" source="jedermanns_mutter" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_fraeulein_c" source="jedermanns_mutter" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_anderes_fraeulein_d" source="jedermanns_mutter" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_drittes_fraeulein_e" source="jedermanns_mutter" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_gast_c" source="jedermanns_mutter" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_fraeulein_f" source="jedermanns_mutter" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_anderes_fraeulein_g" source="jedermanns_mutter" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_gast_d" source="jedermanns_mutter" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_anderer_e" source="jedermanns_mutter" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_gast_f" source="jedermanns_mutter" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_anderer_gast_g" source="jedermanns_mutter" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_gast_h" source="jedermanns_mutter" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_anderer_i" source="jedermanns_mutter" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_fraeulein_h" source="jedermanns_mutter" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_anderer_j" source="jedermanns_mutter" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_gast_k" source="jedermanns_mutter" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|ein_anderer_l" source="jedermanns_mutter" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|stimmen" source="jedermanns_mutter" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|hausvogt" source="jedermanns_mutter" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|knecht_a" source="jedermanns_mutter" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|mammon" source="jedermanns_mutter" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|werke" source="jedermanns_mutter" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|glaube" source="jedermanns_mutter" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|knecht_b" source="jedermanns_mutter" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jedermanns_mutter|teufel" source="jedermanns_mutter" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|vorsaenger" source="buhlschaft" target="vorsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|alle" source="buhlschaft" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_fraeulein_a" source="buhlschaft" target="ein_fraeulein_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|dicker_vetter" source="buhlschaft" target="dicker_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|duenner_vetter" source="buhlschaft" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_gast_a" source="buhlschaft" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_fraeulein_b" source="buhlschaft" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_gast_b" source="buhlschaft" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_fraeulein_c" source="buhlschaft" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_anderes_fraeulein_d" source="buhlschaft" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_drittes_fraeulein_e" source="buhlschaft" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_gast_c" source="buhlschaft" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_fraeulein_f" source="buhlschaft" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_anderes_fraeulein_g" source="buhlschaft" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_gast_d" source="buhlschaft" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_anderer_e" source="buhlschaft" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_gast_f" source="buhlschaft" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_anderer_gast_g" source="buhlschaft" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_gast_h" source="buhlschaft" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_anderer_i" source="buhlschaft" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_fraeulein_h" source="buhlschaft" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_anderer_j" source="buhlschaft" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_gast_k" source="buhlschaft" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|ein_anderer_l" source="buhlschaft" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|stimmen" source="buhlschaft" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|hausvogt" source="buhlschaft" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|knecht_a" source="buhlschaft" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|mammon" source="buhlschaft" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|werke" source="buhlschaft" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|glaube" source="buhlschaft" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|knecht_b" source="buhlschaft" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buhlschaft|teufel" source="buhlschaft" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|alle" source="vorsaenger" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_fraeulein_a" source="vorsaenger" target="ein_fraeulein_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|dicker_vetter" source="vorsaenger" target="dicker_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|duenner_vetter" source="vorsaenger" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_gast_a" source="vorsaenger" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_fraeulein_b" source="vorsaenger" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_gast_b" source="vorsaenger" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_fraeulein_c" source="vorsaenger" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_anderes_fraeulein_d" source="vorsaenger" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_drittes_fraeulein_e" source="vorsaenger" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_gast_c" source="vorsaenger" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_fraeulein_f" source="vorsaenger" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_anderes_fraeulein_g" source="vorsaenger" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_gast_d" source="vorsaenger" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_anderer_e" source="vorsaenger" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_gast_f" source="vorsaenger" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_anderer_gast_g" source="vorsaenger" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_gast_h" source="vorsaenger" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_anderer_i" source="vorsaenger" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_fraeulein_h" source="vorsaenger" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_anderer_j" source="vorsaenger" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_gast_k" source="vorsaenger" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|ein_anderer_l" source="vorsaenger" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|stimmen" source="vorsaenger" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|hausvogt" source="vorsaenger" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|knecht_a" source="vorsaenger" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|mammon" source="vorsaenger" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|werke" source="vorsaenger" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|glaube" source="vorsaenger" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|knecht_b" source="vorsaenger" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vorsaenger|teufel" source="vorsaenger" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_fraeulein_a" source="alle" target="ein_fraeulein_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|dicker_vetter" source="alle" target="dicker_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|duenner_vetter" source="alle" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_gast_a" source="alle" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_fraeulein_b" source="alle" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_gast_b" source="alle" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_fraeulein_c" source="alle" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_anderes_fraeulein_d" source="alle" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_drittes_fraeulein_e" source="alle" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_gast_c" source="alle" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_fraeulein_f" source="alle" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_anderes_fraeulein_g" source="alle" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_gast_d" source="alle" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_anderer_e" source="alle" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_gast_f" source="alle" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_anderer_gast_g" source="alle" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_gast_h" source="alle" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_anderer_i" source="alle" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_fraeulein_h" source="alle" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_anderer_j" source="alle" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_gast_k" source="alle" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|ein_anderer_l" source="alle" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|stimmen" source="alle" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|hausvogt" source="alle" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|knecht_a" source="alle" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|mammon" source="alle" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|werke" source="alle" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|glaube" source="alle" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|knecht_b" source="alle" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle|teufel" source="alle" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|dicker_vetter" source="ein_fraeulein_a" target="dicker_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|duenner_vetter" source="ein_fraeulein_a" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_gast_a" source="ein_fraeulein_a" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_fraeulein_b" source="ein_fraeulein_a" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_gast_b" source="ein_fraeulein_a" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_fraeulein_c" source="ein_fraeulein_a" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_anderes_fraeulein_d" source="ein_fraeulein_a" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_drittes_fraeulein_e" source="ein_fraeulein_a" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_gast_c" source="ein_fraeulein_a" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_fraeulein_f" source="ein_fraeulein_a" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_anderes_fraeulein_g" source="ein_fraeulein_a" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_gast_d" source="ein_fraeulein_a" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_anderer_e" source="ein_fraeulein_a" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_gast_f" source="ein_fraeulein_a" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_anderer_gast_g" source="ein_fraeulein_a" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_gast_h" source="ein_fraeulein_a" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_anderer_i" source="ein_fraeulein_a" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_fraeulein_h" source="ein_fraeulein_a" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_anderer_j" source="ein_fraeulein_a" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_gast_k" source="ein_fraeulein_a" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|ein_anderer_l" source="ein_fraeulein_a" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|stimmen" source="ein_fraeulein_a" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|hausvogt" source="ein_fraeulein_a" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|knecht_a" source="ein_fraeulein_a" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|mammon" source="ein_fraeulein_a" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|werke" source="ein_fraeulein_a" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|glaube" source="ein_fraeulein_a" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|knecht_b" source="ein_fraeulein_a" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_a|teufel" source="ein_fraeulein_a" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|duenner_vetter" source="dicker_vetter" target="duenner_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_gast_a" source="dicker_vetter" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_fraeulein_b" source="dicker_vetter" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_gast_b" source="dicker_vetter" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_fraeulein_c" source="dicker_vetter" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_anderes_fraeulein_d" source="dicker_vetter" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_drittes_fraeulein_e" source="dicker_vetter" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_gast_c" source="dicker_vetter" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_fraeulein_f" source="dicker_vetter" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_anderes_fraeulein_g" source="dicker_vetter" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_gast_d" source="dicker_vetter" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_anderer_e" source="dicker_vetter" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_gast_f" source="dicker_vetter" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_anderer_gast_g" source="dicker_vetter" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_gast_h" source="dicker_vetter" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_anderer_i" source="dicker_vetter" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_fraeulein_h" source="dicker_vetter" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_anderer_j" source="dicker_vetter" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_gast_k" source="dicker_vetter" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|ein_anderer_l" source="dicker_vetter" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|stimmen" source="dicker_vetter" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|hausvogt" source="dicker_vetter" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|knecht_a" source="dicker_vetter" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|mammon" source="dicker_vetter" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|werke" source="dicker_vetter" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|glaube" source="dicker_vetter" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|knecht_b" source="dicker_vetter" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dicker_vetter|teufel" source="dicker_vetter" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_gast_a" source="duenner_vetter" target="ein_gast_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_fraeulein_b" source="duenner_vetter" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_gast_b" source="duenner_vetter" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_fraeulein_c" source="duenner_vetter" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_anderes_fraeulein_d" source="duenner_vetter" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_drittes_fraeulein_e" source="duenner_vetter" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_gast_c" source="duenner_vetter" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_fraeulein_f" source="duenner_vetter" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_anderes_fraeulein_g" source="duenner_vetter" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_gast_d" source="duenner_vetter" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_anderer_e" source="duenner_vetter" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_gast_f" source="duenner_vetter" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_anderer_gast_g" source="duenner_vetter" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_gast_h" source="duenner_vetter" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_anderer_i" source="duenner_vetter" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_fraeulein_h" source="duenner_vetter" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_anderer_j" source="duenner_vetter" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_gast_k" source="duenner_vetter" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|ein_anderer_l" source="duenner_vetter" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|stimmen" source="duenner_vetter" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|hausvogt" source="duenner_vetter" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|knecht_a" source="duenner_vetter" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|mammon" source="duenner_vetter" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|werke" source="duenner_vetter" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|glaube" source="duenner_vetter" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|knecht_b" source="duenner_vetter" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenner_vetter|teufel" source="duenner_vetter" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_fraeulein_b" source="ein_gast_a" target="ein_fraeulein_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_gast_b" source="ein_gast_a" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_fraeulein_c" source="ein_gast_a" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_anderes_fraeulein_d" source="ein_gast_a" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_drittes_fraeulein_e" source="ein_gast_a" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_gast_c" source="ein_gast_a" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_fraeulein_f" source="ein_gast_a" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_anderes_fraeulein_g" source="ein_gast_a" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_gast_d" source="ein_gast_a" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_anderer_e" source="ein_gast_a" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_gast_f" source="ein_gast_a" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_anderer_gast_g" source="ein_gast_a" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_gast_h" source="ein_gast_a" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_anderer_i" source="ein_gast_a" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_fraeulein_h" source="ein_gast_a" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_anderer_j" source="ein_gast_a" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_gast_k" source="ein_gast_a" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|ein_anderer_l" source="ein_gast_a" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|stimmen" source="ein_gast_a" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|hausvogt" source="ein_gast_a" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|knecht_a" source="ein_gast_a" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|mammon" source="ein_gast_a" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|werke" source="ein_gast_a" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|glaube" source="ein_gast_a" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|knecht_b" source="ein_gast_a" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_a|teufel" source="ein_gast_a" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_gast_b" source="ein_fraeulein_b" target="ein_gast_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_fraeulein_c" source="ein_fraeulein_b" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_anderes_fraeulein_d" source="ein_fraeulein_b" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_drittes_fraeulein_e" source="ein_fraeulein_b" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_gast_c" source="ein_fraeulein_b" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_fraeulein_f" source="ein_fraeulein_b" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_anderes_fraeulein_g" source="ein_fraeulein_b" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_gast_d" source="ein_fraeulein_b" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_anderer_e" source="ein_fraeulein_b" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_gast_f" source="ein_fraeulein_b" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_anderer_gast_g" source="ein_fraeulein_b" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_gast_h" source="ein_fraeulein_b" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_anderer_i" source="ein_fraeulein_b" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_fraeulein_h" source="ein_fraeulein_b" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_anderer_j" source="ein_fraeulein_b" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_gast_k" source="ein_fraeulein_b" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|ein_anderer_l" source="ein_fraeulein_b" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|stimmen" source="ein_fraeulein_b" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|hausvogt" source="ein_fraeulein_b" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|knecht_a" source="ein_fraeulein_b" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|mammon" source="ein_fraeulein_b" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|werke" source="ein_fraeulein_b" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|glaube" source="ein_fraeulein_b" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|knecht_b" source="ein_fraeulein_b" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_b|teufel" source="ein_fraeulein_b" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_fraeulein_c" source="ein_gast_b" target="ein_fraeulein_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_anderes_fraeulein_d" source="ein_gast_b" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_drittes_fraeulein_e" source="ein_gast_b" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_gast_c" source="ein_gast_b" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_fraeulein_f" source="ein_gast_b" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_anderes_fraeulein_g" source="ein_gast_b" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_gast_d" source="ein_gast_b" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_anderer_e" source="ein_gast_b" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_gast_f" source="ein_gast_b" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_anderer_gast_g" source="ein_gast_b" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_gast_h" source="ein_gast_b" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_anderer_i" source="ein_gast_b" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_fraeulein_h" source="ein_gast_b" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_anderer_j" source="ein_gast_b" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_gast_k" source="ein_gast_b" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|ein_anderer_l" source="ein_gast_b" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|stimmen" source="ein_gast_b" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|hausvogt" source="ein_gast_b" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|knecht_a" source="ein_gast_b" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|mammon" source="ein_gast_b" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|werke" source="ein_gast_b" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|glaube" source="ein_gast_b" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|knecht_b" source="ein_gast_b" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_b|teufel" source="ein_gast_b" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_anderes_fraeulein_d" source="ein_fraeulein_c" target="ein_anderes_fraeulein_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_drittes_fraeulein_e" source="ein_fraeulein_c" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_gast_c" source="ein_fraeulein_c" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_fraeulein_f" source="ein_fraeulein_c" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_anderes_fraeulein_g" source="ein_fraeulein_c" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_gast_d" source="ein_fraeulein_c" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_anderer_e" source="ein_fraeulein_c" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_gast_f" source="ein_fraeulein_c" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_anderer_gast_g" source="ein_fraeulein_c" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_gast_h" source="ein_fraeulein_c" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_anderer_i" source="ein_fraeulein_c" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_fraeulein_h" source="ein_fraeulein_c" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_anderer_j" source="ein_fraeulein_c" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_gast_k" source="ein_fraeulein_c" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|ein_anderer_l" source="ein_fraeulein_c" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|stimmen" source="ein_fraeulein_c" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|hausvogt" source="ein_fraeulein_c" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|knecht_a" source="ein_fraeulein_c" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|mammon" source="ein_fraeulein_c" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|werke" source="ein_fraeulein_c" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|glaube" source="ein_fraeulein_c" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|knecht_b" source="ein_fraeulein_c" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_c|teufel" source="ein_fraeulein_c" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|ein_drittes_fraeulein_e" source="ein_anderes_fraeulein_d" target="ein_drittes_fraeulein_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|ein_gast_c" source="ein_anderes_fraeulein_d" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|ein_fraeulein_f" source="ein_anderes_fraeulein_d" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|ein_anderes_fraeulein_g" source="ein_anderes_fraeulein_d" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|ein_gast_d" source="ein_anderes_fraeulein_d" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|ein_anderer_e" source="ein_anderes_fraeulein_d" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|ein_gast_f" source="ein_anderes_fraeulein_d" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|ein_anderer_gast_g" source="ein_anderes_fraeulein_d" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|ein_gast_h" source="ein_anderes_fraeulein_d" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|ein_anderer_i" source="ein_anderes_fraeulein_d" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|ein_fraeulein_h" source="ein_anderes_fraeulein_d" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|ein_anderer_j" source="ein_anderes_fraeulein_d" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|ein_gast_k" source="ein_anderes_fraeulein_d" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|ein_anderer_l" source="ein_anderes_fraeulein_d" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|stimmen" source="ein_anderes_fraeulein_d" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|hausvogt" source="ein_anderes_fraeulein_d" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|knecht_a" source="ein_anderes_fraeulein_d" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|mammon" source="ein_anderes_fraeulein_d" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|werke" source="ein_anderes_fraeulein_d" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|glaube" source="ein_anderes_fraeulein_d" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|knecht_b" source="ein_anderes_fraeulein_d" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_d|teufel" source="ein_anderes_fraeulein_d" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|ein_gast_c" source="ein_drittes_fraeulein_e" target="ein_gast_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|ein_fraeulein_f" source="ein_drittes_fraeulein_e" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|ein_anderes_fraeulein_g" source="ein_drittes_fraeulein_e" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|ein_gast_d" source="ein_drittes_fraeulein_e" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|ein_anderer_e" source="ein_drittes_fraeulein_e" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|ein_gast_f" source="ein_drittes_fraeulein_e" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|ein_anderer_gast_g" source="ein_drittes_fraeulein_e" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|ein_gast_h" source="ein_drittes_fraeulein_e" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|ein_anderer_i" source="ein_drittes_fraeulein_e" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|ein_fraeulein_h" source="ein_drittes_fraeulein_e" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|ein_anderer_j" source="ein_drittes_fraeulein_e" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|ein_gast_k" source="ein_drittes_fraeulein_e" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|ein_anderer_l" source="ein_drittes_fraeulein_e" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|stimmen" source="ein_drittes_fraeulein_e" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|hausvogt" source="ein_drittes_fraeulein_e" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|knecht_a" source="ein_drittes_fraeulein_e" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|mammon" source="ein_drittes_fraeulein_e" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|werke" source="ein_drittes_fraeulein_e" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|glaube" source="ein_drittes_fraeulein_e" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|knecht_b" source="ein_drittes_fraeulein_e" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_drittes_fraeulein_e|teufel" source="ein_drittes_fraeulein_e" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|ein_fraeulein_f" source="ein_gast_c" target="ein_fraeulein_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|ein_anderes_fraeulein_g" source="ein_gast_c" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|ein_gast_d" source="ein_gast_c" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|ein_anderer_e" source="ein_gast_c" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|ein_gast_f" source="ein_gast_c" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|ein_anderer_gast_g" source="ein_gast_c" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|ein_gast_h" source="ein_gast_c" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|ein_anderer_i" source="ein_gast_c" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|ein_fraeulein_h" source="ein_gast_c" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|ein_anderer_j" source="ein_gast_c" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|ein_gast_k" source="ein_gast_c" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|ein_anderer_l" source="ein_gast_c" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|stimmen" source="ein_gast_c" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|hausvogt" source="ein_gast_c" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|knecht_a" source="ein_gast_c" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|mammon" source="ein_gast_c" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|werke" source="ein_gast_c" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|glaube" source="ein_gast_c" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|knecht_b" source="ein_gast_c" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_c|teufel" source="ein_gast_c" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|ein_anderes_fraeulein_g" source="ein_fraeulein_f" target="ein_anderes_fraeulein_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|ein_gast_d" source="ein_fraeulein_f" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|ein_anderer_e" source="ein_fraeulein_f" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|ein_gast_f" source="ein_fraeulein_f" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|ein_anderer_gast_g" source="ein_fraeulein_f" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|ein_gast_h" source="ein_fraeulein_f" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|ein_anderer_i" source="ein_fraeulein_f" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|ein_fraeulein_h" source="ein_fraeulein_f" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|ein_anderer_j" source="ein_fraeulein_f" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|ein_gast_k" source="ein_fraeulein_f" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|ein_anderer_l" source="ein_fraeulein_f" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|stimmen" source="ein_fraeulein_f" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|hausvogt" source="ein_fraeulein_f" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|knecht_a" source="ein_fraeulein_f" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|mammon" source="ein_fraeulein_f" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|werke" source="ein_fraeulein_f" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|glaube" source="ein_fraeulein_f" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|knecht_b" source="ein_fraeulein_f" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_f|teufel" source="ein_fraeulein_f" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|ein_gast_d" source="ein_anderes_fraeulein_g" target="ein_gast_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|ein_anderer_e" source="ein_anderes_fraeulein_g" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|ein_gast_f" source="ein_anderes_fraeulein_g" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|ein_anderer_gast_g" source="ein_anderes_fraeulein_g" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|ein_gast_h" source="ein_anderes_fraeulein_g" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|ein_anderer_i" source="ein_anderes_fraeulein_g" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|ein_fraeulein_h" source="ein_anderes_fraeulein_g" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|ein_anderer_j" source="ein_anderes_fraeulein_g" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|ein_gast_k" source="ein_anderes_fraeulein_g" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|ein_anderer_l" source="ein_anderes_fraeulein_g" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|stimmen" source="ein_anderes_fraeulein_g" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|hausvogt" source="ein_anderes_fraeulein_g" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|knecht_a" source="ein_anderes_fraeulein_g" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|mammon" source="ein_anderes_fraeulein_g" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|werke" source="ein_anderes_fraeulein_g" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|glaube" source="ein_anderes_fraeulein_g" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|knecht_b" source="ein_anderes_fraeulein_g" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_fraeulein_g|teufel" source="ein_anderes_fraeulein_g" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|ein_anderer_e" source="ein_gast_d" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|ein_gast_f" source="ein_gast_d" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|ein_anderer_gast_g" source="ein_gast_d" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|ein_gast_h" source="ein_gast_d" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|ein_anderer_i" source="ein_gast_d" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|ein_fraeulein_h" source="ein_gast_d" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|ein_anderer_j" source="ein_gast_d" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|ein_gast_k" source="ein_gast_d" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|ein_anderer_l" source="ein_gast_d" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|stimmen" source="ein_gast_d" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|hausvogt" source="ein_gast_d" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|knecht_a" source="ein_gast_d" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|mammon" source="ein_gast_d" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|werke" source="ein_gast_d" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|glaube" source="ein_gast_d" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|knecht_b" source="ein_gast_d" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_d|teufel" source="ein_gast_d" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|ein_gast_f" source="ein_anderer_e" target="ein_gast_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|ein_anderer_gast_g" source="ein_anderer_e" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|ein_gast_h" source="ein_anderer_e" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|ein_anderer_i" source="ein_anderer_e" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|ein_fraeulein_h" source="ein_anderer_e" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|ein_anderer_j" source="ein_anderer_e" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|ein_gast_k" source="ein_anderer_e" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|ein_anderer_l" source="ein_anderer_e" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|stimmen" source="ein_anderer_e" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|hausvogt" source="ein_anderer_e" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|knecht_a" source="ein_anderer_e" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|mammon" source="ein_anderer_e" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|werke" source="ein_anderer_e" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|glaube" source="ein_anderer_e" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|knecht_b" source="ein_anderer_e" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|teufel" source="ein_anderer_e" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|ein_anderer_gast_g" source="ein_gast_f" target="ein_anderer_gast_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|ein_gast_h" source="ein_gast_f" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|ein_anderer_i" source="ein_gast_f" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|ein_fraeulein_h" source="ein_gast_f" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|ein_anderer_j" source="ein_gast_f" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|ein_gast_k" source="ein_gast_f" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|ein_anderer_l" source="ein_gast_f" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|stimmen" source="ein_gast_f" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|hausvogt" source="ein_gast_f" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|knecht_a" source="ein_gast_f" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|mammon" source="ein_gast_f" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|werke" source="ein_gast_f" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|glaube" source="ein_gast_f" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|knecht_b" source="ein_gast_f" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_f|teufel" source="ein_gast_f" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_gast_g|ein_gast_h" source="ein_anderer_gast_g" target="ein_gast_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_gast_g|ein_anderer_i" source="ein_anderer_gast_g" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_gast_g|ein_fraeulein_h" source="ein_anderer_gast_g" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_gast_g|ein_anderer_j" source="ein_anderer_gast_g" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_gast_g|ein_gast_k" source="ein_anderer_gast_g" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_gast_g|ein_anderer_l" source="ein_anderer_gast_g" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_gast_g|stimmen" source="ein_anderer_gast_g" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_gast_g|hausvogt" source="ein_anderer_gast_g" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_gast_g|knecht_a" source="ein_anderer_gast_g" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_gast_g|mammon" source="ein_anderer_gast_g" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_gast_g|werke" source="ein_anderer_gast_g" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_gast_g|glaube" source="ein_anderer_gast_g" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_gast_g|knecht_b" source="ein_anderer_gast_g" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_gast_g|teufel" source="ein_anderer_gast_g" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_h|ein_anderer_i" source="ein_gast_h" target="ein_anderer_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_h|ein_fraeulein_h" source="ein_gast_h" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_h|ein_anderer_j" source="ein_gast_h" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_h|ein_gast_k" source="ein_gast_h" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_h|ein_anderer_l" source="ein_gast_h" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_h|stimmen" source="ein_gast_h" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_h|hausvogt" source="ein_gast_h" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_h|knecht_a" source="ein_gast_h" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_h|mammon" source="ein_gast_h" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_h|werke" source="ein_gast_h" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_h|glaube" source="ein_gast_h" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_h|knecht_b" source="ein_gast_h" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_h|teufel" source="ein_gast_h" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_i|ein_fraeulein_h" source="ein_anderer_i" target="ein_fraeulein_h">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_i|ein_anderer_j" source="ein_anderer_i" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_i|ein_gast_k" source="ein_anderer_i" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_i|ein_anderer_l" source="ein_anderer_i" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_i|stimmen" source="ein_anderer_i" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_i|hausvogt" source="ein_anderer_i" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_i|knecht_a" source="ein_anderer_i" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_i|mammon" source="ein_anderer_i" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_i|werke" source="ein_anderer_i" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_i|glaube" source="ein_anderer_i" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_i|knecht_b" source="ein_anderer_i" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_i|teufel" source="ein_anderer_i" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_h|ein_anderer_j" source="ein_fraeulein_h" target="ein_anderer_j">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_h|ein_gast_k" source="ein_fraeulein_h" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_h|ein_anderer_l" source="ein_fraeulein_h" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_h|stimmen" source="ein_fraeulein_h" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_h|hausvogt" source="ein_fraeulein_h" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_h|knecht_a" source="ein_fraeulein_h" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_h|mammon" source="ein_fraeulein_h" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_h|werke" source="ein_fraeulein_h" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_h|glaube" source="ein_fraeulein_h" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_h|knecht_b" source="ein_fraeulein_h" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_fraeulein_h|teufel" source="ein_fraeulein_h" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_j|ein_gast_k" source="ein_anderer_j" target="ein_gast_k">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_j|ein_anderer_l" source="ein_anderer_j" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_j|stimmen" source="ein_anderer_j" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_j|hausvogt" source="ein_anderer_j" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_j|knecht_a" source="ein_anderer_j" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_j|mammon" source="ein_anderer_j" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_j|werke" source="ein_anderer_j" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_j|glaube" source="ein_anderer_j" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_j|knecht_b" source="ein_anderer_j" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_j|teufel" source="ein_anderer_j" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_k|ein_anderer_l" source="ein_gast_k" target="ein_anderer_l">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_k|stimmen" source="ein_gast_k" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_k|hausvogt" source="ein_gast_k" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_k|knecht_a" source="ein_gast_k" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_k|mammon" source="ein_gast_k" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_k|werke" source="ein_gast_k" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_k|glaube" source="ein_gast_k" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_k|knecht_b" source="ein_gast_k" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gast_k|teufel" source="ein_gast_k" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_l|stimmen" source="ein_anderer_l" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_l|hausvogt" source="ein_anderer_l" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_l|knecht_a" source="ein_anderer_l" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_l|mammon" source="ein_anderer_l" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_l|werke" source="ein_anderer_l" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_l|glaube" source="ein_anderer_l" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_l|knecht_b" source="ein_anderer_l" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_l|teufel" source="ein_anderer_l" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|hausvogt" source="stimmen" target="hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|knecht_a" source="stimmen" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|mammon" source="stimmen" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|werke" source="stimmen" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|glaube" source="stimmen" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|knecht_b" source="stimmen" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|teufel" source="stimmen" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hausvogt|knecht_a" source="hausvogt" target="knecht_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hausvogt|mammon" source="hausvogt" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hausvogt|werke" source="hausvogt" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hausvogt|glaube" source="hausvogt" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hausvogt|knecht_b" source="hausvogt" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hausvogt|teufel" source="hausvogt" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht_a|mammon" source="knecht_a" target="mammon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht_a|werke" source="knecht_a" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht_a|glaube" source="knecht_a" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht_a|knecht_b" source="knecht_a" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht_a|teufel" source="knecht_a" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mammon|werke" source="mammon" target="werke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mammon|glaube" source="mammon" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mammon|knecht_b" source="mammon" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mammon|teufel" source="mammon" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werke|glaube" source="werke" target="glaube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werke|knecht_b" source="werke" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werke|teufel" source="werke" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="glaube|knecht_b" source="glaube" target="knecht_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="glaube|teufel" source="glaube" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht_b|teufel" source="knecht_b" target="teufel">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

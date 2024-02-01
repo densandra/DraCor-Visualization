@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="orbil">
+            <data key="label">Orbil</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3610</data>
+        </node>
+        <node id="wilhelmine">
+            <data key="label">Wilhelmine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">577</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1226</data>
+        </node>
+        <node id="johann">
+            <data key="label">Johann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">741</data>
+        </node>
+        <node id="valer">
+            <data key="label">Valer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">763</data>
+        </node>
+        <node id="der_magister">
+            <data key="label">Der Magister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">887</data>
+        </node>
+        <edge id="orbil|wilhelmine" source="orbil" target="wilhelmine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="orbil|lisette" source="orbil" target="lisette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="orbil|der_magister" source="orbil" target="der_magister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="orbil|valer" source="orbil" target="valer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="orbil|johann" source="orbil" target="johann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wilhelmine|lisette" source="wilhelmine" target="lisette">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wilhelmine|valer" source="wilhelmine" target="valer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelmine|johann" source="wilhelmine" target="johann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelmine|der_magister" source="wilhelmine" target="der_magister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|johann" source="lisette" target="johann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lisette|valer" source="lisette" target="valer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lisette|der_magister" source="lisette" target="der_magister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="johann|valer" source="johann" target="valer">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="johann|der_magister" source="johann" target="der_magister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valer|der_magister" source="valer" target="der_magister">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

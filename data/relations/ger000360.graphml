@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="elvire">
+            <data key="label">Elvire</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_diener">
+            <data key="label">Der Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jerta">
+            <data key="label">Jerta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="otto">
+            <data key="label">Otto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kolbert">
+            <data key="label">Kolbert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="holm">
+            <data key="label">Holm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hugo">
+            <data key="label">Hugo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="valeros">
+            <data key="label">Valeros</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="elvire" target="hugo">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="elvire" target="otto">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="otto" target="valeros">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="4" directed="false" source="kolbert" target="hugo">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="holm" target="hugo">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

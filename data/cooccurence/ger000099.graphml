@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1127</data>
+        </node>
+        <node id="lieschen">
+            <data key="label">Lieschen Bode</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1969</data>
+        </node>
+        <node id="hanna">
+            <data key="label">Hanna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3532</data>
+        </node>
+        <node id="eine_tiefe_bassstimme">
+            <data key="label">Eine tiefe Baßstimme</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="eine_singende_stimme">
+            <data key="label">Eine singende Stimme</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="konrad">
+            <data key="label">Konrad</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1310</data>
+        </node>
+        <node id="eduard">
+            <data key="label">Eduard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">638</data>
+        </node>
+        <node id="verschiedene_die_stimmen">
+            <data key="label">Verschiedene/Die Stimmen (I. Akt)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="eine_breite_stimme">
+            <data key="label">Eine breite Stimme</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="bernhard">
+            <data key="label">Bernhard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1752</data>
+        </node>
+        <node id="freudenberg">
+            <data key="label">Freudenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">908</data>
+        </node>
+        <node id="die_zuschneiderin">
+            <data key="label">Die Zuschneiderin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">92</data>
+        </node>
+        <node id="eine_arbeiterin">
+            <data key="label">Eine Arbeiterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">52</data>
+        </node>
+        <node id="der_alte_vernier">
+            <data key="label">Der alte Vernier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1569</data>
+        </node>
+        <node id="der_hausdiener">
+            <data key="label">Der Hausdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="viele_stimmen">
+            <data key="label">Viele Stimmen (II. Akt)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="alexander">
+            <data key="label">Alexander Könitz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2575</data>
+        </node>
+        <node id="hedwig">
+            <data key="label">Hedwig</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">44</data>
+        </node>
+        <edge id="sophie|lieschen" source="sophie" target="lieschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|hanna" source="sophie" target="hanna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|eine_tiefe_bassstimme" source="sophie" target="eine_tiefe_bassstimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|eine_singende_stimme" source="sophie" target="eine_singende_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|konrad" source="sophie" target="konrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|eduard" source="sophie" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|verschiedene_die_stimmen" source="sophie" target="verschiedene_die_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|eine_breite_stimme" source="sophie" target="eine_breite_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|hanna" source="lieschen" target="hanna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lieschen|eine_tiefe_bassstimme" source="lieschen" target="eine_tiefe_bassstimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|eine_singende_stimme" source="lieschen" target="eine_singende_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|konrad" source="lieschen" target="konrad">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lieschen|eduard" source="lieschen" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|verschiedene_die_stimmen" source="lieschen" target="verschiedene_die_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|eine_breite_stimme" source="lieschen" target="eine_breite_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|hedwig" source="lieschen" target="hedwig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|bernhard" source="lieschen" target="bernhard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|alexander" source="lieschen" target="alexander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|eine_tiefe_bassstimme" source="hanna" target="eine_tiefe_bassstimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|eine_singende_stimme" source="hanna" target="eine_singende_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|konrad" source="hanna" target="konrad">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hanna|eduard" source="hanna" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|verschiedene_die_stimmen" source="hanna" target="verschiedene_die_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|eine_breite_stimme" source="hanna" target="eine_breite_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|bernhard" source="hanna" target="bernhard">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hanna|freudenberg" source="hanna" target="freudenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|die_zuschneiderin" source="hanna" target="die_zuschneiderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|eine_arbeiterin" source="hanna" target="eine_arbeiterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|der_alte_vernier" source="hanna" target="der_alte_vernier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|der_hausdiener" source="hanna" target="der_hausdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|viele_stimmen" source="hanna" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|alexander" source="hanna" target="alexander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hanna|hedwig" source="hanna" target="hedwig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_tiefe_bassstimme|eine_singende_stimme" source="eine_tiefe_bassstimme" target="eine_singende_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_tiefe_bassstimme|konrad" source="eine_tiefe_bassstimme" target="konrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_tiefe_bassstimme|eduard" source="eine_tiefe_bassstimme" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_tiefe_bassstimme|verschiedene_die_stimmen" source="eine_tiefe_bassstimme" target="verschiedene_die_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_tiefe_bassstimme|eine_breite_stimme" source="eine_tiefe_bassstimme" target="eine_breite_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_singende_stimme|konrad" source="eine_singende_stimme" target="konrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_singende_stimme|eduard" source="eine_singende_stimme" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_singende_stimme|verschiedene_die_stimmen" source="eine_singende_stimme" target="verschiedene_die_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_singende_stimme|eine_breite_stimme" source="eine_singende_stimme" target="eine_breite_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="konrad|eduard" source="konrad" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="konrad|verschiedene_die_stimmen" source="konrad" target="verschiedene_die_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="konrad|eine_breite_stimme" source="konrad" target="eine_breite_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="konrad|hedwig" source="konrad" target="hedwig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="konrad|bernhard" source="konrad" target="bernhard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="konrad|alexander" source="konrad" target="alexander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eduard|verschiedene_die_stimmen" source="eduard" target="verschiedene_die_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eduard|eine_breite_stimme" source="eduard" target="eine_breite_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="verschiedene_die_stimmen|eine_breite_stimme" source="verschiedene_die_stimmen" target="eine_breite_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bernhard|freudenberg" source="bernhard" target="freudenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bernhard|die_zuschneiderin" source="bernhard" target="die_zuschneiderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bernhard|eine_arbeiterin" source="bernhard" target="eine_arbeiterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bernhard|der_alte_vernier" source="bernhard" target="der_alte_vernier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bernhard|der_hausdiener" source="bernhard" target="der_hausdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bernhard|viele_stimmen" source="bernhard" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bernhard|alexander" source="bernhard" target="alexander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bernhard|hedwig" source="bernhard" target="hedwig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freudenberg|die_zuschneiderin" source="freudenberg" target="die_zuschneiderin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freudenberg|eine_arbeiterin" source="freudenberg" target="eine_arbeiterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freudenberg|der_alte_vernier" source="freudenberg" target="der_alte_vernier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freudenberg|der_hausdiener" source="freudenberg" target="der_hausdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freudenberg|viele_stimmen" source="freudenberg" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freudenberg|alexander" source="freudenberg" target="alexander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_zuschneiderin|eine_arbeiterin" source="die_zuschneiderin" target="eine_arbeiterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_zuschneiderin|der_alte_vernier" source="die_zuschneiderin" target="der_alte_vernier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_zuschneiderin|der_hausdiener" source="die_zuschneiderin" target="der_hausdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_zuschneiderin|viele_stimmen" source="die_zuschneiderin" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_zuschneiderin|alexander" source="die_zuschneiderin" target="alexander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_arbeiterin|der_alte_vernier" source="eine_arbeiterin" target="der_alte_vernier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_arbeiterin|der_hausdiener" source="eine_arbeiterin" target="der_hausdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_arbeiterin|viele_stimmen" source="eine_arbeiterin" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_arbeiterin|alexander" source="eine_arbeiterin" target="alexander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_alte_vernier|der_hausdiener" source="der_alte_vernier" target="der_hausdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_alte_vernier|viele_stimmen" source="der_alte_vernier" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_alte_vernier|alexander" source="der_alte_vernier" target="alexander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hausdiener|viele_stimmen" source="der_hausdiener" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hausdiener|alexander" source="der_hausdiener" target="alexander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_stimmen|alexander" source="viele_stimmen" target="alexander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alexander|hedwig" source="alexander" target="hedwig">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

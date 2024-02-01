@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="chor_der_banditen">
+            <data key="label">Alle/Chor der Banditen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">338</data>
+        </node>
+        <node id="bonaparte">
+            <data key="label">Bonaparte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">475</data>
+        </node>
+        <node id="vandamme">
+            <data key="label">Vandamme</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">159</data>
+        </node>
+        <node id="erster_jaeger">
+            <data key="label">Erster Jäger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="zweiter_jaeger">
+            <data key="label">Zweiter Jäger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="dritter_jaeger">
+            <data key="label">Dritter Jäger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">46</data>
+        </node>
+        <node id="ein_chor_hinter_der_buehne">
+            <data key="label">Ein Chor hinter der Bühne</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">92</data>
+        </node>
+        <node id="ney">
+            <data key="label">Ney</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">67</data>
+        </node>
+        <node id="marion">
+            <data key="label">Marion</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">109</data>
+        </node>
+        <node id="ein_grenadier">
+            <data key="label">Ein Grenadier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="davoust">
+            <data key="label">Davoust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">61</data>
+        </node>
+        <node id="ein_soldat">
+            <data key="label">Ein Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">30</data>
+        </node>
+        <node id="zweiter_soldat">
+            <data key="label">Zweiter Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">143</data>
+        </node>
+        <node id="dritter_soldat">
+            <data key="label">Dritter Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">217</data>
+        </node>
+        <node id="vierter_soldat">
+            <data key="label">Vierter Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">79</data>
+        </node>
+        <node id="hieronymus">
+            <data key="label">Hieronymus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">46</data>
+        </node>
+        <node id="kuechenmeister">
+            <data key="label">Küchenmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">46</data>
+        </node>
+        <node id="urian">
+            <data key="label">Urian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">30</data>
+        </node>
+        <edge id="chor_der_banditen|bonaparte" source="chor_der_banditen" target="bonaparte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_banditen|vandamme" source="chor_der_banditen" target="vandamme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bonaparte|vandamme" source="bonaparte" target="vandamme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bonaparte|davoust" source="bonaparte" target="davoust">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bonaparte|ein_soldat" source="bonaparte" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bonaparte|ein_chor_hinter_der_buehne" source="bonaparte" target="ein_chor_hinter_der_buehne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bonaparte|zweiter_soldat" source="bonaparte" target="zweiter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bonaparte|dritter_soldat" source="bonaparte" target="dritter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bonaparte|vierter_soldat" source="bonaparte" target="vierter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bonaparte|hieronymus" source="bonaparte" target="hieronymus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bonaparte|kuechenmeister" source="bonaparte" target="kuechenmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bonaparte|urian" source="bonaparte" target="urian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vandamme|erster_jaeger" source="vandamme" target="erster_jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vandamme|zweiter_jaeger" source="vandamme" target="zweiter_jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vandamme|dritter_jaeger" source="vandamme" target="dritter_jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vandamme|ein_chor_hinter_der_buehne" source="vandamme" target="ein_chor_hinter_der_buehne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_jaeger|zweiter_jaeger" source="erster_jaeger" target="zweiter_jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_jaeger|dritter_jaeger" source="erster_jaeger" target="dritter_jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_jaeger|ein_chor_hinter_der_buehne" source="erster_jaeger" target="ein_chor_hinter_der_buehne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_jaeger|dritter_jaeger" source="zweiter_jaeger" target="dritter_jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_jaeger|ein_chor_hinter_der_buehne" source="zweiter_jaeger" target="ein_chor_hinter_der_buehne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_jaeger|ein_chor_hinter_der_buehne" source="dritter_jaeger" target="ein_chor_hinter_der_buehne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_chor_hinter_der_buehne|ein_grenadier" source="ein_chor_hinter_der_buehne" target="ein_grenadier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_chor_hinter_der_buehne|ney" source="ein_chor_hinter_der_buehne" target="ney">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_chor_hinter_der_buehne|davoust" source="ein_chor_hinter_der_buehne" target="davoust">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_chor_hinter_der_buehne|ein_soldat" source="ein_chor_hinter_der_buehne" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_chor_hinter_der_buehne|zweiter_soldat" source="ein_chor_hinter_der_buehne" target="zweiter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_chor_hinter_der_buehne|dritter_soldat" source="ein_chor_hinter_der_buehne" target="dritter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_chor_hinter_der_buehne|vierter_soldat" source="ein_chor_hinter_der_buehne" target="vierter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_chor_hinter_der_buehne|hieronymus" source="ein_chor_hinter_der_buehne" target="hieronymus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_chor_hinter_der_buehne|kuechenmeister" source="ein_chor_hinter_der_buehne" target="kuechenmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ney|marion" source="ney" target="marion">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ney|ein_grenadier" source="ney" target="ein_grenadier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="davoust|ein_soldat" source="davoust" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="davoust|zweiter_soldat" source="davoust" target="zweiter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="davoust|dritter_soldat" source="davoust" target="dritter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="davoust|vierter_soldat" source="davoust" target="vierter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="davoust|hieronymus" source="davoust" target="hieronymus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="davoust|kuechenmeister" source="davoust" target="kuechenmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_soldat|zweiter_soldat" source="ein_soldat" target="zweiter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_soldat|dritter_soldat" source="ein_soldat" target="dritter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_soldat|vierter_soldat" source="ein_soldat" target="vierter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_soldat|hieronymus" source="ein_soldat" target="hieronymus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_soldat|kuechenmeister" source="ein_soldat" target="kuechenmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_soldat|dritter_soldat" source="zweiter_soldat" target="dritter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_soldat|vierter_soldat" source="zweiter_soldat" target="vierter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_soldat|hieronymus" source="zweiter_soldat" target="hieronymus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_soldat|kuechenmeister" source="zweiter_soldat" target="kuechenmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_soldat|vierter_soldat" source="dritter_soldat" target="vierter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_soldat|hieronymus" source="dritter_soldat" target="hieronymus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_soldat|kuechenmeister" source="dritter_soldat" target="kuechenmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_soldat|hieronymus" source="vierter_soldat" target="hieronymus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_soldat|kuechenmeister" source="vierter_soldat" target="kuechenmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hieronymus|kuechenmeister" source="hieronymus" target="kuechenmeister">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

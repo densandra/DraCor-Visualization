@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">326</data>
+        </node>
+        <node id="otter">
+            <data key="label">Otter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1189</data>
+        </node>
+        <node id="zink">
+            <data key="label">Doktor Zink</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1026</data>
+        </node>
+        <node id="der_schulze">
+            <data key="label">Der Schulze</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1145</data>
+        </node>
+        <node id="baron">
+            <data key="label">Baron von Halm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1676</data>
+        </node>
+        <node id="baronesse_von_ehegestern">
+            <data key="label">Baronesse von Ehegestern</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">517</data>
+        </node>
+        <node id="prediger">
+            <data key="label">Prediger Braun</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">370</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">247</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <node id="louise">
+            <data key="label">Louise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <edge id="marie|otter" source="marie" target="otter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="marie|zink" source="marie" target="zink">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|baron" source="marie" target="baron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|sophie" source="marie" target="sophie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|wilhelm" source="marie" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|louise" source="marie" target="louise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|der_schulze" source="marie" target="der_schulze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|prediger" source="marie" target="prediger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otter|zink" source="otter" target="zink">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="otter|der_schulze" source="otter" target="der_schulze">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="otter|baron" source="otter" target="baron">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="otter|sophie" source="otter" target="sophie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otter|wilhelm" source="otter" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otter|louise" source="otter" target="louise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otter|prediger" source="otter" target="prediger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zink|baron" source="zink" target="baron">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="zink|prediger" source="zink" target="prediger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zink|der_schulze" source="zink" target="der_schulze">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zink|sophie" source="zink" target="sophie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zink|wilhelm" source="zink" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zink|louise" source="zink" target="louise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schulze|baron" source="der_schulze" target="baron">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="der_schulze|baronesse_von_ehegestern" source="der_schulze" target="baronesse_von_ehegestern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schulze|prediger" source="der_schulze" target="prediger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_schulze|sophie" source="der_schulze" target="sophie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schulze|wilhelm" source="der_schulze" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schulze|louise" source="der_schulze" target="louise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|baronesse_von_ehegestern" source="baron" target="baronesse_von_ehegestern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|prediger" source="baron" target="prediger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baron|sophie" source="baron" target="sophie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|wilhelm" source="baron" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|louise" source="baron" target="louise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prediger|sophie" source="prediger" target="sophie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prediger|wilhelm" source="prediger" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prediger|louise" source="prediger" target="louise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|wilhelm" source="sophie" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|louise" source="sophie" target="louise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|louise" source="wilhelm" target="louise">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

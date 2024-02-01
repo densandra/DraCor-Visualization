@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="fraeulein_amalie">
+            <data key="label">Fräulein Amalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4357</data>
+        </node>
+        <node id="fraeulein_karoline">
+            <data key="label">Fräulein Karoline</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3540</data>
+        </node>
+        <node id="dr_hippokras">
+            <data key="label">Dr. Hippokras</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1428</data>
+        </node>
+        <node id="frau_von_tiefenborn">
+            <data key="label">Frau von Tiefenborn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2791</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="herr_von_kaltenbrunn">
+            <data key="label">Herr von Kaltenbrunn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2821</data>
+        </node>
+        <node id="herr_von_kreuzweg">
+            <data key="label">Herr von Kreuzweg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">665</data>
+        </node>
+        <node id="landrat_von_ziegendorf">
+            <data key="label">Landrat von Ziegendorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1512</data>
+        </node>
+        <node id="kammerherr_von_ziegendorf">
+            <data key="label">Kammerherr von Ziegendorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1084</data>
+        </node>
+        <node id="herr_von_wagehals">
+            <data key="label">Herr von Wagehals</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1019</data>
+        </node>
+        <node id="ein_diener">
+            <data key="label">Ein Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="notarius">
+            <data key="label">Notarius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">695</data>
+        </node>
+        <edge id="fraeulein_amalie|fraeulein_karoline" source="fraeulein_amalie" target="fraeulein_karoline">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="fraeulein_amalie|dr_hippokras" source="fraeulein_amalie" target="dr_hippokras">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="fraeulein_amalie|frau_von_tiefenborn" source="fraeulein_amalie" target="frau_von_tiefenborn">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fraeulein_amalie|herr_von_kaltenbrunn" source="fraeulein_amalie" target="herr_von_kaltenbrunn">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="fraeulein_amalie|herr_von_kreuzweg" source="fraeulein_amalie" target="herr_von_kreuzweg">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="fraeulein_amalie|kammerherr_von_ziegendorf" source="fraeulein_amalie" target="kammerherr_von_ziegendorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraeulein_amalie|herr_von_wagehals" source="fraeulein_amalie" target="herr_von_wagehals">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraeulein_amalie|landrat_von_ziegendorf" source="fraeulein_amalie" target="landrat_von_ziegendorf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fraeulein_amalie|ein_diener" source="fraeulein_amalie" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_amalie|notarius" source="fraeulein_amalie" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_karoline|dr_hippokras" source="fraeulein_karoline" target="dr_hippokras">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fraeulein_karoline|frau_von_tiefenborn" source="fraeulein_karoline" target="frau_von_tiefenborn">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="fraeulein_karoline|herr_von_kaltenbrunn" source="fraeulein_karoline" target="herr_von_kaltenbrunn">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="fraeulein_karoline|herr_von_kreuzweg" source="fraeulein_karoline" target="herr_von_kreuzweg">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fraeulein_karoline|landrat_von_ziegendorf" source="fraeulein_karoline" target="landrat_von_ziegendorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraeulein_karoline|notarius" source="fraeulein_karoline" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_karoline|herr_von_wagehals" source="fraeulein_karoline" target="herr_von_wagehals">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_hippokras|frau_von_tiefenborn" source="dr_hippokras" target="frau_von_tiefenborn">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="dr_hippokras|landrat_von_ziegendorf" source="dr_hippokras" target="landrat_von_ziegendorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dr_hippokras|herr_von_kaltenbrunn" source="dr_hippokras" target="herr_von_kaltenbrunn">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="dr_hippokras|kammerherr_von_ziegendorf" source="dr_hippokras" target="kammerherr_von_ziegendorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dr_hippokras|notarius" source="dr_hippokras" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_hippokras|herr_von_wagehals" source="dr_hippokras" target="herr_von_wagehals">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_hippokras|herr_von_kreuzweg" source="dr_hippokras" target="herr_von_kreuzweg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_tiefenborn|heinrich" source="frau_von_tiefenborn" target="heinrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_von_tiefenborn|landrat_von_ziegendorf" source="frau_von_tiefenborn" target="landrat_von_ziegendorf">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="frau_von_tiefenborn|herr_von_wagehals" source="frau_von_tiefenborn" target="herr_von_wagehals">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_tiefenborn|notarius" source="frau_von_tiefenborn" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_tiefenborn|herr_von_kreuzweg" source="frau_von_tiefenborn" target="herr_von_kreuzweg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_tiefenborn|herr_von_kaltenbrunn" source="frau_von_tiefenborn" target="herr_von_kaltenbrunn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_von_kaltenbrunn|herr_von_kreuzweg" source="herr_von_kaltenbrunn" target="herr_von_kreuzweg">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="herr_von_kaltenbrunn|kammerherr_von_ziegendorf" source="herr_von_kaltenbrunn" target="kammerherr_von_ziegendorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_von_kaltenbrunn|notarius" source="herr_von_kaltenbrunn" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_kaltenbrunn|landrat_von_ziegendorf" source="herr_von_kaltenbrunn" target="landrat_von_ziegendorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_kaltenbrunn|herr_von_wagehals" source="herr_von_kaltenbrunn" target="herr_von_wagehals">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_kreuzweg|landrat_von_ziegendorf" source="herr_von_kreuzweg" target="landrat_von_ziegendorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_von_kreuzweg|notarius" source="herr_von_kreuzweg" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_kreuzweg|herr_von_wagehals" source="herr_von_kreuzweg" target="herr_von_wagehals">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat_von_ziegendorf|ein_diener" source="landrat_von_ziegendorf" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat_von_ziegendorf|notarius" source="landrat_von_ziegendorf" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat_von_ziegendorf|herr_von_wagehals" source="landrat_von_ziegendorf" target="herr_von_wagehals">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_wagehals|notarius" source="herr_von_wagehals" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

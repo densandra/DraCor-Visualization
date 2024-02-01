@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="kuehn">
+            <data key="label">Kühn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">720</data>
+        </node>
+        <node id="lucie">
+            <data key="label">Lucie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2647</data>
+        </node>
+        <node id="maeurer">
+            <data key="label">Mäurer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4426</data>
+        </node>
+        <node id="schuckert">
+            <data key="label">Schuckert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">131</data>
+        </node>
+        <node id="schilling">
+            <data key="label">Schilling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3465</data>
+        </node>
+        <node id="klas_olfers">
+            <data key="label">Klas Olfers</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">399</data>
+        </node>
+        <node id="die_magd">
+            <data key="label">Die Magd</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">37</data>
+        </node>
+        <node id="mathias">
+            <data key="label">Mathias</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="hanna">
+            <data key="label">Hanna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1620</data>
+        </node>
+        <node id="fraeulein_majakin">
+            <data key="label">Fräulein Majakin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">837</data>
+        </node>
+        <node id="rasmussen">
+            <data key="label">Rasmussen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">968</data>
+        </node>
+        <node id="eveline">
+            <data key="label">Eveline</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">823</data>
+        </node>
+        <node id="der_junge">
+            <data key="label">Der Junge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <node id="die_fischer">
+            <data key="label">Die Fischer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <edge id="kuehn|lucie" source="kuehn" target="lucie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kuehn|maeurer" source="kuehn" target="maeurer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kuehn|schuckert" source="kuehn" target="schuckert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kuehn|schilling" source="kuehn" target="schilling">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kuehn|fraeulein_majakin" source="kuehn" target="fraeulein_majakin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kuehn|der_junge" source="kuehn" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kuehn|rasmussen" source="kuehn" target="rasmussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kuehn|klas_olfers" source="kuehn" target="klas_olfers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kuehn|die_fischer" source="kuehn" target="die_fischer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kuehn|hanna" source="kuehn" target="hanna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucie|maeurer" source="lucie" target="maeurer">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lucie|schuckert" source="lucie" target="schuckert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lucie|schilling" source="lucie" target="schilling">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lucie|klas_olfers" source="lucie" target="klas_olfers">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lucie|die_magd" source="lucie" target="die_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucie|mathias" source="lucie" target="mathias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucie|hanna" source="lucie" target="hanna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lucie|fraeulein_majakin" source="lucie" target="fraeulein_majakin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lucie|rasmussen" source="lucie" target="rasmussen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lucie|eveline" source="lucie" target="eveline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucie|der_junge" source="lucie" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucie|die_fischer" source="lucie" target="die_fischer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maeurer|schuckert" source="maeurer" target="schuckert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="maeurer|schilling" source="maeurer" target="schilling">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="maeurer|klas_olfers" source="maeurer" target="klas_olfers">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="maeurer|die_magd" source="maeurer" target="die_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maeurer|mathias" source="maeurer" target="mathias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maeurer|hanna" source="maeurer" target="hanna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="maeurer|fraeulein_majakin" source="maeurer" target="fraeulein_majakin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="maeurer|rasmussen" source="maeurer" target="rasmussen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maeurer|eveline" source="maeurer" target="eveline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maeurer|der_junge" source="maeurer" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maeurer|die_fischer" source="maeurer" target="die_fischer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuckert|schilling" source="schuckert" target="schilling">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schuckert|klas_olfers" source="schuckert" target="klas_olfers">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schuckert|die_magd" source="schuckert" target="die_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuckert|mathias" source="schuckert" target="mathias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuckert|hanna" source="schuckert" target="hanna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schuckert|fraeulein_majakin" source="schuckert" target="fraeulein_majakin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schuckert|der_junge" source="schuckert" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuckert|rasmussen" source="schuckert" target="rasmussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schuckert|die_fischer" source="schuckert" target="die_fischer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schilling|klas_olfers" source="schilling" target="klas_olfers">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schilling|die_magd" source="schilling" target="die_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schilling|mathias" source="schilling" target="mathias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schilling|hanna" source="schilling" target="hanna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schilling|fraeulein_majakin" source="schilling" target="fraeulein_majakin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schilling|rasmussen" source="schilling" target="rasmussen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schilling|eveline" source="schilling" target="eveline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schilling|der_junge" source="schilling" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schilling|die_fischer" source="schilling" target="die_fischer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klas_olfers|die_magd" source="klas_olfers" target="die_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klas_olfers|mathias" source="klas_olfers" target="mathias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klas_olfers|hanna" source="klas_olfers" target="hanna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="klas_olfers|fraeulein_majakin" source="klas_olfers" target="fraeulein_majakin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klas_olfers|rasmussen" source="klas_olfers" target="rasmussen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klas_olfers|eveline" source="klas_olfers" target="eveline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klas_olfers|der_junge" source="klas_olfers" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klas_olfers|die_fischer" source="klas_olfers" target="die_fischer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_magd|mathias" source="die_magd" target="mathias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_magd|hanna" source="die_magd" target="hanna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_magd|fraeulein_majakin" source="die_magd" target="fraeulein_majakin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mathias|hanna" source="mathias" target="hanna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mathias|fraeulein_majakin" source="mathias" target="fraeulein_majakin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|fraeulein_majakin" source="hanna" target="fraeulein_majakin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hanna|rasmussen" source="hanna" target="rasmussen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hanna|eveline" source="hanna" target="eveline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|der_junge" source="hanna" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanna|die_fischer" source="hanna" target="die_fischer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_majakin|der_junge" source="fraeulein_majakin" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_majakin|rasmussen" source="fraeulein_majakin" target="rasmussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_majakin|die_fischer" source="fraeulein_majakin" target="die_fischer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rasmussen|eveline" source="rasmussen" target="eveline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rasmussen|der_junge" source="rasmussen" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rasmussen|die_fischer" source="rasmussen" target="die_fischer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_junge|die_fischer" source="der_junge" target="die_fischer">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

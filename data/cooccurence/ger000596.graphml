@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="chor_der_arbeiter">
+            <data key="label">Chor der Arbeiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">78</data>
+        </node>
+        <node id="leopold">
+            <data key="label">Leopold Hall</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4362</data>
+        </node>
+        <node id="caspar">
+            <data key="label">Caspar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">778</data>
+        </node>
+        <node id="jacob">
+            <data key="label">Jacob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="anna">
+            <data key="label">Anna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">758</data>
+        </node>
+        <node id="ringelmann">
+            <data key="label">Ringelmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2087</data>
+        </node>
+        <node id="franz">
+            <data key="label">Franz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7818</data>
+        </node>
+        <node id="bittrich">
+            <data key="label">Bittrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1305</data>
+        </node>
+        <node id="spitzig">
+            <data key="label">Herr von Spitzig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3579</data>
+        </node>
+        <node id="lischen">
+            <data key="label">Lischen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1494</data>
+        </node>
+        <node id="horner">
+            <data key="label">Horner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">266</data>
+        </node>
+        <node id="riffmann">
+            <data key="label">Riffmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">63</data>
+        </node>
+        <node id="frau_von_wallmann">
+            <data key="label">Frau von Wallmann</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">200</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="kreilich">
+            <data key="label">Kreilich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="berth">
+            <data key="label">Berth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">40</data>
+        </node>
+        <node id="silbermann">
+            <data key="label">Silbermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">424</data>
+        </node>
+        <node id="lauf">
+            <data key="label">Lauf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <node id="szabo">
+            <data key="label">Szabo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">125</data>
+        </node>
+        <node id="herr_von_guetlich">
+            <data key="label">Herr von Gütlich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="herr_von_germann">
+            <data key="label">Herr von Germann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">132</data>
+        </node>
+        <node id="herr_von_flor">
+            <data key="label">Herr von Flor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">136</data>
+        </node>
+        <node id="herr_von_fettich">
+            <data key="label">Herr von Fettich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">195</data>
+        </node>
+        <node id="frau_von_fettich">
+            <data key="label">Frau von Fettich</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="brand">
+            <data key="label">Brand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="knabe">
+            <data key="label">Knabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="frau_von_hochnas">
+            <data key="label">Frau von Hochnas</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="emilie">
+            <data key="label">Emilie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="federbart">
+            <data key="label">Federbart</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">89</data>
+        </node>
+        <node id="sturm">
+            <data key="label">Sturm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">153</data>
+        </node>
+        <node id="lovelan">
+            <data key="label">Sir Loveland</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">114</data>
+        </node>
+        <edge id="chor_der_arbeiter|leopold" source="chor_der_arbeiter" target="leopold">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor_der_arbeiter|franz" source="chor_der_arbeiter" target="franz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_arbeiter|caspar" source="chor_der_arbeiter" target="caspar">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_arbeiter|jacob" source="chor_der_arbeiter" target="jacob">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_arbeiter|ringelmann" source="chor_der_arbeiter" target="ringelmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_arbeiter|bittrich" source="chor_der_arbeiter" target="bittrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_arbeiter|horner" source="chor_der_arbeiter" target="horner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_arbeiter|riffmann" source="chor_der_arbeiter" target="riffmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leopold|caspar" source="leopold" target="caspar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leopold|jacob" source="leopold" target="jacob">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leopold|anna" source="leopold" target="anna">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="leopold|ringelmann" source="leopold" target="ringelmann">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="leopold|franz" source="leopold" target="franz">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="leopold|bittrich" source="leopold" target="bittrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leopold|horner" source="leopold" target="horner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leopold|riffmann" source="leopold" target="riffmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leopold|frau_von_wallmann" source="leopold" target="frau_von_wallmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leopold|spitzig" source="leopold" target="spitzig">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leopold|lischen" source="leopold" target="lischen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="caspar|jacob" source="caspar" target="jacob">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="caspar|franz" source="caspar" target="franz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="caspar|ringelmann" source="caspar" target="ringelmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caspar|bittrich" source="caspar" target="bittrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caspar|lischen" source="caspar" target="lischen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jacob|franz" source="jacob" target="franz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jacob|ringelmann" source="jacob" target="ringelmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jacob|bittrich" source="jacob" target="bittrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|ringelmann" source="anna" target="ringelmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anna|franz" source="anna" target="franz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="anna|bittrich" source="anna" target="bittrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|frau_von_wallmann" source="anna" target="frau_von_wallmann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="anna|spitzig" source="anna" target="spitzig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anna|lischen" source="anna" target="lischen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ringelmann|franz" source="ringelmann" target="franz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ringelmann|bittrich" source="ringelmann" target="bittrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ringelmann|spitzig" source="ringelmann" target="spitzig">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ringelmann|diener" source="ringelmann" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ringelmann|lischen" source="ringelmann" target="lischen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ringelmann|frau_von_wallmann" source="ringelmann" target="frau_von_wallmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|bittrich" source="franz" target="bittrich">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="franz|spitzig" source="franz" target="spitzig">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="franz|lischen" source="franz" target="lischen">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="franz|frau_von_wallmann" source="franz" target="frau_von_wallmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bittrich|spitzig" source="bittrich" target="spitzig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bittrich|lischen" source="bittrich" target="lischen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="spitzig|lischen" source="spitzig" target="lischen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="spitzig|diener" source="spitzig" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spitzig|frau_von_wallmann" source="spitzig" target="frau_von_wallmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="spitzig|kreilich" source="spitzig" target="kreilich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spitzig|berth" source="spitzig" target="berth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spitzig|silbermann" source="spitzig" target="silbermann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spitzig|lovelan" source="spitzig" target="lovelan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lischen|frau_von_wallmann" source="lischen" target="frau_von_wallmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="horner|riffmann" source="horner" target="riffmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kreilich|berth" source="kreilich" target="berth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kreilich|silbermann" source="kreilich" target="silbermann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="berth|silbermann" source="berth" target="silbermann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauf|szabo" source="lauf" target="szabo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauf|herr_von_guetlich" source="lauf" target="herr_von_guetlich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauf|herr_von_germann" source="lauf" target="herr_von_germann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauf|herr_von_flor" source="lauf" target="herr_von_flor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauf|herr_von_fettich" source="lauf" target="herr_von_fettich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauf|frau_von_fettich" source="lauf" target="frau_von_fettich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauf|brand" source="lauf" target="brand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauf|knabe" source="lauf" target="knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauf|frau_von_hochnas" source="lauf" target="frau_von_hochnas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauf|emilie" source="lauf" target="emilie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauf|federbart" source="lauf" target="federbart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lauf|sturm" source="lauf" target="sturm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="szabo|herr_von_guetlich" source="szabo" target="herr_von_guetlich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="szabo|herr_von_germann" source="szabo" target="herr_von_germann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="szabo|herr_von_flor" source="szabo" target="herr_von_flor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="szabo|herr_von_fettich" source="szabo" target="herr_von_fettich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="szabo|frau_von_fettich" source="szabo" target="frau_von_fettich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="szabo|brand" source="szabo" target="brand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="szabo|knabe" source="szabo" target="knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="szabo|frau_von_hochnas" source="szabo" target="frau_von_hochnas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="szabo|emilie" source="szabo" target="emilie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="szabo|federbart" source="szabo" target="federbart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="szabo|sturm" source="szabo" target="sturm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_guetlich|herr_von_germann" source="herr_von_guetlich" target="herr_von_germann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_guetlich|herr_von_flor" source="herr_von_guetlich" target="herr_von_flor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_guetlich|herr_von_fettich" source="herr_von_guetlich" target="herr_von_fettich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_guetlich|frau_von_fettich" source="herr_von_guetlich" target="frau_von_fettich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_guetlich|brand" source="herr_von_guetlich" target="brand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_guetlich|knabe" source="herr_von_guetlich" target="knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_guetlich|frau_von_hochnas" source="herr_von_guetlich" target="frau_von_hochnas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_guetlich|emilie" source="herr_von_guetlich" target="emilie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_guetlich|federbart" source="herr_von_guetlich" target="federbart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_guetlich|sturm" source="herr_von_guetlich" target="sturm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_germann|herr_von_flor" source="herr_von_germann" target="herr_von_flor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_germann|herr_von_fettich" source="herr_von_germann" target="herr_von_fettich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_germann|frau_von_fettich" source="herr_von_germann" target="frau_von_fettich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_germann|brand" source="herr_von_germann" target="brand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_germann|knabe" source="herr_von_germann" target="knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_germann|frau_von_hochnas" source="herr_von_germann" target="frau_von_hochnas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_germann|emilie" source="herr_von_germann" target="emilie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_germann|federbart" source="herr_von_germann" target="federbart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_germann|sturm" source="herr_von_germann" target="sturm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_flor|herr_von_fettich" source="herr_von_flor" target="herr_von_fettich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_flor|frau_von_fettich" source="herr_von_flor" target="frau_von_fettich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_flor|brand" source="herr_von_flor" target="brand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_flor|knabe" source="herr_von_flor" target="knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_flor|frau_von_hochnas" source="herr_von_flor" target="frau_von_hochnas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_flor|emilie" source="herr_von_flor" target="emilie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_flor|federbart" source="herr_von_flor" target="federbart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_flor|sturm" source="herr_von_flor" target="sturm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_fettich|frau_von_fettich" source="herr_von_fettich" target="frau_von_fettich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_fettich|brand" source="herr_von_fettich" target="brand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_fettich|knabe" source="herr_von_fettich" target="knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_fettich|frau_von_hochnas" source="herr_von_fettich" target="frau_von_hochnas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_fettich|emilie" source="herr_von_fettich" target="emilie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_fettich|federbart" source="herr_von_fettich" target="federbart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_fettich|sturm" source="herr_von_fettich" target="sturm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_fettich|brand" source="frau_von_fettich" target="brand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_fettich|knabe" source="frau_von_fettich" target="knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_fettich|frau_von_hochnas" source="frau_von_fettich" target="frau_von_hochnas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_fettich|emilie" source="frau_von_fettich" target="emilie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_fettich|federbart" source="frau_von_fettich" target="federbart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_fettich|sturm" source="frau_von_fettich" target="sturm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brand|knabe" source="brand" target="knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brand|frau_von_hochnas" source="brand" target="frau_von_hochnas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brand|emilie" source="brand" target="emilie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brand|federbart" source="brand" target="federbart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brand|sturm" source="brand" target="sturm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knabe|frau_von_hochnas" source="knabe" target="frau_von_hochnas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knabe|emilie" source="knabe" target="emilie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knabe|federbart" source="knabe" target="federbart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knabe|sturm" source="knabe" target="sturm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_hochnas|emilie" source="frau_von_hochnas" target="emilie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_hochnas|federbart" source="frau_von_hochnas" target="federbart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_hochnas|sturm" source="frau_von_hochnas" target="sturm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emilie|federbart" source="emilie" target="federbart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emilie|sturm" source="emilie" target="sturm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="federbart|sturm" source="federbart" target="sturm">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

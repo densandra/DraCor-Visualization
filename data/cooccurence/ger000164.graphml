@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="solisa">
+            <data key="label">Solisa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1255</data>
+        </node>
+        <node id="alvaro">
+            <data key="label">Alvaro</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">949</data>
+        </node>
+        <node id="laura">
+            <data key="label">Laura</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">186</data>
+        </node>
+        <node id="ricardo">
+            <data key="label">Ricardo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">230</data>
+        </node>
+        <node id="octavio">
+            <data key="label">Octavio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">264</data>
+        </node>
+        <node id="der_koenig">
+            <data key="label">Der König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">631</data>
+        </node>
+        <node id="alarcos">
+            <data key="label">Alarcos</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3319</data>
+        </node>
+        <node id="clara">
+            <data key="label">Clara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1278</data>
+        </node>
+        <node id="dagobert">
+            <data key="label">Dagobert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1321</data>
+        </node>
+        <node id="eine_waerterin">
+            <data key="label">Eine Wärterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="cornelia">
+            <data key="label">Cornelia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">687</data>
+        </node>
+        <edge id="solisa|alvaro" source="solisa" target="alvaro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="solisa|laura" source="solisa" target="laura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="solisa|ricardo" source="solisa" target="ricardo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="solisa|octavio" source="solisa" target="octavio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="solisa|der_koenig" source="solisa" target="der_koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alvaro|laura" source="alvaro" target="laura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alvaro|ricardo" source="alvaro" target="ricardo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alvaro|octavio" source="alvaro" target="octavio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alvaro|der_koenig" source="alvaro" target="der_koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alvaro|alarcos" source="alvaro" target="alarcos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alvaro|dagobert" source="alvaro" target="dagobert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alvaro|clara" source="alvaro" target="clara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alvaro|cornelia" source="alvaro" target="cornelia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ricardo|octavio" source="ricardo" target="octavio">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ricardo|der_koenig" source="ricardo" target="der_koenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ricardo|alarcos" source="ricardo" target="alarcos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ricardo|dagobert" source="ricardo" target="dagobert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ricardo|clara" source="ricardo" target="clara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ricardo|cornelia" source="ricardo" target="cornelia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavio|der_koenig" source="octavio" target="der_koenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="octavio|alarcos" source="octavio" target="alarcos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="octavio|dagobert" source="octavio" target="dagobert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavio|clara" source="octavio" target="clara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavio|cornelia" source="octavio" target="cornelia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_koenig|alarcos" source="der_koenig" target="alarcos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alarcos|dagobert" source="alarcos" target="dagobert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alarcos|clara" source="alarcos" target="clara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alarcos|cornelia" source="alarcos" target="cornelia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="clara|dagobert" source="clara" target="dagobert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="clara|eine_waerterin" source="clara" target="eine_waerterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="clara|cornelia" source="clara" target="cornelia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dagobert|eine_waerterin" source="dagobert" target="eine_waerterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dagobert|cornelia" source="dagobert" target="cornelia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eine_waerterin|cornelia" source="eine_waerterin" target="cornelia">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="graf">
+            <data key="label">Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="balthasar">
+            <data key="label">Balthasar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="krautmann">
+            <data key="label">Krautmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="adolph">
+            <data key="label">Adolph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ernestine">
+            <data key="label">Ernestine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_wunschel">
+            <data key="label">Frau Wunschel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="amalie">
+            <data key="label">Amalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="henriette">
+            <data key="label">Henriette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stein">
+            <data key="label">Stein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="graefin">
+            <data key="label">Gräfin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jacob">
+            <data key="label">Jacob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="magd">
+            <data key="label">Eine Magd</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="graf" target="graefin">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="henriette" target="stein">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="graf" target="adolph">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="krautmann" target="graf">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="balthasar" target="graf">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="ernestine" target="graefin">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="jacob" target="graefin">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="bedienter" target="graf">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

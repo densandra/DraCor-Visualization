@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="sylvester">
+            <data key="label">Sylvester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fortunat">
+            <data key="label">Fortunat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cathrine">
+            <data key="label">Cathrine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="friedrich">
+            <data key="label">Friedrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_sylvesterinn">
+            <data key="label">Frau Sylvesterinn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="strom">
+            <data key="label">Strom</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fiekchen">
+            <data key="label">Fiekchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="goldschmidtsjunge">
+            <data key="label">Goldschmidtsjunge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tabletkraemer">
+            <data key="label">Tabletkrämer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lackey">
+            <data key="label">Lackey</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="materialistenjunge">
+            <data key="label">Materialistenjunge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="richardinn">
+            <data key="label">Richardinn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lieschen">
+            <data key="label">Lieschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="renner">
+            <data key="label">Renner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sorger">
+            <data key="label">Sorger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="frau_sylvesterinn" target="sorger">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="sylvester" target="fortunat">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="frau_sylvesterinn" target="fortunat">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="sylvester" target="fiekchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="richardinn" target="lieschen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="strom" target="fortunat">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="friedrich" target="fortunat">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="cathrine" target="frau_sylvesterinn">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

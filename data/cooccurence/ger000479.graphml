@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="kleon">
+            <data key="label">Kleon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1109</data>
+        </node>
+        <node id="lysikrates">
+            <data key="label">Lysikrates</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">529</data>
+        </node>
+        <node id="epizelus">
+            <data key="label">Epizelus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">268</data>
+        </node>
+        <node id="xanthippus">
+            <data key="label">Xanthippus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1654</data>
+        </node>
+        <node id="miltiades">
+            <data key="label">Miltiades</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3731</data>
+        </node>
+        <node id="ein_krieger">
+            <data key="label">Ein Krieger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="elpinice">
+            <data key="label">Elpinice</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">542</data>
+        </node>
+        <node id="cimon">
+            <data key="label">Cimon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">476</data>
+        </node>
+        <node id="aristides">
+            <data key="label">Aristides</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">906</data>
+        </node>
+        <node id="themistokles">
+            <data key="label">Themistokles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1520</data>
+        </node>
+        <node id="demosthenes">
+            <data key="label">Demosthenes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">757</data>
+        </node>
+        <node id="aeschylus">
+            <data key="label">Aeschylus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">140</data>
+        </node>
+        <node id="chor_hemichor">
+            <data key="label">Chor/Hemichor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">95</data>
+        </node>
+        <node id="philippus">
+            <data key="label">Philippus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <edge id="kleon|lysikrates" source="kleon" target="lysikrates">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kleon|epizelus" source="kleon" target="epizelus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kleon|xanthippus" source="kleon" target="xanthippus">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kleon|demosthenes" source="kleon" target="demosthenes">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kleon|aeschylus" source="kleon" target="aeschylus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kleon|aristides" source="kleon" target="aristides">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kleon|miltiades" source="kleon" target="miltiades">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kleon|chor_hemichor" source="kleon" target="chor_hemichor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lysikrates|epizelus" source="lysikrates" target="epizelus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lysikrates|xanthippus" source="lysikrates" target="xanthippus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lysikrates|demosthenes" source="lysikrates" target="demosthenes">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lysikrates|aeschylus" source="lysikrates" target="aeschylus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epizelus|miltiades" source="epizelus" target="miltiades">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epizelus|philippus" source="epizelus" target="philippus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epizelus|themistokles" source="epizelus" target="themistokles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epizelus|cimon" source="epizelus" target="cimon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epizelus|aristides" source="epizelus" target="aristides">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epizelus|chor_hemichor" source="epizelus" target="chor_hemichor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="xanthippus|demosthenes" source="xanthippus" target="demosthenes">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="xanthippus|aeschylus" source="xanthippus" target="aeschylus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="xanthippus|aristides" source="xanthippus" target="aristides">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="xanthippus|miltiades" source="xanthippus" target="miltiades">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="xanthippus|chor_hemichor" source="xanthippus" target="chor_hemichor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="xanthippus|themistokles" source="xanthippus" target="themistokles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miltiades|ein_krieger" source="miltiades" target="ein_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miltiades|elpinice" source="miltiades" target="elpinice">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="miltiades|cimon" source="miltiades" target="cimon">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="miltiades|aristides" source="miltiades" target="aristides">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="miltiades|themistokles" source="miltiades" target="themistokles">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="miltiades|chor_hemichor" source="miltiades" target="chor_hemichor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="miltiades|demosthenes" source="miltiades" target="demosthenes">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="miltiades|aeschylus" source="miltiades" target="aeschylus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miltiades|philippus" source="miltiades" target="philippus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_krieger|elpinice" source="ein_krieger" target="elpinice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elpinice|cimon" source="elpinice" target="cimon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cimon|aristides" source="cimon" target="aristides">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cimon|demosthenes" source="cimon" target="demosthenes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cimon|philippus" source="cimon" target="philippus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cimon|themistokles" source="cimon" target="themistokles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cimon|chor_hemichor" source="cimon" target="chor_hemichor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aristides|themistokles" source="aristides" target="themistokles">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="aristides|chor_hemichor" source="aristides" target="chor_hemichor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="aristides|demosthenes" source="aristides" target="demosthenes">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="aristides|aeschylus" source="aristides" target="aeschylus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aristides|philippus" source="aristides" target="philippus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="themistokles|chor_hemichor" source="themistokles" target="chor_hemichor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="themistokles|aeschylus" source="themistokles" target="aeschylus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="themistokles|philippus" source="themistokles" target="philippus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="demosthenes|aeschylus" source="demosthenes" target="aeschylus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="demosthenes|chor_hemichor" source="demosthenes" target="chor_hemichor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_hemichor|philippus" source="chor_hemichor" target="philippus">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

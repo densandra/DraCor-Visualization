@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="grimaldi">
+            <data key="label">Grimaldi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3273</data>
+        </node>
+        <node id="guelfo">
+            <data key="label">Guelfo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7312</data>
+        </node>
+        <node id="galbo">
+            <data key="label">Galbo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">107</data>
+        </node>
+        <node id="amalia">
+            <data key="label">Amalia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2097</data>
+        </node>
+        <node id="alter_guelfo">
+            <data key="label">Alter Guelfo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2194</data>
+        </node>
+        <node id="ferdinando">
+            <data key="label">Ferdinando</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">509</data>
+        </node>
+        <node id="camilla">
+            <data key="label">Camilla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">942</data>
+        </node>
+        <node id="bediente">
+            <data key="label">Bediente</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <edge id="grimaldi|guelfo" source="grimaldi" target="guelfo">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="grimaldi|galbo" source="grimaldi" target="galbo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grimaldi|ferdinando" source="grimaldi" target="ferdinando">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grimaldi|camilla" source="grimaldi" target="camilla">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grimaldi|alter_guelfo" source="grimaldi" target="alter_guelfo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grimaldi|amalia" source="grimaldi" target="amalia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grimaldi|bediente" source="grimaldi" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guelfo|galbo" source="guelfo" target="galbo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guelfo|amalia" source="guelfo" target="amalia">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="guelfo|alter_guelfo" source="guelfo" target="alter_guelfo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="guelfo|camilla" source="guelfo" target="camilla">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="guelfo|ferdinando" source="guelfo" target="ferdinando">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalia|alter_guelfo" source="amalia" target="alter_guelfo">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="amalia|ferdinando" source="amalia" target="ferdinando">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalia|camilla" source="amalia" target="camilla">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="amalia|bediente" source="amalia" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alter_guelfo|ferdinando" source="alter_guelfo" target="ferdinando">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alter_guelfo|camilla" source="alter_guelfo" target="camilla">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="alter_guelfo|bediente" source="alter_guelfo" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ferdinando|camilla" source="ferdinando" target="camilla">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="camilla|bediente" source="camilla" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

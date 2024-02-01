@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="arsene_porcia">
+            <data key="label">Arsene/Porcia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2707</data>
+        </node>
+        <node id="phoenice">
+            <data key="label">Phönice</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">289</data>
+        </node>
+        <node id="cato">
+            <data key="label">Cato</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5181</data>
+        </node>
+        <node id="phokas">
+            <data key="label">Phokas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">703</data>
+        </node>
+        <node id="artabanus">
+            <data key="label">Artabanus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">325</data>
+        </node>
+        <node id="pharnaces">
+            <data key="label">Pharnaces</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1620</data>
+        </node>
+        <node id="felix">
+            <data key="label">Felix</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">306</data>
+        </node>
+        <node id="domitius">
+            <data key="label">Domitius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">625</data>
+        </node>
+        <node id="porcius">
+            <data key="label">Porcius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">868</data>
+        </node>
+        <node id="caesar">
+            <data key="label">Cäsar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1751</data>
+        </node>
+        <edge id="arsene_porcia|phoenice" source="arsene_porcia" target="phoenice">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="arsene_porcia|cato" source="arsene_porcia" target="cato">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="arsene_porcia|domitius" source="arsene_porcia" target="domitius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="arsene_porcia|pharnaces" source="arsene_porcia" target="pharnaces">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="arsene_porcia|porcius" source="arsene_porcia" target="porcius">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="arsene_porcia|caesar" source="arsene_porcia" target="caesar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="arsene_porcia|phokas" source="arsene_porcia" target="phokas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="phoenice|phokas" source="phoenice" target="phokas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cato|phokas" source="cato" target="phokas">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="cato|artabanus" source="cato" target="artabanus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="cato|pharnaces" source="cato" target="pharnaces">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cato|felix" source="cato" target="felix">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cato|domitius" source="cato" target="domitius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cato|caesar" source="cato" target="caesar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="cato|porcius" source="cato" target="porcius">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="phokas|artabanus" source="phokas" target="artabanus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="phokas|domitius" source="phokas" target="domitius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phokas|porcius" source="phokas" target="porcius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="artabanus|porcius" source="artabanus" target="porcius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pharnaces|felix" source="pharnaces" target="felix">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pharnaces|porcius" source="pharnaces" target="porcius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pharnaces|caesar" source="pharnaces" target="caesar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="domitius|caesar" source="domitius" target="caesar">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="domitius|porcius" source="domitius" target="porcius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="porcius|caesar" source="porcius" target="caesar">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

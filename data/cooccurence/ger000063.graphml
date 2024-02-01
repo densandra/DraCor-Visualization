@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="schladritz">
+            <data key="label">Schladritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1809</data>
+        </node>
+        <node id="gottsched">
+            <data key="label">Gottsched</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4797</data>
+        </node>
+        <node id="frau_gottsched">
+            <data key="label">Frau Gottsched</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2056</data>
+        </node>
+        <node id="bolza">
+            <data key="label">Graf Bolza</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2069</data>
+        </node>
+        <node id="gottfried">
+            <data key="label">Gottfried</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">549</data>
+        </node>
+        <node id="gellert">
+            <data key="label">Gellert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3773</data>
+        </node>
+        <node id="cato">
+            <data key="label">Cato</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4112</data>
+        </node>
+        <node id="wilhelmine">
+            <data key="label">Wilhelmine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">896</data>
+        </node>
+        <node id="graefin">
+            <data key="label">Gräfin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">920</data>
+        </node>
+        <node id="katharina">
+            <data key="label">Katharina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">713</data>
+        </node>
+        <node id="siegmund">
+            <data key="label">Siegmund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1676</data>
+        </node>
+        <node id="prinz">
+            <data key="label">Prinz Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2236</data>
+        </node>
+        <node id="zastrow">
+            <data key="label">Zastrow</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">289</data>
+        </node>
+        <node id="wedell">
+            <data key="label">Wedell</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <edge id="schladritz|gottsched" source="schladritz" target="gottsched">
+            <data key="weight">17</data>
+        </edge>
+        <edge id="schladritz|frau_gottsched" source="schladritz" target="frau_gottsched">
+            <data key="weight">16</data>
+        </edge>
+        <edge id="schladritz|bolza" source="schladritz" target="bolza">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="schladritz|gellert" source="schladritz" target="gellert">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="schladritz|cato" source="schladritz" target="cato">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="schladritz|wilhelmine" source="schladritz" target="wilhelmine">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="schladritz|graefin" source="schladritz" target="graefin">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="schladritz|katharina" source="schladritz" target="katharina">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="schladritz|siegmund" source="schladritz" target="siegmund">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schladritz|prinz" source="schladritz" target="prinz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schladritz|zastrow" source="schladritz" target="zastrow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schladritz|wedell" source="schladritz" target="wedell">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schladritz|gottfried" source="schladritz" target="gottfried">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottsched|frau_gottsched" source="gottsched" target="frau_gottsched">
+            <data key="weight">28</data>
+        </edge>
+        <edge id="gottsched|bolza" source="gottsched" target="bolza">
+            <data key="weight">16</data>
+        </edge>
+        <edge id="gottsched|gottfried" source="gottsched" target="gottfried">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gottsched|gellert" source="gottsched" target="gellert">
+            <data key="weight">20</data>
+        </edge>
+        <edge id="gottsched|cato" source="gottsched" target="cato">
+            <data key="weight">21</data>
+        </edge>
+        <edge id="gottsched|wilhelmine" source="gottsched" target="wilhelmine">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="gottsched|graefin" source="gottsched" target="graefin">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="gottsched|katharina" source="gottsched" target="katharina">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="gottsched|siegmund" source="gottsched" target="siegmund">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="gottsched|prinz" source="gottsched" target="prinz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gottsched|zastrow" source="gottsched" target="zastrow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gottsched|wedell" source="gottsched" target="wedell">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_gottsched|bolza" source="frau_gottsched" target="bolza">
+            <data key="weight">16</data>
+        </edge>
+        <edge id="frau_gottsched|gottfried" source="frau_gottsched" target="gottfried">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_gottsched|gellert" source="frau_gottsched" target="gellert">
+            <data key="weight">19</data>
+        </edge>
+        <edge id="frau_gottsched|cato" source="frau_gottsched" target="cato">
+            <data key="weight">20</data>
+        </edge>
+        <edge id="frau_gottsched|wilhelmine" source="frau_gottsched" target="wilhelmine">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="frau_gottsched|graefin" source="frau_gottsched" target="graefin">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="frau_gottsched|katharina" source="frau_gottsched" target="katharina">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="frau_gottsched|siegmund" source="frau_gottsched" target="siegmund">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="frau_gottsched|prinz" source="frau_gottsched" target="prinz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_gottsched|zastrow" source="frau_gottsched" target="zastrow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_gottsched|wedell" source="frau_gottsched" target="wedell">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bolza|gottfried" source="bolza" target="gottfried">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bolza|gellert" source="bolza" target="gellert">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="bolza|cato" source="bolza" target="cato">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="bolza|wilhelmine" source="bolza" target="wilhelmine">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="bolza|graefin" source="bolza" target="graefin">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="bolza|katharina" source="bolza" target="katharina">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="bolza|siegmund" source="bolza" target="siegmund">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="bolza|prinz" source="bolza" target="prinz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bolza|zastrow" source="bolza" target="zastrow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bolza|wedell" source="bolza" target="wedell">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottfried|graefin" source="gottfried" target="graefin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gottfried|siegmund" source="gottfried" target="siegmund">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gottfried|gellert" source="gottfried" target="gellert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gottfried|cato" source="gottfried" target="cato">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gottfried|prinz" source="gottfried" target="prinz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottfried|katharina" source="gottfried" target="katharina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottfried|wilhelmine" source="gottfried" target="wilhelmine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gellert|cato" source="gellert" target="cato">
+            <data key="weight">18</data>
+        </edge>
+        <edge id="gellert|graefin" source="gellert" target="graefin">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="gellert|wilhelmine" source="gellert" target="wilhelmine">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="gellert|katharina" source="gellert" target="katharina">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="gellert|siegmund" source="gellert" target="siegmund">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="gellert|prinz" source="gellert" target="prinz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gellert|zastrow" source="gellert" target="zastrow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gellert|wedell" source="gellert" target="wedell">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cato|wilhelmine" source="cato" target="wilhelmine">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="cato|graefin" source="cato" target="graefin">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="cato|katharina" source="cato" target="katharina">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="cato|siegmund" source="cato" target="siegmund">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="cato|prinz" source="cato" target="prinz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="cato|zastrow" source="cato" target="zastrow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cato|wedell" source="cato" target="wedell">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelmine|graefin" source="wilhelmine" target="graefin">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="wilhelmine|katharina" source="wilhelmine" target="katharina">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="wilhelmine|siegmund" source="wilhelmine" target="siegmund">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wilhelmine|prinz" source="wilhelmine" target="prinz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wilhelmine|zastrow" source="wilhelmine" target="zastrow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelmine|wedell" source="wilhelmine" target="wedell">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graefin|katharina" source="graefin" target="katharina">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="graefin|siegmund" source="graefin" target="siegmund">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="graefin|prinz" source="graefin" target="prinz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="graefin|zastrow" source="graefin" target="zastrow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graefin|wedell" source="graefin" target="wedell">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="katharina|siegmund" source="katharina" target="siegmund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="katharina|prinz" source="katharina" target="prinz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="katharina|zastrow" source="katharina" target="zastrow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|wedell" source="katharina" target="wedell">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="siegmund|prinz" source="siegmund" target="prinz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="siegmund|zastrow" source="siegmund" target="zastrow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="siegmund|wedell" source="siegmund" target="wedell">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinz|zastrow" source="prinz" target="zastrow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinz|wedell" source="prinz" target="wedell">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zastrow|wedell" source="zastrow" target="wedell">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="chor_alle_maedchen_und_pursche">
+            <data key="label">Chor/Alle (Mädchen und Pursche)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="johann">
+            <data key="label">Johann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mehlwurm">
+            <data key="label">Mehlwurm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="specht">
+            <data key="label">Specht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eulenspiegel">
+            <data key="label">Eulenspiegel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="natzi">
+            <data key="label">Natzi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cordula">
+            <data key="label">Cordula</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lenchen">
+            <data key="label">Lenchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nelkenstein">
+            <data key="label">Nelkenstein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dorothea">
+            <data key="label">Dorothea</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="friedrich">
+            <data key="label">Friedrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="peppi">
+            <data key="label">Peppi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="steffel">
+            <data key="label">Steffel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sebastian">
+            <data key="label">Sebastian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_muehlknechte">
+            <data key="label">Die Mühlknechte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="hans">
+            <data key="label">Hans</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_maegde">
+            <data key="label">Die Mägde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="cordula" target="mehlwurm">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="heinrich" target="nelkenstein">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="specht" target="dorothea">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="lenchen" target="mehlwurm">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="cordula" target="natzi">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="peppi" target="mehlwurm">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>
