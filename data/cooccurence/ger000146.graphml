@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="klara">
+            <data key="label">Klara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3573</data>
+        </node>
+        <node id="else">
+            <data key="label">Else</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1521</data>
+        </node>
+        <node id="josef">
+            <data key="label">Josef</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3594</data>
+        </node>
+        <node id="die_aufseherin">
+            <data key="label">Die Aufseherin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">605</data>
+        </node>
+        <node id="der_wachtmeister">
+            <data key="label">Der Wachtmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">160</data>
+        </node>
+        <node id="der_gefaengnisdirektor">
+            <data key="label">Der Gefängnisdirektor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">312</data>
+        </node>
+        <node id="ein_dienstmaedchen">
+            <data key="label">Ein Dienstmädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="lindekuh">
+            <data key="label">Lindekuh</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1249</data>
+        </node>
+        <node id="dr_schwarzkopf">
+            <data key="label">Dr. Schwarzkopf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">910</data>
+        </node>
+        <node id="frau_oberst">
+            <data key="label">Frau Oberst</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">217</data>
+        </node>
+        <edge id="klara|else" source="klara" target="else">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="klara|josef" source="klara" target="josef">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="klara|die_aufseherin" source="klara" target="die_aufseherin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="klara|der_wachtmeister" source="klara" target="der_wachtmeister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="klara|der_gefaengnisdirektor" source="klara" target="der_gefaengnisdirektor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|ein_dienstmaedchen" source="klara" target="ein_dienstmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|lindekuh" source="klara" target="lindekuh">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="klara|dr_schwarzkopf" source="klara" target="dr_schwarzkopf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klara|frau_oberst" source="klara" target="frau_oberst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="else|josef" source="else" target="josef">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="else|der_wachtmeister" source="else" target="der_wachtmeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="else|die_aufseherin" source="else" target="die_aufseherin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="else|der_gefaengnisdirektor" source="else" target="der_gefaengnisdirektor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="else|dr_schwarzkopf" source="else" target="dr_schwarzkopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="josef|der_wachtmeister" source="josef" target="der_wachtmeister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="josef|die_aufseherin" source="josef" target="die_aufseherin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="josef|der_gefaengnisdirektor" source="josef" target="der_gefaengnisdirektor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="josef|lindekuh" source="josef" target="lindekuh">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="josef|dr_schwarzkopf" source="josef" target="dr_schwarzkopf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="josef|frau_oberst" source="josef" target="frau_oberst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_aufseherin|der_wachtmeister" source="die_aufseherin" target="der_wachtmeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_wachtmeister|der_gefaengnisdirektor" source="der_wachtmeister" target="der_gefaengnisdirektor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lindekuh|frau_oberst" source="lindekuh" target="frau_oberst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lindekuh|dr_schwarzkopf" source="lindekuh" target="dr_schwarzkopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_schwarzkopf|frau_oberst" source="dr_schwarzkopf" target="frau_oberst">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

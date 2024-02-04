@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="chor_volk">
+            <data key="label">Chor/Volk/Alle/Allgemeiner Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">278</data>
+        </node>
+        <node id="gululi">
+            <data key="label">Gululi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1213</data>
+        </node>
+        <node id="tutatu">
+            <data key="label">Tutatu</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2443</data>
+        </node>
+        <node id="ein_ausrufer">
+            <data key="label">Ein Ausrufer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">70</data>
+        </node>
+        <node id="kauttschuh">
+            <data key="label">Kauttschuh</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">518</data>
+        </node>
+        <node id="puffapuff">
+            <data key="label">Puffapuff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">271</data>
+        </node>
+        <node id="kakaho">
+            <data key="label">Kakaho</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1872</data>
+        </node>
+        <node id="ein_sclave">
+            <data key="label">Ein Sclave</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <edge id="chor_volk|gululi" source="chor_volk" target="gululi">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chor_volk|tutatu" source="chor_volk" target="tutatu">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor_volk|ein_ausrufer" source="chor_volk" target="ein_ausrufer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_volk|puffapuff" source="chor_volk" target="puffapuff">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor_volk|kakaho" source="chor_volk" target="kakaho">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="chor_volk|kauttschuh" source="chor_volk" target="kauttschuh">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_volk|ein_sclave" source="chor_volk" target="ein_sclave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gululi|tutatu" source="gululi" target="tutatu">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="gululi|ein_ausrufer" source="gululi" target="ein_ausrufer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gululi|kauttschuh" source="gululi" target="kauttschuh">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gululi|puffapuff" source="gululi" target="puffapuff">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gululi|kakaho" source="gululi" target="kakaho">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gululi|ein_sclave" source="gululi" target="ein_sclave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tutatu|ein_ausrufer" source="tutatu" target="ein_ausrufer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tutatu|kauttschuh" source="tutatu" target="kauttschuh">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tutatu|puffapuff" source="tutatu" target="puffapuff">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="tutatu|kakaho" source="tutatu" target="kakaho">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="kauttschuh|puffapuff" source="kauttschuh" target="puffapuff">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kauttschuh|kakaho" source="kauttschuh" target="kakaho">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kauttschuh|ein_sclave" source="kauttschuh" target="ein_sclave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="puffapuff|kakaho" source="puffapuff" target="kakaho">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="puffapuff|ein_sclave" source="puffapuff" target="ein_sclave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kakaho|ein_sclave" source="kakaho" target="ein_sclave">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

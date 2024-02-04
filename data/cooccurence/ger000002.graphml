@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="leander">
+            <data key="label">Leander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1646</data>
+        </node>
+        <node id="hanswurst">
+            <data key="label">Hanswurst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3776</data>
+        </node>
+        <node id="odoardo">
+            <data key="label">Odoardo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5484</data>
+        </node>
+        <node id="riepel">
+            <data key="label">Riepel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1109</data>
+        </node>
+        <node id="angela">
+            <data key="label">Angela</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1681</data>
+        </node>
+        <node id="colombina">
+            <data key="label">Colombina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1477</data>
+        </node>
+        <node id="anselmo">
+            <data key="label">Anselmo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1125</data>
+        </node>
+        <node id="maegera">
+            <data key="label">Mägera</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2721</data>
+        </node>
+        <node id="richter">
+            <data key="label">Richter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">257</data>
+        </node>
+        <node id="schullmeister">
+            <data key="label">Schullmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">313</data>
+        </node>
+        <edge id="leander|hanswurst" source="leander" target="hanswurst">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="leander|odoardo" source="leander" target="odoardo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leander|maegera" source="leander" target="maegera">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="leander|anselmo" source="leander" target="anselmo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leander|riepel" source="leander" target="riepel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leander|angela" source="leander" target="angela">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leander|colombina" source="leander" target="colombina">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hanswurst|odoardo" source="hanswurst" target="odoardo">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="hanswurst|riepel" source="hanswurst" target="riepel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hanswurst|colombina" source="hanswurst" target="colombina">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="hanswurst|angela" source="hanswurst" target="angela">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="hanswurst|maegera" source="hanswurst" target="maegera">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="hanswurst|anselmo" source="hanswurst" target="anselmo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="odoardo|riepel" source="odoardo" target="riepel">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="odoardo|angela" source="odoardo" target="angela">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="odoardo|anselmo" source="odoardo" target="anselmo">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="odoardo|colombina" source="odoardo" target="colombina">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="odoardo|maegera" source="odoardo" target="maegera">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="odoardo|richter" source="odoardo" target="richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="odoardo|schullmeister" source="odoardo" target="schullmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="riepel|anselmo" source="riepel" target="anselmo">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="riepel|angela" source="riepel" target="angela">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="riepel|colombina" source="riepel" target="colombina">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="riepel|maegera" source="riepel" target="maegera">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="riepel|richter" source="riepel" target="richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="riepel|schullmeister" source="riepel" target="schullmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="angela|colombina" source="angela" target="colombina">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="angela|anselmo" source="angela" target="anselmo">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="angela|maegera" source="angela" target="maegera">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="colombina|anselmo" source="colombina" target="anselmo">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="colombina|maegera" source="colombina" target="maegera">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="anselmo|maegera" source="anselmo" target="maegera">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anselmo|richter" source="anselmo" target="richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anselmo|schullmeister" source="anselmo" target="schullmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="richter|schullmeister" source="richter" target="schullmeister">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

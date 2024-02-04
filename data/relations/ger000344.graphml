@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="sturmwald">
+            <data key="label">Sturmwald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stoessel">
+            <data key="label">Stößel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="claudia">
+            <data key="label">Claudia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rosalie">
+            <data key="label">Rosalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="leonore">
+            <data key="label">Leonore</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gotthold">
+            <data key="label">Gotthold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sichel">
+            <data key="label">Sichel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="krautmann">
+            <data key="label">Krautmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gallus">
+            <data key="label">Gallus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kommissaer">
+            <data key="label">Kommissär</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="claudia" target="stoessel">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="stoessel" target="leonore">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="claudia" target="leonore">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="rosalie" target="stoessel">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="5" directed="false" source="krautmann" target="gotthold">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

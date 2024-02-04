@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="packan">
+            <data key="label">Packan</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jaeger">
+            <data key="label">Jäger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="haescher">
+            <data key="label">Häscher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schlachter">
+            <data key="label">Schlachter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_von_albern">
+            <data key="label">Herr von Albern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="buettel">
+            <data key="label">Büttel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fiffi">
+            <data key="label">Fiffi</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="buerger">
+            <data key="label">Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="krueger">
+            <data key="label">Krüger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="philax">
+            <data key="label">Philax</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="itzig">
+            <data key="label">Itzig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wachtel">
+            <data key="label">Wachtel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="packan" target="schlachter">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="2" directed="false" source="fiffi" target="buerger">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="philax" target="krueger">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="wachtel" target="itzig">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

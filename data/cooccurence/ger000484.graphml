@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="ulrike">
+            <data key="label">Ulrike</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1850</data>
+        </node>
+        <node id="bedienter_franz">
+            <data key="label">Bedienter Franz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="bedienter_peter">
+            <data key="label">Bedienter Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="tobias">
+            <data key="label">Tobias</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3339</data>
+        </node>
+        <node id="walther">
+            <data key="label">Walther</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">588</data>
+        </node>
+        <node id="der_geheimderath">
+            <data key="label">Der Geheimderath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4097</data>
+        </node>
+        <node id="ein_bedienter_1-5">
+            <data key="label">Ein Bedienter (I/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="patzig">
+            <data key="label">Patzig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">227</data>
+        </node>
+        <node id="therese">
+            <data key="label">Therese</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2091</data>
+        </node>
+        <node id="fabian">
+            <data key="label">Fabian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1162</data>
+        </node>
+        <node id="der_obriste">
+            <data key="label">Der Obriste</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2921</data>
+        </node>
+        <node id="lieutnant_wayse">
+            <data key="label">Lieutnant Wayse</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">947</data>
+        </node>
+        <node id="bornmann">
+            <data key="label">Bornmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">803</data>
+        </node>
+        <node id="zwey_bediente_thuer_rechter_hand">
+            <data key="label">Zwey Bediente (Thür rechter Hand)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="zwey_bediente_thuer_linker_hand">
+            <data key="label">Zwey Bediente (Thür linker Hand)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <edge id="ulrike|bedienter_franz" source="ulrike" target="bedienter_franz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrike|bedienter_peter" source="ulrike" target="bedienter_peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrike|tobias" source="ulrike" target="tobias">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="ulrike|walther" source="ulrike" target="walther">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrike|der_geheimderath" source="ulrike" target="der_geheimderath">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="ulrike|ein_bedienter_1-5" source="ulrike" target="ein_bedienter_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrike|patzig" source="ulrike" target="patzig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulrike|therese" source="ulrike" target="therese">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="ulrike|der_obriste" source="ulrike" target="der_obriste">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ulrike|fabian" source="ulrike" target="fabian">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ulrike|bornmann" source="ulrike" target="bornmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bedienter_franz|bedienter_peter" source="bedienter_franz" target="bedienter_peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tobias|walther" source="tobias" target="walther">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tobias|der_geheimderath" source="tobias" target="der_geheimderath">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="tobias|ein_bedienter_1-5" source="tobias" target="ein_bedienter_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tobias|therese" source="tobias" target="therese">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="tobias|fabian" source="tobias" target="fabian">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tobias|der_obriste" source="tobias" target="der_obriste">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="tobias|bornmann" source="tobias" target="bornmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|der_geheimderath" source="walther" target="der_geheimderath">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_geheimderath|ein_bedienter_1-5" source="der_geheimderath" target="ein_bedienter_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_geheimderath|patzig" source="der_geheimderath" target="patzig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_geheimderath|der_obriste" source="der_geheimderath" target="der_obriste">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="der_geheimderath|therese" source="der_geheimderath" target="therese">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="der_geheimderath|bornmann" source="der_geheimderath" target="bornmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_geheimderath|zwey_bediente_thuer_rechter_hand" source="der_geheimderath" target="zwey_bediente_thuer_rechter_hand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_geheimderath|zwey_bediente_thuer_linker_hand" source="der_geheimderath" target="zwey_bediente_thuer_linker_hand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_geheimderath|fabian" source="der_geheimderath" target="fabian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="patzig|der_obriste" source="patzig" target="der_obriste">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="patzig|fabian" source="patzig" target="fabian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="patzig|lieutnant_wayse" source="patzig" target="lieutnant_wayse">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|fabian" source="therese" target="fabian">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="therese|der_obriste" source="therese" target="der_obriste">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="therese|bornmann" source="therese" target="bornmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fabian|lieutnant_wayse" source="fabian" target="lieutnant_wayse">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fabian|der_obriste" source="fabian" target="der_obriste">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_obriste|lieutnant_wayse" source="der_obriste" target="lieutnant_wayse">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zwey_bediente_thuer_rechter_hand|zwey_bediente_thuer_linker_hand" source="zwey_bediente_thuer_rechter_hand" target="zwey_bediente_thuer_linker_hand">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

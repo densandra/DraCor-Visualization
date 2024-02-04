@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="valeria">
+            <data key="label">Valeria</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5406</data>
+        </node>
+        <node id="ponce">
+            <data key="label">Ponce</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6305</data>
+        </node>
+        <node id="valerio">
+            <data key="label">Valerio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4804</data>
+        </node>
+        <node id="sarmiento">
+            <data key="label">Sarmiento</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2425</data>
+        </node>
+        <node id="porporino">
+            <data key="label">Porporino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3317</data>
+        </node>
+        <node id="diener_1-15_und_1-16">
+            <data key="label">Diener (I/15 und I/16)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="aquilar">
+            <data key="label">Aquilar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2671</data>
+        </node>
+        <node id="anderer_diener_1-16">
+            <data key="label">Anderer Diener (I/16)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="dame">
+            <data key="label">Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="erster_diener_1-17">
+            <data key="label">Erster Diener (I/17)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="zweiter_diener_1-17">
+            <data key="label">Zweiter Diener (I/17)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="ein_diener_1-20">
+            <data key="label">Ein Diener (I/20)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="felix">
+            <data key="label">Felix</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1556</data>
+        </node>
+        <node id="erster_diener_2-1_und_2-3">
+            <data key="label">Erster Diener (II/1 und II/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">103</data>
+        </node>
+        <node id="zweiter_diener_2-1">
+            <data key="label">Zweiter Diener (II/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">37</data>
+        </node>
+        <node id="diener_2-14a_und_2-21">
+            <data key="label">Diener (II/14 und II/21)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">55</data>
+        </node>
+        <node id="diener_2-14b">
+            <data key="label">Diener (II/14)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="juanna">
+            <data key="label">Juanna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">242</data>
+        </node>
+        <node id="perez">
+            <data key="label">Perez</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">40</data>
+        </node>
+        <node id="isidora">
+            <data key="label">Isidora</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1707</data>
+        </node>
+        <node id="melanie">
+            <data key="label">Melanie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">781</data>
+        </node>
+        <node id="isabella">
+            <data key="label">Isabella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">696</data>
+        </node>
+        <node id="erster_diener_3-9">
+            <data key="label">Erster Diener (III/9)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="zweiter_diener_3-9">
+            <data key="label">Zweiter Diener (III/9)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">29</data>
+        </node>
+        <node id="traeger">
+            <data key="label">Träger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="diener_4-7">
+            <data key="label">Diener (IV/7)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="lucilla">
+            <data key="label">Lucilla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">840</data>
+        </node>
+        <node id="alonso">
+            <data key="label">Alonso</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">434</data>
+        </node>
+        <node id="diener_5-5">
+            <data key="label">Diener (V/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">82</data>
+        </node>
+        <node id="der_alte_diener_5-8">
+            <data key="label">Der alte Diener (V/8)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">90</data>
+        </node>
+        <node id="pfeifer">
+            <data key="label">Pfeifer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">130</data>
+        </node>
+        <node id="diener_5-12">
+            <data key="label">Diener (V/12)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">30</data>
+        </node>
+        <node id="geiger">
+            <data key="label">Geiger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="diener_5-15">
+            <data key="label">Diener (V/15)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <node id="ritter">
+            <data key="label">Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">91</data>
+        </node>
+        <node id="zigeunerin">
+            <data key="label">Zigeunerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">88</data>
+        </node>
+        <node id="viele_andere_alle_5-18_bis_5-20">
+            <data key="label">Viele/Andere/Alle (V/18–20)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <edge id="valeria|ponce" source="valeria" target="ponce">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="valeria|valerio" source="valeria" target="valerio">
+            <data key="weight">25</data>
+        </edge>
+        <edge id="valeria|sarmiento" source="valeria" target="sarmiento">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="valeria|porporino" source="valeria" target="porporino">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="valeria|aquilar" source="valeria" target="aquilar">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="valeria|melanie" source="valeria" target="melanie">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="valeria|isidora" source="valeria" target="isidora">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="valeria|isabella" source="valeria" target="isabella">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valeria|alonso" source="valeria" target="alonso">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valeria|lucilla" source="valeria" target="lucilla">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="valeria|diener_5-12" source="valeria" target="diener_5-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valeria|felix" source="valeria" target="felix">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valeria|viele_andere_alle_5-18_bis_5-20" source="valeria" target="viele_andere_alle_5-18_bis_5-20">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valeria|zigeunerin" source="valeria" target="zigeunerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valeria|juanna" source="valeria" target="juanna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ponce|valerio" source="ponce" target="valerio">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="ponce|diener_1-15_und_1-16" source="ponce" target="diener_1-15_und_1-16">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ponce|aquilar" source="ponce" target="aquilar">
+            <data key="weight">29</data>
+        </edge>
+        <edge id="ponce|anderer_diener_1-16" source="ponce" target="anderer_diener_1-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ponce|dame" source="ponce" target="dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ponce|porporino" source="ponce" target="porporino">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="ponce|sarmiento" source="ponce" target="sarmiento">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="ponce|ein_diener_1-20" source="ponce" target="ein_diener_1-20">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ponce|felix" source="ponce" target="felix">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ponce|erster_diener_2-1_und_2-3" source="ponce" target="erster_diener_2-1_und_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ponce|diener_2-14a_und_2-21" source="ponce" target="diener_2-14a_und_2-21">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ponce|diener_2-14b" source="ponce" target="diener_2-14b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ponce|traeger" source="ponce" target="traeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ponce|isabella" source="ponce" target="isabella">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ponce|isidora" source="ponce" target="isidora">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ponce|melanie" source="ponce" target="melanie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ponce|diener_4-7" source="ponce" target="diener_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ponce|lucilla" source="ponce" target="lucilla">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ponce|diener_5-12" source="ponce" target="diener_5-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ponce|geiger" source="ponce" target="geiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ponce|pfeifer" source="ponce" target="pfeifer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ponce|diener_5-15" source="ponce" target="diener_5-15">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ponce|ritter" source="ponce" target="ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ponce|zigeunerin" source="ponce" target="zigeunerin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ponce|viele_andere_alle_5-18_bis_5-20" source="ponce" target="viele_andere_alle_5-18_bis_5-20">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ponce|juanna" source="ponce" target="juanna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valerio|sarmiento" source="valerio" target="sarmiento">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="valerio|porporino" source="valerio" target="porporino">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="valerio|erster_diener_1-17" source="valerio" target="erster_diener_1-17">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|zweiter_diener_1-17" source="valerio" target="zweiter_diener_1-17">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|aquilar" source="valerio" target="aquilar">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="valerio|felix" source="valerio" target="felix">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valerio|juanna" source="valerio" target="juanna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valerio|perez" source="valerio" target="perez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|isidora" source="valerio" target="isidora">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="valerio|melanie" source="valerio" target="melanie">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="valerio|isabella" source="valerio" target="isabella">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="valerio|alonso" source="valerio" target="alonso">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valerio|lucilla" source="valerio" target="lucilla">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="valerio|der_alte_diener_5-8" source="valerio" target="der_alte_diener_5-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|diener_5-12" source="valerio" target="diener_5-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|pfeifer" source="valerio" target="pfeifer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valerio|geiger" source="valerio" target="geiger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valerio|diener_5-15" source="valerio" target="diener_5-15">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|ritter" source="valerio" target="ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|zigeunerin" source="valerio" target="zigeunerin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valerio|viele_andere_alle_5-18_bis_5-20" source="valerio" target="viele_andere_alle_5-18_bis_5-20">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sarmiento|porporino" source="sarmiento" target="porporino">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="sarmiento|aquilar" source="sarmiento" target="aquilar">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="sarmiento|felix" source="sarmiento" target="felix">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sarmiento|erster_diener_2-1_und_2-3" source="sarmiento" target="erster_diener_2-1_und_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sarmiento|diener_2-14a_und_2-21" source="sarmiento" target="diener_2-14a_und_2-21">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sarmiento|diener_2-14b" source="sarmiento" target="diener_2-14b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sarmiento|isabella" source="sarmiento" target="isabella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sarmiento|viele_andere_alle_5-18_bis_5-20" source="sarmiento" target="viele_andere_alle_5-18_bis_5-20">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sarmiento|zigeunerin" source="sarmiento" target="zigeunerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sarmiento|isidora" source="sarmiento" target="isidora">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sarmiento|melanie" source="sarmiento" target="melanie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sarmiento|lucilla" source="sarmiento" target="lucilla">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sarmiento|juanna" source="sarmiento" target="juanna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="porporino|erster_diener_1-17" source="porporino" target="erster_diener_1-17">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="porporino|zweiter_diener_1-17" source="porporino" target="zweiter_diener_1-17">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="porporino|aquilar" source="porporino" target="aquilar">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="porporino|melanie" source="porporino" target="melanie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="porporino|isabella" source="porporino" target="isabella">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="porporino|isidora" source="porporino" target="isidora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="porporino|traeger" source="porporino" target="traeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="porporino|diener_4-7" source="porporino" target="diener_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="porporino|ritter" source="porporino" target="ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="porporino|felix" source="porporino" target="felix">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="porporino|viele_andere_alle_5-18_bis_5-20" source="porporino" target="viele_andere_alle_5-18_bis_5-20">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="porporino|zigeunerin" source="porporino" target="zigeunerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="porporino|lucilla" source="porporino" target="lucilla">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="porporino|juanna" source="porporino" target="juanna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_1-15_und_1-16|aquilar" source="diener_1-15_und_1-16" target="aquilar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_1-15_und_1-16|anderer_diener_1-16" source="diener_1-15_und_1-16" target="anderer_diener_1-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_1-15_und_1-16|dame" source="diener_1-15_und_1-16" target="dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aquilar|anderer_diener_1-16" source="aquilar" target="anderer_diener_1-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aquilar|dame" source="aquilar" target="dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aquilar|ein_diener_1-20" source="aquilar" target="ein_diener_1-20">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aquilar|felix" source="aquilar" target="felix">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="aquilar|erster_diener_2-1_und_2-3" source="aquilar" target="erster_diener_2-1_und_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aquilar|diener_2-14a_und_2-21" source="aquilar" target="diener_2-14a_und_2-21">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aquilar|diener_2-14b" source="aquilar" target="diener_2-14b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aquilar|traeger" source="aquilar" target="traeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aquilar|isabella" source="aquilar" target="isabella">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="aquilar|isidora" source="aquilar" target="isidora">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="aquilar|melanie" source="aquilar" target="melanie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="aquilar|diener_4-7" source="aquilar" target="diener_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aquilar|lucilla" source="aquilar" target="lucilla">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="aquilar|diener_5-12" source="aquilar" target="diener_5-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aquilar|juanna" source="aquilar" target="juanna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="aquilar|viele_andere_alle_5-18_bis_5-20" source="aquilar" target="viele_andere_alle_5-18_bis_5-20">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="aquilar|zigeunerin" source="aquilar" target="zigeunerin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anderer_diener_1-16|dame" source="anderer_diener_1-16" target="dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_diener_1-17|zweiter_diener_1-17" source="erster_diener_1-17" target="zweiter_diener_1-17">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="felix|erster_diener_2-1_und_2-3" source="felix" target="erster_diener_2-1_und_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="felix|lucilla" source="felix" target="lucilla">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="felix|isabella" source="felix" target="isabella">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="felix|diener_5-5" source="felix" target="diener_5-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="felix|viele_andere_alle_5-18_bis_5-20" source="felix" target="viele_andere_alle_5-18_bis_5-20">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="felix|zigeunerin" source="felix" target="zigeunerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="felix|isidora" source="felix" target="isidora">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="felix|melanie" source="felix" target="melanie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="felix|juanna" source="felix" target="juanna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_diener_2-1_und_2-3|zweiter_diener_2-1" source="erster_diener_2-1_und_2-3" target="zweiter_diener_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_2-14a_und_2-21|diener_2-14b" source="diener_2-14a_und_2-21" target="diener_2-14b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juanna|perez" source="juanna" target="perez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juanna|isidora" source="juanna" target="isidora">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="juanna|melanie" source="juanna" target="melanie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="juanna|viele_andere_alle_5-18_bis_5-20" source="juanna" target="viele_andere_alle_5-18_bis_5-20">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="juanna|zigeunerin" source="juanna" target="zigeunerin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="juanna|isabella" source="juanna" target="isabella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juanna|lucilla" source="juanna" target="lucilla">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="perez|isidora" source="perez" target="isidora">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="perez|melanie" source="perez" target="melanie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isidora|melanie" source="isidora" target="melanie">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="isidora|isabella" source="isidora" target="isabella">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="isidora|viele_andere_alle_5-18_bis_5-20" source="isidora" target="viele_andere_alle_5-18_bis_5-20">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isidora|zigeunerin" source="isidora" target="zigeunerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isidora|lucilla" source="isidora" target="lucilla">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melanie|isabella" source="melanie" target="isabella">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="melanie|viele_andere_alle_5-18_bis_5-20" source="melanie" target="viele_andere_alle_5-18_bis_5-20">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melanie|zigeunerin" source="melanie" target="zigeunerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melanie|lucilla" source="melanie" target="lucilla">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isabella|viele_andere_alle_5-18_bis_5-20" source="isabella" target="viele_andere_alle_5-18_bis_5-20">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isabella|zigeunerin" source="isabella" target="zigeunerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isabella|lucilla" source="isabella" target="lucilla">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_diener_3-9|zweiter_diener_3-9" source="erster_diener_3-9" target="zweiter_diener_3-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucilla|diener_5-5" source="lucilla" target="diener_5-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucilla|diener_5-12" source="lucilla" target="diener_5-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucilla|viele_andere_alle_5-18_bis_5-20" source="lucilla" target="viele_andere_alle_5-18_bis_5-20">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucilla|zigeunerin" source="lucilla" target="zigeunerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alonso|pfeifer" source="alonso" target="pfeifer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alonso|geiger" source="alonso" target="geiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pfeifer|geiger" source="pfeifer" target="geiger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pfeifer|diener_5-15" source="pfeifer" target="diener_5-15">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geiger|diener_5-15" source="geiger" target="diener_5-15">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zigeunerin|viele_andere_alle_5-18_bis_5-20" source="zigeunerin" target="viele_andere_alle_5-18_bis_5-20">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

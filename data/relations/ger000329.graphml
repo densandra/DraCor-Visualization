@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="alfred">
+            <data key="label">Alfred</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="adele">
+            <data key="label">Adele</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rosalinde">
+            <data key="label">Rosalinde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eisenstein">
+            <data key="label">Eisenstein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="blind">
+            <data key="label">Blind</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="falke">
+            <data key="label">Falke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frank">
+            <data key="label">Frank</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_der_gaeste_alle">
+            <data key="label">Chor der Gäste/Alle</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="erster_diener">
+            <data key="label">Erster Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="melanie">
+            <data key="label">Melanie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_diener">
+            <data key="label">Zweiter Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="faustine">
+            <data key="label">Faustine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_diener">
+            <data key="label">Dritter Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="felicitas">
+            <data key="label">Felicitas</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vierter_diener">
+            <data key="label">Vierter Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="minni">
+            <data key="label">Minni</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hermine">
+            <data key="label">Hermine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="natalie">
+            <data key="label">Natalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mehrere_damen_alle_damen_die_damen">
+            <data key="label">Mehrere Damen/Alle Damen/Die Damen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="mehrere_herren_die_herren">
+            <data key="label">Mehrere Herren/Die Herren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ali_bey">
+            <data key="label">Ali Bey</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sidi">
+            <data key="label">Sidi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ramusin">
+            <data key="label">Ramusin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="murray">
+            <data key="label">Murray</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="carikoni">
+            <data key="label">Carikoni</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ida">
+            <data key="label">Ida</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="orlofsky">
+            <data key="label">Orlofsky</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ivan">
+            <data key="label">Ivan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frosch">
+            <data key="label">Frosch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="rosalinde" target="eisenstein">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="adele" target="ida">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="alfred" target="orlofsky">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="adele" target="rosalinde">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="ivan" target="orlofsky">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

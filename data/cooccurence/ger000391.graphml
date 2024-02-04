@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="wumshaeter">
+            <data key="label">Wumshäter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4101</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">850</data>
+        </node>
+        <node id="valer">
+            <data key="label">Valer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1927</data>
+        </node>
+        <node id="hilaria_als_lelio">
+            <data key="label">Hilaria (verkleidet als Lelio)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1917</data>
+        </node>
+        <node id="laura">
+            <data key="label">Laura</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1780</data>
+        </node>
+        <node id="solbist">
+            <data key="label">Solbist</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1603</data>
+        </node>
+        <node id="leander">
+            <data key="label">Leander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">88</data>
+        </node>
+        <edge id="wumshaeter|lisette" source="wumshaeter" target="lisette">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wumshaeter|valer" source="wumshaeter" target="valer">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="wumshaeter|hilaria_als_lelio" source="wumshaeter" target="hilaria_als_lelio">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="wumshaeter|laura" source="wumshaeter" target="laura">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="wumshaeter|solbist" source="wumshaeter" target="solbist">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wumshaeter|leander" source="wumshaeter" target="leander">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lisette|solbist" source="lisette" target="solbist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|laura" source="lisette" target="laura">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lisette|leander" source="lisette" target="leander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lisette|hilaria_als_lelio" source="lisette" target="hilaria_als_lelio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|valer" source="lisette" target="valer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valer|hilaria_als_lelio" source="valer" target="hilaria_als_lelio">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="valer|laura" source="valer" target="laura">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="valer|solbist" source="valer" target="solbist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valer|leander" source="valer" target="leander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hilaria_als_lelio|laura" source="hilaria_als_lelio" target="laura">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hilaria_als_lelio|solbist" source="hilaria_als_lelio" target="solbist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hilaria_als_lelio|leander" source="hilaria_als_lelio" target="leander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laura|leander" source="laura" target="leander">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

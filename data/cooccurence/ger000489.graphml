@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="pfiff">
+            <data key="label">Pfiff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">856</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">673</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">490</data>
+        </node>
+        <node id="moses">
+            <data key="label">Moses</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">687</data>
+        </node>
+        <edge id="pfiff|karl" source="pfiff" target="karl">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="pfiff|wilhelm" source="pfiff" target="wilhelm">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pfiff|moses" source="pfiff" target="moses">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|wilhelm" source="karl" target="wilhelm">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="karl|moses" source="karl" target="moses">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|moses" source="wilhelm" target="moses">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

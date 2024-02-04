@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="die_mutter">
+            <data key="label">Die Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">523</data>
+        </node>
+        <node id="alfred">
+            <data key="label">Alfred</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2547</data>
+        </node>
+        <node id="die_grossmutter">
+            <data key="label">Die Großmutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">924</data>
+        </node>
+        <node id="der_hierlinger_ferdinand">
+            <data key="label">Der Hierlinger Ferdinand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">546</data>
+        </node>
+        <node id="valerie">
+            <data key="label">Valerie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2249</data>
+        </node>
+        <node id="oskar">
+            <data key="label">Oskar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">919</data>
+        </node>
+        <node id="ida">
+            <data key="label">Ida</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="havlitschek">
+            <data key="label">Havlitschek</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">401</data>
+        </node>
+        <node id="rittmeister">
+            <data key="label">Rittmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1025</data>
+        </node>
+        <node id="marianne">
+            <data key="label">Marianne</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1766</data>
+        </node>
+        <node id="eine_gnaedige_frau">
+            <data key="label">Eine gnädige Frau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">91</data>
+        </node>
+        <node id="zauberkoenig">
+            <data key="label">Zauberkönig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2195</data>
+        </node>
+        <node id="erste_tante">
+            <data key="label">Erste Tante</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">49</data>
+        </node>
+        <node id="zweite_tante">
+            <data key="label">Zweite Tante</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="erich">
+            <data key="label">Erich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">658</data>
+        </node>
+        <node id="emma">
+            <data key="label">Emma</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">116</data>
+        </node>
+        <node id="helene">
+            <data key="label">Helene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">152</data>
+        </node>
+        <node id="der_dienstbot">
+            <data key="label">Der Dienstbot</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="baronin">
+            <data key="label">Baronin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">182</data>
+        </node>
+        <node id="beichtvater">
+            <data key="label">Beichtvater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">230</data>
+        </node>
+        <node id="der_kavalier_des_maedchens">
+            <data key="label">Der Kavalier des Mädchens</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="das_maedchen">
+            <data key="label">Das Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="der_ober">
+            <data key="label">Der Ober</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="der_mister">
+            <data key="label">Der Mister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">565</data>
+        </node>
+        <node id="der_conferencier">
+            <data key="label">Der Conférencier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">201</data>
+        </node>
+        <node id="eine_gemuetliche_stimme">
+            <data key="label">Eine gemütliche Stimme</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <edge id="die_mutter|alfred" source="die_mutter" target="alfred">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="die_mutter|die_grossmutter" source="die_mutter" target="die_grossmutter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="die_mutter|der_hierlinger_ferdinand" source="die_mutter" target="der_hierlinger_ferdinand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mutter|valerie" source="die_mutter" target="valerie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_mutter|marianne" source="die_mutter" target="marianne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mutter|zauberkoenig" source="die_mutter" target="zauberkoenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mutter|oskar" source="die_mutter" target="oskar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alfred|die_grossmutter" source="alfred" target="die_grossmutter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="alfred|der_hierlinger_ferdinand" source="alfred" target="der_hierlinger_ferdinand">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alfred|valerie" source="alfred" target="valerie">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="alfred|oskar" source="alfred" target="oskar">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="alfred|ida" source="alfred" target="ida">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alfred|havlitschek" source="alfred" target="havlitschek">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alfred|rittmeister" source="alfred" target="rittmeister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="alfred|marianne" source="alfred" target="marianne">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="alfred|eine_gnaedige_frau" source="alfred" target="eine_gnaedige_frau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alfred|zauberkoenig" source="alfred" target="zauberkoenig">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="alfred|erste_tante" source="alfred" target="erste_tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alfred|zweite_tante" source="alfred" target="zweite_tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alfred|erich" source="alfred" target="erich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_grossmutter|der_hierlinger_ferdinand" source="die_grossmutter" target="der_hierlinger_ferdinand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_grossmutter|valerie" source="die_grossmutter" target="valerie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_grossmutter|marianne" source="die_grossmutter" target="marianne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_grossmutter|zauberkoenig" source="die_grossmutter" target="zauberkoenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_grossmutter|oskar" source="die_grossmutter" target="oskar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hierlinger_ferdinand|valerie" source="der_hierlinger_ferdinand" target="valerie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hierlinger_ferdinand|marianne" source="der_hierlinger_ferdinand" target="marianne">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_hierlinger_ferdinand|helene" source="der_hierlinger_ferdinand" target="helene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hierlinger_ferdinand|der_dienstbot" source="der_hierlinger_ferdinand" target="der_dienstbot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hierlinger_ferdinand|baronin" source="der_hierlinger_ferdinand" target="baronin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerie|oskar" source="valerie" target="oskar">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="valerie|ida" source="valerie" target="ida">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valerie|havlitschek" source="valerie" target="havlitschek">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valerie|rittmeister" source="valerie" target="rittmeister">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="valerie|marianne" source="valerie" target="marianne">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="valerie|eine_gnaedige_frau" source="valerie" target="eine_gnaedige_frau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valerie|zauberkoenig" source="valerie" target="zauberkoenig">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="valerie|erste_tante" source="valerie" target="erste_tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerie|zweite_tante" source="valerie" target="zweite_tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerie|erich" source="valerie" target="erich">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="valerie|der_kavalier_des_maedchens" source="valerie" target="der_kavalier_des_maedchens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerie|das_maedchen" source="valerie" target="das_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerie|der_ober" source="valerie" target="der_ober">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerie|der_mister" source="valerie" target="der_mister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerie|der_conferencier" source="valerie" target="der_conferencier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerie|eine_gemuetliche_stimme" source="valerie" target="eine_gemuetliche_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerie|baronin" source="valerie" target="baronin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oskar|ida" source="oskar" target="ida">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="oskar|havlitschek" source="oskar" target="havlitschek">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="oskar|rittmeister" source="oskar" target="rittmeister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="oskar|marianne" source="oskar" target="marianne">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="oskar|eine_gnaedige_frau" source="oskar" target="eine_gnaedige_frau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="oskar|zauberkoenig" source="oskar" target="zauberkoenig">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="oskar|erste_tante" source="oskar" target="erste_tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oskar|zweite_tante" source="oskar" target="zweite_tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oskar|erich" source="oskar" target="erich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="oskar|emma" source="oskar" target="emma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|havlitschek" source="ida" target="havlitschek">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|rittmeister" source="ida" target="rittmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|marianne" source="ida" target="marianne">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ida|eine_gnaedige_frau" source="ida" target="eine_gnaedige_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|zauberkoenig" source="ida" target="zauberkoenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ida|erste_tante" source="ida" target="erste_tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|zweite_tante" source="ida" target="zweite_tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|erich" source="ida" target="erich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="havlitschek|rittmeister" source="havlitschek" target="rittmeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="havlitschek|marianne" source="havlitschek" target="marianne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="havlitschek|eine_gnaedige_frau" source="havlitschek" target="eine_gnaedige_frau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="havlitschek|zauberkoenig" source="havlitschek" target="zauberkoenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="havlitschek|emma" source="havlitschek" target="emma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="havlitschek|erich" source="havlitschek" target="erich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rittmeister|marianne" source="rittmeister" target="marianne">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rittmeister|eine_gnaedige_frau" source="rittmeister" target="eine_gnaedige_frau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rittmeister|zauberkoenig" source="rittmeister" target="zauberkoenig">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="rittmeister|erich" source="rittmeister" target="erich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rittmeister|der_kavalier_des_maedchens" source="rittmeister" target="der_kavalier_des_maedchens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rittmeister|das_maedchen" source="rittmeister" target="das_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rittmeister|der_ober" source="rittmeister" target="der_ober">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rittmeister|der_mister" source="rittmeister" target="der_mister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rittmeister|der_conferencier" source="rittmeister" target="der_conferencier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rittmeister|eine_gemuetliche_stimme" source="rittmeister" target="eine_gemuetliche_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rittmeister|baronin" source="rittmeister" target="baronin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne|eine_gnaedige_frau" source="marianne" target="eine_gnaedige_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne|zauberkoenig" source="marianne" target="zauberkoenig">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="marianne|erste_tante" source="marianne" target="erste_tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne|zweite_tante" source="marianne" target="zweite_tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne|erich" source="marianne" target="erich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marianne|helene" source="marianne" target="helene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne|der_dienstbot" source="marianne" target="der_dienstbot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne|baronin" source="marianne" target="baronin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marianne|beichtvater" source="marianne" target="beichtvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne|der_kavalier_des_maedchens" source="marianne" target="der_kavalier_des_maedchens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne|das_maedchen" source="marianne" target="das_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne|der_ober" source="marianne" target="der_ober">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne|der_mister" source="marianne" target="der_mister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne|der_conferencier" source="marianne" target="der_conferencier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne|eine_gemuetliche_stimme" source="marianne" target="eine_gemuetliche_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_gnaedige_frau|zauberkoenig" source="eine_gnaedige_frau" target="zauberkoenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eine_gnaedige_frau|erich" source="eine_gnaedige_frau" target="erich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zauberkoenig|erste_tante" source="zauberkoenig" target="erste_tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zauberkoenig|zweite_tante" source="zauberkoenig" target="zweite_tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zauberkoenig|erich" source="zauberkoenig" target="erich">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="zauberkoenig|der_kavalier_des_maedchens" source="zauberkoenig" target="der_kavalier_des_maedchens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zauberkoenig|das_maedchen" source="zauberkoenig" target="das_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zauberkoenig|der_ober" source="zauberkoenig" target="der_ober">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zauberkoenig|der_mister" source="zauberkoenig" target="der_mister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zauberkoenig|der_conferencier" source="zauberkoenig" target="der_conferencier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zauberkoenig|eine_gemuetliche_stimme" source="zauberkoenig" target="eine_gemuetliche_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zauberkoenig|baronin" source="zauberkoenig" target="baronin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_tante|zweite_tante" source="erste_tante" target="zweite_tante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_tante|erich" source="erste_tante" target="erich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_tante|erich" source="zweite_tante" target="erich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erich|der_kavalier_des_maedchens" source="erich" target="der_kavalier_des_maedchens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erich|das_maedchen" source="erich" target="das_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erich|der_ober" source="erich" target="der_ober">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erich|der_mister" source="erich" target="der_mister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erich|der_conferencier" source="erich" target="der_conferencier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erich|eine_gemuetliche_stimme" source="erich" target="eine_gemuetliche_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erich|baronin" source="erich" target="baronin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|der_dienstbot" source="helene" target="der_dienstbot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|baronin" source="helene" target="baronin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dienstbot|baronin" source="der_dienstbot" target="baronin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baronin|der_kavalier_des_maedchens" source="baronin" target="der_kavalier_des_maedchens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baronin|das_maedchen" source="baronin" target="das_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baronin|der_ober" source="baronin" target="der_ober">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baronin|der_mister" source="baronin" target="der_mister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baronin|der_conferencier" source="baronin" target="der_conferencier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baronin|eine_gemuetliche_stimme" source="baronin" target="eine_gemuetliche_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kavalier_des_maedchens|das_maedchen" source="der_kavalier_des_maedchens" target="das_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kavalier_des_maedchens|der_ober" source="der_kavalier_des_maedchens" target="der_ober">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kavalier_des_maedchens|der_mister" source="der_kavalier_des_maedchens" target="der_mister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kavalier_des_maedchens|der_conferencier" source="der_kavalier_des_maedchens" target="der_conferencier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kavalier_des_maedchens|eine_gemuetliche_stimme" source="der_kavalier_des_maedchens" target="eine_gemuetliche_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_maedchen|der_ober" source="das_maedchen" target="der_ober">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_maedchen|der_mister" source="das_maedchen" target="der_mister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_maedchen|der_conferencier" source="das_maedchen" target="der_conferencier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_maedchen|eine_gemuetliche_stimme" source="das_maedchen" target="eine_gemuetliche_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ober|der_mister" source="der_ober" target="der_mister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ober|der_conferencier" source="der_ober" target="der_conferencier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ober|eine_gemuetliche_stimme" source="der_ober" target="eine_gemuetliche_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_mister|der_conferencier" source="der_mister" target="der_conferencier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_mister|eine_gemuetliche_stimme" source="der_mister" target="eine_gemuetliche_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_conferencier|eine_gemuetliche_stimme" source="der_conferencier" target="eine_gemuetliche_stimme">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

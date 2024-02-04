@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="baroninn">
+            <data key="label">Baroninn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="babette">
+            <data key="label">Babette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bluemlein">
+            <data key="label">Blümlein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wolf">
+            <data key="label">Wolf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nina">
+            <data key="label">Nina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="emy">
+            <data key="label">Emy</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="waldberg">
+            <data key="label">Waldberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gruenau">
+            <data key="label">Grünau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_von_lichtberg">
+            <data key="label">Frau von Lichtberg</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fraeulein_grinzberg">
+            <data key="label">Fräulein Grinzberg</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fraeulein_impfen">
+            <data key="label">Fräulein Impfen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_alles_3-1_bis_3-4">
+            <data key="label">Alle/Alles (III/1–4)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="frau_von_dorn">
+            <data key="label">Frau von Dorn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="raethinn_sommer">
+            <data key="label">Räthinn Sommer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_von_hacken">
+            <data key="label">Herr von Hacken</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_von_dorn">
+            <data key="label">Herr von Dorn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="baroninn_duerrer">
+            <data key="label">Baroninn Dürrer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_von_traufbach">
+            <data key="label">Herr von Traufbach</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gertraude">
+            <data key="label">Gertraude</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="baroninn" target="nina">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="baroninn" target="emy">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="baroninn" target="marie">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="babette" target="baroninn">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="gertraude" target="marie">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

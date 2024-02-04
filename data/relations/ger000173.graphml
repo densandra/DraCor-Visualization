@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cathrine">
+            <data key="label">Cathrine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="muffel">
+            <data key="label">Muffel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tempelstolz">
+            <data key="label">Tempelstolz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wahrmund">
+            <data key="label">Herr Wahrmund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wilhelmine">
+            <data key="label">Fräulein Wilhelmine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_von_birkenhayn">
+            <data key="label">Frau von Birkenhayn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_von_roseneck">
+            <data key="label">Herr von Roseneck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="brigitte">
+            <data key="label">Brigitte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="frau_von_birkenhayn" target="herr_von_roseneck">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="tempelstolz" target="wilhelmine">
+            <data key="relation">lover_of</data>
+        </edge>
+        <edge id="3" directed="false" source="muffel" target="wilhelmine">
+            <data key="relation">lover_of</data>
+        </edge>
+        <edge id="4" directed="false" source="frau_von_birkenhayn" target="wilhelmine">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="wahrmund" target="wilhelmine">
+            <data key="relation">lover_of</data>
+        </edge>
+        <edge id="6" directed="false" source="cathrine" target="muffel">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="peter" target="muffel">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="brigitte" target="tempelstolz">
+            <data key="relation">lover_of</data>
+        </edge>
+    </graph>
+</graphml>

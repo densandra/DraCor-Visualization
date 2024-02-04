@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="knechte">
+            <data key="label">Knechte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="maegde">
+            <data key="label">Mägde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="grillhofer">
+            <data key="label">Grillhofer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rosl">
+            <data key="label">Rosl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wastl">
+            <data key="label">Wastl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dusterer">
+            <data key="label">Dusterer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="liesel">
+            <data key="label">Liesel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="michl">
+            <data key="label">Michl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="annemirl">
+            <data key="label">Annemirl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="leonhardt">
+            <data key="label">Leonhardt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="natzl">
+            <data key="label">Natzl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hans">
+            <data key="label">Hans</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bauer">
+            <data key="label">Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="baeuerin">
+            <data key="label">Bäuerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="bauer" target="baeuerin">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="dusterer" target="grillhofer">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="3" directed="false" source="wastl" target="grillhofer">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="michl" target="grillhofer">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="rosl" target="grillhofer">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="annemirl" target="grillhofer">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="bauer" target="natzl">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="8" directed="false" source="bauer" target="hans">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="9" directed="false" source="baeuerin" target="natzl">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="10" directed="false" source="baeuerin" target="hans">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="11" directed="false" source="knechte" target="grillhofer">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="12" directed="false" source="maegde" target="grillhofer">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="valere">
+            <data key="label">Valere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hanswurst">
+            <data key="label">Hanswurst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hausmeister">
+            <data key="label">Hausmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="friseur">
+            <data key="label">Friseur</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="henriette">
+            <data key="label">Henriette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hasenkopf">
+            <data key="label">Herr von Hasenkopf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="heinzenfeld">
+            <data key="label">Heinzenfeld</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alcantor">
+            <data key="label">Alcantor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="henriette" target="valere">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="heinzenfeld" target="henriette">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="hasenkopf" target="henriette">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="alcantor" target="henriette">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="alcantor" target="valere">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="valere" target="henriette">
+            <data key="relation">lover_of</data>
+        </edge>
+        <edge id="7" directed="false" source="lisette" target="henriette">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="hanswurst" target="valere">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="hanswurst" target="lisette">
+            <data key="relation">lover_of</data>
+        </edge>
+    </graph>
+</graphml>

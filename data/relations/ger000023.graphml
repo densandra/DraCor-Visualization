@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="launhart">
+            <data key="label">Launhart</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gellinghausen">
+            <data key="label">Gellinghausen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="waldbauer">
+            <data key="label">Waldbauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="berta">
+            <data key="label">Berta Launhart</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fanny">
+            <data key="label">Fanny</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fritz">
+            <data key="label">Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hetmann">
+            <data key="label">Hetmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="morosini">
+            <data key="label">Morosini</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mrs_grant">
+            <data key="label">Mrs. Grant</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_fuerstin">
+            <data key="label">Die Fürstin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="von_bruehl">
+            <data key="label">von Brühl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dr_mittenbach">
+            <data key="label">Dr. Mittenbach</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_kriminalschutzmann">
+            <data key="label">Der Kriminalschutzmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_polizeileutnant">
+            <data key="label">Der Polizeileutnant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cotrelly">
+            <data key="label">Cotrelly</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="berta" target="launhart">
+            <data key="relation">siblings</data>
+        </edge>
+    </graph>
+</graphml>

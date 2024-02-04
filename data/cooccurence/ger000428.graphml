@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="remigius">
+            <data key="label">Professor Remigius Wohlgemut</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1415</data>
+        </node>
+        <node id="hubert">
+            <data key="label">Hubert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3491</data>
+        </node>
+        <node id="rosl">
+            <data key="label">Rosl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">801</data>
+        </node>
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">923</data>
+        </node>
+        <node id="rabanser">
+            <data key="label">Rabanser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3232</data>
+        </node>
+        <node id="vater">
+            <data key="label">Doktor Fallmer/Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4339</data>
+        </node>
+        <node id="babusch">
+            <data key="label">Babúsch</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">315</data>
+        </node>
+        <node id="dienstmaedchen">
+            <data key="label">Dienstmädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">103</data>
+        </node>
+        <node id="pogatschnigg">
+            <data key="label">Pogatschnigg</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">451</data>
+        </node>
+        <node id="taube">
+            <data key="label">Taube</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">54</data>
+        </node>
+        <node id="magentrost">
+            <data key="label">Magentrost</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">259</data>
+        </node>
+        <node id="chorus_puerorum">
+            <data key="label">Chorus puerorum</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">248</data>
+        </node>
+        <node id="pater_confessor">
+            <data key="label">Pater confessor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="chorus_adolescentium">
+            <data key="label">Chorus adolescentium</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">248</data>
+        </node>
+        <node id="voces_apokalypticae_de_coelis_cantantes">
+            <data key="label">Voces apokalypticae de coelis cantantes</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <edge id="remigius|hubert" source="remigius" target="hubert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="remigius|rosl" source="remigius" target="rosl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="remigius|mutter" source="remigius" target="mutter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="remigius|rabanser" source="remigius" target="rabanser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="remigius|vater" source="remigius" target="vater">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="remigius|babusch" source="remigius" target="babusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="remigius|chorus_puerorum" source="remigius" target="chorus_puerorum">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="remigius|pater_confessor" source="remigius" target="pater_confessor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="remigius|chorus_adolescentium" source="remigius" target="chorus_adolescentium">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="remigius|voces_apokalypticae_de_coelis_cantantes" source="remigius" target="voces_apokalypticae_de_coelis_cantantes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hubert|rosl" source="hubert" target="rosl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hubert|mutter" source="hubert" target="mutter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hubert|rabanser" source="hubert" target="rabanser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hubert|vater" source="hubert" target="vater">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hubert|babusch" source="hubert" target="babusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hubert|dienstmaedchen" source="hubert" target="dienstmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hubert|pogatschnigg" source="hubert" target="pogatschnigg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hubert|taube" source="hubert" target="taube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hubert|magentrost" source="hubert" target="magentrost">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosl|mutter" source="rosl" target="mutter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosl|rabanser" source="rosl" target="rabanser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosl|vater" source="rosl" target="vater">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosl|babusch" source="rosl" target="babusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|rabanser" source="mutter" target="rabanser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|vater" source="mutter" target="vater">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mutter|babusch" source="mutter" target="babusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rabanser|vater" source="rabanser" target="vater">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rabanser|dienstmaedchen" source="rabanser" target="dienstmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rabanser|pogatschnigg" source="rabanser" target="pogatschnigg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rabanser|taube" source="rabanser" target="taube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rabanser|magentrost" source="rabanser" target="magentrost">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rabanser|chorus_puerorum" source="rabanser" target="chorus_puerorum">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rabanser|pater_confessor" source="rabanser" target="pater_confessor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rabanser|chorus_adolescentium" source="rabanser" target="chorus_adolescentium">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rabanser|voces_apokalypticae_de_coelis_cantantes" source="rabanser" target="voces_apokalypticae_de_coelis_cantantes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vater|babusch" source="vater" target="babusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vater|chorus_puerorum" source="vater" target="chorus_puerorum">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vater|pater_confessor" source="vater" target="pater_confessor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vater|chorus_adolescentium" source="vater" target="chorus_adolescentium">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vater|voces_apokalypticae_de_coelis_cantantes" source="vater" target="voces_apokalypticae_de_coelis_cantantes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dienstmaedchen|pogatschnigg" source="dienstmaedchen" target="pogatschnigg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dienstmaedchen|taube" source="dienstmaedchen" target="taube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dienstmaedchen|magentrost" source="dienstmaedchen" target="magentrost">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pogatschnigg|taube" source="pogatschnigg" target="taube">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pogatschnigg|magentrost" source="pogatschnigg" target="magentrost">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="taube|magentrost" source="taube" target="magentrost">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chorus_puerorum|pater_confessor" source="chorus_puerorum" target="pater_confessor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chorus_puerorum|chorus_adolescentium" source="chorus_puerorum" target="chorus_adolescentium">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chorus_puerorum|voces_apokalypticae_de_coelis_cantantes" source="chorus_puerorum" target="voces_apokalypticae_de_coelis_cantantes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pater_confessor|chorus_adolescentium" source="pater_confessor" target="chorus_adolescentium">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pater_confessor|voces_apokalypticae_de_coelis_cantantes" source="pater_confessor" target="voces_apokalypticae_de_coelis_cantantes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chorus_adolescentium|voces_apokalypticae_de_coelis_cantantes" source="chorus_adolescentium" target="voces_apokalypticae_de_coelis_cantantes">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

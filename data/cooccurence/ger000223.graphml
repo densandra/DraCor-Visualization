@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="frau_selicke">
+            <data key="label">Frau Selicke</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3203</data>
+        </node>
+        <node id="walter">
+            <data key="label">Walter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">282</data>
+        </node>
+        <node id="albert">
+            <data key="label">Albert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">355</data>
+        </node>
+        <node id="kopelke">
+            <data key="label">Kopelke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1425</data>
+        </node>
+        <node id="linchen">
+            <data key="label">Linchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">808</data>
+        </node>
+        <node id="wendt">
+            <data key="label">Gustav Wendt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2760</data>
+        </node>
+        <node id="toni">
+            <data key="label">Toni</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2602</data>
+        </node>
+        <node id="selicke">
+            <data key="label">Eduard Selicke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">952</data>
+        </node>
+        <edge id="frau_selicke|walter" source="frau_selicke" target="walter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_selicke|albert" source="frau_selicke" target="albert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_selicke|kopelke" source="frau_selicke" target="kopelke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_selicke|linchen" source="frau_selicke" target="linchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_selicke|wendt" source="frau_selicke" target="wendt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_selicke|toni" source="frau_selicke" target="toni">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_selicke|selicke" source="frau_selicke" target="selicke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walter|albert" source="walter" target="albert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="walter|kopelke" source="walter" target="kopelke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walter|linchen" source="walter" target="linchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walter|wendt" source="walter" target="wendt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walter|toni" source="walter" target="toni">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="walter|selicke" source="walter" target="selicke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albert|kopelke" source="albert" target="kopelke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albert|linchen" source="albert" target="linchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albert|wendt" source="albert" target="wendt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albert|toni" source="albert" target="toni">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="albert|selicke" source="albert" target="selicke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kopelke|linchen" source="kopelke" target="linchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kopelke|wendt" source="kopelke" target="wendt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kopelke|toni" source="kopelke" target="toni">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kopelke|selicke" source="kopelke" target="selicke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="linchen|wendt" source="linchen" target="wendt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="linchen|toni" source="linchen" target="toni">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="linchen|selicke" source="linchen" target="selicke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wendt|toni" source="wendt" target="toni">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wendt|selicke" source="wendt" target="selicke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toni|selicke" source="toni" target="selicke">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

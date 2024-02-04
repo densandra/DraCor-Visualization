@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="koenig_nicolo">
+            <data key="label">König Nicolo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6634</data>
+        </node>
+        <node id="alma">
+            <data key="label">Prinzessin Alma</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2387</data>
+        </node>
+        <node id="erster_bedienter">
+            <data key="label">Erster Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <node id="zweiter_bedienter">
+            <data key="label">Zweiter Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="koenig_pietro">
+            <data key="label">Pietro Folchi/König Pietro</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1938</data>
+        </node>
+        <node id="die_buerger_alle_anwesenden">
+            <data key="label">Die Bürger/Einige Stimmen/Einige Bürger/Alle Anwesenden (1. Bild)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">71</data>
+        </node>
+        <node id="andrea_valori">
+            <data key="label">Andrea Valori</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">247</data>
+        </node>
+        <node id="filipo">
+            <data key="label">Filipo Folchi/Prinz Filipo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">188</data>
+        </node>
+        <node id="benedetto_nardi">
+            <data key="label">Benedetto Nardi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">59</data>
+        </node>
+        <node id="der_soeldner">
+            <data key="label">Der Söldner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">87</data>
+        </node>
+        <node id="der_gutsbesitzer">
+            <data key="label">Der Gutsbesitzer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">177</data>
+        </node>
+        <node id="der_landstreicher">
+            <data key="label">Der Landstreicher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="meister_pandolfo">
+            <data key="label">Meister Pandolfo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">369</data>
+        </node>
+        <node id="michele">
+            <data key="label">Michele</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">236</data>
+        </node>
+        <node id="noe">
+            <data key="label">Noè</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">140</data>
+        </node>
+        <node id="battista">
+            <data key="label">Battista</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">84</data>
+        </node>
+        <node id="der_oberrichter">
+            <data key="label">Der Oberrichter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">488</data>
+        </node>
+        <node id="der_prokurator_des_koenigs">
+            <data key="label">Der Prokurator des Königs</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">268</data>
+        </node>
+        <node id="der_gerichtsaktuar">
+            <data key="label">Der Gerichtsaktuar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">230</data>
+        </node>
+        <node id="der_verteidiger">
+            <data key="label">Der Verteidiger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">315</data>
+        </node>
+        <node id="der_gefaengniswaerter">
+            <data key="label">Der Gefängniswärter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">235</data>
+        </node>
+        <node id="der_kunstreiter">
+            <data key="label">Der Kunstreiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">347</data>
+        </node>
+        <node id="chorus">
+            <data key="label">Chorus (7. Bild)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">106</data>
+        </node>
+        <node id="der_erste_theaterbesitzer">
+            <data key="label">Der erste Theaterbesitzer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">580</data>
+        </node>
+        <node id="der_schauspieler">
+            <data key="label">Der Schauspieler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">44</data>
+        </node>
+        <node id="die_zuschauer_die_zuhoerer">
+            <data key="label">Die Zuschauer/Die Zuhörer (7. Bild)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="die_kupplerin">
+            <data key="label">Die Kupplerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">230</data>
+        </node>
+        <node id="der_zweite_theaterbesitzer">
+            <data key="label">Der zweite Theaterbesitzer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">79</data>
+        </node>
+        <node id="ein_edelknabe">
+            <data key="label">Ein Edelknabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">54</data>
+        </node>
+        <node id="der_zuschauer">
+            <data key="label">Der Zuschauer (8. Bild)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <edge id="koenig_nicolo|alma" source="koenig_nicolo" target="alma">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="koenig_nicolo|erster_bedienter" source="koenig_nicolo" target="erster_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|zweiter_bedienter" source="koenig_nicolo" target="zweiter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|koenig_pietro" source="koenig_nicolo" target="koenig_pietro">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenig_nicolo|die_buerger_alle_anwesenden" source="koenig_nicolo" target="die_buerger_alle_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|andrea_valori" source="koenig_nicolo" target="andrea_valori">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|filipo" source="koenig_nicolo" target="filipo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenig_nicolo|benedetto_nardi" source="koenig_nicolo" target="benedetto_nardi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|der_soeldner" source="koenig_nicolo" target="der_soeldner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|der_gutsbesitzer" source="koenig_nicolo" target="der_gutsbesitzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|der_landstreicher" source="koenig_nicolo" target="der_landstreicher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|meister_pandolfo" source="koenig_nicolo" target="meister_pandolfo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig_nicolo|michele" source="koenig_nicolo" target="michele">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig_nicolo|noe" source="koenig_nicolo" target="noe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig_nicolo|battista" source="koenig_nicolo" target="battista">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|der_oberrichter" source="koenig_nicolo" target="der_oberrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|der_prokurator_des_koenigs" source="koenig_nicolo" target="der_prokurator_des_koenigs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|der_gerichtsaktuar" source="koenig_nicolo" target="der_gerichtsaktuar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|der_verteidiger" source="koenig_nicolo" target="der_verteidiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|der_gefaengniswaerter" source="koenig_nicolo" target="der_gefaengniswaerter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|der_kunstreiter" source="koenig_nicolo" target="der_kunstreiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|chorus" source="koenig_nicolo" target="chorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|der_erste_theaterbesitzer" source="koenig_nicolo" target="der_erste_theaterbesitzer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig_nicolo|der_schauspieler" source="koenig_nicolo" target="der_schauspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|die_zuschauer_die_zuhoerer" source="koenig_nicolo" target="die_zuschauer_die_zuhoerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|die_kupplerin" source="koenig_nicolo" target="die_kupplerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|der_zweite_theaterbesitzer" source="koenig_nicolo" target="der_zweite_theaterbesitzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|ein_edelknabe" source="koenig_nicolo" target="ein_edelknabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_nicolo|der_zuschauer" source="koenig_nicolo" target="der_zuschauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|erster_bedienter" source="alma" target="erster_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|zweiter_bedienter" source="alma" target="zweiter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|koenig_pietro" source="alma" target="koenig_pietro">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="alma|die_buerger_alle_anwesenden" source="alma" target="die_buerger_alle_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|andrea_valori" source="alma" target="andrea_valori">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|filipo" source="alma" target="filipo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="alma|benedetto_nardi" source="alma" target="benedetto_nardi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|der_soeldner" source="alma" target="der_soeldner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|der_gutsbesitzer" source="alma" target="der_gutsbesitzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|der_landstreicher" source="alma" target="der_landstreicher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|meister_pandolfo" source="alma" target="meister_pandolfo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alma|michele" source="alma" target="michele">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alma|noe" source="alma" target="noe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alma|battista" source="alma" target="battista">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|der_oberrichter" source="alma" target="der_oberrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|der_prokurator_des_koenigs" source="alma" target="der_prokurator_des_koenigs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|der_gerichtsaktuar" source="alma" target="der_gerichtsaktuar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|der_verteidiger" source="alma" target="der_verteidiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|der_gefaengniswaerter" source="alma" target="der_gefaengniswaerter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|chorus" source="alma" target="chorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|der_erste_theaterbesitzer" source="alma" target="der_erste_theaterbesitzer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alma|der_schauspieler" source="alma" target="der_schauspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|die_zuschauer_die_zuhoerer" source="alma" target="die_zuschauer_die_zuhoerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|die_kupplerin" source="alma" target="die_kupplerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|der_zweite_theaterbesitzer" source="alma" target="der_zweite_theaterbesitzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|ein_edelknabe" source="alma" target="ein_edelknabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|der_zuschauer" source="alma" target="der_zuschauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_bedienter|zweiter_bedienter" source="erster_bedienter" target="zweiter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_bedienter|koenig_pietro" source="erster_bedienter" target="koenig_pietro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_bedienter|die_buerger_alle_anwesenden" source="erster_bedienter" target="die_buerger_alle_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_bedienter|andrea_valori" source="erster_bedienter" target="andrea_valori">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_bedienter|filipo" source="erster_bedienter" target="filipo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_bedienter|benedetto_nardi" source="erster_bedienter" target="benedetto_nardi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_bedienter|der_soeldner" source="erster_bedienter" target="der_soeldner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_bedienter|koenig_pietro" source="zweiter_bedienter" target="koenig_pietro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_bedienter|die_buerger_alle_anwesenden" source="zweiter_bedienter" target="die_buerger_alle_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_bedienter|andrea_valori" source="zweiter_bedienter" target="andrea_valori">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_bedienter|filipo" source="zweiter_bedienter" target="filipo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_bedienter|benedetto_nardi" source="zweiter_bedienter" target="benedetto_nardi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_bedienter|der_soeldner" source="zweiter_bedienter" target="der_soeldner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_pietro|die_buerger_alle_anwesenden" source="koenig_pietro" target="die_buerger_alle_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_pietro|andrea_valori" source="koenig_pietro" target="andrea_valori">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_pietro|filipo" source="koenig_pietro" target="filipo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenig_pietro|benedetto_nardi" source="koenig_pietro" target="benedetto_nardi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_pietro|der_soeldner" source="koenig_pietro" target="der_soeldner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_pietro|ein_edelknabe" source="koenig_pietro" target="ein_edelknabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_pietro|der_erste_theaterbesitzer" source="koenig_pietro" target="der_erste_theaterbesitzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_pietro|der_zuschauer" source="koenig_pietro" target="der_zuschauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_buerger_alle_anwesenden|andrea_valori" source="die_buerger_alle_anwesenden" target="andrea_valori">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_buerger_alle_anwesenden|filipo" source="die_buerger_alle_anwesenden" target="filipo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_buerger_alle_anwesenden|benedetto_nardi" source="die_buerger_alle_anwesenden" target="benedetto_nardi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_buerger_alle_anwesenden|der_soeldner" source="die_buerger_alle_anwesenden" target="der_soeldner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andrea_valori|filipo" source="andrea_valori" target="filipo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andrea_valori|benedetto_nardi" source="andrea_valori" target="benedetto_nardi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andrea_valori|der_soeldner" source="andrea_valori" target="der_soeldner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="filipo|benedetto_nardi" source="filipo" target="benedetto_nardi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="filipo|der_soeldner" source="filipo" target="der_soeldner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="filipo|ein_edelknabe" source="filipo" target="ein_edelknabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="filipo|der_erste_theaterbesitzer" source="filipo" target="der_erste_theaterbesitzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="filipo|der_zuschauer" source="filipo" target="der_zuschauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="benedetto_nardi|der_soeldner" source="benedetto_nardi" target="der_soeldner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_gutsbesitzer|der_landstreicher" source="der_gutsbesitzer" target="der_landstreicher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meister_pandolfo|michele" source="meister_pandolfo" target="michele">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="meister_pandolfo|noe" source="meister_pandolfo" target="noe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="meister_pandolfo|battista" source="meister_pandolfo" target="battista">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meister_pandolfo|der_oberrichter" source="meister_pandolfo" target="der_oberrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meister_pandolfo|der_prokurator_des_koenigs" source="meister_pandolfo" target="der_prokurator_des_koenigs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meister_pandolfo|der_gerichtsaktuar" source="meister_pandolfo" target="der_gerichtsaktuar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meister_pandolfo|der_verteidiger" source="meister_pandolfo" target="der_verteidiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michele|noe" source="michele" target="noe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michele|battista" source="michele" target="battista">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michele|der_oberrichter" source="michele" target="der_oberrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michele|der_prokurator_des_koenigs" source="michele" target="der_prokurator_des_koenigs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michele|der_gerichtsaktuar" source="michele" target="der_gerichtsaktuar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michele|der_verteidiger" source="michele" target="der_verteidiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="noe|battista" source="noe" target="battista">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="noe|der_oberrichter" source="noe" target="der_oberrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="noe|der_prokurator_des_koenigs" source="noe" target="der_prokurator_des_koenigs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="noe|der_gerichtsaktuar" source="noe" target="der_gerichtsaktuar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="noe|der_verteidiger" source="noe" target="der_verteidiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_oberrichter|der_prokurator_des_koenigs" source="der_oberrichter" target="der_prokurator_des_koenigs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_oberrichter|der_gerichtsaktuar" source="der_oberrichter" target="der_gerichtsaktuar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_oberrichter|der_verteidiger" source="der_oberrichter" target="der_verteidiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_prokurator_des_koenigs|der_gerichtsaktuar" source="der_prokurator_des_koenigs" target="der_gerichtsaktuar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_prokurator_des_koenigs|der_verteidiger" source="der_prokurator_des_koenigs" target="der_verteidiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_gerichtsaktuar|der_verteidiger" source="der_gerichtsaktuar" target="der_verteidiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chorus|der_erste_theaterbesitzer" source="chorus" target="der_erste_theaterbesitzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chorus|der_schauspieler" source="chorus" target="der_schauspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chorus|die_zuschauer_die_zuhoerer" source="chorus" target="die_zuschauer_die_zuhoerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chorus|die_kupplerin" source="chorus" target="die_kupplerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chorus|der_zweite_theaterbesitzer" source="chorus" target="der_zweite_theaterbesitzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_theaterbesitzer|der_schauspieler" source="der_erste_theaterbesitzer" target="der_schauspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_theaterbesitzer|die_zuschauer_die_zuhoerer" source="der_erste_theaterbesitzer" target="die_zuschauer_die_zuhoerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_theaterbesitzer|die_kupplerin" source="der_erste_theaterbesitzer" target="die_kupplerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_theaterbesitzer|der_zweite_theaterbesitzer" source="der_erste_theaterbesitzer" target="der_zweite_theaterbesitzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_theaterbesitzer|ein_edelknabe" source="der_erste_theaterbesitzer" target="ein_edelknabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_theaterbesitzer|der_zuschauer" source="der_erste_theaterbesitzer" target="der_zuschauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schauspieler|die_zuschauer_die_zuhoerer" source="der_schauspieler" target="die_zuschauer_die_zuhoerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schauspieler|die_kupplerin" source="der_schauspieler" target="die_kupplerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schauspieler|der_zweite_theaterbesitzer" source="der_schauspieler" target="der_zweite_theaterbesitzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_zuschauer_die_zuhoerer|die_kupplerin" source="die_zuschauer_die_zuhoerer" target="die_kupplerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_zuschauer_die_zuhoerer|der_zweite_theaterbesitzer" source="die_zuschauer_die_zuhoerer" target="der_zweite_theaterbesitzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kupplerin|der_zweite_theaterbesitzer" source="die_kupplerin" target="der_zweite_theaterbesitzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_edelknabe|der_zuschauer" source="ein_edelknabe" target="der_zuschauer">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

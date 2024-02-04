@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="marie">
+            <data key="label">Marie von Gersdorf</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1711</data>
+        </node>
+        <node id="fanny">
+            <data key="label">Fanny Schmidt</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">617</data>
+        </node>
+        <node id="franz">
+            <data key="label">Franz Kutzer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">267</data>
+        </node>
+        <node id="laura">
+            <data key="label">Laura von Walther</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1755</data>
+        </node>
+        <node id="dernburg">
+            <data key="label">Max von Dernburg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1877</data>
+        </node>
+        <node id="friedrich">
+            <data key="label">Friedrich von Walther</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">648</data>
+        </node>
+        <edge id="marie|fanny" source="marie" target="fanny">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|laura" source="marie" target="laura">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="marie|dernburg" source="marie" target="dernburg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|friedrich" source="marie" target="friedrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fanny|franz" source="fanny" target="franz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fanny|laura" source="fanny" target="laura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fanny|dernburg" source="fanny" target="dernburg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="laura|dernburg" source="laura" target="dernburg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="laura|friedrich" source="laura" target="friedrich">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="dernburg|friedrich" source="dernburg" target="friedrich">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="faust">
+            <data key="label">Faust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wagner">
+            <data key="label">Wagner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mariane">
+            <data key="label">Mariane</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="xaver">
+            <data key="label">Xaver</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="theodora">
+            <data key="label">Theodora</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="moritz">
+            <data key="label">Moritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rochus">
+            <data key="label">Rochus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="paulina">
+            <data key="label">Paulina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="satan">
+            <data key="label">Satan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herold">
+            <data key="label">Der Herold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="magog">
+            <data key="label">Magog</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="belial">
+            <data key="label">Belial</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sebub">
+            <data key="label">Sebub</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="abdon">
+            <data key="label">Abdon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_satane">
+            <data key="label">Die Satane</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="melech">
+            <data key="label">Melech</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gog">
+            <data key="label">Gog</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dragon">
+            <data key="label">Dragon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stup">
+            <data key="label">Stup</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="banquier">
+            <data key="label">Banquier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rudolph">
+            <data key="label">Rudolph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_bedienter">
+            <data key="label">Ein Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_jude">
+            <data key="label">Ein Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="mariane" target="faust">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="wagner" target="faust">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="3" directed="false" source="faust" target="theodora">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="faust" target="xaver">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="rochus" target="moritz">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="rochus" target="paulina">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

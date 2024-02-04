@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="kneetschke">
+            <data key="label">Kneetschke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="postbote">
+            <data key="label">Postbote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kathi">
+            <data key="label">Kathi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_beiden_domestiken">
+            <data key="label">Die beiden Domestiken</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="papa">
+            <data key="label">Papa</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wladimir">
+            <data key="label">Wladimir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mama">
+            <data key="label">Mama</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="geist">
+            <data key="label">Geist</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="onkel">
+            <data key="label">Onkel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tante">
+            <data key="label">Tante</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="mama" target="papa">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="kathi" target="wladimir">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="papa" target="kathi">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="mama" target="kathi">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

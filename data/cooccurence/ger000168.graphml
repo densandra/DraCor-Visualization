@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="hugo">
+            <data key="label">Hugo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2710</data>
+        </node>
+        <node id="elsabe">
+            <data key="label">Elsabe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3997</data>
+        </node>
+        <node id="willem">
+            <data key="label">Willem</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3196</data>
+        </node>
+        <node id="luett-hein">
+            <data key="label">Lütt-Hein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">72</data>
+        </node>
+        <node id="mudder">
+            <data key="label">Mudder</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4555</data>
+        </node>
+        <node id="lisbeth">
+            <data key="label">Lisbeth</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">857</data>
+        </node>
+        <node id="kinder">
+            <data key="label">Kinder</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">199</data>
+        </node>
+        <node id="junge">
+            <data key="label">Junge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <edge id="hugo|elsabe" source="hugo" target="elsabe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hugo|willem" source="hugo" target="willem">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hugo|luett-hein" source="hugo" target="luett-hein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hugo|mudder" source="hugo" target="mudder">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hugo|lisbeth" source="hugo" target="lisbeth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hugo|kinder" source="hugo" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|junge" source="hugo" target="junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elsabe|willem" source="elsabe" target="willem">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="elsabe|luett-hein" source="elsabe" target="luett-hein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="elsabe|mudder" source="elsabe" target="mudder">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="elsabe|lisbeth" source="elsabe" target="lisbeth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="elsabe|kinder" source="elsabe" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elsabe|junge" source="elsabe" target="junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willem|luett-hein" source="willem" target="luett-hein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="willem|mudder" source="willem" target="mudder">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="willem|lisbeth" source="willem" target="lisbeth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="willem|kinder" source="willem" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willem|junge" source="willem" target="junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luett-hein|mudder" source="luett-hein" target="mudder">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="luett-hein|lisbeth" source="luett-hein" target="lisbeth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="luett-hein|kinder" source="luett-hein" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luett-hein|junge" source="luett-hein" target="junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mudder|lisbeth" source="mudder" target="lisbeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mudder|kinder" source="mudder" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mudder|junge" source="mudder" target="junge">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

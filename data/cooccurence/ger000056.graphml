@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="bolland">
+            <data key="label">Bolland</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">934</data>
+        </node>
+        <node id="beermann">
+            <data key="label">Beermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3373</data>
+        </node>
+        <node id="wasner">
+            <data key="label">Wasner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1116</data>
+        </node>
+        <node id="effie">
+            <data key="label">Effie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">114</data>
+        </node>
+        <node id="frau_bolland">
+            <data key="label">Frau Bolland</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">249</data>
+        </node>
+        <node id="fraeulein_koch-pinneberg">
+            <data key="label">Fräulein Koch-Pinneberg</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="dobler">
+            <data key="label">Dobler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">329</data>
+        </node>
+        <node id="frau_beermann">
+            <data key="label">Frau Beermann</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">945</data>
+        </node>
+        <node id="hauser">
+            <data key="label">Hauser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1070</data>
+        </node>
+        <node id="frau_lund">
+            <data key="label">Frau Lund</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">833</data>
+        </node>
+        <node id="stroebel">
+            <data key="label">Ströbel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3252</data>
+        </node>
+        <node id="reisacher">
+            <data key="label">Reisacher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">144</data>
+        </node>
+        <node id="praesident">
+            <data key="label">Präsident</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1024</data>
+        </node>
+        <node id="hauteville">
+            <data key="label">Madame Hauteville</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">900</data>
+        </node>
+        <node id="schutzmann">
+            <data key="label">Schutzmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="schmettau">
+            <data key="label">Schmettau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">804</data>
+        </node>
+        <node id="betty">
+            <data key="label">Betty</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <edge id="bolland|beermann" source="bolland" target="beermann">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="bolland|wasner" source="bolland" target="wasner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bolland|effie" source="bolland" target="effie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bolland|frau_bolland" source="bolland" target="frau_bolland">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bolland|fraeulein_koch-pinneberg" source="bolland" target="fraeulein_koch-pinneberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bolland|dobler" source="bolland" target="dobler">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bolland|frau_beermann" source="bolland" target="frau_beermann">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="bolland|hauser" source="bolland" target="hauser">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bolland|frau_lund" source="bolland" target="frau_lund">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="beermann|wasner" source="beermann" target="wasner">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="beermann|effie" source="beermann" target="effie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="beermann|frau_bolland" source="beermann" target="frau_bolland">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="beermann|fraeulein_koch-pinneberg" source="beermann" target="fraeulein_koch-pinneberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beermann|dobler" source="beermann" target="dobler">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="beermann|frau_beermann" source="beermann" target="frau_beermann">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="beermann|hauser" source="beermann" target="hauser">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="beermann|frau_lund" source="beermann" target="frau_lund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="beermann|stroebel" source="beermann" target="stroebel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="beermann|reisacher" source="beermann" target="reisacher">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="beermann|betty" source="beermann" target="betty">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="beermann|schmettau" source="beermann" target="schmettau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wasner|effie" source="wasner" target="effie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wasner|frau_bolland" source="wasner" target="frau_bolland">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wasner|fraeulein_koch-pinneberg" source="wasner" target="fraeulein_koch-pinneberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wasner|dobler" source="wasner" target="dobler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wasner|frau_beermann" source="wasner" target="frau_beermann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wasner|hauser" source="wasner" target="hauser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wasner|frau_lund" source="wasner" target="frau_lund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wasner|stroebel" source="wasner" target="stroebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="effie|frau_bolland" source="effie" target="frau_bolland">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="effie|fraeulein_koch-pinneberg" source="effie" target="fraeulein_koch-pinneberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="effie|dobler" source="effie" target="dobler">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="effie|frau_beermann" source="effie" target="frau_beermann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="effie|hauser" source="effie" target="hauser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="effie|frau_lund" source="effie" target="frau_lund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_bolland|fraeulein_koch-pinneberg" source="frau_bolland" target="fraeulein_koch-pinneberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_bolland|dobler" source="frau_bolland" target="dobler">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_bolland|frau_beermann" source="frau_bolland" target="frau_beermann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_bolland|hauser" source="frau_bolland" target="hauser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_bolland|frau_lund" source="frau_bolland" target="frau_lund">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraeulein_koch-pinneberg|dobler" source="fraeulein_koch-pinneberg" target="dobler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_koch-pinneberg|frau_beermann" source="fraeulein_koch-pinneberg" target="frau_beermann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraeulein_koch-pinneberg|hauser" source="fraeulein_koch-pinneberg" target="hauser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dobler|frau_beermann" source="dobler" target="frau_beermann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dobler|hauser" source="dobler" target="hauser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dobler|frau_lund" source="dobler" target="frau_lund">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_beermann|hauser" source="frau_beermann" target="hauser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_beermann|frau_lund" source="frau_beermann" target="frau_lund">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hauser|frau_lund" source="hauser" target="frau_lund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauser|betty" source="hauser" target="betty">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stroebel|reisacher" source="stroebel" target="reisacher">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="stroebel|praesident" source="stroebel" target="praesident">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stroebel|hauteville" source="stroebel" target="hauteville">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stroebel|schutzmann" source="stroebel" target="schutzmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stroebel|schmettau" source="stroebel" target="schmettau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="reisacher|hauteville" source="reisacher" target="hauteville">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reisacher|schutzmann" source="reisacher" target="schutzmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident|schmettau" source="praesident" target="schmettau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauteville|schutzmann" source="hauteville" target="schutzmann">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

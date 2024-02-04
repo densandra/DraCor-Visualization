@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="ino">
+            <data key="label">Ino</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">699</data>
+        </node>
+        <node id="athamas">
+            <data key="label">Athamas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">701</data>
+        </node>
+        <node id="juno">
+            <data key="label">Juno</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">154</data>
+        </node>
+        <node id="eine_stimme_9">
+            <data key="label">Eine Stimme (9. Szene)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">102</data>
+        </node>
+        <node id="zwo_stimmen">
+            <data key="label">Zwo Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="eine_stimme_11">
+            <data key="label">Eine Stimme (11. Szene)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">30</data>
+        </node>
+        <node id="zwo_nereiden">
+            <data key="label">Zwo Nereiden</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="zwei_tritonen">
+            <data key="label">Zwei Tritonen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <edge id="ino|athamas" source="ino" target="athamas">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ino|eine_stimme_9" source="ino" target="eine_stimme_9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ino|chor" source="ino" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ino|zwo_stimmen" source="ino" target="zwo_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="athamas|juno" source="athamas" target="juno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_stimme_9|chor" source="eine_stimme_9" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_stimme_9|zwo_stimmen" source="eine_stimme_9" target="zwo_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|zwo_stimmen" source="chor" target="zwo_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|eine_stimme_11" source="chor" target="eine_stimme_11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|zwo_nereiden" source="chor" target="zwo_nereiden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|zwei_tritonen" source="chor" target="zwei_tritonen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_stimme_11|zwo_nereiden" source="eine_stimme_11" target="zwo_nereiden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_stimme_11|zwei_tritonen" source="eine_stimme_11" target="zwei_tritonen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zwo_nereiden|zwei_tritonen" source="zwo_nereiden" target="zwei_tritonen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

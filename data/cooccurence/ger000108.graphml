@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="rhamnes">
+            <data key="label">Rhamnes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1671</data>
+        </node>
+        <node id="melitta">
+            <data key="label">Melitta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1615</data>
+        </node>
+        <node id="geschrei-volk">
+            <data key="label">Geschrei/Volk</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="sappho">
+            <data key="label">Sappho</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5658</data>
+        </node>
+        <node id="einer_aus_dem_volke">
+            <data key="label">Einer aus dem Volke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="phaon">
+            <data key="label">Phaon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4465</data>
+        </node>
+        <node id="eucharis">
+            <data key="label">Eucharis</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1030</data>
+        </node>
+        <node id="maedchen">
+            <data key="label">Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="ruf_von_drinnen">
+            <data key="label">Ruf von drinnen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="ein_landmann">
+            <data key="label">Ein Landmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">199</data>
+        </node>
+        <edge id="rhamnes|melitta" source="rhamnes" target="melitta">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="rhamnes|geschrei-volk" source="rhamnes" target="geschrei-volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rhamnes|sappho" source="rhamnes" target="sappho">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="rhamnes|einer_aus_dem_volke" source="rhamnes" target="einer_aus_dem_volke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rhamnes|phaon" source="rhamnes" target="phaon">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="rhamnes|eucharis" source="rhamnes" target="eucharis">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="rhamnes|ein_landmann" source="rhamnes" target="ein_landmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="melitta|geschrei-volk" source="melitta" target="geschrei-volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melitta|sappho" source="melitta" target="sappho">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="melitta|eucharis" source="melitta" target="eucharis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melitta|maedchen" source="melitta" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melitta|phaon" source="melitta" target="phaon">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="melitta|ruf_von_drinnen" source="melitta" target="ruf_von_drinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melitta|ein_landmann" source="melitta" target="ein_landmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geschrei-volk|sappho" source="geschrei-volk" target="sappho">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geschrei-volk|einer_aus_dem_volke" source="geschrei-volk" target="einer_aus_dem_volke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geschrei-volk|phaon" source="geschrei-volk" target="phaon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sappho|einer_aus_dem_volke" source="sappho" target="einer_aus_dem_volke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sappho|phaon" source="sappho" target="phaon">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="sappho|eucharis" source="sappho" target="eucharis">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sappho|ein_landmann" source="sappho" target="ein_landmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="einer_aus_dem_volke|phaon" source="einer_aus_dem_volke" target="phaon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phaon|ruf_von_drinnen" source="phaon" target="ruf_von_drinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phaon|ein_landmann" source="phaon" target="ein_landmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eucharis|maedchen" source="eucharis" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eucharis|ein_landmann" source="eucharis" target="ein_landmann">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

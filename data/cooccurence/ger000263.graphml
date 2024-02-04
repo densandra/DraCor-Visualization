@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="helene">
+            <data key="label">Helene Kreiner</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1144</data>
+        </node>
+        <node id="joseph">
+            <data key="label">Joseph Kreiner (Sohn)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">751</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich Hörmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1440</data>
+        </node>
+        <node id="die_zeitungsfrau">
+            <data key="label">Die Zeitungsfrau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="frau_kreiner">
+            <data key="label">Frau Kreiner</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">132</data>
+        </node>
+        <node id="herr_kreiner">
+            <data key="label">Herr Kreiner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">140</data>
+        </node>
+        <node id="babette">
+            <data key="label">Babette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <edge id="helene|joseph" source="helene" target="joseph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|heinrich" source="helene" target="heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|die_zeitungsfrau" source="helene" target="die_zeitungsfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|frau_kreiner" source="helene" target="frau_kreiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|herr_kreiner" source="helene" target="herr_kreiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|babette" source="helene" target="babette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="joseph|heinrich" source="joseph" target="heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="joseph|die_zeitungsfrau" source="joseph" target="die_zeitungsfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="joseph|frau_kreiner" source="joseph" target="frau_kreiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="joseph|herr_kreiner" source="joseph" target="herr_kreiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="joseph|babette" source="joseph" target="babette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|die_zeitungsfrau" source="heinrich" target="die_zeitungsfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|frau_kreiner" source="heinrich" target="frau_kreiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|herr_kreiner" source="heinrich" target="herr_kreiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|babette" source="heinrich" target="babette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_zeitungsfrau|frau_kreiner" source="die_zeitungsfrau" target="frau_kreiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_zeitungsfrau|herr_kreiner" source="die_zeitungsfrau" target="herr_kreiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_zeitungsfrau|babette" source="die_zeitungsfrau" target="babette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_kreiner|herr_kreiner" source="frau_kreiner" target="herr_kreiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_kreiner|babette" source="frau_kreiner" target="babette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_kreiner|babette" source="herr_kreiner" target="babette">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

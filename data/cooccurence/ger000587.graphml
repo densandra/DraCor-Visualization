@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="mueller">
+            <data key="label">Müller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">722</data>
+        </node>
+        <node id="muellerin">
+            <data key="label">Müllerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">763</data>
+        </node>
+        <node id="wernau">
+            <data key="label">Jakob Wernau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">427</data>
+        </node>
+        <node id="johanna">
+            <data key="label">Johanna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">538</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">175</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">100</data>
+        </node>
+        <node id="berthold">
+            <data key="label">Berthold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="walter">
+            <data key="label">Walter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="verwalter">
+            <data key="label">Verwalter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="alle_junge_leute">
+            <data key="label">Alle junge Leute</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="alle">
+            <data key="label">Alle</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <edge id="mueller|muellerin" source="mueller" target="muellerin">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="mueller|wernau" source="mueller" target="wernau">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mueller|johanna" source="mueller" target="johanna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mueller|heinrich" source="mueller" target="heinrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mueller|sophie" source="mueller" target="sophie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mueller|wilhelm" source="mueller" target="wilhelm">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mueller|berthold" source="mueller" target="berthold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mueller|walter" source="mueller" target="walter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mueller|verwalter" source="mueller" target="verwalter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|alle_junge_leute" source="mueller" target="alle_junge_leute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|alle" source="mueller" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="muellerin|wernau" source="muellerin" target="wernau">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="muellerin|johanna" source="muellerin" target="johanna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="muellerin|heinrich" source="muellerin" target="heinrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="muellerin|sophie" source="muellerin" target="sophie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="muellerin|wilhelm" source="muellerin" target="wilhelm">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="muellerin|berthold" source="muellerin" target="berthold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="muellerin|walter" source="muellerin" target="walter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="muellerin|verwalter" source="muellerin" target="verwalter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="muellerin|alle_junge_leute" source="muellerin" target="alle_junge_leute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="muellerin|alle" source="muellerin" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wernau|johanna" source="wernau" target="johanna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wernau|wilhelm" source="wernau" target="wilhelm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wernau|berthold" source="wernau" target="berthold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wernau|walter" source="wernau" target="walter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wernau|heinrich" source="wernau" target="heinrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wernau|verwalter" source="wernau" target="verwalter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wernau|sophie" source="wernau" target="sophie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wernau|alle_junge_leute" source="wernau" target="alle_junge_leute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wernau|alle" source="wernau" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|heinrich" source="johanna" target="heinrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="johanna|sophie" source="johanna" target="sophie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="johanna|wilhelm" source="johanna" target="wilhelm">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="johanna|berthold" source="johanna" target="berthold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="johanna|walter" source="johanna" target="walter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="johanna|verwalter" source="johanna" target="verwalter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|alle_junge_leute" source="johanna" target="alle_junge_leute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|alle" source="johanna" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|sophie" source="heinrich" target="sophie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich|wilhelm" source="heinrich" target="wilhelm">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich|berthold" source="heinrich" target="berthold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich|walter" source="heinrich" target="walter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich|verwalter" source="heinrich" target="verwalter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|alle_junge_leute" source="heinrich" target="alle_junge_leute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|alle" source="heinrich" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|wilhelm" source="sophie" target="wilhelm">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sophie|berthold" source="sophie" target="berthold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sophie|walter" source="sophie" target="walter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sophie|verwalter" source="sophie" target="verwalter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|alle_junge_leute" source="sophie" target="alle_junge_leute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|alle" source="sophie" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|berthold" source="wilhelm" target="berthold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|walter" source="wilhelm" target="walter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|verwalter" source="wilhelm" target="verwalter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|alle_junge_leute" source="wilhelm" target="alle_junge_leute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|alle" source="wilhelm" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="berthold|walter" source="berthold" target="walter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="berthold|verwalter" source="berthold" target="verwalter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="berthold|alle_junge_leute" source="berthold" target="alle_junge_leute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="berthold|alle" source="berthold" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|verwalter" source="walter" target="verwalter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|alle_junge_leute" source="walter" target="alle_junge_leute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|alle" source="walter" target="alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="verwalter|alle_junge_leute" source="verwalter" target="alle_junge_leute">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

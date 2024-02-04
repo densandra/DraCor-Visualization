@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="lorenz">
+            <data key="label">Lorenz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1197</data>
+        </node>
+        <node id="duenne">
+            <data key="label">Dünne</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">197</data>
+        </node>
+        <node id="guttenberg">
+            <data key="label">Guttenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4525</data>
+        </node>
+        <node id="bertha">
+            <data key="label">Bertha</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2286</data>
+        </node>
+        <node id="sebaldus">
+            <data key="label">Sebaldus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">745</data>
+        </node>
+        <node id="rieffe">
+            <data key="label">Rieffe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">207</data>
+        </node>
+        <node id="fust">
+            <data key="label">Fust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1178</data>
+        </node>
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">528</data>
+        </node>
+        <node id="beildeck">
+            <data key="label">Beildeck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">32</data>
+        </node>
+        <node id="kaethchen">
+            <data key="label">Käthchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3340</data>
+        </node>
+        <node id="barbara">
+            <data key="label">Barbara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">330</data>
+        </node>
+        <node id="else">
+            <data key="label">Else</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <node id="klara">
+            <data key="label">Klara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">86</data>
+        </node>
+        <node id="humery">
+            <data key="label">Humery</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">782</data>
+        </node>
+        <edge id="lorenz|duenne" source="lorenz" target="duenne">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lorenz|guttenberg" source="lorenz" target="guttenberg">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="lorenz|bertha" source="lorenz" target="bertha">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lorenz|sebaldus" source="lorenz" target="sebaldus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lorenz|kaethchen" source="lorenz" target="kaethchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lorenz|peter" source="lorenz" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|barbara" source="lorenz" target="barbara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|else" source="lorenz" target="else">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|humery" source="lorenz" target="humery">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="duenne|guttenberg" source="duenne" target="guttenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guttenberg|bertha" source="guttenberg" target="bertha">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="guttenberg|sebaldus" source="guttenberg" target="sebaldus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guttenberg|rieffe" source="guttenberg" target="rieffe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guttenberg|fust" source="guttenberg" target="fust">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="guttenberg|peter" source="guttenberg" target="peter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="guttenberg|beildeck" source="guttenberg" target="beildeck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guttenberg|kaethchen" source="guttenberg" target="kaethchen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="guttenberg|humery" source="guttenberg" target="humery">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bertha|sebaldus" source="bertha" target="sebaldus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bertha|kaethchen" source="bertha" target="kaethchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bertha|humery" source="bertha" target="humery">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bertha|fust" source="bertha" target="fust">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bertha|peter" source="bertha" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fust|peter" source="fust" target="peter">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="fust|beildeck" source="fust" target="beildeck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fust|kaethchen" source="fust" target="kaethchen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fust|barbara" source="fust" target="barbara">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fust|humery" source="fust" target="humery">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|beildeck" source="peter" target="beildeck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|kaethchen" source="peter" target="kaethchen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="peter|barbara" source="peter" target="barbara">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="peter|else" source="peter" target="else">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|humery" source="peter" target="humery">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaethchen|barbara" source="kaethchen" target="barbara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaethchen|else" source="kaethchen" target="else">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaethchen|klara" source="kaethchen" target="klara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barbara|else" source="barbara" target="else">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

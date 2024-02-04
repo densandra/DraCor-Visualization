@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="elisinde">
+            <data key="label">Elisinde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="philaide">
+            <data key="label">Philaide</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="codrus">
+            <data key="label">Codrus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nileus">
+            <data key="label">Nileus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_soldat">
+            <data key="label">Ein Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="medon">
+            <data key="label">Medon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_wache">
+            <data key="label">Eine Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="artander">
+            <data key="label">Artander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cleanth">
+            <data key="label">Cleanth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="licas">
+            <data key="label">Licas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="elisinde" target="medon">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="nileus" target="codrus">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="cleanth" target="artander">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="licas" target="artander">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

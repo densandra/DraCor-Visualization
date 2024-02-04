@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="selma">
+            <data key="label">Selma</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">591</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5755</data>
+        </node>
+        <node id="oberst">
+            <data key="label">Oberst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1653</data>
+        </node>
+        <node id="frau_weber_mutter">
+            <data key="label">Frau Weber/Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3228</data>
+        </node>
+        <node id="hecht">
+            <data key="label">Hecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1347</data>
+        </node>
+        <node id="mariechen_marie">
+            <data key="label">Mariechen/Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">797</data>
+        </node>
+        <node id="luestling">
+            <data key="label">Lüstling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2114</data>
+        </node>
+        <node id="brigitte">
+            <data key="label">Brigitte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">785</data>
+        </node>
+        <node id="johanna">
+            <data key="label">Johanna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2383</data>
+        </node>
+        <node id="lothar_weber_vater">
+            <data key="label">Lothar Weber/Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1210</data>
+        </node>
+        <node id="alle_gaeste_die_gesellschaft_rufe">
+            <data key="label">Alle/Alle Gäste/Rufe/Die Gesellschaft/Taktmäßige Rufe (IV. Aufzug)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="brautvater">
+            <data key="label">Brautvater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="ruf">
+            <data key="label">Ruf (aus der Gesellschaft)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="bleich">
+            <data key="label">Bleich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">47</data>
+        </node>
+        <node id="brautmutter">
+            <data key="label">Brautmutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="poebel">
+            <data key="label">Pöbel (draußen)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="frau_hecht">
+            <data key="label">Frau Hecht</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">754</data>
+        </node>
+        <node id="beamter">
+            <data key="label">Beamter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">59</data>
+        </node>
+        <node id="weib">
+            <data key="label">Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">104</data>
+        </node>
+        <node id="stimme">
+            <data key="label">Stimme</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <edge id="selma|karl" source="selma" target="karl">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="selma|oberst" source="selma" target="oberst">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="selma|frau_weber_mutter" source="selma" target="frau_weber_mutter">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="selma|hecht" source="selma" target="hecht">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="selma|mariechen_marie" source="selma" target="mariechen_marie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="selma|luestling" source="selma" target="luestling">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="selma|brigitte" source="selma" target="brigitte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="selma|johanna" source="selma" target="johanna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="selma|lothar_weber_vater" source="selma" target="lothar_weber_vater">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="selma|alle_gaeste_die_gesellschaft_rufe" source="selma" target="alle_gaeste_die_gesellschaft_rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selma|brautvater" source="selma" target="brautvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selma|ruf" source="selma" target="ruf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selma|bleich" source="selma" target="bleich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="selma|brautmutter" source="selma" target="brautmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selma|poebel" source="selma" target="poebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selma|frau_hecht" source="selma" target="frau_hecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selma|beamter" source="selma" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selma|weib" source="selma" target="weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selma|stimme" source="selma" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|oberst" source="karl" target="oberst">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="karl|frau_weber_mutter" source="karl" target="frau_weber_mutter">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="karl|hecht" source="karl" target="hecht">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="karl|mariechen_marie" source="karl" target="mariechen_marie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="karl|luestling" source="karl" target="luestling">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="karl|brigitte" source="karl" target="brigitte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="karl|johanna" source="karl" target="johanna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="karl|lothar_weber_vater" source="karl" target="lothar_weber_vater">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="karl|alle_gaeste_die_gesellschaft_rufe" source="karl" target="alle_gaeste_die_gesellschaft_rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|brautvater" source="karl" target="brautvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|ruf" source="karl" target="ruf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|bleich" source="karl" target="bleich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|brautmutter" source="karl" target="brautmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|poebel" source="karl" target="poebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|frau_hecht" source="karl" target="frau_hecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|beamter" source="karl" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|weib" source="karl" target="weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|stimme" source="karl" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|frau_weber_mutter" source="oberst" target="frau_weber_mutter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="oberst|hecht" source="oberst" target="hecht">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="oberst|mariechen_marie" source="oberst" target="mariechen_marie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="oberst|luestling" source="oberst" target="luestling">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="oberst|brigitte" source="oberst" target="brigitte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="oberst|johanna" source="oberst" target="johanna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="oberst|lothar_weber_vater" source="oberst" target="lothar_weber_vater">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="oberst|weib" source="oberst" target="weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|stimme" source="oberst" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberst|bleich" source="oberst" target="bleich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_weber_mutter|hecht" source="frau_weber_mutter" target="hecht">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_weber_mutter|mariechen_marie" source="frau_weber_mutter" target="mariechen_marie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_weber_mutter|luestling" source="frau_weber_mutter" target="luestling">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frau_weber_mutter|brigitte" source="frau_weber_mutter" target="brigitte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_weber_mutter|johanna" source="frau_weber_mutter" target="johanna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_weber_mutter|lothar_weber_vater" source="frau_weber_mutter" target="lothar_weber_vater">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_weber_mutter|alle_gaeste_die_gesellschaft_rufe" source="frau_weber_mutter" target="alle_gaeste_die_gesellschaft_rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_weber_mutter|brautvater" source="frau_weber_mutter" target="brautvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_weber_mutter|ruf" source="frau_weber_mutter" target="ruf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_weber_mutter|bleich" source="frau_weber_mutter" target="bleich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_weber_mutter|brautmutter" source="frau_weber_mutter" target="brautmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_weber_mutter|poebel" source="frau_weber_mutter" target="poebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_weber_mutter|frau_hecht" source="frau_weber_mutter" target="frau_hecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_weber_mutter|beamter" source="frau_weber_mutter" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_weber_mutter|weib" source="frau_weber_mutter" target="weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_weber_mutter|stimme" source="frau_weber_mutter" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecht|mariechen_marie" source="hecht" target="mariechen_marie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hecht|luestling" source="hecht" target="luestling">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hecht|brigitte" source="hecht" target="brigitte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hecht|johanna" source="hecht" target="johanna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hecht|lothar_weber_vater" source="hecht" target="lothar_weber_vater">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hecht|alle_gaeste_die_gesellschaft_rufe" source="hecht" target="alle_gaeste_die_gesellschaft_rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecht|brautvater" source="hecht" target="brautvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecht|ruf" source="hecht" target="ruf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecht|bleich" source="hecht" target="bleich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecht|brautmutter" source="hecht" target="brautmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecht|poebel" source="hecht" target="poebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecht|frau_hecht" source="hecht" target="frau_hecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecht|beamter" source="hecht" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mariechen_marie|luestling" source="mariechen_marie" target="luestling">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mariechen_marie|brigitte" source="mariechen_marie" target="brigitte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mariechen_marie|johanna" source="mariechen_marie" target="johanna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mariechen_marie|lothar_weber_vater" source="mariechen_marie" target="lothar_weber_vater">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mariechen_marie|weib" source="mariechen_marie" target="weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mariechen_marie|stimme" source="mariechen_marie" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mariechen_marie|bleich" source="mariechen_marie" target="bleich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luestling|brigitte" source="luestling" target="brigitte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="luestling|johanna" source="luestling" target="johanna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="luestling|lothar_weber_vater" source="luestling" target="lothar_weber_vater">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="luestling|alle_gaeste_die_gesellschaft_rufe" source="luestling" target="alle_gaeste_die_gesellschaft_rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luestling|brautvater" source="luestling" target="brautvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luestling|ruf" source="luestling" target="ruf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luestling|bleich" source="luestling" target="bleich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="luestling|brautmutter" source="luestling" target="brautmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luestling|poebel" source="luestling" target="poebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luestling|frau_hecht" source="luestling" target="frau_hecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luestling|beamter" source="luestling" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luestling|weib" source="luestling" target="weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luestling|stimme" source="luestling" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brigitte|johanna" source="brigitte" target="johanna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="brigitte|alle_gaeste_die_gesellschaft_rufe" source="brigitte" target="alle_gaeste_die_gesellschaft_rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brigitte|brautvater" source="brigitte" target="brautvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brigitte|ruf" source="brigitte" target="ruf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brigitte|bleich" source="brigitte" target="bleich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="brigitte|lothar_weber_vater" source="brigitte" target="lothar_weber_vater">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="brigitte|brautmutter" source="brigitte" target="brautmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brigitte|poebel" source="brigitte" target="poebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brigitte|frau_hecht" source="brigitte" target="frau_hecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brigitte|beamter" source="brigitte" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brigitte|weib" source="brigitte" target="weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brigitte|stimme" source="brigitte" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|lothar_weber_vater" source="johanna" target="lothar_weber_vater">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="johanna|alle_gaeste_die_gesellschaft_rufe" source="johanna" target="alle_gaeste_die_gesellschaft_rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|brautvater" source="johanna" target="brautvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|ruf" source="johanna" target="ruf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|bleich" source="johanna" target="bleich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="johanna|brautmutter" source="johanna" target="brautmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|poebel" source="johanna" target="poebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|frau_hecht" source="johanna" target="frau_hecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|beamter" source="johanna" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|weib" source="johanna" target="weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|stimme" source="johanna" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lothar_weber_vater|alle_gaeste_die_gesellschaft_rufe" source="lothar_weber_vater" target="alle_gaeste_die_gesellschaft_rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lothar_weber_vater|brautvater" source="lothar_weber_vater" target="brautvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lothar_weber_vater|ruf" source="lothar_weber_vater" target="ruf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lothar_weber_vater|bleich" source="lothar_weber_vater" target="bleich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lothar_weber_vater|brautmutter" source="lothar_weber_vater" target="brautmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lothar_weber_vater|poebel" source="lothar_weber_vater" target="poebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lothar_weber_vater|frau_hecht" source="lothar_weber_vater" target="frau_hecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lothar_weber_vater|beamter" source="lothar_weber_vater" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lothar_weber_vater|weib" source="lothar_weber_vater" target="weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lothar_weber_vater|stimme" source="lothar_weber_vater" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_gaeste_die_gesellschaft_rufe|brautvater" source="alle_gaeste_die_gesellschaft_rufe" target="brautvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_gaeste_die_gesellschaft_rufe|ruf" source="alle_gaeste_die_gesellschaft_rufe" target="ruf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_gaeste_die_gesellschaft_rufe|bleich" source="alle_gaeste_die_gesellschaft_rufe" target="bleich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_gaeste_die_gesellschaft_rufe|brautmutter" source="alle_gaeste_die_gesellschaft_rufe" target="brautmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_gaeste_die_gesellschaft_rufe|poebel" source="alle_gaeste_die_gesellschaft_rufe" target="poebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_gaeste_die_gesellschaft_rufe|frau_hecht" source="alle_gaeste_die_gesellschaft_rufe" target="frau_hecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_gaeste_die_gesellschaft_rufe|beamter" source="alle_gaeste_die_gesellschaft_rufe" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brautvater|ruf" source="brautvater" target="ruf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brautvater|bleich" source="brautvater" target="bleich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brautvater|brautmutter" source="brautvater" target="brautmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brautvater|poebel" source="brautvater" target="poebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brautvater|frau_hecht" source="brautvater" target="frau_hecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brautvater|beamter" source="brautvater" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruf|bleich" source="ruf" target="bleich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruf|brautmutter" source="ruf" target="brautmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruf|poebel" source="ruf" target="poebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruf|frau_hecht" source="ruf" target="frau_hecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruf|beamter" source="ruf" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bleich|brautmutter" source="bleich" target="brautmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bleich|poebel" source="bleich" target="poebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bleich|frau_hecht" source="bleich" target="frau_hecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bleich|beamter" source="bleich" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bleich|weib" source="bleich" target="weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bleich|stimme" source="bleich" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brautmutter|poebel" source="brautmutter" target="poebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brautmutter|frau_hecht" source="brautmutter" target="frau_hecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brautmutter|beamter" source="brautmutter" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poebel|frau_hecht" source="poebel" target="frau_hecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poebel|beamter" source="poebel" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_hecht|beamter" source="frau_hecht" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weib|stimme" source="weib" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

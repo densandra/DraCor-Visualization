@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="der_ehrnhold">
+            <data key="label">Der ehrnhold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hecastus_der_reich_mann">
+            <data key="label">Hecastus, der reich sterbent mann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="epicuria_die_fraw">
+            <data key="label">Epicuria, sein gemahel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="panocitus_der_ander_knecht">
+            <data key="label">Panocitus, der ander Knecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="datrus_der_koch">
+            <data key="label">Datrus, der koch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="demones_der_erst_freund">
+            <data key="label">Demones, der erst freund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="economus_der_hausvogt">
+            <data key="label">Economus, der hausvogt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="philepanis_der_ein_knecht">
+            <data key="label">Philepanis, der ein knecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_legat">
+            <data key="label">Nomodydastalus, der legat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ancilla_die_magd">
+            <data key="label">Ancilla, die magd</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="philomachos_der_juenger_son">
+            <data key="label">Philomachos, der jünger son</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="singenes_der_ander_freund">
+            <data key="label">Singenes, der ander freund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="philocrates_der_elter_son">
+            <data key="label">Philocrates, der elter son</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="plutus_der_schatz">
+            <data key="label">Plutus, der schatz</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_todt">
+            <data key="label">Mors, der Todt</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_tugent">
+            <data key="label">Virtus, die Tugent</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_glaub">
+            <data key="label">Fides, der Glaub</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_teuffel">
+            <data key="label">Sathan, der teuffel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_priester">
+            <data key="label">Hieronimus, der priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="hecastus_der_reich_mann" target="epicuria_die_fraw">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="hecastus_der_reich_mann" target="demones_der_erst_freund">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="3" directed="false" source="hecastus_der_reich_mann" target="singenes_der_ander_freund">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="4" directed="false" source="demones_der_erst_freund" target="singenes_der_ander_freund">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="5" directed="false" source="hecastus_der_reich_mann" target="philocrates_der_elter_son">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="hecastus_der_reich_mann" target="philomachos_der_juenger_son">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="7" directed="false" source="epicuria_die_fraw" target="philocrates_der_elter_son">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="8" directed="false" source="epicuria_die_fraw" target="philomachos_der_juenger_son">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

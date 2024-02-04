@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="assad">
+            <data key="label">Assad</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2673</data>
+        </node>
+        <node id="hakam">
+            <data key="label">Hakam</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1338</data>
+        </node>
+        <node id="irad">
+            <data key="label">Irad</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">905</data>
+        </node>
+        <node id="der_aufseher">
+            <data key="label">Der Aufseher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">47</data>
+        </node>
+        <node id="der_vezier">
+            <data key="label">Der Vezier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">845</data>
+        </node>
+        <node id="soliman">
+            <data key="label">Soliman</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1199</data>
+        </node>
+        <node id="volk">
+            <data key="label">Volk</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="khalf">
+            <data key="label">Khalf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">253</data>
+        </node>
+        <node id="der_kadi">
+            <data key="label">Der Kadi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">795</data>
+        </node>
+        <node id="rustan">
+            <data key="label">Rustan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="eine_stimme">
+            <data key="label">Eine Stimme</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="fatime">
+            <data key="label">Fatime</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">713</data>
+        </node>
+        <node id="selim">
+            <data key="label">Selim</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="der_kalif">
+            <data key="label">Der Kalif</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1142</data>
+        </node>
+        <node id="der_bote">
+            <data key="label">Der Bote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">125</data>
+        </node>
+        <node id="babeck">
+            <data key="label">Babeck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="omar">
+            <data key="label">Omar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">81</data>
+        </node>
+        <edge id="assad|hakam" source="assad" target="hakam">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="assad|irad" source="assad" target="irad">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="assad|soliman" source="assad" target="soliman">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="assad|volk" source="assad" target="volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="assad|khalf" source="assad" target="khalf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="assad|der_kadi" source="assad" target="der_kadi">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="assad|rustan" source="assad" target="rustan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="assad|eine_stimme" source="assad" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="assad|fatime" source="assad" target="fatime">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="assad|selim" source="assad" target="selim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="assad|der_vezier" source="assad" target="der_vezier">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="assad|der_kalif" source="assad" target="der_kalif">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="assad|babeck" source="assad" target="babeck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="assad|omar" source="assad" target="omar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hakam|irad" source="hakam" target="irad">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hakam|der_aufseher" source="hakam" target="der_aufseher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hakam|soliman" source="hakam" target="soliman">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hakam|volk" source="hakam" target="volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hakam|khalf" source="hakam" target="khalf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hakam|der_kadi" source="hakam" target="der_kadi">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hakam|rustan" source="hakam" target="rustan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hakam|selim" source="hakam" target="selim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hakam|omar" source="hakam" target="omar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hakam|der_kalif" source="hakam" target="der_kalif">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hakam|der_vezier" source="hakam" target="der_vezier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hakam|fatime" source="hakam" target="fatime">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irad|khalf" source="irad" target="khalf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irad|soliman" source="irad" target="soliman">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="irad|rustan" source="irad" target="rustan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irad|omar" source="irad" target="omar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irad|der_kalif" source="irad" target="der_kalif">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irad|der_kadi" source="irad" target="der_kadi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irad|selim" source="irad" target="selim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irad|der_vezier" source="irad" target="der_vezier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="irad|fatime" source="irad" target="fatime">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_vezier|der_kalif" source="der_vezier" target="der_kalif">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="der_vezier|der_bote" source="der_vezier" target="der_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_vezier|der_kadi" source="der_vezier" target="der_kadi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_vezier|babeck" source="der_vezier" target="babeck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_vezier|soliman" source="der_vezier" target="soliman">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_vezier|fatime" source="der_vezier" target="fatime">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_vezier|omar" source="der_vezier" target="omar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_vezier|selim" source="der_vezier" target="selim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soliman|volk" source="soliman" target="volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soliman|khalf" source="soliman" target="khalf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="soliman|der_kadi" source="soliman" target="der_kadi">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="soliman|rustan" source="soliman" target="rustan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="soliman|der_kalif" source="soliman" target="der_kalif">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="soliman|babeck" source="soliman" target="babeck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soliman|omar" source="soliman" target="omar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soliman|selim" source="soliman" target="selim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soliman|fatime" source="soliman" target="fatime">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|khalf" source="volk" target="khalf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="khalf|rustan" source="khalf" target="rustan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kadi|rustan" source="der_kadi" target="rustan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kadi|selim" source="der_kadi" target="selim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_kadi|der_kalif" source="der_kadi" target="der_kalif">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_kadi|babeck" source="der_kadi" target="babeck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kadi|omar" source="der_kadi" target="omar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kadi|fatime" source="der_kadi" target="fatime">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fatime|der_kalif" source="fatime" target="der_kalif">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fatime|omar" source="fatime" target="omar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fatime|selim" source="fatime" target="selim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selim|omar" source="selim" target="omar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selim|der_kalif" source="selim" target="der_kalif">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kalif|der_bote" source="der_kalif" target="der_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kalif|babeck" source="der_kalif" target="babeck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kalif|omar" source="der_kalif" target="omar">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

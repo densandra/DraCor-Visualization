@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="matthes">
+            <data key="label">Matthes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">669</data>
+        </node>
+        <node id="rudolph">
+            <data key="label">Rudolph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">448</data>
+        </node>
+        <node id="anton">
+            <data key="label">Anton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2162</data>
+        </node>
+        <node id="oberfoersterin">
+            <data key="label">Oberförsterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4856</data>
+        </node>
+        <node id="oberfoerster">
+            <data key="label">Oberförster</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5988</data>
+        </node>
+        <node id="schulz">
+            <data key="label">Schulz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">943</data>
+        </node>
+        <node id="friedrike">
+            <data key="label">Friedrike</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1442</data>
+        </node>
+        <node id="ein_bursche">
+            <data key="label">Ein Bursche</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="kordelchen">
+            <data key="label">Kordelchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">816</data>
+        </node>
+        <node id="pastor">
+            <data key="label">Pastor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2669</data>
+        </node>
+        <node id="wirtin">
+            <data key="label">Wirtin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1082</data>
+        </node>
+        <node id="baerbel">
+            <data key="label">Bärbel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">61</data>
+        </node>
+        <node id="gerichtsschreiber">
+            <data key="label">Gerichtsschreiber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">762</data>
+        </node>
+        <node id="romann">
+            <data key="label">Romann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">130</data>
+        </node>
+        <node id="kappe">
+            <data key="label">Kappe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">77</data>
+        </node>
+        <node id="die_bauern">
+            <data key="label">Die Bauern</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="der_alte_bauer">
+            <data key="label">Der alte Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <node id="amtmann">
+            <data key="label">Amtmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1288</data>
+        </node>
+        <edge id="matthes|rudolph" source="matthes" target="rudolph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matthes|anton" source="matthes" target="anton">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="matthes|oberfoerster" source="matthes" target="oberfoerster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matthes|oberfoersterin" source="matthes" target="oberfoersterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matthes|gerichtsschreiber" source="matthes" target="gerichtsschreiber">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="matthes|kappe" source="matthes" target="kappe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matthes|romann" source="matthes" target="romann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matthes|der_alte_bauer" source="matthes" target="der_alte_bauer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="matthes|wirtin" source="matthes" target="wirtin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="matthes|die_bauern" source="matthes" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|anton" source="rudolph" target="anton">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="rudolph|oberfoersterin" source="rudolph" target="oberfoersterin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="rudolph|friedrike" source="rudolph" target="friedrike">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rudolph|kordelchen" source="rudolph" target="kordelchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rudolph|oberfoerster" source="rudolph" target="oberfoerster">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="rudolph|pastor" source="rudolph" target="pastor">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="rudolph|amtmann" source="rudolph" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rudolph|schulz" source="rudolph" target="schulz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="anton|oberfoersterin" source="anton" target="oberfoersterin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="anton|oberfoerster" source="anton" target="oberfoerster">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="anton|friedrike" source="anton" target="friedrike">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="anton|kordelchen" source="anton" target="kordelchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|pastor" source="anton" target="pastor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="anton|gerichtsschreiber" source="anton" target="gerichtsschreiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|der_alte_bauer" source="anton" target="der_alte_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|wirtin" source="anton" target="wirtin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anton|schulz" source="anton" target="schulz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|amtmann" source="anton" target="amtmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberfoersterin|oberfoerster" source="oberfoersterin" target="oberfoerster">
+            <data key="weight">22</data>
+        </edge>
+        <edge id="oberfoersterin|schulz" source="oberfoersterin" target="schulz">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="oberfoersterin|friedrike" source="oberfoersterin" target="friedrike">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="oberfoersterin|ein_bursche" source="oberfoersterin" target="ein_bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberfoersterin|kordelchen" source="oberfoersterin" target="kordelchen">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="oberfoersterin|pastor" source="oberfoersterin" target="pastor">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="oberfoersterin|amtmann" source="oberfoersterin" target="amtmann">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="oberfoersterin|wirtin" source="oberfoersterin" target="wirtin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberfoerster|schulz" source="oberfoerster" target="schulz">
+            <data key="weight">16</data>
+        </edge>
+        <edge id="oberfoerster|friedrike" source="oberfoerster" target="friedrike">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="oberfoerster|pastor" source="oberfoerster" target="pastor">
+            <data key="weight">20</data>
+        </edge>
+        <edge id="oberfoerster|amtmann" source="oberfoerster" target="amtmann">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="oberfoerster|kordelchen" source="oberfoerster" target="kordelchen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="oberfoerster|wirtin" source="oberfoerster" target="wirtin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulz|amtmann" source="schulz" target="amtmann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schulz|pastor" source="schulz" target="pastor">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="schulz|kordelchen" source="schulz" target="kordelchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulz|friedrike" source="schulz" target="friedrike">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schulz|wirtin" source="schulz" target="wirtin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrike|ein_bursche" source="friedrike" target="ein_bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrike|kordelchen" source="friedrike" target="kordelchen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="friedrike|pastor" source="friedrike" target="pastor">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="friedrike|amtmann" source="friedrike" target="amtmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="friedrike|wirtin" source="friedrike" target="wirtin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kordelchen|amtmann" source="kordelchen" target="amtmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kordelchen|pastor" source="kordelchen" target="pastor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pastor|amtmann" source="pastor" target="amtmann">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="pastor|wirtin" source="pastor" target="wirtin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirtin|baerbel" source="wirtin" target="baerbel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wirtin|gerichtsschreiber" source="wirtin" target="gerichtsschreiber">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wirtin|die_bauern" source="wirtin" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirtin|der_alte_bauer" source="wirtin" target="der_alte_bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baerbel|gerichtsschreiber" source="baerbel" target="gerichtsschreiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gerichtsschreiber|romann" source="gerichtsschreiber" target="romann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gerichtsschreiber|kappe" source="gerichtsschreiber" target="kappe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gerichtsschreiber|die_bauern" source="gerichtsschreiber" target="die_bauern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gerichtsschreiber|der_alte_bauer" source="gerichtsschreiber" target="der_alte_bauer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="romann|kappe" source="romann" target="kappe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="romann|die_bauern" source="romann" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="romann|der_alte_bauer" source="romann" target="der_alte_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kappe|die_bauern" source="kappe" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kappe|der_alte_bauer" source="kappe" target="der_alte_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|der_alte_bauer" source="die_bauern" target="der_alte_bauer">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

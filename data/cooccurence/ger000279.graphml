@@ -1,0 +1,809 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="adelram">
+            <data key="label">Adelram</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">351</data>
+        </node>
+        <node id="der_schoeffe">
+            <data key="label">Der Schöffe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">191</data>
+        </node>
+        <node id="die_buerger_1">
+            <data key="label">Die Bürger (I)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="ludwig">
+            <data key="label">Ludwig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3645</data>
+        </node>
+        <node id="ein_buerger">
+            <data key="label">Ein Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="mehrere_ritter_die_uebrigen_ritter">
+            <data key="label">Mehrere Ritter/Die übrigen Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="der_burggraf">
+            <data key="label">Der Burggraf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">850</data>
+        </node>
+        <node id="albertus">
+            <data key="label">Albertus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">684</data>
+        </node>
+        <node id="erster_edelknabe">
+            <data key="label">Erster Edelknabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="zweiter_edelknabe">
+            <data key="label">Zweiter Edelknabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">69</data>
+        </node>
+        <node id="friedrich">
+            <data key="label">Friedrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2508</data>
+        </node>
+        <node id="isabella">
+            <data key="label">Isabella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">874</data>
+        </node>
+        <node id="leopold">
+            <data key="label">Leopold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1338</data>
+        </node>
+        <node id="die_fuersten_auf_ludwigs_seite">
+            <data key="label">Die Fürsten auf Ludwigs Seite</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="die_fuersten_auf_friedrichs_seite">
+            <data key="label">Die Fürsten auf Friedrichs Seite</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="der_legat">
+            <data key="label">Der Legat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">329</data>
+        </node>
+        <node id="thomas">
+            <data key="label">Thomas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">445</data>
+        </node>
+        <node id="steffen">
+            <data key="label">Steffen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">189</data>
+        </node>
+        <node id="schweppermann">
+            <data key="label">Schweppermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">556</data>
+        </node>
+        <node id="albrecht_von_rindsmaul">
+            <data key="label">Albrecht von Rindsmaul</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">449</data>
+        </node>
+        <node id="dietrich">
+            <data key="label">Dietrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">334</data>
+        </node>
+        <node id="die_knappen">
+            <data key="label">Die Knappen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="ein_ritter_3-3a">
+            <data key="label">Ein Ritter (III/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="ritter_3-3b">
+            <data key="label">Ritter (III/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="ein_ritter_3-4a">
+            <data key="label">Ein Ritter (III/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="ein_andrer_ritter_3-4b">
+            <data key="label">Ein andrer Ritter (III/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="die_oesterreicher">
+            <data key="label">Die Österreicher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="ein_ritter_3-4c">
+            <data key="label">Ein Ritter (III/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="die_bayer_einige_andre">
+            <data key="label">Die Bayer/Einige/Andre</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="erste_pilgerin_die_begleiterin">
+            <data key="label">Erste Pilgerin/Die Begleiterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">142</data>
+        </node>
+        <node id="burgvogt">
+            <data key="label">Burgvogt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">183</data>
+        </node>
+        <node id="erster_waechter">
+            <data key="label">Erster Wächter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="zweiter_waechter">
+            <data key="label">Zweiter Wächter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="dritter_waechter">
+            <data key="label">Dritter Wächter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="ein_waechter">
+            <data key="label">Ein Wächter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="erster_buerger">
+            <data key="label">Erster Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">146</data>
+        </node>
+        <node id="zweiter_buerger">
+            <data key="label">Zweiter Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">32</data>
+        </node>
+        <node id="die_andern_die_buerger_5-2">
+            <data key="label">Die Andern/Die Bürger (V/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="albrecht">
+            <data key="label">Albrecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">46</data>
+        </node>
+        <node id="stephan">
+            <data key="label">Stephan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="otto">
+            <data key="label">Otto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <edge id="adelram|der_schoeffe" source="adelram" target="der_schoeffe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelram|die_buerger_1" source="adelram" target="die_buerger_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelram|ludwig" source="adelram" target="ludwig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adelram|ein_buerger" source="adelram" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelram|mehrere_ritter_die_uebrigen_ritter" source="adelram" target="mehrere_ritter_die_uebrigen_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelram|der_burggraf" source="adelram" target="der_burggraf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adelram|schweppermann" source="adelram" target="schweppermann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adelram|albrecht_von_rindsmaul" source="adelram" target="albrecht_von_rindsmaul">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adelram|ein_ritter_3-3a" source="adelram" target="ein_ritter_3-3a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelram|ritter_3-3b" source="adelram" target="ritter_3-3b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelram|friedrich" source="adelram" target="friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelram|ein_ritter_3-4a" source="adelram" target="ein_ritter_3-4a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelram|ein_andrer_ritter_3-4b" source="adelram" target="ein_andrer_ritter_3-4b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelram|die_oesterreicher" source="adelram" target="die_oesterreicher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelram|ein_ritter_3-4c" source="adelram" target="ein_ritter_3-4c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelram|die_bayer_einige_andre" source="adelram" target="die_bayer_einige_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelram|thomas" source="adelram" target="thomas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schoeffe|die_buerger_1" source="der_schoeffe" target="die_buerger_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schoeffe|ludwig" source="der_schoeffe" target="ludwig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schoeffe|ein_buerger" source="der_schoeffe" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schoeffe|mehrere_ritter_die_uebrigen_ritter" source="der_schoeffe" target="mehrere_ritter_die_uebrigen_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schoeffe|der_burggraf" source="der_schoeffe" target="der_burggraf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_buerger_1|ludwig" source="die_buerger_1" target="ludwig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_buerger_1|ein_buerger" source="die_buerger_1" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_buerger_1|mehrere_ritter_die_uebrigen_ritter" source="die_buerger_1" target="mehrere_ritter_die_uebrigen_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_buerger_1|der_burggraf" source="die_buerger_1" target="der_burggraf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|ein_buerger" source="ludwig" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|mehrere_ritter_die_uebrigen_ritter" source="ludwig" target="mehrere_ritter_die_uebrigen_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|der_burggraf" source="ludwig" target="der_burggraf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ludwig|friedrich" source="ludwig" target="friedrich">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ludwig|die_fuersten_auf_ludwigs_seite" source="ludwig" target="die_fuersten_auf_ludwigs_seite">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|leopold" source="ludwig" target="leopold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|die_fuersten_auf_friedrichs_seite" source="ludwig" target="die_fuersten_auf_friedrichs_seite">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|der_legat" source="ludwig" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|thomas" source="ludwig" target="thomas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ludwig|steffen" source="ludwig" target="steffen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|schweppermann" source="ludwig" target="schweppermann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ludwig|albrecht_von_rindsmaul" source="ludwig" target="albrecht_von_rindsmaul">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ludwig|ein_ritter_3-4a" source="ludwig" target="ein_ritter_3-4a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|ein_andrer_ritter_3-4b" source="ludwig" target="ein_andrer_ritter_3-4b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|die_oesterreicher" source="ludwig" target="die_oesterreicher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|ein_ritter_3-4c" source="ludwig" target="ein_ritter_3-4c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|die_bayer_einige_andre" source="ludwig" target="die_bayer_einige_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|erster_buerger" source="ludwig" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|zweiter_buerger" source="ludwig" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|die_andern_die_buerger_5-2" source="ludwig" target="die_andern_die_buerger_5-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|albrecht" source="ludwig" target="albrecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|stephan" source="ludwig" target="stephan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ludwig|otto" source="ludwig" target="otto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger|mehrere_ritter_die_uebrigen_ritter" source="ein_buerger" target="mehrere_ritter_die_uebrigen_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger|der_burggraf" source="ein_buerger" target="der_burggraf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehrere_ritter_die_uebrigen_ritter|der_burggraf" source="mehrere_ritter_die_uebrigen_ritter" target="der_burggraf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_burggraf|thomas" source="der_burggraf" target="thomas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_burggraf|steffen" source="der_burggraf" target="steffen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_burggraf|schweppermann" source="der_burggraf" target="schweppermann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_burggraf|albrecht_von_rindsmaul" source="der_burggraf" target="albrecht_von_rindsmaul">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_burggraf|friedrich" source="der_burggraf" target="friedrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_burggraf|ein_ritter_3-4a" source="der_burggraf" target="ein_ritter_3-4a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_burggraf|ein_andrer_ritter_3-4b" source="der_burggraf" target="ein_andrer_ritter_3-4b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_burggraf|die_oesterreicher" source="der_burggraf" target="die_oesterreicher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_burggraf|ein_ritter_3-4c" source="der_burggraf" target="ein_ritter_3-4c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_burggraf|die_bayer_einige_andre" source="der_burggraf" target="die_bayer_einige_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albertus|erster_edelknabe" source="albertus" target="erster_edelknabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albertus|zweiter_edelknabe" source="albertus" target="zweiter_edelknabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albertus|friedrich" source="albertus" target="friedrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albertus|isabella" source="albertus" target="isabella">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albertus|leopold" source="albertus" target="leopold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albertus|erste_pilgerin_die_begleiterin" source="albertus" target="erste_pilgerin_die_begleiterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albertus|burgvogt" source="albertus" target="burgvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albertus|erster_waechter" source="albertus" target="erster_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albertus|zweiter_waechter" source="albertus" target="zweiter_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albertus|dritter_waechter" source="albertus" target="dritter_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albertus|albrecht_von_rindsmaul" source="albertus" target="albrecht_von_rindsmaul">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albertus|ein_waechter" source="albertus" target="ein_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_edelknabe|zweiter_edelknabe" source="erster_edelknabe" target="zweiter_edelknabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_edelknabe|friedrich" source="erster_edelknabe" target="friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_edelknabe|isabella" source="erster_edelknabe" target="isabella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_edelknabe|leopold" source="erster_edelknabe" target="leopold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_edelknabe|friedrich" source="zweiter_edelknabe" target="friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_edelknabe|isabella" source="zweiter_edelknabe" target="isabella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_edelknabe|leopold" source="zweiter_edelknabe" target="leopold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|isabella" source="friedrich" target="isabella">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="friedrich|leopold" source="friedrich" target="leopold">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="friedrich|die_fuersten_auf_ludwigs_seite" source="friedrich" target="die_fuersten_auf_ludwigs_seite">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|die_fuersten_auf_friedrichs_seite" source="friedrich" target="die_fuersten_auf_friedrichs_seite">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|der_legat" source="friedrich" target="der_legat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="friedrich|dietrich" source="friedrich" target="dietrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|die_knappen" source="friedrich" target="die_knappen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|albrecht_von_rindsmaul" source="friedrich" target="albrecht_von_rindsmaul">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="friedrich|ein_ritter_3-4a" source="friedrich" target="ein_ritter_3-4a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|ein_andrer_ritter_3-4b" source="friedrich" target="ein_andrer_ritter_3-4b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|die_oesterreicher" source="friedrich" target="die_oesterreicher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|ein_ritter_3-4c" source="friedrich" target="ein_ritter_3-4c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|die_bayer_einige_andre" source="friedrich" target="die_bayer_einige_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|schweppermann" source="friedrich" target="schweppermann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|thomas" source="friedrich" target="thomas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|burgvogt" source="friedrich" target="burgvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|erster_waechter" source="friedrich" target="erster_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|zweiter_waechter" source="friedrich" target="zweiter_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|dritter_waechter" source="friedrich" target="dritter_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|ein_waechter" source="friedrich" target="ein_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|erster_buerger" source="friedrich" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|zweiter_buerger" source="friedrich" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|die_andern_die_buerger_5-2" source="friedrich" target="die_andern_die_buerger_5-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|albrecht" source="friedrich" target="albrecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|stephan" source="friedrich" target="stephan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|otto" source="friedrich" target="otto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isabella|leopold" source="isabella" target="leopold">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="isabella|erste_pilgerin_die_begleiterin" source="isabella" target="erste_pilgerin_die_begleiterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isabella|der_legat" source="isabella" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leopold|die_fuersten_auf_ludwigs_seite" source="leopold" target="die_fuersten_auf_ludwigs_seite">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leopold|die_fuersten_auf_friedrichs_seite" source="leopold" target="die_fuersten_auf_friedrichs_seite">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leopold|der_legat" source="leopold" target="der_legat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leopold|erste_pilgerin_die_begleiterin" source="leopold" target="erste_pilgerin_die_begleiterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_fuersten_auf_ludwigs_seite|die_fuersten_auf_friedrichs_seite" source="die_fuersten_auf_ludwigs_seite" target="die_fuersten_auf_friedrichs_seite">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_fuersten_auf_ludwigs_seite|der_legat" source="die_fuersten_auf_ludwigs_seite" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_fuersten_auf_friedrichs_seite|der_legat" source="die_fuersten_auf_friedrichs_seite" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thomas|steffen" source="thomas" target="steffen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thomas|schweppermann" source="thomas" target="schweppermann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thomas|albrecht_von_rindsmaul" source="thomas" target="albrecht_von_rindsmaul">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thomas|ein_ritter_3-4a" source="thomas" target="ein_ritter_3-4a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thomas|ein_andrer_ritter_3-4b" source="thomas" target="ein_andrer_ritter_3-4b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thomas|die_oesterreicher" source="thomas" target="die_oesterreicher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thomas|ein_ritter_3-4c" source="thomas" target="ein_ritter_3-4c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thomas|die_bayer_einige_andre" source="thomas" target="die_bayer_einige_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="steffen|schweppermann" source="steffen" target="schweppermann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="steffen|albrecht_von_rindsmaul" source="steffen" target="albrecht_von_rindsmaul">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schweppermann|albrecht_von_rindsmaul" source="schweppermann" target="albrecht_von_rindsmaul">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schweppermann|ein_ritter_3-3a" source="schweppermann" target="ein_ritter_3-3a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schweppermann|ritter_3-3b" source="schweppermann" target="ritter_3-3b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schweppermann|ein_ritter_3-4a" source="schweppermann" target="ein_ritter_3-4a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schweppermann|ein_andrer_ritter_3-4b" source="schweppermann" target="ein_andrer_ritter_3-4b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schweppermann|die_oesterreicher" source="schweppermann" target="die_oesterreicher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schweppermann|ein_ritter_3-4c" source="schweppermann" target="ein_ritter_3-4c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schweppermann|die_bayer_einige_andre" source="schweppermann" target="die_bayer_einige_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_rindsmaul|ein_ritter_3-3a" source="albrecht_von_rindsmaul" target="ein_ritter_3-3a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_rindsmaul|ritter_3-3b" source="albrecht_von_rindsmaul" target="ritter_3-3b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_rindsmaul|ein_ritter_3-4a" source="albrecht_von_rindsmaul" target="ein_ritter_3-4a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_rindsmaul|ein_andrer_ritter_3-4b" source="albrecht_von_rindsmaul" target="ein_andrer_ritter_3-4b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_rindsmaul|die_oesterreicher" source="albrecht_von_rindsmaul" target="die_oesterreicher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_rindsmaul|ein_ritter_3-4c" source="albrecht_von_rindsmaul" target="ein_ritter_3-4c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_rindsmaul|die_bayer_einige_andre" source="albrecht_von_rindsmaul" target="die_bayer_einige_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_rindsmaul|burgvogt" source="albrecht_von_rindsmaul" target="burgvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_rindsmaul|erster_waechter" source="albrecht_von_rindsmaul" target="erster_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_rindsmaul|zweiter_waechter" source="albrecht_von_rindsmaul" target="zweiter_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_rindsmaul|dritter_waechter" source="albrecht_von_rindsmaul" target="dritter_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht_von_rindsmaul|ein_waechter" source="albrecht_von_rindsmaul" target="ein_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dietrich|die_knappen" source="dietrich" target="die_knappen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter_3-3a|ritter_3-3b" source="ein_ritter_3-3a" target="ritter_3-3b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter_3-4a|ein_andrer_ritter_3-4b" source="ein_ritter_3-4a" target="ein_andrer_ritter_3-4b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter_3-4a|die_oesterreicher" source="ein_ritter_3-4a" target="die_oesterreicher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter_3-4a|ein_ritter_3-4c" source="ein_ritter_3-4a" target="ein_ritter_3-4c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter_3-4a|die_bayer_einige_andre" source="ein_ritter_3-4a" target="die_bayer_einige_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_andrer_ritter_3-4b|die_oesterreicher" source="ein_andrer_ritter_3-4b" target="die_oesterreicher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_andrer_ritter_3-4b|ein_ritter_3-4c" source="ein_andrer_ritter_3-4b" target="ein_ritter_3-4c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_andrer_ritter_3-4b|die_bayer_einige_andre" source="ein_andrer_ritter_3-4b" target="die_bayer_einige_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_oesterreicher|ein_ritter_3-4c" source="die_oesterreicher" target="ein_ritter_3-4c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_oesterreicher|die_bayer_einige_andre" source="die_oesterreicher" target="die_bayer_einige_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_ritter_3-4c|die_bayer_einige_andre" source="ein_ritter_3-4c" target="die_bayer_einige_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgvogt|erster_waechter" source="burgvogt" target="erster_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgvogt|zweiter_waechter" source="burgvogt" target="zweiter_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgvogt|dritter_waechter" source="burgvogt" target="dritter_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgvogt|ein_waechter" source="burgvogt" target="ein_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_waechter|zweiter_waechter" source="erster_waechter" target="zweiter_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_waechter|dritter_waechter" source="erster_waechter" target="dritter_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_waechter|ein_waechter" source="erster_waechter" target="ein_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_waechter|dritter_waechter" source="zweiter_waechter" target="dritter_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_waechter|ein_waechter" source="zweiter_waechter" target="ein_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_waechter|ein_waechter" source="dritter_waechter" target="ein_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|zweiter_buerger" source="erster_buerger" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|die_andern_die_buerger_5-2" source="erster_buerger" target="die_andern_die_buerger_5-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|albrecht" source="erster_buerger" target="albrecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|stephan" source="erster_buerger" target="stephan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|otto" source="erster_buerger" target="otto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|die_andern_die_buerger_5-2" source="zweiter_buerger" target="die_andern_die_buerger_5-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|albrecht" source="zweiter_buerger" target="albrecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|stephan" source="zweiter_buerger" target="stephan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|otto" source="zweiter_buerger" target="otto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_andern_die_buerger_5-2|albrecht" source="die_andern_die_buerger_5-2" target="albrecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_andern_die_buerger_5-2|stephan" source="die_andern_die_buerger_5-2" target="stephan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_andern_die_buerger_5-2|otto" source="die_andern_die_buerger_5-2" target="otto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|stephan" source="albrecht" target="stephan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|otto" source="albrecht" target="otto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stephan|otto" source="stephan" target="otto">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

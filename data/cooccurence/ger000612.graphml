@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="fadrique">
+            <data key="label">Fadrique</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3303</data>
+        </node>
+        <node id="perside">
+            <data key="label">Perside</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1837</data>
+        </node>
+        <node id="iris">
+            <data key="label">Iris</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2238</data>
+        </node>
+        <node id="alvar">
+            <data key="label">Alvar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1226</data>
+        </node>
+        <node id="viola">
+            <data key="label">Viola</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2664</data>
+        </node>
+        <node id="crespo">
+            <data key="label">Crespo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1214</data>
+        </node>
+        <edge id="fadrique|perside" source="fadrique" target="perside">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="fadrique|iris" source="fadrique" target="iris">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fadrique|alvar" source="fadrique" target="alvar">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fadrique|viola" source="fadrique" target="viola">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="fadrique|crespo" source="fadrique" target="crespo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="perside|iris" source="perside" target="iris">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="perside|alvar" source="perside" target="alvar">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="perside|viola" source="perside" target="viola">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="perside|crespo" source="perside" target="crespo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="iris|alvar" source="iris" target="alvar">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="iris|viola" source="iris" target="viola">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="iris|crespo" source="iris" target="crespo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="alvar|viola" source="alvar" target="viola">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="alvar|crespo" source="alvar" target="crespo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viola|crespo" source="viola" target="crespo">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

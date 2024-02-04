@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="harlekin">
+            <data key="label">Harlekin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1940</data>
+        </node>
+        <node id="barthold">
+            <data key="label">Barthold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1649</data>
+        </node>
+        <node id="kolombine">
+            <data key="label">Kolombine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">968</data>
+        </node>
+        <node id="scapin">
+            <data key="label">Scapin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">619</data>
+        </node>
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">414</data>
+        </node>
+        <node id="isabelle">
+            <data key="label">Isabelle</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">640</data>
+        </node>
+        <node id="valer">
+            <data key="label">Valer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">214</data>
+        </node>
+        <edge id="harlekin|barthold" source="harlekin" target="barthold">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="harlekin|kolombine" source="harlekin" target="kolombine">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="harlekin|scapin" source="harlekin" target="scapin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="harlekin|peter" source="harlekin" target="peter">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="harlekin|isabelle" source="harlekin" target="isabelle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harlekin|valer" source="harlekin" target="valer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barthold|kolombine" source="barthold" target="kolombine">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="barthold|scapin" source="barthold" target="scapin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barthold|peter" source="barthold" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kolombine|scapin" source="kolombine" target="scapin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kolombine|peter" source="kolombine" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scapin|peter" source="scapin" target="peter">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="peter|isabelle" source="peter" target="isabelle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|valer" source="peter" target="valer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isabelle|valer" source="isabelle" target="valer">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

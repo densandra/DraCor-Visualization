@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="rose">
+            <data key="label">Rose</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2796</data>
+        </node>
+        <node id="bruennow">
+            <data key="label">Brünnow</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">465</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2081</data>
+        </node>
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">620</data>
+        </node>
+        <node id="nettelbeck">
+            <data key="label">Nettelbeck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3868</data>
+        </node>
+        <node id="arndt">
+            <data key="label">Arndt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">203</data>
+        </node>
+        <node id="gefreiter">
+            <data key="label">Gefreiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">182</data>
+        </node>
+        <node id="wuerges">
+            <data key="label">Würges</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1950</data>
+        </node>
+        <node id="gneisenau">
+            <data key="label">Gneisenau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2462</data>
+        </node>
+        <node id="kellermeister">
+            <data key="label">Kellermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">282</data>
+        </node>
+        <node id="grueneberg">
+            <data key="label">Grüneberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">520</data>
+        </node>
+        <node id="schroeder">
+            <data key="label">Schröder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">636</data>
+        </node>
+        <node id="geertz">
+            <data key="label">Geertz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">170</data>
+        </node>
+        <node id="rector_zipfel">
+            <data key="label">Rector Zipfel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">960</data>
+        </node>
+        <node id="die_buerger_2-3_bis_2-6">
+            <data key="label">Die Bürger (II/3–6)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="soldat">
+            <data key="label">Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="erster_buerger">
+            <data key="label">Erster Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="zweiter_buerger">
+            <data key="label">Zweiter Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="dritter_buerger">
+            <data key="label">Dritter Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="vierter_buerger">
+            <data key="label">Vierter Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="buerger_3-9">
+            <data key="label">Bürger (III/9)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="weber">
+            <data key="label">Weber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">403</data>
+        </node>
+        <node id="offizier_4-3">
+            <data key="label">Offizier (IV/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">63</data>
+        </node>
+        <node id="steinmetz">
+            <data key="label">Steinmetz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">128</data>
+        </node>
+        <node id="die_andern">
+            <data key="label">Die Andern</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="offizier_5-9a">
+            <data key="label">Offizier (Lieutnant von Petersdorf)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="offizier_5-9b">
+            <data key="label">Offizier (von Hagen)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="erste_ordonnanz">
+            <data key="label">Erste Ordonnanz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="zweite_ordonnanz">
+            <data key="label">Zweite Ordonnanz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="dritte_ordonnanz">
+            <data key="label">Dritte Ordonnanz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <edge id="rose|bruennow" source="rose" target="bruennow">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rose|heinrich" source="rose" target="heinrich">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="rose|mutter" source="rose" target="mutter">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="rose|nettelbeck" source="rose" target="nettelbeck">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="rose|gefreiter" source="rose" target="gefreiter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rose|arndt" source="rose" target="arndt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rose|wuerges" source="rose" target="wuerges">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="rose|grueneberg" source="rose" target="grueneberg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rose|gneisenau" source="rose" target="gneisenau">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="rose|soldat" source="rose" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rose|schroeder" source="rose" target="schroeder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rose|geertz" source="rose" target="geertz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rose|buerger_3-9" source="rose" target="buerger_3-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rose|weber" source="rose" target="weber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rose|rector_zipfel" source="rose" target="rector_zipfel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rose|offizier_5-9a" source="rose" target="offizier_5-9a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rose|offizier_5-9b" source="rose" target="offizier_5-9b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruennow|heinrich" source="bruennow" target="heinrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bruennow|mutter" source="bruennow" target="mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruennow|gneisenau" source="bruennow" target="gneisenau">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bruennow|nettelbeck" source="bruennow" target="nettelbeck">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bruennow|die_buerger_2-3_bis_2-6" source="bruennow" target="die_buerger_2-3_bis_2-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruennow|wuerges" source="bruennow" target="wuerges">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bruennow|steinmetz" source="bruennow" target="steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruennow|schroeder" source="bruennow" target="schroeder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruennow|grueneberg" source="bruennow" target="grueneberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruennow|rector_zipfel" source="bruennow" target="rector_zipfel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruennow|geertz" source="bruennow" target="geertz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruennow|die_andern" source="bruennow" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruennow|weber" source="bruennow" target="weber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|mutter" source="heinrich" target="mutter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="heinrich|nettelbeck" source="heinrich" target="nettelbeck">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="heinrich|kellermeister" source="heinrich" target="kellermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|grueneberg" source="heinrich" target="grueneberg">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="heinrich|schroeder" source="heinrich" target="schroeder">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich|geertz" source="heinrich" target="geertz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="heinrich|rector_zipfel" source="heinrich" target="rector_zipfel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich|wuerges" source="heinrich" target="wuerges">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich|gneisenau" source="heinrich" target="gneisenau">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="heinrich|die_buerger_2-3_bis_2-6" source="heinrich" target="die_buerger_2-3_bis_2-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|erster_buerger" source="heinrich" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|zweiter_buerger" source="heinrich" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|dritter_buerger" source="heinrich" target="dritter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|vierter_buerger" source="heinrich" target="vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|buerger_3-9" source="heinrich" target="buerger_3-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|steinmetz" source="heinrich" target="steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|die_andern" source="heinrich" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|weber" source="heinrich" target="weber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|nettelbeck" source="mutter" target="nettelbeck">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="mutter|arndt" source="mutter" target="arndt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mutter|gefreiter" source="mutter" target="gefreiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|wuerges" source="mutter" target="wuerges">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mutter|grueneberg" source="mutter" target="grueneberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|gneisenau" source="mutter" target="gneisenau">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mutter|weber" source="mutter" target="weber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|rector_zipfel" source="mutter" target="rector_zipfel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|offizier_5-9a" source="mutter" target="offizier_5-9a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|offizier_5-9b" source="mutter" target="offizier_5-9b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nettelbeck|arndt" source="nettelbeck" target="arndt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nettelbeck|gefreiter" source="nettelbeck" target="gefreiter">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="nettelbeck|wuerges" source="nettelbeck" target="wuerges">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="nettelbeck|kellermeister" source="nettelbeck" target="kellermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nettelbeck|grueneberg" source="nettelbeck" target="grueneberg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nettelbeck|gneisenau" source="nettelbeck" target="gneisenau">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="nettelbeck|die_buerger_2-3_bis_2-6" source="nettelbeck" target="die_buerger_2-3_bis_2-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nettelbeck|soldat" source="nettelbeck" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nettelbeck|schroeder" source="nettelbeck" target="schroeder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nettelbeck|weber" source="nettelbeck" target="weber">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="nettelbeck|offizier_4-3" source="nettelbeck" target="offizier_4-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nettelbeck|steinmetz" source="nettelbeck" target="steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nettelbeck|rector_zipfel" source="nettelbeck" target="rector_zipfel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nettelbeck|geertz" source="nettelbeck" target="geertz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nettelbeck|die_andern" source="nettelbeck" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arndt|gefreiter" source="arndt" target="gefreiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arndt|wuerges" source="arndt" target="wuerges">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="arndt|rector_zipfel" source="arndt" target="rector_zipfel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gefreiter|wuerges" source="gefreiter" target="wuerges">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wuerges|kellermeister" source="wuerges" target="kellermeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wuerges|grueneberg" source="wuerges" target="grueneberg">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wuerges|schroeder" source="wuerges" target="schroeder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wuerges|geertz" source="wuerges" target="geertz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wuerges|rector_zipfel" source="wuerges" target="rector_zipfel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wuerges|gneisenau" source="wuerges" target="gneisenau">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wuerges|die_buerger_2-3_bis_2-6" source="wuerges" target="die_buerger_2-3_bis_2-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wuerges|steinmetz" source="wuerges" target="steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wuerges|die_andern" source="wuerges" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wuerges|weber" source="wuerges" target="weber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gneisenau|kellermeister" source="gneisenau" target="kellermeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gneisenau|grueneberg" source="gneisenau" target="grueneberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gneisenau|schroeder" source="gneisenau" target="schroeder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gneisenau|geertz" source="gneisenau" target="geertz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gneisenau|rector_zipfel" source="gneisenau" target="rector_zipfel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gneisenau|die_buerger_2-3_bis_2-6" source="gneisenau" target="die_buerger_2-3_bis_2-6">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gneisenau|buerger_3-9" source="gneisenau" target="buerger_3-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gneisenau|weber" source="gneisenau" target="weber">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gneisenau|offizier_4-3" source="gneisenau" target="offizier_4-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gneisenau|steinmetz" source="gneisenau" target="steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gneisenau|die_andern" source="gneisenau" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gneisenau|offizier_5-9a" source="gneisenau" target="offizier_5-9a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gneisenau|offizier_5-9b" source="gneisenau" target="offizier_5-9b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gneisenau|erste_ordonnanz" source="gneisenau" target="erste_ordonnanz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gneisenau|zweite_ordonnanz" source="gneisenau" target="zweite_ordonnanz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gneisenau|dritte_ordonnanz" source="gneisenau" target="dritte_ordonnanz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellermeister|grueneberg" source="kellermeister" target="grueneberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kellermeister|schroeder" source="kellermeister" target="schroeder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellermeister|geertz" source="kellermeister" target="geertz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellermeister|rector_zipfel" source="kellermeister" target="rector_zipfel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kellermeister|die_buerger_2-3_bis_2-6" source="kellermeister" target="die_buerger_2-3_bis_2-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grueneberg|schroeder" source="grueneberg" target="schroeder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grueneberg|geertz" source="grueneberg" target="geertz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="grueneberg|rector_zipfel" source="grueneberg" target="rector_zipfel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grueneberg|die_buerger_2-3_bis_2-6" source="grueneberg" target="die_buerger_2-3_bis_2-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grueneberg|erster_buerger" source="grueneberg" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grueneberg|zweiter_buerger" source="grueneberg" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grueneberg|dritter_buerger" source="grueneberg" target="dritter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grueneberg|vierter_buerger" source="grueneberg" target="vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grueneberg|buerger_3-9" source="grueneberg" target="buerger_3-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grueneberg|steinmetz" source="grueneberg" target="steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grueneberg|die_andern" source="grueneberg" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grueneberg|weber" source="grueneberg" target="weber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schroeder|geertz" source="schroeder" target="geertz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schroeder|rector_zipfel" source="schroeder" target="rector_zipfel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schroeder|die_buerger_2-3_bis_2-6" source="schroeder" target="die_buerger_2-3_bis_2-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schroeder|steinmetz" source="schroeder" target="steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schroeder|die_andern" source="schroeder" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schroeder|weber" source="schroeder" target="weber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geertz|rector_zipfel" source="geertz" target="rector_zipfel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="geertz|die_buerger_2-3_bis_2-6" source="geertz" target="die_buerger_2-3_bis_2-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geertz|erster_buerger" source="geertz" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geertz|zweiter_buerger" source="geertz" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geertz|dritter_buerger" source="geertz" target="dritter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geertz|vierter_buerger" source="geertz" target="vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geertz|buerger_3-9" source="geertz" target="buerger_3-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geertz|steinmetz" source="geertz" target="steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geertz|die_andern" source="geertz" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geertz|weber" source="geertz" target="weber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rector_zipfel|die_buerger_2-3_bis_2-6" source="rector_zipfel" target="die_buerger_2-3_bis_2-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rector_zipfel|steinmetz" source="rector_zipfel" target="steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rector_zipfel|die_andern" source="rector_zipfel" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rector_zipfel|weber" source="rector_zipfel" target="weber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|zweiter_buerger" source="erster_buerger" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|dritter_buerger" source="erster_buerger" target="dritter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|vierter_buerger" source="erster_buerger" target="vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|dritter_buerger" source="zweiter_buerger" target="dritter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|vierter_buerger" source="zweiter_buerger" target="vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_buerger|vierter_buerger" source="dritter_buerger" target="vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weber|steinmetz" source="weber" target="steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weber|die_andern" source="weber" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="steinmetz|die_andern" source="steinmetz" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="offizier_5-9a|offizier_5-9b" source="offizier_5-9a" target="offizier_5-9b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_ordonnanz|zweite_ordonnanz" source="erste_ordonnanz" target="zweite_ordonnanz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_ordonnanz|dritte_ordonnanz" source="erste_ordonnanz" target="dritte_ordonnanz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_ordonnanz|dritte_ordonnanz" source="zweite_ordonnanz" target="dritte_ordonnanz">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

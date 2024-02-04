@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="philemon">
+            <data key="label">Philemon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5111</data>
+        </node>
+        <node id="phillis">
+            <data key="label">Phillis</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">496</data>
+        </node>
+        <node id="sylvia">
+            <data key="label">Sylvia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">568</data>
+        </node>
+        <node id="mirtillo">
+            <data key="label">Mirtillo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1833</data>
+        </node>
+        <node id="sylvan">
+            <data key="label">Sylvan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2353</data>
+        </node>
+        <node id="seladon">
+            <data key="label">Seladon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">991</data>
+        </node>
+        <node id="mirta">
+            <data key="label">Mirta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1055</data>
+        </node>
+        <node id="mops">
+            <data key="label">Mops</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">906</data>
+        </node>
+        <node id="silen">
+            <data key="label">Silen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">648</data>
+        </node>
+        <node id="damon">
+            <data key="label">Damon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1596</data>
+        </node>
+        <node id="galathe">
+            <data key="label">Galathe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1080</data>
+        </node>
+        <node id="doris">
+            <data key="label">Doris</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1643</data>
+        </node>
+        <node id="oktober">
+            <data key="label">Oktober</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">368</data>
+        </node>
+        <node id="verehrung">
+            <data key="label">Verehrung</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">313</data>
+        </node>
+        <node id="treue">
+            <data key="label">Treue</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">131</data>
+        </node>
+        <node id="liebe">
+            <data key="label">Liebe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">101</data>
+        </node>
+        <node id="freude">
+            <data key="label">Freude</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">79</data>
+        </node>
+        <edge id="philemon|phillis" source="philemon" target="phillis">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="philemon|sylvia" source="philemon" target="sylvia">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="philemon|mirtillo" source="philemon" target="mirtillo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="philemon|sylvan" source="philemon" target="sylvan">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="philemon|seladon" source="philemon" target="seladon">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="philemon|mirta" source="philemon" target="mirta">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philemon|damon" source="philemon" target="damon">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="philemon|doris" source="philemon" target="doris">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="philemon|silen" source="philemon" target="silen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philemon|mops" source="philemon" target="mops">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philemon|galathe" source="philemon" target="galathe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phillis|sylvia" source="phillis" target="sylvia">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="phillis|mirtillo" source="phillis" target="mirtillo">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="phillis|sylvan" source="phillis" target="sylvan">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="phillis|mirta" source="phillis" target="mirta">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="phillis|doris" source="phillis" target="doris">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phillis|seladon" source="phillis" target="seladon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phillis|mops" source="phillis" target="mops">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phillis|damon" source="phillis" target="damon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phillis|galathe" source="phillis" target="galathe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phillis|silen" source="phillis" target="silen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sylvia|sylvan" source="sylvia" target="sylvan">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sylvia|mirtillo" source="sylvia" target="mirtillo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sylvia|mirta" source="sylvia" target="mirta">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sylvia|damon" source="sylvia" target="damon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sylvia|silen" source="sylvia" target="silen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sylvia|doris" source="sylvia" target="doris">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sylvia|seladon" source="sylvia" target="seladon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sylvia|mops" source="sylvia" target="mops">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sylvia|galathe" source="sylvia" target="galathe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirtillo|mops" source="mirtillo" target="mops">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mirtillo|mirta" source="mirtillo" target="mirta">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mirtillo|sylvan" source="mirtillo" target="sylvan">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="mirtillo|damon" source="mirtillo" target="damon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mirtillo|galathe" source="mirtillo" target="galathe">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="mirtillo|doris" source="mirtillo" target="doris">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="mirtillo|silen" source="mirtillo" target="silen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mirtillo|seladon" source="mirtillo" target="seladon">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sylvan|seladon" source="sylvan" target="seladon">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sylvan|mirta" source="sylvan" target="mirta">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="sylvan|mops" source="sylvan" target="mops">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sylvan|silen" source="sylvan" target="silen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sylvan|doris" source="sylvan" target="doris">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sylvan|galathe" source="sylvan" target="galathe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sylvan|damon" source="sylvan" target="damon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="seladon|mirta" source="seladon" target="mirta">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="seladon|doris" source="seladon" target="doris">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="seladon|mops" source="seladon" target="mops">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seladon|damon" source="seladon" target="damon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seladon|galathe" source="seladon" target="galathe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seladon|silen" source="seladon" target="silen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirta|mops" source="mirta" target="mops">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mirta|damon" source="mirta" target="damon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mirta|galathe" source="mirta" target="galathe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mirta|silen" source="mirta" target="silen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mirta|doris" source="mirta" target="doris">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mops|silen" source="mops" target="silen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mops|galathe" source="mops" target="galathe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mops|doris" source="mops" target="doris">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mops|damon" source="mops" target="damon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="silen|damon" source="silen" target="damon">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="silen|doris" source="silen" target="doris">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="silen|galathe" source="silen" target="galathe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="damon|galathe" source="damon" target="galathe">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="damon|doris" source="damon" target="doris">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="galathe|doris" source="galathe" target="doris">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="oktober|verehrung" source="oktober" target="verehrung">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oktober|treue" source="oktober" target="treue">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oktober|liebe" source="oktober" target="liebe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oktober|freude" source="oktober" target="freude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="verehrung|treue" source="verehrung" target="treue">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="verehrung|liebe" source="verehrung" target="liebe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="verehrung|freude" source="verehrung" target="freude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="treue|liebe" source="treue" target="liebe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="treue|freude" source="treue" target="freude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liebe|freude" source="liebe" target="freude">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

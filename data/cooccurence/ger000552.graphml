@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="eros">
+            <data key="label">Eros</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">129</data>
+        </node>
+        <node id="flavia">
+            <data key="label">Flavia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">948</data>
+        </node>
+        <node id="fabricius">
+            <data key="label">Fabricius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1365</data>
+        </node>
+        <node id="sulpicius">
+            <data key="label">Sulpicius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1793</data>
+        </node>
+        <node id="levin">
+            <data key="label">Levin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">777</data>
+        </node>
+        <node id="greger_kornblume">
+            <data key="label">Greger Kornblume</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2497</data>
+        </node>
+        <node id="bartel">
+            <data key="label">Bartel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1003</data>
+        </node>
+        <node id="jockel">
+            <data key="label">Jockel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1056</data>
+        </node>
+        <node id="cassander">
+            <data key="label">Cassander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">836</data>
+        </node>
+        <node id="chloris">
+            <data key="label">Chloris</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1238</data>
+        </node>
+        <node id="cornelia">
+            <data key="label">Cornelia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1541</data>
+        </node>
+        <node id="aschewedel">
+            <data key="label">Aschewedel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1195</data>
+        </node>
+        <node id="dornrose">
+            <data key="label">Dornrose</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">484</data>
+        </node>
+        <node id="salome">
+            <data key="label">Salome</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1178</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1649</data>
+        </node>
+        <node id="cuntz">
+            <data key="label">Cuntz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">29</data>
+        </node>
+        <node id="lorentz">
+            <data key="label">Lorentz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="ciliax">
+            <data key="label">Ciliax</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">276</data>
+        </node>
+        <node id="reyen_1">
+            <data key="label">1. Reyen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">179</data>
+        </node>
+        <node id="reyen_2">
+            <data key="label">2. Reyen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">184</data>
+        </node>
+        <node id="hymen">
+            <data key="label">Hymen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">218</data>
+        </node>
+        <edge id="flavia|fabricius" source="flavia" target="fabricius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="flavia|sulpicius" source="flavia" target="sulpicius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="flavia|cassander" source="flavia" target="cassander">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="flavia|cornelia" source="flavia" target="cornelia">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="flavia|chloris" source="flavia" target="chloris">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="flavia|levin" source="flavia" target="levin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fabricius|sulpicius" source="fabricius" target="sulpicius">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="fabricius|levin" source="fabricius" target="levin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fabricius|cassander" source="fabricius" target="cassander">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fabricius|cornelia" source="fabricius" target="cornelia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fabricius|chloris" source="fabricius" target="chloris">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sulpicius|levin" source="sulpicius" target="levin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sulpicius|cornelia" source="sulpicius" target="cornelia">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sulpicius|chloris" source="sulpicius" target="chloris">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sulpicius|cassander" source="sulpicius" target="cassander">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="levin|cornelia" source="levin" target="cornelia">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="levin|chloris" source="levin" target="chloris">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="levin|cassander" source="levin" target="cassander">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="greger_kornblume|bartel" source="greger_kornblume" target="bartel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="greger_kornblume|jockel" source="greger_kornblume" target="jockel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="greger_kornblume|aschewedel" source="greger_kornblume" target="aschewedel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="greger_kornblume|dornrose" source="greger_kornblume" target="dornrose">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="greger_kornblume|salome" source="greger_kornblume" target="salome">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="greger_kornblume|lorentz" source="greger_kornblume" target="lorentz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="greger_kornblume|wilhelm" source="greger_kornblume" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bartel|jockel" source="bartel" target="jockel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bartel|lorentz" source="bartel" target="lorentz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bartel|wilhelm" source="bartel" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bartel|aschewedel" source="bartel" target="aschewedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bartel|dornrose" source="bartel" target="dornrose">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bartel|salome" source="bartel" target="salome">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jockel|lorentz" source="jockel" target="lorentz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jockel|wilhelm" source="jockel" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jockel|aschewedel" source="jockel" target="aschewedel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jockel|dornrose" source="jockel" target="dornrose">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jockel|salome" source="jockel" target="salome">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cassander|cornelia" source="cassander" target="cornelia">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="cassander|chloris" source="cassander" target="chloris">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chloris|cornelia" source="chloris" target="cornelia">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="aschewedel|dornrose" source="aschewedel" target="dornrose">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="aschewedel|lorentz" source="aschewedel" target="lorentz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aschewedel|wilhelm" source="aschewedel" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aschewedel|salome" source="aschewedel" target="salome">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dornrose|lorentz" source="dornrose" target="lorentz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dornrose|wilhelm" source="dornrose" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dornrose|salome" source="dornrose" target="salome">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salome|lorentz" source="salome" target="lorentz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salome|wilhelm" source="salome" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|cuntz" source="wilhelm" target="cuntz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|lorentz" source="wilhelm" target="lorentz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|ciliax" source="wilhelm" target="ciliax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cuntz|lorentz" source="cuntz" target="lorentz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cuntz|ciliax" source="cuntz" target="ciliax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reyen_1|reyen_2" source="reyen_1" target="reyen_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reyen_1|hymen" source="reyen_1" target="hymen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reyen_2|hymen" source="reyen_2" target="hymen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

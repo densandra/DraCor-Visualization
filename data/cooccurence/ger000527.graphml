@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="philippine">
+            <data key="label">Philippine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">725</data>
+        </node>
+        <node id="helmi">
+            <data key="label">Helmi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">217</data>
+        </node>
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">722</data>
+        </node>
+        <node id="fritz">
+            <data key="label">Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <node id="bebi">
+            <data key="label">Bebi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="fanny">
+            <data key="label">Fanny</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">41</data>
+        </node>
+        <node id="reisender">
+            <data key="label">Reisender</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">901</data>
+        </node>
+        <node id="heiter">
+            <data key="label">Heiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">106</data>
+        </node>
+        <node id="handlungsdiener">
+            <data key="label">Handlungsdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="may">
+            <data key="label">May</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1825</data>
+        </node>
+        <node id="verarmter">
+            <data key="label">Verarmter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">85</data>
+        </node>
+        <edge id="philippine|helmi" source="philippine" target="helmi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philippine|mutter" source="philippine" target="mutter">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="philippine|fritz" source="philippine" target="fritz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philippine|bebi" source="philippine" target="bebi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philippine|fanny" source="philippine" target="fanny">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philippine|reisender" source="philippine" target="reisender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippine|heiter" source="philippine" target="heiter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="philippine|handlungsdiener" source="philippine" target="handlungsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippine|may" source="philippine" target="may">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="helmi|fritz" source="helmi" target="fritz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="helmi|bebi" source="helmi" target="bebi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="helmi|mutter" source="helmi" target="mutter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="helmi|may" source="helmi" target="may">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="helmi|fanny" source="helmi" target="fanny">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helmi|heiter" source="helmi" target="heiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helmi|reisender" source="helmi" target="reisender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|fritz" source="mutter" target="fritz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mutter|bebi" source="mutter" target="bebi">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mutter|fanny" source="mutter" target="fanny">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mutter|reisender" source="mutter" target="reisender">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mutter|heiter" source="mutter" target="heiter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mutter|handlungsdiener" source="mutter" target="handlungsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|may" source="mutter" target="may">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="mutter|verarmter" source="mutter" target="verarmter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|bebi" source="fritz" target="bebi">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fritz|fanny" source="fritz" target="fanny">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fritz|may" source="fritz" target="may">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fritz|heiter" source="fritz" target="heiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bebi|fanny" source="bebi" target="fanny">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bebi|may" source="bebi" target="may">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bebi|heiter" source="bebi" target="heiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fanny|may" source="fanny" target="may">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fanny|heiter" source="fanny" target="heiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reisender|may" source="reisender" target="may">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heiter|may" source="heiter" target="may">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="may|verarmter" source="may" target="verarmter">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

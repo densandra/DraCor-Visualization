@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="henley">
+            <data key="label">Henley</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5521</data>
+        </node>
+        <node id="widston">
+            <data key="label">Widston</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">635</data>
+        </node>
+        <node id="klerdon">
+            <data key="label">Klerdon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7422</data>
+        </node>
+        <node id="truworth">
+            <data key="label">Truworth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">629</data>
+        </node>
+        <node id="granville">
+            <data key="label">Granville</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3919</data>
+        </node>
+        <node id="amalia">
+            <data key="label">Amalia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1414</data>
+        </node>
+        <edge id="henley|widston" source="henley" target="widston">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="henley|klerdon" source="henley" target="klerdon">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="henley|granville" source="henley" target="granville">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klerdon|truworth" source="klerdon" target="truworth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klerdon|granville" source="klerdon" target="granville">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="klerdon|amalia" source="klerdon" target="amalia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="granville|amalia" source="granville" target="amalia">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

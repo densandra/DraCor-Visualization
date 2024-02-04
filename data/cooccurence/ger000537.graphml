@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="narraboth">
+            <data key="label">Narraboth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">219</data>
+        </node>
+        <node id="page">
+            <data key="label">Page</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">89</data>
+        </node>
+        <node id="erster_soldat">
+            <data key="label">Erster Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">108</data>
+        </node>
+        <node id="zweiter_soldat">
+            <data key="label">Zweiter Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">79</data>
+        </node>
+        <node id="jochanaan">
+            <data key="label">Jochanaan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">736</data>
+        </node>
+        <node id="ein_cappadocier">
+            <data key="label">Ein Cappadocier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="salome">
+            <data key="label">Salome</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1703</data>
+        </node>
+        <node id="sklave">
+            <data key="label">Sklave</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="herodes">
+            <data key="label">Herodes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1466</data>
+        </node>
+        <node id="herodias">
+            <data key="label">Herodias</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">370</data>
+        </node>
+        <node id="erster_jude">
+            <data key="label">Erster Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">165</data>
+        </node>
+        <node id="zweiter_jude">
+            <data key="label">Zweiter Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">79</data>
+        </node>
+        <node id="dritter_jude">
+            <data key="label">Dritter Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">77</data>
+        </node>
+        <node id="vierter_jude">
+            <data key="label">Vierter Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="fuenfter_jude">
+            <data key="label">Fünfter Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">67</data>
+        </node>
+        <node id="erster_nazarener">
+            <data key="label">Erster Nazarener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">98</data>
+        </node>
+        <node id="zweiter_nazarener">
+            <data key="label">Zweiter Nazarener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <edge id="narraboth|page" source="narraboth" target="page">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="narraboth|erster_soldat" source="narraboth" target="erster_soldat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="narraboth|zweiter_soldat" source="narraboth" target="zweiter_soldat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="narraboth|jochanaan" source="narraboth" target="jochanaan">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="narraboth|ein_cappadocier" source="narraboth" target="ein_cappadocier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="narraboth|salome" source="narraboth" target="salome">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="narraboth|sklave" source="narraboth" target="sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="page|erster_soldat" source="page" target="erster_soldat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="page|zweiter_soldat" source="page" target="zweiter_soldat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="page|jochanaan" source="page" target="jochanaan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="page|ein_cappadocier" source="page" target="ein_cappadocier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="page|salome" source="page" target="salome">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="page|sklave" source="page" target="sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|zweiter_soldat" source="erster_soldat" target="zweiter_soldat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_soldat|jochanaan" source="erster_soldat" target="jochanaan">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_soldat|ein_cappadocier" source="erster_soldat" target="ein_cappadocier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|salome" source="erster_soldat" target="salome">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_soldat|sklave" source="erster_soldat" target="sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|herodes" source="erster_soldat" target="herodes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|herodias" source="erster_soldat" target="herodias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|erster_jude" source="erster_soldat" target="erster_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|zweiter_jude" source="erster_soldat" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|dritter_jude" source="erster_soldat" target="dritter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|vierter_jude" source="erster_soldat" target="vierter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|fuenfter_jude" source="erster_soldat" target="fuenfter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|erster_nazarener" source="erster_soldat" target="erster_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|zweiter_nazarener" source="erster_soldat" target="zweiter_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_soldat|jochanaan" source="zweiter_soldat" target="jochanaan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_soldat|ein_cappadocier" source="zweiter_soldat" target="ein_cappadocier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_soldat|salome" source="zweiter_soldat" target="salome">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_soldat|sklave" source="zweiter_soldat" target="sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jochanaan|ein_cappadocier" source="jochanaan" target="ein_cappadocier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jochanaan|salome" source="jochanaan" target="salome">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jochanaan|sklave" source="jochanaan" target="sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jochanaan|herodes" source="jochanaan" target="herodes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jochanaan|herodias" source="jochanaan" target="herodias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jochanaan|erster_jude" source="jochanaan" target="erster_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jochanaan|zweiter_jude" source="jochanaan" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jochanaan|dritter_jude" source="jochanaan" target="dritter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jochanaan|vierter_jude" source="jochanaan" target="vierter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jochanaan|fuenfter_jude" source="jochanaan" target="fuenfter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jochanaan|erster_nazarener" source="jochanaan" target="erster_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jochanaan|zweiter_nazarener" source="jochanaan" target="zweiter_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salome|sklave" source="salome" target="sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salome|herodes" source="salome" target="herodes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salome|herodias" source="salome" target="herodias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salome|erster_jude" source="salome" target="erster_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salome|zweiter_jude" source="salome" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salome|dritter_jude" source="salome" target="dritter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salome|vierter_jude" source="salome" target="vierter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salome|fuenfter_jude" source="salome" target="fuenfter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salome|erster_nazarener" source="salome" target="erster_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salome|zweiter_nazarener" source="salome" target="zweiter_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodes|herodias" source="herodes" target="herodias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodes|erster_jude" source="herodes" target="erster_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodes|zweiter_jude" source="herodes" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodes|dritter_jude" source="herodes" target="dritter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodes|vierter_jude" source="herodes" target="vierter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodes|fuenfter_jude" source="herodes" target="fuenfter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodes|erster_nazarener" source="herodes" target="erster_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodes|zweiter_nazarener" source="herodes" target="zweiter_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodias|erster_jude" source="herodias" target="erster_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodias|zweiter_jude" source="herodias" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodias|dritter_jude" source="herodias" target="dritter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodias|vierter_jude" source="herodias" target="vierter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodias|fuenfter_jude" source="herodias" target="fuenfter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodias|erster_nazarener" source="herodias" target="erster_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herodias|zweiter_nazarener" source="herodias" target="zweiter_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_jude|zweiter_jude" source="erster_jude" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_jude|dritter_jude" source="erster_jude" target="dritter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_jude|vierter_jude" source="erster_jude" target="vierter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_jude|fuenfter_jude" source="erster_jude" target="fuenfter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_jude|erster_nazarener" source="erster_jude" target="erster_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_jude|zweiter_nazarener" source="erster_jude" target="zweiter_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_jude|dritter_jude" source="zweiter_jude" target="dritter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_jude|vierter_jude" source="zweiter_jude" target="vierter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_jude|fuenfter_jude" source="zweiter_jude" target="fuenfter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_jude|erster_nazarener" source="zweiter_jude" target="erster_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_jude|zweiter_nazarener" source="zweiter_jude" target="zweiter_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_jude|vierter_jude" source="dritter_jude" target="vierter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_jude|fuenfter_jude" source="dritter_jude" target="fuenfter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_jude|erster_nazarener" source="dritter_jude" target="erster_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_jude|zweiter_nazarener" source="dritter_jude" target="zweiter_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_jude|fuenfter_jude" source="vierter_jude" target="fuenfter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_jude|erster_nazarener" source="vierter_jude" target="erster_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_jude|zweiter_nazarener" source="vierter_jude" target="zweiter_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfter_jude|erster_nazarener" source="fuenfter_jude" target="erster_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfter_jude|zweiter_nazarener" source="fuenfter_jude" target="zweiter_nazarener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_nazarener|zweiter_nazarener" source="erster_nazarener" target="zweiter_nazarener">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

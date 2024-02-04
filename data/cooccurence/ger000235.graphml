@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sekretaer">
+            <data key="label">Sekretär Ahlden</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2261</data>
+        </node>
+        <node id="oberkommissaer">
+            <data key="label">Oberkommissär</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3003</data>
+        </node>
+        <node id="ruhberg_vater">
+            <data key="label">Ruhberg Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3197</data>
+        </node>
+        <node id="christian">
+            <data key="label">Christian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1024</data>
+        </node>
+        <node id="louise">
+            <data key="label">Louise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1243</data>
+        </node>
+        <node id="madame_ruhberg">
+            <data key="label">Madame Ruhberg</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1955</data>
+        </node>
+        <node id="salomon">
+            <data key="label">Salomon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">270</data>
+        </node>
+        <node id="ladendiener">
+            <data key="label">Ladendiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="henriette">
+            <data key="label">Henriette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">77</data>
+        </node>
+        <node id="ruhberg_der_sohn">
+            <data key="label">Ruhberg der Sohn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2894</data>
+        </node>
+        <node id="baron">
+            <data key="label">Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1106</data>
+        </node>
+        <node id="haushofmeister">
+            <data key="label">Haushofmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">408</data>
+        </node>
+        <node id="gerichtsdiener">
+            <data key="label">Gerichtsdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="hofrath">
+            <data key="label">Hofrath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">61</data>
+        </node>
+        <node id="hofraethin">
+            <data key="label">Hofräthin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">51</data>
+        </node>
+        <node id="doktor">
+            <data key="label">Doktor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">89</data>
+        </node>
+        <edge id="sekretaer|oberkommissaer" source="sekretaer" target="oberkommissaer">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="sekretaer|christian" source="sekretaer" target="christian">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sekretaer|ruhberg_vater" source="sekretaer" target="ruhberg_vater">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sekretaer|louise" source="sekretaer" target="louise">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="sekretaer|haushofmeister" source="sekretaer" target="haushofmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sekretaer|ruhberg_der_sohn" source="sekretaer" target="ruhberg_der_sohn">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="sekretaer|madame_ruhberg" source="sekretaer" target="madame_ruhberg">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="sekretaer|hofrath" source="sekretaer" target="hofrath">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sekretaer|hofraethin" source="sekretaer" target="hofraethin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="oberkommissaer|ruhberg_vater" source="oberkommissaer" target="ruhberg_vater">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="oberkommissaer|madame_ruhberg" source="oberkommissaer" target="madame_ruhberg">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="oberkommissaer|louise" source="oberkommissaer" target="louise">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="oberkommissaer|hofrath" source="oberkommissaer" target="hofrath">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="oberkommissaer|hofraethin" source="oberkommissaer" target="hofraethin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="oberkommissaer|ruhberg_der_sohn" source="oberkommissaer" target="ruhberg_der_sohn">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ruhberg_vater|christian" source="ruhberg_vater" target="christian">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ruhberg_vater|louise" source="ruhberg_vater" target="louise">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ruhberg_vater|madame_ruhberg" source="ruhberg_vater" target="madame_ruhberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ruhberg_vater|ruhberg_der_sohn" source="ruhberg_vater" target="ruhberg_der_sohn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="christian|salomon" source="christian" target="salomon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christian|ladendiener" source="christian" target="ladendiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christian|henriette" source="christian" target="henriette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christian|ruhberg_der_sohn" source="christian" target="ruhberg_der_sohn">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="christian|louise" source="christian" target="louise">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christian|madame_ruhberg" source="christian" target="madame_ruhberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christian|haushofmeister" source="christian" target="haushofmeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="christian|baron" source="christian" target="baron">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="christian|gerichtsdiener" source="christian" target="gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christian|doktor" source="christian" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="louise|ruhberg_der_sohn" source="louise" target="ruhberg_der_sohn">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="louise|baron" source="louise" target="baron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="louise|madame_ruhberg" source="louise" target="madame_ruhberg">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="louise|hofrath" source="louise" target="hofrath">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="louise|hofraethin" source="louise" target="hofraethin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madame_ruhberg|ruhberg_der_sohn" source="madame_ruhberg" target="ruhberg_der_sohn">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="madame_ruhberg|baron" source="madame_ruhberg" target="baron">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="madame_ruhberg|hofrath" source="madame_ruhberg" target="hofrath">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madame_ruhberg|hofraethin" source="madame_ruhberg" target="hofraethin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="salomon|baron" source="salomon" target="baron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salomon|ruhberg_der_sohn" source="salomon" target="ruhberg_der_sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruhberg_der_sohn|baron" source="ruhberg_der_sohn" target="baron">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="ruhberg_der_sohn|gerichtsdiener" source="ruhberg_der_sohn" target="gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruhberg_der_sohn|haushofmeister" source="ruhberg_der_sohn" target="haushofmeister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ruhberg_der_sohn|hofrath" source="ruhberg_der_sohn" target="hofrath">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ruhberg_der_sohn|hofraethin" source="ruhberg_der_sohn" target="hofraethin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ruhberg_der_sohn|doktor" source="ruhberg_der_sohn" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|gerichtsdiener" source="baron" target="gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|haushofmeister" source="baron" target="haushofmeister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hofrath|hofraethin" source="hofrath" target="hofraethin">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

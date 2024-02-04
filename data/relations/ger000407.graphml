@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="kaiser">
+            <data key="label">Kaiser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kaiserin">
+            <data key="label">Kaiserin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kasper">
+            <data key="label">Kasper</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_ritter">
+            <data key="label">Der Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="matrosen">
+            <data key="label">Matrosen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_der_schlossgeister">
+            <data key="label">Chor der Schloßgeister</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="der_teufel">
+            <data key="label">Der Teufel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="menschen">
+            <data key="label">Menschen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="thiere">
+            <data key="label">Thiere</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="krokodill">
+            <data key="label">Krokodill</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="esel">
+            <data key="label">Esel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="affe">
+            <data key="label">Affe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ochs">
+            <data key="label">Ochs</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="biene">
+            <data key="label">Biene</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="huhn">
+            <data key="label">Huhn</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="weissfisch">
+            <data key="label">Weißfisch</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hirsch">
+            <data key="label">Hirsch</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hund">
+            <data key="label">Hund</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="storch">
+            <data key="label">Storch</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pferd">
+            <data key="label">Pferd</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_engel">
+            <data key="label">Die Engel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="matrose">
+            <data key="label">Matrose</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="kaiserin" target="kaiser">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="kasper" target="kaiser">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="matrosen" target="der_ritter">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

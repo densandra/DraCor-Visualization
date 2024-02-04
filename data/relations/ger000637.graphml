@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="fraeulein">
+            <data key="label">Fräulein Cornelia von Brodelwitz</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="betty">
+            <data key="label">Betty</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="luise">
+            <data key="label">Luise von Mellingen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rittmeister">
+            <data key="label">Rittmeister von Dorneck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="franz">
+            <data key="label">Franz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eduard">
+            <data key="label">Eduard von Mellingen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="luise" target="eduard">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="betty" target="fraeulein">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="luise" target="fraeulein">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="4" directed="false" source="eduard" target="fraeulein">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="5" directed="false" source="franz" target="rittmeister">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

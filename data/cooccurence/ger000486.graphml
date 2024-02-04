@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="madam_braun">
+            <data key="label">Madam Braun</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1070</data>
+        </node>
+        <node id="lenore">
+            <data key="label">Lenore</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">826</data>
+        </node>
+        <node id="natalie">
+            <data key="label">Natalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">353</data>
+        </node>
+        <node id="wilhelmine">
+            <data key="label">Wilhelmine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">285</data>
+        </node>
+        <node id="alle_pensionairs">
+            <data key="label">Alle Pensionairs</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="maulwurf">
+            <data key="label">Maulwurf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">331</data>
+        </node>
+        <node id="rose">
+            <data key="label">Rose</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">432</data>
+        </node>
+        <node id="hopsa">
+            <data key="label">Hopsa</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">240</data>
+        </node>
+        <edge id="madam_braun|lenore" source="madam_braun" target="lenore">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="madam_braun|natalie" source="madam_braun" target="natalie">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="madam_braun|wilhelmine" source="madam_braun" target="wilhelmine">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="madam_braun|alle_pensionairs" source="madam_braun" target="alle_pensionairs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madam_braun|maulwurf" source="madam_braun" target="maulwurf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="madam_braun|rose" source="madam_braun" target="rose">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="madam_braun|hopsa" source="madam_braun" target="hopsa">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lenore|natalie" source="lenore" target="natalie">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="lenore|wilhelmine" source="lenore" target="wilhelmine">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="lenore|alle_pensionairs" source="lenore" target="alle_pensionairs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lenore|hopsa" source="lenore" target="hopsa">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lenore|maulwurf" source="lenore" target="maulwurf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lenore|rose" source="lenore" target="rose">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="natalie|wilhelmine" source="natalie" target="wilhelmine">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="natalie|alle_pensionairs" source="natalie" target="alle_pensionairs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="natalie|hopsa" source="natalie" target="hopsa">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="natalie|maulwurf" source="natalie" target="maulwurf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="natalie|rose" source="natalie" target="rose">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wilhelmine|alle_pensionairs" source="wilhelmine" target="alle_pensionairs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|hopsa" source="wilhelmine" target="hopsa">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wilhelmine|maulwurf" source="wilhelmine" target="maulwurf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wilhelmine|rose" source="wilhelmine" target="rose">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="maulwurf|rose" source="maulwurf" target="rose">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="maulwurf|hopsa" source="maulwurf" target="hopsa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rose|hopsa" source="rose" target="hopsa">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

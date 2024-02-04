@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="schnaps">
+            <data key="label">Schnaps</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">930</data>
+        </node>
+        <node id="knallerpaller">
+            <data key="label">Knallerpaller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">804</data>
+        </node>
+        <node id="wirth">
+            <data key="label">Wirth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1006</data>
+        </node>
+        <node id="guerge">
+            <data key="label">Gürge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">424</data>
+        </node>
+        <node id="roese">
+            <data key="label">Röse</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">451</data>
+        </node>
+        <node id="einer_von_den_bauern">
+            <data key="label">Einer von den Bauern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">32</data>
+        </node>
+        <node id="bauern">
+            <data key="label">Bauern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <edge id="schnaps|knallerpaller" source="schnaps" target="knallerpaller">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="schnaps|wirth" source="schnaps" target="wirth">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schnaps|guerge" source="schnaps" target="guerge">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schnaps|roese" source="schnaps" target="roese">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="knallerpaller|wirth" source="knallerpaller" target="wirth">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="knallerpaller|guerge" source="knallerpaller" target="guerge">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="knallerpaller|roese" source="knallerpaller" target="roese">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wirth|guerge" source="wirth" target="guerge">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wirth|roese" source="wirth" target="roese">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wirth|einer_von_den_bauern" source="wirth" target="einer_von_den_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirth|bauern" source="wirth" target="bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guerge|roese" source="guerge" target="roese">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="einer_von_den_bauern|bauern" source="einer_von_den_bauern" target="bauern">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

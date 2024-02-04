@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="baron">
+            <data key="label">Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1014</data>
+        </node>
+        <node id="frau_von_berg">
+            <data key="label">Frau von Berg</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">623</data>
+        </node>
+        <node id="malchen">
+            <data key="label">Malchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">409</data>
+        </node>
+        <node id="hans">
+            <data key="label">Hans</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">598</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1693</data>
+        </node>
+        <node id="fuerst">
+            <data key="label">Fürst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">549</data>
+        </node>
+        <edge id="baron|frau_von_berg" source="baron" target="frau_von_berg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baron|malchen" source="baron" target="malchen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baron|karl" source="baron" target="karl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baron|fuerst" source="baron" target="fuerst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baron|hans" source="baron" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_berg|malchen" source="frau_von_berg" target="malchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_berg|karl" source="frau_von_berg" target="karl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_berg|fuerst" source="frau_von_berg" target="fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_berg|hans" source="frau_von_berg" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="malchen|hans" source="malchen" target="hans">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="malchen|karl" source="malchen" target="karl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="malchen|fuerst" source="malchen" target="fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|karl" source="hans" target="karl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|fuerst" source="hans" target="fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|fuerst" source="karl" target="fuerst">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="packan">
+            <data key="label">Packan</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">303</data>
+        </node>
+        <node id="jaeger">
+            <data key="label">Jäger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">140</data>
+        </node>
+        <node id="haescher">
+            <data key="label">Häscher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">112</data>
+        </node>
+        <node id="schlachter">
+            <data key="label">Schlachter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">216</data>
+        </node>
+        <node id="herr_von_albern">
+            <data key="label">Herr von Albern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">526</data>
+        </node>
+        <node id="buettel">
+            <data key="label">Büttel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">63</data>
+        </node>
+        <node id="fiffi">
+            <data key="label">Fiffi</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">258</data>
+        </node>
+        <node id="buerger">
+            <data key="label">Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">122</data>
+        </node>
+        <node id="krueger">
+            <data key="label">Krüger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">154</data>
+        </node>
+        <node id="philax">
+            <data key="label">Philax</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">53</data>
+        </node>
+        <node id="itzig">
+            <data key="label">Itzig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">147</data>
+        </node>
+        <node id="wachtel">
+            <data key="label">Wachtel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">188</data>
+        </node>
+        <edge id="packan|jaeger" source="packan" target="jaeger">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="packan|haescher" source="packan" target="haescher">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="packan|schlachter" source="packan" target="schlachter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="packan|herr_von_albern" source="packan" target="herr_von_albern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jaeger|haescher" source="jaeger" target="haescher">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jaeger|schlachter" source="jaeger" target="schlachter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jaeger|herr_von_albern" source="jaeger" target="herr_von_albern">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="jaeger|buettel" source="jaeger" target="buettel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jaeger|fiffi" source="jaeger" target="fiffi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jaeger|krueger" source="jaeger" target="krueger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jaeger|philax" source="jaeger" target="philax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haescher|schlachter" source="haescher" target="schlachter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haescher|herr_von_albern" source="haescher" target="herr_von_albern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haescher|buettel" source="haescher" target="buettel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlachter|herr_von_albern" source="schlachter" target="herr_von_albern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_albern|buettel" source="herr_von_albern" target="buettel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_von_albern|fiffi" source="herr_von_albern" target="fiffi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_von_albern|buerger" source="herr_von_albern" target="buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_albern|krueger" source="herr_von_albern" target="krueger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_albern|philax" source="herr_von_albern" target="philax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_albern|itzig" source="herr_von_albern" target="itzig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_albern|wachtel" source="herr_von_albern" target="wachtel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buettel|buerger" source="buettel" target="buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buettel|fiffi" source="buettel" target="fiffi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiffi|buerger" source="fiffi" target="buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krueger|philax" source="krueger" target="philax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="itzig|wachtel" source="itzig" target="wachtel">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

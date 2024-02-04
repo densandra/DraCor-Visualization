@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="lorenz">
+            <data key="label">Lorenz Kindlein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3371</data>
+        </node>
+        <node id="susanne">
+            <data key="label">Frau Susanne</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1115</data>
+        </node>
+        <node id="therese">
+            <data key="label">Therese</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">682</data>
+        </node>
+        <node id="kellner">
+            <data key="label">Kellner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="julius">
+            <data key="label">Julius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">235</data>
+        </node>
+        <edge id="lorenz|susanne" source="lorenz" target="susanne">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lorenz|therese" source="lorenz" target="therese">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lorenz|kellner" source="lorenz" target="kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|julius" source="lorenz" target="julius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|therese" source="susanne" target="therese">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|kellner" source="therese" target="kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|julius" source="therese" target="julius">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

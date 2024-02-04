@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="schulmeister">
+            <data key="label">Schulmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1184</data>
+        </node>
+        <node id="pachter">
+            <data key="label">Pachter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">834</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">123</data>
+        </node>
+        <node id="lieschen">
+            <data key="label">Lieschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">552</data>
+        </node>
+        <node id="rose">
+            <data key="label">Rose</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">421</data>
+        </node>
+        <node id="hans">
+            <data key="label">Hans</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">909</data>
+        </node>
+        <node id="einige_alte">
+            <data key="label">Einige Alte</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="einige_schnitter">
+            <data key="label">Einige Schnitter</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="ein_andrer">
+            <data key="label">Ein Andrer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="ein_maedchen">
+            <data key="label">Ein Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="eine_andre">
+            <data key="label">Eine Andre</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <edge id="schulmeister|pachter" source="schulmeister" target="pachter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schulmeister|chor" source="schulmeister" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|lieschen" source="schulmeister" target="lieschen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulmeister|rose" source="schulmeister" target="rose">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulmeister|hans" source="schulmeister" target="hans">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schulmeister|einige_alte" source="schulmeister" target="einige_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|einige_schnitter" source="schulmeister" target="einige_schnitter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|ein_andrer" source="schulmeister" target="ein_andrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|ein_maedchen" source="schulmeister" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|eine_andre" source="schulmeister" target="eine_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pachter|chor" source="pachter" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pachter|lieschen" source="pachter" target="lieschen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pachter|rose" source="pachter" target="rose">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pachter|hans" source="pachter" target="hans">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pachter|einige_alte" source="pachter" target="einige_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pachter|einige_schnitter" source="pachter" target="einige_schnitter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pachter|ein_andrer" source="pachter" target="ein_andrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pachter|ein_maedchen" source="pachter" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pachter|eine_andre" source="pachter" target="eine_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|lieschen" source="chor" target="lieschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|rose" source="chor" target="rose">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|hans" source="chor" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|einige_alte" source="chor" target="einige_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|einige_schnitter" source="chor" target="einige_schnitter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|ein_andrer" source="chor" target="ein_andrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|ein_maedchen" source="chor" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|eine_andre" source="chor" target="eine_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|rose" source="lieschen" target="rose">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lieschen|hans" source="lieschen" target="hans">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lieschen|einige_alte" source="lieschen" target="einige_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|einige_schnitter" source="lieschen" target="einige_schnitter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|ein_andrer" source="lieschen" target="ein_andrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|ein_maedchen" source="lieschen" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieschen|eine_andre" source="lieschen" target="eine_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rose|hans" source="rose" target="hans">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rose|einige_alte" source="rose" target="einige_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rose|einige_schnitter" source="rose" target="einige_schnitter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rose|ein_andrer" source="rose" target="ein_andrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rose|ein_maedchen" source="rose" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rose|eine_andre" source="rose" target="eine_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|einige_alte" source="hans" target="einige_alte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|einige_schnitter" source="hans" target="einige_schnitter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|ein_andrer" source="hans" target="ein_andrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|ein_maedchen" source="hans" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|eine_andre" source="hans" target="eine_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_alte|einige_schnitter" source="einige_alte" target="einige_schnitter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_alte|ein_andrer" source="einige_alte" target="ein_andrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_alte|ein_maedchen" source="einige_alte" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_alte|eine_andre" source="einige_alte" target="eine_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_schnitter|ein_andrer" source="einige_schnitter" target="ein_andrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_schnitter|ein_maedchen" source="einige_schnitter" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_schnitter|eine_andre" source="einige_schnitter" target="eine_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_andrer|ein_maedchen" source="ein_andrer" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_andrer|eine_andre" source="ein_andrer" target="eine_andre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_maedchen|eine_andre" source="ein_maedchen" target="eine_andre">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sylvester">
+            <data key="label">Sylvester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2305</data>
+        </node>
+        <node id="fortunat">
+            <data key="label">Fortunat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3909</data>
+        </node>
+        <node id="cathrine">
+            <data key="label">Cathrine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1552</data>
+        </node>
+        <node id="friedrich">
+            <data key="label">Friedrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">553</data>
+        </node>
+        <node id="frau_sylvesterinn">
+            <data key="label">Frau Sylvesterinn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6568</data>
+        </node>
+        <node id="strom">
+            <data key="label">Strom</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1606</data>
+        </node>
+        <node id="fiekchen">
+            <data key="label">Fiekchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1366</data>
+        </node>
+        <node id="goldschmidtsjunge">
+            <data key="label">Goldschmidtsjunge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">79</data>
+        </node>
+        <node id="tabletkraemer">
+            <data key="label">Tabletkrämer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">72</data>
+        </node>
+        <node id="lackey">
+            <data key="label">Lackey</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">47</data>
+        </node>
+        <node id="materialistenjunge">
+            <data key="label">Materialistenjunge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="richardinn">
+            <data key="label">Richardinn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1083</data>
+        </node>
+        <node id="lieschen">
+            <data key="label">Lieschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1537</data>
+        </node>
+        <node id="renner">
+            <data key="label">Renner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">429</data>
+        </node>
+        <node id="sorger">
+            <data key="label">Sorger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">485</data>
+        </node>
+        <edge id="sylvester|fortunat" source="sylvester" target="fortunat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sylvester|richardinn" source="sylvester" target="richardinn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sylvester|lieschen" source="sylvester" target="lieschen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sylvester|frau_sylvesterinn" source="sylvester" target="frau_sylvesterinn">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sylvester|fiekchen" source="sylvester" target="fiekchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sylvester|renner" source="sylvester" target="renner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fortunat|cathrine" source="fortunat" target="cathrine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fortunat|friedrich" source="fortunat" target="friedrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fortunat|frau_sylvesterinn" source="fortunat" target="frau_sylvesterinn">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="fortunat|lieschen" source="fortunat" target="lieschen">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="fortunat|richardinn" source="fortunat" target="richardinn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fortunat|strom" source="fortunat" target="strom">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fortunat|renner" source="fortunat" target="renner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="cathrine|frau_sylvesterinn" source="cathrine" target="frau_sylvesterinn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cathrine|friedrich" source="cathrine" target="friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cathrine|fiekchen" source="cathrine" target="fiekchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|frau_sylvesterinn" source="friedrich" target="frau_sylvesterinn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="friedrich|fiekchen" source="friedrich" target="fiekchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="friedrich|lieschen" source="friedrich" target="lieschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friedrich|richardinn" source="friedrich" target="richardinn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_sylvesterinn|strom" source="frau_sylvesterinn" target="strom">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_sylvesterinn|fiekchen" source="frau_sylvesterinn" target="fiekchen">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="frau_sylvesterinn|goldschmidtsjunge" source="frau_sylvesterinn" target="goldschmidtsjunge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_sylvesterinn|tabletkraemer" source="frau_sylvesterinn" target="tabletkraemer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_sylvesterinn|lackey" source="frau_sylvesterinn" target="lackey">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_sylvesterinn|materialistenjunge" source="frau_sylvesterinn" target="materialistenjunge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_sylvesterinn|richardinn" source="frau_sylvesterinn" target="richardinn">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="frau_sylvesterinn|lieschen" source="frau_sylvesterinn" target="lieschen">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="frau_sylvesterinn|renner" source="frau_sylvesterinn" target="renner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_sylvesterinn|sorger" source="frau_sylvesterinn" target="sorger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="strom|sorger" source="strom" target="sorger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strom|richardinn" source="strom" target="richardinn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strom|lieschen" source="strom" target="lieschen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="strom|renner" source="strom" target="renner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fiekchen|goldschmidtsjunge" source="fiekchen" target="goldschmidtsjunge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiekchen|tabletkraemer" source="fiekchen" target="tabletkraemer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiekchen|lackey" source="fiekchen" target="lackey">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiekchen|materialistenjunge" source="fiekchen" target="materialistenjunge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiekchen|richardinn" source="fiekchen" target="richardinn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fiekchen|lieschen" source="fiekchen" target="lieschen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fiekchen|renner" source="fiekchen" target="renner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="richardinn|lieschen" source="richardinn" target="lieschen">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="richardinn|renner" source="richardinn" target="renner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lieschen|renner" source="lieschen" target="renner">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

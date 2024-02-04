@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="frau_ermischer">
+            <data key="label">Frau Ermischer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1211</data>
+        </node>
+        <node id="maari">
+            <data key="label">Maari</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">127</data>
+        </node>
+        <node id="ermischer">
+            <data key="label">Ermischer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2308</data>
+        </node>
+        <node id="ulbrich">
+            <data key="label">Ulbrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1250</data>
+        </node>
+        <node id="seifert">
+            <data key="label">Seifert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1481</data>
+        </node>
+        <node id="weigel">
+            <data key="label">Gendarm Weigel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2311</data>
+        </node>
+        <node id="neubert">
+            <data key="label">Neubert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1557</data>
+        </node>
+        <node id="frau_neubert">
+            <data key="label">Frau Neubert</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">658</data>
+        </node>
+        <node id="neumerkel">
+            <data key="label">Neumerkel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1101</data>
+        </node>
+        <node id="heinerle">
+            <data key="label">Heinerle</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">156</data>
+        </node>
+        <node id="fraenzel">
+            <data key="label">Fränzel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">94</data>
+        </node>
+        <node id="liesel">
+            <data key="label">Liesel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">88</data>
+        </node>
+        <node id="frau_schoenherr">
+            <data key="label">Frau Schönherr</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">825</data>
+        </node>
+        <node id="gertrud">
+            <data key="label">Gertrud</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <node id="schoenherr">
+            <data key="label">Meister Schönherr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1090</data>
+        </node>
+        <node id="frau_ulbrich">
+            <data key="label">Frau Ulbrich</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">249</data>
+        </node>
+        <node id="frau_seifert">
+            <data key="label">Frau Seifert</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2024</data>
+        </node>
+        <node id="die_waldarbeiter">
+            <data key="label">Die Waldarbeiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">88</data>
+        </node>
+        <node id="ein_bauer">
+            <data key="label">Ein Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="die_schnitzler_schnitzlersleute">
+            <data key="label">Die Schnitzler/Schnitzlersleute</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">63</data>
+        </node>
+        <node id="die_bauern">
+            <data key="label">Die Bauern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">111</data>
+        </node>
+        <edge id="frau_ermischer|maari" source="frau_ermischer" target="maari">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ermischer|ermischer" source="frau_ermischer" target="ermischer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ermischer|ulbrich" source="frau_ermischer" target="ulbrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ermischer|seifert" source="frau_ermischer" target="seifert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ermischer|weigel" source="frau_ermischer" target="weigel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ermischer|neubert" source="frau_ermischer" target="neubert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ermischer|frau_neubert" source="frau_ermischer" target="frau_neubert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ermischer|neumerkel" source="frau_ermischer" target="neumerkel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maari|ermischer" source="maari" target="ermischer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maari|ulbrich" source="maari" target="ulbrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maari|seifert" source="maari" target="seifert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maari|weigel" source="maari" target="weigel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maari|neubert" source="maari" target="neubert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maari|frau_neubert" source="maari" target="frau_neubert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maari|neumerkel" source="maari" target="neumerkel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ermischer|ulbrich" source="ermischer" target="ulbrich">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ermischer|seifert" source="ermischer" target="seifert">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ermischer|weigel" source="ermischer" target="weigel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ermischer|neubert" source="ermischer" target="neubert">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ermischer|frau_neubert" source="ermischer" target="frau_neubert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ermischer|neumerkel" source="ermischer" target="neumerkel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ermischer|heinerle" source="ermischer" target="heinerle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ermischer|fraenzel" source="ermischer" target="fraenzel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ermischer|liesel" source="ermischer" target="liesel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ermischer|frau_schoenherr" source="ermischer" target="frau_schoenherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ermischer|gertrud" source="ermischer" target="gertrud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ermischer|schoenherr" source="ermischer" target="schoenherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ermischer|frau_ulbrich" source="ermischer" target="frau_ulbrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ermischer|frau_seifert" source="ermischer" target="frau_seifert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ermischer|die_waldarbeiter" source="ermischer" target="die_waldarbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ermischer|ein_bauer" source="ermischer" target="ein_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ermischer|die_schnitzler_schnitzlersleute" source="ermischer" target="die_schnitzler_schnitzlersleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ermischer|die_bauern" source="ermischer" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulbrich|seifert" source="ulbrich" target="seifert">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ulbrich|weigel" source="ulbrich" target="weigel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ulbrich|neubert" source="ulbrich" target="neubert">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ulbrich|frau_neubert" source="ulbrich" target="frau_neubert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ulbrich|neumerkel" source="ulbrich" target="neumerkel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ulbrich|heinerle" source="ulbrich" target="heinerle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulbrich|fraenzel" source="ulbrich" target="fraenzel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulbrich|liesel" source="ulbrich" target="liesel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulbrich|frau_schoenherr" source="ulbrich" target="frau_schoenherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ulbrich|gertrud" source="ulbrich" target="gertrud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulbrich|schoenherr" source="ulbrich" target="schoenherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ulbrich|frau_ulbrich" source="ulbrich" target="frau_ulbrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ulbrich|frau_seifert" source="ulbrich" target="frau_seifert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ulbrich|die_waldarbeiter" source="ulbrich" target="die_waldarbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulbrich|ein_bauer" source="ulbrich" target="ein_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulbrich|die_schnitzler_schnitzlersleute" source="ulbrich" target="die_schnitzler_schnitzlersleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ulbrich|die_bauern" source="ulbrich" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifert|weigel" source="seifert" target="weigel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="seifert|neubert" source="seifert" target="neubert">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="seifert|frau_neubert" source="seifert" target="frau_neubert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="seifert|neumerkel" source="seifert" target="neumerkel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="seifert|heinerle" source="seifert" target="heinerle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifert|fraenzel" source="seifert" target="fraenzel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifert|liesel" source="seifert" target="liesel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifert|frau_schoenherr" source="seifert" target="frau_schoenherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="seifert|gertrud" source="seifert" target="gertrud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifert|schoenherr" source="seifert" target="schoenherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="seifert|frau_ulbrich" source="seifert" target="frau_ulbrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="seifert|frau_seifert" source="seifert" target="frau_seifert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="seifert|die_waldarbeiter" source="seifert" target="die_waldarbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifert|ein_bauer" source="seifert" target="ein_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifert|die_schnitzler_schnitzlersleute" source="seifert" target="die_schnitzler_schnitzlersleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifert|die_bauern" source="seifert" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weigel|neubert" source="weigel" target="neubert">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="weigel|frau_neubert" source="weigel" target="frau_neubert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="weigel|neumerkel" source="weigel" target="neumerkel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="weigel|heinerle" source="weigel" target="heinerle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weigel|fraenzel" source="weigel" target="fraenzel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weigel|liesel" source="weigel" target="liesel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weigel|frau_schoenherr" source="weigel" target="frau_schoenherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="weigel|gertrud" source="weigel" target="gertrud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weigel|schoenherr" source="weigel" target="schoenherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="weigel|frau_ulbrich" source="weigel" target="frau_ulbrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="weigel|frau_seifert" source="weigel" target="frau_seifert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="weigel|die_waldarbeiter" source="weigel" target="die_waldarbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weigel|ein_bauer" source="weigel" target="ein_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weigel|die_schnitzler_schnitzlersleute" source="weigel" target="die_schnitzler_schnitzlersleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weigel|die_bauern" source="weigel" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neubert|frau_neubert" source="neubert" target="frau_neubert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="neubert|neumerkel" source="neubert" target="neumerkel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="neubert|heinerle" source="neubert" target="heinerle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neubert|fraenzel" source="neubert" target="fraenzel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neubert|liesel" source="neubert" target="liesel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neubert|frau_schoenherr" source="neubert" target="frau_schoenherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="neubert|gertrud" source="neubert" target="gertrud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neubert|schoenherr" source="neubert" target="schoenherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="neubert|frau_ulbrich" source="neubert" target="frau_ulbrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="neubert|frau_seifert" source="neubert" target="frau_seifert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="neubert|die_waldarbeiter" source="neubert" target="die_waldarbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neubert|ein_bauer" source="neubert" target="ein_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neubert|die_schnitzler_schnitzlersleute" source="neubert" target="die_schnitzler_schnitzlersleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neubert|die_bauern" source="neubert" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_neubert|neumerkel" source="frau_neubert" target="neumerkel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_neubert|heinerle" source="frau_neubert" target="heinerle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_neubert|fraenzel" source="frau_neubert" target="fraenzel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_neubert|liesel" source="frau_neubert" target="liesel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_neubert|frau_schoenherr" source="frau_neubert" target="frau_schoenherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_neubert|gertrud" source="frau_neubert" target="gertrud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_neubert|schoenherr" source="frau_neubert" target="schoenherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_neubert|frau_ulbrich" source="frau_neubert" target="frau_ulbrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neumerkel|heinerle" source="neumerkel" target="heinerle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neumerkel|fraenzel" source="neumerkel" target="fraenzel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neumerkel|liesel" source="neumerkel" target="liesel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neumerkel|frau_schoenherr" source="neumerkel" target="frau_schoenherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="neumerkel|gertrud" source="neumerkel" target="gertrud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neumerkel|schoenherr" source="neumerkel" target="schoenherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="neumerkel|frau_ulbrich" source="neumerkel" target="frau_ulbrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="neumerkel|frau_seifert" source="neumerkel" target="frau_seifert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="neumerkel|die_waldarbeiter" source="neumerkel" target="die_waldarbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neumerkel|ein_bauer" source="neumerkel" target="ein_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neumerkel|die_schnitzler_schnitzlersleute" source="neumerkel" target="die_schnitzler_schnitzlersleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neumerkel|die_bauern" source="neumerkel" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinerle|fraenzel" source="heinerle" target="fraenzel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinerle|liesel" source="heinerle" target="liesel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinerle|frau_schoenherr" source="heinerle" target="frau_schoenherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinerle|gertrud" source="heinerle" target="gertrud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinerle|schoenherr" source="heinerle" target="schoenherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinerle|frau_ulbrich" source="heinerle" target="frau_ulbrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraenzel|liesel" source="fraenzel" target="liesel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraenzel|frau_schoenherr" source="fraenzel" target="frau_schoenherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraenzel|gertrud" source="fraenzel" target="gertrud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraenzel|schoenherr" source="fraenzel" target="schoenherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fraenzel|frau_ulbrich" source="fraenzel" target="frau_ulbrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesel|frau_schoenherr" source="liesel" target="frau_schoenherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesel|gertrud" source="liesel" target="gertrud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesel|schoenherr" source="liesel" target="schoenherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesel|frau_ulbrich" source="liesel" target="frau_ulbrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_schoenherr|gertrud" source="frau_schoenherr" target="gertrud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_schoenherr|schoenherr" source="frau_schoenherr" target="schoenherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_schoenherr|frau_ulbrich" source="frau_schoenherr" target="frau_ulbrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_schoenherr|frau_seifert" source="frau_schoenherr" target="frau_seifert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gertrud|schoenherr" source="gertrud" target="schoenherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gertrud|frau_ulbrich" source="gertrud" target="frau_ulbrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schoenherr|frau_ulbrich" source="schoenherr" target="frau_ulbrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schoenherr|die_waldarbeiter" source="schoenherr" target="die_waldarbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schoenherr|ein_bauer" source="schoenherr" target="ein_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schoenherr|die_schnitzler_schnitzlersleute" source="schoenherr" target="die_schnitzler_schnitzlersleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schoenherr|die_bauern" source="schoenherr" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schoenherr|frau_seifert" source="schoenherr" target="frau_seifert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ulbrich|frau_seifert" source="frau_ulbrich" target="frau_seifert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_ulbrich|die_waldarbeiter" source="frau_ulbrich" target="die_waldarbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ulbrich|ein_bauer" source="frau_ulbrich" target="ein_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ulbrich|die_schnitzler_schnitzlersleute" source="frau_ulbrich" target="die_schnitzler_schnitzlersleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ulbrich|die_bauern" source="frau_ulbrich" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_seifert|die_waldarbeiter" source="frau_seifert" target="die_waldarbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_seifert|ein_bauer" source="frau_seifert" target="ein_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_seifert|die_schnitzler_schnitzlersleute" source="frau_seifert" target="die_schnitzler_schnitzlersleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_seifert|die_bauern" source="frau_seifert" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_waldarbeiter|ein_bauer" source="die_waldarbeiter" target="ein_bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_waldarbeiter|die_schnitzler_schnitzlersleute" source="die_waldarbeiter" target="die_schnitzler_schnitzlersleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_waldarbeiter|die_bauern" source="die_waldarbeiter" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bauer|die_schnitzler_schnitzlersleute" source="ein_bauer" target="die_schnitzler_schnitzlersleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bauer|die_bauern" source="ein_bauer" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_schnitzler_schnitzlersleute|die_bauern" source="die_schnitzler_schnitzlersleute" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

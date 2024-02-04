@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="elvire">
+            <data key="label">Elvire</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2352</data>
+        </node>
+        <node id="der_diener">
+            <data key="label">Der Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="jerta">
+            <data key="label">Jerta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2314</data>
+        </node>
+        <node id="otto">
+            <data key="label">Otto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1320</data>
+        </node>
+        <node id="kolbert">
+            <data key="label">Kolbert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">128</data>
+        </node>
+        <node id="holm">
+            <data key="label">Holm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">284</data>
+        </node>
+        <node id="hugo">
+            <data key="label">Hugo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4766</data>
+        </node>
+        <node id="valeros">
+            <data key="label">Valeros</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2080</data>
+        </node>
+        <edge id="elvire|der_diener" source="elvire" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elvire|jerta" source="elvire" target="jerta">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="elvire|otto" source="elvire" target="otto">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="elvire|kolbert" source="elvire" target="kolbert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="elvire|holm" source="elvire" target="holm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elvire|hugo" source="elvire" target="hugo">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="elvire|valeros" source="elvire" target="valeros">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="jerta|otto" source="jerta" target="otto">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jerta|kolbert" source="jerta" target="kolbert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jerta|holm" source="jerta" target="holm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jerta|hugo" source="jerta" target="hugo">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="jerta|valeros" source="jerta" target="valeros">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="otto|kolbert" source="otto" target="kolbert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto|hugo" source="otto" target="hugo">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="otto|valeros" source="otto" target="valeros">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hugo|valeros" source="hugo" target="valeros">
+            <data key="weight">6</data>
+        </edge>
+    </graph>
+</graphml>

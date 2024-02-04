@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="adelungen">
+            <data key="label">Ursmar von Adelungen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4986</data>
+        </node>
+        <node id="ullo">
+            <data key="label">Ullo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">695</data>
+        </node>
+        <node id="otto">
+            <data key="label">Otto von Schönborn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2384</data>
+        </node>
+        <node id="willibald">
+            <data key="label">Willibald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">162</data>
+        </node>
+        <node id="klara">
+            <data key="label">Klara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4849</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2912</data>
+        </node>
+        <node id="gotthard">
+            <data key="label">Gotthard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">114</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">125</data>
+        </node>
+        <node id="wolfgang">
+            <data key="label">Wolfgang</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">80</data>
+        </node>
+        <node id="einer_aus_ihnen_1-12">
+            <data key="label">Einer aus ihnen (I/12)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="viele_1-12">
+            <data key="label">Viele (I/12)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="bruno">
+            <data key="label">Bruno von Hildersweil</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3671</data>
+        </node>
+        <node id="robert">
+            <data key="label">Robert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">49</data>
+        </node>
+        <node id="die_bewaffneten_2-8">
+            <data key="label">Die Bewaffneten (II/8)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="ein_reisiger_4-3">
+            <data key="label">Ein Reisiger (IV/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="einer_der_reisigen_4-4">
+            <data key="label">Einer der Reisigen (IV/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="reisige_4-4">
+            <data key="label">Reisige (IV/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="die_uebrigen_reisigen_4-7">
+            <data key="label">Die übrigen Reisigen (IV/7)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <edge id="adelungen|ullo" source="adelungen" target="ullo">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="adelungen|otto" source="adelungen" target="otto">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="adelungen|willibald" source="adelungen" target="willibald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelungen|wolfgang" source="adelungen" target="wolfgang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelungen|heinrich" source="adelungen" target="heinrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="adelungen|bruno" source="adelungen" target="bruno">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="adelungen|klara" source="adelungen" target="klara">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="adelungen|die_bewaffneten_2-8" source="adelungen" target="die_bewaffneten_2-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelungen|robert" source="adelungen" target="robert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelungen|die_uebrigen_reisigen_4-7" source="adelungen" target="die_uebrigen_reisigen_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ullo|otto" source="ullo" target="otto">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ullo|einer_der_reisigen_4-4" source="ullo" target="einer_der_reisigen_4-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ullo|reisige_4-4" source="ullo" target="reisige_4-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ullo|die_uebrigen_reisigen_4-7" source="ullo" target="die_uebrigen_reisigen_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ullo|bruno" source="ullo" target="bruno">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="otto|willibald" source="otto" target="willibald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto|wolfgang" source="otto" target="wolfgang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto|ein_reisiger_4-3" source="otto" target="ein_reisiger_4-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto|einer_der_reisigen_4-4" source="otto" target="einer_der_reisigen_4-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto|reisige_4-4" source="otto" target="reisige_4-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto|die_uebrigen_reisigen_4-7" source="otto" target="die_uebrigen_reisigen_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto|bruno" source="otto" target="bruno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto|klara" source="otto" target="klara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto|heinrich" source="otto" target="heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|heinrich" source="klara" target="heinrich">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="klara|gotthard" source="klara" target="gotthard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|marie" source="klara" target="marie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="klara|wolfgang" source="klara" target="wolfgang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|einer_aus_ihnen_1-12" source="klara" target="einer_aus_ihnen_1-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|viele_1-12" source="klara" target="viele_1-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|bruno" source="klara" target="bruno">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="klara|die_bewaffneten_2-8" source="klara" target="die_bewaffneten_2-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|robert" source="klara" target="robert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich|gotthard" source="heinrich" target="gotthard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|einer_aus_ihnen_1-12" source="heinrich" target="einer_aus_ihnen_1-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|viele_1-12" source="heinrich" target="viele_1-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|bruno" source="heinrich" target="bruno">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="heinrich|robert" source="heinrich" target="robert">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="marie|wolfgang" source="marie" target="wolfgang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_aus_ihnen_1-12|viele_1-12" source="einer_aus_ihnen_1-12" target="viele_1-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruno|robert" source="bruno" target="robert">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="bruno|die_bewaffneten_2-8" source="bruno" target="die_bewaffneten_2-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruno|die_uebrigen_reisigen_4-7" source="bruno" target="die_uebrigen_reisigen_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_der_reisigen_4-4|reisige_4-4" source="einer_der_reisigen_4-4" target="reisige_4-4">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

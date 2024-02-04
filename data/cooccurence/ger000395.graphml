@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="herr_reinhart">
+            <data key="label">Herr Reinhart</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">707</data>
+        </node>
+        <node id="jungfer_lottchen">
+            <data key="label">Jungfer Lottchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1720</data>
+        </node>
+        <node id="der_junge_reinhart">
+            <data key="label">Der junge Reinhart</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1731</data>
+        </node>
+        <node id="herr_vielwitz">
+            <data key="label">Herr Vielwitz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1569</data>
+        </node>
+        <node id="paul">
+            <data key="label">Paul</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="herr_sinnreich">
+            <data key="label">Herr Sinnreich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">954</data>
+        </node>
+        <node id="herr_jambus">
+            <data key="label">Herr Jambus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">733</data>
+        </node>
+        <edge id="herr_reinhart|jungfer_lottchen" source="herr_reinhart" target="jungfer_lottchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfer_lottchen|der_junge_reinhart" source="jungfer_lottchen" target="der_junge_reinhart">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jungfer_lottchen|herr_vielwitz" source="jungfer_lottchen" target="herr_vielwitz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jungfer_lottchen|paul" source="jungfer_lottchen" target="paul">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfer_lottchen|herr_sinnreich" source="jungfer_lottchen" target="herr_sinnreich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jungfer_lottchen|herr_jambus" source="jungfer_lottchen" target="herr_jambus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_junge_reinhart|herr_vielwitz" source="der_junge_reinhart" target="herr_vielwitz">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="der_junge_reinhart|paul" source="der_junge_reinhart" target="paul">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_junge_reinhart|herr_sinnreich" source="der_junge_reinhart" target="herr_sinnreich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_junge_reinhart|herr_jambus" source="der_junge_reinhart" target="herr_jambus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_vielwitz|paul" source="herr_vielwitz" target="paul">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_vielwitz|herr_sinnreich" source="herr_vielwitz" target="herr_sinnreich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="herr_vielwitz|herr_jambus" source="herr_vielwitz" target="herr_jambus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="herr_sinnreich|herr_jambus" source="herr_sinnreich" target="herr_jambus">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

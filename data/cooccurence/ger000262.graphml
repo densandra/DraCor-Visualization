@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="madame_welldorf">
+            <data key="label">Madame Welldorf</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2875</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">144</data>
+        </node>
+        <node id="luise">
+            <data key="label">Luise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2993</data>
+        </node>
+        <node id="eduard">
+            <data key="label">Eduard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2962</data>
+        </node>
+        <node id="der_arzt">
+            <data key="label">Der Arzt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">305</data>
+        </node>
+        <node id="von_brink">
+            <data key="label">von Brink</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3377</data>
+        </node>
+        <node id="welldorf">
+            <data key="label">Welldorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">922</data>
+        </node>
+        <node id="der_bediente">
+            <data key="label">Der Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">46</data>
+        </node>
+        <node id="der_oberst">
+            <data key="label">Der Oberst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1167</data>
+        </node>
+        <node id="sergeant">
+            <data key="label">Sergeant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="wache">
+            <data key="label">Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <edge id="madame_welldorf|sophie" source="madame_welldorf" target="sophie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="madame_welldorf|luise" source="madame_welldorf" target="luise">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="madame_welldorf|eduard" source="madame_welldorf" target="eduard">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="madame_welldorf|der_arzt" source="madame_welldorf" target="der_arzt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="madame_welldorf|von_brink" source="madame_welldorf" target="von_brink">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="madame_welldorf|welldorf" source="madame_welldorf" target="welldorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="madame_welldorf|der_oberst" source="madame_welldorf" target="der_oberst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="madame_welldorf|sergeant" source="madame_welldorf" target="sergeant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madame_welldorf|wache" source="madame_welldorf" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|der_arzt" source="sophie" target="der_arzt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luise|eduard" source="luise" target="eduard">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="luise|der_arzt" source="luise" target="der_arzt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="luise|von_brink" source="luise" target="von_brink">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="luise|welldorf" source="luise" target="welldorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="luise|der_bediente" source="luise" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luise|der_oberst" source="luise" target="der_oberst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="luise|sergeant" source="luise" target="sergeant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="luise|wache" source="luise" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eduard|von_brink" source="eduard" target="von_brink">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eduard|welldorf" source="eduard" target="welldorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eduard|der_bediente" source="eduard" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eduard|der_oberst" source="eduard" target="der_oberst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eduard|sergeant" source="eduard" target="sergeant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eduard|wache" source="eduard" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_arzt|von_brink" source="der_arzt" target="von_brink">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_brink|der_oberst" source="von_brink" target="der_oberst">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="welldorf|der_oberst" source="welldorf" target="der_oberst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sergeant|wache" source="sergeant" target="wache">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

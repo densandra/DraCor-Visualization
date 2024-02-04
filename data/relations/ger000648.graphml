@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="martha">
+            <data key="label">Martha</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="susanne">
+            <data key="label">Susanne Helfrich</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="katharina">
+            <data key="label">Katharina Posinger</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="apollonia">
+            <data key="label">Apollonia Kramer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frauen_und_maedchen">
+            <data key="label">Frauen und Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="anna">
+            <data key="label">Anna Brand</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="elisabeth">
+            <data key="label">Elisabeth Brand</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lisa">
+            <data key="label">Lisa Schuck</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kaetchen_maiberger">
+            <data key="label">Kätchen Maiberger</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mehrere_arbeiterinnen">
+            <data key="label">Mehrere Arbeiterinnen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_anderes_maedchen">
+            <data key="label">Ein anderes Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_andere">
+            <data key="label">Eine Andere</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kommissar">
+            <data key="label">Polizeikommissar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="weidmann">
+            <data key="label">Alex Weidmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="scholl">
+            <data key="label">Martin Scholl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alice">
+            <data key="label">Alice Scholl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hausmaedchen">
+            <data key="label">Hausmädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nachbarin">
+            <data key="label">Nachbarin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schwester_clara">
+            <data key="label">Schwester Clara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="scholl" target="alice">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="hausmaedchen" target="scholl">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="susanne" target="martha">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

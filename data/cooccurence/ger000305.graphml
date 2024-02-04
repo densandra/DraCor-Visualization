@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="chor_alle_maedchen_und_pursche">
+            <data key="label">Chor/Alle (Mädchen und Pursche)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">101</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">782</data>
+        </node>
+        <node id="johann">
+            <data key="label">Johann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">319</data>
+        </node>
+        <node id="mehlwurm">
+            <data key="label">Mehlwurm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2000</data>
+        </node>
+        <node id="specht">
+            <data key="label">Specht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">487</data>
+        </node>
+        <node id="eulenspiegel">
+            <data key="label">Eulenspiegel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3429</data>
+        </node>
+        <node id="natzi">
+            <data key="label">Natzi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1934</data>
+        </node>
+        <node id="cordula">
+            <data key="label">Cordula</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">609</data>
+        </node>
+        <node id="lenchen">
+            <data key="label">Lenchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">321</data>
+        </node>
+        <node id="nelkenstein">
+            <data key="label">Nelkenstein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1370</data>
+        </node>
+        <node id="dorothea">
+            <data key="label">Dorothea</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">527</data>
+        </node>
+        <node id="friedrich">
+            <data key="label">Friedrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">88</data>
+        </node>
+        <node id="peppi">
+            <data key="label">Peppi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">251</data>
+        </node>
+        <node id="steffel">
+            <data key="label">Steffel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="sebastian">
+            <data key="label">Sebastian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="die_muehlknechte">
+            <data key="label">Die Mühlknechte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <node id="hans">
+            <data key="label">Hans</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">59</data>
+        </node>
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="die_maegde">
+            <data key="label">Die Mägde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <edge id="chor_alle_maedchen_und_pursche|nelkenstein" source="chor_alle_maedchen_und_pursche" target="nelkenstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_alle_maedchen_und_pursche|specht" source="chor_alle_maedchen_und_pursche" target="specht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_alle_maedchen_und_pursche|dorothea" source="chor_alle_maedchen_und_pursche" target="dorothea">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_alle_maedchen_und_pursche|natzi" source="chor_alle_maedchen_und_pursche" target="natzi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|johann" source="heinrich" target="johann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|mehlwurm" source="heinrich" target="mehlwurm">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="heinrich|eulenspiegel" source="heinrich" target="eulenspiegel">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="heinrich|nelkenstein" source="heinrich" target="nelkenstein">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="heinrich|friedrich" source="heinrich" target="friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|natzi" source="heinrich" target="natzi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich|lenchen" source="heinrich" target="lenchen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="heinrich|cordula" source="heinrich" target="cordula">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich|specht" source="heinrich" target="specht">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich|die_muehlknechte" source="heinrich" target="die_muehlknechte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich|dorothea" source="heinrich" target="dorothea">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann|nelkenstein" source="johann" target="nelkenstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann|steffel" source="johann" target="steffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann|sebastian" source="johann" target="sebastian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann|eulenspiegel" source="johann" target="eulenspiegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehlwurm|specht" source="mehlwurm" target="specht">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="mehlwurm|cordula" source="mehlwurm" target="cordula">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="mehlwurm|lenchen" source="mehlwurm" target="lenchen">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="mehlwurm|natzi" source="mehlwurm" target="natzi">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="mehlwurm|eulenspiegel" source="mehlwurm" target="eulenspiegel">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="mehlwurm|steffel" source="mehlwurm" target="steffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehlwurm|sebastian" source="mehlwurm" target="sebastian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehlwurm|die_muehlknechte" source="mehlwurm" target="die_muehlknechte">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mehlwurm|dorothea" source="mehlwurm" target="dorothea">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mehlwurm|hans" source="mehlwurm" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehlwurm|peppi" source="mehlwurm" target="peppi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehlwurm|die_maegde" source="mehlwurm" target="die_maegde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehlwurm|nelkenstein" source="mehlwurm" target="nelkenstein">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="specht|nelkenstein" source="specht" target="nelkenstein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="specht|dorothea" source="specht" target="dorothea">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="specht|natzi" source="specht" target="natzi">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="specht|hans" source="specht" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="specht|eulenspiegel" source="specht" target="eulenspiegel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="specht|cordula" source="specht" target="cordula">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="specht|lenchen" source="specht" target="lenchen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="specht|die_muehlknechte" source="specht" target="die_muehlknechte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eulenspiegel|lenchen" source="eulenspiegel" target="lenchen">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="eulenspiegel|cordula" source="eulenspiegel" target="cordula">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="eulenspiegel|natzi" source="eulenspiegel" target="natzi">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="eulenspiegel|nelkenstein" source="eulenspiegel" target="nelkenstein">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="eulenspiegel|die_muehlknechte" source="eulenspiegel" target="die_muehlknechte">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="eulenspiegel|friedrich" source="eulenspiegel" target="friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eulenspiegel|dorothea" source="eulenspiegel" target="dorothea">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eulenspiegel|peppi" source="eulenspiegel" target="peppi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eulenspiegel|die_maegde" source="eulenspiegel" target="die_maegde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="natzi|cordula" source="natzi" target="cordula">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="natzi|lenchen" source="natzi" target="lenchen">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="natzi|nelkenstein" source="natzi" target="nelkenstein">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="natzi|dorothea" source="natzi" target="dorothea">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="natzi|peppi" source="natzi" target="peppi">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="natzi|die_muehlknechte" source="natzi" target="die_muehlknechte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="natzi|die_maegde" source="natzi" target="die_maegde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cordula|lenchen" source="cordula" target="lenchen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="cordula|peppi" source="cordula" target="peppi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cordula|steffel" source="cordula" target="steffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cordula|sebastian" source="cordula" target="sebastian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cordula|nelkenstein" source="cordula" target="nelkenstein">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="cordula|dorothea" source="cordula" target="dorothea">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="cordula|die_muehlknechte" source="cordula" target="die_muehlknechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lenchen|peppi" source="lenchen" target="peppi">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lenchen|die_muehlknechte" source="lenchen" target="die_muehlknechte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lenchen|die_maegde" source="lenchen" target="die_maegde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lenchen|nelkenstein" source="lenchen" target="nelkenstein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lenchen|dorothea" source="lenchen" target="dorothea">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nelkenstein|dorothea" source="nelkenstein" target="dorothea">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nelkenstein|friedrich" source="nelkenstein" target="friedrich">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="nelkenstein|hans" source="nelkenstein" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nelkenstein|jakob" source="nelkenstein" target="jakob">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nelkenstein|die_muehlknechte" source="nelkenstein" target="die_muehlknechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dorothea|die_muehlknechte" source="dorothea" target="die_muehlknechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peppi|steffel" source="peppi" target="steffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peppi|sebastian" source="peppi" target="sebastian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peppi|die_muehlknechte" source="peppi" target="die_muehlknechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peppi|die_maegde" source="peppi" target="die_maegde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="steffel|sebastian" source="steffel" target="sebastian">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_muehlknechte|die_maegde" source="die_muehlknechte" target="die_maegde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|jakob" source="hans" target="jakob">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

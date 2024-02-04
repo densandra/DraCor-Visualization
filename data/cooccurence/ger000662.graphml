@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="la_sourdiere">
+            <data key="label">La Sourdiere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">451</data>
+        </node>
+        <node id="coronis">
+            <data key="label">Coronis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">488</data>
+        </node>
+        <node id="carondas">
+            <data key="label">Carondas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">312</data>
+        </node>
+        <node id="der_erste_damenspieler">
+            <data key="label">Der erste Damenspieler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">59</data>
+        </node>
+        <node id="der_zweyte_damenspieler">
+            <data key="label">Der zweyte Damenspieler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="der_ritter">
+            <data key="label">Der Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">763</data>
+        </node>
+        <node id="der_abt">
+            <data key="label">Der Abt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">370</data>
+        </node>
+        <node id="dorant">
+            <data key="label">Dorant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">679</data>
+        </node>
+        <node id="la_flesche">
+            <data key="label">La Flesche</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1263</data>
+        </node>
+        <node id="herr_jobelin">
+            <data key="label">Herr Jobelin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">728</data>
+        </node>
+        <node id="louischen">
+            <data key="label">Louischen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">387</data>
+        </node>
+        <node id="frau_jerome">
+            <data key="label">Frau Jerome</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">707</data>
+        </node>
+        <edge id="la_sourdiere|coronis" source="la_sourdiere" target="coronis">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="la_sourdiere|carondas" source="la_sourdiere" target="carondas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_sourdiere|der_erste_damenspieler" source="la_sourdiere" target="der_erste_damenspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_sourdiere|der_zweyte_damenspieler" source="la_sourdiere" target="der_zweyte_damenspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_sourdiere|der_abt" source="la_sourdiere" target="der_abt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_sourdiere|der_ritter" source="la_sourdiere" target="der_ritter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="la_sourdiere|herr_jobelin" source="la_sourdiere" target="herr_jobelin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="la_sourdiere|la_flesche" source="la_sourdiere" target="la_flesche">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="la_sourdiere|frau_jerome" source="la_sourdiere" target="frau_jerome">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="coronis|carondas" source="coronis" target="carondas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="coronis|der_erste_damenspieler" source="coronis" target="der_erste_damenspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="coronis|der_zweyte_damenspieler" source="coronis" target="der_zweyte_damenspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="coronis|der_abt" source="coronis" target="der_abt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="coronis|der_ritter" source="coronis" target="der_ritter">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="coronis|dorant" source="coronis" target="dorant">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="coronis|la_flesche" source="coronis" target="la_flesche">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="coronis|herr_jobelin" source="coronis" target="herr_jobelin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="coronis|louischen" source="coronis" target="louischen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="coronis|frau_jerome" source="coronis" target="frau_jerome">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carondas|der_erste_damenspieler" source="carondas" target="der_erste_damenspieler">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carondas|der_zweyte_damenspieler" source="carondas" target="der_zweyte_damenspieler">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carondas|der_ritter" source="carondas" target="der_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carondas|der_abt" source="carondas" target="der_abt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_damenspieler|der_zweyte_damenspieler" source="der_erste_damenspieler" target="der_zweyte_damenspieler">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_erste_damenspieler|der_ritter" source="der_erste_damenspieler" target="der_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_damenspieler|der_abt" source="der_erste_damenspieler" target="der_abt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweyte_damenspieler|der_ritter" source="der_zweyte_damenspieler" target="der_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweyte_damenspieler|der_abt" source="der_zweyte_damenspieler" target="der_abt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ritter|der_abt" source="der_ritter" target="der_abt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_ritter|dorant" source="der_ritter" target="dorant">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_ritter|la_flesche" source="der_ritter" target="la_flesche">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_ritter|herr_jobelin" source="der_ritter" target="herr_jobelin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_ritter|louischen" source="der_ritter" target="louischen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ritter|frau_jerome" source="der_ritter" target="frau_jerome">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_abt|dorant" source="der_abt" target="dorant">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_abt|herr_jobelin" source="der_abt" target="herr_jobelin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_abt|frau_jerome" source="der_abt" target="frau_jerome">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_abt|la_flesche" source="der_abt" target="la_flesche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dorant|la_flesche" source="dorant" target="la_flesche">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dorant|herr_jobelin" source="dorant" target="herr_jobelin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dorant|louischen" source="dorant" target="louischen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dorant|frau_jerome" source="dorant" target="frau_jerome">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="la_flesche|herr_jobelin" source="la_flesche" target="herr_jobelin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="la_flesche|frau_jerome" source="la_flesche" target="frau_jerome">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_jobelin|louischen" source="herr_jobelin" target="louischen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_jobelin|frau_jerome" source="herr_jobelin" target="frau_jerome">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="louischen|frau_jerome" source="louischen" target="frau_jerome">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

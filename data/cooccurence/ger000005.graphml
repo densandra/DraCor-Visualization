@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="valere">
+            <data key="label">Valere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2347</data>
+        </node>
+        <node id="hanswurst">
+            <data key="label">Hanswurst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3745</data>
+        </node>
+        <node id="hausmeister">
+            <data key="label">Hausmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1114</data>
+        </node>
+        <node id="friseur">
+            <data key="label">Friseur</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1570</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1495</data>
+        </node>
+        <node id="henriette">
+            <data key="label">Henriette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1371</data>
+        </node>
+        <node id="hasenkopf">
+            <data key="label">Herr von Hasenkopf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3764</data>
+        </node>
+        <node id="heinzenfeld">
+            <data key="label">Heinzenfeld</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">820</data>
+        </node>
+        <node id="alcantor">
+            <data key="label">Alcantor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2903</data>
+        </node>
+        <edge id="valere|hanswurst" source="valere" target="hanswurst">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="valere|hausmeister" source="valere" target="hausmeister">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="valere|friseur" source="valere" target="friseur">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="valere|henriette" source="valere" target="henriette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valere|lisette" source="valere" target="lisette">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="valere|alcantor" source="valere" target="alcantor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valere|hasenkopf" source="valere" target="hasenkopf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valere|heinzenfeld" source="valere" target="heinzenfeld">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hanswurst|hausmeister" source="hanswurst" target="hausmeister">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="hanswurst|friseur" source="hanswurst" target="friseur">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hanswurst|lisette" source="hanswurst" target="lisette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hanswurst|henriette" source="hanswurst" target="henriette">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hanswurst|heinzenfeld" source="hanswurst" target="heinzenfeld">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hanswurst|alcantor" source="hanswurst" target="alcantor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hanswurst|hasenkopf" source="hanswurst" target="hasenkopf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hausmeister|hasenkopf" source="hausmeister" target="hasenkopf">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="hausmeister|henriette" source="hausmeister" target="henriette">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hausmeister|lisette" source="hausmeister" target="lisette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hausmeister|friseur" source="hausmeister" target="friseur">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hausmeister|alcantor" source="hausmeister" target="alcantor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hausmeister|heinzenfeld" source="hausmeister" target="heinzenfeld">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="friseur|alcantor" source="friseur" target="alcantor">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="friseur|hasenkopf" source="friseur" target="hasenkopf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="friseur|heinzenfeld" source="friseur" target="heinzenfeld">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="friseur|henriette" source="friseur" target="henriette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="friseur|lisette" source="friseur" target="lisette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|henriette" source="lisette" target="henriette">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="lisette|hasenkopf" source="lisette" target="hasenkopf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lisette|heinzenfeld" source="lisette" target="heinzenfeld">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lisette|alcantor" source="lisette" target="alcantor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="henriette|hasenkopf" source="henriette" target="hasenkopf">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="henriette|heinzenfeld" source="henriette" target="heinzenfeld">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="henriette|alcantor" source="henriette" target="alcantor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hasenkopf|heinzenfeld" source="hasenkopf" target="heinzenfeld">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="hasenkopf|alcantor" source="hasenkopf" target="alcantor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinzenfeld|alcantor" source="heinzenfeld" target="alcantor">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

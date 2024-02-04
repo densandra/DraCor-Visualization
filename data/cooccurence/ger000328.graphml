@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="jacob">
+            <data key="label">Jacob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">435</data>
+        </node>
+        <node id="cathrine">
+            <data key="label">Cathrine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">689</data>
+        </node>
+        <node id="richard">
+            <data key="label">Richard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1283</data>
+        </node>
+        <node id="jungwitz">
+            <data key="label">Jungwitz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1450</data>
+        </node>
+        <node id="charlotte">
+            <data key="label">Charlotte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">403</data>
+        </node>
+        <node id="praatgern">
+            <data key="label">Frau Praatgern</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2043</data>
+        </node>
+        <node id="leonore">
+            <data key="label">Leonore</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">607</data>
+        </node>
+        <node id="laconius">
+            <data key="label">Laconius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">57</data>
+        </node>
+        <edge id="jacob|cathrine" source="jacob" target="cathrine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jacob|jungwitz" source="jacob" target="jungwitz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cathrine|charlotte" source="cathrine" target="charlotte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cathrine|jungwitz" source="cathrine" target="jungwitz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cathrine|laconius" source="cathrine" target="laconius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cathrine|praatgern" source="cathrine" target="praatgern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="richard|jungwitz" source="richard" target="jungwitz">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="richard|charlotte" source="richard" target="charlotte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="richard|praatgern" source="richard" target="praatgern">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="richard|leonore" source="richard" target="leonore">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="richard|laconius" source="richard" target="laconius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungwitz|charlotte" source="jungwitz" target="charlotte">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="jungwitz|praatgern" source="jungwitz" target="praatgern">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="jungwitz|leonore" source="jungwitz" target="leonore">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jungwitz|laconius" source="jungwitz" target="laconius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="charlotte|praatgern" source="charlotte" target="praatgern">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="charlotte|leonore" source="charlotte" target="leonore">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="charlotte|laconius" source="charlotte" target="laconius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praatgern|leonore" source="praatgern" target="leonore">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="praatgern|laconius" source="praatgern" target="laconius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonore|laconius" source="leonore" target="laconius">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="madame_hammel">
+            <data key="label">Madame Hammel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1268</data>
+        </node>
+        <node id="kohlentraeger">
+            <data key="label">Kohlenträger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="herr_hammel">
+            <data key="label">Herr Hammel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">705</data>
+        </node>
+        <node id="frenz">
+            <data key="label">Frenz</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2154</data>
+        </node>
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1681</data>
+        </node>
+        <node id="frau_hannlapps">
+            <data key="label">Frau Hannlapps</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">640</data>
+        </node>
+        <node id="dorthee">
+            <data key="label">Dorthee</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1064</data>
+        </node>
+        <node id="lissbeth">
+            <data key="label">Lißbeth</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">197</data>
+        </node>
+        <node id="susann">
+            <data key="label">Susann</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">142</data>
+        </node>
+        <node id="schwaebin">
+            <data key="label">Schwäbin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">114</data>
+        </node>
+        <node id="schmidt">
+            <data key="label">Schmidt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">67</data>
+        </node>
+        <edge id="madame_hammel|kohlentraeger" source="madame_hammel" target="kohlentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madame_hammel|herr_hammel" source="madame_hammel" target="herr_hammel">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="madame_hammel|frenz" source="madame_hammel" target="frenz">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="madame_hammel|frau_hannlapps" source="madame_hammel" target="frau_hannlapps">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madame_hammel|dorthee" source="madame_hammel" target="dorthee">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="madame_hammel|peter" source="madame_hammel" target="peter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="madame_hammel|schmidt" source="madame_hammel" target="schmidt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="madame_hammel|schwaebin" source="madame_hammel" target="schwaebin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="madame_hammel|susann" source="madame_hammel" target="susann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="madame_hammel|lissbeth" source="madame_hammel" target="lissbeth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_hammel|frenz" source="herr_hammel" target="frenz">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="herr_hammel|peter" source="herr_hammel" target="peter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="herr_hammel|dorthee" source="herr_hammel" target="dorthee">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="herr_hammel|frau_hannlapps" source="herr_hammel" target="frau_hannlapps">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_hammel|schmidt" source="herr_hammel" target="schmidt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_hammel|schwaebin" source="herr_hammel" target="schwaebin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_hammel|susann" source="herr_hammel" target="susann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_hammel|lissbeth" source="herr_hammel" target="lissbeth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frenz|peter" source="frenz" target="peter">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="frenz|frau_hannlapps" source="frenz" target="frau_hannlapps">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frenz|dorthee" source="frenz" target="dorthee">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="frenz|lissbeth" source="frenz" target="lissbeth">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="frenz|susann" source="frenz" target="susann">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="frenz|schwaebin" source="frenz" target="schwaebin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frenz|schmidt" source="frenz" target="schmidt">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="peter|lissbeth" source="peter" target="lissbeth">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="peter|dorthee" source="peter" target="dorthee">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="peter|susann" source="peter" target="susann">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="peter|schwaebin" source="peter" target="schwaebin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="peter|schmidt" source="peter" target="schmidt">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="peter|frau_hannlapps" source="peter" target="frau_hannlapps">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_hannlapps|dorthee" source="frau_hannlapps" target="dorthee">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_hannlapps|lissbeth" source="frau_hannlapps" target="lissbeth">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_hannlapps|schwaebin" source="frau_hannlapps" target="schwaebin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_hannlapps|schmidt" source="frau_hannlapps" target="schmidt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_hannlapps|susann" source="frau_hannlapps" target="susann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dorthee|lissbeth" source="dorthee" target="lissbeth">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="dorthee|susann" source="dorthee" target="susann">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="dorthee|schwaebin" source="dorthee" target="schwaebin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="dorthee|schmidt" source="dorthee" target="schmidt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lissbeth|susann" source="lissbeth" target="susann">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lissbeth|schwaebin" source="lissbeth" target="schwaebin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lissbeth|schmidt" source="lissbeth" target="schmidt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="susann|schwaebin" source="susann" target="schwaebin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="susann|schmidt" source="susann" target="schmidt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schwaebin|schmidt" source="schwaebin" target="schmidt">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

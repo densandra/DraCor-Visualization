@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="schnapps">
+            <data key="label">Schnapps</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1164</data>
+        </node>
+        <node id="knallerpaller">
+            <data key="label">Knallerpaller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2071</data>
+        </node>
+        <node id="maerten">
+            <data key="label">Märten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2009</data>
+        </node>
+        <node id="roese">
+            <data key="label">Röse</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">683</data>
+        </node>
+        <node id="herr_von_lilienstern">
+            <data key="label">Herr von Lilienstern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">542</data>
+        </node>
+        <node id="guerge">
+            <data key="label">Gürge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">480</data>
+        </node>
+        <edge id="schnapps|knallerpaller" source="schnapps" target="knallerpaller">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="schnapps|maerten" source="schnapps" target="maerten">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schnapps|roese" source="schnapps" target="roese">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schnapps|guerge" source="schnapps" target="guerge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schnapps|herr_von_lilienstern" source="schnapps" target="herr_von_lilienstern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knallerpaller|maerten" source="knallerpaller" target="maerten">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="knallerpaller|roese" source="knallerpaller" target="roese">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="knallerpaller|guerge" source="knallerpaller" target="guerge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knallerpaller|herr_von_lilienstern" source="knallerpaller" target="herr_von_lilienstern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maerten|roese" source="maerten" target="roese">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="maerten|guerge" source="maerten" target="guerge">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maerten|herr_von_lilienstern" source="maerten" target="herr_von_lilienstern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="roese|guerge" source="roese" target="guerge">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="roese|herr_von_lilienstern" source="roese" target="herr_von_lilienstern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_von_lilienstern|guerge" source="herr_von_lilienstern" target="guerge">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

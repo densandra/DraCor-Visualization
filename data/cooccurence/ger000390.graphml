@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="marianne">
+            <data key="label">Marianne</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8354</data>
+        </node>
+        <node id="onkel_ludwig">
+            <data key="label">Onkel Ludwig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9280</data>
+        </node>
+        <node id="georg">
+            <data key="label">Georg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16554</data>
+        </node>
+        <node id="dufroy">
+            <data key="label">Dufroy</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13352</data>
+        </node>
+        <node id="uexkuell">
+            <data key="label">Uexküll</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4152</data>
+        </node>
+        <node id="stimme">
+            <data key="label">Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="die_erscheinung">
+            <data key="label">Die Erscheinung</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">262</data>
+        </node>
+        <edge id="marianne|onkel_ludwig" source="marianne" target="onkel_ludwig">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="marianne|georg" source="marianne" target="georg">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="marianne|dufroy" source="marianne" target="dufroy">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="marianne|uexkuell" source="marianne" target="uexkuell">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marianne|stimme" source="marianne" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne|die_erscheinung" source="marianne" target="die_erscheinung">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="onkel_ludwig|georg" source="onkel_ludwig" target="georg">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="onkel_ludwig|dufroy" source="onkel_ludwig" target="dufroy">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="onkel_ludwig|uexkuell" source="onkel_ludwig" target="uexkuell">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="onkel_ludwig|stimme" source="onkel_ludwig" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="onkel_ludwig|die_erscheinung" source="onkel_ludwig" target="die_erscheinung">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="georg|dufroy" source="georg" target="dufroy">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="georg|uexkuell" source="georg" target="uexkuell">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="georg|stimme" source="georg" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="georg|die_erscheinung" source="georg" target="die_erscheinung">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dufroy|uexkuell" source="dufroy" target="uexkuell">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dufroy|stimme" source="dufroy" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dufroy|die_erscheinung" source="dufroy" target="die_erscheinung">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="uexkuell|stimme" source="uexkuell" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="uexkuell|die_erscheinung" source="uexkuell" target="die_erscheinung">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme|die_erscheinung" source="stimme" target="die_erscheinung">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

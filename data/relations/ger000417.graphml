@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="ulfo">
+            <data key="label">Ulfo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="estrithe">
+            <data key="label">Estrithe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gunilde">
+            <data key="label">Gunilde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="godewin">
+            <data key="label">Godewin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="canut">
+            <data key="label">Canut</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="haqvin">
+            <data key="label">Haqvin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="godschalk">
+            <data key="label">Godschalk</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="canut" target="estrithe">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="estrithe" target="gunilde">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="3" directed="false" source="estrithe" target="ulfo">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="4" directed="false" source="haqvin" target="canut">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="godewin" target="canut">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

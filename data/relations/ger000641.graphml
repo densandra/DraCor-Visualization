@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="campano">
+            <data key="label">Peter Campano</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="isabelle">
+            <data key="label">Isabelle</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lilli">
+            <data key="label">Lilli</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erstes_maedchen">
+            <data key="label">Erstes Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweites_maedchen">
+            <data key="label">Zweites Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="drittes_maedchen">
+            <data key="label">Drittes Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="benno">
+            <data key="label">Graf Benno</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="lilli" target="isabelle">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="2" directed="false" source="erstes_maedchen" target="lilli">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="zweites_maedchen" target="lilli">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="drittes_maedchen" target="lilli">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="campano" target="lilli">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

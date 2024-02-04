@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="doerthe">
+            <data key="label">Dörthe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3600</data>
+        </node>
+        <node id="ehrenthal">
+            <data key="label">Ehrenthal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1984</data>
+        </node>
+        <node id="gustav">
+            <data key="label">Gustav</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1197</data>
+        </node>
+        <node id="amelie">
+            <data key="label">Amélie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1395</data>
+        </node>
+        <node id="richard">
+            <data key="label">Richard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1001</data>
+        </node>
+        <node id="philippine">
+            <data key="label">Philippine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">672</data>
+        </node>
+        <node id="laemmlein">
+            <data key="label">Lämmlein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1367</data>
+        </node>
+        <node id="august">
+            <data key="label">August</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1566</data>
+        </node>
+        <node id="franz">
+            <data key="label">Franz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1109</data>
+        </node>
+        <node id="nante">
+            <data key="label">Nante</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">493</data>
+        </node>
+        <node id="mine">
+            <data key="label">Mine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">202</data>
+        </node>
+        <node id="geschrei">
+            <data key="label">Geschrei</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="das_kind">
+            <data key="label">Das Kind</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="gefreiter">
+            <data key="label">Gefreiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">114</data>
+        </node>
+        <node id="gemeiner">
+            <data key="label">Gemeiner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">40</data>
+        </node>
+        <node id="commissair">
+            <data key="label">Commissair</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">910</data>
+        </node>
+        <node id="beamter">
+            <data key="label">Beamter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">77</data>
+        </node>
+        <node id="der_schliesser">
+            <data key="label">Der Schließer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <edge id="doerthe|ehrenthal" source="doerthe" target="ehrenthal">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="doerthe|amelie" source="doerthe" target="amelie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="doerthe|richard" source="doerthe" target="richard">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="doerthe|franz" source="doerthe" target="franz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="doerthe|philippine" source="doerthe" target="philippine">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="doerthe|august" source="doerthe" target="august">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="doerthe|laemmlein" source="doerthe" target="laemmlein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doerthe|gustav" source="doerthe" target="gustav">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="doerthe|mine" source="doerthe" target="mine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doerthe|nante" source="doerthe" target="nante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doerthe|das_kind" source="doerthe" target="das_kind">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="doerthe|gefreiter" source="doerthe" target="gefreiter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="doerthe|gemeiner" source="doerthe" target="gemeiner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="doerthe|commissair" source="doerthe" target="commissair">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="doerthe|der_schliesser" source="doerthe" target="der_schliesser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ehrenthal|gustav" source="ehrenthal" target="gustav">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="ehrenthal|amelie" source="ehrenthal" target="amelie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ehrenthal|richard" source="ehrenthal" target="richard">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="ehrenthal|philippine" source="ehrenthal" target="philippine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ehrenthal|august" source="ehrenthal" target="august">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ehrenthal|nante" source="ehrenthal" target="nante">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ehrenthal|franz" source="ehrenthal" target="franz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ehrenthal|mine" source="ehrenthal" target="mine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ehrenthal|geschrei" source="ehrenthal" target="geschrei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ehrenthal|commissair" source="ehrenthal" target="commissair">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="ehrenthal|das_kind" source="ehrenthal" target="das_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ehrenthal|beamter" source="ehrenthal" target="beamter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ehrenthal|laemmlein" source="ehrenthal" target="laemmlein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gustav|amelie" source="gustav" target="amelie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="gustav|richard" source="gustav" target="richard">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="gustav|philippine" source="gustav" target="philippine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gustav|august" source="gustav" target="august">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gustav|nante" source="gustav" target="nante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gustav|franz" source="gustav" target="franz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gustav|mine" source="gustav" target="mine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gustav|geschrei" source="gustav" target="geschrei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gustav|commissair" source="gustav" target="commissair">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gustav|das_kind" source="gustav" target="das_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gustav|der_schliesser" source="gustav" target="der_schliesser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amelie|richard" source="amelie" target="richard">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="amelie|philippine" source="amelie" target="philippine">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="amelie|laemmlein" source="amelie" target="laemmlein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amelie|august" source="amelie" target="august">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="richard|philippine" source="richard" target="philippine">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="richard|laemmlein" source="richard" target="laemmlein">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="richard|august" source="richard" target="august">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="richard|franz" source="richard" target="franz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="richard|geschrei" source="richard" target="geschrei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="richard|commissair" source="richard" target="commissair">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="richard|nante" source="richard" target="nante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="richard|beamter" source="richard" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="richard|mine" source="richard" target="mine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="richard|der_schliesser" source="richard" target="der_schliesser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippine|laemmlein" source="philippine" target="laemmlein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philippine|august" source="philippine" target="august">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="philippine|nante" source="philippine" target="nante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippine|commissair" source="philippine" target="commissair">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laemmlein|august" source="laemmlein" target="august">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="laemmlein|mine" source="laemmlein" target="mine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="laemmlein|nante" source="laemmlein" target="nante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laemmlein|commissair" source="laemmlein" target="commissair">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laemmlein|beamter" source="laemmlein" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="august|nante" source="august" target="nante">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="august|franz" source="august" target="franz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="august|mine" source="august" target="mine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="august|commissair" source="august" target="commissair">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="august|beamter" source="august" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|nante" source="franz" target="nante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|mine" source="franz" target="mine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|commissair" source="franz" target="commissair">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="franz|der_schliesser" source="franz" target="der_schliesser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nante|mine" source="nante" target="mine">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="nante|commissair" source="nante" target="commissair">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nante|beamter" source="nante" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mine|commissair" source="mine" target="commissair">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mine|beamter" source="mine" target="beamter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_kind|gefreiter" source="das_kind" target="gefreiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_kind|gemeiner" source="das_kind" target="gemeiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_kind|commissair" source="das_kind" target="commissair">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gefreiter|gemeiner" source="gefreiter" target="gemeiner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="commissair|beamter" source="commissair" target="beamter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="commissair|der_schliesser" source="commissair" target="der_schliesser">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

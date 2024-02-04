@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="bolland">
+            <data key="label">Bolland</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="beermann">
+            <data key="label">Beermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wasner">
+            <data key="label">Wasner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="effie">
+            <data key="label">Effie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_bolland">
+            <data key="label">Frau Bolland</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fraeulein_koch-pinneberg">
+            <data key="label">Fräulein Koch-Pinneberg</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dobler">
+            <data key="label">Dobler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_beermann">
+            <data key="label">Frau Beermann</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hauser">
+            <data key="label">Hauser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_lund">
+            <data key="label">Frau Lund</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stroebel">
+            <data key="label">Ströbel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="reisacher">
+            <data key="label">Reisacher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="praesident">
+            <data key="label">Präsident</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hauteville">
+            <data key="label">Madame Hauteville</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schutzmann">
+            <data key="label">Schutzmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schmettau">
+            <data key="label">Schmettau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="betty">
+            <data key="label">Betty</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="beermann" target="frau_beermann">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="bolland" target="frau_bolland">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="beermann" target="effie">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="frau_beermann" target="effie">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="betty" target="beermann">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

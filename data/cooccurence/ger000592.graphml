@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="herr_von_hasenhein">
+            <data key="label">Herr von Hasenhein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1036</data>
+        </node>
+        <node id="valentin">
+            <data key="label">Valentin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">106</data>
+        </node>
+        <node id="narcissus">
+            <data key="label">Narcissus Hasenfuß</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2086</data>
+        </node>
+        <node id="herr_von_gumpelhein">
+            <data key="label">Herr von Gumpelhein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1501</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="emilie">
+            <data key="label">Baronesse Emilie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">279</data>
+        </node>
+        <node id="baron_von_merseburg">
+            <data key="label">Baron von Merseburg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">475</data>
+        </node>
+        <node id="herr_schnappel">
+            <data key="label">Herr Schnappel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">288</data>
+        </node>
+        <node id="madame_schnappel">
+            <data key="label">Madame Schnappel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">351</data>
+        </node>
+        <node id="baron_von_flitterfeld">
+            <data key="label">Baron von Flitterfeld</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">340</data>
+        </node>
+        <edge id="herr_von_hasenhein|valentin" source="herr_von_hasenhein" target="valentin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_hasenhein|narcissus" source="herr_von_hasenhein" target="narcissus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="herr_von_hasenhein|emilie" source="herr_von_hasenhein" target="emilie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_hasenhein|madame_schnappel" source="herr_von_hasenhein" target="madame_schnappel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_hasenhein|baron_von_flitterfeld" source="herr_von_hasenhein" target="baron_von_flitterfeld">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_hasenhein|baron_von_merseburg" source="herr_von_hasenhein" target="baron_von_merseburg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_hasenhein|herr_schnappel" source="herr_von_hasenhein" target="herr_schnappel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_hasenhein|herr_von_gumpelhein" source="herr_von_hasenhein" target="herr_von_gumpelhein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="narcissus|herr_von_gumpelhein" source="narcissus" target="herr_von_gumpelhein">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="narcissus|madame_schnappel" source="narcissus" target="madame_schnappel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="narcissus|herr_schnappel" source="narcissus" target="herr_schnappel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="narcissus|emilie" source="narcissus" target="emilie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="narcissus|baron_von_flitterfeld" source="narcissus" target="baron_von_flitterfeld">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="narcissus|baron_von_merseburg" source="narcissus" target="baron_von_merseburg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_von_gumpelhein|bedienter" source="herr_von_gumpelhein" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_gumpelhein|emilie" source="herr_von_gumpelhein" target="emilie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="herr_von_gumpelhein|baron_von_merseburg" source="herr_von_gumpelhein" target="baron_von_merseburg">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="herr_von_gumpelhein|herr_schnappel" source="herr_von_gumpelhein" target="herr_schnappel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="herr_von_gumpelhein|madame_schnappel" source="herr_von_gumpelhein" target="madame_schnappel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="herr_von_gumpelhein|baron_von_flitterfeld" source="herr_von_gumpelhein" target="baron_von_flitterfeld">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emilie|baron_von_merseburg" source="emilie" target="baron_von_merseburg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="emilie|madame_schnappel" source="emilie" target="madame_schnappel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emilie|baron_von_flitterfeld" source="emilie" target="baron_von_flitterfeld">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emilie|herr_schnappel" source="emilie" target="herr_schnappel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron_von_merseburg|baron_von_flitterfeld" source="baron_von_merseburg" target="baron_von_flitterfeld">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baron_von_merseburg|herr_schnappel" source="baron_von_merseburg" target="herr_schnappel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baron_von_merseburg|madame_schnappel" source="baron_von_merseburg" target="madame_schnappel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_schnappel|madame_schnappel" source="herr_schnappel" target="madame_schnappel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="herr_schnappel|baron_von_flitterfeld" source="herr_schnappel" target="baron_von_flitterfeld">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madame_schnappel|baron_von_flitterfeld" source="madame_schnappel" target="baron_von_flitterfeld">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

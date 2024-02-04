@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="chor_der_maedchen">
+            <data key="label">Chor der Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">151</data>
+        </node>
+        <node id="therese">
+            <data key="label">Therese</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1563</data>
+        </node>
+        <node id="christine">
+            <data key="label">Christine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1676</data>
+        </node>
+        <node id="bombardon">
+            <data key="label">Bombardon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1760</data>
+        </node>
+        <node id="gontran">
+            <data key="label">Gontran</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1411</data>
+        </node>
+        <node id="colas">
+            <data key="label">Colas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1167</data>
+        </node>
+        <node id="chor_der_maenner">
+            <data key="label">Chor der Männer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">82</data>
+        </node>
+        <node id="chor_der_frauen">
+            <data key="label">Chor der Frauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">57</data>
+        </node>
+        <node id="chor_allgemeiner_chor_alle">
+            <data key="label">Chor/Allgemeiner Chor/Alle</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">169</data>
+        </node>
+        <node id="chor_der_soldaten">
+            <data key="label">Chor der Soldaten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <edge id="chor_der_maedchen|therese" source="chor_der_maedchen" target="therese">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_maedchen|christine" source="chor_der_maedchen" target="christine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_maedchen|colas" source="chor_der_maedchen" target="colas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maedchen|bombardon" source="chor_der_maedchen" target="bombardon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maedchen|chor_der_soldaten" source="chor_der_maedchen" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maedchen|chor_allgemeiner_chor_alle" source="chor_der_maedchen" target="chor_allgemeiner_chor_alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maedchen|gontran" source="chor_der_maedchen" target="gontran">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|christine" source="therese" target="christine">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="therese|bombardon" source="therese" target="bombardon">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="therese|gontran" source="therese" target="gontran">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="therese|colas" source="therese" target="colas">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="therese|chor_der_maenner" source="therese" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|chor_der_frauen" source="therese" target="chor_der_frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|chor_allgemeiner_chor_alle" source="therese" target="chor_allgemeiner_chor_alle">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="therese|chor_der_soldaten" source="therese" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christine|colas" source="christine" target="colas">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="christine|gontran" source="christine" target="gontran">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="christine|bombardon" source="christine" target="bombardon">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="christine|chor_der_maenner" source="christine" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christine|chor_der_frauen" source="christine" target="chor_der_frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christine|chor_allgemeiner_chor_alle" source="christine" target="chor_allgemeiner_chor_alle">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christine|chor_der_soldaten" source="christine" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bombardon|gontran" source="bombardon" target="gontran">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="bombardon|colas" source="bombardon" target="colas">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bombardon|chor_der_soldaten" source="bombardon" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bombardon|chor_allgemeiner_chor_alle" source="bombardon" target="chor_allgemeiner_chor_alle">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gontran|colas" source="gontran" target="colas">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="gontran|chor_der_maenner" source="gontran" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gontran|chor_der_frauen" source="gontran" target="chor_der_frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gontran|chor_allgemeiner_chor_alle" source="gontran" target="chor_allgemeiner_chor_alle">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gontran|chor_der_soldaten" source="gontran" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colas|chor_der_maenner" source="colas" target="chor_der_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colas|chor_der_frauen" source="colas" target="chor_der_frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="colas|chor_allgemeiner_chor_alle" source="colas" target="chor_allgemeiner_chor_alle">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="colas|chor_der_soldaten" source="colas" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maenner|chor_der_frauen" source="chor_der_maenner" target="chor_der_frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_maenner|chor_allgemeiner_chor_alle" source="chor_der_maenner" target="chor_allgemeiner_chor_alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_frauen|chor_allgemeiner_chor_alle" source="chor_der_frauen" target="chor_allgemeiner_chor_alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_allgemeiner_chor_alle|chor_der_soldaten" source="chor_allgemeiner_chor_alle" target="chor_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,845 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="jubelchor">
+            <data key="label">Jubelchor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <node id="phalarius">
+            <data key="label">Phalarius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1748</data>
+        </node>
+        <node id="hades">
+            <data key="label">Hades</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1148</data>
+        </node>
+        <node id="antrogaeus">
+            <data key="label">Antrogäus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">57</data>
+        </node>
+        <node id="chor_1-2">
+            <data key="label">Chor (I/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">51</data>
+        </node>
+        <node id="lucina">
+            <data key="label">Lucina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1685</data>
+        </node>
+        <node id="kreon">
+            <data key="label">Kreon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">485</data>
+        </node>
+        <node id="simplizius">
+            <data key="label">Simplizius Zitternadel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5000</data>
+        </node>
+        <node id="ewald">
+            <data key="label">Ewald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1997</data>
+        </node>
+        <node id="riegelsam">
+            <data key="label">Riegelsam</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">491</data>
+        </node>
+        <node id="zwei_gerichtsdiener">
+            <data key="label">Zwei Gerichtsdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="kurzer_chor_gejammer">
+            <data key="label">Kurzer Chor/Gejammer</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="genius_des_todes">
+            <data key="label">Genius des Todes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <node id="thestius">
+            <data key="label">Thestius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">256</data>
+        </node>
+        <node id="epaminondas">
+            <data key="label">Epaminondas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">219</data>
+        </node>
+        <node id="hippomedon">
+            <data key="label">Hippomedon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">60</data>
+        </node>
+        <node id="eine_frau">
+            <data key="label">Eine Frau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="sillius">
+            <data key="label">Sillius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="alles_1-14">
+            <data key="label">Alles (I/14)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="argos">
+            <data key="label">Argos</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="harmodius">
+            <data key="label">Harmodius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">146</data>
+        </node>
+        <node id="arete">
+            <data key="label">Arete</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">367</data>
+        </node>
+        <node id="kurzer_chor_der_furien">
+            <data key="label">Kurzer Chor der Furien</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="heraklius">
+            <data key="label">Heraklius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">104</data>
+        </node>
+        <node id="alle_1-19">
+            <data key="label">Alle (I/19)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="adrasto">
+            <data key="label">Adrasto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">30</data>
+        </node>
+        <node id="jagdchor">
+            <data key="label">Jagdchor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="antrokles">
+            <data key="label">Antrokles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">446</data>
+        </node>
+        <node id="clitonius">
+            <data key="label">Clitonius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">82</data>
+        </node>
+        <node id="lulu">
+            <data key="label">Lulu</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">138</data>
+        </node>
+        <node id="fanfu">
+            <data key="label">Fanfu</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="ein_jaeger">
+            <data key="label">Ein Jäger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="octavian">
+            <data key="label">Octavian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">312</data>
+        </node>
+        <node id="atritia">
+            <data key="label">Atritia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">634</data>
+        </node>
+        <node id="olimar">
+            <data key="label">Olimar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">210</data>
+        </node>
+        <node id="astrachan">
+            <data key="label">Astrachan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">179</data>
+        </node>
+        <node id="abukar">
+            <data key="label">Abukar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">52</data>
+        </node>
+        <node id="nimmelot">
+            <data key="label">Nimmelot</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="alle_2-9">
+            <data key="label">Alle (II/9)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="aloe">
+            <data key="label">Aloe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">731</data>
+        </node>
+        <node id="geschrei">
+            <data key="label">Geschrei</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="die_krieger">
+            <data key="label">Die Krieger/Chor von Kriegern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="dardonius">
+            <data key="label">Dardonius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">604</data>
+        </node>
+        <node id="ein_hoefling">
+            <data key="label">Ein Höfling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="hoeflinge">
+            <data key="label">Die Höflinge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="chor_alle_alles_2-15_und_2-16">
+            <data key="label">Chor/Alle/Alles (II/15–16)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="die_maenner">
+            <data key="label">Die Männer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="die_frauen">
+            <data key="label">Die Frauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="tisiphone">
+            <data key="label">Tisiphone</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="megaera">
+            <data key="label">Megära</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">66</data>
+        </node>
+        <node id="alekto">
+            <data key="label">Alekto</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">81</data>
+        </node>
+        <node id="die_drei_geister">
+            <data key="label">Die drei Geister</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="alles_chor_2-19">
+            <data key="label">Alles/Chor (II/19)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <edge id="jubelchor|phalarius" source="jubelchor" target="phalarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jubelchor|hades" source="jubelchor" target="hades">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phalarius|hades" source="phalarius" target="hades">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="phalarius|antrogaeus" source="phalarius" target="antrogaeus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phalarius|chor_1-2" source="phalarius" target="chor_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phalarius|ein_jaeger" source="phalarius" target="ein_jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phalarius|octavian" source="phalarius" target="octavian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phalarius|antrokles" source="phalarius" target="antrokles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phalarius|die_drei_geister" source="phalarius" target="die_drei_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phalarius|alekto" source="phalarius" target="alekto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phalarius|megaera" source="phalarius" target="megaera">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phalarius|tisiphone" source="phalarius" target="tisiphone">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hades|lucina" source="hades" target="lucina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hades|kreon" source="hades" target="kreon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hades|antrokles" source="hades" target="antrokles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hades|die_drei_geister" source="hades" target="die_drei_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hades|alekto" source="hades" target="alekto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hades|megaera" source="hades" target="megaera">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hades|tisiphone" source="hades" target="tisiphone">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antrogaeus|chor_1-2" source="antrogaeus" target="chor_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucina|kreon" source="lucina" target="kreon">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lucina|ewald" source="lucina" target="ewald">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lucina|kurzer_chor_gejammer" source="lucina" target="kurzer_chor_gejammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucina|genius_des_todes" source="lucina" target="genius_des_todes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucina|simplizius" source="lucina" target="simplizius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lucina|dardonius" source="lucina" target="dardonius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucina|die_maenner" source="lucina" target="die_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucina|die_frauen" source="lucina" target="die_frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucina|chor_alle_alles_2-15_und_2-16" source="lucina" target="chor_alle_alles_2-15_und_2-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucina|aloe" source="lucina" target="aloe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucina|tisiphone" source="lucina" target="tisiphone">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucina|megaera" source="lucina" target="megaera">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucina|alekto" source="lucina" target="alekto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucina|alles_chor_2-19" source="lucina" target="alles_chor_2-19">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kreon|tisiphone" source="kreon" target="tisiphone">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kreon|megaera" source="kreon" target="megaera">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kreon|alekto" source="kreon" target="alekto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kreon|alles_chor_2-19" source="kreon" target="alles_chor_2-19">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kreon|ewald" source="kreon" target="ewald">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kreon|simplizius" source="kreon" target="simplizius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|ewald" source="simplizius" target="ewald">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="simplizius|riegelsam" source="simplizius" target="riegelsam">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="simplizius|zwei_gerichtsdiener" source="simplizius" target="zwei_gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|hippomedon" source="simplizius" target="hippomedon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|thestius" source="simplizius" target="thestius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|epaminondas" source="simplizius" target="epaminondas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="simplizius|eine_frau" source="simplizius" target="eine_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|argos" source="simplizius" target="argos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|diener" source="simplizius" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|arete" source="simplizius" target="arete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|lulu" source="simplizius" target="lulu">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|fanfu" source="simplizius" target="fanfu">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|olimar" source="simplizius" target="olimar">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="simplizius|astrachan" source="simplizius" target="astrachan">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="simplizius|abukar" source="simplizius" target="abukar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="simplizius|nimmelot" source="simplizius" target="nimmelot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|alle_2-9" source="simplizius" target="alle_2-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|geschrei" source="simplizius" target="geschrei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|die_krieger" source="simplizius" target="die_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="simplizius|dardonius" source="simplizius" target="dardonius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="simplizius|ein_hoefling" source="simplizius" target="ein_hoefling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|hoeflinge" source="simplizius" target="hoeflinge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|die_maenner" source="simplizius" target="die_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|die_frauen" source="simplizius" target="die_frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|chor_alle_alles_2-15_und_2-16" source="simplizius" target="chor_alle_alles_2-15_und_2-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|aloe" source="simplizius" target="aloe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simplizius|alles_chor_2-19" source="simplizius" target="alles_chor_2-19">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|riegelsam" source="ewald" target="riegelsam">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ewald|zwei_gerichtsdiener" source="ewald" target="zwei_gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|hippomedon" source="ewald" target="hippomedon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|thestius" source="ewald" target="thestius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ewald|epaminondas" source="ewald" target="epaminondas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|eine_frau" source="ewald" target="eine_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|harmodius" source="ewald" target="harmodius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ewald|kurzer_chor_der_furien" source="ewald" target="kurzer_chor_der_furien">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|heraklius" source="ewald" target="heraklius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|alle_1-19" source="ewald" target="alle_1-19">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|adrasto" source="ewald" target="adrasto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|atritia" source="ewald" target="atritia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ewald|aloe" source="ewald" target="aloe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ewald|geschrei" source="ewald" target="geschrei">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ewald|die_krieger" source="ewald" target="die_krieger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ewald|dardonius" source="ewald" target="dardonius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ewald|ein_hoefling" source="ewald" target="ein_hoefling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|olimar" source="ewald" target="olimar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|abukar" source="ewald" target="abukar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|hoeflinge" source="ewald" target="hoeflinge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|lulu" source="ewald" target="lulu">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|die_maenner" source="ewald" target="die_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|die_frauen" source="ewald" target="die_frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|chor_alle_alles_2-15_und_2-16" source="ewald" target="chor_alle_alles_2-15_und_2-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ewald|alles_chor_2-19" source="ewald" target="alles_chor_2-19">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="riegelsam|zwei_gerichtsdiener" source="riegelsam" target="zwei_gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurzer_chor_gejammer|genius_des_todes" source="kurzer_chor_gejammer" target="genius_des_todes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thestius|epaminondas" source="thestius" target="epaminondas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thestius|hippomedon" source="thestius" target="hippomedon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thestius|eine_frau" source="thestius" target="eine_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thestius|harmodius" source="thestius" target="harmodius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaminondas|hippomedon" source="epaminondas" target="hippomedon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaminondas|eine_frau" source="epaminondas" target="eine_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaminondas|sillius" source="epaminondas" target="sillius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaminondas|alles_1-14" source="epaminondas" target="alles_1-14">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaminondas|argos" source="epaminondas" target="argos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaminondas|diener" source="epaminondas" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hippomedon|eine_frau" source="hippomedon" target="eine_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sillius|alles_1-14" source="sillius" target="alles_1-14">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="argos|diener" source="argos" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harmodius|kurzer_chor_der_furien" source="harmodius" target="kurzer_chor_der_furien">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harmodius|heraklius" source="harmodius" target="heraklius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harmodius|alle_1-19" source="harmodius" target="alle_1-19">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="harmodius|adrasto" source="harmodius" target="adrasto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurzer_chor_der_furien|heraklius" source="kurzer_chor_der_furien" target="heraklius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurzer_chor_der_furien|alle_1-19" source="kurzer_chor_der_furien" target="alle_1-19">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurzer_chor_der_furien|adrasto" source="kurzer_chor_der_furien" target="adrasto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heraklius|alle_1-19" source="heraklius" target="alle_1-19">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heraklius|adrasto" source="heraklius" target="adrasto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-19|adrasto" source="alle_1-19" target="adrasto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jagdchor|antrokles" source="jagdchor" target="antrokles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jagdchor|clitonius" source="jagdchor" target="clitonius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antrokles|clitonius" source="antrokles" target="clitonius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antrokles|die_drei_geister" source="antrokles" target="die_drei_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antrokles|alekto" source="antrokles" target="alekto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antrokles|megaera" source="antrokles" target="megaera">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antrokles|tisiphone" source="antrokles" target="tisiphone">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lulu|fanfu" source="lulu" target="fanfu">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lulu|aloe" source="lulu" target="aloe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lulu|atritia" source="lulu" target="atritia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_jaeger|octavian" source="ein_jaeger" target="octavian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="atritia|aloe" source="atritia" target="aloe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olimar|astrachan" source="olimar" target="astrachan">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="olimar|abukar" source="olimar" target="abukar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="olimar|nimmelot" source="olimar" target="nimmelot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olimar|alle_2-9" source="olimar" target="alle_2-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olimar|dardonius" source="olimar" target="dardonius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olimar|ein_hoefling" source="olimar" target="ein_hoefling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olimar|die_krieger" source="olimar" target="die_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="olimar|hoeflinge" source="olimar" target="hoeflinge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="astrachan|abukar" source="astrachan" target="abukar">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="astrachan|nimmelot" source="astrachan" target="nimmelot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="astrachan|alle_2-9" source="astrachan" target="alle_2-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abukar|nimmelot" source="abukar" target="nimmelot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abukar|alle_2-9" source="abukar" target="alle_2-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abukar|dardonius" source="abukar" target="dardonius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abukar|ein_hoefling" source="abukar" target="ein_hoefling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abukar|die_krieger" source="abukar" target="die_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abukar|hoeflinge" source="abukar" target="hoeflinge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aloe|geschrei" source="aloe" target="geschrei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aloe|dardonius" source="aloe" target="dardonius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aloe|die_maenner" source="aloe" target="die_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aloe|die_frauen" source="aloe" target="die_frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aloe|chor_alle_alles_2-15_und_2-16" source="aloe" target="chor_alle_alles_2-15_und_2-16">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geschrei|die_krieger" source="geschrei" target="die_krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_krieger|dardonius" source="die_krieger" target="dardonius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_krieger|ein_hoefling" source="die_krieger" target="ein_hoefling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_krieger|hoeflinge" source="die_krieger" target="hoeflinge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dardonius|ein_hoefling" source="dardonius" target="ein_hoefling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dardonius|hoeflinge" source="dardonius" target="hoeflinge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dardonius|chor_alle_alles_2-15_und_2-16" source="dardonius" target="chor_alle_alles_2-15_und_2-16">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dardonius|die_maenner" source="dardonius" target="die_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dardonius|die_frauen" source="dardonius" target="die_frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hoefling|hoeflinge" source="ein_hoefling" target="hoeflinge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_alle_alles_2-15_und_2-16|die_maenner" source="chor_alle_alles_2-15_und_2-16" target="die_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_alle_alles_2-15_und_2-16|die_frauen" source="chor_alle_alles_2-15_und_2-16" target="die_frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_maenner|die_frauen" source="die_maenner" target="die_frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tisiphone|megaera" source="tisiphone" target="megaera">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tisiphone|alekto" source="tisiphone" target="alekto">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tisiphone|die_drei_geister" source="tisiphone" target="die_drei_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="megaera|alekto" source="megaera" target="alekto">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="megaera|die_drei_geister" source="megaera" target="die_drei_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alekto|die_drei_geister" source="alekto" target="die_drei_geister">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

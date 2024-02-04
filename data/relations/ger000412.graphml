@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="trude">
+            <data key="label">Trude</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kunz">
+            <data key="label">Kunz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kurt">
+            <data key="label">Kurt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="trude" target="kunz">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="trude" target="kurt">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="kunz" target="kurt">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="michael">
+            <data key="label">Michael</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4433</data>
+        </node>
+        <node id="crambe">
+            <data key="label">Crambe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">610</data>
+        </node>
+        <node id="erster_verschworener">
+            <data key="label">Erster Verschworener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">841</data>
+        </node>
+        <node id="zweiter_verschworener">
+            <data key="label">Zweiter Verschworener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1132</data>
+        </node>
+        <node id="leo">
+            <data key="label">Leo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3786</data>
+        </node>
+        <node id="exabolius">
+            <data key="label">Exabolius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1685</data>
+        </node>
+        <node id="nicander">
+            <data key="label">Nicander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">672</data>
+        </node>
+        <node id="trabanten">
+            <data key="label">Trabanten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">213</data>
+        </node>
+        <node id="reyen_der_hoeflinge">
+            <data key="label">Reyen der Höflinge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">783</data>
+        </node>
+        <node id="erster_richter">
+            <data key="label">Erster Richter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">498</data>
+        </node>
+        <node id="zweiter_richter">
+            <data key="label">Zweiter Richter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">247</data>
+        </node>
+        <node id="dritter_richter">
+            <data key="label">Dritter Richter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">227</data>
+        </node>
+        <node id="vierter_richter">
+            <data key="label">Vierter Richter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">101</data>
+        </node>
+        <node id="fuenfter_richter">
+            <data key="label">Fünfter Richter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">60</data>
+        </node>
+        <node id="sechster_richter">
+            <data key="label">Sechster Richter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">81</data>
+        </node>
+        <node id="siebenter_richter">
+            <data key="label">Siebenter Richter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">73</data>
+        </node>
+        <node id="achter_richter">
+            <data key="label">Achter Richter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">47</data>
+        </node>
+        <node id="neunter_richter">
+            <data key="label">Neunter Richter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">91</data>
+        </node>
+        <node id="zehnter_richter">
+            <data key="label">Zehnter Richter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="richter">
+            <data key="label">Richter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="theodosia">
+            <data key="label">Theodosia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2699</data>
+        </node>
+        <node id="papias">
+            <data key="label">Papias</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">173</data>
+        </node>
+        <node id="reyen_der_spielleute_und_saenger">
+            <data key="label">Reyen der Spielleute und Sänger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">258</data>
+        </node>
+        <node id="tarasii_geist">
+            <data key="label">Tarasii Geist</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">227</data>
+        </node>
+        <node id="waechter">
+            <data key="label">Wächter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">102</data>
+        </node>
+        <node id="dritter_verschworener">
+            <data key="label">Dritter Verschworener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">355</data>
+        </node>
+        <node id="jamblichius">
+            <data key="label">Jamblichius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">920</data>
+        </node>
+        <node id="der_geist">
+            <data key="label">Der Geist</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="vierter_verschworener">
+            <data key="label">Vierter Verschworener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">175</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="sechster_verschworener">
+            <data key="label">Sechster Verschworener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">49</data>
+        </node>
+        <node id="fuenfter_verschworener">
+            <data key="label">Fünfter Verschworener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">200</data>
+        </node>
+        <node id="jungfrauen">
+            <data key="label">Jungfrauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">201</data>
+        </node>
+        <node id="priester">
+            <data key="label">Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">645</data>
+        </node>
+        <node id="phronesis">
+            <data key="label">Phronesis</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">81</data>
+        </node>
+        <node id="oberster_priester">
+            <data key="label">Oberster Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="bothe">
+            <data key="label">Bothe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">486</data>
+        </node>
+        <edge id="michael|crambe" source="michael" target="crambe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|erster_verschworener" source="michael" target="erster_verschworener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michael|zweiter_verschworener" source="michael" target="zweiter_verschworener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michael|exabolius" source="michael" target="exabolius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michael|nicander" source="michael" target="nicander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|trabanten" source="michael" target="trabanten">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michael|reyen_der_hoeflinge" source="michael" target="reyen_der_hoeflinge">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="michael|leo" source="michael" target="leo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="michael|erster_richter" source="michael" target="erster_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michael|zweiter_richter" source="michael" target="zweiter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michael|dritter_richter" source="michael" target="dritter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michael|vierter_richter" source="michael" target="vierter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michael|fuenfter_richter" source="michael" target="fuenfter_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|sechster_richter" source="michael" target="sechster_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|siebenter_richter" source="michael" target="siebenter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michael|achter_richter" source="michael" target="achter_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|neunter_richter" source="michael" target="neunter_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|zehnter_richter" source="michael" target="zehnter_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|papias" source="michael" target="papias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|waechter" source="michael" target="waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|theodosia" source="michael" target="theodosia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|dritter_verschworener" source="michael" target="dritter_verschworener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|vierter_verschworener" source="michael" target="vierter_verschworener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|fuenfter_verschworener" source="michael" target="fuenfter_verschworener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michael|sechster_verschworener" source="michael" target="sechster_verschworener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crambe|erster_verschworener" source="crambe" target="erster_verschworener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="crambe|zweiter_verschworener" source="crambe" target="zweiter_verschworener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="crambe|vierter_verschworener" source="crambe" target="vierter_verschworener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="crambe|diener" source="crambe" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crambe|sechster_verschworener" source="crambe" target="sechster_verschworener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="crambe|dritter_verschworener" source="crambe" target="dritter_verschworener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="crambe|fuenfter_verschworener" source="crambe" target="fuenfter_verschworener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crambe|jungfrauen" source="crambe" target="jungfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crambe|priester" source="crambe" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_verschworener|zweiter_verschworener" source="erster_verschworener" target="zweiter_verschworener">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="erster_verschworener|vierter_verschworener" source="erster_verschworener" target="vierter_verschworener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_verschworener|diener" source="erster_verschworener" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_verschworener|sechster_verschworener" source="erster_verschworener" target="sechster_verschworener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_verschworener|dritter_verschworener" source="erster_verschworener" target="dritter_verschworener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_verschworener|fuenfter_verschworener" source="erster_verschworener" target="fuenfter_verschworener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_verschworener|jungfrauen" source="erster_verschworener" target="jungfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_verschworener|priester" source="erster_verschworener" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_verschworener|theodosia" source="erster_verschworener" target="theodosia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_verschworener|dritter_verschworener" source="zweiter_verschworener" target="dritter_verschworener">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="zweiter_verschworener|vierter_verschworener" source="zweiter_verschworener" target="vierter_verschworener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweiter_verschworener|diener" source="zweiter_verschworener" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_verschworener|sechster_verschworener" source="zweiter_verschworener" target="sechster_verschworener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweiter_verschworener|fuenfter_verschworener" source="zweiter_verschworener" target="fuenfter_verschworener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_verschworener|jungfrauen" source="zweiter_verschworener" target="jungfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_verschworener|priester" source="zweiter_verschworener" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_verschworener|theodosia" source="zweiter_verschworener" target="theodosia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leo|exabolius" source="leo" target="exabolius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leo|nicander" source="leo" target="nicander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leo|erster_richter" source="leo" target="erster_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leo|zweiter_richter" source="leo" target="zweiter_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leo|dritter_richter" source="leo" target="dritter_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leo|vierter_richter" source="leo" target="vierter_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leo|fuenfter_richter" source="leo" target="fuenfter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leo|sechster_richter" source="leo" target="sechster_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leo|siebenter_richter" source="leo" target="siebenter_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leo|achter_richter" source="leo" target="achter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leo|neunter_richter" source="leo" target="neunter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leo|zehnter_richter" source="leo" target="zehnter_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leo|richter" source="leo" target="richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leo|theodosia" source="leo" target="theodosia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leo|trabanten" source="leo" target="trabanten">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leo|reyen_der_hoeflinge" source="leo" target="reyen_der_hoeflinge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leo|papias" source="leo" target="papias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leo|reyen_der_spielleute_und_saenger" source="leo" target="reyen_der_spielleute_und_saenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leo|tarasii_geist" source="leo" target="tarasii_geist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="exabolius|nicander" source="exabolius" target="nicander">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="exabolius|trabanten" source="exabolius" target="trabanten">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="exabolius|reyen_der_hoeflinge" source="exabolius" target="reyen_der_hoeflinge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nicander|trabanten" source="nicander" target="trabanten">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nicander|reyen_der_hoeflinge" source="nicander" target="reyen_der_hoeflinge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trabanten|reyen_der_hoeflinge" source="trabanten" target="reyen_der_hoeflinge">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="trabanten|tarasii_geist" source="trabanten" target="tarasii_geist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reyen_der_hoeflinge|papias" source="reyen_der_hoeflinge" target="papias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reyen_der_hoeflinge|waechter" source="reyen_der_hoeflinge" target="waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_richter|zweiter_richter" source="erster_richter" target="zweiter_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_richter|dritter_richter" source="erster_richter" target="dritter_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_richter|vierter_richter" source="erster_richter" target="vierter_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_richter|fuenfter_richter" source="erster_richter" target="fuenfter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_richter|sechster_richter" source="erster_richter" target="sechster_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_richter|siebenter_richter" source="erster_richter" target="siebenter_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_richter|achter_richter" source="erster_richter" target="achter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_richter|neunter_richter" source="erster_richter" target="neunter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_richter|zehnter_richter" source="erster_richter" target="zehnter_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_richter|richter" source="erster_richter" target="richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_richter|dritter_richter" source="zweiter_richter" target="dritter_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweiter_richter|vierter_richter" source="zweiter_richter" target="vierter_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweiter_richter|fuenfter_richter" source="zweiter_richter" target="fuenfter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_richter|sechster_richter" source="zweiter_richter" target="sechster_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_richter|siebenter_richter" source="zweiter_richter" target="siebenter_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweiter_richter|achter_richter" source="zweiter_richter" target="achter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_richter|neunter_richter" source="zweiter_richter" target="neunter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_richter|zehnter_richter" source="zweiter_richter" target="zehnter_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_richter|richter" source="zweiter_richter" target="richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_richter|vierter_richter" source="dritter_richter" target="vierter_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dritter_richter|fuenfter_richter" source="dritter_richter" target="fuenfter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dritter_richter|sechster_richter" source="dritter_richter" target="sechster_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dritter_richter|siebenter_richter" source="dritter_richter" target="siebenter_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dritter_richter|achter_richter" source="dritter_richter" target="achter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dritter_richter|neunter_richter" source="dritter_richter" target="neunter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dritter_richter|zehnter_richter" source="dritter_richter" target="zehnter_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_richter|richter" source="dritter_richter" target="richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_richter|fuenfter_richter" source="vierter_richter" target="fuenfter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vierter_richter|sechster_richter" source="vierter_richter" target="sechster_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vierter_richter|siebenter_richter" source="vierter_richter" target="siebenter_richter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="vierter_richter|achter_richter" source="vierter_richter" target="achter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vierter_richter|neunter_richter" source="vierter_richter" target="neunter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vierter_richter|zehnter_richter" source="vierter_richter" target="zehnter_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_richter|richter" source="vierter_richter" target="richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfter_richter|sechster_richter" source="fuenfter_richter" target="sechster_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fuenfter_richter|siebenter_richter" source="fuenfter_richter" target="siebenter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fuenfter_richter|achter_richter" source="fuenfter_richter" target="achter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fuenfter_richter|neunter_richter" source="fuenfter_richter" target="neunter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fuenfter_richter|zehnter_richter" source="fuenfter_richter" target="zehnter_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfter_richter|richter" source="fuenfter_richter" target="richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sechster_richter|siebenter_richter" source="sechster_richter" target="siebenter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sechster_richter|achter_richter" source="sechster_richter" target="achter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sechster_richter|neunter_richter" source="sechster_richter" target="neunter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sechster_richter|zehnter_richter" source="sechster_richter" target="zehnter_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sechster_richter|richter" source="sechster_richter" target="richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="siebenter_richter|achter_richter" source="siebenter_richter" target="achter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="siebenter_richter|neunter_richter" source="siebenter_richter" target="neunter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="siebenter_richter|zehnter_richter" source="siebenter_richter" target="zehnter_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="siebenter_richter|richter" source="siebenter_richter" target="richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="achter_richter|neunter_richter" source="achter_richter" target="neunter_richter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="achter_richter|zehnter_richter" source="achter_richter" target="zehnter_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="achter_richter|richter" source="achter_richter" target="richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neunter_richter|zehnter_richter" source="neunter_richter" target="zehnter_richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neunter_richter|richter" source="neunter_richter" target="richter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theodosia|phronesis" source="theodosia" target="phronesis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theodosia|oberster_priester" source="theodosia" target="oberster_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theodosia|priester" source="theodosia" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theodosia|bothe" source="theodosia" target="bothe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theodosia|dritter_verschworener" source="theodosia" target="dritter_verschworener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theodosia|vierter_verschworener" source="theodosia" target="vierter_verschworener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theodosia|fuenfter_verschworener" source="theodosia" target="fuenfter_verschworener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="theodosia|sechster_verschworener" source="theodosia" target="sechster_verschworener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papias|reyen_der_spielleute_und_saenger" source="papias" target="reyen_der_spielleute_und_saenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papias|waechter" source="papias" target="waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_verschworener|jamblichius" source="dritter_verschworener" target="jamblichius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_verschworener|der_geist" source="dritter_verschworener" target="der_geist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_verschworener|vierter_verschworener" source="dritter_verschworener" target="vierter_verschworener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dritter_verschworener|diener" source="dritter_verschworener" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_verschworener|sechster_verschworener" source="dritter_verschworener" target="sechster_verschworener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dritter_verschworener|fuenfter_verschworener" source="dritter_verschworener" target="fuenfter_verschworener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dritter_verschworener|jungfrauen" source="dritter_verschworener" target="jungfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_verschworener|priester" source="dritter_verschworener" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jamblichius|der_geist" source="jamblichius" target="der_geist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_verschworener|diener" source="vierter_verschworener" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_verschworener|sechster_verschworener" source="vierter_verschworener" target="sechster_verschworener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="vierter_verschworener|fuenfter_verschworener" source="vierter_verschworener" target="fuenfter_verschworener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vierter_verschworener|jungfrauen" source="vierter_verschworener" target="jungfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_verschworener|priester" source="vierter_verschworener" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|sechster_verschworener" source="diener" target="sechster_verschworener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sechster_verschworener|fuenfter_verschworener" source="sechster_verschworener" target="fuenfter_verschworener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sechster_verschworener|jungfrauen" source="sechster_verschworener" target="jungfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sechster_verschworener|priester" source="sechster_verschworener" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfter_verschworener|jungfrauen" source="fuenfter_verschworener" target="jungfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfter_verschworener|priester" source="fuenfter_verschworener" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jungfrauen|priester" source="jungfrauen" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="priester|phronesis" source="priester" target="phronesis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="priester|oberster_priester" source="priester" target="oberster_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="priester|bothe" source="priester" target="bothe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phronesis|oberster_priester" source="phronesis" target="oberster_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phronesis|bothe" source="phronesis" target="bothe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oberster_priester|bothe" source="oberster_priester" target="bothe">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

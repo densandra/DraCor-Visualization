@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="fuerstin">
+            <data key="label">Fürstin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">766</data>
+        </node>
+        <node id="heyskal">
+            <data key="label">Rudolf von Heyskal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">340</data>
+        </node>
+        <node id="skodny">
+            <data key="label">Skodny</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">148</data>
+        </node>
+        <node id="judith">
+            <data key="label">Judith</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2045</data>
+        </node>
+        <node id="westerhaus">
+            <data key="label">Westerhaus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">726</data>
+        </node>
+        <node id="braunigl">
+            <data key="label">Braunigl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">347</data>
+        </node>
+        <node id="gysar">
+            <data key="label">Gysar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">798</data>
+        </node>
+        <node id="rufe">
+            <data key="label">Rufe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="arduin">
+            <data key="label">Arduin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3364</data>
+        </node>
+        <node id="ambros">
+            <data key="label">Ambros Doehl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3597</data>
+        </node>
+        <node id="eligius">
+            <data key="label">Eligius Fenz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1862</data>
+        </node>
+        <node id="julia">
+            <data key="label">Julia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1287</data>
+        </node>
+        <node id="seraphine">
+            <data key="label">Seraphine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2790</data>
+        </node>
+        <node id="elisabeth">
+            <data key="label">Elisabeth</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">751</data>
+        </node>
+        <node id="leindorf">
+            <data key="label">Leindorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">165</data>
+        </node>
+        <node id="erster_domino">
+            <data key="label">Erster Domino</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="zweiter_domino">
+            <data key="label">Zweiter Domino</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="max">
+            <data key="label">Max von Reisenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4220</data>
+        </node>
+        <node id="falkenir">
+            <data key="label">Ulrich Freiherr von Falkenir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2714</data>
+        </node>
+        <node id="aurelie">
+            <data key="label">Aurelie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5057</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="albine">
+            <data key="label">Albine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">37</data>
+        </node>
+        <node id="ida">
+            <data key="label">Ida</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="meyerhofer">
+            <data key="label">Meyerhofer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="devona">
+            <data key="label">Die Devona</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="der_kleine_neger">
+            <data key="label">Der kleine Neger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="hansen">
+            <data key="label">Hansen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">878</data>
+        </node>
+        <node id="gilda">
+            <data key="label">Gilda</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">705</data>
+        </node>
+        <node id="ein_hotelbediensteter">
+            <data key="label">Ein Hotelbediensteter </data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <edge id="fuerstin|heyskal" source="fuerstin" target="heyskal">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fuerstin|skodny" source="fuerstin" target="skodny">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fuerstin|judith" source="fuerstin" target="judith">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fuerstin|westerhaus" source="fuerstin" target="westerhaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fuerstin|braunigl" source="fuerstin" target="braunigl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fuerstin|gysar" source="fuerstin" target="gysar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerstin|rufe" source="fuerstin" target="rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerstin|arduin" source="fuerstin" target="arduin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerstin|ambros" source="fuerstin" target="ambros">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fuerstin|eligius" source="fuerstin" target="eligius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fuerstin|julia" source="fuerstin" target="julia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fuerstin|seraphine" source="fuerstin" target="seraphine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fuerstin|elisabeth" source="fuerstin" target="elisabeth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fuerstin|leindorf" source="fuerstin" target="leindorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fuerstin|erster_domino" source="fuerstin" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerstin|zweiter_domino" source="fuerstin" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerstin|max" source="fuerstin" target="max">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fuerstin|falkenir" source="fuerstin" target="falkenir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerstin|aurelie" source="fuerstin" target="aurelie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerstin|diener" source="fuerstin" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerstin|albine" source="fuerstin" target="albine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerstin|ida" source="fuerstin" target="ida">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerstin|meyerhofer" source="fuerstin" target="meyerhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerstin|devona" source="fuerstin" target="devona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heyskal|skodny" source="heyskal" target="skodny">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heyskal|judith" source="heyskal" target="judith">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heyskal|westerhaus" source="heyskal" target="westerhaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heyskal|braunigl" source="heyskal" target="braunigl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heyskal|gysar" source="heyskal" target="gysar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heyskal|rufe" source="heyskal" target="rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heyskal|arduin" source="heyskal" target="arduin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heyskal|ambros" source="heyskal" target="ambros">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heyskal|eligius" source="heyskal" target="eligius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heyskal|julia" source="heyskal" target="julia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heyskal|seraphine" source="heyskal" target="seraphine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heyskal|elisabeth" source="heyskal" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heyskal|leindorf" source="heyskal" target="leindorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heyskal|erster_domino" source="heyskal" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heyskal|zweiter_domino" source="heyskal" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heyskal|max" source="heyskal" target="max">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heyskal|falkenir" source="heyskal" target="falkenir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heyskal|aurelie" source="heyskal" target="aurelie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heyskal|diener" source="heyskal" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skodny|judith" source="skodny" target="judith">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="skodny|westerhaus" source="skodny" target="westerhaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="skodny|braunigl" source="skodny" target="braunigl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="skodny|gysar" source="skodny" target="gysar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skodny|rufe" source="skodny" target="rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skodny|arduin" source="skodny" target="arduin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skodny|ambros" source="skodny" target="ambros">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="skodny|eligius" source="skodny" target="eligius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skodny|julia" source="skodny" target="julia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="skodny|seraphine" source="skodny" target="seraphine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skodny|elisabeth" source="skodny" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skodny|leindorf" source="skodny" target="leindorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skodny|erster_domino" source="skodny" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skodny|zweiter_domino" source="skodny" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skodny|max" source="skodny" target="max">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="skodny|falkenir" source="skodny" target="falkenir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skodny|aurelie" source="skodny" target="aurelie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="skodny|diener" source="skodny" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="judith|westerhaus" source="judith" target="westerhaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="judith|braunigl" source="judith" target="braunigl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="judith|gysar" source="judith" target="gysar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="judith|rufe" source="judith" target="rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="judith|arduin" source="judith" target="arduin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="judith|ambros" source="judith" target="ambros">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="judith|eligius" source="judith" target="eligius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="judith|julia" source="judith" target="julia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="judith|seraphine" source="judith" target="seraphine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="judith|elisabeth" source="judith" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="judith|leindorf" source="judith" target="leindorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="judith|erster_domino" source="judith" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="judith|zweiter_domino" source="judith" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="judith|max" source="judith" target="max">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="judith|falkenir" source="judith" target="falkenir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="judith|aurelie" source="judith" target="aurelie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="judith|diener" source="judith" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="judith|der_kleine_neger" source="judith" target="der_kleine_neger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="judith|hansen" source="judith" target="hansen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="judith|gilda" source="judith" target="gilda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="judith|ein_hotelbediensteter" source="judith" target="ein_hotelbediensteter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="westerhaus|braunigl" source="westerhaus" target="braunigl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="westerhaus|gysar" source="westerhaus" target="gysar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="westerhaus|rufe" source="westerhaus" target="rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="westerhaus|arduin" source="westerhaus" target="arduin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="westerhaus|ambros" source="westerhaus" target="ambros">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="westerhaus|eligius" source="westerhaus" target="eligius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="westerhaus|julia" source="westerhaus" target="julia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="westerhaus|seraphine" source="westerhaus" target="seraphine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="westerhaus|elisabeth" source="westerhaus" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="westerhaus|leindorf" source="westerhaus" target="leindorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="westerhaus|erster_domino" source="westerhaus" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="westerhaus|zweiter_domino" source="westerhaus" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="westerhaus|max" source="westerhaus" target="max">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="westerhaus|falkenir" source="westerhaus" target="falkenir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="westerhaus|aurelie" source="westerhaus" target="aurelie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="westerhaus|diener" source="westerhaus" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braunigl|gysar" source="braunigl" target="gysar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braunigl|rufe" source="braunigl" target="rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braunigl|arduin" source="braunigl" target="arduin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braunigl|ambros" source="braunigl" target="ambros">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="braunigl|eligius" source="braunigl" target="eligius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braunigl|julia" source="braunigl" target="julia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="braunigl|seraphine" source="braunigl" target="seraphine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braunigl|elisabeth" source="braunigl" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braunigl|leindorf" source="braunigl" target="leindorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braunigl|erster_domino" source="braunigl" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braunigl|zweiter_domino" source="braunigl" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braunigl|max" source="braunigl" target="max">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="braunigl|falkenir" source="braunigl" target="falkenir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braunigl|aurelie" source="braunigl" target="aurelie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="braunigl|diener" source="braunigl" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gysar|rufe" source="gysar" target="rufe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gysar|arduin" source="gysar" target="arduin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gysar|ambros" source="gysar" target="ambros">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gysar|eligius" source="gysar" target="eligius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gysar|julia" source="gysar" target="julia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gysar|seraphine" source="gysar" target="seraphine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gysar|elisabeth" source="gysar" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gysar|leindorf" source="gysar" target="leindorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gysar|erster_domino" source="gysar" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gysar|zweiter_domino" source="gysar" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gysar|max" source="gysar" target="max">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gysar|falkenir" source="gysar" target="falkenir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gysar|aurelie" source="gysar" target="aurelie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rufe|arduin" source="rufe" target="arduin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rufe|ambros" source="rufe" target="ambros">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rufe|eligius" source="rufe" target="eligius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rufe|julia" source="rufe" target="julia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rufe|seraphine" source="rufe" target="seraphine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rufe|elisabeth" source="rufe" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rufe|leindorf" source="rufe" target="leindorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rufe|erster_domino" source="rufe" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rufe|zweiter_domino" source="rufe" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rufe|max" source="rufe" target="max">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rufe|falkenir" source="rufe" target="falkenir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rufe|aurelie" source="rufe" target="aurelie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arduin|ambros" source="arduin" target="ambros">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="arduin|eligius" source="arduin" target="eligius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="arduin|julia" source="arduin" target="julia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arduin|seraphine" source="arduin" target="seraphine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="arduin|elisabeth" source="arduin" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arduin|leindorf" source="arduin" target="leindorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arduin|erster_domino" source="arduin" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arduin|zweiter_domino" source="arduin" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arduin|max" source="arduin" target="max">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="arduin|falkenir" source="arduin" target="falkenir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="arduin|aurelie" source="arduin" target="aurelie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="arduin|der_kleine_neger" source="arduin" target="der_kleine_neger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arduin|hansen" source="arduin" target="hansen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arduin|gilda" source="arduin" target="gilda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arduin|ein_hotelbediensteter" source="arduin" target="ein_hotelbediensteter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ambros|eligius" source="ambros" target="eligius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ambros|julia" source="ambros" target="julia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ambros|seraphine" source="ambros" target="seraphine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ambros|elisabeth" source="ambros" target="elisabeth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ambros|leindorf" source="ambros" target="leindorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ambros|erster_domino" source="ambros" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ambros|zweiter_domino" source="ambros" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ambros|max" source="ambros" target="max">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ambros|falkenir" source="ambros" target="falkenir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ambros|aurelie" source="ambros" target="aurelie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ambros|diener" source="ambros" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ambros|albine" source="ambros" target="albine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ambros|ida" source="ambros" target="ida">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ambros|meyerhofer" source="ambros" target="meyerhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ambros|devona" source="ambros" target="devona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ambros|der_kleine_neger" source="ambros" target="der_kleine_neger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ambros|hansen" source="ambros" target="hansen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ambros|gilda" source="ambros" target="gilda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ambros|ein_hotelbediensteter" source="ambros" target="ein_hotelbediensteter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eligius|julia" source="eligius" target="julia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eligius|seraphine" source="eligius" target="seraphine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eligius|elisabeth" source="eligius" target="elisabeth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eligius|leindorf" source="eligius" target="leindorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eligius|erster_domino" source="eligius" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eligius|zweiter_domino" source="eligius" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eligius|max" source="eligius" target="max">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eligius|falkenir" source="eligius" target="falkenir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eligius|aurelie" source="eligius" target="aurelie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eligius|albine" source="eligius" target="albine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eligius|ida" source="eligius" target="ida">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eligius|meyerhofer" source="eligius" target="meyerhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eligius|devona" source="eligius" target="devona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eligius|der_kleine_neger" source="eligius" target="der_kleine_neger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eligius|hansen" source="eligius" target="hansen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eligius|gilda" source="eligius" target="gilda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eligius|ein_hotelbediensteter" source="eligius" target="ein_hotelbediensteter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julia|seraphine" source="julia" target="seraphine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julia|elisabeth" source="julia" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julia|leindorf" source="julia" target="leindorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julia|erster_domino" source="julia" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julia|zweiter_domino" source="julia" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julia|max" source="julia" target="max">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="julia|falkenir" source="julia" target="falkenir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julia|aurelie" source="julia" target="aurelie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julia|diener" source="julia" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seraphine|elisabeth" source="seraphine" target="elisabeth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="seraphine|leindorf" source="seraphine" target="leindorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="seraphine|erster_domino" source="seraphine" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seraphine|zweiter_domino" source="seraphine" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seraphine|max" source="seraphine" target="max">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="seraphine|falkenir" source="seraphine" target="falkenir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="seraphine|aurelie" source="seraphine" target="aurelie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="seraphine|albine" source="seraphine" target="albine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seraphine|ida" source="seraphine" target="ida">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seraphine|meyerhofer" source="seraphine" target="meyerhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seraphine|devona" source="seraphine" target="devona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seraphine|der_kleine_neger" source="seraphine" target="der_kleine_neger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seraphine|hansen" source="seraphine" target="hansen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seraphine|gilda" source="seraphine" target="gilda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seraphine|ein_hotelbediensteter" source="seraphine" target="ein_hotelbediensteter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|leindorf" source="elisabeth" target="leindorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="elisabeth|erster_domino" source="elisabeth" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|zweiter_domino" source="elisabeth" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|max" source="elisabeth" target="max">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="elisabeth|falkenir" source="elisabeth" target="falkenir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|aurelie" source="elisabeth" target="aurelie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|albine" source="elisabeth" target="albine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|ida" source="elisabeth" target="ida">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|meyerhofer" source="elisabeth" target="meyerhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|devona" source="elisabeth" target="devona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leindorf|erster_domino" source="leindorf" target="erster_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leindorf|zweiter_domino" source="leindorf" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leindorf|max" source="leindorf" target="max">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leindorf|falkenir" source="leindorf" target="falkenir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leindorf|aurelie" source="leindorf" target="aurelie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leindorf|albine" source="leindorf" target="albine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leindorf|ida" source="leindorf" target="ida">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leindorf|meyerhofer" source="leindorf" target="meyerhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leindorf|devona" source="leindorf" target="devona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_domino|zweiter_domino" source="erster_domino" target="zweiter_domino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_domino|max" source="erster_domino" target="max">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_domino|falkenir" source="erster_domino" target="falkenir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_domino|aurelie" source="erster_domino" target="aurelie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_domino|max" source="zweiter_domino" target="max">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_domino|falkenir" source="zweiter_domino" target="falkenir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_domino|aurelie" source="zweiter_domino" target="aurelie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="max|falkenir" source="max" target="falkenir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="max|aurelie" source="max" target="aurelie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="max|diener" source="max" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="max|albine" source="max" target="albine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="max|ida" source="max" target="ida">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="max|meyerhofer" source="max" target="meyerhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="max|devona" source="max" target="devona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="max|der_kleine_neger" source="max" target="der_kleine_neger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="max|hansen" source="max" target="hansen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="max|gilda" source="max" target="gilda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="max|ein_hotelbediensteter" source="max" target="ein_hotelbediensteter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="falkenir|aurelie" source="falkenir" target="aurelie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="falkenir|der_kleine_neger" source="falkenir" target="der_kleine_neger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="falkenir|hansen" source="falkenir" target="hansen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="falkenir|gilda" source="falkenir" target="gilda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="falkenir|ein_hotelbediensteter" source="falkenir" target="ein_hotelbediensteter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aurelie|der_kleine_neger" source="aurelie" target="der_kleine_neger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aurelie|hansen" source="aurelie" target="hansen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aurelie|gilda" source="aurelie" target="gilda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aurelie|ein_hotelbediensteter" source="aurelie" target="ein_hotelbediensteter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albine|ida" source="albine" target="ida">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albine|meyerhofer" source="albine" target="meyerhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albine|devona" source="albine" target="devona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|meyerhofer" source="ida" target="meyerhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ida|devona" source="ida" target="devona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meyerhofer|devona" source="meyerhofer" target="devona">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kleine_neger|hansen" source="der_kleine_neger" target="hansen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kleine_neger|gilda" source="der_kleine_neger" target="gilda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kleine_neger|ein_hotelbediensteter" source="der_kleine_neger" target="ein_hotelbediensteter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hansen|gilda" source="hansen" target="gilda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hansen|ein_hotelbediensteter" source="hansen" target="ein_hotelbediensteter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gilda|ein_hotelbediensteter" source="gilda" target="ein_hotelbediensteter">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

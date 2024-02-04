@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="hans">
+            <data key="label">Hans von Zanow</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wilhelmine">
+            <data key="label">Wilhelmine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fritz_fritze">
+            <data key="label">Fritz/Fritze</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="guerge">
+            <data key="label">Gürge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lieschen">
+            <data key="label">Lieschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wutzkofius">
+            <data key="label">Wutzkofius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_muellern">
+            <data key="label">Frau Müllern</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="renner">
+            <data key="label">Renner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="graefin">
+            <data key="label">Gräfin von Saalheim</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chevalier">
+            <data key="label">Chevalier de la Meau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="graf">
+            <data key="label">Graf von Erlenstein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="baron">
+            <data key="label">Baron Link</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="aufwaerter">
+            <data key="label">Aufwärter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jude">
+            <data key="label">Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="soldat">
+            <data key="label">Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="koerner">
+            <data key="label">Körner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="johann">
+            <data key="label">Johann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="hans" target="graefin">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="hans" target="wilhelmine">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="hans" target="fritz_fritze">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="wutzkofius" target="fritz_fritze">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="lieschen" target="wilhelmine">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="guerge" target="hans">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="johann" target="graf">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

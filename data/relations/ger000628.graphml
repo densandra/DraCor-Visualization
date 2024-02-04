@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="gioconda">
+            <data key="label">Gioconda</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="laurette">
+            <data key="label">Laurette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cotaldi">
+            <data key="label">Cotaldi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="antonio">
+            <data key="label">Antonio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gianetta">
+            <data key="label">Gianetta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="montano">
+            <data key="label">Montano</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pietro">
+            <data key="label">Pietro</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="arzt">
+            <data key="label">Arzt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="cotaldi" target="gianetta">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="antonio" target="gianetta">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="montano" target="gianetta">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="laurette" target="gioconda">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

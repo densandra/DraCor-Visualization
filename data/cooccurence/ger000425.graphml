@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="molly">
+            <data key="label">Molly Griesinger</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1521</data>
+        </node>
+        <node id="von_keith">
+            <data key="label">von Keith</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7573</data>
+        </node>
+        <node id="hermann">
+            <data key="label">Hermann Casimir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">614</data>
+        </node>
+        <node id="anna">
+            <data key="label">Anna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2368</data>
+        </node>
+        <node id="sascha">
+            <data key="label">Sascha</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">145</data>
+        </node>
+        <node id="scholz">
+            <data key="label">Scholz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4167</data>
+        </node>
+        <node id="saranieff">
+            <data key="label">Saranieff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">632</data>
+        </node>
+        <node id="raspe">
+            <data key="label">Raspe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">438</data>
+        </node>
+        <node id="casimir">
+            <data key="label">Konsul Casimir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">737</data>
+        </node>
+        <node id="ostermeier">
+            <data key="label">Ostermeier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">427</data>
+        </node>
+        <node id="krenzl">
+            <data key="label">Krenzl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">67</data>
+        </node>
+        <node id="grandauer">
+            <data key="label">Grandauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <node id="sommersberg">
+            <data key="label">Sommersberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">179</data>
+        </node>
+        <node id="simba">
+            <data key="label">Simba</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">590</data>
+        </node>
+        <node id="frau_ostermeier">
+            <data key="label">Frau Ostermeier</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="frau_krenzl">
+            <data key="label">Frau Krenzl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="freifrau_von_rosenkron">
+            <data key="label">Freifrau von Rosenkron</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="freifrau_von_totleben">
+            <data key="label">Freifrau von Totleben</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="zamrjaki">
+            <data key="label">Zamrjaki</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">49</data>
+        </node>
+        <node id="ernst_scholz">
+            <data key="label">Ernst Scholz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="ein_metzgerknecht">
+            <data key="label">Ein Metzgerknecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">85</data>
+        </node>
+        <node id="ein_packtraeger">
+            <data key="label">Ein Packträger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="ein_baeckerweib">
+            <data key="label">Ein Bäckerweib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">53</data>
+        </node>
+        <edge id="molly|von_keith" source="molly" target="von_keith">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="molly|hermann" source="molly" target="hermann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="molly|anna" source="molly" target="anna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="molly|sascha" source="molly" target="sascha">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="molly|scholz" source="molly" target="scholz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="molly|saranieff" source="molly" target="saranieff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="molly|raspe" source="molly" target="raspe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="molly|casimir" source="molly" target="casimir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molly|ostermeier" source="molly" target="ostermeier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="molly|krenzl" source="molly" target="krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molly|grandauer" source="molly" target="grandauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molly|sommersberg" source="molly" target="sommersberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="molly|simba" source="molly" target="simba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molly|frau_ostermeier" source="molly" target="frau_ostermeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molly|frau_krenzl" source="molly" target="frau_krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molly|freifrau_von_rosenkron" source="molly" target="freifrau_von_rosenkron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molly|freifrau_von_totleben" source="molly" target="freifrau_von_totleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="molly|zamrjaki" source="molly" target="zamrjaki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_keith|hermann" source="von_keith" target="hermann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="von_keith|anna" source="von_keith" target="anna">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="von_keith|sascha" source="von_keith" target="sascha">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="von_keith|scholz" source="von_keith" target="scholz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="von_keith|saranieff" source="von_keith" target="saranieff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="von_keith|raspe" source="von_keith" target="raspe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="von_keith|casimir" source="von_keith" target="casimir">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="von_keith|ostermeier" source="von_keith" target="ostermeier">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="von_keith|krenzl" source="von_keith" target="krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_keith|grandauer" source="von_keith" target="grandauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_keith|sommersberg" source="von_keith" target="sommersberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="von_keith|simba" source="von_keith" target="simba">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="von_keith|frau_ostermeier" source="von_keith" target="frau_ostermeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_keith|frau_krenzl" source="von_keith" target="frau_krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_keith|freifrau_von_rosenkron" source="von_keith" target="freifrau_von_rosenkron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_keith|freifrau_von_totleben" source="von_keith" target="freifrau_von_totleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_keith|zamrjaki" source="von_keith" target="zamrjaki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_keith|ernst_scholz" source="von_keith" target="ernst_scholz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_keith|ein_metzgerknecht" source="von_keith" target="ein_metzgerknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_keith|ein_packtraeger" source="von_keith" target="ein_packtraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_keith|ein_baeckerweib" source="von_keith" target="ein_baeckerweib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermann|anna" source="hermann" target="anna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hermann|sascha" source="hermann" target="sascha">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hermann|scholz" source="hermann" target="scholz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hermann|saranieff" source="hermann" target="saranieff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermann|raspe" source="hermann" target="raspe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hermann|casimir" source="hermann" target="casimir">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hermann|ostermeier" source="hermann" target="ostermeier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hermann|krenzl" source="hermann" target="krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermann|grandauer" source="hermann" target="grandauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermann|sommersberg" source="hermann" target="sommersberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermann|simba" source="hermann" target="simba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermann|ernst_scholz" source="hermann" target="ernst_scholz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermann|ein_metzgerknecht" source="hermann" target="ein_metzgerknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermann|ein_packtraeger" source="hermann" target="ein_packtraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermann|ein_baeckerweib" source="hermann" target="ein_baeckerweib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|sascha" source="anna" target="sascha">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="anna|scholz" source="anna" target="scholz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="anna|saranieff" source="anna" target="saranieff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anna|raspe" source="anna" target="raspe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="anna|casimir" source="anna" target="casimir">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="anna|ostermeier" source="anna" target="ostermeier">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="anna|krenzl" source="anna" target="krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|grandauer" source="anna" target="grandauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|sommersberg" source="anna" target="sommersberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anna|simba" source="anna" target="simba">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anna|frau_ostermeier" source="anna" target="frau_ostermeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|frau_krenzl" source="anna" target="frau_krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|freifrau_von_rosenkron" source="anna" target="freifrau_von_rosenkron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|freifrau_von_totleben" source="anna" target="freifrau_von_totleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|zamrjaki" source="anna" target="zamrjaki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|ernst_scholz" source="anna" target="ernst_scholz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|ein_metzgerknecht" source="anna" target="ein_metzgerknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|ein_packtraeger" source="anna" target="ein_packtraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|ein_baeckerweib" source="anna" target="ein_baeckerweib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sascha|scholz" source="sascha" target="scholz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sascha|saranieff" source="sascha" target="saranieff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sascha|raspe" source="sascha" target="raspe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sascha|casimir" source="sascha" target="casimir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sascha|ostermeier" source="sascha" target="ostermeier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sascha|krenzl" source="sascha" target="krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sascha|grandauer" source="sascha" target="grandauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sascha|sommersberg" source="sascha" target="sommersberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sascha|simba" source="sascha" target="simba">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sascha|frau_ostermeier" source="sascha" target="frau_ostermeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sascha|frau_krenzl" source="sascha" target="frau_krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sascha|freifrau_von_rosenkron" source="sascha" target="freifrau_von_rosenkron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sascha|freifrau_von_totleben" source="sascha" target="freifrau_von_totleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sascha|zamrjaki" source="sascha" target="zamrjaki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sascha|ernst_scholz" source="sascha" target="ernst_scholz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scholz|saranieff" source="scholz" target="saranieff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="scholz|raspe" source="scholz" target="raspe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="scholz|casimir" source="scholz" target="casimir">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="scholz|ostermeier" source="scholz" target="ostermeier">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="scholz|krenzl" source="scholz" target="krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scholz|grandauer" source="scholz" target="grandauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scholz|sommersberg" source="scholz" target="sommersberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="scholz|simba" source="scholz" target="simba">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="scholz|frau_ostermeier" source="scholz" target="frau_ostermeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scholz|frau_krenzl" source="scholz" target="frau_krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scholz|freifrau_von_rosenkron" source="scholz" target="freifrau_von_rosenkron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scholz|freifrau_von_totleben" source="scholz" target="freifrau_von_totleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scholz|zamrjaki" source="scholz" target="zamrjaki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scholz|ernst_scholz" source="scholz" target="ernst_scholz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scholz|ein_metzgerknecht" source="scholz" target="ein_metzgerknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scholz|ein_packtraeger" source="scholz" target="ein_packtraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scholz|ein_baeckerweib" source="scholz" target="ein_baeckerweib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saranieff|raspe" source="saranieff" target="raspe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="saranieff|casimir" source="saranieff" target="casimir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saranieff|ostermeier" source="saranieff" target="ostermeier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="saranieff|krenzl" source="saranieff" target="krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saranieff|grandauer" source="saranieff" target="grandauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saranieff|sommersberg" source="saranieff" target="sommersberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="saranieff|simba" source="saranieff" target="simba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saranieff|frau_ostermeier" source="saranieff" target="frau_ostermeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saranieff|frau_krenzl" source="saranieff" target="frau_krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saranieff|freifrau_von_rosenkron" source="saranieff" target="freifrau_von_rosenkron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saranieff|freifrau_von_totleben" source="saranieff" target="freifrau_von_totleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saranieff|zamrjaki" source="saranieff" target="zamrjaki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raspe|casimir" source="raspe" target="casimir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="raspe|ostermeier" source="raspe" target="ostermeier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="raspe|krenzl" source="raspe" target="krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raspe|grandauer" source="raspe" target="grandauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raspe|sommersberg" source="raspe" target="sommersberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="raspe|simba" source="raspe" target="simba">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="raspe|frau_ostermeier" source="raspe" target="frau_ostermeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raspe|frau_krenzl" source="raspe" target="frau_krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raspe|freifrau_von_rosenkron" source="raspe" target="freifrau_von_rosenkron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raspe|freifrau_von_totleben" source="raspe" target="freifrau_von_totleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raspe|zamrjaki" source="raspe" target="zamrjaki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raspe|ernst_scholz" source="raspe" target="ernst_scholz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casimir|ostermeier" source="casimir" target="ostermeier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="casimir|krenzl" source="casimir" target="krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casimir|grandauer" source="casimir" target="grandauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casimir|sommersberg" source="casimir" target="sommersberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casimir|simba" source="casimir" target="simba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casimir|ernst_scholz" source="casimir" target="ernst_scholz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casimir|ein_metzgerknecht" source="casimir" target="ein_metzgerknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casimir|ein_packtraeger" source="casimir" target="ein_packtraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casimir|ein_baeckerweib" source="casimir" target="ein_baeckerweib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ostermeier|krenzl" source="ostermeier" target="krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ostermeier|grandauer" source="ostermeier" target="grandauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ostermeier|sommersberg" source="ostermeier" target="sommersberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ostermeier|simba" source="ostermeier" target="simba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ostermeier|frau_ostermeier" source="ostermeier" target="frau_ostermeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ostermeier|frau_krenzl" source="ostermeier" target="frau_krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ostermeier|freifrau_von_rosenkron" source="ostermeier" target="freifrau_von_rosenkron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ostermeier|freifrau_von_totleben" source="ostermeier" target="freifrau_von_totleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ostermeier|zamrjaki" source="ostermeier" target="zamrjaki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ostermeier|ein_metzgerknecht" source="ostermeier" target="ein_metzgerknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ostermeier|ein_packtraeger" source="ostermeier" target="ein_packtraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ostermeier|ein_baeckerweib" source="ostermeier" target="ein_baeckerweib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krenzl|grandauer" source="krenzl" target="grandauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krenzl|sommersberg" source="krenzl" target="sommersberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grandauer|sommersberg" source="grandauer" target="sommersberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sommersberg|simba" source="sommersberg" target="simba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sommersberg|frau_ostermeier" source="sommersberg" target="frau_ostermeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sommersberg|frau_krenzl" source="sommersberg" target="frau_krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sommersberg|freifrau_von_rosenkron" source="sommersberg" target="freifrau_von_rosenkron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sommersberg|freifrau_von_totleben" source="sommersberg" target="freifrau_von_totleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sommersberg|zamrjaki" source="sommersberg" target="zamrjaki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simba|frau_ostermeier" source="simba" target="frau_ostermeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simba|frau_krenzl" source="simba" target="frau_krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simba|freifrau_von_rosenkron" source="simba" target="freifrau_von_rosenkron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simba|freifrau_von_totleben" source="simba" target="freifrau_von_totleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simba|zamrjaki" source="simba" target="zamrjaki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simba|ernst_scholz" source="simba" target="ernst_scholz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ostermeier|frau_krenzl" source="frau_ostermeier" target="frau_krenzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ostermeier|freifrau_von_rosenkron" source="frau_ostermeier" target="freifrau_von_rosenkron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ostermeier|freifrau_von_totleben" source="frau_ostermeier" target="freifrau_von_totleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ostermeier|zamrjaki" source="frau_ostermeier" target="zamrjaki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_krenzl|freifrau_von_rosenkron" source="frau_krenzl" target="freifrau_von_rosenkron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_krenzl|freifrau_von_totleben" source="frau_krenzl" target="freifrau_von_totleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_krenzl|zamrjaki" source="frau_krenzl" target="zamrjaki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freifrau_von_rosenkron|freifrau_von_totleben" source="freifrau_von_rosenkron" target="freifrau_von_totleben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freifrau_von_rosenkron|zamrjaki" source="freifrau_von_rosenkron" target="zamrjaki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="freifrau_von_totleben|zamrjaki" source="freifrau_von_totleben" target="zamrjaki">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_metzgerknecht|ein_packtraeger" source="ein_metzgerknecht" target="ein_packtraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_metzgerknecht|ein_baeckerweib" source="ein_metzgerknecht" target="ein_baeckerweib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_packtraeger|ein_baeckerweib" source="ein_packtraeger" target="ein_baeckerweib">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

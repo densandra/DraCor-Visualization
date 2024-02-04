@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="neurath">
+            <data key="label">Neurath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">950</data>
+        </node>
+        <node id="horfmann">
+            <data key="label">Horfmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1417</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">346</data>
+        </node>
+        <node id="delomer">
+            <data key="label">Delomer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3866</data>
+        </node>
+        <node id="dominique_sohn">
+            <data key="label">Dominique Sohn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2966</data>
+        </node>
+        <node id="madam_dominique">
+            <data key="label">Madam Dominique</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">946</data>
+        </node>
+        <node id="graf">
+            <data key="label">Graf Warbing</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1193</data>
+        </node>
+        <node id="graefin">
+            <data key="label">Gräfin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1124</data>
+        </node>
+        <node id="die_bauern">
+            <data key="label">Die Bauern</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="schulz">
+            <data key="label">Schulz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">430</data>
+        </node>
+        <node id="das_kind">
+            <data key="label">Das Kind</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">221</data>
+        </node>
+        <node id="dominique_vater">
+            <data key="label">Dominique Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5055</data>
+        </node>
+        <node id="marquis">
+            <data key="label">Marquis de Valiere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1481</data>
+        </node>
+        <node id="gaertner">
+            <data key="label">Gärtner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="etliche">
+            <data key="label">Etliche</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <edge id="neurath|horfmann" source="neurath" target="horfmann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="neurath|bedienter" source="neurath" target="bedienter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="neurath|delomer" source="neurath" target="delomer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="neurath|graf" source="neurath" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neurath|graefin" source="neurath" target="graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neurath|dominique_sohn" source="neurath" target="dominique_sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neurath|die_bauern" source="neurath" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neurath|madam_dominique" source="neurath" target="madam_dominique">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neurath|schulz" source="neurath" target="schulz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="neurath|das_kind" source="neurath" target="das_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="horfmann|bedienter" source="horfmann" target="bedienter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="horfmann|delomer" source="horfmann" target="delomer">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="horfmann|madam_dominique" source="horfmann" target="madam_dominique">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="horfmann|dominique_sohn" source="horfmann" target="dominique_sohn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="horfmann|graf" source="horfmann" target="graf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="horfmann|graefin" source="horfmann" target="graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="horfmann|die_bauern" source="horfmann" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="horfmann|schulz" source="horfmann" target="schulz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="horfmann|das_kind" source="horfmann" target="das_kind">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="horfmann|marquis" source="horfmann" target="marquis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="horfmann|dominique_vater" source="horfmann" target="dominique_vater">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bedienter|delomer" source="bedienter" target="delomer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bedienter|schulz" source="bedienter" target="schulz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bedienter|dominique_sohn" source="bedienter" target="dominique_sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="delomer|dominique_sohn" source="delomer" target="dominique_sohn">
+            <data key="weight">17</data>
+        </edge>
+        <edge id="delomer|madam_dominique" source="delomer" target="madam_dominique">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="delomer|graf" source="delomer" target="graf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="delomer|graefin" source="delomer" target="graefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="delomer|die_bauern" source="delomer" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="delomer|schulz" source="delomer" target="schulz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="delomer|das_kind" source="delomer" target="das_kind">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="delomer|dominique_vater" source="delomer" target="dominique_vater">
+            <data key="weight">17</data>
+        </edge>
+        <edge id="delomer|etliche" source="delomer" target="etliche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="delomer|marquis" source="delomer" target="marquis">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dominique_sohn|madam_dominique" source="dominique_sohn" target="madam_dominique">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="dominique_sohn|graf" source="dominique_sohn" target="graf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="dominique_sohn|graefin" source="dominique_sohn" target="graefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dominique_sohn|die_bauern" source="dominique_sohn" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dominique_sohn|schulz" source="dominique_sohn" target="schulz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dominique_sohn|das_kind" source="dominique_sohn" target="das_kind">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="dominique_sohn|dominique_vater" source="dominique_sohn" target="dominique_vater">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="dominique_sohn|etliche" source="dominique_sohn" target="etliche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dominique_sohn|marquis" source="dominique_sohn" target="marquis">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madam_dominique|graf" source="madam_dominique" target="graf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madam_dominique|graefin" source="madam_dominique" target="graefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madam_dominique|die_bauern" source="madam_dominique" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madam_dominique|schulz" source="madam_dominique" target="schulz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madam_dominique|das_kind" source="madam_dominique" target="das_kind">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madam_dominique|dominique_vater" source="madam_dominique" target="dominique_vater">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="madam_dominique|etliche" source="madam_dominique" target="etliche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madam_dominique|marquis" source="madam_dominique" target="marquis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|graefin" source="graf" target="graefin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="graf|die_bauern" source="graf" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|schulz" source="graf" target="schulz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|das_kind" source="graf" target="das_kind">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf|dominique_vater" source="graf" target="dominique_vater">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="graf|etliche" source="graf" target="etliche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graefin|die_bauern" source="graefin" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graefin|schulz" source="graefin" target="schulz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graefin|das_kind" source="graefin" target="das_kind">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graefin|dominique_vater" source="graefin" target="dominique_vater">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="graefin|etliche" source="graefin" target="etliche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|schulz" source="die_bauern" target="schulz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|das_kind" source="die_bauern" target="das_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulz|das_kind" source="schulz" target="das_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulz|dominique_vater" source="schulz" target="dominique_vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_kind|dominique_vater" source="das_kind" target="dominique_vater">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="das_kind|etliche" source="das_kind" target="etliche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dominique_vater|marquis" source="dominique_vater" target="marquis">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="dominique_vater|gaertner" source="dominique_vater" target="gaertner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dominique_vater|etliche" source="dominique_vater" target="etliche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marquis|gaertner" source="marquis" target="gaertner">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

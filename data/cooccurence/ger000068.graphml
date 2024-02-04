@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="orgon">
+            <data key="label">Herr Orgon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3458</data>
+        </node>
+        <node id="philipp">
+            <data key="label">Philipp</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3463</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2299</data>
+        </node>
+        <node id="timant">
+            <data key="label">Timant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5918</data>
+        </node>
+        <node id="damon">
+            <data key="label">Damon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4074</data>
+        </node>
+        <node id="geronte">
+            <data key="label">Herr Geronte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2381</data>
+        </node>
+        <node id="climene">
+            <data key="label">Climene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2419</data>
+        </node>
+        <edge id="orgon|philipp" source="orgon" target="philipp">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="orgon|lisette" source="orgon" target="lisette">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="orgon|geronte" source="orgon" target="geronte">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="orgon|timant" source="orgon" target="timant">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="orgon|damon" source="orgon" target="damon">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="orgon|climene" source="orgon" target="climene">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="philipp|lisette" source="philipp" target="lisette">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="philipp|timant" source="philipp" target="timant">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="philipp|damon" source="philipp" target="damon">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="philipp|geronte" source="philipp" target="geronte">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="philipp|climene" source="philipp" target="climene">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lisette|damon" source="lisette" target="damon">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lisette|climene" source="lisette" target="climene">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="lisette|timant" source="lisette" target="timant">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lisette|geronte" source="lisette" target="geronte">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="timant|damon" source="timant" target="damon">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="timant|geronte" source="timant" target="geronte">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="timant|climene" source="timant" target="climene">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="damon|geronte" source="damon" target="geronte">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="damon|climene" source="damon" target="climene">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="geronte|climene" source="geronte" target="climene">
+            <data key="weight">9</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4818</data>
+        </node>
+        <node id="sehkraft">
+            <data key="label">Sehkraft</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1503</data>
+        </node>
+        <node id="wilhelmine">
+            <data key="label">Wilhelmine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">685</data>
+        </node>
+        <node id="blenkfeld">
+            <data key="label">Blenkfeld</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1154</data>
+        </node>
+        <node id="ein_bedienter">
+            <data key="label">Ein Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="millwiz">
+            <data key="label">Millwiz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1036</data>
+        </node>
+        <edge id="wilhelm|sehkraft" source="wilhelm" target="sehkraft">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="wilhelm|wilhelmine" source="wilhelm" target="wilhelmine">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wilhelm|blenkfeld" source="wilhelm" target="blenkfeld">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|ein_bedienter" source="wilhelm" target="ein_bedienter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|millwiz" source="wilhelm" target="millwiz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sehkraft|wilhelmine" source="sehkraft" target="wilhelmine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sehkraft|ein_bedienter" source="sehkraft" target="ein_bedienter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sehkraft|blenkfeld" source="sehkraft" target="blenkfeld">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|blenkfeld" source="wilhelmine" target="blenkfeld">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

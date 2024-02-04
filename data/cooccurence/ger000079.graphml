@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="claudio">
+            <data key="label">Claudio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2177</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">169</data>
+        </node>
+        <node id="der_tod">
+            <data key="label">Der Tod</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">289</data>
+        </node>
+        <node id="die_mutter">
+            <data key="label">Die Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">209</data>
+        </node>
+        <node id="das_junge_maedchen">
+            <data key="label">Das junge Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">320</data>
+        </node>
+        <node id="der_mann">
+            <data key="label">Der Mann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">445</data>
+        </node>
+        <edge id="claudio|diener" source="claudio" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="claudio|der_tod" source="claudio" target="der_tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="claudio|die_mutter" source="claudio" target="die_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="claudio|das_junge_maedchen" source="claudio" target="das_junge_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="claudio|der_mann" source="claudio" target="der_mann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|der_tod" source="diener" target="der_tod">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|die_mutter" source="diener" target="die_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|das_junge_maedchen" source="diener" target="das_junge_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|der_mann" source="diener" target="der_mann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_tod|die_mutter" source="der_tod" target="die_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_tod|das_junge_maedchen" source="der_tod" target="das_junge_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_tod|der_mann" source="der_tod" target="der_mann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mutter|das_junge_maedchen" source="die_mutter" target="das_junge_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_mutter|der_mann" source="die_mutter" target="der_mann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_junge_maedchen|der_mann" source="das_junge_maedchen" target="der_mann">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

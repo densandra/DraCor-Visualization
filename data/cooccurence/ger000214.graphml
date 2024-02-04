@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2339</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1796</data>
+        </node>
+        <node id="ernst">
+            <data key="label">Ernst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1668</data>
+        </node>
+        <edge id="mutter|sophie" source="mutter" target="sophie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mutter|ernst" source="mutter" target="ernst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sophie|ernst" source="sophie" target="ernst">
+            <data key="weight">8</data>
+        </edge>
+    </graph>
+</graphml>

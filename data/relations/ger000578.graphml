@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="duport">
+            <data key="label">Duport</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="louis">
+            <data key="label">Louis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="madam_duport">
+            <data key="label">Madam Duport</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="la_brie">
+            <data key="label">La Brie</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="julie">
+            <data key="label">Julie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="antoinette">
+            <data key="label">Antoinette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marquis">
+            <data key="label">Marquis de Rozieres</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erste_dame">
+            <data key="label">Erste Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweyte_dame">
+            <data key="label">Zweyte Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritte_dame">
+            <data key="label">Dritte Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vierte_dame">
+            <data key="label">Vierte Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fuenfte_dame">
+            <data key="label">Fünfte Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sechste_dame">
+            <data key="label">Sechste Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_dame">
+            <data key="label">Eine Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_herr">
+            <data key="label">Erster Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweyter_herr">
+            <data key="label">Zweyter Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_herr">
+            <data key="label">Dritter Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vierter_herr">
+            <data key="label">Vierter Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fuenfter_herr">
+            <data key="label">Fünfter Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sechster_herr">
+            <data key="label">Sechster Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="duport" target="madam_duport">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="duport" target="julie">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="duport" target="louis">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="madam_duport" target="julie">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="madam_duport" target="louis">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

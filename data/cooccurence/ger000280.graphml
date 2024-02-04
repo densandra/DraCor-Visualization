@@ -1,0 +1,659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="kilian">
+            <data key="label">Kilian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1495</data>
+        </node>
+        <node id="doctor">
+            <data key="label">Doctor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5384</data>
+        </node>
+        <node id="schlaukopf">
+            <data key="label">Schlaukopf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2843</data>
+        </node>
+        <node id="chor_der_sklaven">
+            <data key="label">Chor der Sklaven</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">345</data>
+        </node>
+        <node id="germania">
+            <data key="label">Germania</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">716</data>
+        </node>
+        <node id="der_dichter">
+            <data key="label">Der Dichter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3164</data>
+        </node>
+        <node id="erstes_frauenzimmer">
+            <data key="label">Erstes Frauenzimmer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="zweites_frauenzimmer">
+            <data key="label">Zweites Frauenzimmer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="medea">
+            <data key="label">Medea</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">87</data>
+        </node>
+        <node id="antigone">
+            <data key="label">Antigone</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">77</data>
+        </node>
+        <node id="romantiker">
+            <data key="label">Romantiker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">541</data>
+        </node>
+        <node id="philosoph">
+            <data key="label">Philosoph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">945</data>
+        </node>
+        <node id="die_fremde">
+            <data key="label">Die Fremde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">762</data>
+        </node>
+        <node id="erster_gensdarm">
+            <data key="label">Erster Gensd'arm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">96</data>
+        </node>
+        <node id="zweiter_gensdarm">
+            <data key="label">Zweiter Gensd'arm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">54</data>
+        </node>
+        <node id="chor_der_moenche">
+            <data key="label">Chor der Mönche</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <node id="die_wiedergeborenen">
+            <data key="label">Die Wiedergeborenen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="chor_der_ritter">
+            <data key="label">Chor der Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <node id="chor_der_gaense">
+            <data key="label">Chor der Gänse</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">55</data>
+        </node>
+        <node id="chor_der_freisinnigen">
+            <data key="label">Chor der Freisinnigen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="der_kaiser_von_china">
+            <data key="label">Der Kaiser von China</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="ein_nachtwaechter">
+            <data key="label">Ein Nachtwächter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">46</data>
+        </node>
+        <node id="die_kosaken">
+            <data key="label">Die Kosaken</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <edge id="kilian|doctor" source="kilian" target="doctor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kilian|schlaukopf" source="kilian" target="schlaukopf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kilian|chor_der_sklaven" source="kilian" target="chor_der_sklaven">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kilian|germania" source="kilian" target="germania">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kilian|der_dichter" source="kilian" target="der_dichter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kilian|erstes_frauenzimmer" source="kilian" target="erstes_frauenzimmer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|zweites_frauenzimmer" source="kilian" target="zweites_frauenzimmer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|medea" source="kilian" target="medea">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|antigone" source="kilian" target="antigone">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|romantiker" source="kilian" target="romantiker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|philosoph" source="kilian" target="philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|die_fremde" source="kilian" target="die_fremde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|erster_gensdarm" source="kilian" target="erster_gensdarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|zweiter_gensdarm" source="kilian" target="zweiter_gensdarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|chor_der_moenche" source="kilian" target="chor_der_moenche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|die_wiedergeborenen" source="kilian" target="die_wiedergeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|chor_der_ritter" source="kilian" target="chor_der_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|chor_der_gaense" source="kilian" target="chor_der_gaense">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|chor_der_freisinnigen" source="kilian" target="chor_der_freisinnigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|der_kaiser_von_china" source="kilian" target="der_kaiser_von_china">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|ein_nachtwaechter" source="kilian" target="ein_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kilian|die_kosaken" source="kilian" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|schlaukopf" source="doctor" target="schlaukopf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="doctor|chor_der_sklaven" source="doctor" target="chor_der_sklaven">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="doctor|germania" source="doctor" target="germania">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="doctor|der_dichter" source="doctor" target="der_dichter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="doctor|erstes_frauenzimmer" source="doctor" target="erstes_frauenzimmer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|zweites_frauenzimmer" source="doctor" target="zweites_frauenzimmer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|medea" source="doctor" target="medea">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|antigone" source="doctor" target="antigone">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|romantiker" source="doctor" target="romantiker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|philosoph" source="doctor" target="philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|die_fremde" source="doctor" target="die_fremde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|erster_gensdarm" source="doctor" target="erster_gensdarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|zweiter_gensdarm" source="doctor" target="zweiter_gensdarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|chor_der_moenche" source="doctor" target="chor_der_moenche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|die_wiedergeborenen" source="doctor" target="die_wiedergeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|chor_der_ritter" source="doctor" target="chor_der_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|chor_der_gaense" source="doctor" target="chor_der_gaense">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|chor_der_freisinnigen" source="doctor" target="chor_der_freisinnigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|der_kaiser_von_china" source="doctor" target="der_kaiser_von_china">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|ein_nachtwaechter" source="doctor" target="ein_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doctor|die_kosaken" source="doctor" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|chor_der_sklaven" source="schlaukopf" target="chor_der_sklaven">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schlaukopf|germania" source="schlaukopf" target="germania">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schlaukopf|der_dichter" source="schlaukopf" target="der_dichter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schlaukopf|erstes_frauenzimmer" source="schlaukopf" target="erstes_frauenzimmer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|zweites_frauenzimmer" source="schlaukopf" target="zweites_frauenzimmer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|medea" source="schlaukopf" target="medea">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|antigone" source="schlaukopf" target="antigone">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|romantiker" source="schlaukopf" target="romantiker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|philosoph" source="schlaukopf" target="philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|die_fremde" source="schlaukopf" target="die_fremde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|erster_gensdarm" source="schlaukopf" target="erster_gensdarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|zweiter_gensdarm" source="schlaukopf" target="zweiter_gensdarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|chor_der_moenche" source="schlaukopf" target="chor_der_moenche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|die_wiedergeborenen" source="schlaukopf" target="die_wiedergeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|chor_der_ritter" source="schlaukopf" target="chor_der_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|chor_der_gaense" source="schlaukopf" target="chor_der_gaense">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|chor_der_freisinnigen" source="schlaukopf" target="chor_der_freisinnigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|der_kaiser_von_china" source="schlaukopf" target="der_kaiser_von_china">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|ein_nachtwaechter" source="schlaukopf" target="ein_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlaukopf|die_kosaken" source="schlaukopf" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_sklaven|germania" source="chor_der_sklaven" target="germania">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_sklaven|der_dichter" source="chor_der_sklaven" target="der_dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_sklaven|die_fremde" source="chor_der_sklaven" target="die_fremde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_sklaven|erster_gensdarm" source="chor_der_sklaven" target="erster_gensdarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_sklaven|zweiter_gensdarm" source="chor_der_sklaven" target="zweiter_gensdarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_sklaven|chor_der_moenche" source="chor_der_sklaven" target="chor_der_moenche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_sklaven|die_wiedergeborenen" source="chor_der_sklaven" target="die_wiedergeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_sklaven|chor_der_ritter" source="chor_der_sklaven" target="chor_der_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_sklaven|chor_der_gaense" source="chor_der_sklaven" target="chor_der_gaense">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_sklaven|chor_der_freisinnigen" source="chor_der_sklaven" target="chor_der_freisinnigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_sklaven|der_kaiser_von_china" source="chor_der_sklaven" target="der_kaiser_von_china">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_sklaven|ein_nachtwaechter" source="chor_der_sklaven" target="ein_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_sklaven|die_kosaken" source="chor_der_sklaven" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|der_dichter" source="germania" target="der_dichter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="germania|erstes_frauenzimmer" source="germania" target="erstes_frauenzimmer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|zweites_frauenzimmer" source="germania" target="zweites_frauenzimmer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|medea" source="germania" target="medea">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|antigone" source="germania" target="antigone">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|romantiker" source="germania" target="romantiker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|philosoph" source="germania" target="philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|die_fremde" source="germania" target="die_fremde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|erster_gensdarm" source="germania" target="erster_gensdarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|zweiter_gensdarm" source="germania" target="zweiter_gensdarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|chor_der_moenche" source="germania" target="chor_der_moenche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|die_wiedergeborenen" source="germania" target="die_wiedergeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|chor_der_ritter" source="germania" target="chor_der_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|chor_der_gaense" source="germania" target="chor_der_gaense">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|chor_der_freisinnigen" source="germania" target="chor_der_freisinnigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|der_kaiser_von_china" source="germania" target="der_kaiser_von_china">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|ein_nachtwaechter" source="germania" target="ein_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="germania|die_kosaken" source="germania" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|erstes_frauenzimmer" source="der_dichter" target="erstes_frauenzimmer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|zweites_frauenzimmer" source="der_dichter" target="zweites_frauenzimmer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|medea" source="der_dichter" target="medea">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|antigone" source="der_dichter" target="antigone">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|romantiker" source="der_dichter" target="romantiker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dichter|philosoph" source="der_dichter" target="philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_frauenzimmer|zweites_frauenzimmer" source="erstes_frauenzimmer" target="zweites_frauenzimmer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_frauenzimmer|medea" source="erstes_frauenzimmer" target="medea">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_frauenzimmer|antigone" source="erstes_frauenzimmer" target="antigone">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_frauenzimmer|romantiker" source="erstes_frauenzimmer" target="romantiker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_frauenzimmer|philosoph" source="erstes_frauenzimmer" target="philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_frauenzimmer|medea" source="zweites_frauenzimmer" target="medea">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_frauenzimmer|antigone" source="zweites_frauenzimmer" target="antigone">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_frauenzimmer|romantiker" source="zweites_frauenzimmer" target="romantiker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_frauenzimmer|philosoph" source="zweites_frauenzimmer" target="philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|antigone" source="medea" target="antigone">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|romantiker" source="medea" target="romantiker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|philosoph" source="medea" target="philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antigone|romantiker" source="antigone" target="romantiker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antigone|philosoph" source="antigone" target="philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="romantiker|philosoph" source="romantiker" target="philosoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_fremde|erster_gensdarm" source="die_fremde" target="erster_gensdarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_fremde|zweiter_gensdarm" source="die_fremde" target="zweiter_gensdarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_fremde|chor_der_moenche" source="die_fremde" target="chor_der_moenche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_fremde|die_wiedergeborenen" source="die_fremde" target="die_wiedergeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_fremde|chor_der_ritter" source="die_fremde" target="chor_der_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_fremde|chor_der_gaense" source="die_fremde" target="chor_der_gaense">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_fremde|chor_der_freisinnigen" source="die_fremde" target="chor_der_freisinnigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_fremde|der_kaiser_von_china" source="die_fremde" target="der_kaiser_von_china">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_fremde|ein_nachtwaechter" source="die_fremde" target="ein_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_fremde|die_kosaken" source="die_fremde" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gensdarm|zweiter_gensdarm" source="erster_gensdarm" target="zweiter_gensdarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gensdarm|chor_der_moenche" source="erster_gensdarm" target="chor_der_moenche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gensdarm|die_wiedergeborenen" source="erster_gensdarm" target="die_wiedergeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gensdarm|chor_der_ritter" source="erster_gensdarm" target="chor_der_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gensdarm|chor_der_gaense" source="erster_gensdarm" target="chor_der_gaense">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gensdarm|chor_der_freisinnigen" source="erster_gensdarm" target="chor_der_freisinnigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gensdarm|der_kaiser_von_china" source="erster_gensdarm" target="der_kaiser_von_china">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gensdarm|ein_nachtwaechter" source="erster_gensdarm" target="ein_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gensdarm|die_kosaken" source="erster_gensdarm" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_gensdarm|chor_der_moenche" source="zweiter_gensdarm" target="chor_der_moenche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_gensdarm|die_wiedergeborenen" source="zweiter_gensdarm" target="die_wiedergeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_gensdarm|chor_der_ritter" source="zweiter_gensdarm" target="chor_der_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_gensdarm|chor_der_gaense" source="zweiter_gensdarm" target="chor_der_gaense">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_gensdarm|chor_der_freisinnigen" source="zweiter_gensdarm" target="chor_der_freisinnigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_gensdarm|der_kaiser_von_china" source="zweiter_gensdarm" target="der_kaiser_von_china">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_gensdarm|ein_nachtwaechter" source="zweiter_gensdarm" target="ein_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_gensdarm|die_kosaken" source="zweiter_gensdarm" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_moenche|die_wiedergeborenen" source="chor_der_moenche" target="die_wiedergeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_moenche|chor_der_ritter" source="chor_der_moenche" target="chor_der_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_moenche|chor_der_gaense" source="chor_der_moenche" target="chor_der_gaense">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_moenche|chor_der_freisinnigen" source="chor_der_moenche" target="chor_der_freisinnigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_moenche|der_kaiser_von_china" source="chor_der_moenche" target="der_kaiser_von_china">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_moenche|ein_nachtwaechter" source="chor_der_moenche" target="ein_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_moenche|die_kosaken" source="chor_der_moenche" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_wiedergeborenen|chor_der_ritter" source="die_wiedergeborenen" target="chor_der_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_wiedergeborenen|chor_der_gaense" source="die_wiedergeborenen" target="chor_der_gaense">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_wiedergeborenen|chor_der_freisinnigen" source="die_wiedergeborenen" target="chor_der_freisinnigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_wiedergeborenen|der_kaiser_von_china" source="die_wiedergeborenen" target="der_kaiser_von_china">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_wiedergeborenen|ein_nachtwaechter" source="die_wiedergeborenen" target="ein_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_wiedergeborenen|die_kosaken" source="die_wiedergeborenen" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_ritter|chor_der_gaense" source="chor_der_ritter" target="chor_der_gaense">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_ritter|chor_der_freisinnigen" source="chor_der_ritter" target="chor_der_freisinnigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_ritter|der_kaiser_von_china" source="chor_der_ritter" target="der_kaiser_von_china">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_ritter|ein_nachtwaechter" source="chor_der_ritter" target="ein_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_ritter|die_kosaken" source="chor_der_ritter" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_gaense|chor_der_freisinnigen" source="chor_der_gaense" target="chor_der_freisinnigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_gaense|der_kaiser_von_china" source="chor_der_gaense" target="der_kaiser_von_china">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_gaense|ein_nachtwaechter" source="chor_der_gaense" target="ein_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_gaense|die_kosaken" source="chor_der_gaense" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_freisinnigen|der_kaiser_von_china" source="chor_der_freisinnigen" target="der_kaiser_von_china">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_freisinnigen|ein_nachtwaechter" source="chor_der_freisinnigen" target="ein_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_freisinnigen|die_kosaken" source="chor_der_freisinnigen" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser_von_china|ein_nachtwaechter" source="der_kaiser_von_china" target="ein_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser_von_china|die_kosaken" source="der_kaiser_von_china" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_nachtwaechter|die_kosaken" source="ein_nachtwaechter" target="die_kosaken">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2567</data>
+        </node>
+        <node id="rachel">
+            <data key="label">Rachel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">70</data>
+        </node>
+        <node id="abraham_hirsch">
+            <data key="label">Abraham Hirsch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">781</data>
+        </node>
+        <node id="lydie">
+            <data key="label">Lydie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">557</data>
+        </node>
+        <node id="kapellmeister">
+            <data key="label">Kapellmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">90</data>
+        </node>
+        <node id="herr_polckwitzer">
+            <data key="label">Herr Polckwitzer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">919</data>
+        </node>
+        <node id="isidorus_morgenlaender">
+            <data key="label">Isidorus Morgenländer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">632</data>
+        </node>
+        <node id="kirchendiener">
+            <data key="label">Kirchendiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">176</data>
+        </node>
+        <node id="postillion">
+            <data key="label">Postillion</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">179</data>
+        </node>
+        <node id="loebel_groschenmacher">
+            <data key="label">Löbel Groschenmacher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">458</data>
+        </node>
+        <node id="rebecca">
+            <data key="label">Rebecca</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="die_kinder">
+            <data key="label">Die Kinder</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="erster_jude">
+            <data key="label">Erster Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="zweiter_jude">
+            <data key="label">Zweiter Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="dritter_jude">
+            <data key="label">Dritter Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="alle_eine_menge_juden">
+            <data key="label">Alle (Eine Menge Juden)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <edge id="jakob|rachel" source="jakob" target="rachel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="jakob|abraham_hirsch" source="jakob" target="abraham_hirsch">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="jakob|lydie" source="jakob" target="lydie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jakob|kapellmeister" source="jakob" target="kapellmeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jakob|herr_polckwitzer" source="jakob" target="herr_polckwitzer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jakob|isidorus_morgenlaender" source="jakob" target="isidorus_morgenlaender">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jakob|kirchendiener" source="jakob" target="kirchendiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|postillion" source="jakob" target="postillion">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="jakob|loebel_groschenmacher" source="jakob" target="loebel_groschenmacher">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="jakob|rebecca" source="jakob" target="rebecca">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|die_kinder" source="jakob" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|erster_jude" source="jakob" target="erster_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|zweiter_jude" source="jakob" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|dritter_jude" source="jakob" target="dritter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|alle_eine_menge_juden" source="jakob" target="alle_eine_menge_juden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rachel|abraham_hirsch" source="rachel" target="abraham_hirsch">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="rachel|herr_polckwitzer" source="rachel" target="herr_polckwitzer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rachel|lydie" source="rachel" target="lydie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rachel|kapellmeister" source="rachel" target="kapellmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rachel|loebel_groschenmacher" source="rachel" target="loebel_groschenmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rachel|alle_eine_menge_juden" source="rachel" target="alle_eine_menge_juden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abraham_hirsch|herr_polckwitzer" source="abraham_hirsch" target="herr_polckwitzer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="abraham_hirsch|lydie" source="abraham_hirsch" target="lydie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="abraham_hirsch|kapellmeister" source="abraham_hirsch" target="kapellmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abraham_hirsch|loebel_groschenmacher" source="abraham_hirsch" target="loebel_groschenmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abraham_hirsch|alle_eine_menge_juden" source="abraham_hirsch" target="alle_eine_menge_juden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lydie|kapellmeister" source="lydie" target="kapellmeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lydie|herr_polckwitzer" source="lydie" target="herr_polckwitzer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lydie|postillion" source="lydie" target="postillion">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lydie|loebel_groschenmacher" source="lydie" target="loebel_groschenmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lydie|alle_eine_menge_juden" source="lydie" target="alle_eine_menge_juden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kapellmeister|herr_polckwitzer" source="kapellmeister" target="herr_polckwitzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_polckwitzer|loebel_groschenmacher" source="herr_polckwitzer" target="loebel_groschenmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_polckwitzer|alle_eine_menge_juden" source="herr_polckwitzer" target="alle_eine_menge_juden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="postillion|loebel_groschenmacher" source="postillion" target="loebel_groschenmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loebel_groschenmacher|rebecca" source="loebel_groschenmacher" target="rebecca">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loebel_groschenmacher|die_kinder" source="loebel_groschenmacher" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loebel_groschenmacher|erster_jude" source="loebel_groschenmacher" target="erster_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loebel_groschenmacher|zweiter_jude" source="loebel_groschenmacher" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loebel_groschenmacher|dritter_jude" source="loebel_groschenmacher" target="dritter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loebel_groschenmacher|alle_eine_menge_juden" source="loebel_groschenmacher" target="alle_eine_menge_juden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rebecca|die_kinder" source="rebecca" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_jude|zweiter_jude" source="erster_jude" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_jude|dritter_jude" source="erster_jude" target="dritter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_jude|alle_eine_menge_juden" source="erster_jude" target="alle_eine_menge_juden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_jude|dritter_jude" source="zweiter_jude" target="dritter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_jude|alle_eine_menge_juden" source="zweiter_jude" target="alle_eine_menge_juden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_jude|alle_eine_menge_juden" source="dritter_jude" target="alle_eine_menge_juden">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

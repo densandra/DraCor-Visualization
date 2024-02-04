@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="magdalene">
+            <data key="label">Magdalene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3406</data>
+        </node>
+        <node id="elise">
+            <data key="label">Elise Rehkamp</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">394</data>
+        </node>
+        <node id="wolfgang">
+            <data key="label">Wolfgang Behring</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7095</data>
+        </node>
+        <node id="fritz">
+            <data key="label">Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">370</data>
+        </node>
+        <node id="woehlers">
+            <data key="label">August Wöhlers</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1204</data>
+        </node>
+        <node id="pastor_meiling">
+            <data key="label">Pastor Meiling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1904</data>
+        </node>
+        <node id="christine">
+            <data key="label">Christine Wöhlers</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">155</data>
+        </node>
+        <node id="roloffs">
+            <data key="label">Roloffs</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">217</data>
+        </node>
+        <node id="stein">
+            <data key="label">Stein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1641</data>
+        </node>
+        <node id="scharff">
+            <data key="label">Dr. Edwin Scharff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1709</data>
+        </node>
+        <node id="weber">
+            <data key="label">Julius Weber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">452</data>
+        </node>
+        <node id="emilie_stebeling">
+            <data key="label">Emilie Stebeling</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">160</data>
+        </node>
+        <node id="postbote">
+            <data key="label">Postbote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="schwester_helene">
+            <data key="label">Schwester Helene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">46</data>
+        </node>
+        <node id="kinder">
+            <data key="label">Kinder</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <edge id="magdalene|elise" source="magdalene" target="elise">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="magdalene|wolfgang" source="magdalene" target="wolfgang">
+            <data key="weight">18</data>
+        </edge>
+        <edge id="magdalene|fritz" source="magdalene" target="fritz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magdalene|woehlers" source="magdalene" target="woehlers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magdalene|pastor_meiling" source="magdalene" target="pastor_meiling">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="magdalene|christine" source="magdalene" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magdalene|stein" source="magdalene" target="stein">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="magdalene|scharff" source="magdalene" target="scharff">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="magdalene|emilie_stebeling" source="magdalene" target="emilie_stebeling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magdalene|postbote" source="magdalene" target="postbote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magdalene|schwester_helene" source="magdalene" target="schwester_helene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elise|wolfgang" source="elise" target="wolfgang">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="elise|fritz" source="elise" target="fritz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elise|woehlers" source="elise" target="woehlers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elise|pastor_meiling" source="elise" target="pastor_meiling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elise|christine" source="elise" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolfgang|fritz" source="wolfgang" target="fritz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wolfgang|woehlers" source="wolfgang" target="woehlers">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wolfgang|pastor_meiling" source="wolfgang" target="pastor_meiling">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wolfgang|christine" source="wolfgang" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolfgang|roloffs" source="wolfgang" target="roloffs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolfgang|stein" source="wolfgang" target="stein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wolfgang|scharff" source="wolfgang" target="scharff">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="wolfgang|emilie_stebeling" source="wolfgang" target="emilie_stebeling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolfgang|postbote" source="wolfgang" target="postbote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolfgang|schwester_helene" source="wolfgang" target="schwester_helene">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fritz|kinder" source="fritz" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|woehlers" source="fritz" target="woehlers">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fritz|pastor_meiling" source="fritz" target="pastor_meiling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="woehlers|pastor_meiling" source="woehlers" target="pastor_meiling">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="woehlers|christine" source="woehlers" target="christine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="woehlers|kinder" source="woehlers" target="kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="woehlers|diener" source="woehlers" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pastor_meiling|christine" source="pastor_meiling" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pastor_meiling|schwester_helene" source="pastor_meiling" target="schwester_helene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pastor_meiling|diener" source="pastor_meiling" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stein|scharff" source="stein" target="scharff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="scharff|weber" source="scharff" target="weber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scharff|schwester_helene" source="scharff" target="schwester_helene">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

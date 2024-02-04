@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="emilie">
+            <data key="label">Emilie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4056</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1957</data>
+        </node>
+        <node id="mariane">
+            <data key="label">Mariane</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1154</data>
+        </node>
+        <node id="valer">
+            <data key="label">Valer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2894</data>
+        </node>
+        <node id="leander">
+            <data key="label">Leander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">815</data>
+        </node>
+        <node id="theodor">
+            <data key="label">Theodor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1349</data>
+        </node>
+        <edge id="emilie|lisette" source="emilie" target="lisette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="emilie|mariane" source="emilie" target="mariane">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="emilie|valer" source="emilie" target="valer">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="emilie|leander" source="emilie" target="leander">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="emilie|theodor" source="emilie" target="theodor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lisette|valer" source="lisette" target="valer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|leander" source="lisette" target="leander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|mariane" source="lisette" target="mariane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mariane|valer" source="mariane" target="valer">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="mariane|leander" source="mariane" target="leander">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="mariane|theodor" source="mariane" target="theodor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="valer|leander" source="valer" target="leander">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="valer|theodor" source="valer" target="theodor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leander|theodor" source="leander" target="theodor">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

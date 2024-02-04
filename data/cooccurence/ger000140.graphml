@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="schoen">
+            <data key="label">Schön</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3587</data>
+        </node>
+        <node id="schwarz">
+            <data key="label">Schwarz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1689</data>
+        </node>
+        <node id="goll">
+            <data key="label">Goll</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">505</data>
+        </node>
+        <node id="lulu">
+            <data key="label">Lulu</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4376</data>
+        </node>
+        <node id="alwa">
+            <data key="label">Alwa</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1433</data>
+        </node>
+        <node id="henriette">
+            <data key="label">Henriette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="schigolch">
+            <data key="label">Schigolch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">846</data>
+        </node>
+        <node id="escherich">
+            <data key="label">Escherich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">69</data>
+        </node>
+        <node id="escerny">
+            <data key="label">Escerny</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">651</data>
+        </node>
+        <node id="geschwitz">
+            <data key="label">Gräfin Geschwitz</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">97</data>
+        </node>
+        <node id="rodrigo">
+            <data key="label">Rodrigo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">280</data>
+        </node>
+        <node id="hugenberg">
+            <data key="label">Hugenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">126</data>
+        </node>
+        <node id="ferdinand">
+            <data key="label">Ferdinand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <edge id="schoen|schwarz" source="schoen" target="schwarz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schoen|goll" source="schoen" target="goll">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schoen|lulu" source="schoen" target="lulu">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="schoen|alwa" source="schoen" target="alwa">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="schoen|henriette" source="schoen" target="henriette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schoen|escherich" source="schoen" target="escherich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schoen|geschwitz" source="schoen" target="geschwitz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schoen|ferdinand" source="schoen" target="ferdinand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schoen|rodrigo" source="schoen" target="rodrigo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schoen|hugenberg" source="schoen" target="hugenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schwarz|goll" source="schwarz" target="goll">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schwarz|lulu" source="schwarz" target="lulu">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="schwarz|henriette" source="schwarz" target="henriette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="goll|lulu" source="goll" target="lulu">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="goll|alwa" source="goll" target="alwa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lulu|alwa" source="lulu" target="alwa">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lulu|henriette" source="lulu" target="henriette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lulu|schigolch" source="lulu" target="schigolch">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lulu|escerny" source="lulu" target="escerny">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lulu|geschwitz" source="lulu" target="geschwitz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lulu|rodrigo" source="lulu" target="rodrigo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lulu|hugenberg" source="lulu" target="hugenberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lulu|ferdinand" source="lulu" target="ferdinand">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="alwa|henriette" source="alwa" target="henriette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alwa|escerny" source="alwa" target="escerny">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="alwa|ferdinand" source="alwa" target="ferdinand">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alwa|rodrigo" source="alwa" target="rodrigo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alwa|hugenberg" source="alwa" target="hugenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alwa|geschwitz" source="alwa" target="geschwitz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schigolch|rodrigo" source="schigolch" target="rodrigo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schigolch|hugenberg" source="schigolch" target="hugenberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schigolch|ferdinand" source="schigolch" target="ferdinand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geschwitz|ferdinand" source="geschwitz" target="ferdinand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geschwitz|rodrigo" source="geschwitz" target="rodrigo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geschwitz|hugenberg" source="geschwitz" target="hugenberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rodrigo|hugenberg" source="rodrigo" target="hugenberg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rodrigo|ferdinand" source="rodrigo" target="ferdinand">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hugenberg|ferdinand" source="hugenberg" target="ferdinand">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="miele">
+            <data key="label">Miele</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">56</data>
+        </node>
+        <node id="frau_krause">
+            <data key="label">Frau Krause</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">579</data>
+        </node>
+        <node id="loth">
+            <data key="label">Alfred Loth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6091</data>
+        </node>
+        <node id="hoffmann">
+            <data key="label">Hoffmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5064</data>
+        </node>
+        <node id="helene">
+            <data key="label">Helene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3583</data>
+        </node>
+        <node id="eduard">
+            <data key="label">Eduard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">221</data>
+        </node>
+        <node id="postpackettraeger">
+            <data key="label">Postpacketträger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="kahl">
+            <data key="label">Wilhelm Kahl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">244</data>
+        </node>
+        <node id="frau_spiller">
+            <data key="label">Frau Spiller</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">461</data>
+        </node>
+        <node id="bauer_krause">
+            <data key="label">Bauer Krause</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">154</data>
+        </node>
+        <node id="beibst">
+            <data key="label">Beibst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">494</data>
+        </node>
+        <node id="guste">
+            <data key="label">Guste</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">40</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">55</data>
+        </node>
+        <node id="dr_schimmelpfennig">
+            <data key="label">Dr. Schimmelpfennig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1711</data>
+        </node>
+        <node id="der_junge">
+            <data key="label">Der Junge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="baer">
+            <data key="label">Baer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="liese">
+            <data key="label">Liese</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">80</data>
+        </node>
+        <node id="die_kutschenfrau">
+            <data key="label">Die Kutschenfrau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <edge id="miele|frau_krause" source="miele" target="frau_krause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miele|loth" source="miele" target="loth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="miele|hoffmann" source="miele" target="hoffmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="miele|helene" source="miele" target="helene">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="miele|eduard" source="miele" target="eduard">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="miele|postpackettraeger" source="miele" target="postpackettraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miele|kahl" source="miele" target="kahl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miele|frau_spiller" source="miele" target="frau_spiller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miele|dr_schimmelpfennig" source="miele" target="dr_schimmelpfennig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miele|bauer_krause" source="miele" target="bauer_krause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_krause|loth" source="frau_krause" target="loth">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_krause|hoffmann" source="frau_krause" target="hoffmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_krause|helene" source="frau_krause" target="helene">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_krause|eduard" source="frau_krause" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_krause|postpackettraeger" source="frau_krause" target="postpackettraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_krause|kahl" source="frau_krause" target="kahl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_krause|frau_spiller" source="frau_krause" target="frau_spiller">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_krause|bauer_krause" source="frau_krause" target="bauer_krause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_krause|beibst" source="frau_krause" target="beibst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_krause|guste" source="frau_krause" target="guste">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_krause|marie" source="frau_krause" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_krause|der_junge" source="frau_krause" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_krause|baer" source="frau_krause" target="baer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_krause|liese" source="frau_krause" target="liese">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_krause|die_kutschenfrau" source="frau_krause" target="die_kutschenfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loth|hoffmann" source="loth" target="hoffmann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="loth|helene" source="loth" target="helene">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="loth|eduard" source="loth" target="eduard">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="loth|postpackettraeger" source="loth" target="postpackettraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loth|kahl" source="loth" target="kahl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="loth|frau_spiller" source="loth" target="frau_spiller">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="loth|bauer_krause" source="loth" target="bauer_krause">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="loth|beibst" source="loth" target="beibst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="loth|guste" source="loth" target="guste">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="loth|marie" source="loth" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="loth|dr_schimmelpfennig" source="loth" target="dr_schimmelpfennig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="loth|der_junge" source="loth" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loth|baer" source="loth" target="baer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loth|liese" source="loth" target="liese">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loth|die_kutschenfrau" source="loth" target="die_kutschenfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hoffmann|helene" source="hoffmann" target="helene">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hoffmann|eduard" source="hoffmann" target="eduard">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hoffmann|postpackettraeger" source="hoffmann" target="postpackettraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hoffmann|kahl" source="hoffmann" target="kahl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hoffmann|frau_spiller" source="hoffmann" target="frau_spiller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hoffmann|dr_schimmelpfennig" source="hoffmann" target="dr_schimmelpfennig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hoffmann|marie" source="hoffmann" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hoffmann|der_junge" source="hoffmann" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hoffmann|baer" source="hoffmann" target="baer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hoffmann|liese" source="hoffmann" target="liese">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hoffmann|guste" source="hoffmann" target="guste">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hoffmann|beibst" source="hoffmann" target="beibst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hoffmann|die_kutschenfrau" source="hoffmann" target="die_kutschenfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hoffmann|bauer_krause" source="hoffmann" target="bauer_krause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|eduard" source="helene" target="eduard">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="helene|postpackettraeger" source="helene" target="postpackettraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|kahl" source="helene" target="kahl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="helene|frau_spiller" source="helene" target="frau_spiller">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="helene|bauer_krause" source="helene" target="bauer_krause">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="helene|beibst" source="helene" target="beibst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="helene|guste" source="helene" target="guste">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="helene|marie" source="helene" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="helene|dr_schimmelpfennig" source="helene" target="dr_schimmelpfennig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="helene|der_junge" source="helene" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|baer" source="helene" target="baer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|liese" source="helene" target="liese">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|die_kutschenfrau" source="helene" target="die_kutschenfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eduard|postpackettraeger" source="eduard" target="postpackettraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eduard|kahl" source="eduard" target="kahl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eduard|frau_spiller" source="eduard" target="frau_spiller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eduard|dr_schimmelpfennig" source="eduard" target="dr_schimmelpfennig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eduard|bauer_krause" source="eduard" target="bauer_krause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="postpackettraeger|kahl" source="postpackettraeger" target="kahl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="postpackettraeger|frau_spiller" source="postpackettraeger" target="frau_spiller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kahl|frau_spiller" source="kahl" target="frau_spiller">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kahl|bauer_krause" source="kahl" target="bauer_krause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kahl|beibst" source="kahl" target="beibst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kahl|guste" source="kahl" target="guste">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kahl|marie" source="kahl" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kahl|der_junge" source="kahl" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kahl|baer" source="kahl" target="baer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kahl|liese" source="kahl" target="liese">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kahl|die_kutschenfrau" source="kahl" target="die_kutschenfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_spiller|bauer_krause" source="frau_spiller" target="bauer_krause">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_spiller|beibst" source="frau_spiller" target="beibst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_spiller|guste" source="frau_spiller" target="guste">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_spiller|marie" source="frau_spiller" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_spiller|der_junge" source="frau_spiller" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_spiller|baer" source="frau_spiller" target="baer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_spiller|liese" source="frau_spiller" target="liese">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_spiller|die_kutschenfrau" source="frau_spiller" target="die_kutschenfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bauer_krause|beibst" source="bauer_krause" target="beibst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bauer_krause|guste" source="bauer_krause" target="guste">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bauer_krause|marie" source="bauer_krause" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bauer_krause|dr_schimmelpfennig" source="bauer_krause" target="dr_schimmelpfennig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beibst|guste" source="beibst" target="guste">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="beibst|marie" source="beibst" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="beibst|der_junge" source="beibst" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beibst|baer" source="beibst" target="baer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beibst|liese" source="beibst" target="liese">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beibst|die_kutschenfrau" source="beibst" target="die_kutschenfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guste|marie" source="guste" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="guste|der_junge" source="guste" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guste|baer" source="guste" target="baer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guste|liese" source="guste" target="liese">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guste|die_kutschenfrau" source="guste" target="die_kutschenfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|der_junge" source="marie" target="der_junge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|baer" source="marie" target="baer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|liese" source="marie" target="liese">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|die_kutschenfrau" source="marie" target="die_kutschenfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_junge|baer" source="der_junge" target="baer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_junge|liese" source="der_junge" target="liese">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_junge|die_kutschenfrau" source="der_junge" target="die_kutschenfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baer|liese" source="baer" target="liese">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baer|die_kutschenfrau" source="baer" target="die_kutschenfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liese|die_kutschenfrau" source="liese" target="die_kutschenfrau">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

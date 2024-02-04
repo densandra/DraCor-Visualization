@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="ulfo">
+            <data key="label">Ulfo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3526</data>
+        </node>
+        <node id="estrithe">
+            <data key="label">Estrithe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4960</data>
+        </node>
+        <node id="gunilde">
+            <data key="label">Gunilde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">256</data>
+        </node>
+        <node id="godewin">
+            <data key="label">Godewin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1950</data>
+        </node>
+        <node id="canut">
+            <data key="label">Canut</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2321</data>
+        </node>
+        <node id="haqvin">
+            <data key="label">Haqvin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">243</data>
+        </node>
+        <node id="godschalk">
+            <data key="label">Godschalk</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">460</data>
+        </node>
+        <edge id="ulfo|estrithe" source="ulfo" target="estrithe">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="ulfo|godewin" source="ulfo" target="godewin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ulfo|canut" source="ulfo" target="canut">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ulfo|godschalk" source="ulfo" target="godschalk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="estrithe|gunilde" source="estrithe" target="gunilde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="estrithe|godewin" source="estrithe" target="godewin">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="estrithe|canut" source="estrithe" target="canut">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="estrithe|haqvin" source="estrithe" target="haqvin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="estrithe|godschalk" source="estrithe" target="godschalk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="godewin|canut" source="godewin" target="canut">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="godewin|godschalk" source="godewin" target="godschalk">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="canut|haqvin" source="canut" target="haqvin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="canut|godschalk" source="canut" target="godschalk">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

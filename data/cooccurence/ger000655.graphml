@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="kasper">
+            <data key="label">Kasper</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">174</data>
+        </node>
+        <node id="klaus">
+            <data key="label">Klaus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">232</data>
+        </node>
+        <node id="guerge">
+            <data key="label">Gürge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">407</data>
+        </node>
+        <node id="michel">
+            <data key="label">Michel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">111</data>
+        </node>
+        <node id="hans">
+            <data key="label">Hans</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">66</data>
+        </node>
+        <node id="steffen">
+            <data key="label">Steffen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="wirth">
+            <data key="label">Wirth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">63</data>
+        </node>
+        <node id="willner">
+            <data key="label">Willner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">903</data>
+        </node>
+        <node id="henriette">
+            <data key="label">Henriette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">274</data>
+        </node>
+        <node id="louise">
+            <data key="label">Louise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">720</data>
+        </node>
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1795</data>
+        </node>
+        <node id="reisender">
+            <data key="label">Reisender</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1224</data>
+        </node>
+        <node id="raeuber">
+            <data key="label">Räuber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <edge id="kasper|klaus" source="kasper" target="klaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kasper|guerge" source="kasper" target="guerge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kasper|michel" source="kasper" target="michel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kasper|hans" source="kasper" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kasper|steffen" source="kasper" target="steffen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kasper|wirth" source="kasper" target="wirth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kasper|willner" source="kasper" target="willner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|guerge" source="klaus" target="guerge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|michel" source="klaus" target="michel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klaus|hans" source="klaus" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|steffen" source="klaus" target="steffen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|wirth" source="klaus" target="wirth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klaus|willner" source="klaus" target="willner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guerge|michel" source="guerge" target="michel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guerge|hans" source="guerge" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guerge|steffen" source="guerge" target="steffen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guerge|wirth" source="guerge" target="wirth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|hans" source="michel" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|steffen" source="michel" target="steffen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|wirth" source="michel" target="wirth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michel|willner" source="michel" target="willner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|steffen" source="hans" target="steffen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|wirth" source="hans" target="wirth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="steffen|wirth" source="steffen" target="wirth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirth|willner" source="wirth" target="willner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willner|henriette" source="willner" target="henriette">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="willner|reisender" source="willner" target="reisender">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="willner|jakob" source="willner" target="jakob">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willner|louise" source="willner" target="louise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willner|raeuber" source="willner" target="raeuber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="henriette|louise" source="henriette" target="louise">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="henriette|reisender" source="henriette" target="reisender">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="henriette|jakob" source="henriette" target="jakob">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="louise|peter" source="louise" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="louise|jakob" source="louise" target="jakob">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="louise|reisender" source="louise" target="reisender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|reisender" source="jakob" target="reisender">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reisender|raeuber" source="reisender" target="raeuber">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

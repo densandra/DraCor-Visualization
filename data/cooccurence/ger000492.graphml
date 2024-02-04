@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="der_sohn">
+            <data key="label">Der Sohn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8555</data>
+        </node>
+        <node id="der_hauslehrer">
+            <data key="label">Der Hauslehrer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">480</data>
+        </node>
+        <node id="der_freund">
+            <data key="label">Der Freund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4327</data>
+        </node>
+        <node id="das_fraeulein">
+            <data key="label">Das Fräulein</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1228</data>
+        </node>
+        <node id="der_vater">
+            <data key="label">Der Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2159</data>
+        </node>
+        <node id="tenorsolo_und_maennerchor">
+            <data key="label">Tenorsolo und Männerchor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="cherubim">
+            <data key="label">Cherubim</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1241</data>
+        </node>
+        <node id="von_tuchmeyer">
+            <data key="label">Herr von Tuchmeyer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1008</data>
+        </node>
+        <node id="der_fuerst">
+            <data key="label">Fürst Scheitel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">648</data>
+        </node>
+        <node id="adrienne">
+            <data key="label">Adrienne</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">351</data>
+        </node>
+        <node id="der_kommissar">
+            <data key="label">Der Kommissar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">500</data>
+        </node>
+        <edge id="der_sohn|der_hauslehrer" source="der_sohn" target="der_hauslehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_sohn|der_freund" source="der_sohn" target="der_freund">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="der_sohn|das_fraeulein" source="der_sohn" target="das_fraeulein">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="der_sohn|der_vater" source="der_sohn" target="der_vater">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_sohn|adrienne" source="der_sohn" target="adrienne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_sohn|der_kommissar" source="der_sohn" target="der_kommissar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_freund|cherubim" source="der_freund" target="cherubim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_freund|von_tuchmeyer" source="der_freund" target="von_tuchmeyer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_freund|der_fuerst" source="der_freund" target="der_fuerst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_vater|der_kommissar" source="der_vater" target="der_kommissar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cherubim|von_tuchmeyer" source="cherubim" target="von_tuchmeyer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="cherubim|der_fuerst" source="cherubim" target="der_fuerst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="von_tuchmeyer|der_fuerst" source="von_tuchmeyer" target="der_fuerst">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

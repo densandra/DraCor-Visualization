@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="medea">
+            <data key="label">Medea</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sklave">
+            <data key="label">Sklave</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gora">
+            <data key="label">Gora</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jason">
+            <data key="label">Jason</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="landmann">
+            <data key="label">Landmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="knabe_aeltere">
+            <data key="label">Knabe/Ältere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="koenig">
+            <data key="label">König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kreusa">
+            <data key="label">Kreusa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herold">
+            <data key="label">Herold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sklavin">
+            <data key="label">Sklavin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kleine_kleinere">
+            <data key="label">Kleine/Kleinere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="magd">
+            <data key="label">Magd</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="knabe_aeltere" target="kleine_kleinere">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="koenig" target="kreusa">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="gora" target="medea">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="medea" target="knabe_aeltere">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="medea" target="kleine_kleinere">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

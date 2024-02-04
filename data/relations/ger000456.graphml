@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="sten">
+            <data key="label">Sten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hasko">
+            <data key="label">Hasko</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="richers">
+            <data key="label">Richers</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="botwid">
+            <data key="label">Botwid</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="theit">
+            <data key="label">Theit</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="struen">
+            <data key="label">Struen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_die_andern_1-5_und_1-6">
+            <data key="label">Alle/Die Andern (I/5–6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="joeran">
+            <data key="label">Jöran</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="koenig">
+            <data key="label">König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="koeniginn">
+            <data key="label">Königinn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wolowsky">
+            <data key="label">Wolowsky</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="catharina">
+            <data key="label">Catharina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="siegmund">
+            <data key="label">Siegmund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="johann">
+            <data key="label">Johann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gruskel">
+            <data key="label">Gruskel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rathsdiener">
+            <data key="label">Rathsdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="braske">
+            <data key="label">Braske</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einige_mehrere_raethe">
+            <data key="label">Einige/Mehrere Räthe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="einer">
+            <data key="label">Einer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_rath">
+            <data key="label">Ein Rath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="page">
+            <data key="label">Page</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kammerherr">
+            <data key="label">Kammerherr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="koenig" target="koeniginn">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="johann" target="koenig">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="catharina" target="johann">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="4" directed="false" source="catharina" target="siegmund">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="richers" target="joeran">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="6" directed="false" source="hasko" target="richers">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="sten" target="johann">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="page" target="koeniginn">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

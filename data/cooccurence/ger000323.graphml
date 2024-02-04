@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">994</data>
+        </node>
+        <node id="franziska">
+            <data key="label">Franziska</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4417</data>
+        </node>
+        <node id="dr_hofmiller">
+            <data key="label">Dr. Hofmiller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">515</data>
+        </node>
+        <node id="veit_kunz">
+            <data key="label">Veit Kunz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4375</data>
+        </node>
+        <node id="gespensterschreck">
+            <data key="label">Gespensterschreck</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">320</data>
+        </node>
+        <node id="rohrdommel">
+            <data key="label">Rohrdommel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">47</data>
+        </node>
+        <node id="kiesgraeber">
+            <data key="label">Kiesgräber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="dr_malkolm">
+            <data key="label">Dr. Malkolm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">41</data>
+        </node>
+        <node id="spreizfuesschen">
+            <data key="label">Spreizfüßchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">102</data>
+        </node>
+        <node id="mausi">
+            <data key="label">Mausi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">86</data>
+        </node>
+        <node id="kullmann">
+            <data key="label">Kullmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="chorus">
+            <data key="label">Chorus</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">55</data>
+        </node>
+        <node id="laurus_bein">
+            <data key="label">Laurus Bein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">381</data>
+        </node>
+        <node id="hagelmeier">
+            <data key="label">Hagelmeier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="karaminka">
+            <data key="label">Karaminka</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1260</data>
+        </node>
+        <node id="lydia">
+            <data key="label">Lydia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">228</data>
+        </node>
+        <node id="dirckens">
+            <data key="label">Dirckens</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">98</data>
+        </node>
+        <node id="pater">
+            <data key="label">Pater Emmeran</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">239</data>
+        </node>
+        <node id="herzogin">
+            <data key="label">Herzogin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">132</data>
+        </node>
+        <node id="herzog">
+            <data key="label">Herzog</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1734</data>
+        </node>
+        <node id="gislind">
+            <data key="label">Gislind</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">569</data>
+        </node>
+        <node id="das_kind">
+            <data key="label">Das Kind</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <node id="der_hundekopf">
+            <data key="label">Der Hundekopf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">121</data>
+        </node>
+        <node id="der_schweinekopf">
+            <data key="label">Der Schweinekopf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">106</data>
+        </node>
+        <node id="polizeipraesident">
+            <data key="label">Polizeipräsident</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">284</data>
+        </node>
+        <node id="breitenbach">
+            <data key="label">Ralf Breitenbach</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1327</data>
+        </node>
+        <node id="fahrstuhl">
+            <data key="label">William Fahrstuhl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">383</data>
+        </node>
+        <node id="regisseur">
+            <data key="label">Regisseur</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="die_maedchen">
+            <data key="label">Die Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">308</data>
+        </node>
+        <node id="hohenkemnath">
+            <data key="label">Hohenkemnath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">316</data>
+        </node>
+        <node id="der_diener">
+            <data key="label">Der Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="dr_hornstein">
+            <data key="label">Dr. Hornstein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">449</data>
+        </node>
+        <node id="veitralf">
+            <data key="label">Veitralf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="almer">
+            <data key="label">Karl Almer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">416</data>
+        </node>
+        <edge id="mutter|franziska" source="mutter" target="franziska">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mutter|dr_hofmiller" source="mutter" target="dr_hofmiller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|dr_hofmiller" source="franziska" target="dr_hofmiller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="franziska|veit_kunz" source="franziska" target="veit_kunz">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="franziska|gespensterschreck" source="franziska" target="gespensterschreck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|rohrdommel" source="franziska" target="rohrdommel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|kiesgraeber" source="franziska" target="kiesgraeber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|dr_malkolm" source="franziska" target="dr_malkolm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|spreizfuesschen" source="franziska" target="spreizfuesschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|mausi" source="franziska" target="mausi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|kullmann" source="franziska" target="kullmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|chorus" source="franziska" target="chorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|laurus_bein" source="franziska" target="laurus_bein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|hagelmeier" source="franziska" target="hagelmeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|karaminka" source="franziska" target="karaminka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|sophie" source="franziska" target="sophie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="franziska|lydia" source="franziska" target="lydia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="franziska|dirckens" source="franziska" target="dirckens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|herzog" source="franziska" target="herzog">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="franziska|das_kind" source="franziska" target="das_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|gislind" source="franziska" target="gislind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|der_hundekopf" source="franziska" target="der_hundekopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|der_schweinekopf" source="franziska" target="der_schweinekopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|polizeipraesident" source="franziska" target="polizeipraesident">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|herzogin" source="franziska" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|breitenbach" source="franziska" target="breitenbach">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="franziska|fahrstuhl" source="franziska" target="fahrstuhl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|regisseur" source="franziska" target="regisseur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|die_maedchen" source="franziska" target="die_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|hohenkemnath" source="franziska" target="hohenkemnath">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|der_diener" source="franziska" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|dr_hornstein" source="franziska" target="dr_hornstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|veitralf" source="franziska" target="veitralf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="franziska|almer" source="franziska" target="almer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_hofmiller|sophie" source="dr_hofmiller" target="sophie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_hofmiller|dirckens" source="dr_hofmiller" target="dirckens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_hofmiller|veit_kunz" source="dr_hofmiller" target="veit_kunz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|gespensterschreck" source="veit_kunz" target="gespensterschreck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|rohrdommel" source="veit_kunz" target="rohrdommel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|kiesgraeber" source="veit_kunz" target="kiesgraeber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|dr_malkolm" source="veit_kunz" target="dr_malkolm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|spreizfuesschen" source="veit_kunz" target="spreizfuesschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|mausi" source="veit_kunz" target="mausi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|kullmann" source="veit_kunz" target="kullmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|chorus" source="veit_kunz" target="chorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|laurus_bein" source="veit_kunz" target="laurus_bein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|hagelmeier" source="veit_kunz" target="hagelmeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|karaminka" source="veit_kunz" target="karaminka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|sophie" source="veit_kunz" target="sophie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="veit_kunz|lydia" source="veit_kunz" target="lydia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|dirckens" source="veit_kunz" target="dirckens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|pater" source="veit_kunz" target="pater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|herzogin" source="veit_kunz" target="herzogin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="veit_kunz|herzog" source="veit_kunz" target="herzog">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="veit_kunz|das_kind" source="veit_kunz" target="das_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|gislind" source="veit_kunz" target="gislind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|der_hundekopf" source="veit_kunz" target="der_hundekopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|der_schweinekopf" source="veit_kunz" target="der_schweinekopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|polizeipraesident" source="veit_kunz" target="polizeipraesident">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|breitenbach" source="veit_kunz" target="breitenbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="veit_kunz|fahrstuhl" source="veit_kunz" target="fahrstuhl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|regisseur" source="veit_kunz" target="regisseur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|die_maedchen" source="veit_kunz" target="die_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|hohenkemnath" source="veit_kunz" target="hohenkemnath">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit_kunz|der_diener" source="veit_kunz" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gespensterschreck|rohrdommel" source="gespensterschreck" target="rohrdommel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gespensterschreck|kiesgraeber" source="gespensterschreck" target="kiesgraeber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gespensterschreck|dr_malkolm" source="gespensterschreck" target="dr_malkolm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gespensterschreck|spreizfuesschen" source="gespensterschreck" target="spreizfuesschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gespensterschreck|mausi" source="gespensterschreck" target="mausi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gespensterschreck|kullmann" source="gespensterschreck" target="kullmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gespensterschreck|chorus" source="gespensterschreck" target="chorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gespensterschreck|laurus_bein" source="gespensterschreck" target="laurus_bein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gespensterschreck|hagelmeier" source="gespensterschreck" target="hagelmeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gespensterschreck|karaminka" source="gespensterschreck" target="karaminka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rohrdommel|kiesgraeber" source="rohrdommel" target="kiesgraeber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rohrdommel|dr_malkolm" source="rohrdommel" target="dr_malkolm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rohrdommel|spreizfuesschen" source="rohrdommel" target="spreizfuesschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rohrdommel|mausi" source="rohrdommel" target="mausi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rohrdommel|kullmann" source="rohrdommel" target="kullmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rohrdommel|chorus" source="rohrdommel" target="chorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rohrdommel|laurus_bein" source="rohrdommel" target="laurus_bein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rohrdommel|hagelmeier" source="rohrdommel" target="hagelmeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rohrdommel|karaminka" source="rohrdommel" target="karaminka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kiesgraeber|dr_malkolm" source="kiesgraeber" target="dr_malkolm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kiesgraeber|spreizfuesschen" source="kiesgraeber" target="spreizfuesschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kiesgraeber|mausi" source="kiesgraeber" target="mausi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kiesgraeber|kullmann" source="kiesgraeber" target="kullmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kiesgraeber|chorus" source="kiesgraeber" target="chorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kiesgraeber|laurus_bein" source="kiesgraeber" target="laurus_bein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kiesgraeber|hagelmeier" source="kiesgraeber" target="hagelmeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kiesgraeber|karaminka" source="kiesgraeber" target="karaminka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_malkolm|spreizfuesschen" source="dr_malkolm" target="spreizfuesschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_malkolm|mausi" source="dr_malkolm" target="mausi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_malkolm|kullmann" source="dr_malkolm" target="kullmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_malkolm|chorus" source="dr_malkolm" target="chorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_malkolm|laurus_bein" source="dr_malkolm" target="laurus_bein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_malkolm|hagelmeier" source="dr_malkolm" target="hagelmeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_malkolm|karaminka" source="dr_malkolm" target="karaminka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spreizfuesschen|mausi" source="spreizfuesschen" target="mausi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spreizfuesschen|kullmann" source="spreizfuesschen" target="kullmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spreizfuesschen|chorus" source="spreizfuesschen" target="chorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spreizfuesschen|laurus_bein" source="spreizfuesschen" target="laurus_bein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spreizfuesschen|hagelmeier" source="spreizfuesschen" target="hagelmeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spreizfuesschen|karaminka" source="spreizfuesschen" target="karaminka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mausi|kullmann" source="mausi" target="kullmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mausi|chorus" source="mausi" target="chorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mausi|laurus_bein" source="mausi" target="laurus_bein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mausi|hagelmeier" source="mausi" target="hagelmeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mausi|karaminka" source="mausi" target="karaminka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kullmann|chorus" source="kullmann" target="chorus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kullmann|laurus_bein" source="kullmann" target="laurus_bein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kullmann|hagelmeier" source="kullmann" target="hagelmeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kullmann|karaminka" source="kullmann" target="karaminka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chorus|laurus_bein" source="chorus" target="laurus_bein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chorus|hagelmeier" source="chorus" target="hagelmeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chorus|karaminka" source="chorus" target="karaminka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laurus_bein|hagelmeier" source="laurus_bein" target="hagelmeier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laurus_bein|karaminka" source="laurus_bein" target="karaminka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hagelmeier|karaminka" source="hagelmeier" target="karaminka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|lydia" source="sophie" target="lydia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sophie|dirckens" source="sophie" target="dirckens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pater|herzogin" source="pater" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pater|herzog" source="pater" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|herzog" source="herzogin" target="herzog">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herzogin|das_kind" source="herzogin" target="das_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|gislind" source="herzogin" target="gislind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|der_hundekopf" source="herzogin" target="der_hundekopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|der_schweinekopf" source="herzogin" target="der_schweinekopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzogin|polizeipraesident" source="herzogin" target="polizeipraesident">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|gislind" source="herzog" target="gislind">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herzog|das_kind" source="herzog" target="das_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|der_hundekopf" source="herzog" target="der_hundekopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|der_schweinekopf" source="herzog" target="der_schweinekopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|polizeipraesident" source="herzog" target="polizeipraesident">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gislind|das_kind" source="gislind" target="das_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gislind|der_hundekopf" source="gislind" target="der_hundekopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gislind|der_schweinekopf" source="gislind" target="der_schweinekopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gislind|polizeipraesident" source="gislind" target="polizeipraesident">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_kind|der_hundekopf" source="das_kind" target="der_hundekopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_kind|der_schweinekopf" source="das_kind" target="der_schweinekopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_kind|polizeipraesident" source="das_kind" target="polizeipraesident">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hundekopf|der_schweinekopf" source="der_hundekopf" target="der_schweinekopf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hundekopf|polizeipraesident" source="der_hundekopf" target="polizeipraesident">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schweinekopf|polizeipraesident" source="der_schweinekopf" target="polizeipraesident">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="breitenbach|fahrstuhl" source="breitenbach" target="fahrstuhl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="breitenbach|regisseur" source="breitenbach" target="regisseur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="breitenbach|die_maedchen" source="breitenbach" target="die_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="breitenbach|hohenkemnath" source="breitenbach" target="hohenkemnath">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="breitenbach|der_diener" source="breitenbach" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fahrstuhl|regisseur" source="fahrstuhl" target="regisseur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fahrstuhl|die_maedchen" source="fahrstuhl" target="die_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fahrstuhl|hohenkemnath" source="fahrstuhl" target="hohenkemnath">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fahrstuhl|der_diener" source="fahrstuhl" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="regisseur|die_maedchen" source="regisseur" target="die_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="regisseur|hohenkemnath" source="regisseur" target="hohenkemnath">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="regisseur|der_diener" source="regisseur" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_maedchen|hohenkemnath" source="die_maedchen" target="hohenkemnath">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_maedchen|der_diener" source="die_maedchen" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hohenkemnath|der_diener" source="hohenkemnath" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_hornstein|veitralf" source="dr_hornstein" target="veitralf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veitralf|almer" source="veitralf" target="almer">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

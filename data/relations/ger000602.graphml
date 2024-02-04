@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="fortunatus">
+            <data key="label">Fortunatus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sylvester">
+            <data key="label">Sylvester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marode">
+            <data key="label">Marode</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="klunte">
+            <data key="label">Klunte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mummelmaerten">
+            <data key="label">Mummelmärten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="grete">
+            <data key="label">Grete</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="courage">
+            <data key="label">Courage</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ehrenfried">
+            <data key="label">Ehrenfried</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="feuerfax">
+            <data key="label">Feuerfax</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="friedenschild">
+            <data key="label">Friedenschild</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mirax">
+            <data key="label">Mirax</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="narruffsky">
+            <data key="label">Narruffsky</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pamphilius">
+            <data key="label">Pamphilius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="damastor">
+            <data key="label">Damastor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kilian">
+            <data key="label">Kilian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cursino">
+            <data key="label">Cursino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="culin">
+            <data key="label">Culin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hasenius">
+            <data key="label">Hasenius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="servillo">
+            <data key="label">Servillo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="johannes">
+            <data key="label">Johannes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jukundus">
+            <data key="label">Jukundus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="walpe">
+            <data key="label">Walpe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="leonore">
+            <data key="label">Leonore</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="injurius">
+            <data key="label">Injurius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="leander">
+            <data key="label">Leander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="thomas">
+            <data key="label">Thomas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="aria">
+            <data key="label">Aria</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="klare">
+            <data key="label">Klare</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="johannes" target="walpe">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="feuerfax" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="fortunatus" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="friedenschild" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="hasenius" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="mirax" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="narruffsky" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="pamphilius" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="cursino" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="10" directed="false" source="culin" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="11" directed="false" source="marode" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="12" directed="false" source="sylvester" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="13" directed="false" source="damastor" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="14" directed="false" source="kilian" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="15" directed="false" source="mummelmaerten" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="16" directed="false" source="grete" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="17" directed="false" source="klare" target="ehrenfried">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

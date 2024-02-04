@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="philippine">
+            <data key="label">Philippine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="helmi">
+            <data key="label">Helmi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fritz">
+            <data key="label">Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bebi">
+            <data key="label">Bebi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fanny">
+            <data key="label">Fanny</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="reisender">
+            <data key="label">Reisender</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="heiter">
+            <data key="label">Heiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="handlungsdiener">
+            <data key="label">Handlungsdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="may">
+            <data key="label">May</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="verarmter">
+            <data key="label">Verarmter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="may" target="mutter">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="heiter" target="philippine">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="may" target="philippine">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="may" target="fritz">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="may" target="helmi">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="may" target="bebi">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="7" directed="false" source="may" target="fanny">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="8" directed="false" source="mutter" target="philippine">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="9" directed="false" source="mutter" target="fritz">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="10" directed="false" source="mutter" target="helmi">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="11" directed="false" source="mutter" target="bebi">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="12" directed="false" source="mutter" target="fanny">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

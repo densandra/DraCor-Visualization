@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sie">
+            <data key="label">Die</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">997</data>
+        </node>
+        <node id="er">
+            <data key="label">Er</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">148</data>
+        </node>
+        <node id="freundin">
+            <data key="label">Freundin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">215</data>
+        </node>
+        <node id="freund">
+            <data key="label">Freund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">61</data>
+        </node>
+        <edge id="sie|er" source="sie" target="er">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sie|freundin" source="sie" target="freundin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sie|freund" source="sie" target="freund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="er|freundin" source="er" target="freundin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="er|freund" source="er" target="freund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="freundin|freund" source="freundin" target="freund">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

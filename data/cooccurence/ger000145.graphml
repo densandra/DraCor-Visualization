@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="kalaf">
+            <data key="label">Kalaf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">609</data>
+        </node>
+        <node id="barak">
+            <data key="label">Barak</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">198</data>
+        </node>
+        <node id="die_koeniginmutter">
+            <data key="label">Die Königinmutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <node id="klageweiber">
+            <data key="label">Klageweiber</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="truffaldino">
+            <data key="label">Truffaldino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">498</data>
+        </node>
+        <node id="die_doktoren">
+            <data key="label">Die Doktoren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">153</data>
+        </node>
+        <node id="altoum">
+            <data key="label">Altoum</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">538</data>
+        </node>
+        <node id="pantalone">
+            <data key="label">Pantalone</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">255</data>
+        </node>
+        <node id="tartaglia">
+            <data key="label">Tartaglia</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">191</data>
+        </node>
+        <node id="turandot">
+            <data key="label">Turandot</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">686</data>
+        </node>
+        <node id="adelma">
+            <data key="label">Adelma</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">248</data>
+        </node>
+        <node id="maennerchor">
+            <data key="label">Männerchor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="frauenchor">
+            <data key="label">Frauenchor</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="maedchenchor">
+            <data key="label">Mädchenchor</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="eunuchen">
+            <data key="label">Eunuchen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <edge id="kalaf|barak" source="kalaf" target="barak">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kalaf|die_koeniginmutter" source="kalaf" target="die_koeniginmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kalaf|klageweiber" source="kalaf" target="klageweiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kalaf|truffaldino" source="kalaf" target="truffaldino">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kalaf|die_doktoren" source="kalaf" target="die_doktoren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kalaf|chor" source="kalaf" target="chor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kalaf|altoum" source="kalaf" target="altoum">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kalaf|pantalone" source="kalaf" target="pantalone">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kalaf|tartaglia" source="kalaf" target="tartaglia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kalaf|turandot" source="kalaf" target="turandot">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kalaf|adelma" source="kalaf" target="adelma">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kalaf|maennerchor" source="kalaf" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kalaf|frauenchor" source="kalaf" target="frauenchor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kalaf|eunuchen" source="kalaf" target="eunuchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|die_koeniginmutter" source="barak" target="die_koeniginmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|klageweiber" source="barak" target="klageweiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_koeniginmutter|klageweiber" source="die_koeniginmutter" target="klageweiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="truffaldino|die_doktoren" source="truffaldino" target="die_doktoren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="truffaldino|chor" source="truffaldino" target="chor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="truffaldino|altoum" source="truffaldino" target="altoum">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="truffaldino|pantalone" source="truffaldino" target="pantalone">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="truffaldino|tartaglia" source="truffaldino" target="tartaglia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="truffaldino|turandot" source="truffaldino" target="turandot">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="truffaldino|adelma" source="truffaldino" target="adelma">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="truffaldino|maennerchor" source="truffaldino" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="truffaldino|frauenchor" source="truffaldino" target="frauenchor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="truffaldino|maedchenchor" source="truffaldino" target="maedchenchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="truffaldino|eunuchen" source="truffaldino" target="eunuchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_doktoren|chor" source="die_doktoren" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_doktoren|altoum" source="die_doktoren" target="altoum">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_doktoren|pantalone" source="die_doktoren" target="pantalone">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_doktoren|tartaglia" source="die_doktoren" target="tartaglia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_doktoren|turandot" source="die_doktoren" target="turandot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_doktoren|adelma" source="die_doktoren" target="adelma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_doktoren|maennerchor" source="die_doktoren" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_doktoren|frauenchor" source="die_doktoren" target="frauenchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|altoum" source="chor" target="altoum">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|pantalone" source="chor" target="pantalone">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|tartaglia" source="chor" target="tartaglia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|turandot" source="chor" target="turandot">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|adelma" source="chor" target="adelma">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|maennerchor" source="chor" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|frauenchor" source="chor" target="frauenchor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|eunuchen" source="chor" target="eunuchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="altoum|pantalone" source="altoum" target="pantalone">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="altoum|tartaglia" source="altoum" target="tartaglia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="altoum|turandot" source="altoum" target="turandot">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="altoum|adelma" source="altoum" target="adelma">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="altoum|maennerchor" source="altoum" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="altoum|frauenchor" source="altoum" target="frauenchor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="altoum|maedchenchor" source="altoum" target="maedchenchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="altoum|eunuchen" source="altoum" target="eunuchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pantalone|tartaglia" source="pantalone" target="tartaglia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pantalone|turandot" source="pantalone" target="turandot">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pantalone|adelma" source="pantalone" target="adelma">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pantalone|maennerchor" source="pantalone" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pantalone|frauenchor" source="pantalone" target="frauenchor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pantalone|maedchenchor" source="pantalone" target="maedchenchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pantalone|eunuchen" source="pantalone" target="eunuchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tartaglia|turandot" source="tartaglia" target="turandot">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tartaglia|adelma" source="tartaglia" target="adelma">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tartaglia|maennerchor" source="tartaglia" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tartaglia|frauenchor" source="tartaglia" target="frauenchor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tartaglia|maedchenchor" source="tartaglia" target="maedchenchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tartaglia|eunuchen" source="tartaglia" target="eunuchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="turandot|adelma" source="turandot" target="adelma">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="turandot|maennerchor" source="turandot" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="turandot|frauenchor" source="turandot" target="frauenchor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="turandot|maedchenchor" source="turandot" target="maedchenchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="turandot|eunuchen" source="turandot" target="eunuchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelma|maennerchor" source="adelma" target="maennerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelma|frauenchor" source="adelma" target="frauenchor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adelma|maedchenchor" source="adelma" target="maedchenchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelma|eunuchen" source="adelma" target="eunuchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maennerchor|frauenchor" source="maennerchor" target="frauenchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauenchor|eunuchen" source="frauenchor" target="eunuchen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="belvedere">
+            <data key="label">Belvedere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1777</data>
+        </node>
+        <node id="pater_mareskotti">
+            <data key="label">Pater Mareskotti</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1325</data>
+        </node>
+        <node id="der_bischof">
+            <data key="label">Der Bischof</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1547</data>
+        </node>
+        <node id="grandison">
+            <data key="label">Grandison</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5038</data>
+        </node>
+        <node id="kamilla">
+            <data key="label">Kamilla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1372</data>
+        </node>
+        <node id="jeronymo">
+            <data key="label">Jeronymo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1739</data>
+        </node>
+        <node id="der_markgraf">
+            <data key="label">Der Markgraf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1230</data>
+        </node>
+        <node id="die_markgraefin">
+            <data key="label">Die Markgräfin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2112</data>
+        </node>
+        <node id="laura">
+            <data key="label">Laura</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">49</data>
+        </node>
+        <node id="klementina">
+            <data key="label">Klementina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4736</data>
+        </node>
+        <node id="der_general">
+            <data key="label">Der General</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">981</data>
+        </node>
+        <edge id="belvedere|pater_mareskotti" source="belvedere" target="pater_mareskotti">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="belvedere|der_bischof" source="belvedere" target="der_bischof">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="belvedere|grandison" source="belvedere" target="grandison">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="belvedere|kamilla" source="belvedere" target="kamilla">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="belvedere|die_markgraefin" source="belvedere" target="die_markgraefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="belvedere|laura" source="belvedere" target="laura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pater_mareskotti|der_bischof" source="pater_mareskotti" target="der_bischof">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pater_mareskotti|jeronymo" source="pater_mareskotti" target="jeronymo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pater_mareskotti|die_markgraefin" source="pater_mareskotti" target="die_markgraefin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="pater_mareskotti|der_markgraf" source="pater_mareskotti" target="der_markgraf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pater_mareskotti|laura" source="pater_mareskotti" target="laura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pater_mareskotti|grandison" source="pater_mareskotti" target="grandison">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pater_mareskotti|kamilla" source="pater_mareskotti" target="kamilla">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pater_mareskotti|klementina" source="pater_mareskotti" target="klementina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pater_mareskotti|der_general" source="pater_mareskotti" target="der_general">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bischof|grandison" source="der_bischof" target="grandison">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="der_bischof|kamilla" source="der_bischof" target="kamilla">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_bischof|jeronymo" source="der_bischof" target="jeronymo">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="der_bischof|der_markgraf" source="der_bischof" target="der_markgraf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_bischof|klementina" source="der_bischof" target="klementina">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_bischof|die_markgraefin" source="der_bischof" target="die_markgraefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_bischof|der_general" source="der_bischof" target="der_general">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grandison|kamilla" source="grandison" target="kamilla">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="grandison|jeronymo" source="grandison" target="jeronymo">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="grandison|der_markgraf" source="grandison" target="der_markgraf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="grandison|die_markgraefin" source="grandison" target="die_markgraefin">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="grandison|klementina" source="grandison" target="klementina">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="grandison|laura" source="grandison" target="laura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grandison|der_general" source="grandison" target="der_general">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kamilla|jeronymo" source="kamilla" target="jeronymo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kamilla|klementina" source="kamilla" target="klementina">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kamilla|die_markgraefin" source="kamilla" target="die_markgraefin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jeronymo|der_markgraf" source="jeronymo" target="der_markgraf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jeronymo|die_markgraefin" source="jeronymo" target="die_markgraefin">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="jeronymo|klementina" source="jeronymo" target="klementina">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="der_markgraf|die_markgraefin" source="der_markgraf" target="die_markgraefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_markgraf|laura" source="der_markgraf" target="laura">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_markgraf|klementina" source="der_markgraf" target="klementina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_markgraf|der_general" source="der_markgraf" target="der_general">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_markgraefin|klementina" source="die_markgraefin" target="klementina">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="die_markgraefin|der_general" source="die_markgraefin" target="der_general">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laura|klementina" source="laura" target="klementina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klementina|der_general" source="klementina" target="der_general">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

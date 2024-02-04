@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="albertine">
+            <data key="label">Albertine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3170</data>
+        </node>
+        <node id="frau_gieseke">
+            <data key="label">Frau Gieseke</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="franziska">
+            <data key="label">Franziska</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">386</data>
+        </node>
+        <node id="emilie">
+            <data key="label">Emilie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1970</data>
+        </node>
+        <node id="frau_klinkert">
+            <data key="label">Frau Klinkert</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">484</data>
+        </node>
+        <node id="rosa">
+            <data key="label">Rosa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1404</data>
+        </node>
+        <node id="hasemann">
+            <data key="label">Hasemann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5424</data>
+        </node>
+        <node id="anna">
+            <data key="label">Anna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">85</data>
+        </node>
+        <node id="koerner">
+            <data key="label">Körner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2733</data>
+        </node>
+        <node id="eduard">
+            <data key="label">Eduard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1327</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2129</data>
+        </node>
+        <node id="klinkert">
+            <data key="label">Klinkert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">40</data>
+        </node>
+        <node id="zinnow">
+            <data key="label">Zinnow</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">182</data>
+        </node>
+        <node id="lohmann">
+            <data key="label">Lohmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="bartsch">
+            <data key="label">Bartsch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">101</data>
+        </node>
+        <node id="die_gesellen">
+            <data key="label">Die Gesellen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="fritz">
+            <data key="label">Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">89</data>
+        </node>
+        <node id="marthe">
+            <data key="label">Marthe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">128</data>
+        </node>
+        <node id="dr_seiler">
+            <data key="label">Dr. Seiler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <edge id="albertine|frau_gieseke" source="albertine" target="frau_gieseke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albertine|franziska" source="albertine" target="franziska">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="albertine|emilie" source="albertine" target="emilie">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="albertine|frau_klinkert" source="albertine" target="frau_klinkert">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="albertine|rosa" source="albertine" target="rosa">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="albertine|hasemann" source="albertine" target="hasemann">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="albertine|eduard" source="albertine" target="eduard">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="albertine|wilhelm" source="albertine" target="wilhelm">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="albertine|klinkert" source="albertine" target="klinkert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albertine|anna" source="albertine" target="anna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="albertine|koerner" source="albertine" target="koerner">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="albertine|zinnow" source="albertine" target="zinnow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albertine|fritz" source="albertine" target="fritz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_gieseke|franziska" source="frau_gieseke" target="franziska">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|emilie" source="franziska" target="emilie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="franziska|frau_klinkert" source="franziska" target="frau_klinkert">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="franziska|koerner" source="franziska" target="koerner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="franziska|zinnow" source="franziska" target="zinnow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|rosa" source="franziska" target="rosa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="franziska|anna" source="franziska" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|hasemann" source="franziska" target="hasemann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emilie|frau_klinkert" source="emilie" target="frau_klinkert">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="emilie|rosa" source="emilie" target="rosa">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="emilie|wilhelm" source="emilie" target="wilhelm">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="emilie|eduard" source="emilie" target="eduard">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="emilie|hasemann" source="emilie" target="hasemann">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="emilie|klinkert" source="emilie" target="klinkert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emilie|koerner" source="emilie" target="koerner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emilie|zinnow" source="emilie" target="zinnow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emilie|anna" source="emilie" target="anna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="emilie|lohmann" source="emilie" target="lohmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emilie|bartsch" source="emilie" target="bartsch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emilie|die_gesellen" source="emilie" target="die_gesellen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emilie|fritz" source="emilie" target="fritz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_klinkert|rosa" source="frau_klinkert" target="rosa">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_klinkert|klinkert" source="frau_klinkert" target="klinkert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_klinkert|wilhelm" source="frau_klinkert" target="wilhelm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_klinkert|hasemann" source="frau_klinkert" target="hasemann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_klinkert|anna" source="frau_klinkert" target="anna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_klinkert|koerner" source="frau_klinkert" target="koerner">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frau_klinkert|eduard" source="frau_klinkert" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_klinkert|zinnow" source="frau_klinkert" target="zinnow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|koerner" source="rosa" target="koerner">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="rosa|anna" source="rosa" target="anna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosa|zinnow" source="rosa" target="zinnow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosa|marthe" source="rosa" target="marthe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosa|hasemann" source="rosa" target="hasemann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosa|eduard" source="rosa" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hasemann|anna" source="hasemann" target="anna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hasemann|koerner" source="hasemann" target="koerner">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hasemann|wilhelm" source="hasemann" target="wilhelm">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="hasemann|eduard" source="hasemann" target="eduard">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hasemann|klinkert" source="hasemann" target="klinkert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hasemann|fritz" source="hasemann" target="fritz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|wilhelm" source="anna" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|klinkert" source="anna" target="klinkert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|koerner" source="anna" target="koerner">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="anna|eduard" source="anna" target="eduard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|zinnow" source="anna" target="zinnow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koerner|wilhelm" source="koerner" target="wilhelm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koerner|klinkert" source="koerner" target="klinkert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koerner|eduard" source="koerner" target="eduard">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koerner|zinnow" source="koerner" target="zinnow">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koerner|marthe" source="koerner" target="marthe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koerner|dr_seiler" source="koerner" target="dr_seiler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eduard|wilhelm" source="eduard" target="wilhelm">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="eduard|klinkert" source="eduard" target="klinkert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eduard|marthe" source="eduard" target="marthe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|klinkert" source="wilhelm" target="klinkert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|fritz" source="wilhelm" target="fritz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lohmann|bartsch" source="lohmann" target="bartsch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lohmann|die_gesellen" source="lohmann" target="die_gesellen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lohmann|fritz" source="lohmann" target="fritz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bartsch|die_gesellen" source="bartsch" target="die_gesellen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bartsch|fritz" source="bartsch" target="fritz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_gesellen|fritz" source="die_gesellen" target="fritz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marthe|dr_seiler" source="marthe" target="dr_seiler">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

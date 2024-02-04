@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="jao">
+            <data key="label">Jao</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">347</data>
+        </node>
+        <node id="kang-schu">
+            <data key="label">Kang-Schu</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">529</data>
+        </node>
+        <node id="die_sclaven">
+            <data key="label">Die Sclaven</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="hoang-puff">
+            <data key="label">Hoang-Puff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2313</data>
+        </node>
+        <node id="zimar">
+            <data key="label">Zimar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">812</data>
+        </node>
+        <node id="nadir">
+            <data key="label">Nadir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">354</data>
+        </node>
+        <node id="oali">
+            <data key="label">Oali</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">211</data>
+        </node>
+        <edge id="jao|kang-schu" source="jao" target="kang-schu">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jao|hoang-puff" source="jao" target="hoang-puff">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jao|zimar" source="jao" target="zimar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jao|oali" source="jao" target="oali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jao|nadir" source="jao" target="nadir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kang-schu|hoang-puff" source="kang-schu" target="hoang-puff">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="kang-schu|zimar" source="kang-schu" target="zimar">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kang-schu|nadir" source="kang-schu" target="nadir">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="die_sclaven|hoang-puff" source="die_sclaven" target="hoang-puff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_sclaven|nadir" source="die_sclaven" target="nadir">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_sclaven|oali" source="die_sclaven" target="oali">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_sclaven|zimar" source="die_sclaven" target="zimar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hoang-puff|zimar" source="hoang-puff" target="zimar">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="hoang-puff|nadir" source="hoang-puff" target="nadir">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="hoang-puff|oali" source="hoang-puff" target="oali">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zimar|nadir" source="zimar" target="nadir">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="zimar|oali" source="zimar" target="oali">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="nadir|oali" source="nadir" target="oali">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

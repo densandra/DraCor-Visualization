@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="miranda">
+            <data key="label">Miranda</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="geisterchor">
+            <data key="label">Geisterchor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="prospero">
+            <data key="label">Prospero</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ariel">
+            <data key="label">Ariel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="caliban">
+            <data key="label">Caliban</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_der_schiffer">
+            <data key="label">Chor der Schiffer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="fernando">
+            <data key="label">Fernando</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fabio">
+            <data key="label">Fabio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="oronzio">
+            <data key="label">Oronzio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stefano">
+            <data key="label">Stefano</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor (auf dem Theater)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ruperto">
+            <data key="label">Ruperto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="matrosen">
+            <data key="label">Matrosen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="prospero" target="miranda">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="fabio" target="fernando">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="oronzio" target="fernando">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="stefano" target="fernando">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="ariel" target="fernando">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="alma">
+            <data key="label">Alma</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1971</data>
+        </node>
+        <node id="caled">
+            <data key="label">Caled</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1471</data>
+        </node>
+        <node id="nurraddin">
+            <data key="label">Nurraddin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1636</data>
+        </node>
+        <node id="chor_schluss-chor">
+            <data key="label">Chor/Schluß-Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">257</data>
+        </node>
+        <node id="wampum">
+            <data key="label">Wampum</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3944</data>
+        </node>
+        <node id="hussein">
+            <data key="label">Hussein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">795</data>
+        </node>
+        <node id="arzt">
+            <data key="label">Arzt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">429</data>
+        </node>
+        <node id="kaemmerling">
+            <data key="label">Kämmerling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">51</data>
+        </node>
+        <node id="erste_schildwache">
+            <data key="label">Erste Schildwache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">293</data>
+        </node>
+        <node id="zweite_schildwache">
+            <data key="label">Zweite Schildwache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">277</data>
+        </node>
+        <node id="genius">
+            <data key="label">Genius</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">419</data>
+        </node>
+        <edge id="alma|caled" source="alma" target="caled">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="alma|nurraddin" source="alma" target="nurraddin">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="alma|wampum" source="alma" target="wampum">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="alma|hussein" source="alma" target="hussein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alma|genius" source="alma" target="genius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alma|chor_schluss-chor" source="alma" target="chor_schluss-chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caled|nurraddin" source="caled" target="nurraddin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="caled|wampum" source="caled" target="wampum">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="caled|hussein" source="caled" target="hussein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="caled|erste_schildwache" source="caled" target="erste_schildwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caled|genius" source="caled" target="genius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caled|chor_schluss-chor" source="caled" target="chor_schluss-chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nurraddin|genius" source="nurraddin" target="genius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nurraddin|wampum" source="nurraddin" target="wampum">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nurraddin|chor_schluss-chor" source="nurraddin" target="chor_schluss-chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_schluss-chor|wampum" source="chor_schluss-chor" target="wampum">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor_schluss-chor|hussein" source="chor_schluss-chor" target="hussein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_schluss-chor|genius" source="chor_schluss-chor" target="genius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wampum|hussein" source="wampum" target="hussein">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="wampum|arzt" source="wampum" target="arzt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wampum|kaemmerling" source="wampum" target="kaemmerling">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wampum|erste_schildwache" source="wampum" target="erste_schildwache">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wampum|zweite_schildwache" source="wampum" target="zweite_schildwache">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wampum|genius" source="wampum" target="genius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hussein|arzt" source="hussein" target="arzt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hussein|kaemmerling" source="hussein" target="kaemmerling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hussein|erste_schildwache" source="hussein" target="erste_schildwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hussein|zweite_schildwache" source="hussein" target="zweite_schildwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_schildwache|zweite_schildwache" source="erste_schildwache" target="zweite_schildwache">
+            <data key="weight">4</data>
+        </edge>
+    </graph>
+</graphml>

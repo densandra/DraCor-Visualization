@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="brunhild">
+            <data key="label">Brunhild</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2632</data>
+        </node>
+        <node id="frigga">
+            <data key="label">Frigga</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1126</data>
+        </node>
+        <node id="siegfried">
+            <data key="label">Siegfried</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2897</data>
+        </node>
+        <node id="gunther">
+            <data key="label">Gunther</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">507</data>
+        </node>
+        <node id="hagen">
+            <data key="label">Hagen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2800</data>
+        </node>
+        <node id="volker">
+            <data key="label">Volker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">325</data>
+        </node>
+        <node id="giselher">
+            <data key="label">Giselher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">597</data>
+        </node>
+        <node id="rumolt">
+            <data key="label">Rumolt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">136</data>
+        </node>
+        <node id="gerenot">
+            <data key="label">Gerenot</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">56</data>
+        </node>
+        <node id="ute">
+            <data key="label">Ute</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">558</data>
+        </node>
+        <node id="kriemhild">
+            <data key="label">Kriemhild</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2518</data>
+        </node>
+        <node id="kaplan">
+            <data key="label">Der Kaplan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">801</data>
+        </node>
+        <node id="truchs">
+            <data key="label">Truchs</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">179</data>
+        </node>
+        <node id="wulf">
+            <data key="label">Wulf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">100</data>
+        </node>
+        <node id="dankwart">
+            <data key="label">Dankwart</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">219</data>
+        </node>
+        <node id="kaemmerer">
+            <data key="label">Kämmerer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="antwort_von_draussen">
+            <data key="label">Antwort von draußen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <node id="alle_sippen_bis_auf_giselher">
+            <data key="label">Alle Sippen bis auf Giselher</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <edge id="brunhild|frigga" source="brunhild" target="frigga">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="brunhild|siegfried" source="brunhild" target="siegfried">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="brunhild|gunther" source="brunhild" target="gunther">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="brunhild|hagen" source="brunhild" target="hagen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="brunhild|volker" source="brunhild" target="volker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="brunhild|ute" source="brunhild" target="ute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brunhild|kriemhild" source="brunhild" target="kriemhild">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="brunhild|giselher" source="brunhild" target="giselher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brunhild|gerenot" source="brunhild" target="gerenot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frigga|siegfried" source="frigga" target="siegfried">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frigga|gunther" source="frigga" target="gunther">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frigga|hagen" source="frigga" target="hagen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frigga|volker" source="frigga" target="volker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frigga|ute" source="frigga" target="ute">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frigga|kriemhild" source="frigga" target="kriemhild">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="siegfried|gunther" source="siegfried" target="gunther">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="siegfried|hagen" source="siegfried" target="hagen">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="siegfried|volker" source="siegfried" target="volker">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="siegfried|giselher" source="siegfried" target="giselher">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="siegfried|ute" source="siegfried" target="ute">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="siegfried|kriemhild" source="siegfried" target="kriemhild">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="siegfried|kaplan" source="siegfried" target="kaplan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="siegfried|gerenot" source="siegfried" target="gerenot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="siegfried|dankwart" source="siegfried" target="dankwart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gunther|hagen" source="gunther" target="hagen">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="gunther|volker" source="gunther" target="volker">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="gunther|ute" source="gunther" target="ute">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gunther|kriemhild" source="gunther" target="kriemhild">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="gunther|giselher" source="gunther" target="giselher">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="gunther|gerenot" source="gunther" target="gerenot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gunther|dankwart" source="gunther" target="dankwart">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gunther|kaplan" source="gunther" target="kaplan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gunther|rumolt" source="gunther" target="rumolt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gunther|antwort_von_draussen" source="gunther" target="antwort_von_draussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gunther|alle_sippen_bis_auf_giselher" source="gunther" target="alle_sippen_bis_auf_giselher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hagen|volker" source="hagen" target="volker">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hagen|ute" source="hagen" target="ute">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hagen|kriemhild" source="hagen" target="kriemhild">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="hagen|giselher" source="hagen" target="giselher">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="hagen|gerenot" source="hagen" target="gerenot">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hagen|dankwart" source="hagen" target="dankwart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hagen|kaplan" source="hagen" target="kaplan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hagen|antwort_von_draussen" source="hagen" target="antwort_von_draussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hagen|alle_sippen_bis_auf_giselher" source="hagen" target="alle_sippen_bis_auf_giselher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volker|ute" source="volker" target="ute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volker|kriemhild" source="volker" target="kriemhild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volker|giselher" source="volker" target="giselher">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="volker|dankwart" source="volker" target="dankwart">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="giselher|rumolt" source="giselher" target="rumolt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giselher|gerenot" source="giselher" target="gerenot">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="giselher|ute" source="giselher" target="ute">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="giselher|kriemhild" source="giselher" target="kriemhild">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="giselher|dankwart" source="giselher" target="dankwart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giselher|kaplan" source="giselher" target="kaplan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giselher|antwort_von_draussen" source="giselher" target="antwort_von_draussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giselher|alle_sippen_bis_auf_giselher" source="giselher" target="alle_sippen_bis_auf_giselher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rumolt|gerenot" source="rumolt" target="gerenot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rumolt|dankwart" source="rumolt" target="dankwart">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rumolt|kaplan" source="rumolt" target="kaplan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rumolt|ute" source="rumolt" target="ute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rumolt|kriemhild" source="rumolt" target="kriemhild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gerenot|kriemhild" source="gerenot" target="kriemhild">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ute|kriemhild" source="ute" target="kriemhild">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="ute|kaplan" source="ute" target="kaplan">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ute|kaemmerer" source="ute" target="kaemmerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ute|dankwart" source="ute" target="dankwart">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ute|antwort_von_draussen" source="ute" target="antwort_von_draussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ute|alle_sippen_bis_auf_giselher" source="ute" target="alle_sippen_bis_auf_giselher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kriemhild|kaplan" source="kriemhild" target="kaplan">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kriemhild|kaemmerer" source="kriemhild" target="kaemmerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kriemhild|dankwart" source="kriemhild" target="dankwart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kriemhild|antwort_von_draussen" source="kriemhild" target="antwort_von_draussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kriemhild|alle_sippen_bis_auf_giselher" source="kriemhild" target="alle_sippen_bis_auf_giselher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaplan|dankwart" source="kaplan" target="dankwart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaplan|antwort_von_draussen" source="kaplan" target="antwort_von_draussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaplan|alle_sippen_bis_auf_giselher" source="kaplan" target="alle_sippen_bis_auf_giselher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="truchs|wulf" source="truchs" target="wulf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antwort_von_draussen|alle_sippen_bis_auf_giselher" source="antwort_von_draussen" target="alle_sippen_bis_auf_giselher">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

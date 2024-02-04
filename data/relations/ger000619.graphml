@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="hippolyt">
+            <data key="label">Hippolyt von Séver</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hortense">
+            <data key="label">Hortense von Frontillac</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marquise">
+            <data key="label">Marquise Charaisac</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="verdi">
+            <data key="label">Ulrich von Verdi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herzog">
+            <data key="label">Herzog von Longueville</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="hortense" target="marquise">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="2" directed="false" source="hippolyt" target="marquise">
+            <data key="relation">related_with</data>
+        </edge>
+    </graph>
+</graphml>

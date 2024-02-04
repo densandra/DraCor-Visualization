@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="der_normale_leser">
+            <data key="label">Der normale Leser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_ruehrige_verleger">
+            <data key="label">Der rührige Verleger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_verschaemte_autor">
+            <data key="label">Der verschämte Autor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_hohe_staatsanwalt">
+            <data key="label">Der hohe Staatsanwalt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rodrigo">
+            <data key="label">Rodrigo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_geschwitz">
+            <data key="label">Die Geschwitz</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alwa">
+            <data key="label">Alwa</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schigolch">
+            <data key="label">Schigolch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hugenberg">
+            <data key="label">Hugenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lulu">
+            <data key="label">Lulu</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bianetta">
+            <data key="label">Bianetta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="magelone">
+            <data key="label">Magelone</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="casti-piani">
+            <data key="label">Graf Casti-Piani</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kadidja">
+            <data key="label">Kadidja</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="heilmann">
+            <data key="label">Journalist Heilmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="puntschu">
+            <data key="label">Puntschu</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ludmilla_steinherz">
+            <data key="label">Ludmilla Steinherz</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bob">
+            <data key="label">Bob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_polizeikommissaer">
+            <data key="label">Ein Polizeikommissär</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_hunidei">
+            <data key="label">Herr Hunidei</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kungu_poti">
+            <data key="label">Kungu Poti</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dr_hilti">
+            <data key="label">Dr. Hilti</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jack">
+            <data key="label">Jack</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="magelone" target="kadidja">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="mangu">
+            <data key="label">Mangu</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">629</data>
+        </node>
+        <node id="sino">
+            <data key="label">Sino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1254</data>
+        </node>
+        <node id="derwisch">
+            <data key="label">Derwisch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">233</data>
+        </node>
+        <node id="sultan">
+            <data key="label">Sultan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">844</data>
+        </node>
+        <node id="nerissa">
+            <data key="label">Nerissa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1050</data>
+        </node>
+        <node id="elpa">
+            <data key="label">Elpa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">259</data>
+        </node>
+        <node id="udohla">
+            <data key="label">Udohla</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">969</data>
+        </node>
+        <edge id="mangu|sino" source="mangu" target="sino">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mangu|derwisch" source="mangu" target="derwisch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mangu|sultan" source="mangu" target="sultan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mangu|nerissa" source="mangu" target="nerissa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mangu|elpa" source="mangu" target="elpa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mangu|udohla" source="mangu" target="udohla">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sino|derwisch" source="sino" target="derwisch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sino|sultan" source="sino" target="sultan">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sino|nerissa" source="sino" target="nerissa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sino|elpa" source="sino" target="elpa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sino|udohla" source="sino" target="udohla">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="derwisch|sultan" source="derwisch" target="sultan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="derwisch|nerissa" source="derwisch" target="nerissa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="derwisch|elpa" source="derwisch" target="elpa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="derwisch|udohla" source="derwisch" target="udohla">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sultan|nerissa" source="sultan" target="nerissa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sultan|elpa" source="sultan" target="elpa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sultan|udohla" source="sultan" target="udohla">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nerissa|elpa" source="nerissa" target="elpa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nerissa|udohla" source="nerissa" target="udohla">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="elpa|udohla" source="elpa" target="udohla">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

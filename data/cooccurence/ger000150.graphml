@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <node id="graf">
+            <data key="label">Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2881</data>
+        </node>
+        <node id="komtesse">
+            <data key="label">Komtesse</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1769</data>
+        </node>
+        <node id="gaertner">
+            <data key="label">Gärtner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">55</data>
+        </node>
+        <node id="fuerst">
+            <data key="label">Der Fürst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2037</data>
+        </node>
+        <node id="philipp">
+            <data key="label">Philipp</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1093</data>
+        </node>
+        <node id="lolo">
+            <data key="label">Lolo</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">711</data>
+        </node>
+        <node id="wasner">
+            <data key="label">Wasner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="professor_windhofer">
+            <data key="label">Professor Windhofer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">119</data>
+        </node>
+        <edge id="diener|graf" source="diener" target="graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|komtesse" source="diener" target="komtesse">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|gaertner" source="diener" target="gaertner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|fuerst" source="diener" target="fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|philipp" source="diener" target="philipp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|lolo" source="diener" target="lolo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|wasner" source="diener" target="wasner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|professor_windhofer" source="diener" target="professor_windhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|komtesse" source="graf" target="komtesse">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|gaertner" source="graf" target="gaertner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|fuerst" source="graf" target="fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|philipp" source="graf" target="philipp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|lolo" source="graf" target="lolo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|wasner" source="graf" target="wasner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|professor_windhofer" source="graf" target="professor_windhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="komtesse|gaertner" source="komtesse" target="gaertner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="komtesse|fuerst" source="komtesse" target="fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="komtesse|philipp" source="komtesse" target="philipp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="komtesse|lolo" source="komtesse" target="lolo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="komtesse|wasner" source="komtesse" target="wasner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="komtesse|professor_windhofer" source="komtesse" target="professor_windhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaertner|fuerst" source="gaertner" target="fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaertner|philipp" source="gaertner" target="philipp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaertner|lolo" source="gaertner" target="lolo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaertner|wasner" source="gaertner" target="wasner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaertner|professor_windhofer" source="gaertner" target="professor_windhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerst|philipp" source="fuerst" target="philipp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerst|lolo" source="fuerst" target="lolo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerst|wasner" source="fuerst" target="wasner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuerst|professor_windhofer" source="fuerst" target="professor_windhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philipp|lolo" source="philipp" target="lolo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philipp|wasner" source="philipp" target="wasner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philipp|professor_windhofer" source="philipp" target="professor_windhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lolo|wasner" source="lolo" target="wasner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lolo|professor_windhofer" source="lolo" target="professor_windhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wasner|professor_windhofer" source="wasner" target="professor_windhofer">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

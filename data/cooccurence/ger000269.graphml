@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="landleute">
+            <data key="label">Landleute</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">562</data>
+        </node>
+        <node id="gretchen">
+            <data key="label">Gretchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1757</data>
+        </node>
+        <node id="baculus">
+            <data key="label">Baculus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3958</data>
+        </node>
+        <node id="ein_hochzeitsgast">
+            <data key="label">Ein Hochzeitsgast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="baronin">
+            <data key="label">Baronin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1807</data>
+        </node>
+        <node id="nanette">
+            <data key="label">Nanette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">413</data>
+        </node>
+        <node id="graf">
+            <data key="label">Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2444</data>
+        </node>
+        <node id="baron">
+            <data key="label">Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2984</data>
+        </node>
+        <node id="jaeger">
+            <data key="label">Jäger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">258</data>
+        </node>
+        <node id="pancratius">
+            <data key="label">Pancratius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">560</data>
+        </node>
+        <node id="dienerchor">
+            <data key="label">Dienerchor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">49</data>
+        </node>
+        <node id="graefin">
+            <data key="label">Gräfin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1286</data>
+        </node>
+        <node id="maedchen">
+            <data key="label">Die Mädchen (III/3)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">203</data>
+        </node>
+        <node id="erstes_maedchen">
+            <data key="label">Erstes Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="zweites_maedchen">
+            <data key="label">Zweites Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="schuljugend">
+            <data key="label">Schuljugend</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">51</data>
+        </node>
+        <edge id="landleute|gretchen" source="landleute" target="gretchen">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="landleute|baculus" source="landleute" target="baculus">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="landleute|ein_hochzeitsgast" source="landleute" target="ein_hochzeitsgast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landleute|graf" source="landleute" target="graf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="landleute|baron" source="landleute" target="baron">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="landleute|baronin" source="landleute" target="baronin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="landleute|jaeger" source="landleute" target="jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landleute|schuljugend" source="landleute" target="schuljugend">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landleute|graefin" source="landleute" target="graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landleute|pancratius" source="landleute" target="pancratius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gretchen|baculus" source="gretchen" target="baculus">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="gretchen|ein_hochzeitsgast" source="gretchen" target="ein_hochzeitsgast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gretchen|baronin" source="gretchen" target="baronin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gretchen|nanette" source="gretchen" target="nanette">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gretchen|graf" source="gretchen" target="graf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gretchen|baron" source="gretchen" target="baron">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="gretchen|jaeger" source="gretchen" target="jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gretchen|schuljugend" source="gretchen" target="schuljugend">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gretchen|graefin" source="gretchen" target="graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gretchen|pancratius" source="gretchen" target="pancratius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baculus|ein_hochzeitsgast" source="baculus" target="ein_hochzeitsgast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baculus|baronin" source="baculus" target="baronin">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="baculus|nanette" source="baculus" target="nanette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baculus|graf" source="baculus" target="graf">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="baculus|baron" source="baculus" target="baron">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="baculus|jaeger" source="baculus" target="jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baculus|pancratius" source="baculus" target="pancratius">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="baculus|dienerchor" source="baculus" target="dienerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baculus|graefin" source="baculus" target="graefin">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="baculus|schuljugend" source="baculus" target="schuljugend">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baronin|nanette" source="baronin" target="nanette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baronin|baron" source="baronin" target="baron">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="baronin|graf" source="baronin" target="graf">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="baronin|jaeger" source="baronin" target="jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baronin|graefin" source="baronin" target="graefin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="baronin|pancratius" source="baronin" target="pancratius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baronin|schuljugend" source="baronin" target="schuljugend">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|baron" source="graf" target="baron">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="graf|jaeger" source="graf" target="jaeger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf|graefin" source="graf" target="graefin">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="graf|pancratius" source="graf" target="pancratius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="graf|maedchen" source="graf" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|erstes_maedchen" source="graf" target="erstes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|zweites_maedchen" source="graf" target="zweites_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|schuljugend" source="graf" target="schuljugend">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|jaeger" source="baron" target="jaeger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baron|graefin" source="baron" target="graefin">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="baron|pancratius" source="baron" target="pancratius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baron|maedchen" source="baron" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|erstes_maedchen" source="baron" target="erstes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|zweites_maedchen" source="baron" target="zweites_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baron|schuljugend" source="baron" target="schuljugend">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pancratius|dienerchor" source="pancratius" target="dienerchor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pancratius|graefin" source="pancratius" target="graefin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="pancratius|schuljugend" source="pancratius" target="schuljugend">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dienerchor|graefin" source="dienerchor" target="graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graefin|schuljugend" source="graefin" target="schuljugend">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maedchen|erstes_maedchen" source="maedchen" target="erstes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maedchen|zweites_maedchen" source="maedchen" target="zweites_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedchen|zweites_maedchen" source="erstes_maedchen" target="zweites_maedchen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

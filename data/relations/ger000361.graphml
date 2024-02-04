@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="major">
+            <data key="label">Major</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_buergermeister">
+            <data key="label">Frau Bürgermeister</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="suschen">
+            <data key="label">Suschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="beringer">
+            <data key="label">Beringer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="buergermeister">
+            <data key="label">Bürgermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stelzer">
+            <data key="label">Stelzer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schweigel">
+            <data key="label">Schweigel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="heitzinger">
+            <data key="label">Heitzinger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kiermayer">
+            <data key="label">Kiermayer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gruber">
+            <data key="label">Gruber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hartl">
+            <data key="label">Hartl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frieda">
+            <data key="label">Frieda</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gschwendtner">
+            <data key="label">Gschwendtner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lindlacher">
+            <data key="label">Lindlacher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="buergermeister" target="frau_buergermeister">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="buergermeister" target="major">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="frau_buergermeister" target="frieda">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="4" directed="false" source="beringer" target="suschen">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="5" directed="false" source="buergermeister" target="suschen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="frau_buergermeister" target="suschen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="7" directed="false" source="marie" target="buergermeister">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

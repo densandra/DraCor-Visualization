@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="mac-gregor">
+            <data key="label">Mac-Gregor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="douglas">
+            <data key="label">Douglas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="margarete">
+            <data key="label">Margarete</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="maria">
+            <data key="label">Maria</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lesley">
+            <data key="label">Lesley</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tom">
+            <data key="label">Tom</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="willie">
+            <data key="label">Willie</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ratcliff">
+            <data key="label">Ratcliff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle-mehrere">
+            <data key="label">Alle/Mehrere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="robin">
+            <data key="label">Robin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dick">
+            <data key="label">Dick</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bill">
+            <data key="label">Bill</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="john">
+            <data key="label">John</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="taddie">
+            <data key="label">Taddie</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_diener">
+            <data key="label">Ein Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="viele_stimmen-alle">
+            <data key="label">Viele Stimmen/Alle</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="douglas" target="maria">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="lesley" target="ratcliff">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="3" directed="false" source="mac-gregor" target="maria">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="margarete" target="maria">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="tom" target="willie">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

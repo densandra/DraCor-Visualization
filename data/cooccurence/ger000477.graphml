@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="frau_john">
+            <data key="label">Frau John</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4765</data>
+        </node>
+        <node id="die_piperkarcka">
+            <data key="label">Die Piperkarcka</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1337</data>
+        </node>
+        <node id="bruno">
+            <data key="label">Bruno</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1144</data>
+        </node>
+        <node id="walburga">
+            <data key="label">Walburga</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1117</data>
+        </node>
+        <node id="direktor_hassenreuter">
+            <data key="label">Direktor Hassenreuter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6111</data>
+        </node>
+        <node id="nathanael_jettel">
+            <data key="label">Nathanael Jettel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">113</data>
+        </node>
+        <node id="alice_ruetterbusch">
+            <data key="label">Alice Rütterbusch</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">484</data>
+        </node>
+        <node id="spitta">
+            <data key="label">Spitta</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2235</data>
+        </node>
+        <node id="john">
+            <data key="label">John</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3690</data>
+        </node>
+        <node id="selma">
+            <data key="label">Selma</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">590</data>
+        </node>
+        <node id="frau_direktor_hassenreuter">
+            <data key="label">Frau Direktor Hassenreuter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">811</data>
+        </node>
+        <node id="kaeferstein">
+            <data key="label">Käferstein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">257</data>
+        </node>
+        <node id="dr_kegel">
+            <data key="label">Dr. Kegel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="quaquaro">
+            <data key="label">Quaquaro</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">791</data>
+        </node>
+        <node id="pastor_spitta">
+            <data key="label">Pastor Spitta</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">715</data>
+        </node>
+        <node id="frau_kielbacke">
+            <data key="label">Frau Kielbacke</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">170</data>
+        </node>
+        <node id="schierke">
+            <data key="label">Schierke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">329</data>
+        </node>
+        <node id="frau_knobbe">
+            <data key="label">Frau Knobbe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">695</data>
+        </node>
+        <edge id="frau_john|die_piperkarcka" source="frau_john" target="die_piperkarcka">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_john|bruno" source="frau_john" target="bruno">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_john|walburga" source="frau_john" target="walburga">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frau_john|direktor_hassenreuter" source="frau_john" target="direktor_hassenreuter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_john|nathanael_jettel" source="frau_john" target="nathanael_jettel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_john|alice_ruetterbusch" source="frau_john" target="alice_ruetterbusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_john|spitta" source="frau_john" target="spitta">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frau_john|john" source="frau_john" target="john">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_john|selma" source="frau_john" target="selma">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_john|frau_direktor_hassenreuter" source="frau_john" target="frau_direktor_hassenreuter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_john|kaeferstein" source="frau_john" target="kaeferstein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_john|dr_kegel" source="frau_john" target="dr_kegel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_john|quaquaro" source="frau_john" target="quaquaro">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_john|pastor_spitta" source="frau_john" target="pastor_spitta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_john|frau_kielbacke" source="frau_john" target="frau_kielbacke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_john|schierke" source="frau_john" target="schierke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_john|frau_knobbe" source="frau_john" target="frau_knobbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_piperkarcka|bruno" source="die_piperkarcka" target="bruno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_piperkarcka|walburga" source="die_piperkarcka" target="walburga">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_piperkarcka|direktor_hassenreuter" source="die_piperkarcka" target="direktor_hassenreuter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_piperkarcka|nathanael_jettel" source="die_piperkarcka" target="nathanael_jettel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_piperkarcka|alice_ruetterbusch" source="die_piperkarcka" target="alice_ruetterbusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_piperkarcka|spitta" source="die_piperkarcka" target="spitta">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_piperkarcka|john" source="die_piperkarcka" target="john">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_piperkarcka|selma" source="die_piperkarcka" target="selma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_piperkarcka|frau_direktor_hassenreuter" source="die_piperkarcka" target="frau_direktor_hassenreuter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_piperkarcka|kaeferstein" source="die_piperkarcka" target="kaeferstein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_piperkarcka|dr_kegel" source="die_piperkarcka" target="dr_kegel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_piperkarcka|quaquaro" source="die_piperkarcka" target="quaquaro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_piperkarcka|pastor_spitta" source="die_piperkarcka" target="pastor_spitta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_piperkarcka|frau_kielbacke" source="die_piperkarcka" target="frau_kielbacke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_piperkarcka|schierke" source="die_piperkarcka" target="schierke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_piperkarcka|frau_knobbe" source="die_piperkarcka" target="frau_knobbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruno|walburga" source="bruno" target="walburga">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bruno|direktor_hassenreuter" source="bruno" target="direktor_hassenreuter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruno|nathanael_jettel" source="bruno" target="nathanael_jettel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruno|alice_ruetterbusch" source="bruno" target="alice_ruetterbusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruno|spitta" source="bruno" target="spitta">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bruno|quaquaro" source="bruno" target="quaquaro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruno|john" source="bruno" target="john">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bruno|selma" source="bruno" target="selma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walburga|direktor_hassenreuter" source="walburga" target="direktor_hassenreuter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="walburga|nathanael_jettel" source="walburga" target="nathanael_jettel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walburga|alice_ruetterbusch" source="walburga" target="alice_ruetterbusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walburga|spitta" source="walburga" target="spitta">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="walburga|john" source="walburga" target="john">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="walburga|selma" source="walburga" target="selma">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="walburga|frau_direktor_hassenreuter" source="walburga" target="frau_direktor_hassenreuter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walburga|kaeferstein" source="walburga" target="kaeferstein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walburga|dr_kegel" source="walburga" target="dr_kegel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walburga|quaquaro" source="walburga" target="quaquaro">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="walburga|pastor_spitta" source="walburga" target="pastor_spitta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walburga|frau_kielbacke" source="walburga" target="frau_kielbacke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walburga|schierke" source="walburga" target="schierke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walburga|frau_knobbe" source="walburga" target="frau_knobbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor_hassenreuter|nathanael_jettel" source="direktor_hassenreuter" target="nathanael_jettel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor_hassenreuter|alice_ruetterbusch" source="direktor_hassenreuter" target="alice_ruetterbusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor_hassenreuter|spitta" source="direktor_hassenreuter" target="spitta">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="direktor_hassenreuter|john" source="direktor_hassenreuter" target="john">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="direktor_hassenreuter|selma" source="direktor_hassenreuter" target="selma">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="direktor_hassenreuter|frau_direktor_hassenreuter" source="direktor_hassenreuter" target="frau_direktor_hassenreuter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="direktor_hassenreuter|kaeferstein" source="direktor_hassenreuter" target="kaeferstein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="direktor_hassenreuter|dr_kegel" source="direktor_hassenreuter" target="dr_kegel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="direktor_hassenreuter|quaquaro" source="direktor_hassenreuter" target="quaquaro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="direktor_hassenreuter|pastor_spitta" source="direktor_hassenreuter" target="pastor_spitta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor_hassenreuter|frau_kielbacke" source="direktor_hassenreuter" target="frau_kielbacke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="direktor_hassenreuter|schierke" source="direktor_hassenreuter" target="schierke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="direktor_hassenreuter|frau_knobbe" source="direktor_hassenreuter" target="frau_knobbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nathanael_jettel|alice_ruetterbusch" source="nathanael_jettel" target="alice_ruetterbusch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nathanael_jettel|spitta" source="nathanael_jettel" target="spitta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alice_ruetterbusch|spitta" source="alice_ruetterbusch" target="spitta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spitta|john" source="spitta" target="john">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="spitta|selma" source="spitta" target="selma">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="spitta|frau_direktor_hassenreuter" source="spitta" target="frau_direktor_hassenreuter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="spitta|kaeferstein" source="spitta" target="kaeferstein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="spitta|dr_kegel" source="spitta" target="dr_kegel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="spitta|quaquaro" source="spitta" target="quaquaro">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="spitta|pastor_spitta" source="spitta" target="pastor_spitta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spitta|frau_kielbacke" source="spitta" target="frau_kielbacke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spitta|schierke" source="spitta" target="schierke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="spitta|frau_knobbe" source="spitta" target="frau_knobbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="john|selma" source="john" target="selma">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="john|frau_direktor_hassenreuter" source="john" target="frau_direktor_hassenreuter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="john|kaeferstein" source="john" target="kaeferstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="john|dr_kegel" source="john" target="dr_kegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="john|quaquaro" source="john" target="quaquaro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="john|schierke" source="john" target="schierke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selma|frau_direktor_hassenreuter" source="selma" target="frau_direktor_hassenreuter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="selma|kaeferstein" source="selma" target="kaeferstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selma|dr_kegel" source="selma" target="dr_kegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selma|quaquaro" source="selma" target="quaquaro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="selma|schierke" source="selma" target="schierke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_direktor_hassenreuter|kaeferstein" source="frau_direktor_hassenreuter" target="kaeferstein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_direktor_hassenreuter|dr_kegel" source="frau_direktor_hassenreuter" target="dr_kegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_direktor_hassenreuter|schierke" source="frau_direktor_hassenreuter" target="schierke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_direktor_hassenreuter|quaquaro" source="frau_direktor_hassenreuter" target="quaquaro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeferstein|dr_kegel" source="kaeferstein" target="dr_kegel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaeferstein|quaquaro" source="kaeferstein" target="quaquaro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeferstein|pastor_spitta" source="kaeferstein" target="pastor_spitta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeferstein|frau_kielbacke" source="kaeferstein" target="frau_kielbacke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeferstein|schierke" source="kaeferstein" target="schierke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaeferstein|frau_knobbe" source="kaeferstein" target="frau_knobbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_kegel|quaquaro" source="dr_kegel" target="quaquaro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_kegel|pastor_spitta" source="dr_kegel" target="pastor_spitta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_kegel|frau_kielbacke" source="dr_kegel" target="frau_kielbacke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_kegel|schierke" source="dr_kegel" target="schierke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_kegel|frau_knobbe" source="dr_kegel" target="frau_knobbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quaquaro|pastor_spitta" source="quaquaro" target="pastor_spitta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quaquaro|frau_kielbacke" source="quaquaro" target="frau_kielbacke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quaquaro|schierke" source="quaquaro" target="schierke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="quaquaro|frau_knobbe" source="quaquaro" target="frau_knobbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pastor_spitta|frau_kielbacke" source="pastor_spitta" target="frau_kielbacke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pastor_spitta|schierke" source="pastor_spitta" target="schierke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pastor_spitta|frau_knobbe" source="pastor_spitta" target="frau_knobbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_kielbacke|schierke" source="frau_kielbacke" target="schierke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_kielbacke|frau_knobbe" source="frau_kielbacke" target="frau_knobbe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schierke|frau_knobbe" source="schierke" target="frau_knobbe">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

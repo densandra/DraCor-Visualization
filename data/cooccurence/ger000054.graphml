@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="grossknecht">
+            <data key="label">Großknecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2382</data>
+        </node>
+        <node id="vroni">
+            <data key="label">Vroni</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5531</data>
+        </node>
+        <node id="crescenz">
+            <data key="label">Crescenz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">299</data>
+        </node>
+        <node id="toni">
+            <data key="label">Toni</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">497</data>
+        </node>
+        <node id="ferner">
+            <data key="label">Ferner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3532</data>
+        </node>
+        <node id="hoellerer">
+            <data key="label">Höllerer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">645</data>
+        </node>
+        <node id="mirzl">
+            <data key="label">Mirzl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">75</data>
+        </node>
+        <node id="burgei">
+            <data key="label">Burgei</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">63</data>
+        </node>
+        <node id="annerl">
+            <data key="label">Annerl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="waberl">
+            <data key="label">Waberl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="gretl">
+            <data key="label">Gretl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="muckerl">
+            <data key="label">Muckerl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">118</data>
+        </node>
+        <node id="franz">
+            <data key="label">Franz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2989</data>
+        </node>
+        <node id="levy">
+            <data key="label">Levy</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">505</data>
+        </node>
+        <node id="lies">
+            <data key="label">Lies</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2075</data>
+        </node>
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">617</data>
+        </node>
+        <node id="erster_schwaerzer">
+            <data key="label">Erster Schwärzer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="zweiter_schwaerzer">
+            <data key="label">Zweiter Schwärzer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="bader">
+            <data key="label">Bader</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">275</data>
+        </node>
+        <node id="mahm">
+            <data key="label">Mahm</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1180</data>
+        </node>
+        <node id="rosl">
+            <data key="label">Rosl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">127</data>
+        </node>
+        <node id="kathrein">
+            <data key="label">Kathrein</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">83</data>
+        </node>
+        <edge id="grossknecht|vroni" source="grossknecht" target="vroni">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grossknecht|franz" source="grossknecht" target="franz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vroni|crescenz" source="vroni" target="crescenz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vroni|toni" source="vroni" target="toni">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="vroni|ferner" source="vroni" target="ferner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="vroni|hoellerer" source="vroni" target="hoellerer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vroni|mirzl" source="vroni" target="mirzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vroni|burgei" source="vroni" target="burgei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vroni|annerl" source="vroni" target="annerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vroni|waberl" source="vroni" target="waberl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vroni|gretl" source="vroni" target="gretl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vroni|muckerl" source="vroni" target="muckerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vroni|franz" source="vroni" target="franz">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="vroni|lies" source="vroni" target="lies">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="vroni|jakob" source="vroni" target="jakob">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crescenz|toni" source="crescenz" target="toni">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crescenz|ferner" source="crescenz" target="ferner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="crescenz|hoellerer" source="crescenz" target="hoellerer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="crescenz|franz" source="crescenz" target="franz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="crescenz|lies" source="crescenz" target="lies">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toni|ferner" source="toni" target="ferner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toni|hoellerer" source="toni" target="hoellerer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toni|franz" source="toni" target="franz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ferner|hoellerer" source="ferner" target="hoellerer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ferner|franz" source="ferner" target="franz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ferner|erster_schwaerzer" source="ferner" target="erster_schwaerzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ferner|zweiter_schwaerzer" source="ferner" target="zweiter_schwaerzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ferner|bader" source="ferner" target="bader">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ferner|rosl" source="ferner" target="rosl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ferner|kathrein" source="ferner" target="kathrein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ferner|mahm" source="ferner" target="mahm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hoellerer|franz" source="hoellerer" target="franz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hoellerer|lies" source="hoellerer" target="lies">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirzl|burgei" source="mirzl" target="burgei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirzl|annerl" source="mirzl" target="annerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirzl|waberl" source="mirzl" target="waberl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirzl|gretl" source="mirzl" target="gretl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mirzl|muckerl" source="mirzl" target="muckerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgei|annerl" source="burgei" target="annerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgei|waberl" source="burgei" target="waberl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgei|gretl" source="burgei" target="gretl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgei|muckerl" source="burgei" target="muckerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annerl|waberl" source="annerl" target="waberl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annerl|gretl" source="annerl" target="gretl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annerl|muckerl" source="annerl" target="muckerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="waberl|gretl" source="waberl" target="gretl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="waberl|muckerl" source="waberl" target="muckerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gretl|muckerl" source="gretl" target="muckerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|erster_schwaerzer" source="franz" target="erster_schwaerzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|zweiter_schwaerzer" source="franz" target="zweiter_schwaerzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|lies" source="franz" target="lies">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="levy|lies" source="levy" target="lies">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lies|jakob" source="lies" target="jakob">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_schwaerzer|zweiter_schwaerzer" source="erster_schwaerzer" target="zweiter_schwaerzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bader|mahm" source="bader" target="mahm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bader|rosl" source="bader" target="rosl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bader|kathrein" source="bader" target="kathrein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mahm|rosl" source="mahm" target="rosl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mahm|kathrein" source="mahm" target="kathrein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosl|kathrein" source="rosl" target="kathrein">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

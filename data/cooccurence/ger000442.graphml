@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="soest">
+            <data key="label">Soest</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">642</data>
+        </node>
+        <node id="jetter">
+            <data key="label">Jetter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1310</data>
+        </node>
+        <node id="buyck">
+            <data key="label">Buyck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">517</data>
+        </node>
+        <node id="alle_1-1">
+            <data key="label">Alle (I/1)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="ruysum">
+            <data key="label">Ruysum</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">198</data>
+        </node>
+        <node id="regentin">
+            <data key="label">Regentin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2073</data>
+        </node>
+        <node id="machiavell">
+            <data key="label">Machiavell</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">695</data>
+        </node>
+        <node id="klare_klaerchen">
+            <data key="label">Klare/Klärchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3393</data>
+        </node>
+        <node id="brackenburg">
+            <data key="label">Brackenburg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1225</data>
+        </node>
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">427</data>
+        </node>
+        <node id="zimmermeister">
+            <data key="label">Zimmermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">666</data>
+        </node>
+        <node id="seifensieder">
+            <data key="label">Seifensieder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">78</data>
+        </node>
+        <node id="vansen">
+            <data key="label">Vansen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1214</data>
+        </node>
+        <node id="einige_andere_mehrere_das_volk_andere">
+            <data key="label">Einige Andere/Mehrere/Das Volk/Andere (II/1)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">87</data>
+        </node>
+        <node id="ein_buerger_a">
+            <data key="label">Ein Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="anderer_buerger_a">
+            <data key="label">Anderer Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="ein_buerger_b">
+            <data key="label">Ein Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="ein_anderer_b">
+            <data key="label">Ein Anderer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="ein_buerger_c">
+            <data key="label">Ein Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="ein_anderer_c">
+            <data key="label">Ein Anderer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="ein_anderer_d">
+            <data key="label">Ein Anderer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="buerger_d">
+            <data key="label">Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="ein_anderer_e">
+            <data key="label">Ein Anderer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="ein_anderer_f">
+            <data key="label">Ein Anderer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="egmont">
+            <data key="label">Egmont</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6271</data>
+        </node>
+        <node id="sekretaer">
+            <data key="label">Sekretär</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">593</data>
+        </node>
+        <node id="oranien">
+            <data key="label">Oranien</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">654</data>
+        </node>
+        <node id="silva">
+            <data key="label">Silva</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">578</data>
+        </node>
+        <node id="gomez">
+            <data key="label">Gomez</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">284</data>
+        </node>
+        <node id="ferdinand">
+            <data key="label">Ferdinand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1007</data>
+        </node>
+        <node id="alba">
+            <data key="label">Alba</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1746</data>
+        </node>
+        <edge id="soest|jetter" source="soest" target="jetter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="soest|buyck" source="soest" target="buyck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|alle_1-1" source="soest" target="alle_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|ruysum" source="soest" target="ruysum">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|zimmermeister" source="soest" target="zimmermeister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="soest|seifensieder" source="soest" target="seifensieder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|vansen" source="soest" target="vansen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="soest|einige_andere_mehrere_das_volk_andere" source="soest" target="einige_andere_mehrere_das_volk_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|ein_buerger_a" source="soest" target="ein_buerger_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|anderer_buerger_a" source="soest" target="anderer_buerger_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|ein_buerger_b" source="soest" target="ein_buerger_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|ein_anderer_b" source="soest" target="ein_anderer_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|ein_buerger_c" source="soest" target="ein_buerger_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|ein_anderer_c" source="soest" target="ein_anderer_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|ein_anderer_d" source="soest" target="ein_anderer_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|buerger_d" source="soest" target="buerger_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|ein_anderer_e" source="soest" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|ein_anderer_f" source="soest" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|egmont" source="soest" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|brackenburg" source="soest" target="brackenburg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soest|klare_klaerchen" source="soest" target="klare_klaerchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|buyck" source="jetter" target="buyck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|alle_1-1" source="jetter" target="alle_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|ruysum" source="jetter" target="ruysum">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|zimmermeister" source="jetter" target="zimmermeister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jetter|seifensieder" source="jetter" target="seifensieder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|vansen" source="jetter" target="vansen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jetter|einige_andere_mehrere_das_volk_andere" source="jetter" target="einige_andere_mehrere_das_volk_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|ein_buerger_a" source="jetter" target="ein_buerger_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|anderer_buerger_a" source="jetter" target="anderer_buerger_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|ein_buerger_b" source="jetter" target="ein_buerger_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|ein_anderer_b" source="jetter" target="ein_anderer_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|ein_buerger_c" source="jetter" target="ein_buerger_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|ein_anderer_c" source="jetter" target="ein_anderer_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|ein_anderer_d" source="jetter" target="ein_anderer_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|buerger_d" source="jetter" target="buerger_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|ein_anderer_e" source="jetter" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|ein_anderer_f" source="jetter" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|egmont" source="jetter" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|brackenburg" source="jetter" target="brackenburg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jetter|klare_klaerchen" source="jetter" target="klare_klaerchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buyck|alle_1-1" source="buyck" target="alle_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buyck|ruysum" source="buyck" target="ruysum">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-1|ruysum" source="alle_1-1" target="ruysum">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="regentin|machiavell" source="regentin" target="machiavell">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klare_klaerchen|brackenburg" source="klare_klaerchen" target="brackenburg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="klare_klaerchen|mutter" source="klare_klaerchen" target="mutter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klare_klaerchen|egmont" source="klare_klaerchen" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klare_klaerchen|zimmermeister" source="klare_klaerchen" target="zimmermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brackenburg|mutter" source="brackenburg" target="mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brackenburg|zimmermeister" source="brackenburg" target="zimmermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|egmont" source="mutter" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zimmermeister|seifensieder" source="zimmermeister" target="seifensieder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zimmermeister|vansen" source="zimmermeister" target="vansen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zimmermeister|einige_andere_mehrere_das_volk_andere" source="zimmermeister" target="einige_andere_mehrere_das_volk_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zimmermeister|ein_buerger_a" source="zimmermeister" target="ein_buerger_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zimmermeister|anderer_buerger_a" source="zimmermeister" target="anderer_buerger_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zimmermeister|ein_buerger_b" source="zimmermeister" target="ein_buerger_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zimmermeister|ein_anderer_b" source="zimmermeister" target="ein_anderer_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zimmermeister|ein_buerger_c" source="zimmermeister" target="ein_buerger_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zimmermeister|ein_anderer_c" source="zimmermeister" target="ein_anderer_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zimmermeister|ein_anderer_d" source="zimmermeister" target="ein_anderer_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zimmermeister|buerger_d" source="zimmermeister" target="buerger_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zimmermeister|ein_anderer_e" source="zimmermeister" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zimmermeister|ein_anderer_f" source="zimmermeister" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zimmermeister|egmont" source="zimmermeister" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifensieder|vansen" source="seifensieder" target="vansen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifensieder|einige_andere_mehrere_das_volk_andere" source="seifensieder" target="einige_andere_mehrere_das_volk_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifensieder|ein_buerger_a" source="seifensieder" target="ein_buerger_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifensieder|anderer_buerger_a" source="seifensieder" target="anderer_buerger_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifensieder|ein_buerger_b" source="seifensieder" target="ein_buerger_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifensieder|ein_anderer_b" source="seifensieder" target="ein_anderer_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifensieder|ein_buerger_c" source="seifensieder" target="ein_buerger_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifensieder|ein_anderer_c" source="seifensieder" target="ein_anderer_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifensieder|ein_anderer_d" source="seifensieder" target="ein_anderer_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifensieder|buerger_d" source="seifensieder" target="buerger_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifensieder|ein_anderer_e" source="seifensieder" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifensieder|ein_anderer_f" source="seifensieder" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seifensieder|egmont" source="seifensieder" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vansen|einige_andere_mehrere_das_volk_andere" source="vansen" target="einige_andere_mehrere_das_volk_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vansen|ein_buerger_a" source="vansen" target="ein_buerger_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vansen|anderer_buerger_a" source="vansen" target="anderer_buerger_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vansen|ein_buerger_b" source="vansen" target="ein_buerger_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vansen|ein_anderer_b" source="vansen" target="ein_anderer_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vansen|ein_buerger_c" source="vansen" target="ein_buerger_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vansen|ein_anderer_c" source="vansen" target="ein_anderer_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vansen|ein_anderer_d" source="vansen" target="ein_anderer_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vansen|buerger_d" source="vansen" target="buerger_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vansen|ein_anderer_e" source="vansen" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vansen|ein_anderer_f" source="vansen" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vansen|egmont" source="vansen" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_andere_mehrere_das_volk_andere|ein_buerger_a" source="einige_andere_mehrere_das_volk_andere" target="ein_buerger_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_andere_mehrere_das_volk_andere|anderer_buerger_a" source="einige_andere_mehrere_das_volk_andere" target="anderer_buerger_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_andere_mehrere_das_volk_andere|ein_buerger_b" source="einige_andere_mehrere_das_volk_andere" target="ein_buerger_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_andere_mehrere_das_volk_andere|ein_anderer_b" source="einige_andere_mehrere_das_volk_andere" target="ein_anderer_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_andere_mehrere_das_volk_andere|ein_buerger_c" source="einige_andere_mehrere_das_volk_andere" target="ein_buerger_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_andere_mehrere_das_volk_andere|ein_anderer_c" source="einige_andere_mehrere_das_volk_andere" target="ein_anderer_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_andere_mehrere_das_volk_andere|ein_anderer_d" source="einige_andere_mehrere_das_volk_andere" target="ein_anderer_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_andere_mehrere_das_volk_andere|buerger_d" source="einige_andere_mehrere_das_volk_andere" target="buerger_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_andere_mehrere_das_volk_andere|ein_anderer_e" source="einige_andere_mehrere_das_volk_andere" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_andere_mehrere_das_volk_andere|ein_anderer_f" source="einige_andere_mehrere_das_volk_andere" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_andere_mehrere_das_volk_andere|egmont" source="einige_andere_mehrere_das_volk_andere" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_a|anderer_buerger_a" source="ein_buerger_a" target="anderer_buerger_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_a|ein_buerger_b" source="ein_buerger_a" target="ein_buerger_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_a|ein_anderer_b" source="ein_buerger_a" target="ein_anderer_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_a|ein_buerger_c" source="ein_buerger_a" target="ein_buerger_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_a|ein_anderer_c" source="ein_buerger_a" target="ein_anderer_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_a|ein_anderer_d" source="ein_buerger_a" target="ein_anderer_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_a|buerger_d" source="ein_buerger_a" target="buerger_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_a|ein_anderer_e" source="ein_buerger_a" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_a|ein_anderer_f" source="ein_buerger_a" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_a|egmont" source="ein_buerger_a" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anderer_buerger_a|ein_buerger_b" source="anderer_buerger_a" target="ein_buerger_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anderer_buerger_a|ein_anderer_b" source="anderer_buerger_a" target="ein_anderer_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anderer_buerger_a|ein_buerger_c" source="anderer_buerger_a" target="ein_buerger_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anderer_buerger_a|ein_anderer_c" source="anderer_buerger_a" target="ein_anderer_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anderer_buerger_a|ein_anderer_d" source="anderer_buerger_a" target="ein_anderer_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anderer_buerger_a|buerger_d" source="anderer_buerger_a" target="buerger_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anderer_buerger_a|ein_anderer_e" source="anderer_buerger_a" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anderer_buerger_a|ein_anderer_f" source="anderer_buerger_a" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anderer_buerger_a|egmont" source="anderer_buerger_a" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_b|ein_anderer_b" source="ein_buerger_b" target="ein_anderer_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_b|ein_buerger_c" source="ein_buerger_b" target="ein_buerger_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_b|ein_anderer_c" source="ein_buerger_b" target="ein_anderer_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_b|ein_anderer_d" source="ein_buerger_b" target="ein_anderer_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_b|buerger_d" source="ein_buerger_b" target="buerger_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_b|ein_anderer_e" source="ein_buerger_b" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_b|ein_anderer_f" source="ein_buerger_b" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_b|egmont" source="ein_buerger_b" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_b|ein_buerger_c" source="ein_anderer_b" target="ein_buerger_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_b|ein_anderer_c" source="ein_anderer_b" target="ein_anderer_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_b|ein_anderer_d" source="ein_anderer_b" target="ein_anderer_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_b|buerger_d" source="ein_anderer_b" target="buerger_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_b|ein_anderer_e" source="ein_anderer_b" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_b|ein_anderer_f" source="ein_anderer_b" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_b|egmont" source="ein_anderer_b" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_c|ein_anderer_c" source="ein_buerger_c" target="ein_anderer_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_c|ein_anderer_d" source="ein_buerger_c" target="ein_anderer_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_c|buerger_d" source="ein_buerger_c" target="buerger_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_c|ein_anderer_e" source="ein_buerger_c" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_c|ein_anderer_f" source="ein_buerger_c" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_c|egmont" source="ein_buerger_c" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_c|ein_anderer_d" source="ein_anderer_c" target="ein_anderer_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_c|buerger_d" source="ein_anderer_c" target="buerger_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_c|ein_anderer_e" source="ein_anderer_c" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_c|ein_anderer_f" source="ein_anderer_c" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_c|egmont" source="ein_anderer_c" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_d|buerger_d" source="ein_anderer_d" target="buerger_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_d|ein_anderer_e" source="ein_anderer_d" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_d|ein_anderer_f" source="ein_anderer_d" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_d|egmont" source="ein_anderer_d" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buerger_d|ein_anderer_e" source="buerger_d" target="ein_anderer_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buerger_d|ein_anderer_f" source="buerger_d" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buerger_d|egmont" source="buerger_d" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|ein_anderer_f" source="ein_anderer_e" target="ein_anderer_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_e|egmont" source="ein_anderer_e" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_f|egmont" source="ein_anderer_f" target="egmont">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="egmont|sekretaer" source="egmont" target="sekretaer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="egmont|oranien" source="egmont" target="oranien">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="egmont|silva" source="egmont" target="silva">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="egmont|gomez" source="egmont" target="gomez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="egmont|ferdinand" source="egmont" target="ferdinand">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="egmont|alba" source="egmont" target="alba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sekretaer|oranien" source="sekretaer" target="oranien">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="silva|gomez" source="silva" target="gomez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="silva|ferdinand" source="silva" target="ferdinand">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="silva|alba" source="silva" target="alba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gomez|ferdinand" source="gomez" target="ferdinand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gomez|alba" source="gomez" target="alba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ferdinand|alba" source="ferdinand" target="alba">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

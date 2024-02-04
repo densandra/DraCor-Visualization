@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="atreus">
+            <data key="label">Atreus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3731</data>
+        </node>
+        <node id="priester">
+            <data key="label">Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2716</data>
+        </node>
+        <node id="aegisth">
+            <data key="label">Aegisth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2193</data>
+        </node>
+        <node id="pelopia">
+            <data key="label">Pelopia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2753</data>
+        </node>
+        <node id="thyest">
+            <data key="label">Thyest</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2439</data>
+        </node>
+        <edge id="atreus|priester" source="atreus" target="priester">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="atreus|aegisth" source="atreus" target="aegisth">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="atreus|thyest" source="atreus" target="thyest">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="atreus|pelopia" source="atreus" target="pelopia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="priester|aegisth" source="priester" target="aegisth">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="priester|thyest" source="priester" target="thyest">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="aegisth|pelopia" source="aegisth" target="pelopia">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="aegisth|thyest" source="aegisth" target="thyest">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="pelopia|thyest" source="pelopia" target="thyest">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

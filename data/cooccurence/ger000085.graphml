@@ -1,0 +1,2234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="danton">
+            <data key="label">Danton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4412</data>
+        </node>
+        <node id="julie">
+            <data key="label">Julie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">279</data>
+        </node>
+        <node id="eine_dame">
+            <data key="label">Eine Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="herault">
+            <data key="label">Hérault</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">613</data>
+        </node>
+        <node id="camille">
+            <data key="label">Camille</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1470</data>
+        </node>
+        <node id="philippeau">
+            <data key="label">Philippeau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">261</data>
+        </node>
+        <node id="simon">
+            <data key="label">Simon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">308</data>
+        </node>
+        <node id="simons_weib">
+            <data key="label">Simons Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">179</data>
+        </node>
+        <node id="leute">
+            <data key="label">Leute</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="erster_buerger_1-2">
+            <data key="label">Erster Bürger (I/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">181</data>
+        </node>
+        <node id="zweiter_buerger_1-2">
+            <data key="label">Zweiter Bürger (I/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <node id="dritter_buerger_1-2">
+            <data key="label">Dritter Bürger (I/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">179</data>
+        </node>
+        <node id="alle_1-2">
+            <data key="label">Alle (I/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="einige_stimmen_1-2a">
+            <data key="label">Einige Stimmen (I/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="junger_mensch">
+            <data key="label">Junger Mensch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="einige_1-2">
+            <data key="label">Einige (I/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="die_umstehenden">
+            <data key="label">Die Umstehenden</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="einige_stimmen_1-2b">
+            <data key="label">Einige Stimmen (I/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="robespierre">
+            <data key="label">Robespierre</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2253</data>
+        </node>
+        <node id="einige_stimmen_1-2c">
+            <data key="label">Einige Stimmen (I/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="ein_weib_1-2">
+            <data key="label">Ein Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="viele_stimmen_1-2">
+            <data key="label">Viele Stimmen (I/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="ein_lyoner">
+            <data key="label">Ein Lyoner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">173</data>
+        </node>
+        <node id="ein_jakobiner">
+            <data key="label">Ein Jakobiner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="legendre">
+            <data key="label">Legendre</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">270</data>
+        </node>
+        <node id="einige_stimmen_1-3">
+            <data key="label">Einige Stimmen (I/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="collot_d_herbois">
+            <data key="label">Collot d'Herbois</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">210</data>
+        </node>
+        <node id="die_jakobiner">
+            <data key="label">Die Jakobiner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="viele_stimmen_1-3">
+            <data key="label">Viele Stimmen (I/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="praesident_jakobinerklub">
+            <data key="label">Präsident (Jakobinerklub)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="lacroix">
+            <data key="label">Lacroix</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1078</data>
+        </node>
+        <node id="marion">
+            <data key="label">Marion</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">585</data>
+        </node>
+        <node id="rosalie">
+            <data key="label">Rosalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="adelaide">
+            <data key="label">Adelaide</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="paris">
+            <data key="label">Paris</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">53</data>
+        </node>
+        <node id="st_just">
+            <data key="label">St. Just</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">988</data>
+        </node>
+        <node id="ein_buerger_2-2">
+            <data key="label">Ein Bürger (II/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">90</data>
+        </node>
+        <node id="baenkelsaenger">
+            <data key="label">Bänkelsänger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="ein_bettler">
+            <data key="label">Ein Bettler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">84</data>
+        </node>
+        <node id="erster_herr">
+            <data key="label">Erster Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <node id="zweiter_herr">
+            <data key="label">Zweiter Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">126</data>
+        </node>
+        <node id="soldat">
+            <data key="label">Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="junger_herr">
+            <data key="label">Junger Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">68</data>
+        </node>
+        <node id="madame">
+            <data key="label">Madame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="eugenie">
+            <data key="label">Eugenie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="lucile">
+            <data key="label">Lucile</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">532</data>
+        </node>
+        <node id="erster_buerger_2-6">
+            <data key="label">Erster Bürger (II/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="zweiter_buerger_2-6">
+            <data key="label">Zweiter Bürger (II/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="die_andern">
+            <data key="label">Die Andern</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="ein_deputierter_a">
+            <data key="label">Ein Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="ein_anderer_deputierter_a">
+            <data key="label">Ein anderer Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="ein_anderer_deputierter_b">
+            <data key="label">Ein anderer Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="praesident_nationalkonvent">
+            <data key="label">Präsident (Nationalkonvent)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="einige_stimmen_2-7">
+            <data key="label">Einige Stimmen (II/7)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="ein_deputierter_b">
+            <data key="label">Ein Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="ein_anderer_deputierter_c">
+            <data key="label">Ein anderer Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="ein_anderer_deputierter_d">
+            <data key="label">Ein anderer Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="ein_anderer_deputierter_e">
+            <data key="label">Ein anderer Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="ein_anderer_deputierter_f">
+            <data key="label">Ein anderer Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="ein_anderer_deputierter_g">
+            <data key="label">Ein anderer Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="chaumette">
+            <data key="label">Chaumette</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">54</data>
+        </node>
+        <node id="payne">
+            <data key="label">Payne</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">703</data>
+        </node>
+        <node id="mercier">
+            <data key="label">Mercier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">188</data>
+        </node>
+        <node id="ein_gefangener">
+            <data key="label">Ein Gefangener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="ein_andrer_gefangener_a">
+            <data key="label">Ein andrer Gefangener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="ein_andrer_gefangener_b">
+            <data key="label">Ein andrer Gefangener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="einige_stimmen_3-1">
+            <data key="label">Einige Stimmen (III/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="fouquier">
+            <data key="label">Fouquier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">184</data>
+        </node>
+        <node id="herman">
+            <data key="label">Herman</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">234</data>
+        </node>
+        <node id="der_gefangne_3-3">
+            <data key="label">Der Gefangne (III/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="dillon">
+            <data key="label">Dillon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">210</data>
+        </node>
+        <node id="laflotte">
+            <data key="label">Laflotte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">302</data>
+        </node>
+        <node id="waerter">
+            <data key="label">Wärter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <node id="barere">
+            <data key="label">Barère</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">470</data>
+        </node>
+        <node id="billaud">
+            <data key="label">Billaud</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">107</data>
+        </node>
+        <node id="schliesser">
+            <data key="label">Ein Schließer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="amar">
+            <data key="label">Amar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="vouland">
+            <data key="label">Vouland</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="viele_stimmen_3-9a">
+            <data key="label">Viele Stimmen (III/9)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="viele_stimmen_3-9b">
+            <data key="label">Viele Stimmen (III/9)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="einige_stimmen_3-10">
+            <data key="label">Einige Stimmen (III/10)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="erster_buerger_3-10">
+            <data key="label">Erster Bürger (III/10)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">44</data>
+        </node>
+        <node id="einige_weiber">
+            <data key="label">Einige Weiber</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="zweiter_buerger_3-10">
+            <data key="label">Zweiter Bürger (III/10)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">126</data>
+        </node>
+        <node id="alle_3-10">
+            <data key="label">Alle (III/10)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="buerger_4-1">
+            <data key="label">Bürger (IV/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">37</data>
+        </node>
+        <node id="dumas">
+            <data key="label">Dumas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">91</data>
+        </node>
+        <node id="erster_fuhrmann">
+            <data key="label">Erster Fuhrmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">56</data>
+        </node>
+        <node id="zweiter_fuhrmann">
+            <data key="label">Zweiter Fuhrmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">122</data>
+        </node>
+        <node id="ein_weib_4-4">
+            <data key="label">Ein Weib (IV/4)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="eine_stimme_4-5">
+            <data key="label">Eine Stimme (IV/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="ein_weib_mit_kindern">
+            <data key="label">Ein Weib mit Kindern</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="ein_weib_4-7a">
+            <data key="label">Ein Weib (IV/7)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="eine_andere">
+            <data key="label">Eine Andere</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="ein_weib_4-7b">
+            <data key="label">Ein Weib (IV/7)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="einige_stimmen_4-7">
+            <data key="label">Einige Stimmen (IV/7)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="fabre">
+            <data key="label">Fabre</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="erstes_weib">
+            <data key="label">Erstes Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="zweites_weib">
+            <data key="label">Zweites Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="drittes_weib">
+            <data key="label">Drittes Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="erster_henker">
+            <data key="label">Erster Henker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="zweiter_henker">
+            <data key="label">Zweiter Henker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="ein_buerger_4-9">
+            <data key="label">Ein Bürger (IV/9)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <edge id="danton|julie" source="danton" target="julie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="danton|eine_dame" source="danton" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|herault" source="danton" target="herault">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="danton|camille" source="danton" target="camille">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="danton|philippeau" source="danton" target="philippeau">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="danton|marion" source="danton" target="marion">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|lacroix" source="danton" target="lacroix">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="danton|rosalie" source="danton" target="rosalie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="danton|adelaide" source="danton" target="adelaide">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|paris" source="danton" target="paris">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="danton|robespierre" source="danton" target="robespierre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|st_just" source="danton" target="st_just">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|ein_buerger_2-2" source="danton" target="ein_buerger_2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|simon" source="danton" target="simon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|baenkelsaenger" source="danton" target="baenkelsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|ein_bettler" source="danton" target="ein_bettler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|erster_herr" source="danton" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|zweiter_herr" source="danton" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|soldat" source="danton" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|junger_herr" source="danton" target="junger_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|madame" source="danton" target="madame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|eugenie" source="danton" target="eugenie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|lucile" source="danton" target="lucile">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|chaumette" source="danton" target="chaumette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|payne" source="danton" target="payne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|mercier" source="danton" target="mercier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="danton|ein_gefangener" source="danton" target="ein_gefangener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|ein_andrer_gefangener_a" source="danton" target="ein_andrer_gefangener_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|ein_andrer_gefangener_b" source="danton" target="ein_andrer_gefangener_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|einige_stimmen_3-1" source="danton" target="einige_stimmen_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|der_gefangne_3-3" source="danton" target="der_gefangne_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|herman" source="danton" target="herman">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|fouquier" source="danton" target="fouquier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|viele_stimmen_3-9a" source="danton" target="viele_stimmen_3-9a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|viele_stimmen_3-9b" source="danton" target="viele_stimmen_3-9b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|eine_stimme_4-5" source="danton" target="eine_stimme_4-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|schliesser" source="danton" target="schliesser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|ein_weib_mit_kindern" source="danton" target="ein_weib_mit_kindern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|ein_weib_4-7a" source="danton" target="ein_weib_4-7a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|eine_andere" source="danton" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|ein_weib_4-7b" source="danton" target="ein_weib_4-7b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|einige_stimmen_4-7" source="danton" target="einige_stimmen_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="danton|fabre" source="danton" target="fabre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|eine_dame" source="julie" target="eine_dame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|herault" source="julie" target="herault">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|camille" source="julie" target="camille">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|philippeau" source="julie" target="philippeau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_dame|herault" source="eine_dame" target="herault">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_dame|camille" source="eine_dame" target="camille">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_dame|philippeau" source="eine_dame" target="philippeau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|camille" source="herault" target="camille">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="herault|philippeau" source="herault" target="philippeau">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="herault|chaumette" source="herault" target="chaumette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|payne" source="herault" target="payne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|mercier" source="herault" target="mercier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|lacroix" source="herault" target="lacroix">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="herault|ein_gefangener" source="herault" target="ein_gefangener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|ein_andrer_gefangener_a" source="herault" target="ein_andrer_gefangener_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|ein_andrer_gefangener_b" source="herault" target="ein_andrer_gefangener_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|einige_stimmen_3-1" source="herault" target="einige_stimmen_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|eine_stimme_4-5" source="herault" target="eine_stimme_4-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|schliesser" source="herault" target="schliesser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|ein_weib_mit_kindern" source="herault" target="ein_weib_mit_kindern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|ein_weib_4-7a" source="herault" target="ein_weib_4-7a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|eine_andere" source="herault" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|ein_weib_4-7b" source="herault" target="ein_weib_4-7b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|einige_stimmen_4-7" source="herault" target="einige_stimmen_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herault|fabre" source="herault" target="fabre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|philippeau" source="camille" target="philippeau">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="camille|lacroix" source="camille" target="lacroix">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="camille|paris" source="camille" target="paris">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|lucile" source="camille" target="lucile">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="camille|chaumette" source="camille" target="chaumette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|payne" source="camille" target="payne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|mercier" source="camille" target="mercier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|ein_gefangener" source="camille" target="ein_gefangener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|ein_andrer_gefangener_a" source="camille" target="ein_andrer_gefangener_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|ein_andrer_gefangener_b" source="camille" target="ein_andrer_gefangener_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|einige_stimmen_3-1" source="camille" target="einige_stimmen_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|fouquier" source="camille" target="fouquier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|viele_stimmen_3-9a" source="camille" target="viele_stimmen_3-9a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|viele_stimmen_3-9b" source="camille" target="viele_stimmen_3-9b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|schliesser" source="camille" target="schliesser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="camille|erster_fuhrmann" source="camille" target="erster_fuhrmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|zweiter_fuhrmann" source="camille" target="zweiter_fuhrmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|ein_weib_4-4" source="camille" target="ein_weib_4-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|eine_stimme_4-5" source="camille" target="eine_stimme_4-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|ein_weib_mit_kindern" source="camille" target="ein_weib_mit_kindern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|ein_weib_4-7a" source="camille" target="ein_weib_4-7a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|eine_andere" source="camille" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|ein_weib_4-7b" source="camille" target="ein_weib_4-7b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|einige_stimmen_4-7" source="camille" target="einige_stimmen_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="camille|fabre" source="camille" target="fabre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|lacroix" source="philippeau" target="lacroix">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="philippeau|paris" source="philippeau" target="paris">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|chaumette" source="philippeau" target="chaumette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|payne" source="philippeau" target="payne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|mercier" source="philippeau" target="mercier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|ein_gefangener" source="philippeau" target="ein_gefangener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|ein_andrer_gefangener_a" source="philippeau" target="ein_andrer_gefangener_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|ein_andrer_gefangener_b" source="philippeau" target="ein_andrer_gefangener_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|einige_stimmen_3-1" source="philippeau" target="einige_stimmen_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|eine_stimme_4-5" source="philippeau" target="eine_stimme_4-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|schliesser" source="philippeau" target="schliesser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|ein_weib_mit_kindern" source="philippeau" target="ein_weib_mit_kindern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|ein_weib_4-7a" source="philippeau" target="ein_weib_4-7a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|eine_andere" source="philippeau" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|ein_weib_4-7b" source="philippeau" target="ein_weib_4-7b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|einige_stimmen_4-7" source="philippeau" target="einige_stimmen_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philippeau|fabre" source="philippeau" target="fabre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|simons_weib" source="simon" target="simons_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|leute" source="simon" target="leute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|erster_buerger_1-2" source="simon" target="erster_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|zweiter_buerger_1-2" source="simon" target="zweiter_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|dritter_buerger_1-2" source="simon" target="dritter_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|alle_1-2" source="simon" target="alle_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|einige_stimmen_1-2a" source="simon" target="einige_stimmen_1-2a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|junger_mensch" source="simon" target="junger_mensch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|einige_1-2" source="simon" target="einige_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|die_umstehenden" source="simon" target="die_umstehenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|einige_stimmen_1-2b" source="simon" target="einige_stimmen_1-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|robespierre" source="simon" target="robespierre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|einige_stimmen_1-2c" source="simon" target="einige_stimmen_1-2c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|ein_weib_1-2" source="simon" target="ein_weib_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|viele_stimmen_1-2" source="simon" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|ein_buerger_2-2" source="simon" target="ein_buerger_2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|baenkelsaenger" source="simon" target="baenkelsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|ein_bettler" source="simon" target="ein_bettler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|erster_herr" source="simon" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|zweiter_herr" source="simon" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|rosalie" source="simon" target="rosalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|soldat" source="simon" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|junger_herr" source="simon" target="junger_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|madame" source="simon" target="madame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|eugenie" source="simon" target="eugenie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|erster_buerger_2-6" source="simon" target="erster_buerger_2-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|zweiter_buerger_2-6" source="simon" target="zweiter_buerger_2-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|die_andern" source="simon" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simons_weib|leute" source="simons_weib" target="leute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simons_weib|erster_buerger_1-2" source="simons_weib" target="erster_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simons_weib|zweiter_buerger_1-2" source="simons_weib" target="zweiter_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simons_weib|dritter_buerger_1-2" source="simons_weib" target="dritter_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simons_weib|alle_1-2" source="simons_weib" target="alle_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simons_weib|einige_stimmen_1-2a" source="simons_weib" target="einige_stimmen_1-2a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simons_weib|junger_mensch" source="simons_weib" target="junger_mensch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simons_weib|einige_1-2" source="simons_weib" target="einige_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simons_weib|die_umstehenden" source="simons_weib" target="die_umstehenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simons_weib|einige_stimmen_1-2b" source="simons_weib" target="einige_stimmen_1-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simons_weib|robespierre" source="simons_weib" target="robespierre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simons_weib|einige_stimmen_1-2c" source="simons_weib" target="einige_stimmen_1-2c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simons_weib|ein_weib_1-2" source="simons_weib" target="ein_weib_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simons_weib|viele_stimmen_1-2" source="simons_weib" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leute|erster_buerger_1-2" source="leute" target="erster_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leute|zweiter_buerger_1-2" source="leute" target="zweiter_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leute|dritter_buerger_1-2" source="leute" target="dritter_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leute|alle_1-2" source="leute" target="alle_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leute|einige_stimmen_1-2a" source="leute" target="einige_stimmen_1-2a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leute|junger_mensch" source="leute" target="junger_mensch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leute|einige_1-2" source="leute" target="einige_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leute|die_umstehenden" source="leute" target="die_umstehenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leute|einige_stimmen_1-2b" source="leute" target="einige_stimmen_1-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leute|robespierre" source="leute" target="robespierre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leute|einige_stimmen_1-2c" source="leute" target="einige_stimmen_1-2c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leute|ein_weib_1-2" source="leute" target="ein_weib_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leute|viele_stimmen_1-2" source="leute" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_1-2|zweiter_buerger_1-2" source="erster_buerger_1-2" target="zweiter_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_1-2|dritter_buerger_1-2" source="erster_buerger_1-2" target="dritter_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_1-2|alle_1-2" source="erster_buerger_1-2" target="alle_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_1-2|einige_stimmen_1-2a" source="erster_buerger_1-2" target="einige_stimmen_1-2a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_1-2|junger_mensch" source="erster_buerger_1-2" target="junger_mensch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_1-2|einige_1-2" source="erster_buerger_1-2" target="einige_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_1-2|die_umstehenden" source="erster_buerger_1-2" target="die_umstehenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_1-2|einige_stimmen_1-2b" source="erster_buerger_1-2" target="einige_stimmen_1-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_1-2|robespierre" source="erster_buerger_1-2" target="robespierre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_1-2|einige_stimmen_1-2c" source="erster_buerger_1-2" target="einige_stimmen_1-2c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_1-2|ein_weib_1-2" source="erster_buerger_1-2" target="ein_weib_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_1-2|viele_stimmen_1-2" source="erster_buerger_1-2" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger_1-2|dritter_buerger_1-2" source="zweiter_buerger_1-2" target="dritter_buerger_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger_1-2|alle_1-2" source="zweiter_buerger_1-2" target="alle_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger_1-2|einige_stimmen_1-2a" source="zweiter_buerger_1-2" target="einige_stimmen_1-2a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger_1-2|junger_mensch" source="zweiter_buerger_1-2" target="junger_mensch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger_1-2|einige_1-2" source="zweiter_buerger_1-2" target="einige_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger_1-2|die_umstehenden" source="zweiter_buerger_1-2" target="die_umstehenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger_1-2|einige_stimmen_1-2b" source="zweiter_buerger_1-2" target="einige_stimmen_1-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger_1-2|robespierre" source="zweiter_buerger_1-2" target="robespierre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger_1-2|einige_stimmen_1-2c" source="zweiter_buerger_1-2" target="einige_stimmen_1-2c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger_1-2|ein_weib_1-2" source="zweiter_buerger_1-2" target="ein_weib_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger_1-2|viele_stimmen_1-2" source="zweiter_buerger_1-2" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_buerger_1-2|alle_1-2" source="dritter_buerger_1-2" target="alle_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_buerger_1-2|einige_stimmen_1-2a" source="dritter_buerger_1-2" target="einige_stimmen_1-2a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_buerger_1-2|junger_mensch" source="dritter_buerger_1-2" target="junger_mensch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_buerger_1-2|einige_1-2" source="dritter_buerger_1-2" target="einige_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_buerger_1-2|die_umstehenden" source="dritter_buerger_1-2" target="die_umstehenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_buerger_1-2|einige_stimmen_1-2b" source="dritter_buerger_1-2" target="einige_stimmen_1-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_buerger_1-2|robespierre" source="dritter_buerger_1-2" target="robespierre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_buerger_1-2|einige_stimmen_1-2c" source="dritter_buerger_1-2" target="einige_stimmen_1-2c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_buerger_1-2|ein_weib_1-2" source="dritter_buerger_1-2" target="ein_weib_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_buerger_1-2|viele_stimmen_1-2" source="dritter_buerger_1-2" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-2|einige_stimmen_1-2a" source="alle_1-2" target="einige_stimmen_1-2a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-2|junger_mensch" source="alle_1-2" target="junger_mensch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-2|einige_1-2" source="alle_1-2" target="einige_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-2|die_umstehenden" source="alle_1-2" target="die_umstehenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-2|einige_stimmen_1-2b" source="alle_1-2" target="einige_stimmen_1-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-2|robespierre" source="alle_1-2" target="robespierre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-2|einige_stimmen_1-2c" source="alle_1-2" target="einige_stimmen_1-2c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-2|ein_weib_1-2" source="alle_1-2" target="ein_weib_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1-2|viele_stimmen_1-2" source="alle_1-2" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-2a|junger_mensch" source="einige_stimmen_1-2a" target="junger_mensch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-2a|einige_1-2" source="einige_stimmen_1-2a" target="einige_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-2a|die_umstehenden" source="einige_stimmen_1-2a" target="die_umstehenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-2a|einige_stimmen_1-2b" source="einige_stimmen_1-2a" target="einige_stimmen_1-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-2a|robespierre" source="einige_stimmen_1-2a" target="robespierre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-2a|einige_stimmen_1-2c" source="einige_stimmen_1-2a" target="einige_stimmen_1-2c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-2a|ein_weib_1-2" source="einige_stimmen_1-2a" target="ein_weib_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-2a|viele_stimmen_1-2" source="einige_stimmen_1-2a" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="junger_mensch|einige_1-2" source="junger_mensch" target="einige_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="junger_mensch|die_umstehenden" source="junger_mensch" target="die_umstehenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="junger_mensch|einige_stimmen_1-2b" source="junger_mensch" target="einige_stimmen_1-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="junger_mensch|robespierre" source="junger_mensch" target="robespierre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="junger_mensch|einige_stimmen_1-2c" source="junger_mensch" target="einige_stimmen_1-2c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="junger_mensch|ein_weib_1-2" source="junger_mensch" target="ein_weib_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="junger_mensch|viele_stimmen_1-2" source="junger_mensch" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_1-2|die_umstehenden" source="einige_1-2" target="die_umstehenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_1-2|einige_stimmen_1-2b" source="einige_1-2" target="einige_stimmen_1-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_1-2|robespierre" source="einige_1-2" target="robespierre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_1-2|einige_stimmen_1-2c" source="einige_1-2" target="einige_stimmen_1-2c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_1-2|ein_weib_1-2" source="einige_1-2" target="ein_weib_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_1-2|viele_stimmen_1-2" source="einige_1-2" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_umstehenden|einige_stimmen_1-2b" source="die_umstehenden" target="einige_stimmen_1-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_umstehenden|robespierre" source="die_umstehenden" target="robespierre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_umstehenden|einige_stimmen_1-2c" source="die_umstehenden" target="einige_stimmen_1-2c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_umstehenden|ein_weib_1-2" source="die_umstehenden" target="ein_weib_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_umstehenden|viele_stimmen_1-2" source="die_umstehenden" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-2b|robespierre" source="einige_stimmen_1-2b" target="robespierre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-2b|einige_stimmen_1-2c" source="einige_stimmen_1-2b" target="einige_stimmen_1-2c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-2b|ein_weib_1-2" source="einige_stimmen_1-2b" target="ein_weib_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-2b|viele_stimmen_1-2" source="einige_stimmen_1-2b" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|einige_stimmen_1-2c" source="robespierre" target="einige_stimmen_1-2c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|ein_weib_1-2" source="robespierre" target="ein_weib_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|viele_stimmen_1-2" source="robespierre" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|ein_lyoner" source="robespierre" target="ein_lyoner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|ein_jakobiner" source="robespierre" target="ein_jakobiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|legendre" source="robespierre" target="legendre">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robespierre|einige_stimmen_1-3" source="robespierre" target="einige_stimmen_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|collot_d_herbois" source="robespierre" target="collot_d_herbois">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|die_jakobiner" source="robespierre" target="die_jakobiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|viele_stimmen_1-3" source="robespierre" target="viele_stimmen_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|praesident_jakobinerklub" source="robespierre" target="praesident_jakobinerklub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|st_just" source="robespierre" target="st_just">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robespierre|ein_deputierter_a" source="robespierre" target="ein_deputierter_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|ein_anderer_deputierter_a" source="robespierre" target="ein_anderer_deputierter_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|ein_anderer_deputierter_b" source="robespierre" target="ein_anderer_deputierter_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|praesident_nationalkonvent" source="robespierre" target="praesident_nationalkonvent">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|einige_stimmen_2-7" source="robespierre" target="einige_stimmen_2-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|ein_deputierter_b" source="robespierre" target="ein_deputierter_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|ein_anderer_deputierter_c" source="robespierre" target="ein_anderer_deputierter_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|ein_anderer_deputierter_d" source="robespierre" target="ein_anderer_deputierter_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|ein_anderer_deputierter_e" source="robespierre" target="ein_anderer_deputierter_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|ein_anderer_deputierter_f" source="robespierre" target="ein_anderer_deputierter_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robespierre|ein_anderer_deputierter_g" source="robespierre" target="ein_anderer_deputierter_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-2c|ein_weib_1-2" source="einige_stimmen_1-2c" target="ein_weib_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-2c|viele_stimmen_1-2" source="einige_stimmen_1-2c" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_weib_1-2|viele_stimmen_1-2" source="ein_weib_1-2" target="viele_stimmen_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_lyoner|ein_jakobiner" source="ein_lyoner" target="ein_jakobiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_lyoner|legendre" source="ein_lyoner" target="legendre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_lyoner|einige_stimmen_1-3" source="ein_lyoner" target="einige_stimmen_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_lyoner|collot_d_herbois" source="ein_lyoner" target="collot_d_herbois">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_lyoner|die_jakobiner" source="ein_lyoner" target="die_jakobiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_lyoner|viele_stimmen_1-3" source="ein_lyoner" target="viele_stimmen_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_lyoner|praesident_jakobinerklub" source="ein_lyoner" target="praesident_jakobinerklub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_jakobiner|legendre" source="ein_jakobiner" target="legendre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_jakobiner|einige_stimmen_1-3" source="ein_jakobiner" target="einige_stimmen_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_jakobiner|collot_d_herbois" source="ein_jakobiner" target="collot_d_herbois">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_jakobiner|die_jakobiner" source="ein_jakobiner" target="die_jakobiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_jakobiner|viele_stimmen_1-3" source="ein_jakobiner" target="viele_stimmen_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_jakobiner|praesident_jakobinerklub" source="ein_jakobiner" target="praesident_jakobinerklub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|einige_stimmen_1-3" source="legendre" target="einige_stimmen_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|collot_d_herbois" source="legendre" target="collot_d_herbois">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|die_jakobiner" source="legendre" target="die_jakobiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|viele_stimmen_1-3" source="legendre" target="viele_stimmen_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|praesident_jakobinerklub" source="legendre" target="praesident_jakobinerklub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|lacroix" source="legendre" target="lacroix">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|ein_deputierter_a" source="legendre" target="ein_deputierter_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|ein_anderer_deputierter_a" source="legendre" target="ein_anderer_deputierter_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|ein_anderer_deputierter_b" source="legendre" target="ein_anderer_deputierter_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|praesident_nationalkonvent" source="legendre" target="praesident_nationalkonvent">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|einige_stimmen_2-7" source="legendre" target="einige_stimmen_2-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|ein_deputierter_b" source="legendre" target="ein_deputierter_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|ein_anderer_deputierter_c" source="legendre" target="ein_anderer_deputierter_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|ein_anderer_deputierter_d" source="legendre" target="ein_anderer_deputierter_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|ein_anderer_deputierter_e" source="legendre" target="ein_anderer_deputierter_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|ein_anderer_deputierter_f" source="legendre" target="ein_anderer_deputierter_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|ein_anderer_deputierter_g" source="legendre" target="ein_anderer_deputierter_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="legendre|st_just" source="legendre" target="st_just">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-3|collot_d_herbois" source="einige_stimmen_1-3" target="collot_d_herbois">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-3|die_jakobiner" source="einige_stimmen_1-3" target="die_jakobiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-3|viele_stimmen_1-3" source="einige_stimmen_1-3" target="viele_stimmen_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_1-3|praesident_jakobinerklub" source="einige_stimmen_1-3" target="praesident_jakobinerklub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="collot_d_herbois|die_jakobiner" source="collot_d_herbois" target="die_jakobiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="collot_d_herbois|viele_stimmen_1-3" source="collot_d_herbois" target="viele_stimmen_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="collot_d_herbois|praesident_jakobinerklub" source="collot_d_herbois" target="praesident_jakobinerklub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="collot_d_herbois|barere" source="collot_d_herbois" target="barere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="collot_d_herbois|st_just" source="collot_d_herbois" target="st_just">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="collot_d_herbois|billaud" source="collot_d_herbois" target="billaud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="collot_d_herbois|schliesser" source="collot_d_herbois" target="schliesser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_jakobiner|viele_stimmen_1-3" source="die_jakobiner" target="viele_stimmen_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_jakobiner|praesident_jakobinerklub" source="die_jakobiner" target="praesident_jakobinerklub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_stimmen_1-3|praesident_jakobinerklub" source="viele_stimmen_1-3" target="praesident_jakobinerklub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|marion" source="lacroix" target="marion">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|rosalie" source="lacroix" target="rosalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|adelaide" source="lacroix" target="adelaide">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|paris" source="lacroix" target="paris">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lacroix|chaumette" source="lacroix" target="chaumette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|payne" source="lacroix" target="payne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|mercier" source="lacroix" target="mercier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lacroix|ein_gefangener" source="lacroix" target="ein_gefangener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|ein_andrer_gefangener_a" source="lacroix" target="ein_andrer_gefangener_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|ein_andrer_gefangener_b" source="lacroix" target="ein_andrer_gefangener_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|einige_stimmen_3-1" source="lacroix" target="einige_stimmen_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|der_gefangne_3-3" source="lacroix" target="der_gefangne_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|eine_stimme_4-5" source="lacroix" target="eine_stimme_4-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|schliesser" source="lacroix" target="schliesser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|ein_weib_mit_kindern" source="lacroix" target="ein_weib_mit_kindern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|ein_weib_4-7a" source="lacroix" target="ein_weib_4-7a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|eine_andere" source="lacroix" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|ein_weib_4-7b" source="lacroix" target="ein_weib_4-7b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|einige_stimmen_4-7" source="lacroix" target="einige_stimmen_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lacroix|fabre" source="lacroix" target="fabre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marion|rosalie" source="marion" target="rosalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marion|adelaide" source="marion" target="adelaide">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marion|paris" source="marion" target="paris">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|adelaide" source="rosalie" target="adelaide">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|paris" source="rosalie" target="paris">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|ein_buerger_2-2" source="rosalie" target="ein_buerger_2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|baenkelsaenger" source="rosalie" target="baenkelsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|ein_bettler" source="rosalie" target="ein_bettler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|erster_herr" source="rosalie" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|zweiter_herr" source="rosalie" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|soldat" source="rosalie" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|junger_herr" source="rosalie" target="junger_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|madame" source="rosalie" target="madame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|eugenie" source="rosalie" target="eugenie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelaide|paris" source="adelaide" target="paris">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="st_just|ein_deputierter_a" source="st_just" target="ein_deputierter_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="st_just|ein_anderer_deputierter_a" source="st_just" target="ein_anderer_deputierter_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="st_just|ein_anderer_deputierter_b" source="st_just" target="ein_anderer_deputierter_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="st_just|praesident_nationalkonvent" source="st_just" target="praesident_nationalkonvent">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="st_just|einige_stimmen_2-7" source="st_just" target="einige_stimmen_2-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="st_just|ein_deputierter_b" source="st_just" target="ein_deputierter_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="st_just|ein_anderer_deputierter_c" source="st_just" target="ein_anderer_deputierter_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="st_just|ein_anderer_deputierter_d" source="st_just" target="ein_anderer_deputierter_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="st_just|ein_anderer_deputierter_e" source="st_just" target="ein_anderer_deputierter_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="st_just|ein_anderer_deputierter_f" source="st_just" target="ein_anderer_deputierter_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="st_just|ein_anderer_deputierter_g" source="st_just" target="ein_anderer_deputierter_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="st_just|barere" source="st_just" target="barere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="st_just|billaud" source="st_just" target="billaud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="st_just|schliesser" source="st_just" target="schliesser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_2-2|baenkelsaenger" source="ein_buerger_2-2" target="baenkelsaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_2-2|ein_bettler" source="ein_buerger_2-2" target="ein_bettler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_2-2|erster_herr" source="ein_buerger_2-2" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_2-2|zweiter_herr" source="ein_buerger_2-2" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_2-2|soldat" source="ein_buerger_2-2" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_2-2|junger_herr" source="ein_buerger_2-2" target="junger_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_2-2|madame" source="ein_buerger_2-2" target="madame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger_2-2|eugenie" source="ein_buerger_2-2" target="eugenie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baenkelsaenger|ein_bettler" source="baenkelsaenger" target="ein_bettler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baenkelsaenger|erster_herr" source="baenkelsaenger" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baenkelsaenger|zweiter_herr" source="baenkelsaenger" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baenkelsaenger|soldat" source="baenkelsaenger" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baenkelsaenger|junger_herr" source="baenkelsaenger" target="junger_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baenkelsaenger|madame" source="baenkelsaenger" target="madame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baenkelsaenger|eugenie" source="baenkelsaenger" target="eugenie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bettler|erster_herr" source="ein_bettler" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bettler|zweiter_herr" source="ein_bettler" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bettler|soldat" source="ein_bettler" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bettler|junger_herr" source="ein_bettler" target="junger_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bettler|madame" source="ein_bettler" target="madame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bettler|eugenie" source="ein_bettler" target="eugenie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|zweiter_herr" source="erster_herr" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|soldat" source="erster_herr" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|junger_herr" source="erster_herr" target="junger_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|madame" source="erster_herr" target="madame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|eugenie" source="erster_herr" target="eugenie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_herr|soldat" source="zweiter_herr" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_herr|junger_herr" source="zweiter_herr" target="junger_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_herr|madame" source="zweiter_herr" target="madame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_herr|eugenie" source="zweiter_herr" target="eugenie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soldat|junger_herr" source="soldat" target="junger_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soldat|madame" source="soldat" target="madame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soldat|eugenie" source="soldat" target="eugenie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="junger_herr|madame" source="junger_herr" target="madame">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="junger_herr|eugenie" source="junger_herr" target="eugenie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madame|eugenie" source="madame" target="eugenie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucile|schliesser" source="lucile" target="schliesser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucile|erster_fuhrmann" source="lucile" target="erster_fuhrmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucile|zweiter_fuhrmann" source="lucile" target="zweiter_fuhrmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucile|ein_weib_4-4" source="lucile" target="ein_weib_4-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucile|erstes_weib" source="lucile" target="erstes_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucile|zweites_weib" source="lucile" target="zweites_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucile|drittes_weib" source="lucile" target="drittes_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucile|erster_henker" source="lucile" target="erster_henker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucile|zweiter_henker" source="lucile" target="zweiter_henker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucile|ein_buerger_4-9" source="lucile" target="ein_buerger_4-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_2-6|zweiter_buerger_2-6" source="erster_buerger_2-6" target="zweiter_buerger_2-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_2-6|die_andern" source="erster_buerger_2-6" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger_2-6|die_andern" source="zweiter_buerger_2-6" target="die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_a|ein_anderer_deputierter_a" source="ein_deputierter_a" target="ein_anderer_deputierter_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_a|ein_anderer_deputierter_b" source="ein_deputierter_a" target="ein_anderer_deputierter_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_a|praesident_nationalkonvent" source="ein_deputierter_a" target="praesident_nationalkonvent">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_a|einige_stimmen_2-7" source="ein_deputierter_a" target="einige_stimmen_2-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_a|ein_deputierter_b" source="ein_deputierter_a" target="ein_deputierter_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_a|ein_anderer_deputierter_c" source="ein_deputierter_a" target="ein_anderer_deputierter_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_a|ein_anderer_deputierter_d" source="ein_deputierter_a" target="ein_anderer_deputierter_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_a|ein_anderer_deputierter_e" source="ein_deputierter_a" target="ein_anderer_deputierter_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_a|ein_anderer_deputierter_f" source="ein_deputierter_a" target="ein_anderer_deputierter_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_a|ein_anderer_deputierter_g" source="ein_deputierter_a" target="ein_anderer_deputierter_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_a|ein_anderer_deputierter_b" source="ein_anderer_deputierter_a" target="ein_anderer_deputierter_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_a|praesident_nationalkonvent" source="ein_anderer_deputierter_a" target="praesident_nationalkonvent">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_a|einige_stimmen_2-7" source="ein_anderer_deputierter_a" target="einige_stimmen_2-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_a|ein_deputierter_b" source="ein_anderer_deputierter_a" target="ein_deputierter_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_a|ein_anderer_deputierter_c" source="ein_anderer_deputierter_a" target="ein_anderer_deputierter_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_a|ein_anderer_deputierter_d" source="ein_anderer_deputierter_a" target="ein_anderer_deputierter_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_a|ein_anderer_deputierter_e" source="ein_anderer_deputierter_a" target="ein_anderer_deputierter_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_a|ein_anderer_deputierter_f" source="ein_anderer_deputierter_a" target="ein_anderer_deputierter_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_a|ein_anderer_deputierter_g" source="ein_anderer_deputierter_a" target="ein_anderer_deputierter_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_b|praesident_nationalkonvent" source="ein_anderer_deputierter_b" target="praesident_nationalkonvent">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_b|einige_stimmen_2-7" source="ein_anderer_deputierter_b" target="einige_stimmen_2-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_b|ein_deputierter_b" source="ein_anderer_deputierter_b" target="ein_deputierter_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_b|ein_anderer_deputierter_c" source="ein_anderer_deputierter_b" target="ein_anderer_deputierter_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_b|ein_anderer_deputierter_d" source="ein_anderer_deputierter_b" target="ein_anderer_deputierter_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_b|ein_anderer_deputierter_e" source="ein_anderer_deputierter_b" target="ein_anderer_deputierter_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_b|ein_anderer_deputierter_f" source="ein_anderer_deputierter_b" target="ein_anderer_deputierter_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_b|ein_anderer_deputierter_g" source="ein_anderer_deputierter_b" target="ein_anderer_deputierter_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident_nationalkonvent|einige_stimmen_2-7" source="praesident_nationalkonvent" target="einige_stimmen_2-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident_nationalkonvent|ein_deputierter_b" source="praesident_nationalkonvent" target="ein_deputierter_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident_nationalkonvent|ein_anderer_deputierter_c" source="praesident_nationalkonvent" target="ein_anderer_deputierter_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident_nationalkonvent|ein_anderer_deputierter_d" source="praesident_nationalkonvent" target="ein_anderer_deputierter_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident_nationalkonvent|ein_anderer_deputierter_e" source="praesident_nationalkonvent" target="ein_anderer_deputierter_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident_nationalkonvent|ein_anderer_deputierter_f" source="praesident_nationalkonvent" target="ein_anderer_deputierter_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident_nationalkonvent|ein_anderer_deputierter_g" source="praesident_nationalkonvent" target="ein_anderer_deputierter_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_2-7|ein_deputierter_b" source="einige_stimmen_2-7" target="ein_deputierter_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_2-7|ein_anderer_deputierter_c" source="einige_stimmen_2-7" target="ein_anderer_deputierter_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_2-7|ein_anderer_deputierter_d" source="einige_stimmen_2-7" target="ein_anderer_deputierter_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_2-7|ein_anderer_deputierter_e" source="einige_stimmen_2-7" target="ein_anderer_deputierter_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_2-7|ein_anderer_deputierter_f" source="einige_stimmen_2-7" target="ein_anderer_deputierter_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_2-7|ein_anderer_deputierter_g" source="einige_stimmen_2-7" target="ein_anderer_deputierter_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_b|ein_anderer_deputierter_c" source="ein_deputierter_b" target="ein_anderer_deputierter_c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_b|ein_anderer_deputierter_d" source="ein_deputierter_b" target="ein_anderer_deputierter_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_b|ein_anderer_deputierter_e" source="ein_deputierter_b" target="ein_anderer_deputierter_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_b|ein_anderer_deputierter_f" source="ein_deputierter_b" target="ein_anderer_deputierter_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_deputierter_b|ein_anderer_deputierter_g" source="ein_deputierter_b" target="ein_anderer_deputierter_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_c|ein_anderer_deputierter_d" source="ein_anderer_deputierter_c" target="ein_anderer_deputierter_d">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_c|ein_anderer_deputierter_e" source="ein_anderer_deputierter_c" target="ein_anderer_deputierter_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_c|ein_anderer_deputierter_f" source="ein_anderer_deputierter_c" target="ein_anderer_deputierter_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_c|ein_anderer_deputierter_g" source="ein_anderer_deputierter_c" target="ein_anderer_deputierter_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_d|ein_anderer_deputierter_e" source="ein_anderer_deputierter_d" target="ein_anderer_deputierter_e">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_d|ein_anderer_deputierter_f" source="ein_anderer_deputierter_d" target="ein_anderer_deputierter_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_d|ein_anderer_deputierter_g" source="ein_anderer_deputierter_d" target="ein_anderer_deputierter_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_e|ein_anderer_deputierter_f" source="ein_anderer_deputierter_e" target="ein_anderer_deputierter_f">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_e|ein_anderer_deputierter_g" source="ein_anderer_deputierter_e" target="ein_anderer_deputierter_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer_deputierter_f|ein_anderer_deputierter_g" source="ein_anderer_deputierter_f" target="ein_anderer_deputierter_g">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chaumette|payne" source="chaumette" target="payne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chaumette|mercier" source="chaumette" target="mercier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chaumette|ein_gefangener" source="chaumette" target="ein_gefangener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chaumette|ein_andrer_gefangener_a" source="chaumette" target="ein_andrer_gefangener_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chaumette|ein_andrer_gefangener_b" source="chaumette" target="ein_andrer_gefangener_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chaumette|einige_stimmen_3-1" source="chaumette" target="einige_stimmen_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="payne|mercier" source="payne" target="mercier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="payne|ein_gefangener" source="payne" target="ein_gefangener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="payne|ein_andrer_gefangener_a" source="payne" target="ein_andrer_gefangener_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="payne|ein_andrer_gefangener_b" source="payne" target="ein_andrer_gefangener_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="payne|einige_stimmen_3-1" source="payne" target="einige_stimmen_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mercier|ein_gefangener" source="mercier" target="ein_gefangener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mercier|ein_andrer_gefangener_a" source="mercier" target="ein_andrer_gefangener_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mercier|ein_andrer_gefangener_b" source="mercier" target="ein_andrer_gefangener_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mercier|einige_stimmen_3-1" source="mercier" target="einige_stimmen_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mercier|der_gefangne_3-3" source="mercier" target="der_gefangne_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gefangener|ein_andrer_gefangener_a" source="ein_gefangener" target="ein_andrer_gefangener_a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gefangener|ein_andrer_gefangener_b" source="ein_gefangener" target="ein_andrer_gefangener_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_gefangener|einige_stimmen_3-1" source="ein_gefangener" target="einige_stimmen_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_andrer_gefangener_a|ein_andrer_gefangener_b" source="ein_andrer_gefangener_a" target="ein_andrer_gefangener_b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_andrer_gefangener_a|einige_stimmen_3-1" source="ein_andrer_gefangener_a" target="einige_stimmen_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_andrer_gefangener_b|einige_stimmen_3-1" source="ein_andrer_gefangener_b" target="einige_stimmen_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fouquier|herman" source="fouquier" target="herman">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fouquier|amar" source="fouquier" target="amar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fouquier|vouland" source="fouquier" target="vouland">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fouquier|viele_stimmen_3-9a" source="fouquier" target="viele_stimmen_3-9a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fouquier|viele_stimmen_3-9b" source="fouquier" target="viele_stimmen_3-9b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dillon|laflotte" source="dillon" target="laflotte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dillon|waerter" source="dillon" target="waerter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laflotte|waerter" source="laflotte" target="waerter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barere|billaud" source="barere" target="billaud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barere|schliesser" source="barere" target="schliesser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="billaud|schliesser" source="billaud" target="schliesser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schliesser|erster_fuhrmann" source="schliesser" target="erster_fuhrmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schliesser|zweiter_fuhrmann" source="schliesser" target="zweiter_fuhrmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schliesser|ein_weib_4-4" source="schliesser" target="ein_weib_4-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schliesser|eine_stimme_4-5" source="schliesser" target="eine_stimme_4-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amar|vouland" source="amar" target="vouland">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_stimmen_3-9a|viele_stimmen_3-9b" source="viele_stimmen_3-9a" target="viele_stimmen_3-9b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_3-10|erster_buerger_3-10" source="einige_stimmen_3-10" target="erster_buerger_3-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_3-10|einige_weiber" source="einige_stimmen_3-10" target="einige_weiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_3-10|zweiter_buerger_3-10" source="einige_stimmen_3-10" target="zweiter_buerger_3-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_3-10|alle_3-10" source="einige_stimmen_3-10" target="alle_3-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_3-10|einige_weiber" source="erster_buerger_3-10" target="einige_weiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_3-10|zweiter_buerger_3-10" source="erster_buerger_3-10" target="zweiter_buerger_3-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger_3-10|alle_3-10" source="erster_buerger_3-10" target="alle_3-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_weiber|zweiter_buerger_3-10" source="einige_weiber" target="zweiter_buerger_3-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_weiber|alle_3-10" source="einige_weiber" target="alle_3-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger_3-10|alle_3-10" source="zweiter_buerger_3-10" target="alle_3-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buerger_4-1|dumas" source="buerger_4-1" target="dumas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_fuhrmann|zweiter_fuhrmann" source="erster_fuhrmann" target="zweiter_fuhrmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_fuhrmann|ein_weib_4-4" source="erster_fuhrmann" target="ein_weib_4-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_fuhrmann|ein_weib_4-4" source="zweiter_fuhrmann" target="ein_weib_4-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_weib_mit_kindern|ein_weib_4-7a" source="ein_weib_mit_kindern" target="ein_weib_4-7a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_weib_mit_kindern|eine_andere" source="ein_weib_mit_kindern" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_weib_mit_kindern|ein_weib_4-7b" source="ein_weib_mit_kindern" target="ein_weib_4-7b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_weib_mit_kindern|einige_stimmen_4-7" source="ein_weib_mit_kindern" target="einige_stimmen_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_weib_mit_kindern|fabre" source="ein_weib_mit_kindern" target="fabre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_weib_4-7a|eine_andere" source="ein_weib_4-7a" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_weib_4-7a|ein_weib_4-7b" source="ein_weib_4-7a" target="ein_weib_4-7b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_weib_4-7a|einige_stimmen_4-7" source="ein_weib_4-7a" target="einige_stimmen_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_weib_4-7a|fabre" source="ein_weib_4-7a" target="fabre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_andere|ein_weib_4-7b" source="eine_andere" target="ein_weib_4-7b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_andere|einige_stimmen_4-7" source="eine_andere" target="einige_stimmen_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_andere|fabre" source="eine_andere" target="fabre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_weib_4-7b|einige_stimmen_4-7" source="ein_weib_4-7b" target="einige_stimmen_4-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_weib_4-7b|fabre" source="ein_weib_4-7b" target="fabre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_stimmen_4-7|fabre" source="einige_stimmen_4-7" target="fabre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_weib|zweites_weib" source="erstes_weib" target="zweites_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_weib|drittes_weib" source="erstes_weib" target="drittes_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_weib|drittes_weib" source="zweites_weib" target="drittes_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_henker|zweiter_henker" source="erster_henker" target="zweiter_henker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_henker|ein_buerger_4-9" source="erster_henker" target="ein_buerger_4-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_henker|ein_buerger_4-9" source="zweiter_henker" target="ein_buerger_4-9">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

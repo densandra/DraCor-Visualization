@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="knechte">
+            <data key="label">Knechte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="maegde">
+            <data key="label">Mägde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="grillhofer">
+            <data key="label">Grillhofer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4122</data>
+        </node>
+        <node id="rosl">
+            <data key="label">Rosl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">416</data>
+        </node>
+        <node id="wastl">
+            <data key="label">Wastl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2342</data>
+        </node>
+        <node id="dusterer">
+            <data key="label">Dusterer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3154</data>
+        </node>
+        <node id="liesel">
+            <data key="label">Liesel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2534</data>
+        </node>
+        <node id="michl">
+            <data key="label">Michl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="annemirl">
+            <data key="label">Annemirl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">29</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="leonhardt">
+            <data key="label">Leonhardt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">385</data>
+        </node>
+        <node id="natzl">
+            <data key="label">Natzl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">153</data>
+        </node>
+        <node id="hans">
+            <data key="label">Hans</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">124</data>
+        </node>
+        <node id="bauer">
+            <data key="label">Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">285</data>
+        </node>
+        <node id="baeuerin">
+            <data key="label">Bäuerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">552</data>
+        </node>
+        <edge id="knechte|maegde" source="knechte" target="maegde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grillhofer|rosl" source="grillhofer" target="rosl">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="grillhofer|wastl" source="grillhofer" target="wastl">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="grillhofer|dusterer" source="grillhofer" target="dusterer">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="grillhofer|michl" source="grillhofer" target="michl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grillhofer|annemirl" source="grillhofer" target="annemirl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grillhofer|liesel" source="grillhofer" target="liesel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="grillhofer|chor" source="grillhofer" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grillhofer|leonhardt" source="grillhofer" target="leonhardt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grillhofer|baeuerin" source="grillhofer" target="baeuerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosl|wastl" source="rosl" target="wastl">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="rosl|dusterer" source="rosl" target="dusterer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosl|michl" source="rosl" target="michl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosl|annemirl" source="rosl" target="annemirl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosl|liesel" source="rosl" target="liesel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosl|chor" source="rosl" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wastl|dusterer" source="wastl" target="dusterer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wastl|liesel" source="wastl" target="liesel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="wastl|michl" source="wastl" target="michl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wastl|annemirl" source="wastl" target="annemirl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wastl|chor" source="wastl" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dusterer|michl" source="dusterer" target="michl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dusterer|annemirl" source="dusterer" target="annemirl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dusterer|liesel" source="dusterer" target="liesel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dusterer|chor" source="dusterer" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dusterer|leonhardt" source="dusterer" target="leonhardt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dusterer|baeuerin" source="dusterer" target="baeuerin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dusterer|hans" source="dusterer" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dusterer|natzl" source="dusterer" target="natzl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dusterer|bauer" source="dusterer" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesel|michl" source="liesel" target="michl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesel|annemirl" source="liesel" target="annemirl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="liesel|chor" source="liesel" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michl|annemirl" source="michl" target="annemirl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michl|chor" source="michl" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annemirl|chor" source="annemirl" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="natzl|hans" source="natzl" target="hans">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="natzl|bauer" source="natzl" target="bauer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="natzl|baeuerin" source="natzl" target="baeuerin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hans|bauer" source="hans" target="bauer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hans|baeuerin" source="hans" target="baeuerin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bauer|baeuerin" source="bauer" target="baeuerin">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

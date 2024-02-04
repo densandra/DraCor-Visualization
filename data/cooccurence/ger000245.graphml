@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="chor_der_norwegischen_matrosen">
+            <data key="label">Chor der norwegischen Matrosen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">532</data>
+        </node>
+        <node id="daland">
+            <data key="label">Daland</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">828</data>
+        </node>
+        <node id="steuermann">
+            <data key="label">Steuermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">202</data>
+        </node>
+        <node id="hollaender">
+            <data key="label">Holländer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1130</data>
+        </node>
+        <node id="chor_der_mannschaft_des_fliegenden_hollaenders">
+            <data key="label">Chor der Mannschaft des fliegenden Holländers</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">139</data>
+        </node>
+        <node id="maedchen">
+            <data key="label">(Chor der) Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">538</data>
+        </node>
+        <node id="mary">
+            <data key="label">Mary</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">175</data>
+        </node>
+        <node id="senta">
+            <data key="label">Senta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">940</data>
+        </node>
+        <node id="erik">
+            <data key="label">Erik</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">635</data>
+        </node>
+        <edge id="chor_der_norwegischen_matrosen|daland" source="chor_der_norwegischen_matrosen" target="daland">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_norwegischen_matrosen|steuermann" source="chor_der_norwegischen_matrosen" target="steuermann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_norwegischen_matrosen|hollaender" source="chor_der_norwegischen_matrosen" target="hollaender">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_norwegischen_matrosen|chor_der_mannschaft_des_fliegenden_hollaenders" source="chor_der_norwegischen_matrosen" target="chor_der_mannschaft_des_fliegenden_hollaenders">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_norwegischen_matrosen|maedchen" source="chor_der_norwegischen_matrosen" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_norwegischen_matrosen|erik" source="chor_der_norwegischen_matrosen" target="erik">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_norwegischen_matrosen|senta" source="chor_der_norwegischen_matrosen" target="senta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_norwegischen_matrosen|mary" source="chor_der_norwegischen_matrosen" target="mary">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="daland|steuermann" source="daland" target="steuermann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="daland|hollaender" source="daland" target="hollaender">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="daland|chor_der_mannschaft_des_fliegenden_hollaenders" source="daland" target="chor_der_mannschaft_des_fliegenden_hollaenders">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="daland|maedchen" source="daland" target="maedchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="daland|mary" source="daland" target="mary">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="daland|senta" source="daland" target="senta">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="daland|erik" source="daland" target="erik">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="steuermann|hollaender" source="steuermann" target="hollaender">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="steuermann|chor_der_mannschaft_des_fliegenden_hollaenders" source="steuermann" target="chor_der_mannschaft_des_fliegenden_hollaenders">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="steuermann|maedchen" source="steuermann" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="steuermann|erik" source="steuermann" target="erik">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="steuermann|senta" source="steuermann" target="senta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="steuermann|mary" source="steuermann" target="mary">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hollaender|chor_der_mannschaft_des_fliegenden_hollaenders" source="hollaender" target="chor_der_mannschaft_des_fliegenden_hollaenders">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hollaender|maedchen" source="hollaender" target="maedchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hollaender|mary" source="hollaender" target="mary">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hollaender|senta" source="hollaender" target="senta">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hollaender|erik" source="hollaender" target="erik">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_mannschaft_des_fliegenden_hollaenders|maedchen" source="chor_der_mannschaft_des_fliegenden_hollaenders" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_mannschaft_des_fliegenden_hollaenders|erik" source="chor_der_mannschaft_des_fliegenden_hollaenders" target="erik">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_mannschaft_des_fliegenden_hollaenders|senta" source="chor_der_mannschaft_des_fliegenden_hollaenders" target="senta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_mannschaft_des_fliegenden_hollaenders|mary" source="chor_der_mannschaft_des_fliegenden_hollaenders" target="mary">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maedchen|mary" source="maedchen" target="mary">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maedchen|senta" source="maedchen" target="senta">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maedchen|erik" source="maedchen" target="erik">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mary|senta" source="mary" target="senta">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mary|erik" source="mary" target="erik">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="senta|erik" source="senta" target="erik">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

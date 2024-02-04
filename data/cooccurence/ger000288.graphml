@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="die_dienerin">
+            <data key="label">Die Dienerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">53</data>
+        </node>
+        <node id="tozi">
+            <data key="label">Tozi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">501</data>
+        </node>
+        <node id="giwau">
+            <data key="label">Giwau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">847</data>
+        </node>
+        <node id="der_kaiser">
+            <data key="label">Der Kaiser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">379</data>
+        </node>
+        <node id="hotoke">
+            <data key="label">Hotoke</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1497</data>
+        </node>
+        <node id="ein_diener">
+            <data key="label">Ein Diener (I)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="die_kammerfrau">
+            <data key="label">Die Kammerfrau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">223</data>
+        </node>
+        <node id="der_diener">
+            <data key="label">Der Diener (II)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="ginyo">
+            <data key="label">Ginyo</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">425</data>
+        </node>
+        <edge id="die_dienerin|tozi" source="die_dienerin" target="tozi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerin|giwau" source="die_dienerin" target="giwau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerin|der_kaiser" source="die_dienerin" target="der_kaiser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerin|hotoke" source="die_dienerin" target="hotoke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerin|ein_diener" source="die_dienerin" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tozi|giwau" source="tozi" target="giwau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tozi|der_kaiser" source="tozi" target="der_kaiser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tozi|hotoke" source="tozi" target="hotoke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tozi|ein_diener" source="tozi" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tozi|ginyo" source="tozi" target="ginyo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giwau|der_kaiser" source="giwau" target="der_kaiser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="giwau|hotoke" source="giwau" target="hotoke">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="giwau|ein_diener" source="giwau" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giwau|die_kammerfrau" source="giwau" target="die_kammerfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giwau|der_diener" source="giwau" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giwau|ginyo" source="giwau" target="ginyo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|hotoke" source="der_kaiser" target="hotoke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_kaiser|ein_diener" source="der_kaiser" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|die_kammerfrau" source="der_kaiser" target="die_kammerfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|der_diener" source="der_kaiser" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hotoke|ein_diener" source="hotoke" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hotoke|die_kammerfrau" source="hotoke" target="die_kammerfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hotoke|der_diener" source="hotoke" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hotoke|ginyo" source="hotoke" target="ginyo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kammerfrau|der_diener" source="die_kammerfrau" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="faust">
+            <data key="label">Faust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2348</data>
+        </node>
+        <node id="stimme_zur_linken">
+            <data key="label">Stimme zur Linken</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="stimme_zur_rechten_schutzgeist">
+            <data key="label">Stimme zur Rechten (Schutzgeist)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">57</data>
+        </node>
+        <node id="mehrere_stimmen_zur_linken_geister">
+            <data key="label">Mehrere Stimmen zur Linken (Geister)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="wagner">
+            <data key="label">Wagner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">553</data>
+        </node>
+        <node id="casperle">
+            <data key="label">Casperle</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3248</data>
+        </node>
+        <node id="vitzliputzli">
+            <data key="label">Vitzliputzli</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="poluemor">
+            <data key="label">Polümor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="asmodeus">
+            <data key="label">Asmodeus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="astarot">
+            <data key="label">Astarot</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="auerhahn">
+            <data key="label">Auerhahn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">462</data>
+        </node>
+        <node id="haribax">
+            <data key="label">Haribax</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="megaera">
+            <data key="label">Megära</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="mephistopheles">
+            <data key="label">Mephistopheles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">889</data>
+        </node>
+        <node id="xerxes">
+            <data key="label">Xerxes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="don_carlos">
+            <data key="label">Don Carlos</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">675</data>
+        </node>
+        <node id="herzog">
+            <data key="label">Herzog</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">150</data>
+        </node>
+        <node id="herzogin">
+            <data key="label">Herzogin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">407</data>
+        </node>
+        <node id="das_frauenzimmer">
+            <data key="label">Das Frauenzimmer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="altes_weib">
+            <data key="label">Altes Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="dumpfe_stimme_von_oben">
+            <data key="label">Dumpfe Stimme von oben</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="gretl">
+            <data key="label">Gretl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <edge id="faust|stimme_zur_linken" source="faust" target="stimme_zur_linken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|stimme_zur_rechten_schutzgeist" source="faust" target="stimme_zur_rechten_schutzgeist">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|mehrere_stimmen_zur_linken_geister" source="faust" target="mehrere_stimmen_zur_linken_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|wagner" source="faust" target="wagner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|vitzliputzli" source="faust" target="vitzliputzli">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|poluemor" source="faust" target="poluemor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|asmodeus" source="faust" target="asmodeus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|astarot" source="faust" target="astarot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|auerhahn" source="faust" target="auerhahn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|haribax" source="faust" target="haribax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|megaera" source="faust" target="megaera">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|mephistopheles" source="faust" target="mephistopheles">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="faust|herzogin" source="faust" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|herzog" source="faust" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|don_carlos" source="faust" target="don_carlos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|dumpfe_stimme_von_oben" source="faust" target="dumpfe_stimme_von_oben">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="faust|casperle" source="faust" target="casperle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_zur_linken|stimme_zur_rechten_schutzgeist" source="stimme_zur_linken" target="stimme_zur_rechten_schutzgeist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_zur_linken|mehrere_stimmen_zur_linken_geister" source="stimme_zur_linken" target="mehrere_stimmen_zur_linken_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_zur_rechten_schutzgeist|mehrere_stimmen_zur_linken_geister" source="stimme_zur_rechten_schutzgeist" target="mehrere_stimmen_zur_linken_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_zur_rechten_schutzgeist|vitzliputzli" source="stimme_zur_rechten_schutzgeist" target="vitzliputzli">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_zur_rechten_schutzgeist|poluemor" source="stimme_zur_rechten_schutzgeist" target="poluemor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_zur_rechten_schutzgeist|asmodeus" source="stimme_zur_rechten_schutzgeist" target="asmodeus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_zur_rechten_schutzgeist|astarot" source="stimme_zur_rechten_schutzgeist" target="astarot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_zur_rechten_schutzgeist|auerhahn" source="stimme_zur_rechten_schutzgeist" target="auerhahn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_zur_rechten_schutzgeist|haribax" source="stimme_zur_rechten_schutzgeist" target="haribax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_zur_rechten_schutzgeist|megaera" source="stimme_zur_rechten_schutzgeist" target="megaera">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_zur_rechten_schutzgeist|mephistopheles" source="stimme_zur_rechten_schutzgeist" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehrere_stimmen_zur_linken_geister|casperle" source="mehrere_stimmen_zur_linken_geister" target="casperle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehrere_stimmen_zur_linken_geister|asmodeus" source="mehrere_stimmen_zur_linken_geister" target="asmodeus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehrere_stimmen_zur_linken_geister|xerxes" source="mehrere_stimmen_zur_linken_geister" target="xerxes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehrere_stimmen_zur_linken_geister|auerhahn" source="mehrere_stimmen_zur_linken_geister" target="auerhahn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|casperle" source="wagner" target="casperle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casperle|asmodeus" source="casperle" target="asmodeus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casperle|xerxes" source="casperle" target="xerxes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casperle|auerhahn" source="casperle" target="auerhahn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="casperle|don_carlos" source="casperle" target="don_carlos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="casperle|herzog" source="casperle" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casperle|herzogin" source="casperle" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casperle|das_frauenzimmer" source="casperle" target="das_frauenzimmer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casperle|altes_weib" source="casperle" target="altes_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="casperle|gretl" source="casperle" target="gretl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vitzliputzli|poluemor" source="vitzliputzli" target="poluemor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vitzliputzli|asmodeus" source="vitzliputzli" target="asmodeus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vitzliputzli|astarot" source="vitzliputzli" target="astarot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vitzliputzli|auerhahn" source="vitzliputzli" target="auerhahn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vitzliputzli|haribax" source="vitzliputzli" target="haribax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vitzliputzli|megaera" source="vitzliputzli" target="megaera">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vitzliputzli|mephistopheles" source="vitzliputzli" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poluemor|asmodeus" source="poluemor" target="asmodeus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poluemor|astarot" source="poluemor" target="astarot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poluemor|auerhahn" source="poluemor" target="auerhahn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poluemor|haribax" source="poluemor" target="haribax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poluemor|megaera" source="poluemor" target="megaera">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="poluemor|mephistopheles" source="poluemor" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="asmodeus|astarot" source="asmodeus" target="astarot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="asmodeus|auerhahn" source="asmodeus" target="auerhahn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="asmodeus|haribax" source="asmodeus" target="haribax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="asmodeus|megaera" source="asmodeus" target="megaera">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="asmodeus|mephistopheles" source="asmodeus" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="asmodeus|xerxes" source="asmodeus" target="xerxes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="astarot|auerhahn" source="astarot" target="auerhahn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="astarot|haribax" source="astarot" target="haribax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="astarot|megaera" source="astarot" target="megaera">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="astarot|mephistopheles" source="astarot" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="auerhahn|haribax" source="auerhahn" target="haribax">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="auerhahn|megaera" source="auerhahn" target="megaera">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="auerhahn|mephistopheles" source="auerhahn" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="auerhahn|xerxes" source="auerhahn" target="xerxes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="auerhahn|das_frauenzimmer" source="auerhahn" target="das_frauenzimmer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="auerhahn|altes_weib" source="auerhahn" target="altes_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haribax|megaera" source="haribax" target="megaera">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haribax|mephistopheles" source="haribax" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="megaera|mephistopheles" source="megaera" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|herzogin" source="mephistopheles" target="herzogin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|herzog" source="mephistopheles" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|don_carlos" source="mephistopheles" target="don_carlos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|dumpfe_stimme_von_oben" source="mephistopheles" target="dumpfe_stimme_von_oben">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="don_carlos|herzog" source="don_carlos" target="herzog">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="don_carlos|herzogin" source="don_carlos" target="herzogin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herzog|herzogin" source="herzog" target="herzogin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_frauenzimmer|altes_weib" source="das_frauenzimmer" target="altes_weib">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

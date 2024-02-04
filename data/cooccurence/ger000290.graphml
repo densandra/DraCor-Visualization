@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sepp">
+            <data key="label">Sepp</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">759</data>
+        </node>
+        <node id="lisei">
+            <data key="label">Lisei</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1068</data>
+        </node>
+        <node id="girgl">
+            <data key="label">Girgl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">717</data>
+        </node>
+        <node id="foerster">
+            <data key="label">Förster</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">765</data>
+        </node>
+        <edge id="sepp|lisei" source="sepp" target="lisei">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sepp|girgl" source="sepp" target="girgl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sepp|foerster" source="sepp" target="foerster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisei|girgl" source="lisei" target="girgl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lisei|foerster" source="lisei" target="foerster">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="girgl|foerster" source="girgl" target="foerster">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

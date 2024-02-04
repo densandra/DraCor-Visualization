@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="epimetheus">
+            <data key="label">Epimetheus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2359</data>
+        </node>
+        <node id="phileros">
+            <data key="label">Phileros</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">609</data>
+        </node>
+        <node id="prometheus">
+            <data key="label">Prometheus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1512</data>
+        </node>
+        <node id="schmiede">
+            <data key="label">Schmiede</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">205</data>
+        </node>
+        <node id="hirten">
+            <data key="label">Hirten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="erster_hirt">
+            <data key="label">Erster Hirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="zweiter_hirt">
+            <data key="label">Zweiter Hirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">68</data>
+        </node>
+        <node id="dritter_hirt">
+            <data key="label">Dritter Hirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">61</data>
+        </node>
+        <node id="elpore">
+            <data key="label">Elpore</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">362</data>
+        </node>
+        <node id="epimeleia">
+            <data key="label">Epimeleia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">684</data>
+        </node>
+        <node id="krieger">
+            <data key="label">Krieger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">137</data>
+        </node>
+        <node id="eos">
+            <data key="label">Eos</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">494</data>
+        </node>
+        <edge id="epimetheus|phileros" source="epimetheus" target="phileros">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epimetheus|prometheus" source="epimetheus" target="prometheus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epimetheus|schmiede" source="epimetheus" target="schmiede">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epimetheus|hirten" source="epimetheus" target="hirten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epimetheus|erster_hirt" source="epimetheus" target="erster_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epimetheus|zweiter_hirt" source="epimetheus" target="zweiter_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epimetheus|dritter_hirt" source="epimetheus" target="dritter_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epimetheus|elpore" source="epimetheus" target="elpore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epimetheus|epimeleia" source="epimetheus" target="epimeleia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epimetheus|krieger" source="epimetheus" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epimetheus|eos" source="epimetheus" target="eos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phileros|prometheus" source="phileros" target="prometheus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phileros|schmiede" source="phileros" target="schmiede">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phileros|hirten" source="phileros" target="hirten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phileros|erster_hirt" source="phileros" target="erster_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phileros|zweiter_hirt" source="phileros" target="zweiter_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phileros|dritter_hirt" source="phileros" target="dritter_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phileros|elpore" source="phileros" target="elpore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phileros|epimeleia" source="phileros" target="epimeleia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phileros|krieger" source="phileros" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phileros|eos" source="phileros" target="eos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prometheus|schmiede" source="prometheus" target="schmiede">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prometheus|hirten" source="prometheus" target="hirten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prometheus|erster_hirt" source="prometheus" target="erster_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prometheus|zweiter_hirt" source="prometheus" target="zweiter_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prometheus|dritter_hirt" source="prometheus" target="dritter_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prometheus|elpore" source="prometheus" target="elpore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prometheus|epimeleia" source="prometheus" target="epimeleia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prometheus|krieger" source="prometheus" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prometheus|eos" source="prometheus" target="eos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmiede|hirten" source="schmiede" target="hirten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmiede|erster_hirt" source="schmiede" target="erster_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmiede|zweiter_hirt" source="schmiede" target="zweiter_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmiede|dritter_hirt" source="schmiede" target="dritter_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmiede|elpore" source="schmiede" target="elpore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmiede|epimeleia" source="schmiede" target="epimeleia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmiede|krieger" source="schmiede" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmiede|eos" source="schmiede" target="eos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hirten|erster_hirt" source="hirten" target="erster_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hirten|zweiter_hirt" source="hirten" target="zweiter_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hirten|dritter_hirt" source="hirten" target="dritter_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hirten|elpore" source="hirten" target="elpore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hirten|epimeleia" source="hirten" target="epimeleia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hirten|krieger" source="hirten" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hirten|eos" source="hirten" target="eos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_hirt|zweiter_hirt" source="erster_hirt" target="zweiter_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_hirt|dritter_hirt" source="erster_hirt" target="dritter_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_hirt|elpore" source="erster_hirt" target="elpore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_hirt|epimeleia" source="erster_hirt" target="epimeleia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_hirt|krieger" source="erster_hirt" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_hirt|eos" source="erster_hirt" target="eos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_hirt|dritter_hirt" source="zweiter_hirt" target="dritter_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_hirt|elpore" source="zweiter_hirt" target="elpore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_hirt|epimeleia" source="zweiter_hirt" target="epimeleia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_hirt|krieger" source="zweiter_hirt" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_hirt|eos" source="zweiter_hirt" target="eos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_hirt|elpore" source="dritter_hirt" target="elpore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_hirt|epimeleia" source="dritter_hirt" target="epimeleia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_hirt|krieger" source="dritter_hirt" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_hirt|eos" source="dritter_hirt" target="eos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elpore|epimeleia" source="elpore" target="epimeleia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elpore|krieger" source="elpore" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elpore|eos" source="elpore" target="eos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epimeleia|krieger" source="epimeleia" target="krieger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epimeleia|eos" source="epimeleia" target="eos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krieger|eos" source="krieger" target="eos">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="kaethchen">
+            <data key="label">Käthchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">878</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">481</data>
+        </node>
+        <node id="redlich">
+            <data key="label">Redlich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2512</data>
+        </node>
+        <node id="staberl">
+            <data key="label">Staberl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6531</data>
+        </node>
+        <node id="therese">
+            <data key="label">Therese</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1193</data>
+        </node>
+        <node id="mueller">
+            <data key="label">Müller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1069</data>
+        </node>
+        <node id="hans">
+            <data key="label">Hans</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">623</data>
+        </node>
+        <node id="toloysky">
+            <data key="label">Toloysky</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">430</data>
+        </node>
+        <node id="ferdinand">
+            <data key="label">Ferdinand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">29</data>
+        </node>
+        <node id="alle_mehrere_1-15">
+            <data key="label">Alle/Mehrere (I/15)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="ein_buerger">
+            <data key="label">Ein Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="ein_anderer">
+            <data key="label">Ein anderer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="ein_dritter">
+            <data key="label">Ein dritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="ein_vierter_buerger">
+            <data key="label">Ein vierter Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="die_vier_tiroler">
+            <data key="label">Die vier Tiroler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">91</data>
+        </node>
+        <node id="kommissaer">
+            <data key="label">Kommissär</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">127</data>
+        </node>
+        <node id="erste_buergerin">
+            <data key="label">Erste Bürgerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">79</data>
+        </node>
+        <node id="zweite_buergerin">
+            <data key="label">Zweite Bürgerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <node id="alle_und_chor_3-10_und_3-12">
+            <data key="label">Alle/Chor (III)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">72</data>
+        </node>
+        <edge id="kaethchen|karl" source="kaethchen" target="karl">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="kaethchen|redlich" source="kaethchen" target="redlich">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="kaethchen|therese" source="kaethchen" target="therese">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kaethchen|mueller" source="kaethchen" target="mueller">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kaethchen|ferdinand" source="kaethchen" target="ferdinand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaethchen|staberl" source="kaethchen" target="staberl">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kaethchen|toloysky" source="kaethchen" target="toloysky">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|redlich" source="karl" target="redlich">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="karl|therese" source="karl" target="therese">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|toloysky" source="karl" target="toloysky">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|staberl" source="karl" target="staberl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="karl|mueller" source="karl" target="mueller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|hans" source="karl" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|alle_und_chor_3-10_und_3-12" source="karl" target="alle_und_chor_3-10_und_3-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="redlich|staberl" source="redlich" target="staberl">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="redlich|therese" source="redlich" target="therese">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="redlich|hans" source="redlich" target="hans">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="redlich|mueller" source="redlich" target="mueller">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="redlich|toloysky" source="redlich" target="toloysky">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="redlich|ferdinand" source="redlich" target="ferdinand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="redlich|alle_mehrere_1-15" source="redlich" target="alle_mehrere_1-15">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="redlich|ein_buerger" source="redlich" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="redlich|ein_anderer" source="redlich" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="redlich|ein_dritter" source="redlich" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="redlich|ein_vierter_buerger" source="redlich" target="ein_vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="redlich|die_vier_tiroler" source="redlich" target="die_vier_tiroler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="redlich|kommissaer" source="redlich" target="kommissaer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="redlich|alle_und_chor_3-10_und_3-12" source="redlich" target="alle_und_chor_3-10_und_3-12">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="staberl|therese" source="staberl" target="therese">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="staberl|toloysky" source="staberl" target="toloysky">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="staberl|mueller" source="staberl" target="mueller">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="staberl|ferdinand" source="staberl" target="ferdinand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="staberl|alle_mehrere_1-15" source="staberl" target="alle_mehrere_1-15">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="staberl|hans" source="staberl" target="hans">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="staberl|ein_buerger" source="staberl" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="staberl|ein_anderer" source="staberl" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="staberl|ein_dritter" source="staberl" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="staberl|ein_vierter_buerger" source="staberl" target="ein_vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="staberl|die_vier_tiroler" source="staberl" target="die_vier_tiroler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="staberl|kommissaer" source="staberl" target="kommissaer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="staberl|erste_buergerin" source="staberl" target="erste_buergerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="staberl|zweite_buergerin" source="staberl" target="zweite_buergerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="staberl|alle_und_chor_3-10_und_3-12" source="staberl" target="alle_und_chor_3-10_und_3-12">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="therese|mueller" source="therese" target="mueller">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="therese|hans" source="therese" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|ferdinand" source="therese" target="ferdinand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|toloysky" source="mueller" target="toloysky">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mueller|alle_mehrere_1-15" source="mueller" target="alle_mehrere_1-15">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|hans" source="mueller" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|ein_buerger" source="mueller" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|ein_anderer" source="mueller" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|ein_dritter" source="mueller" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|ein_vierter_buerger" source="mueller" target="ein_vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|die_vier_tiroler" source="mueller" target="die_vier_tiroler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|kommissaer" source="mueller" target="kommissaer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|alle_mehrere_1-15" source="hans" target="alle_mehrere_1-15">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|ein_buerger" source="hans" target="ein_buerger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hans|ein_anderer" source="hans" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|ein_dritter" source="hans" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|toloysky" source="hans" target="toloysky">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hans|ein_vierter_buerger" source="hans" target="ein_vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|die_vier_tiroler" source="hans" target="die_vier_tiroler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|erste_buergerin" source="hans" target="erste_buergerin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hans|zweite_buergerin" source="hans" target="zweite_buergerin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hans|alle_und_chor_3-10_und_3-12" source="hans" target="alle_und_chor_3-10_und_3-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toloysky|alle_mehrere_1-15" source="toloysky" target="alle_mehrere_1-15">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toloysky|ein_buerger" source="toloysky" target="ein_buerger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="toloysky|ein_anderer" source="toloysky" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toloysky|ein_dritter" source="toloysky" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toloysky|ein_vierter_buerger" source="toloysky" target="ein_vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toloysky|die_vier_tiroler" source="toloysky" target="die_vier_tiroler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toloysky|kommissaer" source="toloysky" target="kommissaer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toloysky|erste_buergerin" source="toloysky" target="erste_buergerin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="toloysky|zweite_buergerin" source="toloysky" target="zweite_buergerin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="toloysky|alle_und_chor_3-10_und_3-12" source="toloysky" target="alle_und_chor_3-10_und_3-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_mehrere_1-15|ein_buerger" source="alle_mehrere_1-15" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_mehrere_1-15|ein_anderer" source="alle_mehrere_1-15" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_mehrere_1-15|ein_dritter" source="alle_mehrere_1-15" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_mehrere_1-15|ein_vierter_buerger" source="alle_mehrere_1-15" target="ein_vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_mehrere_1-15|die_vier_tiroler" source="alle_mehrere_1-15" target="die_vier_tiroler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger|ein_anderer" source="ein_buerger" target="ein_anderer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger|ein_dritter" source="ein_buerger" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger|ein_vierter_buerger" source="ein_buerger" target="ein_vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_buerger|die_vier_tiroler" source="ein_buerger" target="die_vier_tiroler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer|ein_dritter" source="ein_anderer" target="ein_dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer|ein_vierter_buerger" source="ein_anderer" target="ein_vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderer|die_vier_tiroler" source="ein_anderer" target="die_vier_tiroler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_dritter|ein_vierter_buerger" source="ein_dritter" target="ein_vierter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_dritter|die_vier_tiroler" source="ein_dritter" target="die_vier_tiroler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_vierter_buerger|die_vier_tiroler" source="ein_vierter_buerger" target="die_vier_tiroler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_buergerin|zweite_buergerin" source="erste_buergerin" target="zweite_buergerin">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

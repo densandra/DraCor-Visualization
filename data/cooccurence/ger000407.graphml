@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="kaiser">
+            <data key="label">Kaiser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1373</data>
+        </node>
+        <node id="kaiserin">
+            <data key="label">Kaiserin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">931</data>
+        </node>
+        <node id="kasper">
+            <data key="label">Kasper</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">569</data>
+        </node>
+        <node id="der_ritter">
+            <data key="label">Der Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1357</data>
+        </node>
+        <node id="matrosen">
+            <data key="label">Matrosen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">193</data>
+        </node>
+        <node id="chor_der_schlossgeister">
+            <data key="label">Chor der Schloßgeister</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">131</data>
+        </node>
+        <node id="der_teufel">
+            <data key="label">Der Teufel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">391</data>
+        </node>
+        <node id="menschen">
+            <data key="label">Menschen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">89</data>
+        </node>
+        <node id="thiere">
+            <data key="label">Thiere</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">76</data>
+        </node>
+        <node id="krokodill">
+            <data key="label">Krokodill</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="esel">
+            <data key="label">Esel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">140</data>
+        </node>
+        <node id="affe">
+            <data key="label">Affe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <node id="ochs">
+            <data key="label">Ochs</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="biene">
+            <data key="label">Biene</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="huhn">
+            <data key="label">Huhn</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="weissfisch">
+            <data key="label">Weißfisch</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="hirsch">
+            <data key="label">Hirsch</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="hund">
+            <data key="label">Hund</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">41</data>
+        </node>
+        <node id="storch">
+            <data key="label">Storch</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="pferd">
+            <data key="label">Pferd</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="die_engel">
+            <data key="label">Die Engel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="matrose">
+            <data key="label">Matrose</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <edge id="kaiser|kaiserin" source="kaiser" target="kaiserin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kaiser|kasper" source="kaiser" target="kasper">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kaiser|der_ritter" source="kaiser" target="der_ritter">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="kaiser|matrosen" source="kaiser" target="matrosen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser|affe" source="kaiser" target="affe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiser|der_teufel" source="kaiser" target="der_teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiserin|der_ritter" source="kaiserin" target="der_ritter">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="kaiserin|matrosen" source="kaiserin" target="matrosen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaiserin|kasper" source="kaiserin" target="kasper">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiserin|die_engel" source="kaiserin" target="die_engel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiserin|matrose" source="kaiserin" target="matrose">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiserin|esel" source="kaiserin" target="esel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaiserin|thiere" source="kaiserin" target="thiere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kasper|der_ritter" source="kasper" target="der_ritter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kasper|matrosen" source="kasper" target="matrosen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kasper|affe" source="kasper" target="affe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kasper|der_teufel" source="kasper" target="der_teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ritter|matrosen" source="der_ritter" target="matrosen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_ritter|die_engel" source="der_ritter" target="die_engel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ritter|matrose" source="der_ritter" target="matrose">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ritter|esel" source="der_ritter" target="esel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ritter|thiere" source="der_ritter" target="thiere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matrosen|die_engel" source="matrosen" target="die_engel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matrosen|matrose" source="matrosen" target="matrose">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matrosen|esel" source="matrosen" target="esel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matrosen|thiere" source="matrosen" target="thiere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_schlossgeister|der_teufel" source="chor_der_schlossgeister" target="der_teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_schlossgeister|menschen" source="chor_der_schlossgeister" target="menschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_schlossgeister|thiere" source="chor_der_schlossgeister" target="thiere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_schlossgeister|krokodill" source="chor_der_schlossgeister" target="krokodill">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_schlossgeister|esel" source="chor_der_schlossgeister" target="esel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_teufel|menschen" source="der_teufel" target="menschen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_teufel|thiere" source="der_teufel" target="thiere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_teufel|krokodill" source="der_teufel" target="krokodill">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_teufel|esel" source="der_teufel" target="esel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_teufel|affe" source="der_teufel" target="affe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="menschen|thiere" source="menschen" target="thiere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="menschen|krokodill" source="menschen" target="krokodill">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="menschen|esel" source="menschen" target="esel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thiere|krokodill" source="thiere" target="krokodill">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thiere|esel" source="thiere" target="esel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thiere|die_engel" source="thiere" target="die_engel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thiere|matrose" source="thiere" target="matrose">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krokodill|esel" source="krokodill" target="esel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esel|ochs" source="esel" target="ochs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esel|biene" source="esel" target="biene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esel|huhn" source="esel" target="huhn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esel|weissfisch" source="esel" target="weissfisch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esel|hirsch" source="esel" target="hirsch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esel|hund" source="esel" target="hund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esel|storch" source="esel" target="storch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esel|pferd" source="esel" target="pferd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esel|die_engel" source="esel" target="die_engel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esel|matrose" source="esel" target="matrose">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ochs|biene" source="ochs" target="biene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ochs|huhn" source="ochs" target="huhn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ochs|weissfisch" source="ochs" target="weissfisch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ochs|hirsch" source="ochs" target="hirsch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ochs|hund" source="ochs" target="hund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ochs|storch" source="ochs" target="storch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ochs|pferd" source="ochs" target="pferd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biene|huhn" source="biene" target="huhn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biene|weissfisch" source="biene" target="weissfisch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biene|hirsch" source="biene" target="hirsch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biene|hund" source="biene" target="hund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biene|storch" source="biene" target="storch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biene|pferd" source="biene" target="pferd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="huhn|weissfisch" source="huhn" target="weissfisch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="huhn|hirsch" source="huhn" target="hirsch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="huhn|hund" source="huhn" target="hund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="huhn|storch" source="huhn" target="storch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="huhn|pferd" source="huhn" target="pferd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weissfisch|hirsch" source="weissfisch" target="hirsch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weissfisch|hund" source="weissfisch" target="hund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weissfisch|storch" source="weissfisch" target="storch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weissfisch|pferd" source="weissfisch" target="pferd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hirsch|hund" source="hirsch" target="hund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hirsch|storch" source="hirsch" target="storch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hirsch|pferd" source="hirsch" target="pferd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hund|storch" source="hund" target="storch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hund|pferd" source="hund" target="pferd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="storch|pferd" source="storch" target="pferd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_engel|matrose" source="die_engel" target="matrose">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

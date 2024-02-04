@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_liebhaberin">
+            <data key="label">Die Liebhaberin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_komiker">
+            <data key="label">Der Komiker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_heldenspieler">
+            <data key="label">Der Heldenspieler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_heldenmutter">
+            <data key="label">Die Heldenmutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="christoph">
+            <data key="label">Christoph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="graf_franz_friedrich">
+            <data key="label">Graf Franz Friedrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_heldenvater">
+            <data key="label">Der Heldenvater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="johann_christian">
+            <data key="label">Johann Christian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_harfenmaedchen">
+            <data key="label">Die Harfenmädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="antonie">
+            <data key="label">Antonie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_alte_graefin">
+            <data key="label">Die alte Gräfin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_alte_graf">
+            <data key="label">Der alte Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dr_wurmbrand">
+            <data key="label">Dr. Wurmbrand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_erste_vetter">
+            <data key="label">Der erste Vetter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_zweite_vetter">
+            <data key="label">Der zweite Vetter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stella">
+            <data key="label">Stella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_dicke_schulze">
+            <data key="label">Der dicke Schulze</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_bauern">
+            <data key="label">Die Bauern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="schauspieler_schauspielerinnen_komoedianten">
+            <data key="label">Schauspieler und Schauspielerinnen/Komödianten</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="johann_christian" target="stella">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="antonie" target="graf_franz_friedrich">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="der_alte_graf" target="antonie">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="die_alte_graefin" target="antonie">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="der_erste_vetter" target="antonie">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="6" directed="false" source="der_zweite_vetter" target="antonie">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="7" directed="false" source="christoph" target="der_alte_graf">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="jakob" target="graf_franz_friedrich">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="der_komiker" target="johann_christian">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="10" directed="false" source="der_heldenspieler" target="johann_christian">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="11" directed="false" source="die_heldenmutter" target="johann_christian">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="12" directed="false" source="der_heldenvater" target="johann_christian">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="13" directed="false" source="die_liebhaberin" target="johann_christian">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

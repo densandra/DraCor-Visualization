@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="mana">
+            <data key="label">Mana</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">663</data>
+        </node>
+        <node id="sora">
+            <data key="label">Sora</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">981</data>
+        </node>
+        <node id="feria">
+            <data key="label">Feria</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">292</data>
+        </node>
+        <node id="lato">
+            <data key="label">Lato</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">169</data>
+        </node>
+        <node id="mela">
+            <data key="label">Mela</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">138</data>
+        </node>
+        <node id="andrason">
+            <data key="label">Andrason</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2565</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="merkulo">
+            <data key="label">Merkulo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1978</data>
+        </node>
+        <node id="bediente">
+            <data key="label">Bediente</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="prinz">
+            <data key="label">Prinz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1252</data>
+        </node>
+        <node id="mandandanens_kammerdiener">
+            <data key="label">Mandandanens Kammerdiener (als Askalaphus)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">751</data>
+        </node>
+        <node id="mandandane">
+            <data key="label">Mandandane</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1100</data>
+        </node>
+        <node id="die_parzen">
+            <data key="label">Die Parzen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">54</data>
+        </node>
+        <node id="proserpina">
+            <data key="label">Proserpina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">188</data>
+        </node>
+        <edge id="mana|sora" source="mana" target="sora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mana|feria" source="mana" target="feria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mana|lato" source="mana" target="lato">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mana|mela" source="mana" target="mela">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mana|andrason" source="mana" target="andrason">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mana|bedienter" source="mana" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mana|merkulo" source="mana" target="merkulo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mana|bediente" source="mana" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mana|mandandane" source="mana" target="mandandane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sora|feria" source="sora" target="feria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sora|lato" source="sora" target="lato">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sora|mela" source="sora" target="mela">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sora|andrason" source="sora" target="andrason">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sora|bedienter" source="sora" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sora|merkulo" source="sora" target="merkulo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sora|bediente" source="sora" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sora|mandandane" source="sora" target="mandandane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="feria|lato" source="feria" target="lato">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="feria|mela" source="feria" target="mela">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="feria|andrason" source="feria" target="andrason">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="feria|merkulo" source="feria" target="merkulo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="feria|prinz" source="feria" target="prinz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="feria|mandandane" source="feria" target="mandandane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lato|mela" source="lato" target="mela">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lato|andrason" source="lato" target="andrason">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lato|mandandane" source="lato" target="mandandane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mela|andrason" source="mela" target="andrason">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mela|mandandane" source="mela" target="mandandane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andrason|mandandane" source="andrason" target="mandandane">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="andrason|merkulo" source="andrason" target="merkulo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andrason|prinz" source="andrason" target="prinz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bedienter|merkulo" source="bedienter" target="merkulo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bedienter|bediente" source="bedienter" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkulo|bediente" source="merkulo" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkulo|prinz" source="merkulo" target="prinz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="merkulo|mandandane" source="merkulo" target="mandandane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz|mandandane" source="prinz" target="mandandane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mandandanens_kammerdiener|mandandane" source="mandandanens_kammerdiener" target="mandandane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mandandanens_kammerdiener|die_parzen" source="mandandanens_kammerdiener" target="die_parzen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mandandanens_kammerdiener|proserpina" source="mandandanens_kammerdiener" target="proserpina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mandandane|die_parzen" source="mandandane" target="die_parzen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mandandane|proserpina" source="mandandane" target="proserpina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_parzen|proserpina" source="die_parzen" target="proserpina">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

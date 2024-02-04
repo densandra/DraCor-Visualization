@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="melinde">
+            <data key="label">Melinde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1275</data>
+        </node>
+        <node id="ramirus">
+            <data key="label">Ramirus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1296</data>
+        </node>
+        <node id="alcmeon">
+            <data key="label">Alcmeon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">705</data>
+        </node>
+        <node id="sohn">
+            <data key="label">Sohn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">199</data>
+        </node>
+        <node id="tochter">
+            <data key="label">Tochter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">302</data>
+        </node>
+        <node id="polydor">
+            <data key="label">Polydor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">523</data>
+        </node>
+        <node id="philind">
+            <data key="label">Philind</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">69</data>
+        </node>
+        <edge id="melinde|ramirus" source="melinde" target="ramirus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="melinde|alcmeon" source="melinde" target="alcmeon">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="melinde|sohn" source="melinde" target="sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melinde|tochter" source="melinde" target="tochter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melinde|polydor" source="melinde" target="polydor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melinde|philind" source="melinde" target="philind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ramirus|alcmeon" source="ramirus" target="alcmeon">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ramirus|polydor" source="ramirus" target="polydor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ramirus|philind" source="ramirus" target="philind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alcmeon|sohn" source="alcmeon" target="sohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alcmeon|tochter" source="alcmeon" target="tochter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alcmeon|polydor" source="alcmeon" target="polydor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alcmeon|philind" source="alcmeon" target="philind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sohn|tochter" source="sohn" target="tochter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="polydor|philind" source="polydor" target="philind">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

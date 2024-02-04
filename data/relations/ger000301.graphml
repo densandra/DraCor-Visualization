@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="ahasverus">
+            <data key="label">Ahasverus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gevatterin">
+            <data key="label">Gevatterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="suppius">
+            <data key="label">Suppius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dienemann">
+            <data key="label">Dienemann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="meyer">
+            <data key="label">Meyer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="waisenhaeuser">
+            <data key="label">Ein Waisenhäuser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pamphilio">
+            <data key="label">Pamphilio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pferdephilister">
+            <data key="label">Pferdephilister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cardenio">
+            <data key="label">Cardenio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="becker">
+            <data key="label">Becker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kuemmeltuerke">
+            <data key="label">Ein Kümmeltürke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="magister">
+            <data key="label">Magister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_philister">
+            <data key="label">Ein Philister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="doris">
+            <data key="label">Doris</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="olympie">
+            <data key="label">Olympie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="studenten">
+            <data key="label">Studenten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="wagner">
+            <data key="label">Wagner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_musikant">
+            <data key="label">Erster Musikant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="musikanten_musiker">
+            <data key="label">Musikanten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="schmidt">
+            <data key="label">Schmidt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lysander">
+            <data key="label">Lysander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="viren">
+            <data key="label">Baron Viren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_jungfrau">
+            <data key="label">Die Jungfrau (Maskenspiel)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_frau">
+            <data key="label">Die Frau (Maskenspiel)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lindor">
+            <data key="label">Lindor (Maskenspiel)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zuschauer">
+            <data key="label">Zuschauer</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="bediente">
+            <data key="label">Bediente</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_anderer_musikant">
+            <data key="label">Ein anderer Musikant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="praeses_der_studenten">
+            <data key="label">Präses der Studenten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_1-18">
+            <data key="label">Alle (I/18)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="viele_1-18">
+            <data key="label">Viele (I/18)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="einer_1-18">
+            <data key="label">Einer (I/18)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="erster_knabe">
+            <data key="label">Erster Knabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_knabe">
+            <data key="label">Zweiter Knabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nathan">
+            <data key="label">Nathan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="edelchen">
+            <data key="label">Edelchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kind">
+            <data key="label">Kind</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kinder">
+            <data key="label">Kinder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="gast_a">
+            <data key="label">Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gast_b">
+            <data key="label">Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einer_2-10">
+            <data key="label">Einer (II/10)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_haescher">
+            <data key="label">Die Häscher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="prediger_2-11">
+            <data key="label">Prediger (II/11)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_versammlung">
+            <data key="label">Die Versammlung</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="eine_alte_frau">
+            <data key="label">Eine alte Frau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="halloren_2-11">
+            <data key="label">Halloren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_hallor_2-11">
+            <data key="label">Ein Hallor (II/11)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herold">
+            <data key="label">Herold (Maskenspiel)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="prinzessin">
+            <data key="label">Prinzessin (Maskenspiel)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="weissprinz">
+            <data key="label">Weißprinz (Maskenspiel)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mohrenprinz">
+            <data key="label">Mohrenprinz (Maskenspiel)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="celinde">
+            <data key="label">Celinde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hallorenweiber">
+            <data key="label">Hallorenweiber</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_dicke_magd">
+            <data key="label">Die dicke Magd</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hallorenweib">
+            <data key="label">Hallorenweib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="prediger_lyrer">
+            <data key="label">Der Prediger Lyrer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="halloren_3-1">
+            <data key="label">Halloren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="einer_aus_dem_volke">
+            <data key="label">Einer aus dem Volke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_anderer_aus_dem_volke">
+            <data key="label">Ein Anderer aus dem Volke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_menge">
+            <data key="label">Die Menge</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_hallor_3-1">
+            <data key="label">Ein Hallor (III/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_hallor_3-1">
+            <data key="label">Zweiter Hallor (III/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="viele_3-1">
+            <data key="label">Viele (III/1)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="kuemmermann">
+            <data key="label">Kümmermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stuermer">
+            <data key="label">Stürmer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marschal">
+            <data key="label">Marschal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="viele_3-2">
+            <data key="label">Viele (III/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="alle_3-2">
+            <data key="label">Alle (III/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_diener">
+            <data key="label">Ein Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tyche">
+            <data key="label">Tyche</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_gestalt">
+            <data key="label">Die Gestalt</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="anton">
+            <data key="label">Anton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cleon">
+            <data key="label">Cleon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_haescher">
+            <data key="label">Ein Häscher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_andrer_haescher">
+            <data key="label">Ein andrer Häscher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_dritter_haescher">
+            <data key="label">Ein dritter Häscher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nathanael">
+            <data key="label">Nathanael</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="viele_3-14">
+            <data key="label">Viele (III/14)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="einer_3-14a">
+            <data key="label">Einer (III/14)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_der_studenten">
+            <data key="label">Chor der Studenten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="einer_3-14b">
+            <data key="label">Einer (III/14)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="cardenio" target="pamphilio">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="nathan" target="edelchen">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="olympie" target="viren">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="4" directed="false" source="nathan" target="nathanael">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="edelchen" target="nathanael">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="doris" target="olympie">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="tyche" target="celinde">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

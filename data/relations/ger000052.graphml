@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="charon">
+            <data key="label">Charon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pluto">
+            <data key="label">Pluto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mephistopheles">
+            <data key="label">Mephistopheles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="faust">
+            <data key="label">Faust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wagner">
+            <data key="label">Wagner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hanswurst">
+            <data key="label">Hanswurst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="krumschal">
+            <data key="label">Krumschal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bulla">
+            <data key="label">Bulla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vater">
+            <data key="label">Faustens Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="viele_teufel_1-14">
+            <data key="label">Viele Teufel (I/14)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_teufel">
+            <data key="label">Ein Teufel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="koenigin">
+            <data key="label">Die Königin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="koenig">
+            <data key="label">Der König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="orestes">
+            <data key="label">Orestes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_erste_scherge">
+            <data key="label">Der erste Scherge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_zweite_scherge">
+            <data key="label">Der zweite Scherge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="krustl">
+            <data key="label">Krustl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_studenten">
+            <data key="label">Die Studenten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_stimme">
+            <data key="label">Eine mächtige Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="viele_stimmen">
+            <data key="label">Viele Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="pfarrer">
+            <data key="label">Pfarrer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="koenigin" target="orestes">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="vater" target="faust">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="wagner" target="faust">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="hanswurst" target="faust">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

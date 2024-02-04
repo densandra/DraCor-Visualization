@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="kunigunde">
+            <data key="label">Kunigunde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2763</data>
+        </node>
+        <node id="veit">
+            <data key="label">Veit</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">717</data>
+        </node>
+        <node id="das_schicksal_dolch">
+            <data key="label">Das Schicksal/Dolch</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2393</data>
+        </node>
+        <node id="roderich_ii">
+            <data key="label">Roderich II.</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2572</data>
+        </node>
+        <node id="roderich_i">
+            <data key="label">Roderich I.</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2636</data>
+        </node>
+        <node id="moralino">
+            <data key="label">Moralino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">333</data>
+        </node>
+        <edge id="kunigunde|veit" source="kunigunde" target="veit">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunigunde|das_schicksal_dolch" source="kunigunde" target="das_schicksal_dolch">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kunigunde|roderich_ii" source="kunigunde" target="roderich_ii">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="kunigunde|roderich_i" source="kunigunde" target="roderich_i">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="kunigunde|moralino" source="kunigunde" target="moralino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="veit|roderich_i" source="veit" target="roderich_i">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_schicksal_dolch|roderich_ii" source="das_schicksal_dolch" target="roderich_ii">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_schicksal_dolch|roderich_i" source="das_schicksal_dolch" target="roderich_i">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="das_schicksal_dolch|moralino" source="das_schicksal_dolch" target="moralino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roderich_ii|roderich_i" source="roderich_ii" target="roderich_i">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="roderich_i|moralino" source="roderich_i" target="moralino">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

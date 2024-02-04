@@ -1,0 +1,941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="stimmen_der_soldaten">
+            <data key="label">Stimmen der Soldaten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="erster_diener_1-1">
+            <data key="label">Erster Diener (I/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">373</data>
+        </node>
+        <node id="die_diener_1-1">
+            <data key="label">Die Diener (I/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="detlev">
+            <data key="label">Detlev</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">865</data>
+        </node>
+        <node id="dritter_diener_1-1">
+            <data key="label">Dritter Diener (I/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">300</data>
+        </node>
+        <node id="vierter_diener_1-1">
+            <data key="label">Vierter Diener (I/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="zweiter_diener_1-1">
+            <data key="label">Zweiter Diener (I/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">173</data>
+        </node>
+        <node id="graf_struensee">
+            <data key="label">Graf Struensee</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6964</data>
+        </node>
+        <node id="koeller">
+            <data key="label">Köller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2064</data>
+        </node>
+        <node id="page_1-3">
+            <data key="label">Page (I/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="polizei-chef">
+            <data key="label">Polizei-Chef</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="diener_1-5">
+            <data key="label">Diener (I/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="ranzau">
+            <data key="label">Ranzau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3141</data>
+        </node>
+        <node id="diener_1-6">
+            <data key="label">Diener (I/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="ein_kammerdiener_1-10">
+            <data key="label">Ein Kammerdiener (I/10)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="pfarrer_struensee">
+            <data key="label">Pfarrer Struensee</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">880</data>
+        </node>
+        <node id="mathilde">
+            <data key="label">Mathilde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3845</data>
+        </node>
+        <node id="graefin_uhlfeld">
+            <data key="label">Gräfin Uhlfeld</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">252</data>
+        </node>
+        <node id="graefin_reez">
+            <data key="label">Gräfin Reez</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="brandt">
+            <data key="label">Graf Brandt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">300</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">551</data>
+        </node>
+        <node id="damen">
+            <data key="label">Damen der Königin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="keith">
+            <data key="label">Keith</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">825</data>
+        </node>
+        <node id="schack">
+            <data key="label">Schack</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">751</data>
+        </node>
+        <node id="juliane">
+            <data key="label">Juliane</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2418</data>
+        </node>
+        <node id="guldberg">
+            <data key="label">Guldberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">476</data>
+        </node>
+        <node id="kammerdiener_2-18">
+            <data key="label">Kammerdiener (II/18)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">52</data>
+        </node>
+        <node id="diener_2-18">
+            <data key="label">Ein Diener (II/18)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="page_2-19">
+            <data key="label">Page (II/19)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="haushofmeister">
+            <data key="label">Haushofmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">215</data>
+        </node>
+        <node id="erster_diener_3-5">
+            <data key="label">Erster Diener (III/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">137</data>
+        </node>
+        <node id="zweiter_diener_3-5">
+            <data key="label">Zweiter Diener (III/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">47</data>
+        </node>
+        <node id="dritter_diener_3-5">
+            <data key="label">Dritter Diener (III/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="alle_3-5">
+            <data key="label">Alle (III/5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="fuerst">
+            <data key="label">Russischer Fürst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">129</data>
+        </node>
+        <node id="maske">
+            <data key="label">Maske</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">173</data>
+        </node>
+        <node id="ein_kammerherr_3-10">
+            <data key="label">Ein Kammerherr (III/10)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="mehrere_masken">
+            <data key="label">Mehrere Masken</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="officier_3-13a">
+            <data key="label">Officier (III/13)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="ein_officier_3-13b">
+            <data key="label">Ein Officier (III/13)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="alle_officiere_3-13">
+            <data key="label">Alle Officiere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="schulmeister">
+            <data key="label">Schulmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">970</data>
+        </node>
+        <node id="alle_4-1">
+            <data key="label">Alle (IV/1)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="svenne">
+            <data key="label">Svenne</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">221</data>
+        </node>
+        <node id="babe">
+            <data key="label">Babe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">429</data>
+        </node>
+        <node id="flyns">
+            <data key="label">Flyns</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">147</data>
+        </node>
+        <node id="hooge">
+            <data key="label">Hooge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">130</data>
+        </node>
+        <node id="alle_bauern">
+            <data key="label">Alle Bauern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="wirthin">
+            <data key="label">Die Wirthin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">78</data>
+        </node>
+        <node id="conrad">
+            <data key="label">Conrad</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">174</data>
+        </node>
+        <node id="andreas">
+            <data key="label">Andreas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="johannes">
+            <data key="label">Johannes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">120</data>
+        </node>
+        <node id="ein_kammerherr_4-2">
+            <data key="label">Ein Kammerherr (IV/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="page_4-5">
+            <data key="label">Page (IV/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="emmy">
+            <data key="label">Emmy</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <node id="kerkermeister">
+            <data key="label">Kerkermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">138</data>
+        </node>
+        <node id="officier_5-6_bis_8">
+            <data key="label">Officier (V/6–8)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">189</data>
+        </node>
+        <edge id="stimmen_der_soldaten|erster_diener_1-1" source="stimmen_der_soldaten" target="erster_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_der_soldaten|die_diener_1-1" source="stimmen_der_soldaten" target="die_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_der_soldaten|detlev" source="stimmen_der_soldaten" target="detlev">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_der_soldaten|dritter_diener_1-1" source="stimmen_der_soldaten" target="dritter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_der_soldaten|vierter_diener_1-1" source="stimmen_der_soldaten" target="vierter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_der_soldaten|zweiter_diener_1-1" source="stimmen_der_soldaten" target="zweiter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_diener_1-1|die_diener_1-1" source="erster_diener_1-1" target="die_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_diener_1-1|detlev" source="erster_diener_1-1" target="detlev">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_diener_1-1|dritter_diener_1-1" source="erster_diener_1-1" target="dritter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_diener_1-1|vierter_diener_1-1" source="erster_diener_1-1" target="vierter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_diener_1-1|zweiter_diener_1-1" source="erster_diener_1-1" target="zweiter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_diener_1-1|detlev" source="die_diener_1-1" target="detlev">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_diener_1-1|dritter_diener_1-1" source="die_diener_1-1" target="dritter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_diener_1-1|vierter_diener_1-1" source="die_diener_1-1" target="vierter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_diener_1-1|zweiter_diener_1-1" source="die_diener_1-1" target="zweiter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="detlev|dritter_diener_1-1" source="detlev" target="dritter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="detlev|vierter_diener_1-1" source="detlev" target="vierter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="detlev|zweiter_diener_1-1" source="detlev" target="zweiter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="detlev|graf_struensee" source="detlev" target="graf_struensee">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="detlev|koeller" source="detlev" target="koeller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="detlev|officier_3-13a" source="detlev" target="officier_3-13a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="detlev|guldberg" source="detlev" target="guldberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="detlev|juliane" source="detlev" target="juliane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="detlev|ranzau" source="detlev" target="ranzau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="detlev|ein_officier_3-13b" source="detlev" target="ein_officier_3-13b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="detlev|alle_officiere_3-13" source="detlev" target="alle_officiere_3-13">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_diener_1-1|vierter_diener_1-1" source="dritter_diener_1-1" target="vierter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_diener_1-1|zweiter_diener_1-1" source="dritter_diener_1-1" target="zweiter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_diener_1-1|zweiter_diener_1-1" source="vierter_diener_1-1" target="zweiter_diener_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_struensee|koeller" source="graf_struensee" target="koeller">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="graf_struensee|page_1-3" source="graf_struensee" target="page_1-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_struensee|polizei-chef" source="graf_struensee" target="polizei-chef">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_struensee|ranzau" source="graf_struensee" target="ranzau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf_struensee|pfarrer_struensee" source="graf_struensee" target="pfarrer_struensee">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf_struensee|mathilde" source="graf_struensee" target="mathilde">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="graf_struensee|graefin_uhlfeld" source="graf_struensee" target="graefin_uhlfeld">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="graf_struensee|brandt" source="graf_struensee" target="brandt">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="graf_struensee|hauptmann" source="graf_struensee" target="hauptmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf_struensee|damen" source="graf_struensee" target="damen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf_struensee|graefin_reez" source="graf_struensee" target="graefin_reez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_struensee|keith" source="graf_struensee" target="keith">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="graf_struensee|maske" source="graf_struensee" target="maske">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_struensee|ein_kammerherr_3-10" source="graf_struensee" target="ein_kammerherr_3-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_struensee|officier_5-6_bis_8" source="graf_struensee" target="officier_5-6_bis_8">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koeller|diener_1-5" source="koeller" target="diener_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koeller|ranzau" source="koeller" target="ranzau">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="koeller|juliane" source="koeller" target="juliane">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="koeller|guldberg" source="koeller" target="guldberg">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="koeller|kammerdiener_2-18" source="koeller" target="kammerdiener_2-18">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koeller|diener_2-18" source="koeller" target="diener_2-18">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koeller|page_2-19" source="koeller" target="page_2-19">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koeller|mehrere_masken" source="koeller" target="mehrere_masken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koeller|officier_3-13a" source="koeller" target="officier_3-13a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koeller|ein_officier_3-13b" source="koeller" target="ein_officier_3-13b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koeller|alle_officiere_3-13" source="koeller" target="alle_officiere_3-13">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koeller|ein_kammerherr_4-2" source="koeller" target="ein_kammerherr_4-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koeller|fuerst" source="koeller" target="fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koeller|schack" source="koeller" target="schack">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koeller|officier_5-6_bis_8" source="koeller" target="officier_5-6_bis_8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="page_1-3|polizei-chef" source="page_1-3" target="polizei-chef">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_1-5|ranzau" source="diener_1-5" target="ranzau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ranzau|diener_1-6" source="ranzau" target="diener_1-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ranzau|ein_kammerdiener_1-10" source="ranzau" target="ein_kammerdiener_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ranzau|juliane" source="ranzau" target="juliane">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ranzau|guldberg" source="ranzau" target="guldberg">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ranzau|kammerdiener_2-18" source="ranzau" target="kammerdiener_2-18">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ranzau|diener_2-18" source="ranzau" target="diener_2-18">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ranzau|page_2-19" source="ranzau" target="page_2-19">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ranzau|mehrere_masken" source="ranzau" target="mehrere_masken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ranzau|officier_3-13a" source="ranzau" target="officier_3-13a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ranzau|ein_officier_3-13b" source="ranzau" target="ein_officier_3-13b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ranzau|alle_officiere_3-13" source="ranzau" target="alle_officiere_3-13">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ranzau|ein_kammerherr_4-2" source="ranzau" target="ein_kammerherr_4-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ranzau|fuerst" source="ranzau" target="fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ranzau|schack" source="ranzau" target="schack">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ranzau|kerkermeister" source="ranzau" target="kerkermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pfarrer_struensee|schulmeister" source="pfarrer_struensee" target="schulmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pfarrer_struensee|alle_4-1" source="pfarrer_struensee" target="alle_4-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pfarrer_struensee|svenne" source="pfarrer_struensee" target="svenne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pfarrer_struensee|babe" source="pfarrer_struensee" target="babe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pfarrer_struensee|flyns" source="pfarrer_struensee" target="flyns">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pfarrer_struensee|hooge" source="pfarrer_struensee" target="hooge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pfarrer_struensee|alle_bauern" source="pfarrer_struensee" target="alle_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pfarrer_struensee|wirthin" source="pfarrer_struensee" target="wirthin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pfarrer_struensee|conrad" source="pfarrer_struensee" target="conrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pfarrer_struensee|andreas" source="pfarrer_struensee" target="andreas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pfarrer_struensee|johannes" source="pfarrer_struensee" target="johannes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mathilde|graefin_uhlfeld" source="mathilde" target="graefin_uhlfeld">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="mathilde|graefin_reez" source="mathilde" target="graefin_reez">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mathilde|brandt" source="mathilde" target="brandt">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mathilde|hauptmann" source="mathilde" target="hauptmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mathilde|damen" source="mathilde" target="damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mathilde|keith" source="mathilde" target="keith">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="mathilde|fuerst" source="mathilde" target="fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mathilde|juliane" source="mathilde" target="juliane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mathilde|emmy" source="mathilde" target="emmy">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mathilde|schack" source="mathilde" target="schack">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graefin_uhlfeld|graefin_reez" source="graefin_uhlfeld" target="graefin_reez">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graefin_uhlfeld|brandt" source="graefin_uhlfeld" target="brandt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="graefin_uhlfeld|damen" source="graefin_uhlfeld" target="damen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graefin_uhlfeld|juliane" source="graefin_uhlfeld" target="juliane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graefin_reez|damen" source="graefin_reez" target="damen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brandt|juliane" source="brandt" target="juliane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|keith" source="hauptmann" target="keith">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="keith|fuerst" source="keith" target="fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="keith|juliane" source="keith" target="juliane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schack|juliane" source="schack" target="juliane">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schack|fuerst" source="schack" target="fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juliane|guldberg" source="juliane" target="guldberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="juliane|kammerdiener_2-18" source="juliane" target="kammerdiener_2-18">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juliane|diener_2-18" source="juliane" target="diener_2-18">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juliane|page_2-19" source="juliane" target="page_2-19">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juliane|officier_3-13a" source="juliane" target="officier_3-13a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juliane|ein_officier_3-13b" source="juliane" target="ein_officier_3-13b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juliane|alle_officiere_3-13" source="juliane" target="alle_officiere_3-13">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juliane|fuerst" source="juliane" target="fuerst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juliane|page_4-5" source="juliane" target="page_4-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guldberg|kammerdiener_2-18" source="guldberg" target="kammerdiener_2-18">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guldberg|diener_2-18" source="guldberg" target="diener_2-18">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guldberg|page_2-19" source="guldberg" target="page_2-19">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guldberg|mehrere_masken" source="guldberg" target="mehrere_masken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guldberg|officier_3-13a" source="guldberg" target="officier_3-13a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guldberg|ein_officier_3-13b" source="guldberg" target="ein_officier_3-13b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guldberg|alle_officiere_3-13" source="guldberg" target="alle_officiere_3-13">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guldberg|ein_kammerherr_4-2" source="guldberg" target="ein_kammerherr_4-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guldberg|page_4-5" source="guldberg" target="page_4-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kammerdiener_2-18|diener_2-18" source="kammerdiener_2-18" target="diener_2-18">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister|erster_diener_3-5" source="haushofmeister" target="erster_diener_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister|zweiter_diener_3-5" source="haushofmeister" target="zweiter_diener_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister|dritter_diener_3-5" source="haushofmeister" target="dritter_diener_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister|alle_3-5" source="haushofmeister" target="alle_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_diener_3-5|zweiter_diener_3-5" source="erster_diener_3-5" target="zweiter_diener_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_diener_3-5|dritter_diener_3-5" source="erster_diener_3-5" target="dritter_diener_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_diener_3-5|alle_3-5" source="erster_diener_3-5" target="alle_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_diener_3-5|dritter_diener_3-5" source="zweiter_diener_3-5" target="dritter_diener_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_diener_3-5|alle_3-5" source="zweiter_diener_3-5" target="alle_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_diener_3-5|alle_3-5" source="dritter_diener_3-5" target="alle_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maske|ein_kammerherr_3-10" source="maske" target="ein_kammerherr_3-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="officier_3-13a|ein_officier_3-13b" source="officier_3-13a" target="ein_officier_3-13b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="officier_3-13a|alle_officiere_3-13" source="officier_3-13a" target="alle_officiere_3-13">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_officier_3-13b|alle_officiere_3-13" source="ein_officier_3-13b" target="alle_officiere_3-13">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|alle_4-1" source="schulmeister" target="alle_4-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|svenne" source="schulmeister" target="svenne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|babe" source="schulmeister" target="babe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|flyns" source="schulmeister" target="flyns">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|hooge" source="schulmeister" target="hooge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|alle_bauern" source="schulmeister" target="alle_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|wirthin" source="schulmeister" target="wirthin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|conrad" source="schulmeister" target="conrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|andreas" source="schulmeister" target="andreas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|johannes" source="schulmeister" target="johannes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_4-1|svenne" source="alle_4-1" target="svenne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_4-1|babe" source="alle_4-1" target="babe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_4-1|flyns" source="alle_4-1" target="flyns">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_4-1|hooge" source="alle_4-1" target="hooge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_4-1|alle_bauern" source="alle_4-1" target="alle_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_4-1|wirthin" source="alle_4-1" target="wirthin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_4-1|conrad" source="alle_4-1" target="conrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_4-1|andreas" source="alle_4-1" target="andreas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_4-1|johannes" source="alle_4-1" target="johannes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="svenne|babe" source="svenne" target="babe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="svenne|flyns" source="svenne" target="flyns">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="svenne|hooge" source="svenne" target="hooge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="svenne|alle_bauern" source="svenne" target="alle_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="svenne|wirthin" source="svenne" target="wirthin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="svenne|conrad" source="svenne" target="conrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="svenne|andreas" source="svenne" target="andreas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="svenne|johannes" source="svenne" target="johannes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babe|flyns" source="babe" target="flyns">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babe|hooge" source="babe" target="hooge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babe|alle_bauern" source="babe" target="alle_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babe|wirthin" source="babe" target="wirthin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babe|conrad" source="babe" target="conrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babe|andreas" source="babe" target="andreas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babe|johannes" source="babe" target="johannes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flyns|hooge" source="flyns" target="hooge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flyns|alle_bauern" source="flyns" target="alle_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flyns|wirthin" source="flyns" target="wirthin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flyns|conrad" source="flyns" target="conrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flyns|andreas" source="flyns" target="andreas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flyns|johannes" source="flyns" target="johannes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hooge|alle_bauern" source="hooge" target="alle_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hooge|wirthin" source="hooge" target="wirthin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hooge|conrad" source="hooge" target="conrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hooge|andreas" source="hooge" target="andreas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hooge|johannes" source="hooge" target="johannes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_bauern|wirthin" source="alle_bauern" target="wirthin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_bauern|conrad" source="alle_bauern" target="conrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_bauern|andreas" source="alle_bauern" target="andreas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_bauern|johannes" source="alle_bauern" target="johannes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirthin|conrad" source="wirthin" target="conrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirthin|andreas" source="wirthin" target="andreas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirthin|johannes" source="wirthin" target="johannes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="conrad|andreas" source="conrad" target="andreas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="conrad|johannes" source="conrad" target="johannes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas|johannes" source="andreas" target="johannes">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

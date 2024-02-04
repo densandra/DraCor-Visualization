@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="lucentio">
+            <data key="label">Lucentio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_1-1">
+            <data key="label">Chor (I/1)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="baptista">
+            <data key="label">Baptista</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="katharine">
+            <data key="label">Katharine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nachbarinnen">
+            <data key="label">Nachbarinnen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="bianca">
+            <data key="label">Bianca</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hortensio">
+            <data key="label">Hortensio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="petruchio">
+            <data key="label">Petruchio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="grumio">
+            <data key="label">Grumio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_hinter_der_szene_2-3">
+            <data key="label">Chor hinter der Szene (II/3)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_3-1">
+            <data key="label">Chor (III/1)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_3-5">
+            <data key="label">Chor (III/5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="haushofmeister">
+            <data key="label">Haushofmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="haushaelterin">
+            <data key="label">Haushälterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_alle_3-6">
+            <data key="label">Chor/Alle (III/6)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_der_diener_4-1">
+            <data key="label">Chor der Diener (IV/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="schneider">
+            <data key="label">Schneider</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hortensios_frau">
+            <data key="label">Hortensios Frau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_4-6">
+            <data key="label">Chor (IV/6)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="hortensio" target="hortensios_frau">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="baptista" target="katharine">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="baptista" target="bianca">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="lucentio" target="bianca">
+            <data key="relation">lover_of</data>
+        </edge>
+        <edge id="5" directed="false" source="grumio" target="petruchio">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="haushofmeister" target="schneider">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

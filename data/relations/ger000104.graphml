@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="baeuerin">
+            <data key="label">Bäuerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tine">
+            <data key="label">Tine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bauer">
+            <data key="label">Bauer Ephraim</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="viehhaendler_blumig">
+            <data key="label">Viehhändler Blumig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="breite">
+            <data key="label">Breite</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ernst">
+            <data key="label">Ernst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="joseph">
+            <data key="label">Joseph Schindler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="beckern">
+            <data key="label">Die Zottelbeckern</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wirtin">
+            <data key="label">Wirtin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kretschmer">
+            <data key="label">Kretschmer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="huhndorf">
+            <data key="label">Huhndorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_beiden_arbeiter">
+            <data key="label">Die beiden Arbeiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="wirt">
+            <data key="label">Wirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schindlern">
+            <data key="label">Die alte Schindlern</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="franzel">
+            <data key="label">Franzel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hildebrandt">
+            <data key="label">Bauer Hildebrandt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einige_2-3">
+            <data key="label">Einige (II/3)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="mattern">
+            <data key="label">Die alte Mattern</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="junge">
+            <data key="label">Junge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einige_maedchen">
+            <data key="label">Einige Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_junger_bursche">
+            <data key="label">Ein junger Bursche</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einige_andere">
+            <data key="label">Einige/Andere</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="frau_glumm">
+            <data key="label">Frau Glumm</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_kretschmer">
+            <data key="label">Frau Kretschmer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einige_burschen">
+            <data key="label">Einige Burschen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="frau_hildebrandt">
+            <data key="label">Frau Hildebrandt</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vater_jakob">
+            <data key="label">Vater Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="baeuerin" target="bauer">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="wirt" target="wirtin">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="bauer" target="breite">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="baeuerin" target="breite">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="bauer" target="ernst">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="baeuerin" target="ernst">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="7" directed="false" source="schindlern" target="joseph">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

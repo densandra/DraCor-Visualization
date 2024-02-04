@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="klara">
+            <data key="label">Klara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3730</data>
+        </node>
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1159</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1390</data>
+        </node>
+        <node id="leonhard">
+            <data key="label">Leonhard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2404</data>
+        </node>
+        <node id="meister_anton">
+            <data key="label">Meister Anton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4497</data>
+        </node>
+        <node id="adam">
+            <data key="label">Adam</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">163</data>
+        </node>
+        <node id="zweiter_gerichtsdiener">
+            <data key="label">Zweiter Gerichtsdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="eine_magd">
+            <data key="label">Eine Magd</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="wolfram">
+            <data key="label">Wolfram</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">606</data>
+        </node>
+        <node id="sekretaer">
+            <data key="label">Sekretär</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1759</data>
+        </node>
+        <node id="ein_knabe">
+            <data key="label">Ein Knabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <edge id="klara|mutter" source="klara" target="mutter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="klara|karl" source="klara" target="karl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klara|leonhard" source="klara" target="leonhard">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="klara|meister_anton" source="klara" target="meister_anton">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="klara|adam" source="klara" target="adam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|zweiter_gerichtsdiener" source="klara" target="zweiter_gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|eine_magd" source="klara" target="eine_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|wolfram" source="klara" target="wolfram">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|sekretaer" source="klara" target="sekretaer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klara|ein_knabe" source="klara" target="ein_knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|karl" source="mutter" target="karl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|meister_anton" source="mutter" target="meister_anton">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mutter|leonhard" source="mutter" target="leonhard">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mutter|adam" source="mutter" target="adam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|zweiter_gerichtsdiener" source="mutter" target="zweiter_gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|eine_magd" source="mutter" target="eine_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|meister_anton" source="karl" target="meister_anton">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|sekretaer" source="karl" target="sekretaer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonhard|meister_anton" source="leonhard" target="meister_anton">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leonhard|adam" source="leonhard" target="adam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonhard|zweiter_gerichtsdiener" source="leonhard" target="zweiter_gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonhard|eine_magd" source="leonhard" target="eine_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonhard|ein_knabe" source="leonhard" target="ein_knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonhard|sekretaer" source="leonhard" target="sekretaer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meister_anton|adam" source="meister_anton" target="adam">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meister_anton|zweiter_gerichtsdiener" source="meister_anton" target="zweiter_gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meister_anton|eine_magd" source="meister_anton" target="eine_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="meister_anton|sekretaer" source="meister_anton" target="sekretaer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adam|zweiter_gerichtsdiener" source="adam" target="zweiter_gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adam|eine_magd" source="adam" target="eine_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_gerichtsdiener|eine_magd" source="zweiter_gerichtsdiener" target="eine_magd">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

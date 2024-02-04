@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="frau_giselius">
+            <data key="label">Frau Giselius</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="professor_giselius">
+            <data key="label">Professor Giselius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="babette">
+            <data key="label">Babette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="coelestine">
+            <data key="label">Cölestine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dr_appel">
+            <data key="label">Dr. Appel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lottchen">
+            <data key="label">Lottchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="frau_giselius" target="professor_giselius">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="coelestine" target="professor_giselius">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="professor_giselius" target="lottchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="frau_giselius" target="lottchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="babette" target="professor_giselius">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

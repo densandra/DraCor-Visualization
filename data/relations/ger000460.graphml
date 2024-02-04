@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="carbo">
+            <data key="label">Carbo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kleon">
+            <data key="label">Kleon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="agricola">
+            <data key="label">Agricola</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="euporus">
+            <data key="label">Euporus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="laetorius">
+            <data key="label">Lätorius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="volk">
+            <data key="label">Volk/Volkshaufe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="cornelia">
+            <data key="label">Cornelia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="licinnia">
+            <data key="label">Licinnia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pomponius">
+            <data key="label">Pomponius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="metellus">
+            <data key="label">Metellus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="opimius">
+            <data key="label">Opimius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="drusus">
+            <data key="label">Drusus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lictor_1">
+            <data key="label">Lictor (I. Aufzug)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gracchus">
+            <data key="label">Gracchus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="senat_senatoren">
+            <data key="label">Senat/Die Senatoren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="aulus">
+            <data key="label">Aulus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rufus">
+            <data key="label">Rufus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sklavin">
+            <data key="label">Sklavin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="scipio">
+            <data key="label">Scipio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lictor_3">
+            <data key="label">Lictor (III. Aufzug)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_sclave">
+            <data key="label">Der Sclave</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lictor_5">
+            <data key="label">Lictor (V. Aufzug)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="buerger">
+            <data key="label">Bürger</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="gracchus" target="licinnia">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="pomponius" target="gracchus">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="3" directed="false" source="cornelia" target="gracchus">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="metellus" target="aulus">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="metellus" target="rufus">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="euporus" target="gracchus">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="der_sclave" target="scipio">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

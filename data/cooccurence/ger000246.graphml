@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="medea">
+            <data key="label">Medea</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1592</data>
+        </node>
+        <node id="hofmeisterin">
+            <data key="label">Hofmeisterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">67</data>
+        </node>
+        <node id="der_juengere">
+            <data key="label">Der Jüngere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="der_aeltere">
+            <data key="label">Der Ältere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="jason">
+            <data key="label">Jason</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">135</data>
+        </node>
+        <edge id="medea|hofmeisterin" source="medea" target="hofmeisterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|der_juengere" source="medea" target="der_juengere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|der_aeltere" source="medea" target="der_aeltere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|jason" source="medea" target="jason">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofmeisterin|der_juengere" source="hofmeisterin" target="der_juengere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofmeisterin|der_aeltere" source="hofmeisterin" target="der_aeltere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_juengere|der_aeltere" source="der_juengere" target="der_aeltere">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

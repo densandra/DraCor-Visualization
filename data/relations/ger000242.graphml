@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="faust">
+            <data key="label">Faust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mephistopheles">
+            <data key="label">Mephistopheles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wohlhaldt">
+            <data key="label">Wohlhaldt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wagner">
+            <data key="label">Wagner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kaylinger">
+            <data key="label">Kaylinger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="moor">
+            <data key="label">Moor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="roeschen">
+            <data key="label">Röschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="franz">
+            <data key="label">Franz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="kunigunde">
+            <data key="label">Kunigunde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gulf">
+            <data key="label">Gulf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hugo">
+            <data key="label">Hugo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="knappe">
+            <data key="label">Knappe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kunigundens_dienerin">
+            <data key="label">Kunigundens Dienerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hugos_begleiter">
+            <data key="label">Begleiter von Hugo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_der_geister">
+            <data key="label">Chor der Geister</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="eine_hexe">
+            <data key="label">Eine Hexe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sycorax">
+            <data key="label">Sycorax</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hexen">
+            <data key="label">Hexen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="drei_hexen">
+            <data key="label">Drei Hexen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="hochzeitsgaeste">
+            <data key="label">Hochzeitsgäste</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_der_maenner">
+            <data key="label">Chor der Männer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="kunigunde" target="hugo">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="faust" target="wohlhaldt">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="3" directed="false" source="faust" target="wagner">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="4" directed="false" source="faust" target="moor">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="5" directed="false" source="faust" target="kaylinger">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="6" directed="false" source="knappe" target="hugo">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="kunigundens_dienerin" target="kunigunde">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

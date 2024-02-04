@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="werner_wahrsagerin">
+            <data key="label">Werner/Wahrsagerin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2551</data>
+        </node>
+        <node id="ehlert">
+            <data key="label">Ehlert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">790</data>
+        </node>
+        <node id="rothmann">
+            <data key="label">Rothmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">897</data>
+        </node>
+        <node id="ahlfeld">
+            <data key="label">Ahlfeld</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2216</data>
+        </node>
+        <node id="walther">
+            <data key="label">Walther</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">47</data>
+        </node>
+        <node id="julie">
+            <data key="label">Julie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">432</data>
+        </node>
+        <node id="dornberg">
+            <data key="label">Dornberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">510</data>
+        </node>
+        <node id="berger">
+            <data key="label">Berger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">68</data>
+        </node>
+        <node id="wagemann">
+            <data key="label">Wagemann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">228</data>
+        </node>
+        <node id="baeckerknecht">
+            <data key="label">Bäckerknecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">133</data>
+        </node>
+        <edge id="werner_wahrsagerin|ehlert" source="werner_wahrsagerin" target="ehlert">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="werner_wahrsagerin|rothmann" source="werner_wahrsagerin" target="rothmann">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="werner_wahrsagerin|ahlfeld" source="werner_wahrsagerin" target="ahlfeld">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="werner_wahrsagerin|julie" source="werner_wahrsagerin" target="julie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="werner_wahrsagerin|dornberg" source="werner_wahrsagerin" target="dornberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="werner_wahrsagerin|wagemann" source="werner_wahrsagerin" target="wagemann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="werner_wahrsagerin|walther" source="werner_wahrsagerin" target="walther">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner_wahrsagerin|baeckerknecht" source="werner_wahrsagerin" target="baeckerknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ehlert|rothmann" source="ehlert" target="rothmann">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="ehlert|ahlfeld" source="ehlert" target="ahlfeld">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ehlert|julie" source="ehlert" target="julie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ehlert|dornberg" source="ehlert" target="dornberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ehlert|wagemann" source="ehlert" target="wagemann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ehlert|walther" source="ehlert" target="walther">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ehlert|berger" source="ehlert" target="berger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rothmann|ahlfeld" source="rothmann" target="ahlfeld">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="rothmann|julie" source="rothmann" target="julie">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="rothmann|wagemann" source="rothmann" target="wagemann">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="rothmann|dornberg" source="rothmann" target="dornberg">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="rothmann|walther" source="rothmann" target="walther">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rothmann|berger" source="rothmann" target="berger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ahlfeld|walther" source="ahlfeld" target="walther">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ahlfeld|julie" source="ahlfeld" target="julie">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="ahlfeld|dornberg" source="ahlfeld" target="dornberg">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="ahlfeld|berger" source="ahlfeld" target="berger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ahlfeld|wagemann" source="ahlfeld" target="wagemann">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ahlfeld|baeckerknecht" source="ahlfeld" target="baeckerknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|berger" source="walther" target="berger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|dornberg" source="walther" target="dornberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walther|julie" source="walther" target="julie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walther|wagemann" source="walther" target="wagemann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|dornberg" source="julie" target="dornberg">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="julie|berger" source="julie" target="berger">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="julie|wagemann" source="julie" target="wagemann">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="dornberg|berger" source="dornberg" target="berger">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="dornberg|wagemann" source="dornberg" target="wagemann">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="berger|wagemann" source="berger" target="wagemann">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

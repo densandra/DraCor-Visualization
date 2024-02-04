@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="nero">
+            <data key="label">Nero</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5758</data>
+        </node>
+        <node id="lukanus">
+            <data key="label">Lukanus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="erstes_maedchen">
+            <data key="label">Erstes Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">77</data>
+        </node>
+        <node id="zweites_maedchen">
+            <data key="label">Zweites Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="andere_alle_maedchen">
+            <data key="label">Andere/Alle Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="drittes_maedchen">
+            <data key="label">Drittes Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="montanus">
+            <data key="label">Montanus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="terpnus">
+            <data key="label">Terpnus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="akte">
+            <data key="label">Akte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">437</data>
+        </node>
+        <node id="zenturjo_1-1">
+            <data key="label">Zenturjo (I/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="seneka">
+            <data key="label">Seneka</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">134</data>
+        </node>
+        <node id="burrus">
+            <data key="label">Burrus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1124</data>
+        </node>
+        <node id="tigellinus">
+            <data key="label">Tigellinus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2982</data>
+        </node>
+        <node id="erster_christjanus">
+            <data key="label">Erster Christjanus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">46</data>
+        </node>
+        <node id="alle_uebrigen_die_andern">
+            <data key="label">Alle Übrigen/Die Andern</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="erster_leichentraeger">
+            <data key="label">Erster Leichenträger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">40</data>
+        </node>
+        <node id="zweite_christjana">
+            <data key="label">Zweite Christjana</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">73</data>
+        </node>
+        <node id="erste_christjana">
+            <data key="label">Erste Christjana</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">58</data>
+        </node>
+        <node id="dritte_christjana">
+            <data key="label">Dritte Christjana</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">59</data>
+        </node>
+        <node id="zweiter_leichentraeger">
+            <data key="label">Zweiter Leichenträger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">41</data>
+        </node>
+        <node id="dritter_leichentraeger">
+            <data key="label">Dritter Leichenträger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">113</data>
+        </node>
+        <node id="einer_vom_dritten_transport">
+            <data key="label">Einer vom dritten Transport</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="ein_maedchen">
+            <data key="label">Ein Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">112</data>
+        </node>
+        <node id="erster_bote">
+            <data key="label">Erster Bote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="zweiter_bote">
+            <data key="label">Zweiter Bote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">77</data>
+        </node>
+        <node id="euelpius">
+            <data key="label">Euelpius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">169</data>
+        </node>
+        <node id="zweiter_christjanus">
+            <data key="label">Zweiter Christjanus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="kurio">
+            <data key="label">Kurio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">213</data>
+        </node>
+        <node id="bewafneter">
+            <data key="label">Bewafneter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">67</data>
+        </node>
+        <node id="zenturjo_3">
+            <data key="label">Zenturjo (III)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">216</data>
+        </node>
+        <node id="die_truppen">
+            <data key="label">Die Truppen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">54</data>
+        </node>
+        <node id="epaphroditus">
+            <data key="label">Epaphroditus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">249</data>
+        </node>
+        <node id="nymphidius">
+            <data key="label">Nymphidius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">92</data>
+        </node>
+        <node id="kosroes">
+            <data key="label">Kosroës</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">112</data>
+        </node>
+        <node id="erster_begleiter">
+            <data key="label">Erster Begleiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">32</data>
+        </node>
+        <node id="zweiter_begleiter">
+            <data key="label">Zweiter Begleiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="flavus">
+            <data key="label">Flavus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">76</data>
+        </node>
+        <node id="zenturjo_4">
+            <data key="label">Zenturjo (IV)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">60</data>
+        </node>
+        <node id="die_stimme">
+            <data key="label">Die Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="soldat">
+            <data key="label">Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="charmis">
+            <data key="label">Charmis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">437</data>
+        </node>
+        <node id="doryphoros">
+            <data key="label">Doryphoros</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">655</data>
+        </node>
+        <node id="augustjani">
+            <data key="label">Augustjani</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="erster_roemer">
+            <data key="label">Erster Römer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">183</data>
+        </node>
+        <node id="zweiter_roemer">
+            <data key="label">Zweiter Römer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">66</data>
+        </node>
+        <node id="dritter_roemer">
+            <data key="label">Dritter Römer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">86</data>
+        </node>
+        <node id="erster_jude">
+            <data key="label">Erster Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">61</data>
+        </node>
+        <node id="zweiter_jude">
+            <data key="label">Zweiter Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">139</data>
+        </node>
+        <node id="hasta">
+            <data key="label">Hasta</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">604</data>
+        </node>
+        <node id="zenturjo_5-2a">
+            <data key="label">Zenturjo (V/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="zenturjo_5-2b">
+            <data key="label">Zenturjo (V/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="spaeher">
+            <data key="label">Späher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">102</data>
+        </node>
+        <node id="sporus">
+            <data key="label">Sporus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">94</data>
+        </node>
+        <node id="phaon">
+            <data key="label">Phaon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">41</data>
+        </node>
+        <node id="erster_zenturjo_5-3">
+            <data key="label">Erster Zenturjo (V/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">56</data>
+        </node>
+        <node id="praetor">
+            <data key="label">Prätor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">69</data>
+        </node>
+        <edge id="nero|lukanus" source="nero" target="lukanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|erstes_maedchen" source="nero" target="erstes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|zweites_maedchen" source="nero" target="zweites_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|andere_alle_maedchen" source="nero" target="andere_alle_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|drittes_maedchen" source="nero" target="drittes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|montanus" source="nero" target="montanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|terpnus" source="nero" target="terpnus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|akte" source="nero" target="akte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nero|zenturjo_1-1" source="nero" target="zenturjo_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|seneka" source="nero" target="seneka">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|burrus" source="nero" target="burrus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|tigellinus" source="nero" target="tigellinus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="nero|kurio" source="nero" target="kurio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|bewafneter" source="nero" target="bewafneter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|zenturjo_3" source="nero" target="zenturjo_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|die_truppen" source="nero" target="die_truppen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|epaphroditus" source="nero" target="epaphroditus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nero|nymphidius" source="nero" target="nymphidius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nero|kosroes" source="nero" target="kosroes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|erster_begleiter" source="nero" target="erster_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|zweiter_begleiter" source="nero" target="zweiter_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|flavus" source="nero" target="flavus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|zenturjo_4" source="nero" target="zenturjo_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|die_stimme" source="nero" target="die_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|soldat" source="nero" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|charmis" source="nero" target="charmis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|hasta" source="nero" target="hasta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|zenturjo_5-2a" source="nero" target="zenturjo_5-2a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|zenturjo_5-2b" source="nero" target="zenturjo_5-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|spaeher" source="nero" target="spaeher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|sporus" source="nero" target="sporus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|phaon" source="nero" target="phaon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|erster_zenturjo_5-3" source="nero" target="erster_zenturjo_5-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nero|praetor" source="nero" target="praetor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lukanus|erstes_maedchen" source="lukanus" target="erstes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lukanus|zweites_maedchen" source="lukanus" target="zweites_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lukanus|andere_alle_maedchen" source="lukanus" target="andere_alle_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lukanus|drittes_maedchen" source="lukanus" target="drittes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lukanus|montanus" source="lukanus" target="montanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lukanus|terpnus" source="lukanus" target="terpnus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lukanus|akte" source="lukanus" target="akte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lukanus|zenturjo_1-1" source="lukanus" target="zenturjo_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedchen|zweites_maedchen" source="erstes_maedchen" target="zweites_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedchen|andere_alle_maedchen" source="erstes_maedchen" target="andere_alle_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedchen|drittes_maedchen" source="erstes_maedchen" target="drittes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedchen|montanus" source="erstes_maedchen" target="montanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedchen|terpnus" source="erstes_maedchen" target="terpnus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedchen|akte" source="erstes_maedchen" target="akte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erstes_maedchen|zenturjo_1-1" source="erstes_maedchen" target="zenturjo_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedchen|andere_alle_maedchen" source="zweites_maedchen" target="andere_alle_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedchen|drittes_maedchen" source="zweites_maedchen" target="drittes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedchen|montanus" source="zweites_maedchen" target="montanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedchen|terpnus" source="zweites_maedchen" target="terpnus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedchen|akte" source="zweites_maedchen" target="akte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweites_maedchen|zenturjo_1-1" source="zweites_maedchen" target="zenturjo_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andere_alle_maedchen|drittes_maedchen" source="andere_alle_maedchen" target="drittes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andere_alle_maedchen|montanus" source="andere_alle_maedchen" target="montanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andere_alle_maedchen|terpnus" source="andere_alle_maedchen" target="terpnus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andere_alle_maedchen|akte" source="andere_alle_maedchen" target="akte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andere_alle_maedchen|zenturjo_1-1" source="andere_alle_maedchen" target="zenturjo_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drittes_maedchen|montanus" source="drittes_maedchen" target="montanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drittes_maedchen|terpnus" source="drittes_maedchen" target="terpnus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drittes_maedchen|akte" source="drittes_maedchen" target="akte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drittes_maedchen|zenturjo_1-1" source="drittes_maedchen" target="zenturjo_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="montanus|terpnus" source="montanus" target="terpnus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="montanus|akte" source="montanus" target="akte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="montanus|zenturjo_1-1" source="montanus" target="zenturjo_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="terpnus|akte" source="terpnus" target="akte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="terpnus|zenturjo_1-1" source="terpnus" target="zenturjo_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="akte|zenturjo_1-1" source="akte" target="zenturjo_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="akte|zenturjo_4" source="akte" target="zenturjo_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="akte|die_stimme" source="akte" target="die_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="akte|soldat" source="akte" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="akte|tigellinus" source="akte" target="tigellinus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="akte|charmis" source="akte" target="charmis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seneka|burrus" source="seneka" target="burrus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seneka|tigellinus" source="seneka" target="tigellinus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burrus|tigellinus" source="burrus" target="tigellinus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|kurio" source="tigellinus" target="kurio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|bewafneter" source="tigellinus" target="bewafneter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|zenturjo_3" source="tigellinus" target="zenturjo_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|die_truppen" source="tigellinus" target="die_truppen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|epaphroditus" source="tigellinus" target="epaphroditus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tigellinus|nymphidius" source="tigellinus" target="nymphidius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tigellinus|kosroes" source="tigellinus" target="kosroes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|erster_begleiter" source="tigellinus" target="erster_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|zweiter_begleiter" source="tigellinus" target="zweiter_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|flavus" source="tigellinus" target="flavus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|zenturjo_4" source="tigellinus" target="zenturjo_4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|die_stimme" source="tigellinus" target="die_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|soldat" source="tigellinus" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|charmis" source="tigellinus" target="charmis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|hasta" source="tigellinus" target="hasta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|zenturjo_5-2a" source="tigellinus" target="zenturjo_5-2a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|zenturjo_5-2b" source="tigellinus" target="zenturjo_5-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|spaeher" source="tigellinus" target="spaeher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tigellinus|sporus" source="tigellinus" target="sporus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_christjanus|alle_uebrigen_die_andern" source="erster_christjanus" target="alle_uebrigen_die_andern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_christjanus|erster_leichentraeger" source="erster_christjanus" target="erster_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_christjanus|zweite_christjana" source="erster_christjanus" target="zweite_christjana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_christjanus|erste_christjana" source="erster_christjanus" target="erste_christjana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_christjanus|dritte_christjana" source="erster_christjanus" target="dritte_christjana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_christjanus|zweiter_leichentraeger" source="erster_christjanus" target="zweiter_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_christjanus|dritter_leichentraeger" source="erster_christjanus" target="dritter_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_christjanus|einer_vom_dritten_transport" source="erster_christjanus" target="einer_vom_dritten_transport">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_christjanus|ein_maedchen" source="erster_christjanus" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_christjanus|erster_bote" source="erster_christjanus" target="erster_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_christjanus|zweiter_bote" source="erster_christjanus" target="zweiter_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_christjanus|euelpius" source="erster_christjanus" target="euelpius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_christjanus|zweiter_christjanus" source="erster_christjanus" target="zweiter_christjanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_uebrigen_die_andern|erster_leichentraeger" source="alle_uebrigen_die_andern" target="erster_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_uebrigen_die_andern|zweite_christjana" source="alle_uebrigen_die_andern" target="zweite_christjana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_uebrigen_die_andern|erste_christjana" source="alle_uebrigen_die_andern" target="erste_christjana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_uebrigen_die_andern|dritte_christjana" source="alle_uebrigen_die_andern" target="dritte_christjana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_uebrigen_die_andern|zweiter_leichentraeger" source="alle_uebrigen_die_andern" target="zweiter_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_uebrigen_die_andern|dritter_leichentraeger" source="alle_uebrigen_die_andern" target="dritter_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_uebrigen_die_andern|einer_vom_dritten_transport" source="alle_uebrigen_die_andern" target="einer_vom_dritten_transport">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_uebrigen_die_andern|ein_maedchen" source="alle_uebrigen_die_andern" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_uebrigen_die_andern|erster_bote" source="alle_uebrigen_die_andern" target="erster_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_uebrigen_die_andern|zweiter_bote" source="alle_uebrigen_die_andern" target="zweiter_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_uebrigen_die_andern|euelpius" source="alle_uebrigen_die_andern" target="euelpius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_uebrigen_die_andern|zweiter_christjanus" source="alle_uebrigen_die_andern" target="zweiter_christjanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_leichentraeger|zweite_christjana" source="erster_leichentraeger" target="zweite_christjana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_leichentraeger|erste_christjana" source="erster_leichentraeger" target="erste_christjana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_leichentraeger|dritte_christjana" source="erster_leichentraeger" target="dritte_christjana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_leichentraeger|zweiter_leichentraeger" source="erster_leichentraeger" target="zweiter_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_leichentraeger|dritter_leichentraeger" source="erster_leichentraeger" target="dritter_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_leichentraeger|einer_vom_dritten_transport" source="erster_leichentraeger" target="einer_vom_dritten_transport">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_leichentraeger|ein_maedchen" source="erster_leichentraeger" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_leichentraeger|erster_bote" source="erster_leichentraeger" target="erster_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_leichentraeger|zweiter_bote" source="erster_leichentraeger" target="zweiter_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_leichentraeger|euelpius" source="erster_leichentraeger" target="euelpius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_leichentraeger|zweiter_christjanus" source="erster_leichentraeger" target="zweiter_christjanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_christjana|erste_christjana" source="zweite_christjana" target="erste_christjana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_christjana|dritte_christjana" source="zweite_christjana" target="dritte_christjana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_christjana|zweiter_leichentraeger" source="zweite_christjana" target="zweiter_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_christjana|dritter_leichentraeger" source="zweite_christjana" target="dritter_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_christjana|einer_vom_dritten_transport" source="zweite_christjana" target="einer_vom_dritten_transport">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_christjana|ein_maedchen" source="zweite_christjana" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_christjana|erster_bote" source="zweite_christjana" target="erster_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_christjana|zweiter_bote" source="zweite_christjana" target="zweiter_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_christjana|euelpius" source="zweite_christjana" target="euelpius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_christjana|zweiter_christjanus" source="zweite_christjana" target="zweiter_christjanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_christjana|dritte_christjana" source="erste_christjana" target="dritte_christjana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_christjana|zweiter_leichentraeger" source="erste_christjana" target="zweiter_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_christjana|dritter_leichentraeger" source="erste_christjana" target="dritter_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_christjana|einer_vom_dritten_transport" source="erste_christjana" target="einer_vom_dritten_transport">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_christjana|ein_maedchen" source="erste_christjana" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_christjana|erster_bote" source="erste_christjana" target="erster_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_christjana|zweiter_bote" source="erste_christjana" target="zweiter_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_christjana|euelpius" source="erste_christjana" target="euelpius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_christjana|zweiter_christjanus" source="erste_christjana" target="zweiter_christjanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_christjana|zweiter_leichentraeger" source="dritte_christjana" target="zweiter_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_christjana|dritter_leichentraeger" source="dritte_christjana" target="dritter_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_christjana|einer_vom_dritten_transport" source="dritte_christjana" target="einer_vom_dritten_transport">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_christjana|ein_maedchen" source="dritte_christjana" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_christjana|erster_bote" source="dritte_christjana" target="erster_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_christjana|zweiter_bote" source="dritte_christjana" target="zweiter_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_christjana|euelpius" source="dritte_christjana" target="euelpius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_christjana|zweiter_christjanus" source="dritte_christjana" target="zweiter_christjanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_leichentraeger|dritter_leichentraeger" source="zweiter_leichentraeger" target="dritter_leichentraeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_leichentraeger|einer_vom_dritten_transport" source="zweiter_leichentraeger" target="einer_vom_dritten_transport">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_leichentraeger|ein_maedchen" source="zweiter_leichentraeger" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_leichentraeger|erster_bote" source="zweiter_leichentraeger" target="erster_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_leichentraeger|zweiter_bote" source="zweiter_leichentraeger" target="zweiter_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_leichentraeger|euelpius" source="zweiter_leichentraeger" target="euelpius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_leichentraeger|zweiter_christjanus" source="zweiter_leichentraeger" target="zweiter_christjanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_leichentraeger|einer_vom_dritten_transport" source="dritter_leichentraeger" target="einer_vom_dritten_transport">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_leichentraeger|ein_maedchen" source="dritter_leichentraeger" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_leichentraeger|erster_bote" source="dritter_leichentraeger" target="erster_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_leichentraeger|zweiter_bote" source="dritter_leichentraeger" target="zweiter_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_leichentraeger|euelpius" source="dritter_leichentraeger" target="euelpius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_leichentraeger|zweiter_christjanus" source="dritter_leichentraeger" target="zweiter_christjanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_vom_dritten_transport|ein_maedchen" source="einer_vom_dritten_transport" target="ein_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_vom_dritten_transport|erster_bote" source="einer_vom_dritten_transport" target="erster_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_vom_dritten_transport|zweiter_bote" source="einer_vom_dritten_transport" target="zweiter_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_vom_dritten_transport|euelpius" source="einer_vom_dritten_transport" target="euelpius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_vom_dritten_transport|zweiter_christjanus" source="einer_vom_dritten_transport" target="zweiter_christjanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_maedchen|erster_bote" source="ein_maedchen" target="erster_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_maedchen|zweiter_bote" source="ein_maedchen" target="zweiter_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_maedchen|euelpius" source="ein_maedchen" target="euelpius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_maedchen|zweiter_christjanus" source="ein_maedchen" target="zweiter_christjanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_bote|zweiter_bote" source="erster_bote" target="zweiter_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_bote|euelpius" source="erster_bote" target="euelpius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_bote|zweiter_christjanus" source="erster_bote" target="zweiter_christjanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_bote|euelpius" source="zweiter_bote" target="euelpius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_bote|zweiter_christjanus" source="zweiter_bote" target="zweiter_christjanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="euelpius|zweiter_christjanus" source="euelpius" target="zweiter_christjanus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurio|bewafneter" source="kurio" target="bewafneter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurio|zenturjo_3" source="kurio" target="zenturjo_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurio|die_truppen" source="kurio" target="die_truppen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurio|epaphroditus" source="kurio" target="epaphroditus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurio|nymphidius" source="kurio" target="nymphidius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurio|kosroes" source="kurio" target="kosroes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurio|erster_begleiter" source="kurio" target="erster_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurio|zweiter_begleiter" source="kurio" target="zweiter_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurio|flavus" source="kurio" target="flavus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bewafneter|zenturjo_3" source="bewafneter" target="zenturjo_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bewafneter|die_truppen" source="bewafneter" target="die_truppen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bewafneter|epaphroditus" source="bewafneter" target="epaphroditus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bewafneter|nymphidius" source="bewafneter" target="nymphidius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bewafneter|kosroes" source="bewafneter" target="kosroes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bewafneter|erster_begleiter" source="bewafneter" target="erster_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bewafneter|zweiter_begleiter" source="bewafneter" target="zweiter_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bewafneter|flavus" source="bewafneter" target="flavus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_3|die_truppen" source="zenturjo_3" target="die_truppen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_3|epaphroditus" source="zenturjo_3" target="epaphroditus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_3|nymphidius" source="zenturjo_3" target="nymphidius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_3|kosroes" source="zenturjo_3" target="kosroes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_3|erster_begleiter" source="zenturjo_3" target="erster_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_3|zweiter_begleiter" source="zenturjo_3" target="zweiter_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_3|flavus" source="zenturjo_3" target="flavus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_truppen|epaphroditus" source="die_truppen" target="epaphroditus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_truppen|nymphidius" source="die_truppen" target="nymphidius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_truppen|kosroes" source="die_truppen" target="kosroes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_truppen|erster_begleiter" source="die_truppen" target="erster_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_truppen|zweiter_begleiter" source="die_truppen" target="zweiter_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_truppen|flavus" source="die_truppen" target="flavus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaphroditus|nymphidius" source="epaphroditus" target="nymphidius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="epaphroditus|kosroes" source="epaphroditus" target="kosroes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaphroditus|erster_begleiter" source="epaphroditus" target="erster_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaphroditus|zweiter_begleiter" source="epaphroditus" target="zweiter_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaphroditus|flavus" source="epaphroditus" target="flavus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaphroditus|hasta" source="epaphroditus" target="hasta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaphroditus|zenturjo_5-2a" source="epaphroditus" target="zenturjo_5-2a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaphroditus|zenturjo_5-2b" source="epaphroditus" target="zenturjo_5-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaphroditus|spaeher" source="epaphroditus" target="spaeher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaphroditus|sporus" source="epaphroditus" target="sporus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaphroditus|phaon" source="epaphroditus" target="phaon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaphroditus|erster_zenturjo_5-3" source="epaphroditus" target="erster_zenturjo_5-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epaphroditus|praetor" source="epaphroditus" target="praetor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nymphidius|kosroes" source="nymphidius" target="kosroes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nymphidius|erster_begleiter" source="nymphidius" target="erster_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nymphidius|zweiter_begleiter" source="nymphidius" target="zweiter_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nymphidius|flavus" source="nymphidius" target="flavus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nymphidius|hasta" source="nymphidius" target="hasta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nymphidius|zenturjo_5-2a" source="nymphidius" target="zenturjo_5-2a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nymphidius|zenturjo_5-2b" source="nymphidius" target="zenturjo_5-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nymphidius|spaeher" source="nymphidius" target="spaeher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nymphidius|sporus" source="nymphidius" target="sporus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kosroes|erster_begleiter" source="kosroes" target="erster_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kosroes|zweiter_begleiter" source="kosroes" target="zweiter_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kosroes|flavus" source="kosroes" target="flavus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_begleiter|zweiter_begleiter" source="erster_begleiter" target="zweiter_begleiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_begleiter|flavus" source="erster_begleiter" target="flavus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_begleiter|flavus" source="zweiter_begleiter" target="flavus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_4|die_stimme" source="zenturjo_4" target="die_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_4|soldat" source="zenturjo_4" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_4|charmis" source="zenturjo_4" target="charmis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_stimme|soldat" source="die_stimme" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_stimme|charmis" source="die_stimme" target="charmis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soldat|charmis" source="soldat" target="charmis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doryphoros|augustjani" source="doryphoros" target="augustjani">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doryphoros|erster_roemer" source="doryphoros" target="erster_roemer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doryphoros|zweiter_roemer" source="doryphoros" target="zweiter_roemer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doryphoros|dritter_roemer" source="doryphoros" target="dritter_roemer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doryphoros|erster_jude" source="doryphoros" target="erster_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doryphoros|zweiter_jude" source="doryphoros" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="augustjani|erster_roemer" source="augustjani" target="erster_roemer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="augustjani|zweiter_roemer" source="augustjani" target="zweiter_roemer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="augustjani|dritter_roemer" source="augustjani" target="dritter_roemer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="augustjani|erster_jude" source="augustjani" target="erster_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="augustjani|zweiter_jude" source="augustjani" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_roemer|zweiter_roemer" source="erster_roemer" target="zweiter_roemer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_roemer|dritter_roemer" source="erster_roemer" target="dritter_roemer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_roemer|erster_jude" source="erster_roemer" target="erster_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_roemer|zweiter_jude" source="erster_roemer" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_roemer|dritter_roemer" source="zweiter_roemer" target="dritter_roemer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_roemer|erster_jude" source="zweiter_roemer" target="erster_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_roemer|zweiter_jude" source="zweiter_roemer" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_roemer|erster_jude" source="dritter_roemer" target="erster_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_roemer|zweiter_jude" source="dritter_roemer" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_jude|zweiter_jude" source="erster_jude" target="zweiter_jude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hasta|zenturjo_5-2a" source="hasta" target="zenturjo_5-2a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hasta|zenturjo_5-2b" source="hasta" target="zenturjo_5-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hasta|spaeher" source="hasta" target="spaeher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hasta|sporus" source="hasta" target="sporus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_5-2a|zenturjo_5-2b" source="zenturjo_5-2a" target="zenturjo_5-2b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_5-2a|spaeher" source="zenturjo_5-2a" target="spaeher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_5-2a|sporus" source="zenturjo_5-2a" target="sporus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_5-2b|spaeher" source="zenturjo_5-2b" target="spaeher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturjo_5-2b|sporus" source="zenturjo_5-2b" target="sporus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spaeher|sporus" source="spaeher" target="sporus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phaon|erster_zenturjo_5-3" source="phaon" target="erster_zenturjo_5-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phaon|praetor" source="phaon" target="praetor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_zenturjo_5-3|praetor" source="erster_zenturjo_5-3" target="praetor">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

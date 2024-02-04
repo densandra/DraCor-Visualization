@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="levi">
+            <data key="label">Levi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">719</data>
+        </node>
+        <node id="soliman">
+            <data key="label">Soliman</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3062</data>
+        </node>
+        <node id="mehmed">
+            <data key="label">Mehmed</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1405</data>
+        </node>
+        <node id="ali">
+            <data key="label">Ali</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">557</data>
+        </node>
+        <node id="mustafa">
+            <data key="label">Mustafa</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">281</data>
+        </node>
+        <node id="der_begler_beg">
+            <data key="label">Der Begler Beg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">144</data>
+        </node>
+        <node id="aga">
+            <data key="label">Aga</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="der_bote">
+            <data key="label">Der Bote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">99</data>
+        </node>
+        <node id="eva">
+            <data key="label">Eva</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1767</data>
+        </node>
+        <node id="helene">
+            <data key="label">Helene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1976</data>
+        </node>
+        <node id="zriny">
+            <data key="label">Zriny</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4873</data>
+        </node>
+        <node id="alapi">
+            <data key="label">Alapi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">592</data>
+        </node>
+        <node id="paprutowitsch">
+            <data key="label">Paprutowitsch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">348</data>
+        </node>
+        <node id="bauer">
+            <data key="label">Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">358</data>
+        </node>
+        <node id="juranitsch">
+            <data key="label">Juranitsch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1643</data>
+        </node>
+        <node id="scherenk">
+            <data key="label">Scherenk</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">531</data>
+        </node>
+        <node id="alle_hauptleute">
+            <data key="label">Alle Hauptleute</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="vilacky">
+            <data key="label">Vilacky</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">940</data>
+        </node>
+        <node id="alle_2">
+            <data key="label">Alle (II. Akt)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="die_maenner">
+            <data key="label">Die Männer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="alle_5">
+            <data key="label">Alle (V. Akt)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <edge id="levi|soliman" source="levi" target="soliman">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="levi|mehmed" source="levi" target="mehmed">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="levi|mustafa" source="levi" target="mustafa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="levi|der_begler_beg" source="levi" target="der_begler_beg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soliman|mehmed" source="soliman" target="mehmed">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="soliman|ali" source="soliman" target="ali">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="soliman|mustafa" source="soliman" target="mustafa">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="soliman|der_begler_beg" source="soliman" target="der_begler_beg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="soliman|aga" source="soliman" target="aga">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soliman|der_bote" source="soliman" target="der_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soliman|vilacky" source="soliman" target="vilacky">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehmed|ali" source="mehmed" target="ali">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="mehmed|mustafa" source="mehmed" target="mustafa">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="mehmed|der_begler_beg" source="mehmed" target="der_begler_beg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mehmed|vilacky" source="mehmed" target="vilacky">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehmed|hauptmann" source="mehmed" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehmed|zriny" source="mehmed" target="zriny">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ali|mustafa" source="ali" target="mustafa">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="ali|der_begler_beg" source="ali" target="der_begler_beg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mustafa|der_begler_beg" source="mustafa" target="der_begler_beg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="aga|der_bote" source="aga" target="der_bote">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|helene" source="eva" target="helene">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="eva|zriny" source="eva" target="zriny">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="eva|paprutowitsch" source="eva" target="paprutowitsch">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="eva|bauer" source="eva" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|alapi" source="eva" target="alapi">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="eva|juranitsch" source="eva" target="juranitsch">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="eva|scherenk" source="eva" target="scherenk">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eva|alle_hauptleute" source="eva" target="alle_hauptleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|vilacky" source="eva" target="vilacky">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eva|die_maenner" source="eva" target="die_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|alle_5" source="eva" target="alle_5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|zriny" source="helene" target="zriny">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="helene|paprutowitsch" source="helene" target="paprutowitsch">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="helene|bauer" source="helene" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|alapi" source="helene" target="alapi">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="helene|juranitsch" source="helene" target="juranitsch">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="helene|scherenk" source="helene" target="scherenk">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="helene|alle_hauptleute" source="helene" target="alle_hauptleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|vilacky" source="helene" target="vilacky">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="helene|die_maenner" source="helene" target="die_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zriny|alapi" source="zriny" target="alapi">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="zriny|paprutowitsch" source="zriny" target="paprutowitsch">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="zriny|bauer" source="zriny" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zriny|juranitsch" source="zriny" target="juranitsch">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="zriny|scherenk" source="zriny" target="scherenk">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="zriny|alle_hauptleute" source="zriny" target="alle_hauptleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zriny|vilacky" source="zriny" target="vilacky">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="zriny|alle_2" source="zriny" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zriny|hauptmann" source="zriny" target="hauptmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zriny|die_maenner" source="zriny" target="die_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zriny|alle_5" source="zriny" target="alle_5">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alapi|paprutowitsch" source="alapi" target="paprutowitsch">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="alapi|bauer" source="alapi" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alapi|juranitsch" source="alapi" target="juranitsch">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="alapi|alle_hauptleute" source="alapi" target="alle_hauptleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alapi|vilacky" source="alapi" target="vilacky">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="alapi|alle_2" source="alapi" target="alle_2">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alapi|hauptmann" source="alapi" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alapi|die_maenner" source="alapi" target="die_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alapi|alle_5" source="alapi" target="alle_5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paprutowitsch|bauer" source="paprutowitsch" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paprutowitsch|juranitsch" source="paprutowitsch" target="juranitsch">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="paprutowitsch|alle_hauptleute" source="paprutowitsch" target="alle_hauptleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paprutowitsch|vilacky" source="paprutowitsch" target="vilacky">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="paprutowitsch|alle_2" source="paprutowitsch" target="alle_2">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="paprutowitsch|die_maenner" source="paprutowitsch" target="die_maenner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juranitsch|alle_hauptleute" source="juranitsch" target="alle_hauptleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juranitsch|vilacky" source="juranitsch" target="vilacky">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="juranitsch|alle_2" source="juranitsch" target="alle_2">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="juranitsch|scherenk" source="juranitsch" target="scherenk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juranitsch|alle_5" source="juranitsch" target="alle_5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vilacky|alle_2" source="vilacky" target="alle_2">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

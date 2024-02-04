@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="frau_john">
+            <data key="label">Frau John</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_piperkarcka">
+            <data key="label">Die Piperkarcka</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bruno">
+            <data key="label">Bruno</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="walburga">
+            <data key="label">Walburga</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="direktor_hassenreuter">
+            <data key="label">Direktor Hassenreuter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nathanael_jettel">
+            <data key="label">Nathanael Jettel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alice_ruetterbusch">
+            <data key="label">Alice Rütterbusch</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="spitta">
+            <data key="label">Spitta</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="john">
+            <data key="label">John</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="selma">
+            <data key="label">Selma</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_direktor_hassenreuter">
+            <data key="label">Frau Direktor Hassenreuter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kaeferstein">
+            <data key="label">Käferstein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dr_kegel">
+            <data key="label">Dr. Kegel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="quaquaro">
+            <data key="label">Quaquaro</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pastor_spitta">
+            <data key="label">Pastor Spitta</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_kielbacke">
+            <data key="label">Frau Kielbacke</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schierke">
+            <data key="label">Schierke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_knobbe">
+            <data key="label">Frau Knobbe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="direktor_hassenreuter" target="frau_direktor_hassenreuter">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="john" target="frau_john">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="frau_john" target="bruno">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="4" directed="false" source="direktor_hassenreuter" target="walburga">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="frau_direktor_hassenreuter" target="walburga">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="pastor_spitta" target="spitta">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="7" directed="false" source="frau_knobbe" target="selma">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

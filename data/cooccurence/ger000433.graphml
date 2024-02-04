@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="chor_der_frauen">
+            <data key="label">Chor der Frauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">53</data>
+        </node>
+        <node id="die_ritter">
+            <data key="label">(Chor der) Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">106</data>
+        </node>
+        <node id="koenig">
+            <data key="label">König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">297</data>
+        </node>
+        <node id="adolar">
+            <data key="label">Adolar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1218</data>
+        </node>
+        <node id="lysiart">
+            <data key="label">Lysiart</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">996</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">769</data>
+        </node>
+        <node id="euryanthe">
+            <data key="label">Euryanthe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1493</data>
+        </node>
+        <node id="eglantine">
+            <data key="label">Eglantine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">803</data>
+        </node>
+        <node id="die_landleute">
+            <data key="label">(Chor der) Landleute</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">81</data>
+        </node>
+        <node id="rudolf">
+            <data key="label">Rudolf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="bertha">
+            <data key="label">Bertha</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">140</data>
+        </node>
+        <node id="chor_der_jaeger">
+            <data key="label">Chor der Jäger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <edge id="chor_der_frauen|die_ritter" source="chor_der_frauen" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_frauen|koenig" source="chor_der_frauen" target="koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_frauen|adolar" source="chor_der_frauen" target="adolar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_der_frauen|lysiart" source="chor_der_frauen" target="lysiart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_ritter|koenig" source="die_ritter" target="koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_ritter|adolar" source="die_ritter" target="adolar">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_ritter|lysiart" source="die_ritter" target="lysiart">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_ritter|die_landleute" source="die_ritter" target="die_landleute">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_ritter|euryanthe" source="die_ritter" target="euryanthe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_ritter|eglantine" source="die_ritter" target="eglantine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_ritter|chor" source="die_ritter" target="chor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_ritter|rudolf" source="die_ritter" target="rudolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|adolar" source="koenig" target="adolar">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="koenig|lysiart" source="koenig" target="lysiart">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="koenig|chor" source="koenig" target="chor">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="koenig|euryanthe" source="koenig" target="euryanthe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenig|eglantine" source="koenig" target="eglantine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|chor_der_jaeger" source="koenig" target="chor_der_jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adolar|lysiart" source="adolar" target="lysiart">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="adolar|chor" source="adolar" target="chor">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="adolar|euryanthe" source="adolar" target="euryanthe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="adolar|die_landleute" source="adolar" target="die_landleute">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adolar|bertha" source="adolar" target="bertha">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adolar|eglantine" source="adolar" target="eglantine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adolar|chor_der_jaeger" source="adolar" target="chor_der_jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lysiart|chor" source="lysiart" target="chor">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lysiart|die_landleute" source="lysiart" target="die_landleute">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lysiart|euryanthe" source="lysiart" target="euryanthe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lysiart|eglantine" source="lysiart" target="eglantine">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lysiart|rudolf" source="lysiart" target="rudolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lysiart|chor_der_jaeger" source="lysiart" target="chor_der_jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|die_landleute" source="chor" target="die_landleute">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor|euryanthe" source="chor" target="euryanthe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="chor|eglantine" source="chor" target="eglantine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="chor|rudolf" source="chor" target="rudolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|bertha" source="chor" target="bertha">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor|chor_der_jaeger" source="chor" target="chor_der_jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="euryanthe|eglantine" source="euryanthe" target="eglantine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="euryanthe|die_landleute" source="euryanthe" target="die_landleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="euryanthe|rudolf" source="euryanthe" target="rudolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eglantine|die_landleute" source="eglantine" target="die_landleute">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eglantine|rudolf" source="eglantine" target="rudolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eglantine|chor_der_jaeger" source="eglantine" target="chor_der_jaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_landleute|rudolf" source="die_landleute" target="rudolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_landleute|bertha" source="die_landleute" target="bertha">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

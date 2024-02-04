@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="tong">
+            <data key="label">Tong</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">975</data>
+        </node>
+        <node id="haitang">
+            <data key="label">Haitang</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4644</data>
+        </node>
+        <node id="frau_tschang">
+            <data key="label">Frau Tschang</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">383</data>
+        </node>
+        <node id="tschang-ling">
+            <data key="label">Tschang-ling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1711</data>
+        </node>
+        <node id="prinz_pao_kaiser">
+            <data key="label">Prinz Pao (späterer Kaiser)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2116</data>
+        </node>
+        <node id="ma">
+            <data key="label">Ma</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1139</data>
+        </node>
+        <node id="frau_ma">
+            <data key="label">Frau Ma</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1686</data>
+        </node>
+        <node id="tschao">
+            <data key="label">Tschao</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">854</data>
+        </node>
+        <node id="ein_polizist">
+            <data key="label">Ein Polizist</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="tschu">
+            <data key="label">Tschu</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1245</data>
+        </node>
+        <node id="hebamme">
+            <data key="label">Hebamme</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">411</data>
+        </node>
+        <node id="zwei_kulis">
+            <data key="label">Zwei Kulis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">268</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="kurier">
+            <data key="label">Kurier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="soldaten">
+            <data key="label">Soldaten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">107</data>
+        </node>
+        <node id="erster_soldat">
+            <data key="label">Erster Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">350</data>
+        </node>
+        <node id="zweiter_soldat">
+            <data key="label">Zweiter Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">162</data>
+        </node>
+        <node id="dritter_soldat">
+            <data key="label">Dritter Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">98</data>
+        </node>
+        <node id="vierter_soldat">
+            <data key="label">Vierter Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="wirt">
+            <data key="label">Wirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">80</data>
+        </node>
+        <node id="dichter">
+            <data key="label">Dichter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">106</data>
+        </node>
+        <node id="zeremonienmeister">
+            <data key="label">Zeremonienmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <edge id="tong|haitang" source="tong" target="haitang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tong|frau_tschang" source="tong" target="frau_tschang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tong|tschang-ling" source="tong" target="tschang-ling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tong|prinz_pao_kaiser" source="tong" target="prinz_pao_kaiser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tong|ma" source="tong" target="ma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haitang|frau_tschang" source="haitang" target="frau_tschang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haitang|tschang-ling" source="haitang" target="tschang-ling">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="haitang|prinz_pao_kaiser" source="haitang" target="prinz_pao_kaiser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="haitang|ma" source="haitang" target="ma">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="haitang|frau_ma" source="haitang" target="frau_ma">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="haitang|tschao" source="haitang" target="tschao">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="haitang|ein_polizist" source="haitang" target="ein_polizist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haitang|tschu" source="haitang" target="tschu">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="haitang|hebamme" source="haitang" target="hebamme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haitang|zwei_kulis" source="haitang" target="zwei_kulis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haitang|diener" source="haitang" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haitang|kurier" source="haitang" target="kurier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haitang|soldaten" source="haitang" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haitang|erster_soldat" source="haitang" target="erster_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haitang|zweiter_soldat" source="haitang" target="zweiter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haitang|dritter_soldat" source="haitang" target="dritter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haitang|vierter_soldat" source="haitang" target="vierter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haitang|wirt" source="haitang" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haitang|dichter" source="haitang" target="dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haitang|zeremonienmeister" source="haitang" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_tschang|tschang-ling" source="frau_tschang" target="tschang-ling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_tschang|prinz_pao_kaiser" source="frau_tschang" target="prinz_pao_kaiser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_tschang|ma" source="frau_tschang" target="ma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschang-ling|prinz_pao_kaiser" source="tschang-ling" target="prinz_pao_kaiser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tschang-ling|ma" source="tschang-ling" target="ma">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tschang-ling|frau_ma" source="tschang-ling" target="frau_ma">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tschang-ling|tschao" source="tschang-ling" target="tschao">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tschang-ling|ein_polizist" source="tschang-ling" target="ein_polizist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschang-ling|tschu" source="tschang-ling" target="tschu">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tschang-ling|hebamme" source="tschang-ling" target="hebamme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschang-ling|zwei_kulis" source="tschang-ling" target="zwei_kulis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschang-ling|diener" source="tschang-ling" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschang-ling|kurier" source="tschang-ling" target="kurier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschang-ling|soldaten" source="tschang-ling" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschang-ling|erster_soldat" source="tschang-ling" target="erster_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschang-ling|zweiter_soldat" source="tschang-ling" target="zweiter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschang-ling|dritter_soldat" source="tschang-ling" target="dritter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschang-ling|vierter_soldat" source="tschang-ling" target="vierter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschang-ling|wirt" source="tschang-ling" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschang-ling|dichter" source="tschang-ling" target="dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschang-ling|zeremonienmeister" source="tschang-ling" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_pao_kaiser|ma" source="prinz_pao_kaiser" target="ma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_pao_kaiser|dichter" source="prinz_pao_kaiser" target="dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_pao_kaiser|zeremonienmeister" source="prinz_pao_kaiser" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_pao_kaiser|tschao" source="prinz_pao_kaiser" target="tschao">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_pao_kaiser|frau_ma" source="prinz_pao_kaiser" target="frau_ma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinz_pao_kaiser|tschu" source="prinz_pao_kaiser" target="tschu">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ma|frau_ma" source="ma" target="frau_ma">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ma|tschao" source="ma" target="tschao">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ma|ein_polizist" source="ma" target="ein_polizist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ma|tschao" source="frau_ma" target="tschao">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_ma|ein_polizist" source="frau_ma" target="ein_polizist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ma|tschu" source="frau_ma" target="tschu">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_ma|hebamme" source="frau_ma" target="hebamme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ma|zwei_kulis" source="frau_ma" target="zwei_kulis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ma|diener" source="frau_ma" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ma|kurier" source="frau_ma" target="kurier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ma|dichter" source="frau_ma" target="dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_ma|zeremonienmeister" source="frau_ma" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschao|ein_polizist" source="tschao" target="ein_polizist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschao|tschu" source="tschao" target="tschu">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tschao|hebamme" source="tschao" target="hebamme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschao|zwei_kulis" source="tschao" target="zwei_kulis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschao|diener" source="tschao" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschao|kurier" source="tschao" target="kurier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschao|dichter" source="tschao" target="dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschao|zeremonienmeister" source="tschao" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschu|hebamme" source="tschu" target="hebamme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschu|zwei_kulis" source="tschu" target="zwei_kulis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschu|diener" source="tschu" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschu|kurier" source="tschu" target="kurier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschu|dichter" source="tschu" target="dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tschu|zeremonienmeister" source="tschu" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hebamme|zwei_kulis" source="hebamme" target="zwei_kulis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hebamme|diener" source="hebamme" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hebamme|kurier" source="hebamme" target="kurier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zwei_kulis|diener" source="zwei_kulis" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zwei_kulis|kurier" source="zwei_kulis" target="kurier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|kurier" source="diener" target="kurier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soldaten|erster_soldat" source="soldaten" target="erster_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soldaten|zweiter_soldat" source="soldaten" target="zweiter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soldaten|dritter_soldat" source="soldaten" target="dritter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soldaten|vierter_soldat" source="soldaten" target="vierter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soldaten|wirt" source="soldaten" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|zweiter_soldat" source="erster_soldat" target="zweiter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|dritter_soldat" source="erster_soldat" target="dritter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|vierter_soldat" source="erster_soldat" target="vierter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_soldat|wirt" source="erster_soldat" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_soldat|dritter_soldat" source="zweiter_soldat" target="dritter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_soldat|vierter_soldat" source="zweiter_soldat" target="vierter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_soldat|wirt" source="zweiter_soldat" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_soldat|vierter_soldat" source="dritter_soldat" target="vierter_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_soldat|wirt" source="dritter_soldat" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_soldat|wirt" source="vierter_soldat" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dichter|zeremonienmeister" source="dichter" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

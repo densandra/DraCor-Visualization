@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="jungfer_luischen">
+            <data key="label">Jungfer Luischen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cathrine">
+            <data key="label">Cathrine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_glaubeleichtin">
+            <data key="label">Frau Glaubeleichtin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jungfer_dorchen">
+            <data key="label">Jungfer Dorchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_wackermann">
+            <data key="label">Herr Wackermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_liebmann">
+            <data key="label">Herr Liebmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_scheinfromm">
+            <data key="label">Herr Scheinfromm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_bettelsackin">
+            <data key="label">Frau Bettelsackin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_von_muckersdorff">
+            <data key="label">Herr von Muckersdorff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_zanckenheimin">
+            <data key="label">Frau Zanckenheimin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_seuffzerin">
+            <data key="label">Frau Seuffzerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_diener">
+            <data key="label">Der Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_ehrlichen">
+            <data key="label">Frau Ehrlichen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jacob">
+            <data key="label">Jacob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_glaubeleicht">
+            <data key="label">Herr Glaubeleicht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_advocat">
+            <data key="label">Der Advocat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="frau_glaubeleichtin" target="herr_glaubeleicht">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="jungfer_dorchen" target="jungfer_luischen">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="herr_liebmann" target="jungfer_luischen">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="4" directed="false" source="herr_glaubeleicht" target="herr_wackermann">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="5" directed="false" source="herr_glaubeleicht" target="jungfer_dorchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="herr_von_muckersdorff" target="herr_scheinfromm">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="7" directed="false" source="cathrine" target="frau_glaubeleichtin">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

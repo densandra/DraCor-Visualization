@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="abellino">
+            <data key="label">Abellino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="matteo">
+            <data key="label">Matteo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="doge">
+            <data key="label">Doge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dandolo">
+            <data key="label">Dandolo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="canari">
+            <data key="label">Canari</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="iduella">
+            <data key="label">Iduella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rosamunde">
+            <data key="label">Rosamunde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="flodoardo">
+            <data key="label">Flodoardo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="parozzi">
+            <data key="label">Parozzi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="memmo">
+            <data key="label">Memmo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="falieri">
+            <data key="label">Falieri</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="contarino">
+            <data key="label">Contarino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tolomeo">
+            <data key="label">Tolomeo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_senator">
+            <data key="label">Ein Senator</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_5-2">
+            <data key="label">Alle (V/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_verschwornen">
+            <data key="label">Die Verschwornen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="rosamunde" target="doge">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="2" directed="false" source="iduella" target="rosamunde">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

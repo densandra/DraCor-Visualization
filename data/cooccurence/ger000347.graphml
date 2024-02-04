@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="agneta">
+            <data key="label">Agneta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3661</data>
+        </node>
+        <node id="susanna">
+            <data key="label">Susanna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1616</data>
+        </node>
+        <node id="zwo_maegde">
+            <data key="label">Zwo Mägde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="sittenreich">
+            <data key="label">Sittenreich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3271</data>
+        </node>
+        <node id="grobian">
+            <data key="label">Grobian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4394</data>
+        </node>
+        <node id="ehrenwehrt">
+            <data key="label">Ehrenwehrt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1169</data>
+        </node>
+        <node id="carolina">
+            <data key="label">Carolina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">725</data>
+        </node>
+        <node id="charlotte">
+            <data key="label">Charlotte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1137</data>
+        </node>
+        <node id="gutherz">
+            <data key="label">Gutherz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1412</data>
+        </node>
+        <edge id="agneta|susanna" source="agneta" target="susanna">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="agneta|zwo_maegde" source="agneta" target="zwo_maegde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agneta|sittenreich" source="agneta" target="sittenreich">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="agneta|grobian" source="agneta" target="grobian">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="agneta|charlotte" source="agneta" target="charlotte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agneta|gutherz" source="agneta" target="gutherz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="agneta|ehrenwehrt" source="agneta" target="ehrenwehrt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agneta|carolina" source="agneta" target="carolina">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="susanna|zwo_maegde" source="susanna" target="zwo_maegde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanna|sittenreich" source="susanna" target="sittenreich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="susanna|grobian" source="susanna" target="grobian">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="susanna|charlotte" source="susanna" target="charlotte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="susanna|gutherz" source="susanna" target="gutherz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="susanna|ehrenwehrt" source="susanna" target="ehrenwehrt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanna|carolina" source="susanna" target="carolina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sittenreich|grobian" source="sittenreich" target="grobian">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="sittenreich|ehrenwehrt" source="sittenreich" target="ehrenwehrt">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="sittenreich|carolina" source="sittenreich" target="carolina">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="sittenreich|charlotte" source="sittenreich" target="charlotte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sittenreich|gutherz" source="sittenreich" target="gutherz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="grobian|ehrenwehrt" source="grobian" target="ehrenwehrt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grobian|carolina" source="grobian" target="carolina">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="grobian|charlotte" source="grobian" target="charlotte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grobian|gutherz" source="grobian" target="gutherz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ehrenwehrt|carolina" source="ehrenwehrt" target="carolina">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="ehrenwehrt|gutherz" source="ehrenwehrt" target="gutherz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ehrenwehrt|charlotte" source="ehrenwehrt" target="charlotte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="carolina|gutherz" source="carolina" target="gutherz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carolina|charlotte" source="carolina" target="charlotte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="charlotte|gutherz" source="charlotte" target="gutherz">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="lukas">
+            <data key="label">Lukas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">402</data>
+        </node>
+        <node id="vinzenz">
+            <data key="label">Vinzenz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">660</data>
+        </node>
+        <node id="hans_karl">
+            <data key="label">Hans Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6648</data>
+        </node>
+        <node id="crescence">
+            <data key="label">Crescence</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2905</data>
+        </node>
+        <node id="neugebauer">
+            <data key="label">Sekretär Neugebauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">335</data>
+        </node>
+        <node id="agathe">
+            <data key="label">Agathe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">766</data>
+        </node>
+        <node id="stani">
+            <data key="label">Stani</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3643</data>
+        </node>
+        <node id="neuhoff">
+            <data key="label">Neuhoff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1952</data>
+        </node>
+        <node id="altenwyl">
+            <data key="label">Altenwyl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">386</data>
+        </node>
+        <node id="helene">
+            <data key="label">Helene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1939</data>
+        </node>
+        <node id="edine">
+            <data key="label">Edine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">828</data>
+        </node>
+        <node id="der_beruehmte_mann">
+            <data key="label">Der berühmte Mann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">630</data>
+        </node>
+        <node id="antoinette">
+            <data key="label">Antoinette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2098</data>
+        </node>
+        <node id="huberta">
+            <data key="label">Huberta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">155</data>
+        </node>
+        <node id="nanni">
+            <data key="label">Nanni</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">127</data>
+        </node>
+        <node id="kammerdiener">
+            <data key="label">Kammerdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">133</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="hechingen">
+            <data key="label">Hechingen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1479</data>
+        </node>
+        <edge id="lukas|vinzenz" source="lukas" target="vinzenz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lukas|hans_karl" source="lukas" target="hans_karl">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lukas|crescence" source="lukas" target="crescence">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lukas|neugebauer" source="lukas" target="neugebauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lukas|stani" source="lukas" target="stani">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vinzenz|hans_karl" source="vinzenz" target="hans_karl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="vinzenz|stani" source="vinzenz" target="stani">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vinzenz|hechingen" source="vinzenz" target="hechingen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vinzenz|crescence" source="vinzenz" target="crescence">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans_karl|crescence" source="hans_karl" target="crescence">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="hans_karl|neugebauer" source="hans_karl" target="neugebauer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hans_karl|agathe" source="hans_karl" target="agathe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hans_karl|stani" source="hans_karl" target="stani">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="hans_karl|neuhoff" source="hans_karl" target="neuhoff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hans_karl|altenwyl" source="hans_karl" target="altenwyl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans_karl|helene" source="hans_karl" target="helene">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hans_karl|edine" source="hans_karl" target="edine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans_karl|antoinette" source="hans_karl" target="antoinette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hans_karl|der_beruehmte_mann" source="hans_karl" target="der_beruehmte_mann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hans_karl|hechingen" source="hans_karl" target="hechingen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="crescence|neugebauer" source="crescence" target="neugebauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crescence|stani" source="crescence" target="stani">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="crescence|altenwyl" source="crescence" target="altenwyl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crescence|neuhoff" source="crescence" target="neuhoff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crescence|helene" source="crescence" target="helene">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="crescence|edine" source="crescence" target="edine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crescence|antoinette" source="crescence" target="antoinette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crescence|huberta" source="crescence" target="huberta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crescence|der_beruehmte_mann" source="crescence" target="der_beruehmte_mann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crescence|hechingen" source="crescence" target="hechingen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="agathe|stani" source="agathe" target="stani">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stani|neuhoff" source="stani" target="neuhoff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stani|kammerdiener" source="stani" target="kammerdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stani|diener" source="stani" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stani|hechingen" source="stani" target="hechingen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="neuhoff|altenwyl" source="neuhoff" target="altenwyl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neuhoff|helene" source="neuhoff" target="helene">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="neuhoff|edine" source="neuhoff" target="edine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="neuhoff|der_beruehmte_mann" source="neuhoff" target="der_beruehmte_mann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="neuhoff|antoinette" source="neuhoff" target="antoinette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="altenwyl|helene" source="altenwyl" target="helene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="altenwyl|edine" source="altenwyl" target="edine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|edine" source="helene" target="edine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|antoinette" source="helene" target="antoinette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|der_beruehmte_mann" source="helene" target="der_beruehmte_mann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="helene|kammerdiener" source="helene" target="kammerdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="edine|der_beruehmte_mann" source="edine" target="der_beruehmte_mann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="edine|antoinette" source="edine" target="antoinette">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="edine|huberta" source="edine" target="huberta">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="edine|nanni" source="edine" target="nanni">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_beruehmte_mann|antoinette" source="der_beruehmte_mann" target="antoinette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_beruehmte_mann|kammerdiener" source="der_beruehmte_mann" target="kammerdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antoinette|huberta" source="antoinette" target="huberta">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="antoinette|nanni" source="antoinette" target="nanni">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="antoinette|hechingen" source="antoinette" target="hechingen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antoinette|kammerdiener" source="antoinette" target="kammerdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="huberta|nanni" source="huberta" target="nanni">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kammerdiener|diener" source="kammerdiener" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kammerdiener|hechingen" source="kammerdiener" target="hechingen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="diener|hechingen" source="diener" target="hechingen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="geront">
+            <data key="label">Geront</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">591</data>
+        </node>
+        <node id="dorinde">
+            <data key="label">Dorinde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">520</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">760</data>
+        </node>
+        <node id="murgon">
+            <data key="label">Murgon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">314</data>
+        </node>
+        <node id="leander">
+            <data key="label">Leander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">108</data>
+        </node>
+        <node id="ilse_agnes">
+            <data key="label">Ilse Agnes</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="notarius">
+            <data key="label">Notarius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">37</data>
+        </node>
+        <edge id="geront|dorinde" source="geront" target="dorinde">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="geront|lisette" source="geront" target="lisette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="geront|murgon" source="geront" target="murgon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="geront|leander" source="geront" target="leander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geront|notarius" source="geront" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geront|ilse_agnes" source="geront" target="ilse_agnes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dorinde|lisette" source="dorinde" target="lisette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="dorinde|murgon" source="dorinde" target="murgon">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="dorinde|leander" source="dorinde" target="leander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dorinde|notarius" source="dorinde" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dorinde|ilse_agnes" source="dorinde" target="ilse_agnes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisette|murgon" source="lisette" target="murgon">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lisette|ilse_agnes" source="lisette" target="ilse_agnes">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lisette|notarius" source="lisette" target="notarius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lisette|leander" source="lisette" target="leander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="murgon|leander" source="murgon" target="leander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="murgon|ilse_agnes" source="murgon" target="ilse_agnes">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="murgon|notarius" source="murgon" target="notarius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leander|notarius" source="leander" target="notarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leander|ilse_agnes" source="leander" target="ilse_agnes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ilse_agnes|notarius" source="ilse_agnes" target="notarius">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

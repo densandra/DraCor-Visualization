@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="heymon">
+            <data key="label">Heymon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">406</data>
+        </node>
+        <node id="martin">
+            <data key="label">Martin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">139</data>
+        </node>
+        <node id="konrad">
+            <data key="label">Konrad</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">572</data>
+        </node>
+        <node id="klaus">
+            <data key="label">Klaus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2226</data>
+        </node>
+        <node id="ratgeber">
+            <data key="label">Ratgeber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">794</data>
+        </node>
+        <node id="ein_ritter">
+            <data key="label">Ein Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="agnes">
+            <data key="label">Agnes</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3890</data>
+        </node>
+        <node id="anne">
+            <data key="label">Anne</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1168</data>
+        </node>
+        <node id="anton">
+            <data key="label">Anton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">387</data>
+        </node>
+        <node id="leopold">
+            <data key="label">Leopold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">726</data>
+        </node>
+        <node id="simon">
+            <data key="label">Simon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2152</data>
+        </node>
+        <node id="arzt">
+            <data key="label">Arzt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">507</data>
+        </node>
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2448</data>
+        </node>
+        <node id="knecht_1-3a">
+            <data key="label">Knecht (I/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="knechte">
+            <data key="label">Knechte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="ein_knecht_1-3b">
+            <data key="label">Ein Knecht (I/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="ein_knecht_1-3c">
+            <data key="label">Ein Knecht (I/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="brigitte">
+            <data key="label">Brigitte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">291</data>
+        </node>
+        <node id="hans">
+            <data key="label">Hans</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1331</data>
+        </node>
+        <node id="kaspar">
+            <data key="label">Kaspar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">671</data>
+        </node>
+        <node id="knecht_2-1">
+            <data key="label">Knecht (II/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="mechthilde">
+            <data key="label">Mechthilde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">928</data>
+        </node>
+        <node id="chor_3-1">
+            <data key="label">Chor (III/1)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">75</data>
+        </node>
+        <node id="chor_3-2">
+            <data key="label">Chor (III/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="reinhold">
+            <data key="label">Reinhold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">182</data>
+        </node>
+        <edge id="heymon|martin" source="heymon" target="martin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heymon|konrad" source="heymon" target="konrad">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heymon|klaus" source="heymon" target="klaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heymon|ratgeber" source="heymon" target="ratgeber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heymon|ein_ritter" source="heymon" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heymon|peter" source="heymon" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heymon|knecht_1-3a" source="heymon" target="knecht_1-3a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heymon|knechte" source="heymon" target="knechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heymon|ein_knecht_1-3b" source="heymon" target="ein_knecht_1-3b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heymon|ein_knecht_1-3c" source="heymon" target="ein_knecht_1-3c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martin|konrad" source="martin" target="konrad">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="martin|klaus" source="martin" target="klaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="martin|ratgeber" source="martin" target="ratgeber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martin|ein_ritter" source="martin" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martin|peter" source="martin" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martin|knecht_1-3a" source="martin" target="knecht_1-3a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martin|knechte" source="martin" target="knechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martin|ein_knecht_1-3b" source="martin" target="ein_knecht_1-3b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martin|ein_knecht_1-3c" source="martin" target="ein_knecht_1-3c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="konrad|klaus" source="konrad" target="klaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="konrad|ratgeber" source="konrad" target="ratgeber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="konrad|ein_ritter" source="konrad" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="konrad|peter" source="konrad" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="konrad|knecht_1-3a" source="konrad" target="knecht_1-3a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="konrad|knechte" source="konrad" target="knechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="konrad|ein_knecht_1-3b" source="konrad" target="ein_knecht_1-3b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="konrad|ein_knecht_1-3c" source="konrad" target="ein_knecht_1-3c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|ratgeber" source="klaus" target="ratgeber">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="klaus|ein_ritter" source="klaus" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|peter" source="klaus" target="peter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klaus|knecht_1-3a" source="klaus" target="knecht_1-3a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|knechte" source="klaus" target="knechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|ein_knecht_1-3b" source="klaus" target="ein_knecht_1-3b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|ein_knecht_1-3c" source="klaus" target="ein_knecht_1-3c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|mechthilde" source="klaus" target="mechthilde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="klaus|agnes" source="klaus" target="agnes">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="klaus|anne" source="klaus" target="anne">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="klaus|chor_3-1" source="klaus" target="chor_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|simon" source="klaus" target="simon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|anton" source="klaus" target="anton">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|leopold" source="klaus" target="leopold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|brigitte" source="klaus" target="brigitte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|hans" source="klaus" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klaus|reinhold" source="klaus" target="reinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratgeber|ein_ritter" source="ratgeber" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratgeber|mechthilde" source="ratgeber" target="mechthilde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ratgeber|agnes" source="ratgeber" target="agnes">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ratgeber|peter" source="ratgeber" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratgeber|anne" source="ratgeber" target="anne">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ratgeber|chor_3-1" source="ratgeber" target="chor_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratgeber|simon" source="ratgeber" target="simon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratgeber|anton" source="ratgeber" target="anton">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratgeber|leopold" source="ratgeber" target="leopold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratgeber|brigitte" source="ratgeber" target="brigitte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratgeber|hans" source="ratgeber" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratgeber|reinhold" source="ratgeber" target="reinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|anne" source="agnes" target="anne">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="agnes|anton" source="agnes" target="anton">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="agnes|leopold" source="agnes" target="leopold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agnes|simon" source="agnes" target="simon">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="agnes|arzt" source="agnes" target="arzt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agnes|peter" source="agnes" target="peter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="agnes|hans" source="agnes" target="hans">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="agnes|mechthilde" source="agnes" target="mechthilde">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="agnes|chor_3-1" source="agnes" target="chor_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|brigitte" source="agnes" target="brigitte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|reinhold" source="agnes" target="reinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anne|anton" source="anne" target="anton">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="anne|leopold" source="anne" target="leopold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anne|simon" source="anne" target="simon">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="anne|arzt" source="anne" target="arzt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anne|peter" source="anne" target="peter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="anne|hans" source="anne" target="hans">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="anne|mechthilde" source="anne" target="mechthilde">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="anne|chor_3-1" source="anne" target="chor_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anne|brigitte" source="anne" target="brigitte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anne|reinhold" source="anne" target="reinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|leopold" source="anton" target="leopold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anton|simon" source="anton" target="simon">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="anton|arzt" source="anton" target="arzt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anton|peter" source="anton" target="peter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anton|hans" source="anton" target="hans">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="anton|brigitte" source="anton" target="brigitte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|reinhold" source="anton" target="reinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leopold|simon" source="leopold" target="simon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leopold|arzt" source="leopold" target="arzt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leopold|brigitte" source="leopold" target="brigitte">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leopold|hans" source="leopold" target="hans">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leopold|kaspar" source="leopold" target="kaspar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leopold|knecht_2-1" source="leopold" target="knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leopold|chor_3-2" source="leopold" target="chor_3-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leopold|reinhold" source="leopold" target="reinhold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="simon|arzt" source="simon" target="arzt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="simon|peter" source="simon" target="peter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="simon|hans" source="simon" target="hans">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="simon|brigitte" source="simon" target="brigitte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|reinhold" source="simon" target="reinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arzt|peter" source="arzt" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arzt|hans" source="arzt" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|knecht_1-3a" source="peter" target="knecht_1-3a">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|knechte" source="peter" target="knechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|ein_knecht_1-3b" source="peter" target="ein_knecht_1-3b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|ein_knecht_1-3c" source="peter" target="ein_knecht_1-3c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|hans" source="peter" target="hans">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="peter|mechthilde" source="peter" target="mechthilde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="peter|chor_3-1" source="peter" target="chor_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht_1-3a|knechte" source="knecht_1-3a" target="knechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht_1-3a|ein_knecht_1-3b" source="knecht_1-3a" target="ein_knecht_1-3b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knecht_1-3a|ein_knecht_1-3c" source="knecht_1-3a" target="ein_knecht_1-3c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knechte|ein_knecht_1-3b" source="knechte" target="ein_knecht_1-3b">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knechte|ein_knecht_1-3c" source="knechte" target="ein_knecht_1-3c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_knecht_1-3b|ein_knecht_1-3c" source="ein_knecht_1-3b" target="ein_knecht_1-3c">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brigitte|hans" source="brigitte" target="hans">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="brigitte|kaspar" source="brigitte" target="kaspar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="brigitte|knecht_2-1" source="brigitte" target="knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brigitte|chor_3-2" source="brigitte" target="chor_3-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="brigitte|reinhold" source="brigitte" target="reinhold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hans|kaspar" source="hans" target="kaspar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hans|knecht_2-1" source="hans" target="knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|chor_3-2" source="hans" target="chor_3-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|reinhold" source="hans" target="reinhold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kaspar|knecht_2-1" source="kaspar" target="knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaspar|chor_3-2" source="kaspar" target="chor_3-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaspar|reinhold" source="kaspar" target="reinhold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mechthilde|chor_3-1" source="mechthilde" target="chor_3-1">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

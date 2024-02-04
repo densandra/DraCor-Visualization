@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="kennedy">
+            <data key="label">Kennedy</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1645</data>
+        </node>
+        <node id="paulet">
+            <data key="label">Paulet</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1459</data>
+        </node>
+        <node id="maria">
+            <data key="label">Maria</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6272</data>
+        </node>
+        <node id="mortimer">
+            <data key="label">Mortimer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3660</data>
+        </node>
+        <node id="burleigh">
+            <data key="label">Burleigh</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2331</data>
+        </node>
+        <node id="davison">
+            <data key="label">Davison</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">592</data>
+        </node>
+        <node id="kent">
+            <data key="label">Kent</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">299</data>
+        </node>
+        <node id="elisabeth">
+            <data key="label">Elisabeth</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4080</data>
+        </node>
+        <node id="aubespine">
+            <data key="label">Aubespine</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">327</data>
+        </node>
+        <node id="bellievre">
+            <data key="label">Bellievre</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">108</data>
+        </node>
+        <node id="shrewsbury">
+            <data key="label">Shrewsbury</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1610</data>
+        </node>
+        <node id="leicester">
+            <data key="label">Leicester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3518</data>
+        </node>
+        <node id="okelly">
+            <data key="label">Okelly</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">142</data>
+        </node>
+        <node id="offizier">
+            <data key="label">Offizier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">68</data>
+        </node>
+        <node id="page">
+            <data key="label">Page</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">46</data>
+        </node>
+        <node id="melvil">
+            <data key="label">Melvil</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">836</data>
+        </node>
+        <node id="kurl">
+            <data key="label">Kurl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">174</data>
+        </node>
+        <node id="burgoyn">
+            <data key="label">Burgoyn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">57</data>
+        </node>
+        <node id="zweite_kammerfrau">
+            <data key="label">Zweite Kammerfrau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="die_kammerfrauen">
+            <data key="label">Die Kammerfrauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <edge id="kennedy|paulet" source="kennedy" target="paulet">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kennedy|maria" source="kennedy" target="maria">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="kennedy|mortimer" source="kennedy" target="mortimer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kennedy|melvil" source="kennedy" target="melvil">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kennedy|kurl" source="kennedy" target="kurl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kennedy|burgoyn" source="kennedy" target="burgoyn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paulet|maria" source="paulet" target="maria">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="paulet|mortimer" source="paulet" target="mortimer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="paulet|burleigh" source="paulet" target="burleigh">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="paulet|elisabeth" source="paulet" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paulet|leicester" source="paulet" target="leicester">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="paulet|shrewsbury" source="paulet" target="shrewsbury">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maria|mortimer" source="maria" target="mortimer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="maria|burleigh" source="maria" target="burleigh">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="maria|shrewsbury" source="maria" target="shrewsbury">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maria|elisabeth" source="maria" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maria|leicester" source="maria" target="leicester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maria|melvil" source="maria" target="melvil">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mortimer|elisabeth" source="mortimer" target="elisabeth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mortimer|leicester" source="mortimer" target="leicester">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mortimer|burleigh" source="mortimer" target="burleigh">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mortimer|shrewsbury" source="mortimer" target="shrewsbury">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mortimer|okelly" source="mortimer" target="okelly">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mortimer|offizier" source="mortimer" target="offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burleigh|elisabeth" source="burleigh" target="elisabeth">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="burleigh|shrewsbury" source="burleigh" target="shrewsbury">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="burleigh|leicester" source="burleigh" target="leicester">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="burleigh|davison" source="burleigh" target="davison">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="burleigh|aubespine" source="burleigh" target="aubespine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burleigh|kent" source="burleigh" target="kent">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="burleigh|page" source="burleigh" target="page">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burleigh|offizier" source="burleigh" target="offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="davison|kent" source="davison" target="kent">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="davison|aubespine" source="davison" target="aubespine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="davison|leicester" source="davison" target="leicester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="davison|elisabeth" source="davison" target="elisabeth">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="davison|shrewsbury" source="davison" target="shrewsbury">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kent|aubespine" source="kent" target="aubespine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kent|leicester" source="kent" target="leicester">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kent|elisabeth" source="kent" target="elisabeth">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kent|shrewsbury" source="kent" target="shrewsbury">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="elisabeth|aubespine" source="elisabeth" target="aubespine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|bellievre" source="elisabeth" target="bellievre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|shrewsbury" source="elisabeth" target="shrewsbury">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="elisabeth|leicester" source="elisabeth" target="leicester">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="elisabeth|page" source="elisabeth" target="page">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="elisabeth|offizier" source="elisabeth" target="offizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aubespine|bellievre" source="aubespine" target="bellievre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aubespine|leicester" source="aubespine" target="leicester">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="shrewsbury|leicester" source="shrewsbury" target="leicester">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leicester|offizier" source="leicester" target="offizier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="melvil|kurl" source="melvil" target="kurl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="melvil|burgoyn" source="melvil" target="burgoyn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="melvil|zweite_kammerfrau" source="melvil" target="zweite_kammerfrau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="melvil|die_kammerfrauen" source="melvil" target="die_kammerfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurl|burgoyn" source="kurl" target="burgoyn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kurl|die_kammerfrauen" source="kurl" target="die_kammerfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgoyn|die_kammerfrauen" source="burgoyn" target="die_kammerfrauen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

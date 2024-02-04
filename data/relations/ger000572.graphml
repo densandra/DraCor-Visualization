@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="magdalene">
+            <data key="label">Magdalene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="elise">
+            <data key="label">Elise Rehkamp</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wolfgang">
+            <data key="label">Wolfgang Behring</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fritz">
+            <data key="label">Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="woehlers">
+            <data key="label">August Wöhlers</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pastor_meiling">
+            <data key="label">Pastor Meiling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="christine">
+            <data key="label">Christine Wöhlers</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="roloffs">
+            <data key="label">Roloffs</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stein">
+            <data key="label">Stein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="scharff">
+            <data key="label">Dr. Edwin Scharff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="weber">
+            <data key="label">Julius Weber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="emilie_stebeling">
+            <data key="label">Emilie Stebeling</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="postbote">
+            <data key="label">Postbote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schwester_helene">
+            <data key="label">Schwester Helene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kinder">
+            <data key="label">Kinder</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="woehlers" target="christine">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="magdalene" target="wolfgang">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="woehlers" target="magdalene">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="woehlers" target="fritz">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="christine" target="magdalene">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="christine" target="fritz">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="7" directed="false" source="diener" target="woehlers">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

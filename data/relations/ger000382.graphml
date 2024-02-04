@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="wagner">
+            <data key="label">Wagner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fritz">
+            <data key="label">Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mad_wagner">
+            <data key="label">Mad. Wagner</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="charlotte">
+            <data key="label">Charlotte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sivers-steinburg">
+            <data key="label">Sivers (Steinburg)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="malldorf">
+            <data key="label">Malldorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kaufmannsdiener">
+            <data key="label">Kaufmannsdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dienstmaedchen">
+            <data key="label">Dienstmädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gerichtsdiener">
+            <data key="label">Gerichtsdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="mad_wagner" target="wagner">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="sivers-steinburg" target="wagner">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="3" directed="false" source="wagner" target="sophie">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="wagner" target="charlotte">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="wagner" target="wilhelm">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hofrath">
+            <data key="label">Hofrath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_von_wallenfeld">
+            <data key="label">Frau von Wallenfeld</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sekretaer">
+            <data key="label">Sekretär</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_von_wallenfeld">
+            <data key="label">Herr von Wallenfeld</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_von_posert">
+            <data key="label">Herr von Posert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="geheimerath">
+            <data key="label">Geheimerath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kammerdiener">
+            <data key="label">Kammerdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jean">
+            <data key="label">Jean</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="haushofmeister">
+            <data key="label">Haushofmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stallmeister">
+            <data key="label">Stallmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rektor">
+            <data key="label">Rektor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lieutenant">
+            <data key="label">Lieutenant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="unteroffizier">
+            <data key="label">Unteroffizier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bedienter_4-2">
+            <data key="label">Bedienter (IV/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bedienter_4-6">
+            <data key="label">Bedienter (IV/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="adjutant">
+            <data key="label">Adjutant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="general">
+            <data key="label">General</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="major_stern">
+            <data key="label">Major Stern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="frau_von_wallenfeld" target="herr_von_wallenfeld">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="herr_von_wallenfeld" target="geheimerath">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="3" directed="false" source="herr_von_wallenfeld" target="karl">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="frau_von_wallenfeld" target="karl">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="hofrath" target="geheimerath">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="6" directed="false" source="lieutenant" target="frau_von_wallenfeld">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="7" directed="false" source="sekretaer" target="geheimerath">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="adjutant" target="general">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="jakob" target="herr_von_wallenfeld">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="10" directed="false" source="kammerdiener" target="general">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="11" directed="false" source="jean" target="geheimerath">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="12" directed="false" source="stallmeister" target="geheimerath">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="13" directed="false" source="haushofmeister" target="geheimerath">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

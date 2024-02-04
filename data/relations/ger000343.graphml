@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="hochroitzpointner">
+            <data key="label">Hochroitzpointner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schwester">
+            <data key="label">Schwester Ludmilla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="oskar">
+            <data key="label">Oskar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bernhardi">
+            <data key="label">Bernhardi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kurt">
+            <data key="label">Kurt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ebenwald">
+            <data key="label">Ebenwald</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tugendvetter">
+            <data key="label">Tugendvetter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="adler">
+            <data key="label">Adler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cyprian">
+            <data key="label">Cyprian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pfarrer">
+            <data key="label">Pfarrer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diener_elisabethinum">
+            <data key="label">Ein Diener im Elisabethinum</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="feuermann">
+            <data key="label">Feuermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="filitz">
+            <data key="label">Filitz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="loewenstein">
+            <data key="label">Löwenstein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="flint">
+            <data key="label">Flint</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schreimann">
+            <data key="label">Schreimann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pflugfelder">
+            <data key="label">Pflugfelder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wenger">
+            <data key="label">Wenger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="goldenthal">
+            <data key="label">Goldenthal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diener_bernhardi">
+            <data key="label">Ein Diener bei Bernhardi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kulka">
+            <data key="label">Kulka</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hofrat">
+            <data key="label">Hofrat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="amtsdiener">
+            <data key="label">Ein Diener im Unterrichtsministerium</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="oskar" target="bernhardi">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="2" directed="false" source="kurt" target="bernhardi">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="diener_bernhardi" target="bernhardi">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="belmonte">
+            <data key="label">Belmonte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1122</data>
+        </node>
+        <node id="osmin">
+            <data key="label">Osmin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1441</data>
+        </node>
+        <node id="pedrillo">
+            <data key="label">Pedrillo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2427</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor (Janitscharen)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">32</data>
+        </node>
+        <node id="eine_oder_zwo_stimmen">
+            <data key="label">Eine oder zwo Stimmen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="selim">
+            <data key="label">Selim</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">438</data>
+        </node>
+        <node id="constanze">
+            <data key="label">Constanze</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">877</data>
+        </node>
+        <node id="blonde">
+            <data key="label">Blonde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">933</data>
+        </node>
+        <node id="klaas">
+            <data key="label">Klaas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">50</data>
+        </node>
+        <node id="wache">
+            <data key="label">Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">106</data>
+        </node>
+        <node id="einer_von_der_wache">
+            <data key="label">Einer von der Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <edge id="belmonte|osmin" source="belmonte" target="osmin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="belmonte|pedrillo" source="belmonte" target="pedrillo">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="belmonte|selim" source="belmonte" target="selim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="belmonte|constanze" source="belmonte" target="constanze">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="belmonte|blonde" source="belmonte" target="blonde">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="belmonte|wache" source="belmonte" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="belmonte|einer_von_der_wache" source="belmonte" target="einer_von_der_wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="osmin|pedrillo" source="osmin" target="pedrillo">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="osmin|blonde" source="osmin" target="blonde">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="osmin|wache" source="osmin" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="osmin|einer_von_der_wache" source="osmin" target="einer_von_der_wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="osmin|constanze" source="osmin" target="constanze">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="osmin|selim" source="osmin" target="selim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pedrillo|selim" source="pedrillo" target="selim">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pedrillo|blonde" source="pedrillo" target="blonde">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="pedrillo|constanze" source="pedrillo" target="constanze">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="pedrillo|klaas" source="pedrillo" target="klaas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pedrillo|wache" source="pedrillo" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pedrillo|einer_von_der_wache" source="pedrillo" target="einer_von_der_wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|eine_oder_zwo_stimmen" source="chor" target="eine_oder_zwo_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selim|constanze" source="selim" target="constanze">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="selim|blonde" source="selim" target="blonde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="constanze|blonde" source="constanze" target="blonde">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="constanze|wache" source="constanze" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="constanze|einer_von_der_wache" source="constanze" target="einer_von_der_wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blonde|wache" source="blonde" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blonde|einer_von_der_wache" source="blonde" target="einer_von_der_wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wache|einer_von_der_wache" source="wache" target="einer_von_der_wache">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="karl">
+            <data key="label">Graf Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">247</data>
+        </node>
+        <node id="fritz">
+            <data key="label">Graf Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">466</data>
+        </node>
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">57</data>
+        </node>
+        <node id="albert">
+            <data key="label">Albert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">420</data>
+        </node>
+        <node id="hofmeister">
+            <data key="label">Hofmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">245</data>
+        </node>
+        <node id="hanne">
+            <data key="label">Hanne</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="jobs">
+            <data key="label">Jobs</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">94</data>
+        </node>
+        <node id="lotte">
+            <data key="label">Lotte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">120</data>
+        </node>
+        <node id="jobsens_weib">
+            <data key="label">Jobsens Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <edge id="karl|fritz" source="karl" target="fritz">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="karl|jakob" source="karl" target="jakob">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="karl|albert" source="karl" target="albert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="karl|jobsens_weib" source="karl" target="jobsens_weib">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|jobs" source="karl" target="jobs">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|hanne" source="karl" target="hanne">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|lotte" source="karl" target="lotte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|hofmeister" source="karl" target="hofmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|jakob" source="fritz" target="jakob">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fritz|albert" source="fritz" target="albert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fritz|jobsens_weib" source="fritz" target="jobsens_weib">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fritz|jobs" source="fritz" target="jobs">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fritz|hanne" source="fritz" target="hanne">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fritz|lotte" source="fritz" target="lotte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fritz|hofmeister" source="fritz" target="hofmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albert|jobsens_weib" source="albert" target="jobsens_weib">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albert|jobs" source="albert" target="jobs">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albert|hanne" source="albert" target="hanne">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albert|lotte" source="albert" target="lotte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albert|hofmeister" source="albert" target="hofmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofmeister|jobs" source="hofmeister" target="jobs">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofmeister|jobsens_weib" source="hofmeister" target="jobsens_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofmeister|lotte" source="hofmeister" target="lotte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofmeister|hanne" source="hofmeister" target="hanne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanne|jobs" source="hanne" target="jobs">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hanne|lotte" source="hanne" target="lotte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hanne|jobsens_weib" source="hanne" target="jobsens_weib">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jobs|lotte" source="jobs" target="lotte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jobs|jobsens_weib" source="jobs" target="jobsens_weib">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lotte|jobsens_weib" source="lotte" target="jobsens_weib">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

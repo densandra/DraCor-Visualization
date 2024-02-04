@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="just">
+            <data key="label">Just</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2138</data>
+        </node>
+        <node id="der_wirt">
+            <data key="label">Der Wirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2487</data>
+        </node>
+        <node id="von_tellheim">
+            <data key="label">Major von Tellheim</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5277</data>
+        </node>
+        <node id="die_dame">
+            <data key="label">Eine Dame in Trauer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">289</data>
+        </node>
+        <node id="der_bediente">
+            <data key="label">Der Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">125</data>
+        </node>
+        <node id="paul_werner">
+            <data key="label">Paul Werner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2685</data>
+        </node>
+        <node id="das_fraeulein">
+            <data key="label">Minna von Barnhelm</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5471</data>
+        </node>
+        <node id="franziska">
+            <data key="label">Franziska</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2941</data>
+        </node>
+        <node id="riccaut">
+            <data key="label">Riccaut</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1109</data>
+        </node>
+        <node id="der_feldjaeger">
+            <data key="label">Der Feldjäger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">70</data>
+        </node>
+        <node id="der_eine_bediente">
+            <data key="label">Der eine Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="der_andere_bediente">
+            <data key="label">Der andere Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="der_graf">
+            <data key="label">Graf von Bruchsall</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">155</data>
+        </node>
+        <edge id="just|der_wirt" source="just" target="der_wirt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="just|von_tellheim" source="just" target="von_tellheim">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="just|der_bediente" source="just" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="just|paul_werner" source="just" target="paul_werner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="just|franziska" source="just" target="franziska">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="just|das_fraeulein" source="just" target="das_fraeulein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_wirt|von_tellheim" source="der_wirt" target="von_tellheim">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_wirt|franziska" source="der_wirt" target="franziska">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="der_wirt|das_fraeulein" source="der_wirt" target="das_fraeulein">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="der_wirt|paul_werner" source="der_wirt" target="paul_werner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_wirt|der_graf" source="der_wirt" target="der_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_tellheim|die_dame" source="von_tellheim" target="die_dame">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="von_tellheim|der_bediente" source="von_tellheim" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_tellheim|das_fraeulein" source="von_tellheim" target="das_fraeulein">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="von_tellheim|franziska" source="von_tellheim" target="franziska">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="von_tellheim|paul_werner" source="von_tellheim" target="paul_werner">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="von_tellheim|der_feldjaeger" source="von_tellheim" target="der_feldjaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_tellheim|der_eine_bediente" source="von_tellheim" target="der_eine_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_tellheim|der_andere_bediente" source="von_tellheim" target="der_andere_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_tellheim|der_graf" source="von_tellheim" target="der_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="paul_werner|franziska" source="paul_werner" target="franziska">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="paul_werner|das_fraeulein" source="paul_werner" target="das_fraeulein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_fraeulein|franziska" source="das_fraeulein" target="franziska">
+            <data key="weight">22</data>
+        </edge>
+        <edge id="das_fraeulein|riccaut" source="das_fraeulein" target="riccaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_fraeulein|der_feldjaeger" source="das_fraeulein" target="der_feldjaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_fraeulein|der_eine_bediente" source="das_fraeulein" target="der_eine_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_fraeulein|der_andere_bediente" source="das_fraeulein" target="der_andere_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_fraeulein|der_graf" source="das_fraeulein" target="der_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|riccaut" source="franziska" target="riccaut">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|der_feldjaeger" source="franziska" target="der_feldjaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|der_eine_bediente" source="franziska" target="der_eine_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|der_andere_bediente" source="franziska" target="der_andere_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_eine_bediente|der_andere_bediente" source="der_eine_bediente" target="der_andere_bediente">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,518 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="der_ehrnhold">
+            <data key="label">Der ehrnhold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">212</data>
+        </node>
+        <node id="hecastus_der_reich_mann">
+            <data key="label">Hecastus, der reich sterbent mann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2818</data>
+        </node>
+        <node id="epicuria_die_fraw">
+            <data key="label">Epicuria, sein gemahel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">544</data>
+        </node>
+        <node id="panocitus_der_ander_knecht">
+            <data key="label">Panocitus, der ander Knecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">127</data>
+        </node>
+        <node id="datrus_der_koch">
+            <data key="label">Datrus, der koch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">75</data>
+        </node>
+        <node id="demones_der_erst_freund">
+            <data key="label">Demones, der erst freund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">311</data>
+        </node>
+        <node id="economus_der_hausvogt">
+            <data key="label">Economus, der hausvogt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">123</data>
+        </node>
+        <node id="philepanis_der_ein_knecht">
+            <data key="label">Philepanis, der ein knecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">228</data>
+        </node>
+        <node id="der_legat">
+            <data key="label">Nomodydastalus, der legat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">750</data>
+        </node>
+        <node id="ancilla_die_magd">
+            <data key="label">Ancilla, die magd</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="philomachos_der_juenger_son">
+            <data key="label">Philomachos, der jünger son</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">454</data>
+        </node>
+        <node id="singenes_der_ander_freund">
+            <data key="label">Singenes, der ander freund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">202</data>
+        </node>
+        <node id="philocrates_der_elter_son">
+            <data key="label">Philocrates, der elter son</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">279</data>
+        </node>
+        <node id="plutus_der_schatz">
+            <data key="label">Plutus, der schatz</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">66</data>
+        </node>
+        <node id="der_todt">
+            <data key="label">Mors, der Todt</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">267</data>
+        </node>
+        <node id="die_tugent">
+            <data key="label">Virtus, die Tugent</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">305</data>
+        </node>
+        <node id="der_glaub">
+            <data key="label">Fides, der Glaub</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">409</data>
+        </node>
+        <node id="der_teuffel">
+            <data key="label">Sathan, der teuffel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">393</data>
+        </node>
+        <node id="der_priester">
+            <data key="label">Hieronimus, der priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">416</data>
+        </node>
+        <edge id="der_ehrnhold|hecastus_der_reich_mann" source="der_ehrnhold" target="hecastus_der_reich_mann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_ehrnhold|epicuria_die_fraw" source="der_ehrnhold" target="epicuria_die_fraw">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_ehrnhold|panocitus_der_ander_knecht" source="der_ehrnhold" target="panocitus_der_ander_knecht">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_ehrnhold|datrus_der_koch" source="der_ehrnhold" target="datrus_der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ehrnhold|demones_der_erst_freund" source="der_ehrnhold" target="demones_der_erst_freund">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_ehrnhold|philomachos_der_juenger_son" source="der_ehrnhold" target="philomachos_der_juenger_son">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ehrnhold|philocrates_der_elter_son" source="der_ehrnhold" target="philocrates_der_elter_son">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ehrnhold|philepanis_der_ein_knecht" source="der_ehrnhold" target="philepanis_der_ein_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ehrnhold|die_tugent" source="der_ehrnhold" target="die_tugent">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ehrnhold|der_glaub" source="der_ehrnhold" target="der_glaub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ehrnhold|der_teuffel" source="der_ehrnhold" target="der_teuffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ehrnhold|der_priester" source="der_ehrnhold" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ehrnhold|der_todt" source="der_ehrnhold" target="der_todt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ehrnhold|singenes_der_ander_freund" source="der_ehrnhold" target="singenes_der_ander_freund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ehrnhold|ancilla_die_magd" source="der_ehrnhold" target="ancilla_die_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|epicuria_die_fraw" source="hecastus_der_reich_mann" target="epicuria_die_fraw">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|panocitus_der_ander_knecht" source="hecastus_der_reich_mann" target="panocitus_der_ander_knecht">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|datrus_der_koch" source="hecastus_der_reich_mann" target="datrus_der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|demones_der_erst_freund" source="hecastus_der_reich_mann" target="demones_der_erst_freund">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|economus_der_hausvogt" source="hecastus_der_reich_mann" target="economus_der_hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|philepanis_der_ein_knecht" source="hecastus_der_reich_mann" target="philepanis_der_ein_knecht">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|der_legat" source="hecastus_der_reich_mann" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|ancilla_die_magd" source="hecastus_der_reich_mann" target="ancilla_die_magd">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|philomachos_der_juenger_son" source="hecastus_der_reich_mann" target="philomachos_der_juenger_son">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|singenes_der_ander_freund" source="hecastus_der_reich_mann" target="singenes_der_ander_freund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|philocrates_der_elter_son" source="hecastus_der_reich_mann" target="philocrates_der_elter_son">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|plutus_der_schatz" source="hecastus_der_reich_mann" target="plutus_der_schatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|der_todt" source="hecastus_der_reich_mann" target="der_todt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|die_tugent" source="hecastus_der_reich_mann" target="die_tugent">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|der_glaub" source="hecastus_der_reich_mann" target="der_glaub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|der_teuffel" source="hecastus_der_reich_mann" target="der_teuffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hecastus_der_reich_mann|der_priester" source="hecastus_der_reich_mann" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epicuria_die_fraw|panocitus_der_ander_knecht" source="epicuria_die_fraw" target="panocitus_der_ander_knecht">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="epicuria_die_fraw|datrus_der_koch" source="epicuria_die_fraw" target="datrus_der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epicuria_die_fraw|demones_der_erst_freund" source="epicuria_die_fraw" target="demones_der_erst_freund">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="epicuria_die_fraw|economus_der_hausvogt" source="epicuria_die_fraw" target="economus_der_hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epicuria_die_fraw|philepanis_der_ein_knecht" source="epicuria_die_fraw" target="philepanis_der_ein_knecht">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="epicuria_die_fraw|der_legat" source="epicuria_die_fraw" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epicuria_die_fraw|ancilla_die_magd" source="epicuria_die_fraw" target="ancilla_die_magd">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="epicuria_die_fraw|philomachos_der_juenger_son" source="epicuria_die_fraw" target="philomachos_der_juenger_son">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="epicuria_die_fraw|singenes_der_ander_freund" source="epicuria_die_fraw" target="singenes_der_ander_freund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="epicuria_die_fraw|philocrates_der_elter_son" source="epicuria_die_fraw" target="philocrates_der_elter_son">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="epicuria_die_fraw|plutus_der_schatz" source="epicuria_die_fraw" target="plutus_der_schatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epicuria_die_fraw|der_todt" source="epicuria_die_fraw" target="der_todt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="epicuria_die_fraw|die_tugent" source="epicuria_die_fraw" target="die_tugent">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="epicuria_die_fraw|der_glaub" source="epicuria_die_fraw" target="der_glaub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epicuria_die_fraw|der_teuffel" source="epicuria_die_fraw" target="der_teuffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="epicuria_die_fraw|der_priester" source="epicuria_die_fraw" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|datrus_der_koch" source="panocitus_der_ander_knecht" target="datrus_der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|demones_der_erst_freund" source="panocitus_der_ander_knecht" target="demones_der_erst_freund">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|economus_der_hausvogt" source="panocitus_der_ander_knecht" target="economus_der_hausvogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|philepanis_der_ein_knecht" source="panocitus_der_ander_knecht" target="philepanis_der_ein_knecht">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|der_legat" source="panocitus_der_ander_knecht" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|ancilla_die_magd" source="panocitus_der_ander_knecht" target="ancilla_die_magd">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|philomachos_der_juenger_son" source="panocitus_der_ander_knecht" target="philomachos_der_juenger_son">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|singenes_der_ander_freund" source="panocitus_der_ander_knecht" target="singenes_der_ander_freund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|philocrates_der_elter_son" source="panocitus_der_ander_knecht" target="philocrates_der_elter_son">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|plutus_der_schatz" source="panocitus_der_ander_knecht" target="plutus_der_schatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|der_todt" source="panocitus_der_ander_knecht" target="der_todt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|die_tugent" source="panocitus_der_ander_knecht" target="die_tugent">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|der_glaub" source="panocitus_der_ander_knecht" target="der_glaub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|der_teuffel" source="panocitus_der_ander_knecht" target="der_teuffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="panocitus_der_ander_knecht|der_priester" source="panocitus_der_ander_knecht" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="datrus_der_koch|demones_der_erst_freund" source="datrus_der_koch" target="demones_der_erst_freund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="demones_der_erst_freund|singenes_der_ander_freund" source="demones_der_erst_freund" target="singenes_der_ander_freund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="demones_der_erst_freund|philocrates_der_elter_son" source="demones_der_erst_freund" target="philocrates_der_elter_son">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="demones_der_erst_freund|philomachos_der_juenger_son" source="demones_der_erst_freund" target="philomachos_der_juenger_son">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="demones_der_erst_freund|philepanis_der_ein_knecht" source="demones_der_erst_freund" target="philepanis_der_ein_knecht">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="demones_der_erst_freund|plutus_der_schatz" source="demones_der_erst_freund" target="plutus_der_schatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="demones_der_erst_freund|der_todt" source="demones_der_erst_freund" target="der_todt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="demones_der_erst_freund|die_tugent" source="demones_der_erst_freund" target="die_tugent">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="demones_der_erst_freund|der_glaub" source="demones_der_erst_freund" target="der_glaub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="demones_der_erst_freund|der_teuffel" source="demones_der_erst_freund" target="der_teuffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="demones_der_erst_freund|der_priester" source="demones_der_erst_freund" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="demones_der_erst_freund|ancilla_die_magd" source="demones_der_erst_freund" target="ancilla_die_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="economus_der_hausvogt|philepanis_der_ein_knecht" source="economus_der_hausvogt" target="philepanis_der_ein_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="economus_der_hausvogt|der_legat" source="economus_der_hausvogt" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="economus_der_hausvogt|ancilla_die_magd" source="economus_der_hausvogt" target="ancilla_die_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="economus_der_hausvogt|philomachos_der_juenger_son" source="economus_der_hausvogt" target="philomachos_der_juenger_son">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philepanis_der_ein_knecht|der_legat" source="philepanis_der_ein_knecht" target="der_legat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philepanis_der_ein_knecht|ancilla_die_magd" source="philepanis_der_ein_knecht" target="ancilla_die_magd">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philepanis_der_ein_knecht|philomachos_der_juenger_son" source="philepanis_der_ein_knecht" target="philomachos_der_juenger_son">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="philepanis_der_ein_knecht|singenes_der_ander_freund" source="philepanis_der_ein_knecht" target="singenes_der_ander_freund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="philepanis_der_ein_knecht|philocrates_der_elter_son" source="philepanis_der_ein_knecht" target="philocrates_der_elter_son">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philepanis_der_ein_knecht|plutus_der_schatz" source="philepanis_der_ein_knecht" target="plutus_der_schatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philepanis_der_ein_knecht|der_todt" source="philepanis_der_ein_knecht" target="der_todt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philepanis_der_ein_knecht|die_tugent" source="philepanis_der_ein_knecht" target="die_tugent">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philepanis_der_ein_knecht|der_glaub" source="philepanis_der_ein_knecht" target="der_glaub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philepanis_der_ein_knecht|der_teuffel" source="philepanis_der_ein_knecht" target="der_teuffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philepanis_der_ein_knecht|der_priester" source="philepanis_der_ein_knecht" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_legat|ancilla_die_magd" source="der_legat" target="ancilla_die_magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_legat|philomachos_der_juenger_son" source="der_legat" target="philomachos_der_juenger_son">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ancilla_die_magd|philomachos_der_juenger_son" source="ancilla_die_magd" target="philomachos_der_juenger_son">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ancilla_die_magd|philocrates_der_elter_son" source="ancilla_die_magd" target="philocrates_der_elter_son">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ancilla_die_magd|die_tugent" source="ancilla_die_magd" target="die_tugent">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ancilla_die_magd|der_glaub" source="ancilla_die_magd" target="der_glaub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ancilla_die_magd|der_teuffel" source="ancilla_die_magd" target="der_teuffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ancilla_die_magd|der_priester" source="ancilla_die_magd" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ancilla_die_magd|der_todt" source="ancilla_die_magd" target="der_todt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ancilla_die_magd|singenes_der_ander_freund" source="ancilla_die_magd" target="singenes_der_ander_freund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philomachos_der_juenger_son|singenes_der_ander_freund" source="philomachos_der_juenger_son" target="singenes_der_ander_freund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="philomachos_der_juenger_son|philocrates_der_elter_son" source="philomachos_der_juenger_son" target="philocrates_der_elter_son">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philomachos_der_juenger_son|plutus_der_schatz" source="philomachos_der_juenger_son" target="plutus_der_schatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philomachos_der_juenger_son|der_todt" source="philomachos_der_juenger_son" target="der_todt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philomachos_der_juenger_son|die_tugent" source="philomachos_der_juenger_son" target="die_tugent">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philomachos_der_juenger_son|der_glaub" source="philomachos_der_juenger_son" target="der_glaub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philomachos_der_juenger_son|der_teuffel" source="philomachos_der_juenger_son" target="der_teuffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philomachos_der_juenger_son|der_priester" source="philomachos_der_juenger_son" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="singenes_der_ander_freund|philocrates_der_elter_son" source="singenes_der_ander_freund" target="philocrates_der_elter_son">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="singenes_der_ander_freund|plutus_der_schatz" source="singenes_der_ander_freund" target="plutus_der_schatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="singenes_der_ander_freund|der_todt" source="singenes_der_ander_freund" target="der_todt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="singenes_der_ander_freund|die_tugent" source="singenes_der_ander_freund" target="die_tugent">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="singenes_der_ander_freund|der_glaub" source="singenes_der_ander_freund" target="der_glaub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="singenes_der_ander_freund|der_teuffel" source="singenes_der_ander_freund" target="der_teuffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="singenes_der_ander_freund|der_priester" source="singenes_der_ander_freund" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philocrates_der_elter_son|plutus_der_schatz" source="philocrates_der_elter_son" target="plutus_der_schatz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philocrates_der_elter_son|die_tugent" source="philocrates_der_elter_son" target="die_tugent">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philocrates_der_elter_son|der_glaub" source="philocrates_der_elter_son" target="der_glaub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philocrates_der_elter_son|der_teuffel" source="philocrates_der_elter_son" target="der_teuffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philocrates_der_elter_son|der_priester" source="philocrates_der_elter_son" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philocrates_der_elter_son|der_todt" source="philocrates_der_elter_son" target="der_todt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_todt|die_tugent" source="der_todt" target="die_tugent">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_todt|der_glaub" source="der_todt" target="der_glaub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_todt|der_teuffel" source="der_todt" target="der_teuffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_todt|der_priester" source="der_todt" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_tugent|der_glaub" source="die_tugent" target="der_glaub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_tugent|der_teuffel" source="die_tugent" target="der_teuffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_tugent|der_priester" source="die_tugent" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_glaub|der_teuffel" source="der_glaub" target="der_teuffel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_glaub|der_priester" source="der_glaub" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_teuffel|der_priester" source="der_teuffel" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

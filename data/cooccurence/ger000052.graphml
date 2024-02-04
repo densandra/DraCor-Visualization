@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="charon">
+            <data key="label">Charon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">480</data>
+        </node>
+        <node id="pluto">
+            <data key="label">Pluto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">386</data>
+        </node>
+        <node id="mephistopheles">
+            <data key="label">Mephistopheles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1967</data>
+        </node>
+        <node id="faust">
+            <data key="label">Faust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3402</data>
+        </node>
+        <node id="wagner">
+            <data key="label">Wagner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">771</data>
+        </node>
+        <node id="hanswurst">
+            <data key="label">Hanswurst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2964</data>
+        </node>
+        <node id="krumschal">
+            <data key="label">Krumschal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">234</data>
+        </node>
+        <node id="bulla">
+            <data key="label">Bulla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">152</data>
+        </node>
+        <node id="vater">
+            <data key="label">Faustens Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">202</data>
+        </node>
+        <node id="viele_teufel_1-14">
+            <data key="label">Viele Teufel (I/14)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="ein_teufel">
+            <data key="label">Ein Teufel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="koenigin">
+            <data key="label">Die Königin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">594</data>
+        </node>
+        <node id="koenig">
+            <data key="label">Der König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">529</data>
+        </node>
+        <node id="orestes">
+            <data key="label">Orestes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">270</data>
+        </node>
+        <node id="der_erste_scherge">
+            <data key="label">Der erste Scherge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <node id="der_zweite_scherge">
+            <data key="label">Der zweite Scherge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="krustl">
+            <data key="label">Krustl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="die_studenten">
+            <data key="label">Die Studenten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">119</data>
+        </node>
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">87</data>
+        </node>
+        <node id="eine_stimme">
+            <data key="label">Eine mächtige Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">86</data>
+        </node>
+        <node id="viele_stimmen">
+            <data key="label">Viele Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="pfarrer">
+            <data key="label">Pfarrer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">55</data>
+        </node>
+        <edge id="charon|pluto" source="charon" target="pluto">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="charon|mephistopheles" source="charon" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pluto|mephistopheles" source="pluto" target="mephistopheles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|faust" source="mephistopheles" target="faust">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="mephistopheles|krumschal" source="mephistopheles" target="krumschal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|bulla" source="mephistopheles" target="bulla">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mephistopheles|vater" source="mephistopheles" target="vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|koenigin" source="mephistopheles" target="koenigin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mephistopheles|koenig" source="mephistopheles" target="koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mephistopheles|orestes" source="mephistopheles" target="orestes">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mephistopheles|eine_stimme" source="mephistopheles" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|wagner" source="faust" target="wagner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="faust|krumschal" source="faust" target="krumschal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|bulla" source="faust" target="bulla">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|vater" source="faust" target="vater">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|koenigin" source="faust" target="koenigin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="faust|koenig" source="faust" target="koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|hanswurst" source="faust" target="hanswurst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|eine_stimme" source="faust" target="eine_stimme">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="faust|viele_stimmen" source="faust" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|hanswurst" source="wagner" target="hanswurst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|viele_teufel_1-14" source="hanswurst" target="viele_teufel_1-14">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|ein_teufel" source="hanswurst" target="ein_teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|krumschal" source="hanswurst" target="krumschal">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hanswurst|koenig" source="hanswurst" target="koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|orestes" source="hanswurst" target="orestes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|der_erste_scherge" source="hanswurst" target="der_erste_scherge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|der_zweite_scherge" source="hanswurst" target="der_zweite_scherge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|krustl" source="hanswurst" target="krustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|pfarrer" source="hanswurst" target="pfarrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hanswurst|eine_stimme" source="hanswurst" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krumschal|bulla" source="krumschal" target="bulla">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krumschal|vater" source="krumschal" target="vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krumschal|viele_teufel_1-14" source="krumschal" target="viele_teufel_1-14">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krumschal|ein_teufel" source="krumschal" target="ein_teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krumschal|der_erste_scherge" source="krumschal" target="der_erste_scherge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krumschal|der_zweite_scherge" source="krumschal" target="der_zweite_scherge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krumschal|krustl" source="krumschal" target="krustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krumschal|pfarrer" source="krumschal" target="pfarrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bulla|vater" source="bulla" target="vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_teufel_1-14|ein_teufel" source="viele_teufel_1-14" target="ein_teufel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenigin|orestes" source="koenigin" target="orestes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|orestes" source="koenig" target="orestes">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_erste_scherge|der_zweite_scherge" source="der_erste_scherge" target="der_zweite_scherge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_scherge|krustl" source="der_erste_scherge" target="krustl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_scherge|krustl" source="der_zweite_scherge" target="krustl">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

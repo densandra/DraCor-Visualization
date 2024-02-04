@@ -1,0 +1,716 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="die_amme">
+            <data key="label">Die Amme</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2183</data>
+        </node>
+        <node id="der_bote">
+            <data key="label">Der Bote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">250</data>
+        </node>
+        <node id="der_kaiser">
+            <data key="label">Der Kaiser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">713</data>
+        </node>
+        <node id="die_kaiserin">
+            <data key="label">Die Kaiserin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1145</data>
+        </node>
+        <node id="des_falken_stimme">
+            <data key="label">Des Falken Stimme</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="der_einaeugige">
+            <data key="label">Der Einäugige</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">262</data>
+        </node>
+        <node id="der_einarmige">
+            <data key="label">Der Einarmige</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">241</data>
+        </node>
+        <node id="der_bucklige">
+            <data key="label">Der Bucklige</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">250</data>
+        </node>
+        <node id="die_frau_die_faerberin">
+            <data key="label">Die Frau/Die Färberin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1888</data>
+        </node>
+        <node id="barak">
+            <data key="label">Barak</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">895</data>
+        </node>
+        <node id="dienerinnen">
+            <data key="label">Dienerinnen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="der_juengling">
+            <data key="label">Der Jüngling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">58</data>
+        </node>
+        <node id="fuenf_kinderstimmen">
+            <data key="label">Fünf Kinderstimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">55</data>
+        </node>
+        <node id="die_stimmen_der_waechter">
+            <data key="label">Die Stimmen der Wächter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="stimmen_aus_der_luft">
+            <data key="label">Stimmen (aus der Luft)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="die_bettelkinder_die_fremden_kinder">
+            <data key="label">Die Bettelkinder/Die fremden Kinder</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="stimmen_aus_dem_innern_des_berges">
+            <data key="label">Stimmen (aus dem Innern des Berges)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="stimme_von_oben">
+            <data key="label">Stimme von oben</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">71</data>
+        </node>
+        <node id="dienende_geister">
+            <data key="label">Dienende Geister</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="erster">
+            <data key="label">Erster</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="zweiter">
+            <data key="label">Zweiter</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="dritter">
+            <data key="label">Dritter</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="unirdische_stimmen">
+            <data key="label">Unirdische Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="die_ungeborenen">
+            <data key="label">Die Stimmen der Ungeborenen/Einzelne/Andere/Einige/Die Ungeborenen/Der Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">88</data>
+        </node>
+        <edge id="die_amme|der_bote" source="die_amme" target="der_bote">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_amme|der_kaiser" source="die_amme" target="der_kaiser">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_amme|die_kaiserin" source="die_amme" target="die_kaiserin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_amme|des_falken_stimme" source="die_amme" target="des_falken_stimme">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_amme|der_einaeugige" source="die_amme" target="der_einaeugige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_amme|der_einarmige" source="die_amme" target="der_einarmige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_amme|der_bucklige" source="die_amme" target="der_bucklige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_amme|die_frau_die_faerberin" source="die_amme" target="die_frau_die_faerberin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_amme|barak" source="die_amme" target="barak">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_amme|dienerinnen" source="die_amme" target="dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_amme|der_juengling" source="die_amme" target="der_juengling">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_amme|fuenf_kinderstimmen" source="die_amme" target="fuenf_kinderstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_amme|die_stimmen_der_waechter" source="die_amme" target="die_stimmen_der_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_amme|stimmen_aus_der_luft" source="die_amme" target="stimmen_aus_der_luft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_amme|die_bettelkinder_die_fremden_kinder" source="die_amme" target="die_bettelkinder_die_fremden_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_amme|stimmen_aus_dem_innern_des_berges" source="die_amme" target="stimmen_aus_dem_innern_des_berges">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_amme|stimme_von_oben" source="die_amme" target="stimme_von_oben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_amme|dienende_geister" source="die_amme" target="dienende_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_amme|erster" source="die_amme" target="erster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_amme|zweiter" source="die_amme" target="zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_amme|dritter" source="die_amme" target="dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_amme|unirdische_stimmen" source="die_amme" target="unirdische_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_amme|die_ungeborenen" source="die_amme" target="die_ungeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|der_kaiser" source="der_bote" target="der_kaiser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_bote|die_kaiserin" source="der_bote" target="die_kaiserin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_bote|des_falken_stimme" source="der_bote" target="des_falken_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|der_einaeugige" source="der_bote" target="der_einaeugige">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|der_einarmige" source="der_bote" target="der_einarmige">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|der_bucklige" source="der_bote" target="der_bucklige">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|die_frau_die_faerberin" source="der_bote" target="die_frau_die_faerberin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_bote|barak" source="der_bote" target="barak">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_bote|dienerinnen" source="der_bote" target="dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|der_juengling" source="der_bote" target="der_juengling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|fuenf_kinderstimmen" source="der_bote" target="fuenf_kinderstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|die_stimmen_der_waechter" source="der_bote" target="die_stimmen_der_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|stimme_von_oben" source="der_bote" target="stimme_von_oben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|dienende_geister" source="der_bote" target="dienende_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|erster" source="der_bote" target="erster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|zweiter" source="der_bote" target="zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|dritter" source="der_bote" target="dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|unirdische_stimmen" source="der_bote" target="unirdische_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bote|die_ungeborenen" source="der_bote" target="die_ungeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|die_kaiserin" source="der_kaiser" target="die_kaiserin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_kaiser|des_falken_stimme" source="der_kaiser" target="des_falken_stimme">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_kaiser|der_einaeugige" source="der_kaiser" target="der_einaeugige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_kaiser|der_einarmige" source="der_kaiser" target="der_einarmige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_kaiser|der_bucklige" source="der_kaiser" target="der_bucklige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_kaiser|die_frau_die_faerberin" source="der_kaiser" target="die_frau_die_faerberin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_kaiser|barak" source="der_kaiser" target="barak">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_kaiser|dienerinnen" source="der_kaiser" target="dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|der_juengling" source="der_kaiser" target="der_juengling">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_kaiser|fuenf_kinderstimmen" source="der_kaiser" target="fuenf_kinderstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|die_stimmen_der_waechter" source="der_kaiser" target="die_stimmen_der_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|stimmen_aus_der_luft" source="der_kaiser" target="stimmen_aus_der_luft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|die_bettelkinder_die_fremden_kinder" source="der_kaiser" target="die_bettelkinder_die_fremden_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|stimmen_aus_dem_innern_des_berges" source="der_kaiser" target="stimmen_aus_dem_innern_des_berges">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|stimme_von_oben" source="der_kaiser" target="stimme_von_oben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|dienende_geister" source="der_kaiser" target="dienende_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|erster" source="der_kaiser" target="erster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|zweiter" source="der_kaiser" target="zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|dritter" source="der_kaiser" target="dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|unirdische_stimmen" source="der_kaiser" target="unirdische_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_kaiser|die_ungeborenen" source="der_kaiser" target="die_ungeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kaiserin|des_falken_stimme" source="die_kaiserin" target="des_falken_stimme">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_kaiserin|der_einaeugige" source="die_kaiserin" target="der_einaeugige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_kaiserin|der_einarmige" source="die_kaiserin" target="der_einarmige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_kaiserin|der_bucklige" source="die_kaiserin" target="der_bucklige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_kaiserin|die_frau_die_faerberin" source="die_kaiserin" target="die_frau_die_faerberin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_kaiserin|barak" source="die_kaiserin" target="barak">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_kaiserin|dienerinnen" source="die_kaiserin" target="dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kaiserin|der_juengling" source="die_kaiserin" target="der_juengling">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_kaiserin|fuenf_kinderstimmen" source="die_kaiserin" target="fuenf_kinderstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kaiserin|die_stimmen_der_waechter" source="die_kaiserin" target="die_stimmen_der_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kaiserin|stimmen_aus_der_luft" source="die_kaiserin" target="stimmen_aus_der_luft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kaiserin|die_bettelkinder_die_fremden_kinder" source="die_kaiserin" target="die_bettelkinder_die_fremden_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kaiserin|stimmen_aus_dem_innern_des_berges" source="die_kaiserin" target="stimmen_aus_dem_innern_des_berges">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kaiserin|stimme_von_oben" source="die_kaiserin" target="stimme_von_oben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kaiserin|dienende_geister" source="die_kaiserin" target="dienende_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kaiserin|erster" source="die_kaiserin" target="erster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kaiserin|zweiter" source="die_kaiserin" target="zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kaiserin|dritter" source="die_kaiserin" target="dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kaiserin|unirdische_stimmen" source="die_kaiserin" target="unirdische_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kaiserin|die_ungeborenen" source="die_kaiserin" target="die_ungeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="des_falken_stimme|der_einaeugige" source="des_falken_stimme" target="der_einaeugige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="des_falken_stimme|der_einarmige" source="des_falken_stimme" target="der_einarmige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="des_falken_stimme|der_bucklige" source="des_falken_stimme" target="der_bucklige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="des_falken_stimme|die_frau_die_faerberin" source="des_falken_stimme" target="die_frau_die_faerberin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="des_falken_stimme|barak" source="des_falken_stimme" target="barak">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="des_falken_stimme|dienerinnen" source="des_falken_stimme" target="dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="des_falken_stimme|der_juengling" source="des_falken_stimme" target="der_juengling">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="des_falken_stimme|fuenf_kinderstimmen" source="des_falken_stimme" target="fuenf_kinderstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="des_falken_stimme|die_stimmen_der_waechter" source="des_falken_stimme" target="die_stimmen_der_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="des_falken_stimme|stimmen_aus_der_luft" source="des_falken_stimme" target="stimmen_aus_der_luft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="des_falken_stimme|die_bettelkinder_die_fremden_kinder" source="des_falken_stimme" target="die_bettelkinder_die_fremden_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="des_falken_stimme|stimmen_aus_dem_innern_des_berges" source="des_falken_stimme" target="stimmen_aus_dem_innern_des_berges">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einaeugige|der_einarmige" source="der_einaeugige" target="der_einarmige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_einaeugige|der_bucklige" source="der_einaeugige" target="der_bucklige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_einaeugige|die_frau_die_faerberin" source="der_einaeugige" target="die_frau_die_faerberin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_einaeugige|barak" source="der_einaeugige" target="barak">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_einaeugige|dienerinnen" source="der_einaeugige" target="dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einaeugige|der_juengling" source="der_einaeugige" target="der_juengling">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_einaeugige|fuenf_kinderstimmen" source="der_einaeugige" target="fuenf_kinderstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einaeugige|die_stimmen_der_waechter" source="der_einaeugige" target="die_stimmen_der_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einaeugige|stimmen_aus_der_luft" source="der_einaeugige" target="stimmen_aus_der_luft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einaeugige|die_bettelkinder_die_fremden_kinder" source="der_einaeugige" target="die_bettelkinder_die_fremden_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einaeugige|stimmen_aus_dem_innern_des_berges" source="der_einaeugige" target="stimmen_aus_dem_innern_des_berges">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einarmige|der_bucklige" source="der_einarmige" target="der_bucklige">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_einarmige|die_frau_die_faerberin" source="der_einarmige" target="die_frau_die_faerberin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_einarmige|barak" source="der_einarmige" target="barak">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_einarmige|dienerinnen" source="der_einarmige" target="dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einarmige|der_juengling" source="der_einarmige" target="der_juengling">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_einarmige|fuenf_kinderstimmen" source="der_einarmige" target="fuenf_kinderstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einarmige|die_stimmen_der_waechter" source="der_einarmige" target="die_stimmen_der_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einarmige|stimmen_aus_der_luft" source="der_einarmige" target="stimmen_aus_der_luft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einarmige|die_bettelkinder_die_fremden_kinder" source="der_einarmige" target="die_bettelkinder_die_fremden_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_einarmige|stimmen_aus_dem_innern_des_berges" source="der_einarmige" target="stimmen_aus_dem_innern_des_berges">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bucklige|die_frau_die_faerberin" source="der_bucklige" target="die_frau_die_faerberin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_bucklige|barak" source="der_bucklige" target="barak">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_bucklige|dienerinnen" source="der_bucklige" target="dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bucklige|der_juengling" source="der_bucklige" target="der_juengling">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_bucklige|fuenf_kinderstimmen" source="der_bucklige" target="fuenf_kinderstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bucklige|die_stimmen_der_waechter" source="der_bucklige" target="die_stimmen_der_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bucklige|stimmen_aus_der_luft" source="der_bucklige" target="stimmen_aus_der_luft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bucklige|die_bettelkinder_die_fremden_kinder" source="der_bucklige" target="die_bettelkinder_die_fremden_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_bucklige|stimmen_aus_dem_innern_des_berges" source="der_bucklige" target="stimmen_aus_dem_innern_des_berges">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|barak" source="die_frau_die_faerberin" target="barak">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|dienerinnen" source="die_frau_die_faerberin" target="dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|der_juengling" source="die_frau_die_faerberin" target="der_juengling">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|fuenf_kinderstimmen" source="die_frau_die_faerberin" target="fuenf_kinderstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|die_stimmen_der_waechter" source="die_frau_die_faerberin" target="die_stimmen_der_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|stimmen_aus_der_luft" source="die_frau_die_faerberin" target="stimmen_aus_der_luft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|die_bettelkinder_die_fremden_kinder" source="die_frau_die_faerberin" target="die_bettelkinder_die_fremden_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|stimmen_aus_dem_innern_des_berges" source="die_frau_die_faerberin" target="stimmen_aus_dem_innern_des_berges">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|stimme_von_oben" source="die_frau_die_faerberin" target="stimme_von_oben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|dienende_geister" source="die_frau_die_faerberin" target="dienende_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|erster" source="die_frau_die_faerberin" target="erster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|zweiter" source="die_frau_die_faerberin" target="zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|dritter" source="die_frau_die_faerberin" target="dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|unirdische_stimmen" source="die_frau_die_faerberin" target="unirdische_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau_die_faerberin|die_ungeborenen" source="die_frau_die_faerberin" target="die_ungeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|dienerinnen" source="barak" target="dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|der_juengling" source="barak" target="der_juengling">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="barak|fuenf_kinderstimmen" source="barak" target="fuenf_kinderstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|die_stimmen_der_waechter" source="barak" target="die_stimmen_der_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|stimmen_aus_der_luft" source="barak" target="stimmen_aus_der_luft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|die_bettelkinder_die_fremden_kinder" source="barak" target="die_bettelkinder_die_fremden_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|stimmen_aus_dem_innern_des_berges" source="barak" target="stimmen_aus_dem_innern_des_berges">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|stimme_von_oben" source="barak" target="stimme_von_oben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|dienende_geister" source="barak" target="dienende_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|erster" source="barak" target="erster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|zweiter" source="barak" target="zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|dritter" source="barak" target="dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|unirdische_stimmen" source="barak" target="unirdische_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barak|die_ungeborenen" source="barak" target="die_ungeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dienerinnen|der_juengling" source="dienerinnen" target="der_juengling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dienerinnen|fuenf_kinderstimmen" source="dienerinnen" target="fuenf_kinderstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dienerinnen|die_stimmen_der_waechter" source="dienerinnen" target="die_stimmen_der_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_juengling|fuenf_kinderstimmen" source="der_juengling" target="fuenf_kinderstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_juengling|die_stimmen_der_waechter" source="der_juengling" target="die_stimmen_der_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_juengling|stimmen_aus_der_luft" source="der_juengling" target="stimmen_aus_der_luft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_juengling|die_bettelkinder_die_fremden_kinder" source="der_juengling" target="die_bettelkinder_die_fremden_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_juengling|stimmen_aus_dem_innern_des_berges" source="der_juengling" target="stimmen_aus_dem_innern_des_berges">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenf_kinderstimmen|die_stimmen_der_waechter" source="fuenf_kinderstimmen" target="die_stimmen_der_waechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_aus_der_luft|die_bettelkinder_die_fremden_kinder" source="stimmen_aus_der_luft" target="die_bettelkinder_die_fremden_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_aus_der_luft|stimmen_aus_dem_innern_des_berges" source="stimmen_aus_der_luft" target="stimmen_aus_dem_innern_des_berges">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bettelkinder_die_fremden_kinder|stimmen_aus_dem_innern_des_berges" source="die_bettelkinder_die_fremden_kinder" target="stimmen_aus_dem_innern_des_berges">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_von_oben|dienende_geister" source="stimme_von_oben" target="dienende_geister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_von_oben|erster" source="stimme_von_oben" target="erster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_von_oben|zweiter" source="stimme_von_oben" target="zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_von_oben|dritter" source="stimme_von_oben" target="dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_von_oben|unirdische_stimmen" source="stimme_von_oben" target="unirdische_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_von_oben|die_ungeborenen" source="stimme_von_oben" target="die_ungeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dienende_geister|erster" source="dienende_geister" target="erster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dienende_geister|zweiter" source="dienende_geister" target="zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dienende_geister|dritter" source="dienende_geister" target="dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dienende_geister|unirdische_stimmen" source="dienende_geister" target="unirdische_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dienende_geister|die_ungeborenen" source="dienende_geister" target="die_ungeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster|zweiter" source="erster" target="zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster|dritter" source="erster" target="dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster|unirdische_stimmen" source="erster" target="unirdische_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster|die_ungeborenen" source="erster" target="die_ungeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter|dritter" source="zweiter" target="dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter|unirdische_stimmen" source="zweiter" target="unirdische_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter|die_ungeborenen" source="zweiter" target="die_ungeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter|unirdische_stimmen" source="dritter" target="unirdische_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter|die_ungeborenen" source="dritter" target="die_ungeborenen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="unirdische_stimmen|die_ungeborenen" source="unirdische_stimmen" target="die_ungeborenen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

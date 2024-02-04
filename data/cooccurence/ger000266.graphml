@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="don_juan">
+            <data key="label">Don Juan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7076</data>
+        </node>
+        <node id="leporello">
+            <data key="label">Leporello</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">788</data>
+        </node>
+        <node id="der_alte_fischer">
+            <data key="label">Der alte Fischer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">433</data>
+        </node>
+        <node id="prozession">
+            <data key="label">Prozession</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="ghita">
+            <data key="label">Ghita</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2547</data>
+        </node>
+        <node id="der_moench">
+            <data key="label">Der Mönch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">286</data>
+        </node>
+        <node id="erster_strolch">
+            <data key="label">Erster Strolch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">61</data>
+        </node>
+        <node id="zweiter_strolch">
+            <data key="label">Zweiter Strolch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">41</data>
+        </node>
+        <node id="gianotto">
+            <data key="label">Gianotto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2466</data>
+        </node>
+        <node id="wirth">
+            <data key="label">Wirth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">583</data>
+        </node>
+        <node id="biondetta">
+            <data key="label">Biondetta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">697</data>
+        </node>
+        <node id="martina">
+            <data key="label">Martina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1082</data>
+        </node>
+        <node id="graefin">
+            <data key="label">Gräfin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1117</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="stimmen">
+            <data key="label">Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <edge id="don_juan|leporello" source="don_juan" target="leporello">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="don_juan|der_alte_fischer" source="don_juan" target="der_alte_fischer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="don_juan|prozession" source="don_juan" target="prozession">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_juan|ghita" source="don_juan" target="ghita">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="don_juan|der_moench" source="don_juan" target="der_moench">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="don_juan|erster_strolch" source="don_juan" target="erster_strolch">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="don_juan|zweiter_strolch" source="don_juan" target="zweiter_strolch">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="don_juan|gianotto" source="don_juan" target="gianotto">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="don_juan|wirth" source="don_juan" target="wirth">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="don_juan|biondetta" source="don_juan" target="biondetta">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="don_juan|martina" source="don_juan" target="martina">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="don_juan|graefin" source="don_juan" target="graefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="don_juan|diener" source="don_juan" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leporello|der_alte_fischer" source="leporello" target="der_alte_fischer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leporello|prozession" source="leporello" target="prozession">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leporello|ghita" source="leporello" target="ghita">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leporello|martina" source="leporello" target="martina">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leporello|der_moench" source="leporello" target="der_moench">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leporello|wirth" source="leporello" target="wirth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leporello|graefin" source="leporello" target="graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leporello|gianotto" source="leporello" target="gianotto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_alte_fischer|martina" source="der_alte_fischer" target="martina">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_alte_fischer|gianotto" source="der_alte_fischer" target="gianotto">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_alte_fischer|graefin" source="der_alte_fischer" target="graefin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_alte_fischer|stimmen" source="der_alte_fischer" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_alte_fischer|wirth" source="der_alte_fischer" target="wirth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_alte_fischer|der_moench" source="der_alte_fischer" target="der_moench">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prozession|ghita" source="prozession" target="ghita">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ghita|martina" source="ghita" target="martina">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ghita|gianotto" source="ghita" target="gianotto">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ghita|wirth" source="ghita" target="wirth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ghita|biondetta" source="ghita" target="biondetta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ghita|graefin" source="ghita" target="graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_moench|wirth" source="der_moench" target="wirth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_moench|graefin" source="der_moench" target="graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_moench|gianotto" source="der_moench" target="gianotto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_moench|martina" source="der_moench" target="martina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_strolch|zweiter_strolch" source="erster_strolch" target="zweiter_strolch">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_strolch|gianotto" source="erster_strolch" target="gianotto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_strolch|gianotto" source="zweiter_strolch" target="gianotto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gianotto|wirth" source="gianotto" target="wirth">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gianotto|biondetta" source="gianotto" target="biondetta">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gianotto|martina" source="gianotto" target="martina">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="gianotto|graefin" source="gianotto" target="graefin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gianotto|stimmen" source="gianotto" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirth|biondetta" source="wirth" target="biondetta">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wirth|martina" source="wirth" target="martina">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wirth|graefin" source="wirth" target="graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martina|graefin" source="martina" target="graefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="martina|stimmen" source="martina" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graefin|diener" source="graefin" target="diener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graefin|stimmen" source="graefin" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="meister_sparbuechs">
+            <data key="label">Meister Sparbüchs</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1168</data>
+        </node>
+        <node id="steffen">
+            <data key="label">Steffen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1299</data>
+        </node>
+        <node id="kaethgen">
+            <data key="label">Käthgen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1643</data>
+        </node>
+        <node id="lieutenant">
+            <data key="label">Lieutenant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">690</data>
+        </node>
+        <node id="knete">
+            <data key="label">Meister Knete</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">685</data>
+        </node>
+        <node id="wurst">
+            <data key="label">Meister Wurst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">836</data>
+        </node>
+        <edge id="meister_sparbuechs|steffen" source="meister_sparbuechs" target="steffen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="meister_sparbuechs|kaethgen" source="meister_sparbuechs" target="kaethgen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="meister_sparbuechs|lieutenant" source="meister_sparbuechs" target="lieutenant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="steffen|lieutenant" source="steffen" target="lieutenant">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="steffen|kaethgen" source="steffen" target="kaethgen">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="steffen|knete" source="steffen" target="knete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="steffen|wurst" source="steffen" target="wurst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaethgen|lieutenant" source="kaethgen" target="lieutenant">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kaethgen|knete" source="kaethgen" target="knete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaethgen|wurst" source="kaethgen" target="wurst">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

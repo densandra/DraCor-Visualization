@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="stueve">
+            <data key="label">Stüve</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2330</data>
+        </node>
+        <node id="kleewitz">
+            <data key="label">Kleewitz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="frau_von_kleewitz">
+            <data key="label">Frau von Kleewitz</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">52</data>
+        </node>
+        <node id="scheibler">
+            <data key="label">Scheibler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">707</data>
+        </node>
+        <node id="schaffner">
+            <data key="label">Schaffner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">79</data>
+        </node>
+        <node id="zugfuehrer">
+            <data key="label">Zugführer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">310</data>
+        </node>
+        <node id="filser">
+            <data key="label">Filser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2427</data>
+        </node>
+        <node id="frau_filser">
+            <data key="label">Frau Filser</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">247</data>
+        </node>
+        <node id="gsottmaier">
+            <data key="label">Gsottmaier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1013</data>
+        </node>
+        <node id="die_rekruten">
+            <data key="label">Die Rekruten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <edge id="stueve|kleewitz" source="stueve" target="kleewitz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="stueve|frau_von_kleewitz" source="stueve" target="frau_von_kleewitz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="stueve|scheibler" source="stueve" target="scheibler">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="stueve|schaffner" source="stueve" target="schaffner">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="stueve|zugfuehrer" source="stueve" target="zugfuehrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stueve|filser" source="stueve" target="filser">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="stueve|frau_filser" source="stueve" target="frau_filser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stueve|gsottmaier" source="stueve" target="gsottmaier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stueve|die_rekruten" source="stueve" target="die_rekruten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kleewitz|frau_von_kleewitz" source="kleewitz" target="frau_von_kleewitz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kleewitz|scheibler" source="kleewitz" target="scheibler">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kleewitz|zugfuehrer" source="kleewitz" target="zugfuehrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kleewitz|schaffner" source="kleewitz" target="schaffner">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kleewitz|filser" source="kleewitz" target="filser">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kleewitz|frau_filser" source="kleewitz" target="frau_filser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kleewitz|gsottmaier" source="kleewitz" target="gsottmaier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kleewitz|die_rekruten" source="kleewitz" target="die_rekruten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_kleewitz|scheibler" source="frau_von_kleewitz" target="scheibler">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frau_von_kleewitz|zugfuehrer" source="frau_von_kleewitz" target="zugfuehrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_kleewitz|schaffner" source="frau_von_kleewitz" target="schaffner">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_kleewitz|filser" source="frau_von_kleewitz" target="filser">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_von_kleewitz|frau_filser" source="frau_von_kleewitz" target="frau_filser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_kleewitz|gsottmaier" source="frau_von_kleewitz" target="gsottmaier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_kleewitz|die_rekruten" source="frau_von_kleewitz" target="die_rekruten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scheibler|schaffner" source="scheibler" target="schaffner">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="scheibler|zugfuehrer" source="scheibler" target="zugfuehrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="scheibler|filser" source="scheibler" target="filser">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="scheibler|frau_filser" source="scheibler" target="frau_filser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scheibler|gsottmaier" source="scheibler" target="gsottmaier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="scheibler|die_rekruten" source="scheibler" target="die_rekruten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schaffner|zugfuehrer" source="schaffner" target="zugfuehrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schaffner|filser" source="schaffner" target="filser">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schaffner|frau_filser" source="schaffner" target="frau_filser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schaffner|gsottmaier" source="schaffner" target="gsottmaier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schaffner|die_rekruten" source="schaffner" target="die_rekruten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zugfuehrer|filser" source="zugfuehrer" target="filser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zugfuehrer|gsottmaier" source="zugfuehrer" target="gsottmaier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zugfuehrer|die_rekruten" source="zugfuehrer" target="die_rekruten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="filser|frau_filser" source="filser" target="frau_filser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="filser|gsottmaier" source="filser" target="gsottmaier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="filser|die_rekruten" source="filser" target="die_rekruten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gsottmaier|die_rekruten" source="gsottmaier" target="die_rekruten">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

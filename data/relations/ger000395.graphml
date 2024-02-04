@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="herr_reinhart">
+            <data key="label">Herr Reinhart</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jungfer_lottchen">
+            <data key="label">Jungfer Lottchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_junge_reinhart">
+            <data key="label">Der junge Reinhart</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_vielwitz">
+            <data key="label">Herr Vielwitz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="paul">
+            <data key="label">Paul</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_sinnreich">
+            <data key="label">Herr Sinnreich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_jambus">
+            <data key="label">Herr Jambus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="jungfer_lottchen" target="herr_reinhart">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="2" directed="false" source="herr_reinhart" target="der_junge_reinhart">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

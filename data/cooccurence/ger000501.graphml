@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="elisinde">
+            <data key="label">Elisinde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3896</data>
+        </node>
+        <node id="philaide">
+            <data key="label">Philaide</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1703</data>
+        </node>
+        <node id="codrus">
+            <data key="label">Codrus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3627</data>
+        </node>
+        <node id="nileus">
+            <data key="label">Nileus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">395</data>
+        </node>
+        <node id="ein_soldat">
+            <data key="label">Ein Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="medon">
+            <data key="label">Medon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3604</data>
+        </node>
+        <node id="eine_wache">
+            <data key="label">Eine Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="artander">
+            <data key="label">Artander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1907</data>
+        </node>
+        <node id="cleanth">
+            <data key="label">Cleanth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">185</data>
+        </node>
+        <node id="licas">
+            <data key="label">Licas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">209</data>
+        </node>
+        <edge id="elisinde|philaide" source="elisinde" target="philaide">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="elisinde|codrus" source="elisinde" target="codrus">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="elisinde|medon" source="elisinde" target="medon">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="elisinde|eine_wache" source="elisinde" target="eine_wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisinde|nileus" source="elisinde" target="nileus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisinde|artander" source="elisinde" target="artander">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="elisinde|licas" source="elisinde" target="licas">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="elisinde|cleanth" source="elisinde" target="cleanth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="philaide|medon" source="philaide" target="medon">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="philaide|codrus" source="philaide" target="codrus">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="philaide|licas" source="philaide" target="licas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="philaide|artander" source="philaide" target="artander">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="philaide|cleanth" source="philaide" target="cleanth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="codrus|nileus" source="codrus" target="nileus">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="codrus|ein_soldat" source="codrus" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="codrus|medon" source="codrus" target="medon">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="codrus|artander" source="codrus" target="artander">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="codrus|cleanth" source="codrus" target="cleanth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="codrus|licas" source="codrus" target="licas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nileus|ein_soldat" source="nileus" target="ein_soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nileus|artander" source="nileus" target="artander">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nileus|cleanth" source="nileus" target="cleanth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medon|eine_wache" source="medon" target="eine_wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medon|licas" source="medon" target="licas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="medon|artander" source="medon" target="artander">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="artander|cleanth" source="artander" target="cleanth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="artander|licas" source="artander" target="licas">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

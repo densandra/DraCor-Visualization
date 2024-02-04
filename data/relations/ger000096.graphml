@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="miller">
+            <data key="label">Miller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="millerin">
+            <data key="label">Millerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wurm">
+            <data key="label">Wurm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="luise">
+            <data key="label">Luise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ferdinand">
+            <data key="label">Ferdinand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="praesident">
+            <data key="label">Präsident von Walter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_kammerdiener_1-5">
+            <data key="label">Ein Kammerdiener (I/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hofmarschall">
+            <data key="label">Hofmarschall von Kalb</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lady">
+            <data key="label">Lady Milford</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kammerdiener_2-2">
+            <data key="label">Kammerdiener (II/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kammerdiener_3-1">
+            <data key="label">Kammerdiener (III/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kammerdiener_4-1">
+            <data key="label">Kammerdiener (IV/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_kammerdiener_4-6">
+            <data key="label">Ein Kammerdiener (IV/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kammerdiener_4-9">
+            <data key="label">Kammerdiener (IV/9)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_bediente">
+            <data key="label">Alle Bediente</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="miller" target="millerin">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="praesident" target="ferdinand">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="wurm" target="praesident">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="miller" target="luise">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="sophie" target="lady">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="lux">
+            <data key="label">Lux</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2300</data>
+        </node>
+        <node id="adam">
+            <data key="label">Adam</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">931</data>
+        </node>
+        <node id="margarethe">
+            <data key="label">Margarethe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">112</data>
+        </node>
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">116</data>
+        </node>
+        <node id="suschen">
+            <data key="label">Suschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">430</data>
+        </node>
+        <node id="joseph">
+            <data key="label">Joseph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">558</data>
+        </node>
+        <node id="bauern">
+            <data key="label">Bauern</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">91</data>
+        </node>
+        <node id="rund">
+            <data key="label">Rund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">664</data>
+        </node>
+        <node id="thomas">
+            <data key="label">Thomas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="philipp">
+            <data key="label">Philipp</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <edge id="lux|adam" source="lux" target="adam">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="lux|margarethe" source="lux" target="margarethe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lux|peter" source="lux" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lux|suschen" source="lux" target="suschen">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lux|joseph" source="lux" target="joseph">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="lux|bauern" source="lux" target="bauern">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lux|rund" source="lux" target="rund">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lux|thomas" source="lux" target="thomas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lux|philipp" source="lux" target="philipp">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adam|margarethe" source="adam" target="margarethe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adam|peter" source="adam" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adam|bauern" source="adam" target="bauern">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="adam|joseph" source="adam" target="joseph">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="adam|suschen" source="adam" target="suschen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="adam|rund" source="adam" target="rund">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="adam|thomas" source="adam" target="thomas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adam|philipp" source="adam" target="philipp">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="margarethe|peter" source="margarethe" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="margarethe|suschen" source="margarethe" target="suschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="suschen|joseph" source="suschen" target="joseph">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="suschen|bauern" source="suschen" target="bauern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="suschen|rund" source="suschen" target="rund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="suschen|thomas" source="suschen" target="thomas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="suschen|philipp" source="suschen" target="philipp">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="joseph|bauern" source="joseph" target="bauern">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="joseph|rund" source="joseph" target="rund">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="joseph|thomas" source="joseph" target="thomas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="joseph|philipp" source="joseph" target="philipp">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bauern|rund" source="bauern" target="rund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bauern|thomas" source="bauern" target="thomas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bauern|philipp" source="bauern" target="philipp">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rund|thomas" source="rund" target="thomas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rund|philipp" source="rund" target="philipp">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thomas|philipp" source="thomas" target="philipp">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

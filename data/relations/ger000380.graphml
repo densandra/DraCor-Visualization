@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="schulmeister">
+            <data key="label">Der Schulmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tobies">
+            <data key="label">Tobies</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gottliebchen">
+            <data key="label">Gottliebchen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="teufel">
+            <data key="label">Der Teufel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_naturhistoriker">
+            <data key="label">Erster Naturhistoriker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_naturhistoriker">
+            <data key="label">Zweiter Naturhistoriker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_naturhistoriker">
+            <data key="label">Dritter Naturhistoriker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vierter_naturhistoriker">
+            <data key="label">Vierter Naturhistoriker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rattengift">
+            <data key="label">Rattengift</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="liddy">
+            <data key="label">Liddy</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wernthal">
+            <data key="label">Herr von Wernthal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="baron">
+            <data key="label">Baron von Haldungen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_diener_1-3">
+            <data key="label">Ein Diener (I/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_bediente_1-4">
+            <data key="label">Ein Bedienter (I/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schmied">
+            <data key="label">Der Schmied</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="freiherr">
+            <data key="label">Freiherr von Mordax</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mollfels">
+            <data key="label">Mollfels</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_bediente_2-4">
+            <data key="label">Ein Bedienter (II/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gretchen">
+            <data key="label">Gretchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einer_von_ihnen">
+            <data key="label">Einer von ihnen (den Naturhistorikern)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_spiessgesellen">
+            <data key="label">Die Spießgesellen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="der_hauswirt">
+            <data key="label">Der Hauswirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_diener_3-6a">
+            <data key="label">Ein Diener (III/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="des_teufels_grossmutter">
+            <data key="label">Des Teufels Großmutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nero">
+            <data key="label">Kaiser Nero</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_bediente_3-6b">
+            <data key="label">Ein Bedienter (III/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="grabbe">
+            <data key="label">Grabbe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="liddy" target="wernthal">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="liddy" target="baron">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="3" directed="false" source="tobies" target="gottliebchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="teufel" target="des_teufels_grossmutter">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="5" directed="false" source="nero" target="des_teufels_grossmutter">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

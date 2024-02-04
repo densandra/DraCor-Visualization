@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="frau_von_langsalm">
+            <data key="label">Frau von Langsalm</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2937</data>
+        </node>
+        <node id="doris">
+            <data key="label">Doris</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1440</data>
+        </node>
+        <node id="selicour">
+            <data key="label">Selicour</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1395</data>
+        </node>
+        <node id="herr_von_langsalm">
+            <data key="label">Herr von Langsalm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1992</data>
+        </node>
+        <node id="fritz">
+            <data key="label">Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4867</data>
+        </node>
+        <node id="frau_krick">
+            <data key="label">Frau Krick</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">82</data>
+        </node>
+        <node id="babet">
+            <data key="label">Babet</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">944</data>
+        </node>
+        <node id="major">
+            <data key="label">Major</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1119</data>
+        </node>
+        <node id="lafleur">
+            <data key="label">Lafleur</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="der_nachtwaechter">
+            <data key="label">Der Nachtwächter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">149</data>
+        </node>
+        <edge id="frau_von_langsalm|doris" source="frau_von_langsalm" target="doris">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="frau_von_langsalm|selicour" source="frau_von_langsalm" target="selicour">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="frau_von_langsalm|herr_von_langsalm" source="frau_von_langsalm" target="herr_von_langsalm">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="frau_von_langsalm|fritz" source="frau_von_langsalm" target="fritz">
+            <data key="weight">19</data>
+        </edge>
+        <edge id="frau_von_langsalm|frau_krick" source="frau_von_langsalm" target="frau_krick">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_langsalm|babet" source="frau_von_langsalm" target="babet">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_langsalm|major" source="frau_von_langsalm" target="major">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="frau_von_langsalm|der_nachtwaechter" source="frau_von_langsalm" target="der_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doris|selicour" source="doris" target="selicour">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="doris|herr_von_langsalm" source="doris" target="herr_von_langsalm">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="doris|fritz" source="doris" target="fritz">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="doris|babet" source="doris" target="babet">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="doris|major" source="doris" target="major">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="doris|der_nachtwaechter" source="doris" target="der_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selicour|herr_von_langsalm" source="selicour" target="herr_von_langsalm">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="selicour|fritz" source="selicour" target="fritz">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="selicour|babet" source="selicour" target="babet">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="selicour|major" source="selicour" target="major">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="herr_von_langsalm|fritz" source="herr_von_langsalm" target="fritz">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="herr_von_langsalm|babet" source="herr_von_langsalm" target="babet">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="herr_von_langsalm|major" source="herr_von_langsalm" target="major">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fritz|frau_krick" source="fritz" target="frau_krick">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|babet" source="fritz" target="babet">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="fritz|major" source="fritz" target="major">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="fritz|lafleur" source="fritz" target="lafleur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|der_nachtwaechter" source="fritz" target="der_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babet|major" source="babet" target="major">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="major|der_nachtwaechter" source="major" target="der_nachtwaechter">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

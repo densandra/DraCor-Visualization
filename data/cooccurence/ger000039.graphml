@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="erster_schreiber">
+            <data key="label">Erster Schreiber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="zweiter_schreiber">
+            <data key="label">Zweiter Schreiber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="die_anderen_1-1">
+            <data key="label">Die Anderen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="schrauber">
+            <data key="label">Schrauber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1170</data>
+        </node>
+        <node id="faehnlein">
+            <data key="label">Fähnlein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2051</data>
+        </node>
+        <node id="hammer">
+            <data key="label">Doktor Hammer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2580</data>
+        </node>
+        <node id="hermine">
+            <data key="label">Hermine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1362</data>
+        </node>
+        <node id="zaenker">
+            <data key="label">Zänker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">228</data>
+        </node>
+        <node id="alwine">
+            <data key="label">Alwine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1209</data>
+        </node>
+        <node id="ein_teil_der_gesellschaft">
+            <data key="label">Ein Teil der Gesellschaft</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="die_andern_1-10">
+            <data key="label">Die Andern</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="rost">
+            <data key="label">Rost</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="rellmann">
+            <data key="label">Rellmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="einige_vorwiegend_frauenstimmen">
+            <data key="label">Einige, vorwiegend Frauenstimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="alle_1-10">
+            <data key="label">Alle (I/10)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="seitzer">
+            <data key="label">Seitzer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">32</data>
+        </node>
+        <node id="frau_seitzer">
+            <data key="label">Frau Seitzer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="taterl">
+            <data key="label">Taterl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="frau_xandl">
+            <data key="label">Frau Xandl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1441</data>
+        </node>
+        <node id="arbeiter">
+            <data key="label">Arbeiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="bursche">
+            <data key="label">Bursche</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="sein_weib">
+            <data key="label">Sein Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="adalgise">
+            <data key="label">Adalgise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="frau_holler">
+            <data key="label">Frau Holler</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">55</data>
+        </node>
+        <node id="thomas">
+            <data key="label">Thomas Hammer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6704</data>
+        </node>
+        <node id="dienstmann">
+            <data key="label">Dienstmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="ein_strolch">
+            <data key="label">Ein Strolch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">53</data>
+        </node>
+        <node id="florian">
+            <data key="label">Florian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">513</data>
+        </node>
+        <node id="alte_hammer">
+            <data key="label">Die alte Hammer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3315</data>
+        </node>
+        <node id="jette">
+            <data key="label">Jette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">145</data>
+        </node>
+        <edge id="erster_schreiber|zweiter_schreiber" source="erster_schreiber" target="zweiter_schreiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_schreiber|die_anderen_1-1" source="erster_schreiber" target="die_anderen_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_schreiber|schrauber" source="erster_schreiber" target="schrauber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_schreiber|faehnlein" source="erster_schreiber" target="faehnlein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_schreiber|hammer" source="erster_schreiber" target="hammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_schreiber|die_anderen_1-1" source="zweiter_schreiber" target="die_anderen_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_schreiber|schrauber" source="zweiter_schreiber" target="schrauber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_schreiber|faehnlein" source="zweiter_schreiber" target="faehnlein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_schreiber|hammer" source="zweiter_schreiber" target="hammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_1-1|schrauber" source="die_anderen_1-1" target="schrauber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_1-1|faehnlein" source="die_anderen_1-1" target="faehnlein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anderen_1-1|hammer" source="die_anderen_1-1" target="hammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schrauber|faehnlein" source="schrauber" target="faehnlein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schrauber|hammer" source="schrauber" target="hammer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schrauber|hermine" source="schrauber" target="hermine">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="schrauber|alwine" source="schrauber" target="alwine">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="schrauber|thomas" source="schrauber" target="thomas">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="schrauber|alte_hammer" source="schrauber" target="alte_hammer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schrauber|florian" source="schrauber" target="florian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faehnlein|hammer" source="faehnlein" target="hammer">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="faehnlein|thomas" source="faehnlein" target="thomas">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="faehnlein|hermine" source="faehnlein" target="hermine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faehnlein|alwine" source="faehnlein" target="alwine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faehnlein|alte_hammer" source="faehnlein" target="alte_hammer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="faehnlein|florian" source="faehnlein" target="florian">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hammer|hermine" source="hammer" target="hermine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hammer|zaenker" source="hammer" target="zaenker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hammer|alwine" source="hammer" target="alwine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hammer|thomas" source="hammer" target="thomas">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="hammer|ein_strolch" source="hammer" target="ein_strolch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hammer|alte_hammer" source="hammer" target="alte_hammer">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="hammer|frau_xandl" source="hammer" target="frau_xandl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hammer|florian" source="hammer" target="florian">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hermine|zaenker" source="hermine" target="zaenker">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hermine|alwine" source="hermine" target="alwine">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="hermine|ein_teil_der_gesellschaft" source="hermine" target="ein_teil_der_gesellschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermine|die_andern_1-10" source="hermine" target="die_andern_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermine|rost" source="hermine" target="rost">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermine|rellmann" source="hermine" target="rellmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermine|einige_vorwiegend_frauenstimmen" source="hermine" target="einige_vorwiegend_frauenstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermine|alle_1-10" source="hermine" target="alle_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermine|jette" source="hermine" target="jette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hermine|thomas" source="hermine" target="thomas">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hermine|alte_hammer" source="hermine" target="alte_hammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zaenker|alwine" source="zaenker" target="alwine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zaenker|ein_teil_der_gesellschaft" source="zaenker" target="ein_teil_der_gesellschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zaenker|die_andern_1-10" source="zaenker" target="die_andern_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zaenker|rost" source="zaenker" target="rost">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zaenker|rellmann" source="zaenker" target="rellmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zaenker|einige_vorwiegend_frauenstimmen" source="zaenker" target="einige_vorwiegend_frauenstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zaenker|alle_1-10" source="zaenker" target="alle_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alwine|ein_teil_der_gesellschaft" source="alwine" target="ein_teil_der_gesellschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alwine|die_andern_1-10" source="alwine" target="die_andern_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alwine|rost" source="alwine" target="rost">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alwine|rellmann" source="alwine" target="rellmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alwine|einige_vorwiegend_frauenstimmen" source="alwine" target="einige_vorwiegend_frauenstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alwine|alle_1-10" source="alwine" target="alle_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alwine|jette" source="alwine" target="jette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alwine|thomas" source="alwine" target="thomas">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="alwine|alte_hammer" source="alwine" target="alte_hammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_teil_der_gesellschaft|die_andern_1-10" source="ein_teil_der_gesellschaft" target="die_andern_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_teil_der_gesellschaft|rost" source="ein_teil_der_gesellschaft" target="rost">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_teil_der_gesellschaft|rellmann" source="ein_teil_der_gesellschaft" target="rellmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_teil_der_gesellschaft|einige_vorwiegend_frauenstimmen" source="ein_teil_der_gesellschaft" target="einige_vorwiegend_frauenstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_teil_der_gesellschaft|alle_1-10" source="ein_teil_der_gesellschaft" target="alle_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_andern_1-10|rost" source="die_andern_1-10" target="rost">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_andern_1-10|rellmann" source="die_andern_1-10" target="rellmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_andern_1-10|einige_vorwiegend_frauenstimmen" source="die_andern_1-10" target="einige_vorwiegend_frauenstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_andern_1-10|alle_1-10" source="die_andern_1-10" target="alle_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rost|rellmann" source="rost" target="rellmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rost|einige_vorwiegend_frauenstimmen" source="rost" target="einige_vorwiegend_frauenstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rost|alle_1-10" source="rost" target="alle_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rellmann|einige_vorwiegend_frauenstimmen" source="rellmann" target="einige_vorwiegend_frauenstimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rellmann|alle_1-10" source="rellmann" target="alle_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_vorwiegend_frauenstimmen|alle_1-10" source="einige_vorwiegend_frauenstimmen" target="alle_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seitzer|frau_seitzer" source="seitzer" target="frau_seitzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seitzer|taterl" source="seitzer" target="taterl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seitzer|frau_xandl" source="seitzer" target="frau_xandl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seitzer|arbeiter" source="seitzer" target="arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seitzer|bursche" source="seitzer" target="bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seitzer|sein_weib" source="seitzer" target="sein_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seitzer|adalgise" source="seitzer" target="adalgise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seitzer|frau_holler" source="seitzer" target="frau_holler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seitzer|thomas" source="seitzer" target="thomas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seitzer|dienstmann" source="seitzer" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_seitzer|taterl" source="frau_seitzer" target="taterl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_seitzer|frau_xandl" source="frau_seitzer" target="frau_xandl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_seitzer|arbeiter" source="frau_seitzer" target="arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_seitzer|bursche" source="frau_seitzer" target="bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_seitzer|sein_weib" source="frau_seitzer" target="sein_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_seitzer|adalgise" source="frau_seitzer" target="adalgise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_seitzer|frau_holler" source="frau_seitzer" target="frau_holler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_seitzer|thomas" source="frau_seitzer" target="thomas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_seitzer|dienstmann" source="frau_seitzer" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="taterl|frau_xandl" source="taterl" target="frau_xandl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="taterl|arbeiter" source="taterl" target="arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="taterl|bursche" source="taterl" target="bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="taterl|sein_weib" source="taterl" target="sein_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="taterl|adalgise" source="taterl" target="adalgise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="taterl|frau_holler" source="taterl" target="frau_holler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="taterl|thomas" source="taterl" target="thomas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="taterl|dienstmann" source="taterl" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_xandl|arbeiter" source="frau_xandl" target="arbeiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_xandl|bursche" source="frau_xandl" target="bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_xandl|sein_weib" source="frau_xandl" target="sein_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_xandl|adalgise" source="frau_xandl" target="adalgise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_xandl|frau_holler" source="frau_xandl" target="frau_holler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_xandl|thomas" source="frau_xandl" target="thomas">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_xandl|dienstmann" source="frau_xandl" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_xandl|florian" source="frau_xandl" target="florian">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_xandl|alte_hammer" source="frau_xandl" target="alte_hammer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="arbeiter|bursche" source="arbeiter" target="bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arbeiter|sein_weib" source="arbeiter" target="sein_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arbeiter|adalgise" source="arbeiter" target="adalgise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arbeiter|frau_holler" source="arbeiter" target="frau_holler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arbeiter|thomas" source="arbeiter" target="thomas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arbeiter|dienstmann" source="arbeiter" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bursche|sein_weib" source="bursche" target="sein_weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bursche|adalgise" source="bursche" target="adalgise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bursche|frau_holler" source="bursche" target="frau_holler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bursche|thomas" source="bursche" target="thomas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bursche|dienstmann" source="bursche" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sein_weib|adalgise" source="sein_weib" target="adalgise">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sein_weib|frau_holler" source="sein_weib" target="frau_holler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sein_weib|thomas" source="sein_weib" target="thomas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sein_weib|dienstmann" source="sein_weib" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adalgise|frau_holler" source="adalgise" target="frau_holler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adalgise|thomas" source="adalgise" target="thomas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adalgise|dienstmann" source="adalgise" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_holler|thomas" source="frau_holler" target="thomas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_holler|dienstmann" source="frau_holler" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thomas|dienstmann" source="thomas" target="dienstmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thomas|alte_hammer" source="thomas" target="alte_hammer">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="thomas|florian" source="thomas" target="florian">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="florian|alte_hammer" source="florian" target="alte_hammer">
+            <data key="weight">5</data>
+        </edge>
+    </graph>
+</graphml>

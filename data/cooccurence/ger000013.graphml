@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="selima">
+            <data key="label">Selima</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">599</data>
+        </node>
+        <node id="seth">
+            <data key="label">Seth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1231</data>
+        </node>
+        <node id="adam">
+            <data key="label">Adam</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2971</data>
+        </node>
+        <node id="der_todesengel">
+            <data key="label">Der Todesengel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">77</data>
+        </node>
+        <node id="kain">
+            <data key="label">Kain</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">358</data>
+        </node>
+        <node id="eva">
+            <data key="label">Eva</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">506</data>
+        </node>
+        <node id="heman">
+            <data key="label">Heman</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="eine_mutter">
+            <data key="label">Eine Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="noch_eine">
+            <data key="label">Noch eine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="die_dritte">
+            <data key="label">Die dritte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="sunim">
+            <data key="label">Sunim</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <edge id="selima|seth" source="selima" target="seth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="selima|adam" source="selima" target="adam">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="selima|eva" source="selima" target="eva">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="selima|heman" source="selima" target="heman">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selima|eine_mutter" source="selima" target="eine_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selima|noch_eine" source="selima" target="noch_eine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selima|die_dritte" source="selima" target="die_dritte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="selima|sunim" source="selima" target="sunim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seth|adam" source="seth" target="adam">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="seth|der_todesengel" source="seth" target="der_todesengel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seth|kain" source="seth" target="kain">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seth|eva" source="seth" target="eva">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="seth|heman" source="seth" target="heman">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seth|eine_mutter" source="seth" target="eine_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seth|noch_eine" source="seth" target="noch_eine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seth|die_dritte" source="seth" target="die_dritte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seth|sunim" source="seth" target="sunim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adam|der_todesengel" source="adam" target="der_todesengel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adam|kain" source="adam" target="kain">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adam|eva" source="adam" target="eva">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adam|heman" source="adam" target="heman">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adam|eine_mutter" source="adam" target="eine_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adam|noch_eine" source="adam" target="noch_eine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adam|die_dritte" source="adam" target="die_dritte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adam|sunim" source="adam" target="sunim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|heman" source="eva" target="heman">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|eine_mutter" source="eva" target="eine_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|noch_eine" source="eva" target="noch_eine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|die_dritte" source="eva" target="die_dritte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eva|sunim" source="eva" target="sunim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heman|eine_mutter" source="heman" target="eine_mutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heman|noch_eine" source="heman" target="noch_eine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heman|die_dritte" source="heman" target="die_dritte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heman|sunim" source="heman" target="sunim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_mutter|noch_eine" source="eine_mutter" target="noch_eine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_mutter|die_dritte" source="eine_mutter" target="die_dritte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_mutter|sunim" source="eine_mutter" target="sunim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="noch_eine|die_dritte" source="noch_eine" target="die_dritte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="noch_eine|sunim" source="noch_eine" target="sunim">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dritte|sunim" source="die_dritte" target="sunim">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

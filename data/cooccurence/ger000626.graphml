@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="apollo">
+            <data key="label">Apollo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">876</data>
+        </node>
+        <node id="der_genius">
+            <data key="label">Der Genius Vindebonens</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">399</data>
+        </node>
+        <node id="das_vorurtheil">
+            <data key="label">Das Vorurtheil Vindebonens</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1017</data>
+        </node>
+        <node id="die_eitelkeit">
+            <data key="label">Die Eitelkeit</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="die_unwissenheit">
+            <data key="label">Die Unwissenheit</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="das_franzoesische_schauspiel">
+            <data key="label">Das Französische Schauspiel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">227</data>
+        </node>
+        <node id="der_patriotismus">
+            <data key="label">Der Patriotismus</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">283</data>
+        </node>
+        <node id="das_deutsche_schauspiel">
+            <data key="label">Das deutsche Schauspiel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="die_kritik">
+            <data key="label">Die Kritik</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">140</data>
+        </node>
+        <edge id="apollo|der_genius" source="apollo" target="der_genius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="apollo|das_vorurtheil" source="apollo" target="das_vorurtheil">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apollo|der_patriotismus" source="apollo" target="der_patriotismus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apollo|das_franzoesische_schauspiel" source="apollo" target="das_franzoesische_schauspiel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="apollo|das_deutsche_schauspiel" source="apollo" target="das_deutsche_schauspiel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apollo|die_kritik" source="apollo" target="die_kritik">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_genius|das_vorurtheil" source="der_genius" target="das_vorurtheil">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_genius|der_patriotismus" source="der_genius" target="der_patriotismus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_genius|das_franzoesische_schauspiel" source="der_genius" target="das_franzoesische_schauspiel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_vorurtheil|die_eitelkeit" source="das_vorurtheil" target="die_eitelkeit">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_vorurtheil|die_unwissenheit" source="das_vorurtheil" target="die_unwissenheit">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_vorurtheil|das_franzoesische_schauspiel" source="das_vorurtheil" target="das_franzoesische_schauspiel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_vorurtheil|der_patriotismus" source="das_vorurtheil" target="der_patriotismus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_vorurtheil|das_deutsche_schauspiel" source="das_vorurtheil" target="das_deutsche_schauspiel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_vorurtheil|die_kritik" source="das_vorurtheil" target="die_kritik">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_eitelkeit|die_unwissenheit" source="die_eitelkeit" target="die_unwissenheit">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_eitelkeit|das_franzoesische_schauspiel" source="die_eitelkeit" target="das_franzoesische_schauspiel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_unwissenheit|das_franzoesische_schauspiel" source="die_unwissenheit" target="das_franzoesische_schauspiel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_franzoesische_schauspiel|der_patriotismus" source="das_franzoesische_schauspiel" target="der_patriotismus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_franzoesische_schauspiel|das_deutsche_schauspiel" source="das_franzoesische_schauspiel" target="das_deutsche_schauspiel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_franzoesische_schauspiel|die_kritik" source="das_franzoesische_schauspiel" target="die_kritik">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_patriotismus|das_deutsche_schauspiel" source="der_patriotismus" target="das_deutsche_schauspiel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_patriotismus|die_kritik" source="der_patriotismus" target="die_kritik">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_deutsche_schauspiel|die_kritik" source="das_deutsche_schauspiel" target="die_kritik">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

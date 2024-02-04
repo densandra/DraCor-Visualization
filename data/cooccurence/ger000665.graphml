@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="foppendorf">
+            <data key="label">Foppendorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">895</data>
+        </node>
+        <node id="glocke">
+            <data key="label">Glocke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">222</data>
+        </node>
+        <node id="dratmann">
+            <data key="label">Dratmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">379</data>
+        </node>
+        <node id="charlottchen">
+            <data key="label">Charlottchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="christinchen">
+            <data key="label">Christinchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <edge id="foppendorf|glocke" source="foppendorf" target="glocke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="foppendorf|dratmann" source="foppendorf" target="dratmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="foppendorf|charlottchen" source="foppendorf" target="charlottchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="foppendorf|christinchen" source="foppendorf" target="christinchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dratmann|charlottchen" source="dratmann" target="charlottchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dratmann|christinchen" source="dratmann" target="christinchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="charlottchen|christinchen" source="charlottchen" target="christinchen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

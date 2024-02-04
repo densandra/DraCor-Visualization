@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="abellino">
+            <data key="label">Abellino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3520</data>
+        </node>
+        <node id="matteo">
+            <data key="label">Matteo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">942</data>
+        </node>
+        <node id="doge">
+            <data key="label">Doge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5035</data>
+        </node>
+        <node id="dandolo">
+            <data key="label">Dandolo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1230</data>
+        </node>
+        <node id="canari">
+            <data key="label">Canari</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1198</data>
+        </node>
+        <node id="iduella">
+            <data key="label">Iduella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">950</data>
+        </node>
+        <node id="rosamunde">
+            <data key="label">Rosamunde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2643</data>
+        </node>
+        <node id="flodoardo">
+            <data key="label">Flodoardo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3233</data>
+        </node>
+        <node id="parozzi">
+            <data key="label">Parozzi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2445</data>
+        </node>
+        <node id="memmo">
+            <data key="label">Memmo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">769</data>
+        </node>
+        <node id="falieri">
+            <data key="label">Falieri</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">663</data>
+        </node>
+        <node id="contarino">
+            <data key="label">Contarino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1226</data>
+        </node>
+        <node id="tolomeo">
+            <data key="label">Tolomeo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1414</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="ein_senator">
+            <data key="label">Ein Senator</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">92</data>
+        </node>
+        <node id="alle_5-2">
+            <data key="label">Alle (V/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="die_verschwornen">
+            <data key="label">Die Verschwornen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <edge id="abellino|matteo" source="abellino" target="matteo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="abellino|rosamunde" source="abellino" target="rosamunde">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="abellino|parozzi" source="abellino" target="parozzi">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="abellino|memmo" source="abellino" target="memmo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="abellino|falieri" source="abellino" target="falieri">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="abellino|contarino" source="abellino" target="contarino">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="abellino|doge" source="abellino" target="doge">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="abellino|tolomeo" source="abellino" target="tolomeo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="abellino|flodoardo" source="abellino" target="flodoardo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="abellino|die_verschwornen" source="abellino" target="die_verschwornen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="matteo|rosamunde" source="matteo" target="rosamunde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doge|dandolo" source="doge" target="dandolo">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="doge|canari" source="doge" target="canari">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="doge|flodoardo" source="doge" target="flodoardo">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="doge|tolomeo" source="doge" target="tolomeo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="doge|iduella" source="doge" target="iduella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doge|rosamunde" source="doge" target="rosamunde">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="doge|parozzi" source="doge" target="parozzi">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="doge|diener" source="doge" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doge|ein_senator" source="doge" target="ein_senator">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="doge|memmo" source="doge" target="memmo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="doge|contarino" source="doge" target="contarino">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="doge|falieri" source="doge" target="falieri">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="doge|alle_5-2" source="doge" target="alle_5-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doge|die_verschwornen" source="doge" target="die_verschwornen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dandolo|canari" source="dandolo" target="canari">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dandolo|flodoardo" source="dandolo" target="flodoardo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dandolo|parozzi" source="dandolo" target="parozzi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dandolo|rosamunde" source="dandolo" target="rosamunde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dandolo|ein_senator" source="dandolo" target="ein_senator">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="canari|iduella" source="canari" target="iduella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="canari|flodoardo" source="canari" target="flodoardo">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="canari|parozzi" source="canari" target="parozzi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="canari|rosamunde" source="canari" target="rosamunde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="canari|ein_senator" source="canari" target="ein_senator">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="iduella|rosamunde" source="iduella" target="rosamunde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosamunde|flodoardo" source="rosamunde" target="flodoardo">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="rosamunde|tolomeo" source="rosamunde" target="tolomeo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosamunde|memmo" source="rosamunde" target="memmo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosamunde|parozzi" source="rosamunde" target="parozzi">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="rosamunde|contarino" source="rosamunde" target="contarino">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosamunde|ein_senator" source="rosamunde" target="ein_senator">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosamunde|falieri" source="rosamunde" target="falieri">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosamunde|die_verschwornen" source="rosamunde" target="die_verschwornen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flodoardo|parozzi" source="flodoardo" target="parozzi">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="flodoardo|contarino" source="flodoardo" target="contarino">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flodoardo|falieri" source="flodoardo" target="falieri">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="flodoardo|memmo" source="flodoardo" target="memmo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flodoardo|tolomeo" source="flodoardo" target="tolomeo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flodoardo|die_verschwornen" source="flodoardo" target="die_verschwornen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flodoardo|ein_senator" source="flodoardo" target="ein_senator">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="parozzi|memmo" source="parozzi" target="memmo">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="parozzi|falieri" source="parozzi" target="falieri">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="parozzi|contarino" source="parozzi" target="contarino">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="parozzi|tolomeo" source="parozzi" target="tolomeo">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="parozzi|ein_senator" source="parozzi" target="ein_senator">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="parozzi|alle_5-2" source="parozzi" target="alle_5-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="parozzi|die_verschwornen" source="parozzi" target="die_verschwornen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="memmo|falieri" source="memmo" target="falieri">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="memmo|contarino" source="memmo" target="contarino">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="memmo|tolomeo" source="memmo" target="tolomeo">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="memmo|ein_senator" source="memmo" target="ein_senator">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="memmo|alle_5-2" source="memmo" target="alle_5-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="memmo|die_verschwornen" source="memmo" target="die_verschwornen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="falieri|contarino" source="falieri" target="contarino">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="falieri|tolomeo" source="falieri" target="tolomeo">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="falieri|ein_senator" source="falieri" target="ein_senator">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="falieri|alle_5-2" source="falieri" target="alle_5-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="falieri|die_verschwornen" source="falieri" target="die_verschwornen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="contarino|tolomeo" source="contarino" target="tolomeo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="contarino|ein_senator" source="contarino" target="ein_senator">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="contarino|alle_5-2" source="contarino" target="alle_5-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="contarino|die_verschwornen" source="contarino" target="die_verschwornen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tolomeo|alle_5-2" source="tolomeo" target="alle_5-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tolomeo|ein_senator" source="tolomeo" target="ein_senator">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tolomeo|die_verschwornen" source="tolomeo" target="die_verschwornen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_senator|alle_5-2" source="ein_senator" target="alle_5-2">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

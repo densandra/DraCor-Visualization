@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="johannes_mueller">
+            <data key="label">Johannes Müller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">90</data>
+        </node>
+        <node id="buesching">
+            <data key="label">Büsching</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <node id="bettler">
+            <data key="label">Bettler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1040</data>
+        </node>
+        <node id="carofilli">
+            <data key="label">Carofilli</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">545</data>
+        </node>
+        <node id="caboga">
+            <data key="label">Caboga</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5331</data>
+        </node>
+        <node id="procoli">
+            <data key="label">Procoli</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1790</data>
+        </node>
+        <node id="mitrovich">
+            <data key="label">Mitrovich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">943</data>
+        </node>
+        <node id="marina">
+            <data key="label">Marina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">450</data>
+        </node>
+        <node id="crook">
+            <data key="label">Crook</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">265</data>
+        </node>
+        <node id="cornelia">
+            <data key="label">Cornelia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">840</data>
+        </node>
+        <node id="herzog">
+            <data key="label">Herzog</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1491</data>
+        </node>
+        <node id="viele_1">
+            <data key="label">Viele (I)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="ratsherr">
+            <data key="label">Ratsherr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">108</data>
+        </node>
+        <node id="alle_1">
+            <data key="label">Alle (I)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="hitrov">
+            <data key="label">Hitrov</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">158</data>
+        </node>
+        <node id="czirich">
+            <data key="label">Czirich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">450</data>
+        </node>
+        <node id="alle_2">
+            <data key="label">Alle (II)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="kassuba">
+            <data key="label">Kassuba</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">244</data>
+        </node>
+        <node id="polo">
+            <data key="label">Polo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">160</data>
+        </node>
+        <node id="viele_3">
+            <data key="label">Viele (III)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">47</data>
+        </node>
+        <node id="alle_3">
+            <data key="label">Alle (III)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="einer">
+            <data key="label">Einer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">165</data>
+        </node>
+        <edge id="johannes_mueller|buesching" source="johannes_mueller" target="buesching">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bettler|carofilli" source="bettler" target="carofilli">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bettler|caboga" source="bettler" target="caboga">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bettler|procoli" source="bettler" target="procoli">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bettler|mitrovich" source="bettler" target="mitrovich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bettler|marina" source="bettler" target="marina">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bettler|crook" source="bettler" target="crook">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bettler|cornelia" source="bettler" target="cornelia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bettler|herzog" source="bettler" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bettler|viele_1" source="bettler" target="viele_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bettler|ratsherr" source="bettler" target="ratsherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bettler|alle_1" source="bettler" target="alle_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bettler|hitrov" source="bettler" target="hitrov">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bettler|kassuba" source="bettler" target="kassuba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bettler|polo" source="bettler" target="polo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bettler|viele_3" source="bettler" target="viele_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bettler|alle_3" source="bettler" target="alle_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bettler|einer" source="bettler" target="einer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carofilli|caboga" source="carofilli" target="caboga">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carofilli|procoli" source="carofilli" target="procoli">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carofilli|mitrovich" source="carofilli" target="mitrovich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carofilli|marina" source="carofilli" target="marina">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carofilli|crook" source="carofilli" target="crook">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carofilli|cornelia" source="carofilli" target="cornelia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carofilli|herzog" source="carofilli" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carofilli|viele_1" source="carofilli" target="viele_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carofilli|ratsherr" source="carofilli" target="ratsherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carofilli|alle_1" source="carofilli" target="alle_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carofilli|hitrov" source="carofilli" target="hitrov">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carofilli|kassuba" source="carofilli" target="kassuba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carofilli|polo" source="carofilli" target="polo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carofilli|viele_3" source="carofilli" target="viele_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carofilli|alle_3" source="carofilli" target="alle_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carofilli|einer" source="carofilli" target="einer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caboga|procoli" source="caboga" target="procoli">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="caboga|mitrovich" source="caboga" target="mitrovich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="caboga|marina" source="caboga" target="marina">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="caboga|crook" source="caboga" target="crook">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caboga|cornelia" source="caboga" target="cornelia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="caboga|herzog" source="caboga" target="herzog">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="caboga|viele_1" source="caboga" target="viele_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caboga|ratsherr" source="caboga" target="ratsherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="caboga|alle_1" source="caboga" target="alle_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caboga|hitrov" source="caboga" target="hitrov">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="caboga|czirich" source="caboga" target="czirich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caboga|alle_2" source="caboga" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caboga|kassuba" source="caboga" target="kassuba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caboga|polo" source="caboga" target="polo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caboga|viele_3" source="caboga" target="viele_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caboga|alle_3" source="caboga" target="alle_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caboga|einer" source="caboga" target="einer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="procoli|mitrovich" source="procoli" target="mitrovich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="procoli|marina" source="procoli" target="marina">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="procoli|crook" source="procoli" target="crook">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="procoli|cornelia" source="procoli" target="cornelia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="procoli|herzog" source="procoli" target="herzog">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="procoli|viele_1" source="procoli" target="viele_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="procoli|ratsherr" source="procoli" target="ratsherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="procoli|alle_1" source="procoli" target="alle_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="procoli|hitrov" source="procoli" target="hitrov">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="procoli|czirich" source="procoli" target="czirich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="procoli|alle_2" source="procoli" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="procoli|kassuba" source="procoli" target="kassuba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="procoli|polo" source="procoli" target="polo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="procoli|viele_3" source="procoli" target="viele_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="procoli|alle_3" source="procoli" target="alle_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="procoli|einer" source="procoli" target="einer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mitrovich|marina" source="mitrovich" target="marina">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mitrovich|crook" source="mitrovich" target="crook">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mitrovich|cornelia" source="mitrovich" target="cornelia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mitrovich|herzog" source="mitrovich" target="herzog">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mitrovich|viele_1" source="mitrovich" target="viele_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mitrovich|ratsherr" source="mitrovich" target="ratsherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mitrovich|alle_1" source="mitrovich" target="alle_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mitrovich|hitrov" source="mitrovich" target="hitrov">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mitrovich|czirich" source="mitrovich" target="czirich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mitrovich|alle_2" source="mitrovich" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mitrovich|kassuba" source="mitrovich" target="kassuba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mitrovich|polo" source="mitrovich" target="polo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mitrovich|viele_3" source="mitrovich" target="viele_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mitrovich|alle_3" source="mitrovich" target="alle_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mitrovich|einer" source="mitrovich" target="einer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marina|crook" source="marina" target="crook">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marina|cornelia" source="marina" target="cornelia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marina|herzog" source="marina" target="herzog">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marina|viele_1" source="marina" target="viele_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marina|ratsherr" source="marina" target="ratsherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marina|alle_1" source="marina" target="alle_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marina|hitrov" source="marina" target="hitrov">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marina|czirich" source="marina" target="czirich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marina|alle_2" source="marina" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marina|kassuba" source="marina" target="kassuba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marina|polo" source="marina" target="polo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marina|viele_3" source="marina" target="viele_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marina|alle_3" source="marina" target="alle_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marina|einer" source="marina" target="einer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crook|cornelia" source="crook" target="cornelia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crook|herzog" source="crook" target="herzog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crook|viele_1" source="crook" target="viele_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crook|ratsherr" source="crook" target="ratsherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crook|alle_1" source="crook" target="alle_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="crook|hitrov" source="crook" target="hitrov">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cornelia|herzog" source="cornelia" target="herzog">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cornelia|viele_1" source="cornelia" target="viele_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cornelia|ratsherr" source="cornelia" target="ratsherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cornelia|alle_1" source="cornelia" target="alle_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cornelia|hitrov" source="cornelia" target="hitrov">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cornelia|czirich" source="cornelia" target="czirich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cornelia|alle_2" source="cornelia" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|viele_1" source="herzog" target="viele_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|ratsherr" source="herzog" target="ratsherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|alle_1" source="herzog" target="alle_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|hitrov" source="herzog" target="hitrov">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herzog|czirich" source="herzog" target="czirich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herzog|alle_2" source="herzog" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_1|ratsherr" source="viele_1" target="ratsherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_1|alle_1" source="viele_1" target="alle_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_1|hitrov" source="viele_1" target="hitrov">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratsherr|alle_1" source="ratsherr" target="alle_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratsherr|hitrov" source="ratsherr" target="hitrov">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratsherr|kassuba" source="ratsherr" target="kassuba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratsherr|polo" source="ratsherr" target="polo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratsherr|viele_3" source="ratsherr" target="viele_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratsherr|alle_3" source="ratsherr" target="alle_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratsherr|einer" source="ratsherr" target="einer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_1|hitrov" source="alle_1" target="hitrov">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hitrov|czirich" source="hitrov" target="czirich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hitrov|alle_2" source="hitrov" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="czirich|alle_2" source="czirich" target="alle_2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kassuba|polo" source="kassuba" target="polo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kassuba|viele_3" source="kassuba" target="viele_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kassuba|alle_3" source="kassuba" target="alle_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kassuba|einer" source="kassuba" target="einer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="polo|viele_3" source="polo" target="viele_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="polo|alle_3" source="polo" target="alle_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="polo|einer" source="polo" target="einer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_3|alle_3" source="viele_3" target="alle_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_3|einer" source="viele_3" target="einer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_3|einer" source="alle_3" target="einer">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

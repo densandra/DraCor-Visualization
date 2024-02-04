@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="martha">
+            <data key="label">Martha</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">93</data>
+        </node>
+        <node id="susanne">
+            <data key="label">Susanne Helfrich</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">689</data>
+        </node>
+        <node id="katharina">
+            <data key="label">Katharina Posinger</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">599</data>
+        </node>
+        <node id="apollonia">
+            <data key="label">Apollonia Kramer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="frauen_und_maedchen">
+            <data key="label">Frauen und Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="anna">
+            <data key="label">Anna Brand</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">93</data>
+        </node>
+        <node id="elisabeth">
+            <data key="label">Elisabeth Brand</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">101</data>
+        </node>
+        <node id="lisa">
+            <data key="label">Lisa Schuck</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">89</data>
+        </node>
+        <node id="kaetchen_maiberger">
+            <data key="label">Kätchen Maiberger</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">59</data>
+        </node>
+        <node id="mehrere_arbeiterinnen">
+            <data key="label">Mehrere Arbeiterinnen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="ein_anderes_maedchen">
+            <data key="label">Ein anderes Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="eine_andere">
+            <data key="label">Eine Andere</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="kommissar">
+            <data key="label">Polizeikommissar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">82</data>
+        </node>
+        <node id="weidmann">
+            <data key="label">Alex Weidmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">714</data>
+        </node>
+        <node id="scholl">
+            <data key="label">Martin Scholl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1317</data>
+        </node>
+        <node id="alice">
+            <data key="label">Alice Scholl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1596</data>
+        </node>
+        <node id="hausmaedchen">
+            <data key="label">Hausmädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">61</data>
+        </node>
+        <node id="nachbarin">
+            <data key="label">Nachbarin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="schwester_clara">
+            <data key="label">Schwester Clara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">133</data>
+        </node>
+        <edge id="martha|susanne" source="martha" target="susanne">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="martha|katharina" source="martha" target="katharina">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="martha|apollonia" source="martha" target="apollonia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martha|frauen_und_maedchen" source="martha" target="frauen_und_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martha|anna" source="martha" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martha|elisabeth" source="martha" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martha|lisa" source="martha" target="lisa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martha|kaetchen_maiberger" source="martha" target="kaetchen_maiberger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martha|mehrere_arbeiterinnen" source="martha" target="mehrere_arbeiterinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martha|ein_anderes_maedchen" source="martha" target="ein_anderes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martha|eine_andere" source="martha" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martha|kommissar" source="martha" target="kommissar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martha|nachbarin" source="martha" target="nachbarin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martha|schwester_clara" source="martha" target="schwester_clara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martha|weidmann" source="martha" target="weidmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martha|scholl" source="martha" target="scholl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martha|alice" source="martha" target="alice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|katharina" source="susanne" target="katharina">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="susanne|apollonia" source="susanne" target="apollonia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|frauen_und_maedchen" source="susanne" target="frauen_und_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|anna" source="susanne" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|elisabeth" source="susanne" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|lisa" source="susanne" target="lisa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|kaetchen_maiberger" source="susanne" target="kaetchen_maiberger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|mehrere_arbeiterinnen" source="susanne" target="mehrere_arbeiterinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|ein_anderes_maedchen" source="susanne" target="ein_anderes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|eine_andere" source="susanne" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|kommissar" source="susanne" target="kommissar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|nachbarin" source="susanne" target="nachbarin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|schwester_clara" source="susanne" target="schwester_clara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|weidmann" source="susanne" target="weidmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|scholl" source="susanne" target="scholl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susanne|alice" source="susanne" target="alice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|apollonia" source="katharina" target="apollonia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|frauen_und_maedchen" source="katharina" target="frauen_und_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|anna" source="katharina" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|elisabeth" source="katharina" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|lisa" source="katharina" target="lisa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|kaetchen_maiberger" source="katharina" target="kaetchen_maiberger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|mehrere_arbeiterinnen" source="katharina" target="mehrere_arbeiterinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|ein_anderes_maedchen" source="katharina" target="ein_anderes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|eine_andere" source="katharina" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|kommissar" source="katharina" target="kommissar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|nachbarin" source="katharina" target="nachbarin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|schwester_clara" source="katharina" target="schwester_clara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|weidmann" source="katharina" target="weidmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|scholl" source="katharina" target="scholl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharina|alice" source="katharina" target="alice">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apollonia|frauen_und_maedchen" source="apollonia" target="frauen_und_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apollonia|anna" source="apollonia" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apollonia|elisabeth" source="apollonia" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apollonia|lisa" source="apollonia" target="lisa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apollonia|kaetchen_maiberger" source="apollonia" target="kaetchen_maiberger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apollonia|mehrere_arbeiterinnen" source="apollonia" target="mehrere_arbeiterinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apollonia|ein_anderes_maedchen" source="apollonia" target="ein_anderes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apollonia|eine_andere" source="apollonia" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apollonia|kommissar" source="apollonia" target="kommissar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauen_und_maedchen|anna" source="frauen_und_maedchen" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauen_und_maedchen|elisabeth" source="frauen_und_maedchen" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauen_und_maedchen|lisa" source="frauen_und_maedchen" target="lisa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauen_und_maedchen|kaetchen_maiberger" source="frauen_und_maedchen" target="kaetchen_maiberger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauen_und_maedchen|mehrere_arbeiterinnen" source="frauen_und_maedchen" target="mehrere_arbeiterinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauen_und_maedchen|ein_anderes_maedchen" source="frauen_und_maedchen" target="ein_anderes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauen_und_maedchen|eine_andere" source="frauen_und_maedchen" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frauen_und_maedchen|kommissar" source="frauen_und_maedchen" target="kommissar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|elisabeth" source="anna" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|lisa" source="anna" target="lisa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|kaetchen_maiberger" source="anna" target="kaetchen_maiberger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|mehrere_arbeiterinnen" source="anna" target="mehrere_arbeiterinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|ein_anderes_maedchen" source="anna" target="ein_anderes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|eine_andere" source="anna" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|kommissar" source="anna" target="kommissar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|lisa" source="elisabeth" target="lisa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|kaetchen_maiberger" source="elisabeth" target="kaetchen_maiberger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|mehrere_arbeiterinnen" source="elisabeth" target="mehrere_arbeiterinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|ein_anderes_maedchen" source="elisabeth" target="ein_anderes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|eine_andere" source="elisabeth" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|kommissar" source="elisabeth" target="kommissar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisa|kaetchen_maiberger" source="lisa" target="kaetchen_maiberger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisa|mehrere_arbeiterinnen" source="lisa" target="mehrere_arbeiterinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisa|ein_anderes_maedchen" source="lisa" target="ein_anderes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisa|eine_andere" source="lisa" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lisa|kommissar" source="lisa" target="kommissar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaetchen_maiberger|mehrere_arbeiterinnen" source="kaetchen_maiberger" target="mehrere_arbeiterinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaetchen_maiberger|ein_anderes_maedchen" source="kaetchen_maiberger" target="ein_anderes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaetchen_maiberger|eine_andere" source="kaetchen_maiberger" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaetchen_maiberger|kommissar" source="kaetchen_maiberger" target="kommissar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehrere_arbeiterinnen|ein_anderes_maedchen" source="mehrere_arbeiterinnen" target="ein_anderes_maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehrere_arbeiterinnen|eine_andere" source="mehrere_arbeiterinnen" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehrere_arbeiterinnen|kommissar" source="mehrere_arbeiterinnen" target="kommissar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_maedchen|eine_andere" source="ein_anderes_maedchen" target="eine_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_anderes_maedchen|kommissar" source="ein_anderes_maedchen" target="kommissar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eine_andere|kommissar" source="eine_andere" target="kommissar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weidmann|scholl" source="weidmann" target="scholl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="weidmann|alice" source="weidmann" target="alice">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="weidmann|hausmaedchen" source="weidmann" target="hausmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weidmann|nachbarin" source="weidmann" target="nachbarin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weidmann|schwester_clara" source="weidmann" target="schwester_clara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scholl|alice" source="scholl" target="alice">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="scholl|hausmaedchen" source="scholl" target="hausmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scholl|nachbarin" source="scholl" target="nachbarin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scholl|schwester_clara" source="scholl" target="schwester_clara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alice|hausmaedchen" source="alice" target="hausmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alice|nachbarin" source="alice" target="nachbarin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alice|schwester_clara" source="alice" target="schwester_clara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachbarin|schwester_clara" source="nachbarin" target="schwester_clara">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

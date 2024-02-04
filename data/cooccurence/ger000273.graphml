@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="landrath">
+            <data key="label">Landrath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4146</data>
+        </node>
+        <node id="ernestine">
+            <data key="label">Ernestine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1954</data>
+        </node>
+        <node id="herr_von_kiel">
+            <data key="label">Herr von Kiel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2809</data>
+        </node>
+        <node id="elise">
+            <data key="label">Elise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3494</data>
+        </node>
+        <node id="kommerzienrath">
+            <data key="label">Kommerzienrath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1449</data>
+        </node>
+        <node id="martin">
+            <data key="label">Martin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">805</data>
+        </node>
+        <node id="reitknecht">
+            <data key="label">Reitknecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">94</data>
+        </node>
+        <node id="bauer">
+            <data key="label">Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <edge id="landrath|ernestine" source="landrath" target="ernestine">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="landrath|herr_von_kiel" source="landrath" target="herr_von_kiel">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="landrath|elise" source="landrath" target="elise">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="landrath|kommerzienrath" source="landrath" target="kommerzienrath">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="landrath|martin" source="landrath" target="martin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="landrath|reitknecht" source="landrath" target="reitknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrath|bauer" source="landrath" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernestine|herr_von_kiel" source="ernestine" target="herr_von_kiel">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="ernestine|elise" source="ernestine" target="elise">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="ernestine|kommerzienrath" source="ernestine" target="kommerzienrath">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="ernestine|martin" source="ernestine" target="martin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_von_kiel|elise" source="herr_von_kiel" target="elise">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="herr_von_kiel|kommerzienrath" source="herr_von_kiel" target="kommerzienrath">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="herr_von_kiel|martin" source="herr_von_kiel" target="martin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="elise|kommerzienrath" source="elise" target="kommerzienrath">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="elise|martin" source="elise" target="martin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="elise|bauer" source="elise" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kommerzienrath|martin" source="kommerzienrath" target="martin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="martin|bauer" source="martin" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="isaak">
+            <data key="label">Isaak</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rahel">
+            <data key="label">Rahel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="esther">
+            <data key="label">Esther</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="koenig">
+            <data key="label">König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="manrique">
+            <data key="label">Manrique</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="koenigin">
+            <data key="label">Königin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="garceran">
+            <data key="label">Garceran</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_weiberstimme">
+            <data key="label">Eine Weiberstimme</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="knappe">
+            <data key="label">Knappe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diener_3">
+            <data key="label">Diener (III)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bittsteller">
+            <data key="label">Bittsteller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_bittsteller">
+            <data key="label">Zweiter Bittsteller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_bittsteller">
+            <data key="label">Dritter Bittsteller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diener_4">
+            <data key="label">Diener (IV)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kammerfrau">
+            <data key="label">Kammerfrau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="von_aussen">
+            <data key="label">Stimmen von außen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="koenig" target="koenigin">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="manrique" target="garceran">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="kammerfrau" target="koenigin">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="isaak" target="esther">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="isaak" target="rahel">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="knappe" target="koenig">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

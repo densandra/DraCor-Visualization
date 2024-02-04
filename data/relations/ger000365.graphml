@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="oberst">
+            <data key="label">Oberst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ida">
+            <data key="label">Ida</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="oldendorf">
+            <data key="label">Oldendorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="senden">
+            <data key="label">Senden</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="blumenberg">
+            <data key="label">Blumenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schmock">
+            <data key="label">Schmock</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="adelheid">
+            <data key="label">Adelheid Runeck</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="korb">
+            <data key="label">Korb</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bolz">
+            <data key="label">Conrad Bolz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mueller">
+            <data key="label">Müller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bellmaus">
+            <data key="label">Bellmaus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kaempe">
+            <data key="label">Kämpe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="henning">
+            <data key="label">Buchdrucker Henning</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pavoni">
+            <data key="label">Madame Pavoni</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gast">
+            <data key="label">Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="piepenbrink">
+            <data key="label">Piepenbrink</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_piepenbrink">
+            <data key="label">Frau Piepenbrink</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kleinmichel">
+            <data key="label">Kleinmichel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fritz_kleinmichel">
+            <data key="label">Fritz Kleinmichel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="berta">
+            <data key="label">Berta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="maennerchor">
+            <data key="label">Männerchor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="koerner">
+            <data key="label">Körner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schwarz">
+            <data key="label">Schwarz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="piepenbrink" target="frau_piepenbrink">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="oberst" target="ida">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="frau_piepenbrink" target="berta">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="karl" target="oberst">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="kleinmichel" target="fritz_kleinmichel">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="karl" target="oberst">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

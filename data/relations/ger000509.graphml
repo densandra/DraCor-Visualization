@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="miele">
+            <data key="label">Miele</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_krause">
+            <data key="label">Frau Krause</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="loth">
+            <data key="label">Alfred Loth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hoffmann">
+            <data key="label">Hoffmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="helene">
+            <data key="label">Helene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eduard">
+            <data key="label">Eduard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="postpackettraeger">
+            <data key="label">Postpacketträger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kahl">
+            <data key="label">Wilhelm Kahl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_spiller">
+            <data key="label">Frau Spiller</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bauer_krause">
+            <data key="label">Bauer Krause</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="beibst">
+            <data key="label">Beibst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="guste">
+            <data key="label">Guste</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dr_schimmelpfennig">
+            <data key="label">Dr. Schimmelpfennig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_junge">
+            <data key="label">Der Junge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="baer">
+            <data key="label">Baer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="liese">
+            <data key="label">Liese</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_kutschenfrau">
+            <data key="label">Die Kutschenfrau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="bauer_krause" target="frau_krause">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="bauer_krause" target="helene">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="kahl" target="frau_krause">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="4" directed="false" source="frau_spiller" target="frau_krause">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="beibst" target="bauer_krause">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="guste" target="bauer_krause">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="liese" target="bauer_krause">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="marie" target="bauer_krause">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="eduard" target="hoffmann">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="10" directed="false" source="miele" target="frau_krause">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

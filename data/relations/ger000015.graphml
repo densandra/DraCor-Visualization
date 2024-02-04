@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="neurath">
+            <data key="label">Neurath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="horfmann">
+            <data key="label">Horfmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="delomer">
+            <data key="label">Delomer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dominique_sohn">
+            <data key="label">Dominique Sohn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="madam_dominique">
+            <data key="label">Madam Dominique</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="graf">
+            <data key="label">Graf Warbing</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="graefin">
+            <data key="label">Gräfin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_bauern">
+            <data key="label">Die Bauern</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="schulz">
+            <data key="label">Schulz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="das_kind">
+            <data key="label">Das Kind</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dominique_vater">
+            <data key="label">Dominique Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marquis">
+            <data key="label">Marquis de Valiere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gaertner">
+            <data key="label">Gärtner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="etliche">
+            <data key="label">Etliche</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="dominique_sohn" target="madam_dominique">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="graf" target="graefin">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="delomer" target="dominique_sohn">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="4" directed="false" source="horfmann" target="delomer">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

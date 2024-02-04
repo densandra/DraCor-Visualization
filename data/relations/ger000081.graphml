@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="frau_ermischer">
+            <data key="label">Frau Ermischer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="maari">
+            <data key="label">Maari</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ermischer">
+            <data key="label">Ermischer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ulbrich">
+            <data key="label">Ulbrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="seifert">
+            <data key="label">Seifert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="weigel">
+            <data key="label">Gendarm Weigel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="neubert">
+            <data key="label">Neubert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_neubert">
+            <data key="label">Frau Neubert</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="neumerkel">
+            <data key="label">Neumerkel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="heinerle">
+            <data key="label">Heinerle</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fraenzel">
+            <data key="label">Fränzel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="liesel">
+            <data key="label">Liesel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_schoenherr">
+            <data key="label">Frau Schönherr</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gertrud">
+            <data key="label">Gertrud</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schoenherr">
+            <data key="label">Meister Schönherr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_ulbrich">
+            <data key="label">Frau Ulbrich</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_seifert">
+            <data key="label">Frau Seifert</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_waldarbeiter">
+            <data key="label">Die Waldarbeiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_bauer">
+            <data key="label">Ein Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_schnitzler_schnitzlersleute">
+            <data key="label">Die Schnitzler/Schnitzlersleute</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_bauern">
+            <data key="label">Die Bauern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="ermischer" target="frau_ermischer">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="frau_schoenherr" target="schoenherr">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="frau_seifert" target="seifert">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="4" directed="false" source="frau_ulbrich" target="ulbrich">
+            <data key="relation">spouses</data>
+        </edge>
+    </graph>
+</graphml>

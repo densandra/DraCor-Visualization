@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="baron">
+            <data key="label">Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="krabbe">
+            <data key="label">Krabbe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pellmann">
+            <data key="label">Pellmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="emma">
+            <data key="label">Emma</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fritze">
+            <data key="label">Fritze</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gustav">
+            <data key="label">Gustav</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="julius">
+            <data key="label">Julius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="julius_krabbe">
+            <data key="label">Julius Krabbe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eweline">
+            <data key="label">Eweline</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="barbara">
+            <data key="label">Barbara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="magister">
+            <data key="label">Magister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gottlieb">
+            <data key="label">Gottlieb</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="klara">
+            <data key="label">Klara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="baron" target="julius">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="magister" target="baron">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="krabbe" target="julius_krabbe">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="barbara" target="emma">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="barbara" target="fritze">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="6" directed="false" source="gottlieb" target="baron">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="klara" target="eweline">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

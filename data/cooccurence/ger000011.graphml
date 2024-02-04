@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="foersterin">
+            <data key="label">Försterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2731</data>
+        </node>
+        <node id="weiler">
+            <data key="label">Weiler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1731</data>
+        </node>
+        <node id="andres">
+            <data key="label">Andres</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">805</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1124</data>
+        </node>
+        <node id="robert">
+            <data key="label">Robert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1382</data>
+        </node>
+        <node id="foerster">
+            <data key="label">Förster</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6997</data>
+        </node>
+        <node id="stein">
+            <data key="label">Stein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1608</data>
+        </node>
+        <node id="moeller">
+            <data key="label">Möller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1073</data>
+        </node>
+        <node id="wilkens">
+            <data key="label">Wilkens</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">908</data>
+        </node>
+        <node id="pastor">
+            <data key="label">Pastor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">632</data>
+        </node>
+        <node id="buchjaeger">
+            <data key="label">Buchjäger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">276</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">561</data>
+        </node>
+        <node id="frei">
+            <data key="label">Frei</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">632</data>
+        </node>
+        <node id="wirt">
+            <data key="label">Wirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">160</data>
+        </node>
+        <node id="lindenschmied">
+            <data key="label">Lindenschmied</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">275</data>
+        </node>
+        <node id="kathrine">
+            <data key="label">Kathrine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">98</data>
+        </node>
+        <node id="bastian">
+            <data key="label">Bastian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <edge id="foersterin|weiler" source="foersterin" target="weiler">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="foersterin|andres" source="foersterin" target="andres">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="foersterin|marie" source="foersterin" target="marie">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="foersterin|robert" source="foersterin" target="robert">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="foersterin|foerster" source="foersterin" target="foerster">
+            <data key="weight">18</data>
+        </edge>
+        <edge id="foersterin|stein" source="foersterin" target="stein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="foersterin|moeller" source="foersterin" target="moeller">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="foersterin|wilkens" source="foersterin" target="wilkens">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="foersterin|pastor" source="foersterin" target="pastor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="foersterin|wilhelm" source="foersterin" target="wilhelm">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="weiler|andres" source="weiler" target="andres">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="weiler|marie" source="weiler" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="weiler|foerster" source="weiler" target="foerster">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="weiler|wilkens" source="weiler" target="wilkens">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="weiler|pastor" source="weiler" target="pastor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="weiler|wilhelm" source="weiler" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andres|marie" source="andres" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="andres|foerster" source="andres" target="foerster">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="andres|moeller" source="andres" target="moeller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="andres|wilkens" source="andres" target="wilkens">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="andres|robert" source="andres" target="robert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="andres|pastor" source="andres" target="pastor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="andres|wilhelm" source="andres" target="wilhelm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="andres|wirt" source="andres" target="wirt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="andres|frei" source="andres" target="frei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andres|lindenschmied" source="andres" target="lindenschmied">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="andres|stein" source="andres" target="stein">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marie|robert" source="marie" target="robert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marie|foerster" source="marie" target="foerster">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="marie|moeller" source="marie" target="moeller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|wilkens" source="marie" target="wilkens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|foerster" source="robert" target="foerster">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="robert|moeller" source="robert" target="moeller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|wilkens" source="robert" target="wilkens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|stein" source="robert" target="stein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|kathrine" source="robert" target="kathrine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|buchjaeger" source="robert" target="buchjaeger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|lindenschmied" source="robert" target="lindenschmied">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|pastor" source="robert" target="pastor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|wilhelm" source="robert" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="foerster|stein" source="foerster" target="stein">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="foerster|moeller" source="foerster" target="moeller">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="foerster|wilkens" source="foerster" target="wilkens">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="foerster|pastor" source="foerster" target="pastor">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="foerster|wilhelm" source="foerster" target="wilhelm">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="stein|moeller" source="stein" target="moeller">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="stein|wilkens" source="stein" target="wilkens">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stein|pastor" source="stein" target="pastor">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="stein|bastian" source="stein" target="bastian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stein|wilhelm" source="stein" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="moeller|wilkens" source="moeller" target="wilkens">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="moeller|pastor" source="moeller" target="pastor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="moeller|buchjaeger" source="moeller" target="buchjaeger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="moeller|frei" source="moeller" target="frei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="moeller|wirt" source="moeller" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="moeller|lindenschmied" source="moeller" target="lindenschmied">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilkens|pastor" source="wilkens" target="pastor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilkens|wilhelm" source="wilkens" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pastor|wilhelm" source="pastor" target="wilhelm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pastor|bastian" source="pastor" target="bastian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frei|wirt" source="frei" target="wirt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frei|lindenschmied" source="frei" target="lindenschmied">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wirt|lindenschmied" source="wirt" target="lindenschmied">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">784</data>
+        </node>
+        <node id="die_liebhaberin">
+            <data key="label">Die Liebhaberin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">29</data>
+        </node>
+        <node id="der_komiker">
+            <data key="label">Der Komiker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">893</data>
+        </node>
+        <node id="der_heldenspieler">
+            <data key="label">Der Heldenspieler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">41</data>
+        </node>
+        <node id="die_heldenmutter">
+            <data key="label">Die Heldenmutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <node id="christoph">
+            <data key="label">Christoph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">512</data>
+        </node>
+        <node id="graf_franz_friedrich">
+            <data key="label">Graf Franz Friedrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">959</data>
+        </node>
+        <node id="der_heldenvater">
+            <data key="label">Der Heldenvater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">519</data>
+        </node>
+        <node id="johann_christian">
+            <data key="label">Johann Christian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5065</data>
+        </node>
+        <node id="die_harfenmaedchen">
+            <data key="label">Die Harfenmädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">88</data>
+        </node>
+        <node id="antonie">
+            <data key="label">Antonie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5030</data>
+        </node>
+        <node id="die_alte_graefin">
+            <data key="label">Die alte Gräfin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">297</data>
+        </node>
+        <node id="der_alte_graf">
+            <data key="label">Der alte Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">558</data>
+        </node>
+        <node id="dr_wurmbrand">
+            <data key="label">Dr. Wurmbrand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">367</data>
+        </node>
+        <node id="der_erste_vetter">
+            <data key="label">Der erste Vetter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">511</data>
+        </node>
+        <node id="der_zweite_vetter">
+            <data key="label">Der zweite Vetter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">723</data>
+        </node>
+        <node id="stella">
+            <data key="label">Stella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1557</data>
+        </node>
+        <node id="der_dicke_schulze">
+            <data key="label">Der dicke Schulze</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <node id="die_bauern">
+            <data key="label">Die Bauern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="schauspieler_schauspielerinnen_komoedianten">
+            <data key="label">Schauspieler und Schauspielerinnen/Komödianten</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <edge id="jakob|die_liebhaberin" source="jakob" target="die_liebhaberin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|der_komiker" source="jakob" target="der_komiker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|der_heldenspieler" source="jakob" target="der_heldenspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|die_heldenmutter" source="jakob" target="die_heldenmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|christoph" source="jakob" target="christoph">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jakob|graf_franz_friedrich" source="jakob" target="graf_franz_friedrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jakob|der_heldenvater" source="jakob" target="der_heldenvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|johann_christian" source="jakob" target="johann_christian">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jakob|die_harfenmaedchen" source="jakob" target="die_harfenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|antonie" source="jakob" target="antonie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jakob|die_alte_graefin" source="jakob" target="die_alte_graefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jakob|der_alte_graf" source="jakob" target="der_alte_graf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jakob|dr_wurmbrand" source="jakob" target="dr_wurmbrand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|der_erste_vetter" source="jakob" target="der_erste_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|der_zweite_vetter" source="jakob" target="der_zweite_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|stella" source="jakob" target="stella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_liebhaberin|der_komiker" source="die_liebhaberin" target="der_komiker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_liebhaberin|der_heldenspieler" source="die_liebhaberin" target="der_heldenspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_liebhaberin|die_heldenmutter" source="die_liebhaberin" target="die_heldenmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_liebhaberin|christoph" source="die_liebhaberin" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_liebhaberin|graf_franz_friedrich" source="die_liebhaberin" target="graf_franz_friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_liebhaberin|der_heldenvater" source="die_liebhaberin" target="der_heldenvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_liebhaberin|johann_christian" source="die_liebhaberin" target="johann_christian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_liebhaberin|die_harfenmaedchen" source="die_liebhaberin" target="die_harfenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_liebhaberin|antonie" source="die_liebhaberin" target="antonie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_liebhaberin|die_alte_graefin" source="die_liebhaberin" target="die_alte_graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_liebhaberin|der_alte_graf" source="die_liebhaberin" target="der_alte_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_komiker|der_heldenspieler" source="der_komiker" target="der_heldenspieler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_komiker|die_heldenmutter" source="der_komiker" target="die_heldenmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_komiker|christoph" source="der_komiker" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_komiker|graf_franz_friedrich" source="der_komiker" target="graf_franz_friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_komiker|der_heldenvater" source="der_komiker" target="der_heldenvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_komiker|johann_christian" source="der_komiker" target="johann_christian">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_komiker|die_harfenmaedchen" source="der_komiker" target="die_harfenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_komiker|antonie" source="der_komiker" target="antonie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_komiker|die_alte_graefin" source="der_komiker" target="die_alte_graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_komiker|der_alte_graf" source="der_komiker" target="der_alte_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_komiker|stella" source="der_komiker" target="stella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_komiker|der_dicke_schulze" source="der_komiker" target="der_dicke_schulze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_komiker|die_bauern" source="der_komiker" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_komiker|schauspieler_schauspielerinnen_komoedianten" source="der_komiker" target="schauspieler_schauspielerinnen_komoedianten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_heldenspieler|die_heldenmutter" source="der_heldenspieler" target="die_heldenmutter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_heldenspieler|christoph" source="der_heldenspieler" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_heldenspieler|graf_franz_friedrich" source="der_heldenspieler" target="graf_franz_friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_heldenspieler|der_heldenvater" source="der_heldenspieler" target="der_heldenvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_heldenspieler|johann_christian" source="der_heldenspieler" target="johann_christian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_heldenspieler|die_harfenmaedchen" source="der_heldenspieler" target="die_harfenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_heldenspieler|antonie" source="der_heldenspieler" target="antonie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_heldenspieler|die_alte_graefin" source="der_heldenspieler" target="die_alte_graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_heldenspieler|der_alte_graf" source="der_heldenspieler" target="der_alte_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_heldenmutter|christoph" source="die_heldenmutter" target="christoph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_heldenmutter|graf_franz_friedrich" source="die_heldenmutter" target="graf_franz_friedrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_heldenmutter|der_heldenvater" source="die_heldenmutter" target="der_heldenvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_heldenmutter|johann_christian" source="die_heldenmutter" target="johann_christian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_heldenmutter|die_harfenmaedchen" source="die_heldenmutter" target="die_harfenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_heldenmutter|antonie" source="die_heldenmutter" target="antonie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_heldenmutter|die_alte_graefin" source="die_heldenmutter" target="die_alte_graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_heldenmutter|der_alte_graf" source="die_heldenmutter" target="der_alte_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|graf_franz_friedrich" source="christoph" target="graf_franz_friedrich">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christoph|der_heldenvater" source="christoph" target="der_heldenvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|johann_christian" source="christoph" target="johann_christian">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christoph|die_harfenmaedchen" source="christoph" target="die_harfenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|antonie" source="christoph" target="antonie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christoph|die_alte_graefin" source="christoph" target="die_alte_graefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christoph|der_alte_graf" source="christoph" target="der_alte_graf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christoph|dr_wurmbrand" source="christoph" target="dr_wurmbrand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|der_erste_vetter" source="christoph" target="der_erste_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|der_zweite_vetter" source="christoph" target="der_zweite_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christoph|stella" source="christoph" target="stella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_franz_friedrich|der_heldenvater" source="graf_franz_friedrich" target="der_heldenvater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_franz_friedrich|johann_christian" source="graf_franz_friedrich" target="johann_christian">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="graf_franz_friedrich|die_harfenmaedchen" source="graf_franz_friedrich" target="die_harfenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_franz_friedrich|antonie" source="graf_franz_friedrich" target="antonie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="graf_franz_friedrich|die_alte_graefin" source="graf_franz_friedrich" target="die_alte_graefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="graf_franz_friedrich|der_alte_graf" source="graf_franz_friedrich" target="der_alte_graf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="graf_franz_friedrich|dr_wurmbrand" source="graf_franz_friedrich" target="dr_wurmbrand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_franz_friedrich|der_erste_vetter" source="graf_franz_friedrich" target="der_erste_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_franz_friedrich|der_zweite_vetter" source="graf_franz_friedrich" target="der_zweite_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_franz_friedrich|stella" source="graf_franz_friedrich" target="stella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_heldenvater|johann_christian" source="der_heldenvater" target="johann_christian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_heldenvater|die_harfenmaedchen" source="der_heldenvater" target="die_harfenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_heldenvater|antonie" source="der_heldenvater" target="antonie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_heldenvater|die_alte_graefin" source="der_heldenvater" target="die_alte_graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_heldenvater|der_alte_graf" source="der_heldenvater" target="der_alte_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann_christian|die_harfenmaedchen" source="johann_christian" target="die_harfenmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann_christian|antonie" source="johann_christian" target="antonie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="johann_christian|die_alte_graefin" source="johann_christian" target="die_alte_graefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="johann_christian|der_alte_graf" source="johann_christian" target="der_alte_graf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="johann_christian|dr_wurmbrand" source="johann_christian" target="dr_wurmbrand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann_christian|der_erste_vetter" source="johann_christian" target="der_erste_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann_christian|der_zweite_vetter" source="johann_christian" target="der_zweite_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann_christian|stella" source="johann_christian" target="stella">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="johann_christian|der_dicke_schulze" source="johann_christian" target="der_dicke_schulze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann_christian|die_bauern" source="johann_christian" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johann_christian|schauspieler_schauspielerinnen_komoedianten" source="johann_christian" target="schauspieler_schauspielerinnen_komoedianten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_harfenmaedchen|antonie" source="die_harfenmaedchen" target="antonie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_harfenmaedchen|die_alte_graefin" source="die_harfenmaedchen" target="die_alte_graefin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_harfenmaedchen|der_alte_graf" source="die_harfenmaedchen" target="der_alte_graf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antonie|die_alte_graefin" source="antonie" target="die_alte_graefin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="antonie|der_alte_graf" source="antonie" target="der_alte_graf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="antonie|dr_wurmbrand" source="antonie" target="dr_wurmbrand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antonie|der_erste_vetter" source="antonie" target="der_erste_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antonie|der_zweite_vetter" source="antonie" target="der_zweite_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antonie|stella" source="antonie" target="stella">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="antonie|der_dicke_schulze" source="antonie" target="der_dicke_schulze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antonie|die_bauern" source="antonie" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="antonie|schauspieler_schauspielerinnen_komoedianten" source="antonie" target="schauspieler_schauspielerinnen_komoedianten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_alte_graefin|der_alte_graf" source="die_alte_graefin" target="der_alte_graf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="die_alte_graefin|dr_wurmbrand" source="die_alte_graefin" target="dr_wurmbrand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_alte_graefin|der_erste_vetter" source="die_alte_graefin" target="der_erste_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_alte_graefin|der_zweite_vetter" source="die_alte_graefin" target="der_zweite_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_alte_graefin|stella" source="die_alte_graefin" target="stella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_alte_graf|dr_wurmbrand" source="der_alte_graf" target="dr_wurmbrand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_alte_graf|der_erste_vetter" source="der_alte_graf" target="der_erste_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_alte_graf|der_zweite_vetter" source="der_alte_graf" target="der_zweite_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_alte_graf|stella" source="der_alte_graf" target="stella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_vetter|der_zweite_vetter" source="der_erste_vetter" target="der_zweite_vetter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_vetter|stella" source="der_erste_vetter" target="stella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_zweite_vetter|stella" source="der_zweite_vetter" target="stella">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stella|der_dicke_schulze" source="stella" target="der_dicke_schulze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stella|die_bauern" source="stella" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stella|schauspieler_schauspielerinnen_komoedianten" source="stella" target="schauspieler_schauspielerinnen_komoedianten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dicke_schulze|die_bauern" source="der_dicke_schulze" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_dicke_schulze|schauspieler_schauspielerinnen_komoedianten" source="der_dicke_schulze" target="schauspieler_schauspielerinnen_komoedianten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_bauern|schauspieler_schauspielerinnen_komoedianten" source="die_bauern" target="schauspieler_schauspielerinnen_komoedianten">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

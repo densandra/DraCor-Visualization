@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="chor_der_frauen">
+            <data key="label">Chor der Frauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_ritter">
+            <data key="label">(Chor der) Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="koenig">
+            <data key="label">König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="adolar">
+            <data key="label">Adolar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lysiart">
+            <data key="label">Lysiart</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="euryanthe">
+            <data key="label">Euryanthe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eglantine">
+            <data key="label">Eglantine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_landleute">
+            <data key="label">(Chor der) Landleute</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="rudolf">
+            <data key="label">Rudolf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bertha">
+            <data key="label">Bertha</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_der_jaeger">
+            <data key="label">Chor der Jäger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="euryanthe" target="adolar">
+            <data key="relation">spouses</data>
+        </edge>
+    </graph>
+</graphml>

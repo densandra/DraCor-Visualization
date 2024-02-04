@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="leonore">
+            <data key="label">Leonore</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2661</data>
+        </node>
+        <node id="arabella">
+            <data key="label">Arabella/Bella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">296</data>
+        </node>
+        <node id="rosa">
+            <data key="label">Rosa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">83</data>
+        </node>
+        <node id="gianettino">
+            <data key="label">Gianettino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1168</data>
+        </node>
+        <node id="mohr">
+            <data key="label">Mohr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2252</data>
+        </node>
+        <node id="calcagno">
+            <data key="label">Calcagno</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">946</data>
+        </node>
+        <node id="sacco">
+            <data key="label">Sacco</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">441</data>
+        </node>
+        <node id="julia">
+            <data key="label">Julia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1386</data>
+        </node>
+        <node id="fiesco">
+            <data key="label">Fiesco</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8517</data>
+        </node>
+        <node id="gaeste">
+            <data key="label">Gäste</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="lomellin">
+            <data key="label">Lomellin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">676</data>
+        </node>
+        <node id="eine_von_den_drei_masken">
+            <data key="label">Eine von den drei Masken</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="masken">
+            <data key="label">Masken</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="verrina">
+            <data key="label">Verrina</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2511</data>
+        </node>
+        <node id="bourgognino">
+            <data key="label">Bourgognino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">992</data>
+        </node>
+        <node id="berta">
+            <data key="label">Berta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">148</data>
+        </node>
+        <node id="zibo">
+            <data key="label">Zibo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">337</data>
+        </node>
+        <node id="zenturione">
+            <data key="label">Zenturione</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">409</data>
+        </node>
+        <node id="asserato">
+            <data key="label">Asserato</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">115</data>
+        </node>
+        <node id="zwoelf_handwerker">
+            <data key="label">Zwölf Handwerker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">73</data>
+        </node>
+        <node id="erster_handwerker">
+            <data key="label">Erster Handwerker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">97</data>
+        </node>
+        <node id="zweiter_handwerker">
+            <data key="label">Zweiter Handwerker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="dritter_handwerker">
+            <data key="label">Dritter Handwerker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="andreas">
+            <data key="label">Andreas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">649</data>
+        </node>
+        <node id="romano">
+            <data key="label">Romano</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">134</data>
+        </node>
+        <node id="verschworene">
+            <data key="label">Verschworene</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="teutscher_3-11">
+            <data key="label">Teutscher (III/11)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">57</data>
+        </node>
+        <node id="wachen_am_hoftor">
+            <data key="label">Wachen am Hoftor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="linke_wache">
+            <data key="label">Linke Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="rechte_wache">
+            <data key="label">Rechte Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="teutscher_4-8">
+            <data key="label">Teutscher (IV/8)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">29</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="bediente">
+            <data key="label">Bediente</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="teutscher_5-4">
+            <data key="label">Teutscher (V/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">60</data>
+        </node>
+        <node id="teutsche">
+            <data key="label">Teutsche</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="alle_5-12">
+            <data key="label">Alle (V/12)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <edge id="leonore|arabella" source="leonore" target="arabella">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="leonore|rosa" source="leonore" target="rosa">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leonore|julia" source="leonore" target="julia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leonore|calcagno" source="leonore" target="calcagno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonore|fiesco" source="leonore" target="fiesco">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leonore|sacco" source="leonore" target="sacco">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arabella|rosa" source="arabella" target="rosa">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="arabella|julia" source="arabella" target="julia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arabella|sacco" source="arabella" target="sacco">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arabella|fiesco" source="arabella" target="fiesco">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arabella|verschworene" source="arabella" target="verschworene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arabella|calcagno" source="arabella" target="calcagno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arabella|zibo" source="arabella" target="zibo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gianettino|mohr" source="gianettino" target="mohr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gianettino|gaeste" source="gianettino" target="gaeste">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gianettino|lomellin" source="gianettino" target="lomellin">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="gianettino|fiesco" source="gianettino" target="fiesco">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gianettino|eine_von_den_drei_masken" source="gianettino" target="eine_von_den_drei_masken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gianettino|andreas" source="gianettino" target="andreas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gianettino|julia" source="gianettino" target="julia">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gianettino|teutscher_3-11" source="gianettino" target="teutscher_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gianettino|bourgognino" source="gianettino" target="bourgognino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gianettino|zenturione" source="gianettino" target="zenturione">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gianettino|bediente" source="gianettino" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mohr|fiesco" source="mohr" target="fiesco">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="mohr|teutscher_4-8" source="mohr" target="teutscher_4-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mohr|verschworene" source="mohr" target="verschworene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mohr|verrina" source="mohr" target="verrina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mohr|bourgognino" source="mohr" target="bourgognino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mohr|calcagno" source="mohr" target="calcagno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mohr|sacco" source="mohr" target="sacco">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="calcagno|sacco" source="calcagno" target="sacco">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="calcagno|fiesco" source="calcagno" target="fiesco">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="calcagno|masken" source="calcagno" target="masken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="calcagno|verrina" source="calcagno" target="verrina">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="calcagno|berta" source="calcagno" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="calcagno|bourgognino" source="calcagno" target="bourgognino">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="calcagno|verschworene" source="calcagno" target="verschworene">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="calcagno|zenturione" source="calcagno" target="zenturione">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="calcagno|zibo" source="calcagno" target="zibo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="calcagno|asserato" source="calcagno" target="asserato">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="calcagno|wachen_am_hoftor" source="calcagno" target="wachen_am_hoftor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="calcagno|teutscher_4-8" source="calcagno" target="teutscher_4-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="calcagno|teutscher_5-4" source="calcagno" target="teutscher_5-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="calcagno|andreas" source="calcagno" target="andreas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="calcagno|teutsche" source="calcagno" target="teutsche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="calcagno|alle_5-12" source="calcagno" target="alle_5-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sacco|fiesco" source="sacco" target="fiesco">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sacco|masken" source="sacco" target="masken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sacco|verrina" source="sacco" target="verrina">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="sacco|berta" source="sacco" target="berta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sacco|bourgognino" source="sacco" target="bourgognino">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sacco|verschworene" source="sacco" target="verschworene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sacco|wachen_am_hoftor" source="sacco" target="wachen_am_hoftor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sacco|zibo" source="sacco" target="zibo">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sacco|zenturione" source="sacco" target="zenturione">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sacco|asserato" source="sacco" target="asserato">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sacco|alle_5-12" source="sacco" target="alle_5-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julia|fiesco" source="julia" target="fiesco">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="julia|lomellin" source="julia" target="lomellin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julia|teutscher_3-11" source="julia" target="teutscher_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiesco|lomellin" source="fiesco" target="lomellin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiesco|eine_von_den_drei_masken" source="fiesco" target="eine_von_den_drei_masken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiesco|gaeste" source="fiesco" target="gaeste">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiesco|masken" source="fiesco" target="masken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiesco|verrina" source="fiesco" target="verrina">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="fiesco|bourgognino" source="fiesco" target="bourgognino">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="fiesco|zibo" source="fiesco" target="zibo">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fiesco|zenturione" source="fiesco" target="zenturione">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fiesco|asserato" source="fiesco" target="asserato">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fiesco|zwoelf_handwerker" source="fiesco" target="zwoelf_handwerker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiesco|erster_handwerker" source="fiesco" target="erster_handwerker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiesco|zweiter_handwerker" source="fiesco" target="zweiter_handwerker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiesco|dritter_handwerker" source="fiesco" target="dritter_handwerker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiesco|romano" source="fiesco" target="romano">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiesco|verschworene" source="fiesco" target="verschworene">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fiesco|teutscher_3-11" source="fiesco" target="teutscher_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiesco|wachen_am_hoftor" source="fiesco" target="wachen_am_hoftor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fiesco|teutscher_4-8" source="fiesco" target="teutscher_4-8">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fiesco|bedienter" source="fiesco" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiesco|andreas" source="fiesco" target="andreas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiesco|alle_5-12" source="fiesco" target="alle_5-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gaeste|lomellin" source="gaeste" target="lomellin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gaeste|eine_von_den_drei_masken" source="gaeste" target="eine_von_den_drei_masken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lomellin|eine_von_den_drei_masken" source="lomellin" target="eine_von_den_drei_masken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lomellin|andreas" source="lomellin" target="andreas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lomellin|bourgognino" source="lomellin" target="bourgognino">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lomellin|zenturione" source="lomellin" target="zenturione">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lomellin|bediente" source="lomellin" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="masken|verrina" source="masken" target="verrina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="verrina|berta" source="verrina" target="berta">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="verrina|bourgognino" source="verrina" target="bourgognino">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="verrina|romano" source="verrina" target="romano">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="verrina|verschworene" source="verrina" target="verschworene">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="verrina|wachen_am_hoftor" source="verrina" target="wachen_am_hoftor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="verrina|zibo" source="verrina" target="zibo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="verrina|zenturione" source="verrina" target="zenturione">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="verrina|asserato" source="verrina" target="asserato">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="verrina|teutscher_4-8" source="verrina" target="teutscher_4-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bourgognino|romano" source="bourgognino" target="romano">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bourgognino|verschworene" source="bourgognino" target="verschworene">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bourgognino|wachen_am_hoftor" source="bourgognino" target="wachen_am_hoftor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bourgognino|zibo" source="bourgognino" target="zibo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bourgognino|zenturione" source="bourgognino" target="zenturione">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bourgognino|asserato" source="bourgognino" target="asserato">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bourgognino|teutscher_4-8" source="bourgognino" target="teutscher_4-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bourgognino|bediente" source="bourgognino" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bourgognino|berta" source="bourgognino" target="berta">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zibo|zenturione" source="zibo" target="zenturione">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="zibo|asserato" source="zibo" target="asserato">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zibo|wachen_am_hoftor" source="zibo" target="wachen_am_hoftor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="zibo|alle_5-12" source="zibo" target="alle_5-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zibo|verschworene" source="zibo" target="verschworene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturione|asserato" source="zenturione" target="asserato">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zenturione|wachen_am_hoftor" source="zenturione" target="wachen_am_hoftor">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="zenturione|linke_wache" source="zenturione" target="linke_wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturione|rechte_wache" source="zenturione" target="rechte_wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturione|bediente" source="zenturione" target="bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zenturione|alle_5-12" source="zenturione" target="alle_5-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="asserato|wachen_am_hoftor" source="asserato" target="wachen_am_hoftor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zwoelf_handwerker|erster_handwerker" source="zwoelf_handwerker" target="erster_handwerker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zwoelf_handwerker|zweiter_handwerker" source="zwoelf_handwerker" target="zweiter_handwerker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zwoelf_handwerker|dritter_handwerker" source="zwoelf_handwerker" target="dritter_handwerker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_handwerker|zweiter_handwerker" source="erster_handwerker" target="zweiter_handwerker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_handwerker|dritter_handwerker" source="erster_handwerker" target="dritter_handwerker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_handwerker|dritter_handwerker" source="zweiter_handwerker" target="dritter_handwerker">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas|teutscher_5-4" source="andreas" target="teutscher_5-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andreas|teutsche" source="andreas" target="teutsche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wachen_am_hoftor|linke_wache" source="wachen_am_hoftor" target="linke_wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wachen_am_hoftor|rechte_wache" source="wachen_am_hoftor" target="rechte_wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wachen_am_hoftor|teutscher_4-8" source="wachen_am_hoftor" target="teutscher_4-8">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="linke_wache|rechte_wache" source="linke_wache" target="rechte_wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="teutscher_5-4|teutsche" source="teutscher_5-4" target="teutsche">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

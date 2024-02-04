@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="frau_nelken">
+            <data key="label">Frau Nelken</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2968</data>
+        </node>
+        <node id="samuel">
+            <data key="label">Samuel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1172</data>
+        </node>
+        <node id="der_schueler">
+            <data key="label">Der Schüler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">301</data>
+        </node>
+        <node id="der_alte_nelken">
+            <data key="label">Der alte Nelken</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1196</data>
+        </node>
+        <edge id="frau_nelken|samuel" source="frau_nelken" target="samuel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_nelken|der_schueler" source="frau_nelken" target="der_schueler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_nelken|der_alte_nelken" source="frau_nelken" target="der_alte_nelken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="samuel|der_schueler" source="samuel" target="der_schueler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="samuel|der_alte_nelken" source="samuel" target="der_alte_nelken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_schueler|der_alte_nelken" source="der_schueler" target="der_alte_nelken">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

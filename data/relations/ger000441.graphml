@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="chor">
+            <data key="label">Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="holofernes">
+            <data key="label">Holofernes</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="idun">
+            <data key="label">Idun</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chalkol">
+            <data key="label">Chalkol</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zepho">
+            <data key="label">Zepho</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="oberpriester">
+            <data key="label">Oberpriester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herold">
+            <data key="label">Herold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="priester">
+            <data key="label">Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="achior">
+            <data key="label">Achior</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_gesandte">
+            <data key="label">Der Gesandte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ammon">
+            <data key="label">Ammon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hosea">
+            <data key="label">Hosea</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="assad">
+            <data key="label">Assad</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jojakim">
+            <data key="label">Jojakim</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="joab">
+            <data key="label">Joab</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sara">
+            <data key="label">Sara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rachel">
+            <data key="label">Rachel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nazael">
+            <data key="label">Nazael</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ben">
+            <data key="label">Ben</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nabal">
+            <data key="label">Nabal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="volk_alle">
+            <data key="label">Volk / Alle</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="daniel">
+            <data key="label">Daniel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nathan">
+            <data key="label">Nathan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="heman">
+            <data key="label">Heman</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mirza">
+            <data key="label">Mirza</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="stimmen">
+            <data key="label">Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="assad" target="daniel">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="rachel" target="assad">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="sara" target="ammon">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="4" directed="false" source="achior" target="holofernes">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="jojakim" target="joab">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="mirza" target="jojakim">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

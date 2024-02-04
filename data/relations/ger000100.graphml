@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="therese">
+            <data key="label">Therese</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="max">
+            <data key="label">Max</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="keller">
+            <data key="label">Keller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schwartze">
+            <data key="label">Schwartze</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_schwartze">
+            <data key="label">Frau Schwartze</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="general">
+            <data key="label">General</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="professor">
+            <data key="label">Professor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="franziska">
+            <data key="label">Franziska</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pfarrer">
+            <data key="label">Pfarrer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="magda">
+            <data key="label">Magda</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="generalin">
+            <data key="label">Generalin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_schumann">
+            <data key="label">Frau Schumann</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_ellrich">
+            <data key="label">Frau Ellrich</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="frau_schwartze" target="schwartze">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="franziska" target="frau_schwartze">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="general" target="generalin">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="4" directed="false" source="schwartze" target="magda">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="schwartze" target="marie">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="max" target="franziska">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="7" directed="false" source="max" target="frau_schwartze">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="8" directed="false" source="therese" target="schwartze">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

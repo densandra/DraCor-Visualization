@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="danton">
+            <data key="label">Danton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="julie">
+            <data key="label">Julie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_dame">
+            <data key="label">Eine Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herault">
+            <data key="label">Hérault</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="camille">
+            <data key="label">Camille</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="philippeau">
+            <data key="label">Philippeau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="simon">
+            <data key="label">Simon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="simons_weib">
+            <data key="label">Simons Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="leute">
+            <data key="label">Leute</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="erster_buerger_1-2">
+            <data key="label">Erster Bürger (I/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_buerger_1-2">
+            <data key="label">Zweiter Bürger (I/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_buerger_1-2">
+            <data key="label">Dritter Bürger (I/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_1-2">
+            <data key="label">Alle (I/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="einige_stimmen_1-2a">
+            <data key="label">Einige Stimmen (I/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="junger_mensch">
+            <data key="label">Junger Mensch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einige_1-2">
+            <data key="label">Einige (I/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_umstehenden">
+            <data key="label">Die Umstehenden</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="einige_stimmen_1-2b">
+            <data key="label">Einige Stimmen (I/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="robespierre">
+            <data key="label">Robespierre</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einige_stimmen_1-2c">
+            <data key="label">Einige Stimmen (I/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_weib_1-2">
+            <data key="label">Ein Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="viele_stimmen_1-2">
+            <data key="label">Viele Stimmen (I/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_lyoner">
+            <data key="label">Ein Lyoner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_jakobiner">
+            <data key="label">Ein Jakobiner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="legendre">
+            <data key="label">Legendre</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einige_stimmen_1-3">
+            <data key="label">Einige Stimmen (I/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="collot_d_herbois">
+            <data key="label">Collot d'Herbois</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_jakobiner">
+            <data key="label">Die Jakobiner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="viele_stimmen_1-3">
+            <data key="label">Viele Stimmen (I/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="praesident_jakobinerklub">
+            <data key="label">Präsident (Jakobinerklub)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lacroix">
+            <data key="label">Lacroix</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marion">
+            <data key="label">Marion</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rosalie">
+            <data key="label">Rosalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="adelaide">
+            <data key="label">Adelaide</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="paris">
+            <data key="label">Paris</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="st_just">
+            <data key="label">St. Just</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_buerger_2-2">
+            <data key="label">Ein Bürger (II/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="baenkelsaenger">
+            <data key="label">Bänkelsänger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_bettler">
+            <data key="label">Ein Bettler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_herr">
+            <data key="label">Erster Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_herr">
+            <data key="label">Zweiter Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="soldat">
+            <data key="label">Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="junger_herr">
+            <data key="label">Junger Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="madame">
+            <data key="label">Madame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eugenie">
+            <data key="label">Eugenie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lucile">
+            <data key="label">Lucile</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_buerger_2-6">
+            <data key="label">Erster Bürger (II/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_buerger_2-6">
+            <data key="label">Zweiter Bürger (II/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_andern">
+            <data key="label">Die Andern</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_deputierter_a">
+            <data key="label">Ein Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_anderer_deputierter_a">
+            <data key="label">Ein anderer Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_anderer_deputierter_b">
+            <data key="label">Ein anderer Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="praesident_nationalkonvent">
+            <data key="label">Präsident (Nationalkonvent)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einige_stimmen_2-7">
+            <data key="label">Einige Stimmen (II/7)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_deputierter_b">
+            <data key="label">Ein Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_anderer_deputierter_c">
+            <data key="label">Ein anderer Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_anderer_deputierter_d">
+            <data key="label">Ein anderer Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_anderer_deputierter_e">
+            <data key="label">Ein anderer Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_anderer_deputierter_f">
+            <data key="label">Ein anderer Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_anderer_deputierter_g">
+            <data key="label">Ein anderer Deputierter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chaumette">
+            <data key="label">Chaumette</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="payne">
+            <data key="label">Payne</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mercier">
+            <data key="label">Mercier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_gefangener">
+            <data key="label">Ein Gefangener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_andrer_gefangener_a">
+            <data key="label">Ein andrer Gefangener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_andrer_gefangener_b">
+            <data key="label">Ein andrer Gefangener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einige_stimmen_3-1">
+            <data key="label">Einige Stimmen (III/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="fouquier">
+            <data key="label">Fouquier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herman">
+            <data key="label">Herman</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_gefangne_3-3">
+            <data key="label">Der Gefangne (III/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dillon">
+            <data key="label">Dillon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="laflotte">
+            <data key="label">Laflotte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="waerter">
+            <data key="label">Wärter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="barere">
+            <data key="label">Barère</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="billaud">
+            <data key="label">Billaud</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schliesser">
+            <data key="label">Ein Schließer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="amar">
+            <data key="label">Amar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vouland">
+            <data key="label">Vouland</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="viele_stimmen_3-9a">
+            <data key="label">Viele Stimmen (III/9)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="viele_stimmen_3-9b">
+            <data key="label">Viele Stimmen (III/9)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="einige_stimmen_3-10">
+            <data key="label">Einige Stimmen (III/10)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="erster_buerger_3-10">
+            <data key="label">Erster Bürger (III/10)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einige_weiber">
+            <data key="label">Einige Weiber</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="zweiter_buerger_3-10">
+            <data key="label">Zweiter Bürger (III/10)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_3-10">
+            <data key="label">Alle (III/10)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="buerger_4-1">
+            <data key="label">Bürger (IV/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dumas">
+            <data key="label">Dumas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_fuhrmann">
+            <data key="label">Erster Fuhrmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_fuhrmann">
+            <data key="label">Zweiter Fuhrmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_weib_4-4">
+            <data key="label">Ein Weib (IV/4)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_stimme_4-5">
+            <data key="label">Eine Stimme (IV/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_weib_mit_kindern">
+            <data key="label">Ein Weib mit Kindern</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_weib_4-7a">
+            <data key="label">Ein Weib (IV/7)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_andere">
+            <data key="label">Eine Andere</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_weib_4-7b">
+            <data key="label">Ein Weib (IV/7)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einige_stimmen_4-7">
+            <data key="label">Einige Stimmen (IV/7)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="fabre">
+            <data key="label">Fabre</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erstes_weib">
+            <data key="label">Erstes Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweites_weib">
+            <data key="label">Zweites Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="drittes_weib">
+            <data key="label">Drittes Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_henker">
+            <data key="label">Erster Henker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_henker">
+            <data key="label">Zweiter Henker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_buerger_4-9">
+            <data key="label">Ein Bürger (IV/9)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="paris" target="danton">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="julie" target="danton">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="simon" target="simons_weib">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="4" directed="false" source="lucile" target="camille">
+            <data key="relation">spouses</data>
+        </edge>
+    </graph>
+</graphml>

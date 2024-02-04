@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="mac-gregor">
+            <data key="label">Mac-Gregor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">723</data>
+        </node>
+        <node id="douglas">
+            <data key="label">Douglas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">620</data>
+        </node>
+        <node id="margarete">
+            <data key="label">Margarete</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">755</data>
+        </node>
+        <node id="maria">
+            <data key="label">Maria</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">394</data>
+        </node>
+        <node id="lesley">
+            <data key="label">Lesley</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">300</data>
+        </node>
+        <node id="tom">
+            <data key="label">Tom</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">450</data>
+        </node>
+        <node id="willie">
+            <data key="label">Willie</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">138</data>
+        </node>
+        <node id="ratcliff">
+            <data key="label">Ratcliff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2248</data>
+        </node>
+        <node id="alle-mehrere">
+            <data key="label">Alle/Mehrere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="robin">
+            <data key="label">Robin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="dick">
+            <data key="label">Dick</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">124</data>
+        </node>
+        <node id="bill">
+            <data key="label">Bill</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="john">
+            <data key="label">John</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="taddie">
+            <data key="label">Taddie</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="ein_diener">
+            <data key="label">Ein Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="viele_stimmen-alle">
+            <data key="label">Viele Stimmen/Alle</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <edge id="mac-gregor|douglas" source="mac-gregor" target="douglas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mac-gregor|margarete" source="mac-gregor" target="margarete">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mac-gregor|maria" source="mac-gregor" target="maria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mac-gregor|lesley" source="mac-gregor" target="lesley">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mac-gregor|ratcliff" source="mac-gregor" target="ratcliff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mac-gregor|ein_diener" source="mac-gregor" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mac-gregor|viele_stimmen-alle" source="mac-gregor" target="viele_stimmen-alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="douglas|margarete" source="douglas" target="margarete">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="douglas|maria" source="douglas" target="maria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="douglas|lesley" source="douglas" target="lesley">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="douglas|ratcliff" source="douglas" target="ratcliff">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="douglas|ein_diener" source="douglas" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="douglas|viele_stimmen-alle" source="douglas" target="viele_stimmen-alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="margarete|maria" source="margarete" target="maria">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="margarete|lesley" source="margarete" target="lesley">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="margarete|ratcliff" source="margarete" target="ratcliff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="margarete|ein_diener" source="margarete" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="margarete|viele_stimmen-alle" source="margarete" target="viele_stimmen-alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maria|lesley" source="maria" target="lesley">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maria|ratcliff" source="maria" target="ratcliff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maria|ein_diener" source="maria" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maria|viele_stimmen-alle" source="maria" target="viele_stimmen-alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lesley|tom" source="lesley" target="tom">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lesley|willie" source="lesley" target="willie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lesley|ratcliff" source="lesley" target="ratcliff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lesley|alle-mehrere" source="lesley" target="alle-mehrere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lesley|robin" source="lesley" target="robin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lesley|dick" source="lesley" target="dick">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lesley|bill" source="lesley" target="bill">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lesley|john" source="lesley" target="john">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lesley|taddie" source="lesley" target="taddie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tom|willie" source="tom" target="willie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tom|ratcliff" source="tom" target="ratcliff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tom|alle-mehrere" source="tom" target="alle-mehrere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tom|robin" source="tom" target="robin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tom|dick" source="tom" target="dick">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tom|bill" source="tom" target="bill">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tom|john" source="tom" target="john">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tom|taddie" source="tom" target="taddie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willie|ratcliff" source="willie" target="ratcliff">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willie|alle-mehrere" source="willie" target="alle-mehrere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willie|robin" source="willie" target="robin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willie|dick" source="willie" target="dick">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willie|bill" source="willie" target="bill">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willie|john" source="willie" target="john">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willie|taddie" source="willie" target="taddie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratcliff|alle-mehrere" source="ratcliff" target="alle-mehrere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratcliff|robin" source="ratcliff" target="robin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratcliff|dick" source="ratcliff" target="dick">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratcliff|bill" source="ratcliff" target="bill">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratcliff|john" source="ratcliff" target="john">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratcliff|taddie" source="ratcliff" target="taddie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratcliff|ein_diener" source="ratcliff" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratcliff|viele_stimmen-alle" source="ratcliff" target="viele_stimmen-alle">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle-mehrere|robin" source="alle-mehrere" target="robin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle-mehrere|dick" source="alle-mehrere" target="dick">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle-mehrere|bill" source="alle-mehrere" target="bill">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle-mehrere|john" source="alle-mehrere" target="john">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle-mehrere|taddie" source="alle-mehrere" target="taddie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robin|dick" source="robin" target="dick">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robin|bill" source="robin" target="bill">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robin|john" source="robin" target="john">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robin|taddie" source="robin" target="taddie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dick|bill" source="dick" target="bill">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dick|john" source="dick" target="john">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dick|taddie" source="dick" target="taddie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bill|john" source="bill" target="john">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bill|taddie" source="bill" target="taddie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="john|taddie" source="john" target="taddie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener|viele_stimmen-alle" source="ein_diener" target="viele_stimmen-alle">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

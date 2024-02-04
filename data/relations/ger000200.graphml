@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="dominik">
+            <data key="label">Dominik</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_1-1">
+            <data key="label">Alle (I/1)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_kraemer">
+            <data key="label">Ein Krämer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_von_erbsenstein">
+            <data key="label">Frau von Erbsenstein</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="nanett">
+            <data key="label">Nanett</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kauz">
+            <data key="label">Kauz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schnoferl">
+            <data key="label">Schnoferl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gigl">
+            <data key="label">Gigl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="thekla">
+            <data key="label">Thekla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_der_gesellschaft">
+            <data key="label">Chor der Gesellschaft</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="rosalie">
+            <data key="label">Rosalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sabine">
+            <data key="label">Sabine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="peppi">
+            <data key="label">Peppi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="knoepfel">
+            <data key="label">Knöpfel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="madame_storch">
+            <data key="label">Madame Storch</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="frau_von_erbsenstein" target="gigl">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="knoepfel" target="madame_storch">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="frau_von_erbsenstein" target="kauz">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="4" directed="false" source="gigl" target="kauz">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="5" directed="false" source="knoepfel" target="peppi">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="rosalie" target="knoepfel">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="7" directed="false" source="sabine" target="knoepfel">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="8" directed="false" source="nanett" target="frau_von_erbsenstein">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="dominik" target="kauz">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

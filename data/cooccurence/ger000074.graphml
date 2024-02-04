@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="damon">
+            <data key="label">Damon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2205</data>
+        </node>
+        <node id="phyllis">
+            <data key="label">Phyllis</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1502</data>
+        </node>
+        <node id="sirmio">
+            <data key="label">Sirmio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">719</data>
+        </node>
+        <node id="schmuhl">
+            <data key="label">Schmuhl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4800</data>
+        </node>
+        <node id="mopsus">
+            <data key="label">Mopsus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2332</data>
+        </node>
+        <node id="salome">
+            <data key="label">Salome</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">622</data>
+        </node>
+        <node id="wirth">
+            <data key="label">Der Wirth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">832</data>
+        </node>
+        <edge id="damon|phyllis" source="damon" target="phyllis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="damon|sirmio" source="damon" target="sirmio">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="damon|schmuhl" source="damon" target="schmuhl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="damon|mopsus" source="damon" target="mopsus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="damon|salome" source="damon" target="salome">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="damon|wirth" source="damon" target="wirth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phyllis|sirmio" source="phyllis" target="sirmio">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="phyllis|schmuhl" source="phyllis" target="schmuhl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="phyllis|mopsus" source="phyllis" target="mopsus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="phyllis|salome" source="phyllis" target="salome">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sirmio|schmuhl" source="sirmio" target="schmuhl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sirmio|mopsus" source="sirmio" target="mopsus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sirmio|salome" source="sirmio" target="salome">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schmuhl|mopsus" source="schmuhl" target="mopsus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schmuhl|salome" source="schmuhl" target="salome">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schmuhl|wirth" source="schmuhl" target="wirth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mopsus|salome" source="mopsus" target="salome">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mopsus|wirth" source="mopsus" target="wirth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="salome|wirth" source="salome" target="wirth">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

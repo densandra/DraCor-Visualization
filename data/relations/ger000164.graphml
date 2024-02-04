@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="solisa">
+            <data key="label">Solisa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alvaro">
+            <data key="label">Alvaro</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="laura">
+            <data key="label">Laura</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ricardo">
+            <data key="label">Ricardo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="octavio">
+            <data key="label">Octavio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_koenig">
+            <data key="label">Der König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alarcos">
+            <data key="label">Alarcos</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="clara">
+            <data key="label">Clara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dagobert">
+            <data key="label">Dagobert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_waerterin">
+            <data key="label">Eine Wärterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cornelia">
+            <data key="label">Cornelia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="alarcos" target="clara">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="dagobert" target="alarcos">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="laura" target="solisa">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="cornelia" target="alarcos">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

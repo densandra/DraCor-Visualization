@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="anton">
+            <data key="label">Anton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2363</data>
+        </node>
+        <node id="lindenberg">
+            <data key="label">Lindenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2547</data>
+        </node>
+        <node id="rosalie">
+            <data key="label">Rosalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">397</data>
+        </node>
+        <node id="adolph">
+            <data key="label">Baron Adolph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1180</data>
+        </node>
+        <node id="felden">
+            <data key="label">Junker Felden</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">909</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">360</data>
+        </node>
+        <node id="baader">
+            <data key="label">Baader</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="ein_ziegenhirt">
+            <data key="label">Ein Ziegenhirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">182</data>
+        </node>
+        <edge id="anton|lindenberg" source="anton" target="lindenberg">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="anton|adolph" source="anton" target="adolph">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anton|felden" source="anton" target="felden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anton|marie" source="anton" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lindenberg|rosalie" source="lindenberg" target="rosalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lindenberg|adolph" source="lindenberg" target="adolph">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lindenberg|felden" source="lindenberg" target="felden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lindenberg|marie" source="lindenberg" target="marie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="rosalie|felden" source="rosalie" target="felden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosalie|adolph" source="rosalie" target="adolph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|baader" source="rosalie" target="baader">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adolph|felden" source="adolph" target="felden">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="adolph|baader" source="adolph" target="baader">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adolph|marie" source="adolph" target="marie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="adolph|ein_ziegenhirt" source="adolph" target="ein_ziegenhirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="felden|baader" source="felden" target="baader">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|ein_ziegenhirt" source="marie" target="ein_ziegenhirt">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

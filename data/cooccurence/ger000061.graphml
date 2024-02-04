@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="miranda">
+            <data key="label">Miranda</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1367</data>
+        </node>
+        <node id="geisterchor">
+            <data key="label">Geisterchor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">44</data>
+        </node>
+        <node id="prospero">
+            <data key="label">Prospero</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1877</data>
+        </node>
+        <node id="ariel">
+            <data key="label">Ariel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">561</data>
+        </node>
+        <node id="caliban">
+            <data key="label">Caliban</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1550</data>
+        </node>
+        <node id="chor_der_schiffer">
+            <data key="label">Chor der Schiffer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">80</data>
+        </node>
+        <node id="fernando">
+            <data key="label">Fernando</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1363</data>
+        </node>
+        <node id="fabio">
+            <data key="label">Fabio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1140</data>
+        </node>
+        <node id="oronzio">
+            <data key="label">Oronzio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">859</data>
+        </node>
+        <node id="stefano">
+            <data key="label">Stefano</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">652</data>
+        </node>
+        <node id="chor">
+            <data key="label">Chor (auf dem Theater)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">57</data>
+        </node>
+        <node id="ruperto">
+            <data key="label">Ruperto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">117</data>
+        </node>
+        <node id="matrosen">
+            <data key="label">Matrosen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">37</data>
+        </node>
+        <edge id="miranda|geisterchor" source="miranda" target="geisterchor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="miranda|prospero" source="miranda" target="prospero">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="miranda|caliban" source="miranda" target="caliban">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="miranda|ariel" source="miranda" target="ariel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="miranda|chor_der_schiffer" source="miranda" target="chor_der_schiffer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miranda|fernando" source="miranda" target="fernando">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="miranda|fabio" source="miranda" target="fabio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="miranda|oronzio" source="miranda" target="oronzio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="miranda|stefano" source="miranda" target="stefano">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="miranda|ruperto" source="miranda" target="ruperto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="miranda|matrosen" source="miranda" target="matrosen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="miranda|chor" source="miranda" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geisterchor|prospero" source="geisterchor" target="prospero">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geisterchor|ariel" source="geisterchor" target="ariel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geisterchor|fernando" source="geisterchor" target="fernando">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geisterchor|matrosen" source="geisterchor" target="matrosen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prospero|ariel" source="prospero" target="ariel">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="prospero|caliban" source="prospero" target="caliban">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="prospero|chor_der_schiffer" source="prospero" target="chor_der_schiffer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prospero|fernando" source="prospero" target="fernando">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="prospero|oronzio" source="prospero" target="oronzio">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="prospero|stefano" source="prospero" target="stefano">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="prospero|fabio" source="prospero" target="fabio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prospero|ruperto" source="prospero" target="ruperto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prospero|matrosen" source="prospero" target="matrosen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prospero|chor" source="prospero" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ariel|caliban" source="ariel" target="caliban">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="ariel|chor_der_schiffer" source="ariel" target="chor_der_schiffer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ariel|fernando" source="ariel" target="fernando">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ariel|oronzio" source="ariel" target="oronzio">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ariel|stefano" source="ariel" target="stefano">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ariel|fabio" source="ariel" target="fabio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ariel|matrosen" source="ariel" target="matrosen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caliban|chor_der_schiffer" source="caliban" target="chor_der_schiffer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caliban|oronzio" source="caliban" target="oronzio">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="caliban|stefano" source="caliban" target="stefano">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="caliban|fabio" source="caliban" target="fabio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="caliban|fernando" source="caliban" target="fernando">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="chor_der_schiffer|chor" source="chor_der_schiffer" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fernando|fabio" source="fernando" target="fabio">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fernando|oronzio" source="fernando" target="oronzio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fernando|stefano" source="fernando" target="stefano">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fernando|ruperto" source="fernando" target="ruperto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fernando|matrosen" source="fernando" target="matrosen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fernando|chor" source="fernando" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fabio|oronzio" source="fabio" target="oronzio">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fabio|stefano" source="fabio" target="stefano">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fabio|ruperto" source="fabio" target="ruperto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fabio|matrosen" source="fabio" target="matrosen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fabio|chor" source="fabio" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oronzio|stefano" source="oronzio" target="stefano">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="oronzio|ruperto" source="oronzio" target="ruperto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oronzio|matrosen" source="oronzio" target="matrosen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="oronzio|chor" source="oronzio" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stefano|ruperto" source="stefano" target="ruperto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stefano|matrosen" source="stefano" target="matrosen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stefano|chor" source="stefano" target="chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|ruperto" source="chor" target="ruperto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor|matrosen" source="chor" target="matrosen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruperto|matrosen" source="ruperto" target="matrosen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

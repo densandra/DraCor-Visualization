@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="knallerpaller">
+            <data key="label">Knallerpaller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1167</data>
+        </node>
+        <node id="gottlieb">
+            <data key="label">Gottlieb</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">711</data>
+        </node>
+        <node id="frau_timian">
+            <data key="label">Frau Timian</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1269</data>
+        </node>
+        <node id="guerge">
+            <data key="label">Gürge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">401</data>
+        </node>
+        <node id="schnapps">
+            <data key="label">Schnapps</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1967</data>
+        </node>
+        <edge id="knallerpaller|gottlieb" source="knallerpaller" target="gottlieb">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="knallerpaller|frau_timian" source="knallerpaller" target="frau_timian">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="knallerpaller|schnapps" source="knallerpaller" target="schnapps">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="knallerpaller|guerge" source="knallerpaller" target="guerge">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gottlieb|frau_timian" source="gottlieb" target="frau_timian">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gottlieb|schnapps" source="gottlieb" target="schnapps">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_timian|guerge" source="frau_timian" target="guerge">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_timian|schnapps" source="frau_timian" target="schnapps">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="guerge|schnapps" source="guerge" target="schnapps">
+            <data key="weight">4</data>
+        </edge>
+    </graph>
+</graphml>

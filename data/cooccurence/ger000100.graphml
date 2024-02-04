@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="therese">
+            <data key="label">Therese</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">347</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1019</data>
+        </node>
+        <node id="max">
+            <data key="label">Max</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">737</data>
+        </node>
+        <node id="keller">
+            <data key="label">Keller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2124</data>
+        </node>
+        <node id="schwartze">
+            <data key="label">Schwartze</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3181</data>
+        </node>
+        <node id="frau_schwartze">
+            <data key="label">Frau Schwartze</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1221</data>
+        </node>
+        <node id="general">
+            <data key="label">General</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">395</data>
+        </node>
+        <node id="professor">
+            <data key="label">Professor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">99</data>
+        </node>
+        <node id="franziska">
+            <data key="label">Franziska</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">815</data>
+        </node>
+        <node id="pfarrer">
+            <data key="label">Pfarrer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2371</data>
+        </node>
+        <node id="magda">
+            <data key="label">Magda</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5686</data>
+        </node>
+        <node id="generalin">
+            <data key="label">Generalin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">126</data>
+        </node>
+        <node id="frau_schumann">
+            <data key="label">Frau Schumann</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="frau_ellrich">
+            <data key="label">Frau Ellrich</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <edge id="therese|marie" source="therese" target="marie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="therese|max" source="therese" target="max">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="therese|schwartze" source="therese" target="schwartze">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="therese|pfarrer" source="therese" target="pfarrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="therese|frau_schwartze" source="therese" target="frau_schwartze">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="therese|franziska" source="therese" target="franziska">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|max" source="marie" target="max">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marie|schwartze" source="marie" target="schwartze">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="marie|keller" source="marie" target="keller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|frau_schwartze" source="marie" target="frau_schwartze">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="marie|pfarrer" source="marie" target="pfarrer">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="marie|franziska" source="marie" target="franziska">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="marie|magda" source="marie" target="magda">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="max|keller" source="max" target="keller">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="max|schwartze" source="max" target="schwartze">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="max|frau_schwartze" source="max" target="frau_schwartze">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="max|magda" source="max" target="magda">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="max|frau_ellrich" source="max" target="frau_ellrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="max|generalin" source="max" target="generalin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="max|franziska" source="max" target="franziska">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="max|pfarrer" source="max" target="pfarrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="keller|schwartze" source="keller" target="schwartze">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="keller|frau_schwartze" source="keller" target="frau_schwartze">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="keller|magda" source="keller" target="magda">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schwartze|frau_schwartze" source="schwartze" target="frau_schwartze">
+            <data key="weight">16</data>
+        </edge>
+        <edge id="schwartze|general" source="schwartze" target="general">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schwartze|professor" source="schwartze" target="professor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schwartze|franziska" source="schwartze" target="franziska">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="schwartze|pfarrer" source="schwartze" target="pfarrer">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="schwartze|magda" source="schwartze" target="magda">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="frau_schwartze|general" source="frau_schwartze" target="general">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_schwartze|professor" source="frau_schwartze" target="professor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_schwartze|franziska" source="frau_schwartze" target="franziska">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="frau_schwartze|pfarrer" source="frau_schwartze" target="pfarrer">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="frau_schwartze|magda" source="frau_schwartze" target="magda">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="frau_schwartze|generalin" source="frau_schwartze" target="generalin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_schwartze|frau_schumann" source="frau_schwartze" target="frau_schumann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_schwartze|frau_ellrich" source="frau_schwartze" target="frau_ellrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="general|professor" source="general" target="professor">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="general|franziska" source="general" target="franziska">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="general|pfarrer" source="general" target="pfarrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="professor|franziska" source="professor" target="franziska">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="professor|pfarrer" source="professor" target="pfarrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|pfarrer" source="franziska" target="pfarrer">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="franziska|magda" source="franziska" target="magda">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="franziska|generalin" source="franziska" target="generalin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|frau_schumann" source="franziska" target="frau_schumann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franziska|frau_ellrich" source="franziska" target="frau_ellrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pfarrer|magda" source="pfarrer" target="magda">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="magda|generalin" source="magda" target="generalin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="magda|frau_schumann" source="magda" target="frau_schumann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magda|frau_ellrich" source="magda" target="frau_ellrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="generalin|frau_schumann" source="generalin" target="frau_schumann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="generalin|frau_ellrich" source="generalin" target="frau_ellrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_schumann|frau_ellrich" source="frau_schumann" target="frau_ellrich">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

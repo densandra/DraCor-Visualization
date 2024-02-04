@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="silva">
+            <data key="label">De Silva</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3331</data>
+        </node>
+        <node id="jochai">
+            <data key="label">Jochai</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1266</data>
+        </node>
+        <node id="diener_1-2">
+            <data key="label">Diener (I/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="uriel">
+            <data key="label">Uriel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4297</data>
+        </node>
+        <node id="santos">
+            <data key="label">Santos</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">892</data>
+        </node>
+        <node id="manasse">
+            <data key="label">Manasse</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1442</data>
+        </node>
+        <node id="simon">
+            <data key="label">Simon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="judith">
+            <data key="label">Judith</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1469</data>
+        </node>
+        <node id="alle_2-7">
+            <data key="label">Alle (II/7)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="ruben">
+            <data key="label">Ruben</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">279</data>
+        </node>
+        <node id="esther">
+            <data key="label">Esther</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">321</data>
+        </node>
+        <node id="joel">
+            <data key="label">Joel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">73</data>
+        </node>
+        <node id="diener_4-1">
+            <data key="label">Diener (IV/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="akiba">
+            <data key="label">Akiba</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">656</data>
+        </node>
+        <node id="embden">
+            <data key="label">Embden</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="alle_4-6">
+            <data key="label">Alle (IV/6)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="baruch">
+            <data key="label">Baruch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">228</data>
+        </node>
+        <edge id="silva|jochai" source="silva" target="jochai">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="silva|diener_1-2" source="silva" target="diener_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="silva|uriel" source="silva" target="uriel">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="silva|santos" source="silva" target="santos">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="silva|judith" source="silva" target="judith">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="silva|manasse" source="silva" target="manasse">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="silva|alle_2-7" source="silva" target="alle_2-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="silva|diener_4-1" source="silva" target="diener_4-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="silva|akiba" source="silva" target="akiba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="silva|embden" source="silva" target="embden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="silva|alle_4-6" source="silva" target="alle_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jochai|diener_1-2" source="jochai" target="diener_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jochai|uriel" source="jochai" target="uriel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jochai|santos" source="jochai" target="santos">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jochai|judith" source="jochai" target="judith">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jochai|manasse" source="jochai" target="manasse">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="jochai|alle_2-7" source="jochai" target="alle_2-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener_1-2|uriel" source="diener_1-2" target="uriel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="uriel|santos" source="uriel" target="santos">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="uriel|judith" source="uriel" target="judith">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="uriel|manasse" source="uriel" target="manasse">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="uriel|alle_2-7" source="uriel" target="alle_2-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="uriel|simon" source="uriel" target="simon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="uriel|ruben" source="uriel" target="ruben">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="uriel|esther" source="uriel" target="esther">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="uriel|joel" source="uriel" target="joel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="uriel|akiba" source="uriel" target="akiba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="uriel|embden" source="uriel" target="embden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="uriel|alle_4-6" source="uriel" target="alle_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="uriel|baruch" source="uriel" target="baruch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="santos|manasse" source="santos" target="manasse">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="santos|alle_2-7" source="santos" target="alle_2-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="santos|judith" source="santos" target="judith">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="santos|diener_4-1" source="santos" target="diener_4-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="santos|akiba" source="santos" target="akiba">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="santos|embden" source="santos" target="embden">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="santos|ruben" source="santos" target="ruben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="santos|alle_4-6" source="santos" target="alle_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="manasse|simon" source="manasse" target="simon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="manasse|judith" source="manasse" target="judith">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="manasse|alle_2-7" source="manasse" target="alle_2-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="simon|judith" source="simon" target="judith">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="judith|alle_2-7" source="judith" target="alle_2-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="judith|esther" source="judith" target="esther">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="judith|joel" source="judith" target="joel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruben|esther" source="ruben" target="esther">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruben|joel" source="ruben" target="joel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="esther|joel" source="esther" target="joel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="akiba|embden" source="akiba" target="embden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="embden|alle_4-6" source="embden" target="alle_4-6">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

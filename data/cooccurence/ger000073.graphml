@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="mariann">
+            <data key="label">Mariann</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2314</data>
+        </node>
+        <node id="thomas">
+            <data key="label">Thomas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4576</data>
+        </node>
+        <node id="koeckenberger">
+            <data key="label">Köckenberger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">380</data>
+        </node>
+        <node id="gendarm">
+            <data key="label">Gendarm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="leni">
+            <data key="label">Leni</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2445</data>
+        </node>
+        <node id="lenz">
+            <data key="label">Lenz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1082</data>
+        </node>
+        <node id="buergermeister">
+            <data key="label">Bürgermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1536</data>
+        </node>
+        <node id="barbara">
+            <data key="label">Barbara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">782</data>
+        </node>
+        <node id="plank">
+            <data key="label">Plank</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">666</data>
+        </node>
+        <node id="scheck">
+            <data key="label">Scheck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">97</data>
+        </node>
+        <node id="einer_von_den_burschen">
+            <data key="label">Einer von den Burschen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="lechner">
+            <data key="label">Lechner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">183</data>
+        </node>
+        <node id="viele_stimmen">
+            <data key="label">Viele Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <edge id="mariann|thomas" source="mariann" target="thomas">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mariann|koeckenberger" source="mariann" target="koeckenberger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mariann|leni" source="mariann" target="leni">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thomas|koeckenberger" source="thomas" target="koeckenberger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thomas|gendarm" source="thomas" target="gendarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thomas|leni" source="thomas" target="leni">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="thomas|lenz" source="thomas" target="lenz">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="thomas|buergermeister" source="thomas" target="buergermeister">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="thomas|barbara" source="thomas" target="barbara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thomas|plank" source="thomas" target="plank">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="thomas|scheck" source="thomas" target="scheck">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thomas|lechner" source="thomas" target="lechner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="thomas|viele_stimmen" source="thomas" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leni|lenz" source="leni" target="lenz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leni|barbara" source="leni" target="barbara">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leni|buergermeister" source="leni" target="buergermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leni|lechner" source="leni" target="lechner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buergermeister|plank" source="buergermeister" target="plank">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="buergermeister|scheck" source="buergermeister" target="scheck">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="buergermeister|einer_von_den_burschen" source="buergermeister" target="einer_von_den_burschen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buergermeister|lechner" source="buergermeister" target="lechner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="buergermeister|viele_stimmen" source="buergermeister" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="plank|scheck" source="plank" target="scheck">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="plank|lechner" source="plank" target="lechner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="plank|viele_stimmen" source="plank" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scheck|lechner" source="scheck" target="lechner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scheck|viele_stimmen" source="scheck" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lechner|viele_stimmen" source="lechner" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

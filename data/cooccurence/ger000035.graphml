@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="edmund">
+            <data key="label">Edmund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1145</data>
+        </node>
+        <node id="hahnensporn">
+            <data key="label">Hahnensporn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1410</data>
+        </node>
+        <node id="guste">
+            <data key="label">Guste</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">525</data>
+        </node>
+        <node id="otto">
+            <data key="label">Otto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2389</data>
+        </node>
+        <node id="antonie">
+            <data key="label">Antonie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3514</data>
+        </node>
+        <edge id="edmund|hahnensporn" source="edmund" target="hahnensporn">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="edmund|guste" source="edmund" target="guste">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="edmund|otto" source="edmund" target="otto">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="edmund|antonie" source="edmund" target="antonie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hahnensporn|guste" source="hahnensporn" target="guste">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hahnensporn|otto" source="hahnensporn" target="otto">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hahnensporn|antonie" source="hahnensporn" target="antonie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="otto|antonie" source="otto" target="antonie">
+            <data key="weight">5</data>
+        </edge>
+    </graph>
+</graphml>

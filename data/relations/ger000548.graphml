@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="ewigkeit">
+            <data key="label">Ewigkeit</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="demetrius">
+            <data key="label">Demetrius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="procopius">
+            <data key="label">Procopius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="salome">
+            <data key="label">Salome</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="catharina">
+            <data key="label">Catharina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chach_abas">
+            <data key="label">Chach Abas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_jungfrauen">
+            <data key="label">Die Jungfrauen / Reye der Gefangenen Jungfrauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="seinel_can">
+            <data key="label">Seinel Can</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="iman_culi">
+            <data key="label">Iman Culi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_gesandte_auss_reussen">
+            <data key="label">Der Gesandte auß Reussen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="reye_der_von_chach_abas_erwuergeten_fuersten">
+            <data key="label">Reye der von Chach Abas erwürgeten Fürsten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="der_blutrichter">
+            <data key="label">Der Blutrichter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jungfrau_1">
+            <data key="label">Jungfrau I</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jungfrau_2">
+            <data key="label">Jungfrau II</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jungfrau_3">
+            <data key="label">Jungfrau III</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jungfrau_4">
+            <data key="label">Jungfrau IV</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tod">
+            <data key="label">Tod</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="libe">
+            <data key="label">Libe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cassandra">
+            <data key="label">Cassandra</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="serena">
+            <data key="label">Serena</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_priester">
+            <data key="label">Der Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="salome" target="catharina">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="2" directed="false" source="serena" target="catharina">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="cassandra" target="catharina">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="seinel_can" target="chach_abas">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="iman_culi" target="chach_abas">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

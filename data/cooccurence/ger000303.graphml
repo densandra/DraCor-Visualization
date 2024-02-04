@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">486</data>
+        </node>
+        <node id="hofrath">
+            <data key="label">Hofrath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1071</data>
+        </node>
+        <node id="frau_von_wallenfeld">
+            <data key="label">Frau von Wallenfeld</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1763</data>
+        </node>
+        <node id="sekretaer">
+            <data key="label">Sekretär</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1992</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">319</data>
+        </node>
+        <node id="herr_von_wallenfeld">
+            <data key="label">Herr von Wallenfeld</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4236</data>
+        </node>
+        <node id="herr_von_posert">
+            <data key="label">Herr von Posert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2296</data>
+        </node>
+        <node id="geheimerath">
+            <data key="label">Geheimerath</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">985</data>
+        </node>
+        <node id="kammerdiener">
+            <data key="label">Kammerdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">55</data>
+        </node>
+        <node id="jean">
+            <data key="label">Jean</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="haushofmeister">
+            <data key="label">Haushofmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="stallmeister">
+            <data key="label">Stallmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="rektor">
+            <data key="label">Rektor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1017</data>
+        </node>
+        <node id="lieutenant">
+            <data key="label">Lieutenant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1896</data>
+        </node>
+        <node id="unteroffizier">
+            <data key="label">Unteroffizier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="bedienter_4-2">
+            <data key="label">Bedienter (IV/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="bedienter_4-6">
+            <data key="label">Bedienter (IV/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="adjutant">
+            <data key="label">Adjutant</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">274</data>
+        </node>
+        <node id="general">
+            <data key="label">General</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2198</data>
+        </node>
+        <node id="major_stern">
+            <data key="label">Major Stern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">275</data>
+        </node>
+        <edge id="jakob|hofrath" source="jakob" target="hofrath">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jakob|frau_von_wallenfeld" source="jakob" target="frau_von_wallenfeld">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="jakob|sekretaer" source="jakob" target="sekretaer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jakob|herr_von_posert" source="jakob" target="herr_von_posert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jakob|herr_von_wallenfeld" source="jakob" target="herr_von_wallenfeld">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="jakob|karl" source="jakob" target="karl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jakob|unteroffizier" source="jakob" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofrath|frau_von_wallenfeld" source="hofrath" target="frau_von_wallenfeld">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hofrath|sekretaer" source="hofrath" target="sekretaer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hofrath|geheimerath" source="hofrath" target="geheimerath">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="hofrath|rektor" source="hofrath" target="rektor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofrath|adjutant" source="hofrath" target="adjutant">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hofrath|general" source="hofrath" target="general">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hofrath|kammerdiener" source="hofrath" target="kammerdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofrath|herr_von_posert" source="hofrath" target="herr_von_posert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hofrath|herr_von_wallenfeld" source="hofrath" target="herr_von_wallenfeld">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hofrath|karl" source="hofrath" target="karl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofrath|major_stern" source="hofrath" target="major_stern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_wallenfeld|sekretaer" source="frau_von_wallenfeld" target="sekretaer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_von_wallenfeld|karl" source="frau_von_wallenfeld" target="karl">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="frau_von_wallenfeld|herr_von_wallenfeld" source="frau_von_wallenfeld" target="herr_von_wallenfeld">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="frau_von_wallenfeld|herr_von_posert" source="frau_von_wallenfeld" target="herr_von_posert">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frau_von_wallenfeld|lieutenant" source="frau_von_wallenfeld" target="lieutenant">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_wallenfeld|general" source="frau_von_wallenfeld" target="general">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_wallenfeld|adjutant" source="frau_von_wallenfeld" target="adjutant">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_wallenfeld|geheimerath" source="frau_von_wallenfeld" target="geheimerath">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_wallenfeld|major_stern" source="frau_von_wallenfeld" target="major_stern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sekretaer|geheimerath" source="sekretaer" target="geheimerath">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="sekretaer|kammerdiener" source="sekretaer" target="kammerdiener">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sekretaer|jean" source="sekretaer" target="jean">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sekretaer|haushofmeister" source="sekretaer" target="haushofmeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sekretaer|herr_von_wallenfeld" source="sekretaer" target="herr_von_wallenfeld">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sekretaer|stallmeister" source="sekretaer" target="stallmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sekretaer|bedienter_4-2" source="sekretaer" target="bedienter_4-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sekretaer|lieutenant" source="sekretaer" target="lieutenant">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sekretaer|rektor" source="sekretaer" target="rektor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sekretaer|bedienter_4-6" source="sekretaer" target="bedienter_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sekretaer|adjutant" source="sekretaer" target="adjutant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sekretaer|general" source="sekretaer" target="general">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|herr_von_wallenfeld" source="karl" target="herr_von_wallenfeld">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="karl|adjutant" source="karl" target="adjutant">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|lieutenant" source="karl" target="lieutenant">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|herr_von_posert" source="karl" target="herr_von_posert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|general" source="karl" target="general">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|geheimerath" source="karl" target="geheimerath">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|major_stern" source="karl" target="major_stern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_wallenfeld|herr_von_posert" source="herr_von_wallenfeld" target="herr_von_posert">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="herr_von_wallenfeld|geheimerath" source="herr_von_wallenfeld" target="geheimerath">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="herr_von_wallenfeld|stallmeister" source="herr_von_wallenfeld" target="stallmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_wallenfeld|jean" source="herr_von_wallenfeld" target="jean">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_wallenfeld|kammerdiener" source="herr_von_wallenfeld" target="kammerdiener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_von_wallenfeld|haushofmeister" source="herr_von_wallenfeld" target="haushofmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_wallenfeld|rektor" source="herr_von_wallenfeld" target="rektor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_wallenfeld|lieutenant" source="herr_von_wallenfeld" target="lieutenant">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="herr_von_wallenfeld|unteroffizier" source="herr_von_wallenfeld" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_wallenfeld|adjutant" source="herr_von_wallenfeld" target="adjutant">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="herr_von_wallenfeld|general" source="herr_von_wallenfeld" target="general">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="herr_von_wallenfeld|major_stern" source="herr_von_wallenfeld" target="major_stern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_von_posert|unteroffizier" source="herr_von_posert" target="unteroffizier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_posert|general" source="herr_von_posert" target="general">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="herr_von_posert|adjutant" source="herr_von_posert" target="adjutant">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="herr_von_posert|lieutenant" source="herr_von_posert" target="lieutenant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_posert|geheimerath" source="herr_von_posert" target="geheimerath">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_von_posert|major_stern" source="herr_von_posert" target="major_stern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geheimerath|kammerdiener" source="geheimerath" target="kammerdiener">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="geheimerath|jean" source="geheimerath" target="jean">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="geheimerath|haushofmeister" source="geheimerath" target="haushofmeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="geheimerath|stallmeister" source="geheimerath" target="stallmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geheimerath|lieutenant" source="geheimerath" target="lieutenant">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geheimerath|rektor" source="geheimerath" target="rektor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="geheimerath|bedienter_4-6" source="geheimerath" target="bedienter_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="geheimerath|adjutant" source="geheimerath" target="adjutant">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="geheimerath|general" source="geheimerath" target="general">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="geheimerath|major_stern" source="geheimerath" target="major_stern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kammerdiener|jean" source="kammerdiener" target="jean">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kammerdiener|haushofmeister" source="kammerdiener" target="haushofmeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kammerdiener|stallmeister" source="kammerdiener" target="stallmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kammerdiener|adjutant" source="kammerdiener" target="adjutant">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kammerdiener|general" source="kammerdiener" target="general">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="jean|haushofmeister" source="jean" target="haushofmeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jean|stallmeister" source="jean" target="stallmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister|stallmeister" source="haushofmeister" target="stallmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rektor|bedienter_4-6" source="rektor" target="bedienter_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rektor|general" source="rektor" target="general">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lieutenant|bedienter_4-2" source="lieutenant" target="bedienter_4-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieutenant|adjutant" source="lieutenant" target="adjutant">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lieutenant|general" source="lieutenant" target="general">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lieutenant|major_stern" source="lieutenant" target="major_stern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adjutant|general" source="adjutant" target="general">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="adjutant|major_stern" source="adjutant" target="major_stern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="general|major_stern" source="general" target="major_stern">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

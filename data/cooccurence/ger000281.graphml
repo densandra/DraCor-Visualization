@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="graf">
+            <data key="label">Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3903</data>
+        </node>
+        <node id="balthasar">
+            <data key="label">Balthasar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">174</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="krautmann">
+            <data key="label">Krautmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">938</data>
+        </node>
+        <node id="adolph">
+            <data key="label">Adolph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4687</data>
+        </node>
+        <node id="ernestine">
+            <data key="label">Ernestine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">294</data>
+        </node>
+        <node id="frau_wunschel">
+            <data key="label">Frau Wunschel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1737</data>
+        </node>
+        <node id="amalie">
+            <data key="label">Amalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">682</data>
+        </node>
+        <node id="henriette">
+            <data key="label">Henriette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1126</data>
+        </node>
+        <node id="stein">
+            <data key="label">Stein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1851</data>
+        </node>
+        <node id="graefin">
+            <data key="label">Gräfin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1599</data>
+        </node>
+        <node id="jacob">
+            <data key="label">Jacob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">37</data>
+        </node>
+        <node id="magd">
+            <data key="label">Eine Magd</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <edge id="graf|balthasar" source="graf" target="balthasar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="graf|bedienter" source="graf" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|krautmann" source="graf" target="krautmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graf|adolph" source="graf" target="adolph">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="graf|ernestine" source="graf" target="ernestine">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="graf|amalie" source="graf" target="amalie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="graf|frau_wunschel" source="graf" target="frau_wunschel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf|graefin" source="graf" target="graefin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="graf|henriette" source="graf" target="henriette">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="graf|stein" source="graf" target="stein">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="graf|magd" source="graf" target="magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="balthasar|krautmann" source="balthasar" target="krautmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krautmann|adolph" source="krautmann" target="adolph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adolph|ernestine" source="adolph" target="ernestine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="adolph|frau_wunschel" source="adolph" target="frau_wunschel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adolph|amalie" source="adolph" target="amalie">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="adolph|henriette" source="adolph" target="henriette">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="adolph|stein" source="adolph" target="stein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="adolph|graefin" source="adolph" target="graefin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="adolph|jacob" source="adolph" target="jacob">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adolph|magd" source="adolph" target="magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernestine|graefin" source="ernestine" target="graefin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ernestine|amalie" source="ernestine" target="amalie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernestine|henriette" source="ernestine" target="henriette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_wunschel|amalie" source="frau_wunschel" target="amalie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="amalie|graefin" source="amalie" target="graefin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="amalie|jacob" source="amalie" target="jacob">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amalie|henriette" source="amalie" target="henriette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amalie|stein" source="amalie" target="stein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="henriette|stein" source="henriette" target="stein">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="henriette|magd" source="henriette" target="magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="henriette|graefin" source="henriette" target="graefin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stein|magd" source="stein" target="magd">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stein|jacob" source="stein" target="jacob">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stein|graefin" source="stein" target="graefin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="graefin|jacob" source="graefin" target="jacob">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

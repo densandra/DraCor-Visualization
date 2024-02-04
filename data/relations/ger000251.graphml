@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="hannchen">
+            <data key="label">Hannchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mutter_lueckel">
+            <data key="label">Mutter Lückel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_alte_schniermann">
+            <data key="label">Der alte Schniermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pittjupp">
+            <data key="label">Pittjupp</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jan_biggen">
+            <data key="label">Jan Biggen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="trina">
+            <data key="label">Trina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="liesa">
+            <data key="label">Liesa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="koerting">
+            <data key="label">Diakonus Körting</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="langenscheidt">
+            <data key="label">Langenscheidt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vonderscheer">
+            <data key="label">Vonderscheer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wittbraeuke">
+            <data key="label">Wittbräuke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hinnaeck">
+            <data key="label">Hinnäck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="anngret">
+            <data key="label">Anngret</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kloenne">
+            <data key="label">Klönne</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="jan_biggen" target="trina">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="mutter_lueckel" target="trina">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="mutter_lueckel" target="liesa">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="mutter_lueckel" target="hannchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="mutter_lueckel" target="pittjupp">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="trina" target="hinnaeck">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="7" directed="false" source="trina" target="anngret">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

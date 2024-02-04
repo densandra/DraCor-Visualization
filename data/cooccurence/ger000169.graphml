@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="gretel">
+            <data key="label">Gretel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1341</data>
+        </node>
+        <node id="haensel">
+            <data key="label">Hänsel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1180</data>
+        </node>
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">411</data>
+        </node>
+        <node id="vater">
+            <data key="label">Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">623</data>
+        </node>
+        <node id="echo">
+            <data key="label">Echo</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="sandmaennchen">
+            <data key="label">Sandmännchen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">76</data>
+        </node>
+        <node id="taumaennchen">
+            <data key="label">Taumännchen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">73</data>
+        </node>
+        <node id="hexe">
+            <data key="label">Hexe/Stimme aus dem Häuschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">729</data>
+        </node>
+        <node id="die_kuchenkinder">
+            <data key="label">Die Kuchenkinder</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">99</data>
+        </node>
+        <edge id="gretel|haensel" source="gretel" target="haensel">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="gretel|mutter" source="gretel" target="mutter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gretel|echo" source="gretel" target="echo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gretel|sandmaennchen" source="gretel" target="sandmaennchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gretel|taumaennchen" source="gretel" target="taumaennchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gretel|hexe" source="gretel" target="hexe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gretel|die_kuchenkinder" source="gretel" target="die_kuchenkinder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gretel|vater" source="gretel" target="vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haensel|mutter" source="haensel" target="mutter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="haensel|echo" source="haensel" target="echo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haensel|sandmaennchen" source="haensel" target="sandmaennchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haensel|taumaennchen" source="haensel" target="taumaennchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haensel|hexe" source="haensel" target="hexe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="haensel|die_kuchenkinder" source="haensel" target="die_kuchenkinder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="haensel|vater" source="haensel" target="vater">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|vater" source="mutter" target="vater">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mutter|die_kuchenkinder" source="mutter" target="die_kuchenkinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vater|die_kuchenkinder" source="vater" target="die_kuchenkinder">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="lorenz">
+            <data key="label">Lorenz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="duenne">
+            <data key="label">Dünne</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="guttenberg">
+            <data key="label">Guttenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bertha">
+            <data key="label">Bertha</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sebaldus">
+            <data key="label">Sebaldus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rieffe">
+            <data key="label">Rieffe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fust">
+            <data key="label">Fust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="beildeck">
+            <data key="label">Beildeck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kaethchen">
+            <data key="label">Käthchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="barbara">
+            <data key="label">Barbara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="else">
+            <data key="label">Else</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="klara">
+            <data key="label">Klara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="humery">
+            <data key="label">Humery</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="guttenberg" target="bertha">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="lorenz" target="guttenberg">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="fust" target="kaethchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="barbara" target="fust">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="5" directed="false" source="barbara" target="else">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="marcus">
+            <data key="label">Marcus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1204</data>
+        </node>
+        <node id="lucius">
+            <data key="label">Lucius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">723</data>
+        </node>
+        <node id="virginia">
+            <data key="label">Virginia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1395</data>
+        </node>
+        <node id="albina">
+            <data key="label">Albina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">60</data>
+        </node>
+        <node id="quintus">
+            <data key="label">Quintus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">215</data>
+        </node>
+        <node id="ruffus">
+            <data key="label">Ruffus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">732</data>
+        </node>
+        <node id="numitorius">
+            <data key="label">Numitorius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">652</data>
+        </node>
+        <node id="icilius">
+            <data key="label">Icilius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3019</data>
+        </node>
+        <node id="alle_1-5">
+            <data key="label">Alle (I/5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="ein_paar_vom_volke_2-2">
+            <data key="label">Ein paar vom Volke (II/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="das_volk_2-3">
+            <data key="label">Das Volk (II/3)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="appius">
+            <data key="label">Appius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2692</data>
+        </node>
+        <node id="alle_2-5">
+            <data key="label">Alle (II/5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="das_volk_2-5">
+            <data key="label">Das Volk (II/5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="einige_vom_volk_3-3">
+            <data key="label">Einige vom Volk (III/3)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="alle_3-3">
+            <data key="label">Alle (III/3)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="virginius">
+            <data key="label">Virginius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2373</data>
+        </node>
+        <node id="valerius">
+            <data key="label">Valerius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">607</data>
+        </node>
+        <node id="die_zeugen">
+            <data key="label">Die Zeugen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="laelia">
+            <data key="label">Lälia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">162</data>
+        </node>
+        <node id="das_volk_4-6">
+            <data key="label">Das Volk (IV/6)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <edge id="marcus|lucius" source="marcus" target="lucius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marcus|virginia" source="marcus" target="virginia">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="marcus|albina" source="marcus" target="albina">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marcus|quintus" source="marcus" target="quintus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="marcus|ruffus" source="marcus" target="ruffus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="marcus|numitorius" source="marcus" target="numitorius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marcus|icilius" source="marcus" target="icilius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marcus|alle_1-5" source="marcus" target="alle_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marcus|appius" source="marcus" target="appius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marcus|alle_2-5" source="marcus" target="alle_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marcus|das_volk_2-5" source="marcus" target="das_volk_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucius|ruffus" source="lucius" target="ruffus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lucius|quintus" source="lucius" target="quintus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lucius|ein_paar_vom_volke_2-2" source="lucius" target="ein_paar_vom_volke_2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucius|das_volk_2-3" source="lucius" target="das_volk_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucius|appius" source="lucius" target="appius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lucius|virginius" source="lucius" target="virginius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lucius|icilius" source="lucius" target="icilius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucius|die_zeugen" source="lucius" target="die_zeugen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucius|virginia" source="lucius" target="virginia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucius|laelia" source="lucius" target="laelia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucius|valerius" source="lucius" target="valerius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucius|das_volk_4-6" source="lucius" target="das_volk_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virginia|albina" source="virginia" target="albina">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="virginia|quintus" source="virginia" target="quintus">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="virginia|ruffus" source="virginia" target="ruffus">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="virginia|numitorius" source="virginia" target="numitorius">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="virginia|icilius" source="virginia" target="icilius">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="virginia|alle_1-5" source="virginia" target="alle_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virginia|appius" source="virginia" target="appius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="virginia|alle_2-5" source="virginia" target="alle_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virginia|das_volk_2-5" source="virginia" target="das_volk_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virginia|einige_vom_volk_3-3" source="virginia" target="einige_vom_volk_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virginia|alle_3-3" source="virginia" target="alle_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virginia|virginius" source="virginia" target="virginius">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="virginia|valerius" source="virginia" target="valerius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virginia|die_zeugen" source="virginia" target="die_zeugen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albina|quintus" source="albina" target="quintus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albina|ruffus" source="albina" target="ruffus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albina|numitorius" source="albina" target="numitorius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albina|icilius" source="albina" target="icilius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albina|virginius" source="albina" target="virginius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quintus|ruffus" source="quintus" target="ruffus">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="quintus|numitorius" source="quintus" target="numitorius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="quintus|icilius" source="quintus" target="icilius">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="quintus|alle_1-5" source="quintus" target="alle_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quintus|ein_paar_vom_volke_2-2" source="quintus" target="ein_paar_vom_volke_2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quintus|appius" source="quintus" target="appius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="quintus|alle_2-5" source="quintus" target="alle_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quintus|das_volk_2-5" source="quintus" target="das_volk_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quintus|einige_vom_volk_3-3" source="quintus" target="einige_vom_volk_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quintus|alle_3-3" source="quintus" target="alle_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quintus|virginius" source="quintus" target="virginius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="quintus|laelia" source="quintus" target="laelia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quintus|valerius" source="quintus" target="valerius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="quintus|das_volk_4-6" source="quintus" target="das_volk_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruffus|numitorius" source="ruffus" target="numitorius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ruffus|icilius" source="ruffus" target="icilius">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="ruffus|alle_1-5" source="ruffus" target="alle_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruffus|ein_paar_vom_volke_2-2" source="ruffus" target="ein_paar_vom_volke_2-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruffus|appius" source="ruffus" target="appius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ruffus|alle_2-5" source="ruffus" target="alle_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruffus|das_volk_2-5" source="ruffus" target="das_volk_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruffus|einige_vom_volk_3-3" source="ruffus" target="einige_vom_volk_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruffus|alle_3-3" source="ruffus" target="alle_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruffus|virginius" source="ruffus" target="virginius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ruffus|laelia" source="ruffus" target="laelia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruffus|valerius" source="ruffus" target="valerius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ruffus|das_volk_4-6" source="ruffus" target="das_volk_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="numitorius|icilius" source="numitorius" target="icilius">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="numitorius|alle_1-5" source="numitorius" target="alle_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="numitorius|appius" source="numitorius" target="appius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="numitorius|alle_2-5" source="numitorius" target="alle_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="numitorius|das_volk_2-5" source="numitorius" target="das_volk_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="numitorius|virginius" source="numitorius" target="virginius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="numitorius|valerius" source="numitorius" target="valerius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="icilius|alle_1-5" source="icilius" target="alle_1-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="icilius|appius" source="icilius" target="appius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="icilius|alle_2-5" source="icilius" target="alle_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="icilius|das_volk_2-5" source="icilius" target="das_volk_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="icilius|einige_vom_volk_3-3" source="icilius" target="einige_vom_volk_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="icilius|alle_3-3" source="icilius" target="alle_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="icilius|virginius" source="icilius" target="virginius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="icilius|valerius" source="icilius" target="valerius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_volk_2-3|appius" source="das_volk_2-3" target="appius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="appius|alle_2-5" source="appius" target="alle_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="appius|das_volk_2-5" source="appius" target="das_volk_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="appius|virginius" source="appius" target="virginius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="appius|die_zeugen" source="appius" target="die_zeugen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="appius|laelia" source="appius" target="laelia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="appius|valerius" source="appius" target="valerius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="appius|das_volk_4-6" source="appius" target="das_volk_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_2-5|das_volk_2-5" source="alle_2-5" target="das_volk_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einige_vom_volk_3-3|alle_3-3" source="einige_vom_volk_3-3" target="alle_3-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virginius|valerius" source="virginius" target="valerius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="virginius|die_zeugen" source="virginius" target="die_zeugen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virginius|laelia" source="virginius" target="laelia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virginius|das_volk_4-6" source="virginius" target="das_volk_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerius|laelia" source="valerius" target="laelia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerius|das_volk_4-6" source="valerius" target="das_volk_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laelia|das_volk_4-6" source="laelia" target="das_volk_4-6">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

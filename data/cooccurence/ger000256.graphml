@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="tamino">
+            <data key="label">Tamino</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1351</data>
+        </node>
+        <node id="erste_dame">
+            <data key="label">Erste Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">643</data>
+        </node>
+        <node id="zweyte_dame">
+            <data key="label">Zweyte Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">552</data>
+        </node>
+        <node id="dritte_dame">
+            <data key="label">Dritte Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">616</data>
+        </node>
+        <node id="papageno">
+            <data key="label">Papageno</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3030</data>
+        </node>
+        <node id="koeniginn">
+            <data key="label">Königinn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">446</data>
+        </node>
+        <node id="dritter_sclav">
+            <data key="label">Dritter Sclav</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">185</data>
+        </node>
+        <node id="erster_sclav">
+            <data key="label">Erster Sclav</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">95</data>
+        </node>
+        <node id="zweyter_sclav">
+            <data key="label">Zweyter Sclav</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <node id="monostatos">
+            <data key="label">Monostatos</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">682</data>
+        </node>
+        <node id="pamina">
+            <data key="label">Pamina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1253</data>
+        </node>
+        <node id="erster_knabe">
+            <data key="label">Erster Knabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">337</data>
+        </node>
+        <node id="zweyter_knabe">
+            <data key="label">Zweyter Knabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">369</data>
+        </node>
+        <node id="dritter_knabe">
+            <data key="label">Dritter Knabe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">369</data>
+        </node>
+        <node id="stimme">
+            <data key="label">Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="priester">
+            <data key="label">Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">157</data>
+        </node>
+        <node id="einige_stimmen">
+            <data key="label">Einige Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="gefolge_sarastros">
+            <data key="label">Gefolge Sarastros</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">86</data>
+        </node>
+        <node id="sarastro">
+            <data key="label">Sarastro</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">734</data>
+        </node>
+        <node id="erster_priester">
+            <data key="label">Erster Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="zweyter_priester">
+            <data key="label">Zweyter Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">154</data>
+        </node>
+        <node id="dritter_priester">
+            <data key="label">Dritter Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="sprecher">
+            <data key="label">Sprecher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">349</data>
+        </node>
+        <node id="chor_von_priestern">
+            <data key="label">Chor von Priestern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">153</data>
+        </node>
+        <node id="weib">
+            <data key="label">Ein altes Weib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">233</data>
+        </node>
+        <node id="eine_stimme">
+            <data key="label">Eine Stimme</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="zwey_geharnischte">
+            <data key="label">Zwey Geharnischte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">138</data>
+        </node>
+        <edge id="tamino|erste_dame" source="tamino" target="erste_dame">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="tamino|zweyte_dame" source="tamino" target="zweyte_dame">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="tamino|dritte_dame" source="tamino" target="dritte_dame">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="tamino|papageno" source="tamino" target="papageno">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="tamino|erster_knabe" source="tamino" target="erster_knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tamino|zweyter_knabe" source="tamino" target="zweyter_knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tamino|dritter_knabe" source="tamino" target="dritter_knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tamino|stimme" source="tamino" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tamino|priester" source="tamino" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tamino|einige_stimmen" source="tamino" target="einige_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tamino|monostatos" source="tamino" target="monostatos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tamino|pamina" source="tamino" target="pamina">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="tamino|gefolge_sarastros" source="tamino" target="gefolge_sarastros">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tamino|sarastro" source="tamino" target="sarastro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tamino|sprecher" source="tamino" target="sprecher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tamino|zweyter_priester" source="tamino" target="zweyter_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tamino|chor_von_priestern" source="tamino" target="chor_von_priestern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tamino|zwey_geharnischte" source="tamino" target="zwey_geharnischte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dame|zweyte_dame" source="erste_dame" target="zweyte_dame">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="erste_dame|dritte_dame" source="erste_dame" target="dritte_dame">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="erste_dame|papageno" source="erste_dame" target="papageno">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erste_dame|chor_von_priestern" source="erste_dame" target="chor_von_priestern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erste_dame|monostatos" source="erste_dame" target="monostatos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dame|koeniginn" source="erste_dame" target="koeniginn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dame|sarastro" source="erste_dame" target="sarastro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyte_dame|dritte_dame" source="zweyte_dame" target="dritte_dame">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="zweyte_dame|papageno" source="zweyte_dame" target="papageno">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zweyte_dame|chor_von_priestern" source="zweyte_dame" target="chor_von_priestern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweyte_dame|monostatos" source="zweyte_dame" target="monostatos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyte_dame|koeniginn" source="zweyte_dame" target="koeniginn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyte_dame|sarastro" source="zweyte_dame" target="sarastro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dame|papageno" source="dritte_dame" target="papageno">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dritte_dame|chor_von_priestern" source="dritte_dame" target="chor_von_priestern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dritte_dame|monostatos" source="dritte_dame" target="monostatos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dame|koeniginn" source="dritte_dame" target="koeniginn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dame|sarastro" source="dritte_dame" target="sarastro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papageno|monostatos" source="papageno" target="monostatos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="papageno|pamina" source="papageno" target="pamina">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="papageno|erster_sclav" source="papageno" target="erster_sclav">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papageno|zweyter_sclav" source="papageno" target="zweyter_sclav">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papageno|dritter_sclav" source="papageno" target="dritter_sclav">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papageno|gefolge_sarastros" source="papageno" target="gefolge_sarastros">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papageno|sprecher" source="papageno" target="sprecher">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="papageno|zweyter_priester" source="papageno" target="zweyter_priester">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="papageno|chor_von_priestern" source="papageno" target="chor_von_priestern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papageno|weib" source="papageno" target="weib">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="papageno|eine_stimme" source="papageno" target="eine_stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papageno|erster_knabe" source="papageno" target="erster_knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papageno|zweyter_knabe" source="papageno" target="zweyter_knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="papageno|dritter_knabe" source="papageno" target="dritter_knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koeniginn|pamina" source="koeniginn" target="pamina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koeniginn|monostatos" source="koeniginn" target="monostatos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koeniginn|sarastro" source="koeniginn" target="sarastro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koeniginn|chor_von_priestern" source="koeniginn" target="chor_von_priestern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_sclav|erster_sclav" source="dritter_sclav" target="erster_sclav">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dritter_sclav|zweyter_sclav" source="dritter_sclav" target="zweyter_sclav">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dritter_sclav|monostatos" source="dritter_sclav" target="monostatos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dritter_sclav|pamina" source="dritter_sclav" target="pamina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_sclav|gefolge_sarastros" source="dritter_sclav" target="gefolge_sarastros">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_sclav|zweyter_sclav" source="erster_sclav" target="zweyter_sclav">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_sclav|monostatos" source="erster_sclav" target="monostatos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_sclav|pamina" source="erster_sclav" target="pamina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_sclav|gefolge_sarastros" source="erster_sclav" target="gefolge_sarastros">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyter_sclav|monostatos" source="zweyter_sclav" target="monostatos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweyter_sclav|pamina" source="zweyter_sclav" target="pamina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyter_sclav|gefolge_sarastros" source="zweyter_sclav" target="gefolge_sarastros">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="monostatos|pamina" source="monostatos" target="pamina">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="monostatos|gefolge_sarastros" source="monostatos" target="gefolge_sarastros">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="monostatos|sarastro" source="monostatos" target="sarastro">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="monostatos|chor_von_priestern" source="monostatos" target="chor_von_priestern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pamina|gefolge_sarastros" source="pamina" target="gefolge_sarastros">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pamina|sarastro" source="pamina" target="sarastro">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="pamina|erster_knabe" source="pamina" target="erster_knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pamina|zweyter_knabe" source="pamina" target="zweyter_knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pamina|dritter_knabe" source="pamina" target="dritter_knabe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pamina|zwey_geharnischte" source="pamina" target="zwey_geharnischte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pamina|chor_von_priestern" source="pamina" target="chor_von_priestern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_knabe|zweyter_knabe" source="erster_knabe" target="zweyter_knabe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="erster_knabe|dritter_knabe" source="erster_knabe" target="dritter_knabe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="erster_knabe|stimme" source="erster_knabe" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_knabe|priester" source="erster_knabe" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_knabe|einige_stimmen" source="erster_knabe" target="einige_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_knabe|weib" source="erster_knabe" target="weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyter_knabe|dritter_knabe" source="zweyter_knabe" target="dritter_knabe">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="zweyter_knabe|stimme" source="zweyter_knabe" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyter_knabe|priester" source="zweyter_knabe" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyter_knabe|einige_stimmen" source="zweyter_knabe" target="einige_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyter_knabe|weib" source="zweyter_knabe" target="weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_knabe|stimme" source="dritter_knabe" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_knabe|priester" source="dritter_knabe" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_knabe|einige_stimmen" source="dritter_knabe" target="einige_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_knabe|weib" source="dritter_knabe" target="weib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme|priester" source="stimme" target="priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme|einige_stimmen" source="stimme" target="einige_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="priester|einige_stimmen" source="priester" target="einige_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gefolge_sarastros|sarastro" source="gefolge_sarastros" target="sarastro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sarastro|erster_priester" source="sarastro" target="erster_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sarastro|zweyter_priester" source="sarastro" target="zweyter_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sarastro|dritter_priester" source="sarastro" target="dritter_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sarastro|sprecher" source="sarastro" target="sprecher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sarastro|chor_von_priestern" source="sarastro" target="chor_von_priestern">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_priester|zweyter_priester" source="erster_priester" target="zweyter_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_priester|dritter_priester" source="erster_priester" target="dritter_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_priester|sprecher" source="erster_priester" target="sprecher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_priester|chor_von_priestern" source="erster_priester" target="chor_von_priestern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyter_priester|dritter_priester" source="zweyter_priester" target="dritter_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweyter_priester|sprecher" source="zweyter_priester" target="sprecher">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="zweyter_priester|chor_von_priestern" source="zweyter_priester" target="chor_von_priestern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_priester|sprecher" source="dritter_priester" target="sprecher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_priester|chor_von_priestern" source="dritter_priester" target="chor_von_priestern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sprecher|chor_von_priestern" source="sprecher" target="chor_von_priestern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_von_priestern|zwey_geharnischte" source="chor_von_priestern" target="zwey_geharnischte">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

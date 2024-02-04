@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="wagner">
+            <data key="label">Wagner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2461</data>
+        </node>
+        <node id="fritz">
+            <data key="label">Fritz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">176</data>
+        </node>
+        <node id="mad_wagner">
+            <data key="label">Mad. Wagner</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2409</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1076</data>
+        </node>
+        <node id="charlotte">
+            <data key="label">Charlotte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">708</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">606</data>
+        </node>
+        <node id="sivers-steinburg">
+            <data key="label">Sivers (Steinburg)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2170</data>
+        </node>
+        <node id="malldorf">
+            <data key="label">Malldorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">563</data>
+        </node>
+        <node id="kaufmannsdiener">
+            <data key="label">Kaufmannsdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">54</data>
+        </node>
+        <node id="dienstmaedchen">
+            <data key="label">Dienstmädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="gerichtsdiener">
+            <data key="label">Gerichtsdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <edge id="wagner|fritz" source="wagner" target="fritz">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="wagner|mad_wagner" source="wagner" target="mad_wagner">
+            <data key="weight">22</data>
+        </edge>
+        <edge id="wagner|charlotte" source="wagner" target="charlotte">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="wagner|wilhelm" source="wagner" target="wilhelm">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wagner|sivers-steinburg" source="wagner" target="sivers-steinburg">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="wagner|sophie" source="wagner" target="sophie">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="wagner|malldorf" source="wagner" target="malldorf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wagner|dienstmaedchen" source="wagner" target="dienstmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wagner|gerichtsdiener" source="wagner" target="gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|mad_wagner" source="fritz" target="mad_wagner">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fritz|sophie" source="fritz" target="sophie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fritz|malldorf" source="fritz" target="malldorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fritz|sivers-steinburg" source="fritz" target="sivers-steinburg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fritz|dienstmaedchen" source="fritz" target="dienstmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mad_wagner|sophie" source="mad_wagner" target="sophie">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="mad_wagner|charlotte" source="mad_wagner" target="charlotte">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="mad_wagner|wilhelm" source="mad_wagner" target="wilhelm">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="mad_wagner|sivers-steinburg" source="mad_wagner" target="sivers-steinburg">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="mad_wagner|malldorf" source="mad_wagner" target="malldorf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mad_wagner|kaufmannsdiener" source="mad_wagner" target="kaufmannsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mad_wagner|dienstmaedchen" source="mad_wagner" target="dienstmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mad_wagner|gerichtsdiener" source="mad_wagner" target="gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|wilhelm" source="sophie" target="wilhelm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sophie|charlotte" source="sophie" target="charlotte">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sophie|sivers-steinburg" source="sophie" target="sivers-steinburg">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="sophie|malldorf" source="sophie" target="malldorf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|dienstmaedchen" source="sophie" target="dienstmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|gerichtsdiener" source="sophie" target="gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="charlotte|wilhelm" source="charlotte" target="wilhelm">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="charlotte|sivers-steinburg" source="charlotte" target="sivers-steinburg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="charlotte|malldorf" source="charlotte" target="malldorf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wilhelm|sivers-steinburg" source="wilhelm" target="sivers-steinburg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sivers-steinburg|dienstmaedchen" source="sivers-steinburg" target="dienstmaedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sivers-steinburg|gerichtsdiener" source="sivers-steinburg" target="gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

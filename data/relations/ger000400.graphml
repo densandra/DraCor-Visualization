@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="herr_von_biederling">
+            <data key="label">Herr von Biederling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_von_biederling">
+            <data key="label">Frau von Biederling</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="prinz_tandi">
+            <data key="label">Prinz Tandi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="graf">
+            <data key="label">Graf Camäleon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="verwalter">
+            <data key="label">Verwalter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="donna_diana">
+            <data key="label">Donna Diana</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zierau">
+            <data key="label">Zierau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wilhelmine">
+            <data key="label">Wilhelmine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="babet">
+            <data key="label">Babet</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="magister_beza">
+            <data key="label">Magister Beza</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_von_zopf">
+            <data key="label">Herr von Zopf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gustav">
+            <data key="label">Gustav</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kaffeewirt">
+            <data key="label">Kaffeewirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_buckligter">
+            <data key="label">Ein Buckligter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lahmer">
+            <data key="label">Lahmer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="blinder">
+            <data key="label">Blinder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_anderer_blinder">
+            <data key="label">Ein anderer Blinder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_dame">
+            <data key="label">Eine Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_chapeau">
+            <data key="label">Ein Chapeau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_dicker_kerl">
+            <data key="label">Ein dicker Kerl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_maske">
+            <data key="label">Eine Maske</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_andere_maske">
+            <data key="label">Eine andere Maske</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="buergermeister">
+            <data key="label">Bürgermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="herr_von_biederling" target="wilhelmine">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="frau_von_biederling" target="wilhelmine">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="babet" target="donna_diana">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="buergermeister" target="zierau">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

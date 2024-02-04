@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rachel">
+            <data key="label">Rachel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="abraham_hirsch">
+            <data key="label">Abraham Hirsch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lydie">
+            <data key="label">Lydie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kapellmeister">
+            <data key="label">Kapellmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_polckwitzer">
+            <data key="label">Herr Polckwitzer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="isidorus_morgenlaender">
+            <data key="label">Isidorus Morgenländer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kirchendiener">
+            <data key="label">Kirchendiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="postillion">
+            <data key="label">Postillion</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="loebel_groschenmacher">
+            <data key="label">Löbel Groschenmacher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rebecca">
+            <data key="label">Rebecca</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_kinder">
+            <data key="label">Die Kinder</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="erster_jude">
+            <data key="label">Erster Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_jude">
+            <data key="label">Zweiter Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_jude">
+            <data key="label">Dritter Jude</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_eine_menge_juden">
+            <data key="label">Alle (Eine Menge Juden)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="abraham_hirsch" target="rachel">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="loebel_groschenmacher" target="rebecca">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="herr_polckwitzer" target="lydie">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="abraham_hirsch" target="jakob">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="rachel" target="jakob">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="loebel_groschenmacher" target="die_kinder">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

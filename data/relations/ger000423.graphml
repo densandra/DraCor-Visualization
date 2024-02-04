@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="robert">
+            <data key="label">Robert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="prinzessin">
+            <data key="label">Prinzessin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="runde">
+            <data key="label">Runde</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="major">
+            <data key="label">Major</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lord_hot">
+            <data key="label">Lord Hot</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lord_hamilton">
+            <data key="label">Lord Hamilton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="williams">
+            <data key="label">Williams</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tognina">
+            <data key="label">Tognina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wundarzt">
+            <data key="label">Wundarzt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="beichtvater">
+            <data key="label">Beichtvater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="lord_hamilton" target="robert">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="lord_hot" target="robert">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="major" target="prinzessin">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

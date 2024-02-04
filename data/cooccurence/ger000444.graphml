@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="der_graf">
+            <data key="label">Der Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3959</data>
+        </node>
+        <node id="bertha">
+            <data key="label">Bertha</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3154</data>
+        </node>
+        <node id="ahnfrau_gestalt">
+            <data key="label">Die Ahnfrau (Die Gestalt)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">85</data>
+        </node>
+        <node id="guenther">
+            <data key="label">Günther</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1218</data>
+        </node>
+        <node id="jaromir">
+            <data key="label">Jaromir</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6443</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1002</data>
+        </node>
+        <node id="walter">
+            <data key="label">Walter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="soldat">
+            <data key="label">Ein Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">488</data>
+        </node>
+        <node id="boleslav">
+            <data key="label">Boleslav</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">617</data>
+        </node>
+        <node id="chor_gesang">
+            <data key="label">Chor/Gesang</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <edge id="der_graf|bertha" source="der_graf" target="bertha">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_graf|ahnfrau_gestalt" source="der_graf" target="ahnfrau_gestalt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_graf|guenther" source="der_graf" target="guenther">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_graf|jaromir" source="der_graf" target="jaromir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_graf|hauptmann" source="der_graf" target="hauptmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_graf|walter" source="der_graf" target="walter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_graf|soldat" source="der_graf" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_graf|boleslav" source="der_graf" target="boleslav">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bertha|ahnfrau_gestalt" source="bertha" target="ahnfrau_gestalt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bertha|guenther" source="bertha" target="guenther">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bertha|jaromir" source="bertha" target="jaromir">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bertha|hauptmann" source="bertha" target="hauptmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bertha|walter" source="bertha" target="walter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bertha|soldat" source="bertha" target="soldat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bertha|boleslav" source="bertha" target="boleslav">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ahnfrau_gestalt|guenther" source="ahnfrau_gestalt" target="guenther">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ahnfrau_gestalt|jaromir" source="ahnfrau_gestalt" target="jaromir">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ahnfrau_gestalt|boleslav" source="ahnfrau_gestalt" target="boleslav">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ahnfrau_gestalt|chor_gesang" source="ahnfrau_gestalt" target="chor_gesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ahnfrau_gestalt|hauptmann" source="ahnfrau_gestalt" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ahnfrau_gestalt|soldat" source="ahnfrau_gestalt" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guenther|jaromir" source="guenther" target="jaromir">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="guenther|hauptmann" source="guenther" target="hauptmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="guenther|walter" source="guenther" target="walter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guenther|soldat" source="guenther" target="soldat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="guenther|boleslav" source="guenther" target="boleslav">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="guenther|chor_gesang" source="guenther" target="chor_gesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jaromir|hauptmann" source="jaromir" target="hauptmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jaromir|walter" source="jaromir" target="walter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jaromir|soldat" source="jaromir" target="soldat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jaromir|boleslav" source="jaromir" target="boleslav">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jaromir|chor_gesang" source="jaromir" target="chor_gesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|walter" source="hauptmann" target="walter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hauptmann|soldat" source="hauptmann" target="soldat">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hauptmann|boleslav" source="hauptmann" target="boleslav">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hauptmann|chor_gesang" source="hauptmann" target="chor_gesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soldat|boleslav" source="soldat" target="boleslav">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="soldat|chor_gesang" source="soldat" target="chor_gesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boleslav|chor_gesang" source="boleslav" target="chor_gesang">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

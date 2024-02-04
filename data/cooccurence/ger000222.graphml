@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="martin_krumm">
+            <data key="label">Martin Krumm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1499</data>
+        </node>
+        <node id="michel_stich">
+            <data key="label">Michel Stich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">154</data>
+        </node>
+        <node id="der_reisende">
+            <data key="label">Der Reisende</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2510</data>
+        </node>
+        <node id="christoph">
+            <data key="label">Christoph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2078</data>
+        </node>
+        <node id="das_fraeulein">
+            <data key="label">Das Fräulein</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">658</data>
+        </node>
+        <node id="der_baron">
+            <data key="label">Der Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1368</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1269</data>
+        </node>
+        <edge id="martin_krumm|michel_stich" source="martin_krumm" target="michel_stich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="martin_krumm|der_reisende" source="martin_krumm" target="der_reisende">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="martin_krumm|lisette" source="martin_krumm" target="lisette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="martin_krumm|das_fraeulein" source="martin_krumm" target="das_fraeulein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_reisende|christoph" source="der_reisende" target="christoph">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="der_reisende|das_fraeulein" source="der_reisende" target="das_fraeulein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="der_reisende|der_baron" source="der_reisende" target="der_baron">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="der_reisende|lisette" source="der_reisende" target="lisette">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christoph|der_baron" source="christoph" target="der_baron">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="christoph|das_fraeulein" source="christoph" target="das_fraeulein">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christoph|lisette" source="christoph" target="lisette">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="das_fraeulein|der_baron" source="das_fraeulein" target="der_baron">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="das_fraeulein|lisette" source="das_fraeulein" target="lisette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="der_baron|lisette" source="der_baron" target="lisette">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

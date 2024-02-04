@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sosias">
+            <data key="label">Sosias</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4479</data>
+        </node>
+        <node id="merkur">
+            <data key="label">Merkur</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2037</data>
+        </node>
+        <node id="jupiter">
+            <data key="label">Jupiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2580</data>
+        </node>
+        <node id="alkmene">
+            <data key="label">Alkmene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3123</data>
+        </node>
+        <node id="charis">
+            <data key="label">Charis</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1248</data>
+        </node>
+        <node id="amphitryon">
+            <data key="label">Amphitryon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2735</data>
+        </node>
+        <node id="erster_feldherr">
+            <data key="label">Erster Feldherr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">338</data>
+        </node>
+        <node id="zweiter_feldherr">
+            <data key="label">Zweiter Feldherr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">59</data>
+        </node>
+        <node id="dritter_feldherr">
+            <data key="label">Dritter Feldherr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="einer_aus_dem_volk">
+            <data key="label">Einer aus dem Volk</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <node id="zweiter_oberster">
+            <data key="label">Zweiter Oberster</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="erster_oberster">
+            <data key="label">Erster Oberster</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">200</data>
+        </node>
+        <node id="das_volk">
+            <data key="label">Das Volk</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">52</data>
+        </node>
+        <node id="die_obersten">
+            <data key="label">Die Obersten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="die_feldherren">
+            <data key="label">Die Feldherren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <edge id="sosias|merkur" source="sosias" target="merkur">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sosias|amphitryon" source="sosias" target="amphitryon">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="sosias|alkmene" source="sosias" target="alkmene">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sosias|charis" source="sosias" target="charis">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sosias|jupiter" source="sosias" target="jupiter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sosias|erster_feldherr" source="sosias" target="erster_feldherr">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sosias|zweiter_feldherr" source="sosias" target="zweiter_feldherr">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sosias|dritter_feldherr" source="sosias" target="dritter_feldherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sosias|einer_aus_dem_volk" source="sosias" target="einer_aus_dem_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sosias|zweiter_oberster" source="sosias" target="zweiter_oberster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sosias|erster_oberster" source="sosias" target="erster_oberster">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sosias|das_volk" source="sosias" target="das_volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sosias|die_obersten" source="sosias" target="die_obersten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sosias|die_feldherren" source="sosias" target="die_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkur|charis" source="merkur" target="charis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkur|amphitryon" source="merkur" target="amphitryon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="merkur|alkmene" source="merkur" target="alkmene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkur|das_volk" source="merkur" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkur|jupiter" source="merkur" target="jupiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkur|die_obersten" source="merkur" target="die_obersten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkur|zweiter_feldherr" source="merkur" target="zweiter_feldherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkur|erster_feldherr" source="merkur" target="erster_feldherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkur|erster_oberster" source="merkur" target="erster_oberster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkur|dritter_feldherr" source="merkur" target="dritter_feldherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkur|die_feldherren" source="merkur" target="die_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jupiter|alkmene" source="jupiter" target="alkmene">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jupiter|amphitryon" source="jupiter" target="amphitryon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jupiter|zweiter_feldherr" source="jupiter" target="zweiter_feldherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jupiter|erster_feldherr" source="jupiter" target="erster_feldherr">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jupiter|dritter_feldherr" source="jupiter" target="dritter_feldherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jupiter|das_volk" source="jupiter" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jupiter|die_obersten" source="jupiter" target="die_obersten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jupiter|erster_oberster" source="jupiter" target="erster_oberster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jupiter|die_feldherren" source="jupiter" target="die_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alkmene|amphitryon" source="alkmene" target="amphitryon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alkmene|charis" source="alkmene" target="charis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alkmene|das_volk" source="alkmene" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alkmene|die_obersten" source="alkmene" target="die_obersten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alkmene|zweiter_feldherr" source="alkmene" target="zweiter_feldherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alkmene|erster_feldherr" source="alkmene" target="erster_feldherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alkmene|erster_oberster" source="alkmene" target="erster_oberster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alkmene|dritter_feldherr" source="alkmene" target="dritter_feldherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alkmene|die_feldherren" source="alkmene" target="die_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="charis|amphitryon" source="charis" target="amphitryon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amphitryon|erster_feldherr" source="amphitryon" target="erster_feldherr">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="amphitryon|zweiter_feldherr" source="amphitryon" target="zweiter_feldherr">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="amphitryon|dritter_feldherr" source="amphitryon" target="dritter_feldherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amphitryon|einer_aus_dem_volk" source="amphitryon" target="einer_aus_dem_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amphitryon|zweiter_oberster" source="amphitryon" target="zweiter_oberster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amphitryon|erster_oberster" source="amphitryon" target="erster_oberster">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amphitryon|das_volk" source="amphitryon" target="das_volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="amphitryon|die_obersten" source="amphitryon" target="die_obersten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="amphitryon|die_feldherren" source="amphitryon" target="die_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_feldherr|zweiter_feldherr" source="erster_feldherr" target="zweiter_feldherr">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erster_feldherr|dritter_feldherr" source="erster_feldherr" target="dritter_feldherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_feldherr|das_volk" source="erster_feldherr" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_feldherr|die_obersten" source="erster_feldherr" target="die_obersten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_feldherr|erster_oberster" source="erster_feldherr" target="erster_oberster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_feldherr|die_feldherren" source="erster_feldherr" target="die_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_feldherr|dritter_feldherr" source="zweiter_feldherr" target="dritter_feldherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zweiter_feldherr|das_volk" source="zweiter_feldherr" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_feldherr|die_obersten" source="zweiter_feldherr" target="die_obersten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_feldherr|erster_oberster" source="zweiter_feldherr" target="erster_oberster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_feldherr|die_feldherren" source="zweiter_feldherr" target="die_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_feldherr|das_volk" source="dritter_feldherr" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_feldherr|die_obersten" source="dritter_feldherr" target="die_obersten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_feldherr|erster_oberster" source="dritter_feldherr" target="erster_oberster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_feldherr|die_feldherren" source="dritter_feldherr" target="die_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_aus_dem_volk|zweiter_oberster" source="einer_aus_dem_volk" target="zweiter_oberster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_aus_dem_volk|erster_oberster" source="einer_aus_dem_volk" target="erster_oberster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="einer_aus_dem_volk|das_volk" source="einer_aus_dem_volk" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_oberster|erster_oberster" source="zweiter_oberster" target="erster_oberster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_oberster|das_volk" source="zweiter_oberster" target="das_volk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_oberster|das_volk" source="erster_oberster" target="das_volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="erster_oberster|die_obersten" source="erster_oberster" target="die_obersten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_oberster|die_feldherren" source="erster_oberster" target="die_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_volk|die_obersten" source="das_volk" target="die_obersten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_volk|die_feldherren" source="das_volk" target="die_feldherren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_obersten|die_feldherren" source="die_obersten" target="die_feldherren">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

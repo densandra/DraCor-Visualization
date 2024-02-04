@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sirenen">
+            <data key="label">Sirenen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="venus">
+            <data key="label">Venus</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">503</data>
+        </node>
+        <node id="tannhaeuser">
+            <data key="label">Tannhäuser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1830</data>
+        </node>
+        <node id="der_hirt">
+            <data key="label">Der Hirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">72</data>
+        </node>
+        <node id="die_aelteren_pilger">
+            <data key="label">Die älteren Pilger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">238</data>
+        </node>
+        <node id="der_landgraf">
+            <data key="label">Der Landgraf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">782</data>
+        </node>
+        <node id="walther">
+            <data key="label">Walther von der Vogelweide</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">440</data>
+        </node>
+        <node id="biterolf">
+            <data key="label">Biterolf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">431</data>
+        </node>
+        <node id="wolfram">
+            <data key="label">Wolfram von Eschenbach</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1148</data>
+        </node>
+        <node id="heinrich_der_schreiber">
+            <data key="label">Heinrich der Schreiber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">334</data>
+        </node>
+        <node id="reinmar_von_zweter">
+            <data key="label">Reinmar von Zweter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">334</data>
+        </node>
+        <node id="elisabeth">
+            <data key="label">Elisabeth</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">719</data>
+        </node>
+        <node id="die_ritter">
+            <data key="label">Die Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">298</data>
+        </node>
+        <node id="edelfrauen">
+            <data key="label">Edelfrauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">74</data>
+        </node>
+        <node id="vier_edelknaben">
+            <data key="label">Vier Edelknaben</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="die_juengeren_pilger">
+            <data key="label">Die jüngeren Pilger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">101</data>
+        </node>
+        <node id="maennergesang">
+            <data key="label">Männergesang</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <edge id="sirenen|venus" source="sirenen" target="venus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sirenen|tannhaeuser" source="sirenen" target="tannhaeuser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venus|tannhaeuser" source="venus" target="tannhaeuser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="venus|wolfram" source="venus" target="wolfram">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venus|maennergesang" source="venus" target="maennergesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venus|die_juengeren_pilger" source="venus" target="die_juengeren_pilger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venus|der_landgraf" source="venus" target="der_landgraf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venus|die_ritter" source="venus" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venus|walther" source="venus" target="walther">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venus|biterolf" source="venus" target="biterolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venus|heinrich_der_schreiber" source="venus" target="heinrich_der_schreiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venus|reinmar_von_zweter" source="venus" target="reinmar_von_zweter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="venus|die_aelteren_pilger" source="venus" target="die_aelteren_pilger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tannhaeuser|der_hirt" source="tannhaeuser" target="der_hirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tannhaeuser|die_aelteren_pilger" source="tannhaeuser" target="die_aelteren_pilger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tannhaeuser|der_landgraf" source="tannhaeuser" target="der_landgraf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tannhaeuser|walther" source="tannhaeuser" target="walther">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tannhaeuser|biterolf" source="tannhaeuser" target="biterolf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tannhaeuser|wolfram" source="tannhaeuser" target="wolfram">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="tannhaeuser|heinrich_der_schreiber" source="tannhaeuser" target="heinrich_der_schreiber">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tannhaeuser|reinmar_von_zweter" source="tannhaeuser" target="reinmar_von_zweter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="tannhaeuser|elisabeth" source="tannhaeuser" target="elisabeth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tannhaeuser|die_ritter" source="tannhaeuser" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tannhaeuser|edelfrauen" source="tannhaeuser" target="edelfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tannhaeuser|vier_edelknaben" source="tannhaeuser" target="vier_edelknaben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tannhaeuser|die_juengeren_pilger" source="tannhaeuser" target="die_juengeren_pilger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tannhaeuser|maennergesang" source="tannhaeuser" target="maennergesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_hirt|die_aelteren_pilger" source="der_hirt" target="die_aelteren_pilger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_aelteren_pilger|wolfram" source="die_aelteren_pilger" target="wolfram">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_aelteren_pilger|elisabeth" source="die_aelteren_pilger" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_aelteren_pilger|maennergesang" source="die_aelteren_pilger" target="maennergesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_aelteren_pilger|die_juengeren_pilger" source="die_aelteren_pilger" target="die_juengeren_pilger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_aelteren_pilger|der_landgraf" source="die_aelteren_pilger" target="der_landgraf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_aelteren_pilger|die_ritter" source="die_aelteren_pilger" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_aelteren_pilger|walther" source="die_aelteren_pilger" target="walther">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_aelteren_pilger|biterolf" source="die_aelteren_pilger" target="biterolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_aelteren_pilger|heinrich_der_schreiber" source="die_aelteren_pilger" target="heinrich_der_schreiber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_aelteren_pilger|reinmar_von_zweter" source="die_aelteren_pilger" target="reinmar_von_zweter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_landgraf|walther" source="der_landgraf" target="walther">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_landgraf|biterolf" source="der_landgraf" target="biterolf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_landgraf|wolfram" source="der_landgraf" target="wolfram">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_landgraf|heinrich_der_schreiber" source="der_landgraf" target="heinrich_der_schreiber">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_landgraf|reinmar_von_zweter" source="der_landgraf" target="reinmar_von_zweter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_landgraf|elisabeth" source="der_landgraf" target="elisabeth">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_landgraf|die_ritter" source="der_landgraf" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_landgraf|edelfrauen" source="der_landgraf" target="edelfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_landgraf|vier_edelknaben" source="der_landgraf" target="vier_edelknaben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_landgraf|die_juengeren_pilger" source="der_landgraf" target="die_juengeren_pilger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_landgraf|maennergesang" source="der_landgraf" target="maennergesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|biterolf" source="walther" target="biterolf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="walther|wolfram" source="walther" target="wolfram">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="walther|heinrich_der_schreiber" source="walther" target="heinrich_der_schreiber">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="walther|reinmar_von_zweter" source="walther" target="reinmar_von_zweter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="walther|die_ritter" source="walther" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walther|edelfrauen" source="walther" target="edelfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|vier_edelknaben" source="walther" target="vier_edelknaben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|elisabeth" source="walther" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|die_juengeren_pilger" source="walther" target="die_juengeren_pilger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walther|maennergesang" source="walther" target="maennergesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biterolf|wolfram" source="biterolf" target="wolfram">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="biterolf|heinrich_der_schreiber" source="biterolf" target="heinrich_der_schreiber">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="biterolf|reinmar_von_zweter" source="biterolf" target="reinmar_von_zweter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="biterolf|die_ritter" source="biterolf" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="biterolf|edelfrauen" source="biterolf" target="edelfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biterolf|vier_edelknaben" source="biterolf" target="vier_edelknaben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biterolf|elisabeth" source="biterolf" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biterolf|die_juengeren_pilger" source="biterolf" target="die_juengeren_pilger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="biterolf|maennergesang" source="biterolf" target="maennergesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolfram|heinrich_der_schreiber" source="wolfram" target="heinrich_der_schreiber">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wolfram|reinmar_von_zweter" source="wolfram" target="reinmar_von_zweter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wolfram|elisabeth" source="wolfram" target="elisabeth">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wolfram|die_ritter" source="wolfram" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wolfram|edelfrauen" source="wolfram" target="edelfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolfram|vier_edelknaben" source="wolfram" target="vier_edelknaben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolfram|die_juengeren_pilger" source="wolfram" target="die_juengeren_pilger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wolfram|maennergesang" source="wolfram" target="maennergesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_schreiber|reinmar_von_zweter" source="heinrich_der_schreiber" target="reinmar_von_zweter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich_der_schreiber|die_ritter" source="heinrich_der_schreiber" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich_der_schreiber|edelfrauen" source="heinrich_der_schreiber" target="edelfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_schreiber|vier_edelknaben" source="heinrich_der_schreiber" target="vier_edelknaben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_schreiber|elisabeth" source="heinrich_der_schreiber" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich_der_schreiber|die_juengeren_pilger" source="heinrich_der_schreiber" target="die_juengeren_pilger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich_der_schreiber|maennergesang" source="heinrich_der_schreiber" target="maennergesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reinmar_von_zweter|die_ritter" source="reinmar_von_zweter" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="reinmar_von_zweter|edelfrauen" source="reinmar_von_zweter" target="edelfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reinmar_von_zweter|vier_edelknaben" source="reinmar_von_zweter" target="vier_edelknaben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reinmar_von_zweter|elisabeth" source="reinmar_von_zweter" target="elisabeth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reinmar_von_zweter|die_juengeren_pilger" source="reinmar_von_zweter" target="die_juengeren_pilger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="reinmar_von_zweter|maennergesang" source="reinmar_von_zweter" target="maennergesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|die_ritter" source="elisabeth" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|edelfrauen" source="elisabeth" target="edelfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|vier_edelknaben" source="elisabeth" target="vier_edelknaben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elisabeth|die_juengeren_pilger" source="elisabeth" target="die_juengeren_pilger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_ritter|edelfrauen" source="die_ritter" target="edelfrauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_ritter|vier_edelknaben" source="die_ritter" target="vier_edelknaben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_ritter|die_juengeren_pilger" source="die_ritter" target="die_juengeren_pilger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_ritter|maennergesang" source="die_ritter" target="maennergesang">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="edelfrauen|vier_edelknaben" source="edelfrauen" target="vier_edelknaben">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="edelfrauen|die_juengeren_pilger" source="edelfrauen" target="die_juengeren_pilger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vier_edelknaben|die_juengeren_pilger" source="vier_edelknaben" target="die_juengeren_pilger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_juengeren_pilger|maennergesang" source="die_juengeren_pilger" target="maennergesang">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

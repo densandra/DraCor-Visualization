@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="die_trommler">
+            <data key="label">Die Trommler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="sonnsfeld">
+            <data key="label">Fräulein von Sonnsfeld</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eversmann">
+            <data key="label">Eversmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wilhelmine">
+            <data key="label">Wilhelmine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erbprinz">
+            <data key="label">Erbprinz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="koenigin">
+            <data key="label">Königin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="koenig">
+            <data key="label">König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="grumbkow">
+            <data key="label">Grumbkow</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="seckendorf">
+            <data key="label">Seckendorf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lakai">
+            <data key="label">Lakai</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hotham">
+            <data key="label">Hotham</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kamke">
+            <data key="label">Kamke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eckhof">
+            <data key="label">Eckhof</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_grenadier">
+            <data key="label">Erster Grenadier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_grenadier">
+            <data key="label">Zweiter Grenadier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_grenadier">
+            <data key="label">Dritter Grenadier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bediente">
+            <data key="label">Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="alle_3-1-4">
+            <data key="label">Alle (III/1/4)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="graf_schwerin">
+            <data key="label">Graf Schwerin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="graf_wartensleben">
+            <data key="label">Graf Wartensleben</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_4-2-2">
+            <data key="label">Alle (IV/2/2)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="lakaien">
+            <data key="label">Lakaien</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="viereck">
+            <data key="label">Frau von Viereck</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="holzendorf">
+            <data key="label">Frau von Holzendorf</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hofdamen">
+            <data key="label">Hofdamen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="alle_5-1-4_und_5-1-5">
+            <data key="label">Alle (V/1/4–5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="koenig" target="koenigin">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="koenig" target="wilhelmine">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="koenigin" target="wilhelmine">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="viereck" target="koenigin">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="holzendorf" target="koenigin">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="sonnsfeld" target="wilhelmine">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="eversmann" target="koenig">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="kamke" target="koenigin">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="lakai" target="koenig">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

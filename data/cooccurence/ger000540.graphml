@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="boll">
+            <data key="label">Boll</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5900</data>
+        </node>
+        <node id="frau_boll">
+            <data key="label">Frau Boll</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1798</data>
+        </node>
+        <node id="gruental">
+            <data key="label">Grüntal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">868</data>
+        </node>
+        <node id="holtfreter">
+            <data key="label">Holtfreter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1166</data>
+        </node>
+        <node id="buergermeister">
+            <data key="label">Bürgermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">778</data>
+        </node>
+        <node id="grete">
+            <data key="label">Grete</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2729</data>
+        </node>
+        <node id="virgin">
+            <data key="label">Virgin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">716</data>
+        </node>
+        <node id="ein_buerger">
+            <data key="label">Ein Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="elias">
+            <data key="label">Elias</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1300</data>
+        </node>
+        <node id="stimme_von_drinnen">
+            <data key="label">Stimme von drinnen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <node id="erster_gast">
+            <data key="label">Erster Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="zweiter_gast">
+            <data key="label">Zweiter Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="dritter_gast">
+            <data key="label">Dritter Gast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="frau_unk">
+            <data key="label">Frau Unk</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="herr">
+            <data key="label">Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1202</data>
+        </node>
+        <node id="otto">
+            <data key="label">Otto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1142</data>
+        </node>
+        <node id="saugwurm">
+            <data key="label">Saugwurm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="wehdig">
+            <data key="label">Wehdig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">311</data>
+        </node>
+        <node id="doris">
+            <data key="label">Doris</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">412</data>
+        </node>
+        <node id="mehlspeis">
+            <data key="label">Mehlspeis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="splint">
+            <data key="label">Splint</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">47</data>
+        </node>
+        <node id="kaeselow">
+            <data key="label">Käselow</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">74</data>
+        </node>
+        <edge id="boll|frau_boll" source="boll" target="frau_boll">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="boll|gruental" source="boll" target="gruental">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="boll|holtfreter" source="boll" target="holtfreter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="boll|buergermeister" source="boll" target="buergermeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="boll|grete" source="boll" target="grete">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="boll|virgin" source="boll" target="virgin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="boll|ein_buerger" source="boll" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boll|elias" source="boll" target="elias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boll|stimme_von_drinnen" source="boll" target="stimme_von_drinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boll|erster_gast" source="boll" target="erster_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boll|zweiter_gast" source="boll" target="zweiter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boll|dritter_gast" source="boll" target="dritter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boll|frau_unk" source="boll" target="frau_unk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boll|herr" source="boll" target="herr">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="boll|otto" source="boll" target="otto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boll|saugwurm" source="boll" target="saugwurm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_boll|gruental" source="frau_boll" target="gruental">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_boll|holtfreter" source="frau_boll" target="holtfreter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_boll|buergermeister" source="frau_boll" target="buergermeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_boll|grete" source="frau_boll" target="grete">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_boll|ein_buerger" source="frau_boll" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_boll|otto" source="frau_boll" target="otto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_boll|herr" source="frau_boll" target="herr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_boll|saugwurm" source="frau_boll" target="saugwurm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gruental|holtfreter" source="gruental" target="holtfreter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gruental|buergermeister" source="gruental" target="buergermeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gruental|grete" source="gruental" target="grete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gruental|ein_buerger" source="gruental" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="holtfreter|buergermeister" source="holtfreter" target="buergermeister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="holtfreter|grete" source="holtfreter" target="grete">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="holtfreter|ein_buerger" source="holtfreter" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="holtfreter|elias" source="holtfreter" target="elias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="holtfreter|stimme_von_drinnen" source="holtfreter" target="stimme_von_drinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="holtfreter|erster_gast" source="holtfreter" target="erster_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="holtfreter|zweiter_gast" source="holtfreter" target="zweiter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="holtfreter|dritter_gast" source="holtfreter" target="dritter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="holtfreter|frau_unk" source="holtfreter" target="frau_unk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="holtfreter|herr" source="holtfreter" target="herr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="holtfreter|virgin" source="holtfreter" target="virgin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="holtfreter|otto" source="holtfreter" target="otto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="holtfreter|saugwurm" source="holtfreter" target="saugwurm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buergermeister|grete" source="buergermeister" target="grete">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buergermeister|ein_buerger" source="buergermeister" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grete|virgin" source="grete" target="virgin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grete|elias" source="grete" target="elias">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grete|stimme_von_drinnen" source="grete" target="stimme_von_drinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grete|erster_gast" source="grete" target="erster_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grete|zweiter_gast" source="grete" target="zweiter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grete|dritter_gast" source="grete" target="dritter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grete|frau_unk" source="grete" target="frau_unk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grete|herr" source="grete" target="herr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grete|wehdig" source="grete" target="wehdig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grete|doris" source="grete" target="doris">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grete|mehlspeis" source="grete" target="mehlspeis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grete|splint" source="grete" target="splint">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grete|kaeselow" source="grete" target="kaeselow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virgin|elias" source="virgin" target="elias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virgin|stimme_von_drinnen" source="virgin" target="stimme_von_drinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virgin|erster_gast" source="virgin" target="erster_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virgin|zweiter_gast" source="virgin" target="zweiter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virgin|dritter_gast" source="virgin" target="dritter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virgin|frau_unk" source="virgin" target="frau_unk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="virgin|herr" source="virgin" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elias|stimme_von_drinnen" source="elias" target="stimme_von_drinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elias|erster_gast" source="elias" target="erster_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elias|zweiter_gast" source="elias" target="zweiter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elias|dritter_gast" source="elias" target="dritter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elias|frau_unk" source="elias" target="frau_unk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elias|herr" source="elias" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elias|wehdig" source="elias" target="wehdig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elias|doris" source="elias" target="doris">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elias|mehlspeis" source="elias" target="mehlspeis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elias|splint" source="elias" target="splint">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elias|kaeselow" source="elias" target="kaeselow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_von_drinnen|erster_gast" source="stimme_von_drinnen" target="erster_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_von_drinnen|zweiter_gast" source="stimme_von_drinnen" target="zweiter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_von_drinnen|dritter_gast" source="stimme_von_drinnen" target="dritter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_von_drinnen|frau_unk" source="stimme_von_drinnen" target="frau_unk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme_von_drinnen|herr" source="stimme_von_drinnen" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gast|zweiter_gast" source="erster_gast" target="zweiter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gast|dritter_gast" source="erster_gast" target="dritter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gast|frau_unk" source="erster_gast" target="frau_unk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gast|herr" source="erster_gast" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_gast|dritter_gast" source="zweiter_gast" target="dritter_gast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_gast|frau_unk" source="zweiter_gast" target="frau_unk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_gast|herr" source="zweiter_gast" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_gast|frau_unk" source="dritter_gast" target="frau_unk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_gast|herr" source="dritter_gast" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_unk|herr" source="frau_unk" target="herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr|otto" source="herr" target="otto">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr|saugwurm" source="herr" target="saugwurm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="otto|saugwurm" source="otto" target="saugwurm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wehdig|doris" source="wehdig" target="doris">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wehdig|mehlspeis" source="wehdig" target="mehlspeis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wehdig|splint" source="wehdig" target="splint">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wehdig|kaeselow" source="wehdig" target="kaeselow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doris|mehlspeis" source="doris" target="mehlspeis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doris|splint" source="doris" target="splint">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doris|kaeselow" source="doris" target="kaeselow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehlspeis|splint" source="mehlspeis" target="splint">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehlspeis|kaeselow" source="mehlspeis" target="kaeselow">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="splint|kaeselow" source="splint" target="kaeselow">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

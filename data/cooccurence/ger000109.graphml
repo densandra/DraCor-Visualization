@@ -1,0 +1,1031 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="octavian">
+            <data key="label">Octavian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1753</data>
+        </node>
+        <node id="marschallin">
+            <data key="label">Marschallin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2327</data>
+        </node>
+        <node id="haushofmeister_bei_feldmarschallin">
+            <data key="label">Der Haushofmeister bei der Feldmarschallin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="der_baron">
+            <data key="label">Der Baron</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4011</data>
+        </node>
+        <node id="die_lakaien">
+            <data key="label">Die Lakaien</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="drei_adelige_waisen">
+            <data key="label">Drei adelige Waisen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">40</data>
+        </node>
+        <node id="marchande_de_modes">
+            <data key="label">Marchande de Modes</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="der_tierhaendler">
+            <data key="label">Der Tierhändler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="valzacchi">
+            <data key="label">Valzacchi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">249</data>
+        </node>
+        <node id="der_saenger">
+            <data key="label">Der Sänger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">59</data>
+        </node>
+        <node id="notar">
+            <data key="label">Notar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="annina">
+            <data key="label">Annina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">292</data>
+        </node>
+        <node id="erster_lakai">
+            <data key="label">Erster Lakai</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="zweiter_lakai">
+            <data key="label">Zweiter Lakai</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="dritter_lakai">
+            <data key="label">Dritter Lakai</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="vierter_lakai">
+            <data key="label">Vierter Lakai</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="faninal">
+            <data key="label">Herr von Faninal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">749</data>
+        </node>
+        <node id="sophie">
+            <data key="label">Sophie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1284</data>
+        </node>
+        <node id="marianne_die_duenna">
+            <data key="label">Marianne Leitmetzerin (die Duenna)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">322</data>
+        </node>
+        <node id="haushofmeister_bei_faninal">
+            <data key="label">Der Haushofmeister bei Faninal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <node id="die_lerchenauischen">
+            <data key="label">Die Lerchenauischen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <node id="die_faninalsche_dienerschaft">
+            <data key="label">Die Faninalsche Dienerschaft</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">55</data>
+        </node>
+        <node id="wirt">
+            <data key="label">Wirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">113</data>
+        </node>
+        <node id="die_kellner">
+            <data key="label">Die Kellner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">47</data>
+        </node>
+        <node id="die_kinder">
+            <data key="label">Die Kinder</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="stimmen_von_aussen">
+            <data key="label">Stimmen von außen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="kommissarius">
+            <data key="label">Kommissarius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">320</data>
+        </node>
+        <node id="viele_stimmen">
+            <data key="label">Viele Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="die_koepfe">
+            <data key="label">Die Köpfe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="die_musikanten">
+            <data key="label">Die Musikanten</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="die_kutscher">
+            <data key="label">Die Kutscher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="der_hausknecht">
+            <data key="label">Der Hausknecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <edge id="octavian|marschallin" source="octavian" target="marschallin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="octavian|haushofmeister_bei_feldmarschallin" source="octavian" target="haushofmeister_bei_feldmarschallin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|der_baron" source="octavian" target="der_baron">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="octavian|die_lakaien" source="octavian" target="die_lakaien">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|drei_adelige_waisen" source="octavian" target="drei_adelige_waisen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|marchande_de_modes" source="octavian" target="marchande_de_modes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|der_tierhaendler" source="octavian" target="der_tierhaendler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|valzacchi" source="octavian" target="valzacchi">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="octavian|der_saenger" source="octavian" target="der_saenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|notar" source="octavian" target="notar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|annina" source="octavian" target="annina">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="octavian|erster_lakai" source="octavian" target="erster_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|zweiter_lakai" source="octavian" target="zweiter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|dritter_lakai" source="octavian" target="dritter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|vierter_lakai" source="octavian" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|faninal" source="octavian" target="faninal">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="octavian|sophie" source="octavian" target="sophie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="octavian|marianne_die_duenna" source="octavian" target="marianne_die_duenna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|haushofmeister_bei_faninal" source="octavian" target="haushofmeister_bei_faninal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|die_lerchenauischen" source="octavian" target="die_lerchenauischen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|die_faninalsche_dienerschaft" source="octavian" target="die_faninalsche_dienerschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|wirt" source="octavian" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|die_kellner" source="octavian" target="die_kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|die_kinder" source="octavian" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|stimmen_von_aussen" source="octavian" target="stimmen_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|kommissarius" source="octavian" target="kommissarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|viele_stimmen" source="octavian" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|die_koepfe" source="octavian" target="die_koepfe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|die_musikanten" source="octavian" target="die_musikanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|die_kutscher" source="octavian" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="octavian|der_hausknecht" source="octavian" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|haushofmeister_bei_feldmarschallin" source="marschallin" target="haushofmeister_bei_feldmarschallin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|der_baron" source="marschallin" target="der_baron">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marschallin|die_lakaien" source="marschallin" target="die_lakaien">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|drei_adelige_waisen" source="marschallin" target="drei_adelige_waisen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|marchande_de_modes" source="marschallin" target="marchande_de_modes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|der_tierhaendler" source="marschallin" target="der_tierhaendler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|valzacchi" source="marschallin" target="valzacchi">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marschallin|der_saenger" source="marschallin" target="der_saenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|notar" source="marschallin" target="notar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|annina" source="marschallin" target="annina">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marschallin|erster_lakai" source="marschallin" target="erster_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|zweiter_lakai" source="marschallin" target="zweiter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|dritter_lakai" source="marschallin" target="dritter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|vierter_lakai" source="marschallin" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|wirt" source="marschallin" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|die_kellner" source="marschallin" target="die_kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|die_kinder" source="marschallin" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|stimmen_von_aussen" source="marschallin" target="stimmen_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|kommissarius" source="marschallin" target="kommissarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|faninal" source="marschallin" target="faninal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|viele_stimmen" source="marschallin" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|sophie" source="marschallin" target="sophie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|die_koepfe" source="marschallin" target="die_koepfe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|die_musikanten" source="marschallin" target="die_musikanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|die_kutscher" source="marschallin" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marschallin|der_hausknecht" source="marschallin" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_feldmarschallin|der_baron" source="haushofmeister_bei_feldmarschallin" target="der_baron">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_feldmarschallin|die_lakaien" source="haushofmeister_bei_feldmarschallin" target="die_lakaien">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_feldmarschallin|drei_adelige_waisen" source="haushofmeister_bei_feldmarschallin" target="drei_adelige_waisen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_feldmarschallin|marchande_de_modes" source="haushofmeister_bei_feldmarschallin" target="marchande_de_modes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_feldmarschallin|der_tierhaendler" source="haushofmeister_bei_feldmarschallin" target="der_tierhaendler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_feldmarschallin|valzacchi" source="haushofmeister_bei_feldmarschallin" target="valzacchi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_feldmarschallin|der_saenger" source="haushofmeister_bei_feldmarschallin" target="der_saenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_feldmarschallin|notar" source="haushofmeister_bei_feldmarschallin" target="notar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_feldmarschallin|annina" source="haushofmeister_bei_feldmarschallin" target="annina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_feldmarschallin|erster_lakai" source="haushofmeister_bei_feldmarschallin" target="erster_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_feldmarschallin|zweiter_lakai" source="haushofmeister_bei_feldmarschallin" target="zweiter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_feldmarschallin|dritter_lakai" source="haushofmeister_bei_feldmarschallin" target="dritter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_feldmarschallin|vierter_lakai" source="haushofmeister_bei_feldmarschallin" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|die_lakaien" source="der_baron" target="die_lakaien">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|drei_adelige_waisen" source="der_baron" target="drei_adelige_waisen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|marchande_de_modes" source="der_baron" target="marchande_de_modes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|der_tierhaendler" source="der_baron" target="der_tierhaendler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|valzacchi" source="der_baron" target="valzacchi">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_baron|der_saenger" source="der_baron" target="der_saenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|notar" source="der_baron" target="notar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|annina" source="der_baron" target="annina">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_baron|erster_lakai" source="der_baron" target="erster_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|zweiter_lakai" source="der_baron" target="zweiter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|dritter_lakai" source="der_baron" target="dritter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|vierter_lakai" source="der_baron" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|faninal" source="der_baron" target="faninal">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_baron|sophie" source="der_baron" target="sophie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_baron|marianne_die_duenna" source="der_baron" target="marianne_die_duenna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|haushofmeister_bei_faninal" source="der_baron" target="haushofmeister_bei_faninal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|die_lerchenauischen" source="der_baron" target="die_lerchenauischen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|die_faninalsche_dienerschaft" source="der_baron" target="die_faninalsche_dienerschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|wirt" source="der_baron" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|die_kellner" source="der_baron" target="die_kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|die_kinder" source="der_baron" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|stimmen_von_aussen" source="der_baron" target="stimmen_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|kommissarius" source="der_baron" target="kommissarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|viele_stimmen" source="der_baron" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|die_koepfe" source="der_baron" target="die_koepfe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|die_musikanten" source="der_baron" target="die_musikanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|die_kutscher" source="der_baron" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_baron|der_hausknecht" source="der_baron" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lakaien|drei_adelige_waisen" source="die_lakaien" target="drei_adelige_waisen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lakaien|marchande_de_modes" source="die_lakaien" target="marchande_de_modes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lakaien|der_tierhaendler" source="die_lakaien" target="der_tierhaendler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lakaien|valzacchi" source="die_lakaien" target="valzacchi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lakaien|der_saenger" source="die_lakaien" target="der_saenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lakaien|notar" source="die_lakaien" target="notar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lakaien|annina" source="die_lakaien" target="annina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lakaien|erster_lakai" source="die_lakaien" target="erster_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lakaien|zweiter_lakai" source="die_lakaien" target="zweiter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lakaien|dritter_lakai" source="die_lakaien" target="dritter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lakaien|vierter_lakai" source="die_lakaien" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drei_adelige_waisen|marchande_de_modes" source="drei_adelige_waisen" target="marchande_de_modes">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drei_adelige_waisen|der_tierhaendler" source="drei_adelige_waisen" target="der_tierhaendler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drei_adelige_waisen|valzacchi" source="drei_adelige_waisen" target="valzacchi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drei_adelige_waisen|der_saenger" source="drei_adelige_waisen" target="der_saenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drei_adelige_waisen|notar" source="drei_adelige_waisen" target="notar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drei_adelige_waisen|annina" source="drei_adelige_waisen" target="annina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drei_adelige_waisen|erster_lakai" source="drei_adelige_waisen" target="erster_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drei_adelige_waisen|zweiter_lakai" source="drei_adelige_waisen" target="zweiter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drei_adelige_waisen|dritter_lakai" source="drei_adelige_waisen" target="dritter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drei_adelige_waisen|vierter_lakai" source="drei_adelige_waisen" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marchande_de_modes|der_tierhaendler" source="marchande_de_modes" target="der_tierhaendler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marchande_de_modes|valzacchi" source="marchande_de_modes" target="valzacchi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marchande_de_modes|der_saenger" source="marchande_de_modes" target="der_saenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marchande_de_modes|notar" source="marchande_de_modes" target="notar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marchande_de_modes|annina" source="marchande_de_modes" target="annina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marchande_de_modes|erster_lakai" source="marchande_de_modes" target="erster_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marchande_de_modes|zweiter_lakai" source="marchande_de_modes" target="zweiter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marchande_de_modes|dritter_lakai" source="marchande_de_modes" target="dritter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marchande_de_modes|vierter_lakai" source="marchande_de_modes" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_tierhaendler|valzacchi" source="der_tierhaendler" target="valzacchi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_tierhaendler|der_saenger" source="der_tierhaendler" target="der_saenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_tierhaendler|notar" source="der_tierhaendler" target="notar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_tierhaendler|annina" source="der_tierhaendler" target="annina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_tierhaendler|erster_lakai" source="der_tierhaendler" target="erster_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_tierhaendler|zweiter_lakai" source="der_tierhaendler" target="zweiter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_tierhaendler|dritter_lakai" source="der_tierhaendler" target="dritter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_tierhaendler|vierter_lakai" source="der_tierhaendler" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|der_saenger" source="valzacchi" target="der_saenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|notar" source="valzacchi" target="notar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|annina" source="valzacchi" target="annina">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="valzacchi|erster_lakai" source="valzacchi" target="erster_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|zweiter_lakai" source="valzacchi" target="zweiter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|dritter_lakai" source="valzacchi" target="dritter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|vierter_lakai" source="valzacchi" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|faninal" source="valzacchi" target="faninal">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valzacchi|sophie" source="valzacchi" target="sophie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valzacchi|marianne_die_duenna" source="valzacchi" target="marianne_die_duenna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|haushofmeister_bei_faninal" source="valzacchi" target="haushofmeister_bei_faninal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|die_lerchenauischen" source="valzacchi" target="die_lerchenauischen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|die_faninalsche_dienerschaft" source="valzacchi" target="die_faninalsche_dienerschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|wirt" source="valzacchi" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|die_kellner" source="valzacchi" target="die_kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|die_kinder" source="valzacchi" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|stimmen_von_aussen" source="valzacchi" target="stimmen_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|kommissarius" source="valzacchi" target="kommissarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|viele_stimmen" source="valzacchi" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|die_koepfe" source="valzacchi" target="die_koepfe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|die_musikanten" source="valzacchi" target="die_musikanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|die_kutscher" source="valzacchi" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valzacchi|der_hausknecht" source="valzacchi" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_saenger|notar" source="der_saenger" target="notar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_saenger|annina" source="der_saenger" target="annina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_saenger|erster_lakai" source="der_saenger" target="erster_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_saenger|zweiter_lakai" source="der_saenger" target="zweiter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_saenger|dritter_lakai" source="der_saenger" target="dritter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_saenger|vierter_lakai" source="der_saenger" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="notar|annina" source="notar" target="annina">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="notar|erster_lakai" source="notar" target="erster_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="notar|zweiter_lakai" source="notar" target="zweiter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="notar|dritter_lakai" source="notar" target="dritter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="notar|vierter_lakai" source="notar" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|erster_lakai" source="annina" target="erster_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|zweiter_lakai" source="annina" target="zweiter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|dritter_lakai" source="annina" target="dritter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|vierter_lakai" source="annina" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|faninal" source="annina" target="faninal">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="annina|sophie" source="annina" target="sophie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="annina|marianne_die_duenna" source="annina" target="marianne_die_duenna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|haushofmeister_bei_faninal" source="annina" target="haushofmeister_bei_faninal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|die_lerchenauischen" source="annina" target="die_lerchenauischen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|die_faninalsche_dienerschaft" source="annina" target="die_faninalsche_dienerschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|wirt" source="annina" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|die_kellner" source="annina" target="die_kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|die_kinder" source="annina" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|stimmen_von_aussen" source="annina" target="stimmen_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|kommissarius" source="annina" target="kommissarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|viele_stimmen" source="annina" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|die_koepfe" source="annina" target="die_koepfe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|die_musikanten" source="annina" target="die_musikanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|die_kutscher" source="annina" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annina|der_hausknecht" source="annina" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_lakai|zweiter_lakai" source="erster_lakai" target="zweiter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_lakai|dritter_lakai" source="erster_lakai" target="dritter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_lakai|vierter_lakai" source="erster_lakai" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_lakai|dritter_lakai" source="zweiter_lakai" target="dritter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_lakai|vierter_lakai" source="zweiter_lakai" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_lakai|vierter_lakai" source="dritter_lakai" target="vierter_lakai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faninal|sophie" source="faninal" target="sophie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faninal|marianne_die_duenna" source="faninal" target="marianne_die_duenna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faninal|haushofmeister_bei_faninal" source="faninal" target="haushofmeister_bei_faninal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faninal|die_lerchenauischen" source="faninal" target="die_lerchenauischen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faninal|die_faninalsche_dienerschaft" source="faninal" target="die_faninalsche_dienerschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faninal|wirt" source="faninal" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faninal|die_kellner" source="faninal" target="die_kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faninal|die_kinder" source="faninal" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faninal|stimmen_von_aussen" source="faninal" target="stimmen_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faninal|kommissarius" source="faninal" target="kommissarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faninal|viele_stimmen" source="faninal" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faninal|die_koepfe" source="faninal" target="die_koepfe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faninal|die_musikanten" source="faninal" target="die_musikanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faninal|die_kutscher" source="faninal" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faninal|der_hausknecht" source="faninal" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|marianne_die_duenna" source="sophie" target="marianne_die_duenna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|haushofmeister_bei_faninal" source="sophie" target="haushofmeister_bei_faninal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|die_lerchenauischen" source="sophie" target="die_lerchenauischen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|die_faninalsche_dienerschaft" source="sophie" target="die_faninalsche_dienerschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|wirt" source="sophie" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|die_kellner" source="sophie" target="die_kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|die_kinder" source="sophie" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|stimmen_von_aussen" source="sophie" target="stimmen_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|kommissarius" source="sophie" target="kommissarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|viele_stimmen" source="sophie" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|die_koepfe" source="sophie" target="die_koepfe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|die_musikanten" source="sophie" target="die_musikanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|die_kutscher" source="sophie" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sophie|der_hausknecht" source="sophie" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne_die_duenna|haushofmeister_bei_faninal" source="marianne_die_duenna" target="haushofmeister_bei_faninal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne_die_duenna|die_lerchenauischen" source="marianne_die_duenna" target="die_lerchenauischen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianne_die_duenna|die_faninalsche_dienerschaft" source="marianne_die_duenna" target="die_faninalsche_dienerschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_faninal|die_lerchenauischen" source="haushofmeister_bei_faninal" target="die_lerchenauischen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister_bei_faninal|die_faninalsche_dienerschaft" source="haushofmeister_bei_faninal" target="die_faninalsche_dienerschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_lerchenauischen|die_faninalsche_dienerschaft" source="die_lerchenauischen" target="die_faninalsche_dienerschaft">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|die_kellner" source="wirt" target="die_kellner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|die_kinder" source="wirt" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|stimmen_von_aussen" source="wirt" target="stimmen_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|kommissarius" source="wirt" target="kommissarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|viele_stimmen" source="wirt" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|die_koepfe" source="wirt" target="die_koepfe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|die_musikanten" source="wirt" target="die_musikanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|die_kutscher" source="wirt" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|der_hausknecht" source="wirt" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kellner|die_kinder" source="die_kellner" target="die_kinder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kellner|stimmen_von_aussen" source="die_kellner" target="stimmen_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kellner|kommissarius" source="die_kellner" target="kommissarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kellner|viele_stimmen" source="die_kellner" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kellner|die_koepfe" source="die_kellner" target="die_koepfe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kellner|die_musikanten" source="die_kellner" target="die_musikanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kellner|die_kutscher" source="die_kellner" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kellner|der_hausknecht" source="die_kellner" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kinder|stimmen_von_aussen" source="die_kinder" target="stimmen_von_aussen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kinder|kommissarius" source="die_kinder" target="kommissarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kinder|viele_stimmen" source="die_kinder" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kinder|die_koepfe" source="die_kinder" target="die_koepfe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kinder|die_musikanten" source="die_kinder" target="die_musikanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kinder|die_kutscher" source="die_kinder" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kinder|der_hausknecht" source="die_kinder" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_von_aussen|kommissarius" source="stimmen_von_aussen" target="kommissarius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_von_aussen|viele_stimmen" source="stimmen_von_aussen" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_von_aussen|die_koepfe" source="stimmen_von_aussen" target="die_koepfe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_von_aussen|die_musikanten" source="stimmen_von_aussen" target="die_musikanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_von_aussen|die_kutscher" source="stimmen_von_aussen" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen_von_aussen|der_hausknecht" source="stimmen_von_aussen" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kommissarius|viele_stimmen" source="kommissarius" target="viele_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kommissarius|die_koepfe" source="kommissarius" target="die_koepfe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kommissarius|die_musikanten" source="kommissarius" target="die_musikanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kommissarius|die_kutscher" source="kommissarius" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kommissarius|der_hausknecht" source="kommissarius" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_stimmen|die_koepfe" source="viele_stimmen" target="die_koepfe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_stimmen|die_musikanten" source="viele_stimmen" target="die_musikanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_stimmen|die_kutscher" source="viele_stimmen" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="viele_stimmen|der_hausknecht" source="viele_stimmen" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_koepfe|die_musikanten" source="die_koepfe" target="die_musikanten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_koepfe|die_kutscher" source="die_koepfe" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_koepfe|der_hausknecht" source="die_koepfe" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_musikanten|die_kutscher" source="die_musikanten" target="die_kutscher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_musikanten|der_hausknecht" source="die_musikanten" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_kutscher|der_hausknecht" source="die_kutscher" target="der_hausknecht">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

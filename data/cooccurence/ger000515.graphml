@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="medea">
+            <data key="label">Medea</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6931</data>
+        </node>
+        <node id="sklave">
+            <data key="label">Sklave</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="gora">
+            <data key="label">Gora</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1886</data>
+        </node>
+        <node id="jason">
+            <data key="label">Jason</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4676</data>
+        </node>
+        <node id="landmann">
+            <data key="label">Landmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">123</data>
+        </node>
+        <node id="knabe_aeltere">
+            <data key="label">Knabe/Ältere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">96</data>
+        </node>
+        <node id="koenig">
+            <data key="label">König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1982</data>
+        </node>
+        <node id="kreusa">
+            <data key="label">Kreusa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1055</data>
+        </node>
+        <node id="herold">
+            <data key="label">Herold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">470</data>
+        </node>
+        <node id="sklavin">
+            <data key="label">Sklavin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="kleine_kleinere">
+            <data key="label">Kleine/Kleinere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="magd">
+            <data key="label">Magd</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <edge id="medea|sklave" source="medea" target="sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|gora" source="medea" target="gora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="medea|jason" source="medea" target="jason">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="medea|landmann" source="medea" target="landmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="medea|knabe_aeltere" source="medea" target="knabe_aeltere">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="medea|koenig" source="medea" target="koenig">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="medea|kreusa" source="medea" target="kreusa">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="medea|herold" source="medea" target="herold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|sklavin" source="medea" target="sklavin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="medea|kleine_kleinere" source="medea" target="kleine_kleinere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sklave|gora" source="sklave" target="gora">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sklave|jason" source="sklave" target="jason">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sklave|landmann" source="sklave" target="landmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sklave|knabe_aeltere" source="sklave" target="knabe_aeltere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sklave|koenig" source="sklave" target="koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sklave|kreusa" source="sklave" target="kreusa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|jason" source="gora" target="jason">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gora|landmann" source="gora" target="landmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|knabe_aeltere" source="gora" target="knabe_aeltere">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gora|koenig" source="gora" target="koenig">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gora|kreusa" source="gora" target="kreusa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gora|sklavin" source="gora" target="sklavin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|kleine_kleinere" source="gora" target="kleine_kleinere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gora|magd" source="gora" target="magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jason|landmann" source="jason" target="landmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jason|knabe_aeltere" source="jason" target="knabe_aeltere">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="jason|koenig" source="jason" target="koenig">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="jason|kreusa" source="jason" target="kreusa">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="jason|herold" source="jason" target="herold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jason|sklavin" source="jason" target="sklavin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jason|kleine_kleinere" source="jason" target="kleine_kleinere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jason|magd" source="jason" target="magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landmann|knabe_aeltere" source="landmann" target="knabe_aeltere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landmann|koenig" source="landmann" target="koenig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landmann|kreusa" source="landmann" target="kreusa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knabe_aeltere|koenig" source="knabe_aeltere" target="koenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="knabe_aeltere|kreusa" source="knabe_aeltere" target="kreusa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knabe_aeltere|sklavin" source="knabe_aeltere" target="sklavin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knabe_aeltere|kleine_kleinere" source="knabe_aeltere" target="kleine_kleinere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|kreusa" source="koenig" target="kreusa">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenig|herold" source="koenig" target="herold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|sklavin" source="koenig" target="sklavin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|kleine_kleinere" source="koenig" target="kleine_kleinere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|magd" source="koenig" target="magd">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kreusa|herold" source="kreusa" target="herold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sklavin|kleine_kleinere" source="sklavin" target="kleine_kleinere">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

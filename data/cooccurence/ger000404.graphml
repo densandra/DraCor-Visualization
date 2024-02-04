@@ -1,0 +1,542 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="albrecht">
+            <data key="label">Albrecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3680</data>
+        </node>
+        <node id="hans_zenger">
+            <data key="label">Hans Zenger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">854</data>
+        </node>
+        <node id="percifal_zenger">
+            <data key="label">Percifal Zenger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">243</data>
+        </node>
+        <node id="agnes">
+            <data key="label">Agnes</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2664</data>
+        </node>
+        <node id="emershofen">
+            <data key="label">Emershofen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">84</data>
+        </node>
+        <node id="preisinger">
+            <data key="label">Preisinger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">140</data>
+        </node>
+        <node id="ernst">
+            <data key="label">Ernst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">873</data>
+        </node>
+        <node id="sandizeller">
+            <data key="label">Sandizeller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="tuchsenhauser">
+            <data key="label">Tuchsenhauser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1742</data>
+        </node>
+        <node id="pienzenauer">
+            <data key="label">Pienzenauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">80</data>
+        </node>
+        <node id="tore">
+            <data key="label">Tore</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">212</data>
+        </node>
+        <node id="maxelrainer">
+            <data key="label">Maxelrainer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">229</data>
+        </node>
+        <node id="gundelfing">
+            <data key="label">Gundelfing</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">942</data>
+        </node>
+        <node id="seibelstorfer">
+            <data key="label">Seibelstorfer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">123</data>
+        </node>
+        <node id="vicedom">
+            <data key="label">Der Vicedom zu Straubing</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">532</data>
+        </node>
+        <node id="wache">
+            <data key="label">Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="erster_marschall">
+            <data key="label">Erster Marschall</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <node id="zweiter_marschall">
+            <data key="label">Zweiter Marschall</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="die_ritter">
+            <data key="label">Die Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="wachen">
+            <data key="label">Wachen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="knechte">
+            <data key="label">Knechte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="thorringer">
+            <data key="label">Thorringer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">884</data>
+        </node>
+        <node id="frauen">
+            <data key="label">Frauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="waffenknecht">
+            <data key="label">Waffenknecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="buergermeister">
+            <data key="label">Bürgermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="zweiter_buergermeister">
+            <data key="label">Zweiter Bürgermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="oberrichter">
+            <data key="label">Oberrichter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">95</data>
+        </node>
+        <edge id="albrecht|hans_zenger" source="albrecht" target="hans_zenger">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="albrecht|percifal_zenger" source="albrecht" target="percifal_zenger">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="albrecht|agnes" source="albrecht" target="agnes">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="albrecht|emershofen" source="albrecht" target="emershofen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|preisinger" source="albrecht" target="preisinger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="albrecht|erster_marschall" source="albrecht" target="erster_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|zweiter_marschall" source="albrecht" target="zweiter_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|vicedom" source="albrecht" target="vicedom">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|pienzenauer" source="albrecht" target="pienzenauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albrecht|ernst" source="albrecht" target="ernst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albrecht|die_ritter" source="albrecht" target="die_ritter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="albrecht|gundelfing" source="albrecht" target="gundelfing">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="albrecht|maxelrainer" source="albrecht" target="maxelrainer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albrecht|seibelstorfer" source="albrecht" target="seibelstorfer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|thorringer" source="albrecht" target="thorringer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albrecht|tuchsenhauser" source="albrecht" target="tuchsenhauser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="albrecht|tore" source="albrecht" target="tore">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="albrecht|sandizeller" source="albrecht" target="sandizeller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans_zenger|percifal_zenger" source="hans_zenger" target="percifal_zenger">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="hans_zenger|agnes" source="hans_zenger" target="agnes">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="hans_zenger|emershofen" source="hans_zenger" target="emershofen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans_zenger|preisinger" source="hans_zenger" target="preisinger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans_zenger|wache" source="hans_zenger" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans_zenger|wachen" source="hans_zenger" target="wachen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans_zenger|knechte" source="hans_zenger" target="knechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans_zenger|tore" source="hans_zenger" target="tore">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hans_zenger|tuchsenhauser" source="hans_zenger" target="tuchsenhauser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="percifal_zenger|agnes" source="percifal_zenger" target="agnes">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="percifal_zenger|die_ritter" source="percifal_zenger" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="percifal_zenger|ernst" source="percifal_zenger" target="ernst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="percifal_zenger|gundelfing" source="percifal_zenger" target="gundelfing">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="percifal_zenger|sandizeller" source="percifal_zenger" target="sandizeller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="percifal_zenger|preisinger" source="percifal_zenger" target="preisinger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="percifal_zenger|maxelrainer" source="percifal_zenger" target="maxelrainer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="percifal_zenger|pienzenauer" source="percifal_zenger" target="pienzenauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="percifal_zenger|tore" source="percifal_zenger" target="tore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|wache" source="agnes" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|wachen" source="agnes" target="wachen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|knechte" source="agnes" target="knechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|die_ritter" source="agnes" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|frauen" source="agnes" target="frauen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|tuchsenhauser" source="agnes" target="tuchsenhauser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agnes|tore" source="agnes" target="tore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|waffenknecht" source="agnes" target="waffenknecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|oberrichter" source="agnes" target="oberrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes|vicedom" source="agnes" target="vicedom">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="emershofen|preisinger" source="emershofen" target="preisinger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preisinger|erster_marschall" source="preisinger" target="erster_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preisinger|zweiter_marschall" source="preisinger" target="zweiter_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preisinger|vicedom" source="preisinger" target="vicedom">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preisinger|pienzenauer" source="preisinger" target="pienzenauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="preisinger|ernst" source="preisinger" target="ernst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="preisinger|die_ritter" source="preisinger" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="preisinger|gundelfing" source="preisinger" target="gundelfing">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="preisinger|maxelrainer" source="preisinger" target="maxelrainer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="preisinger|seibelstorfer" source="preisinger" target="seibelstorfer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preisinger|sandizeller" source="preisinger" target="sandizeller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="preisinger|tore" source="preisinger" target="tore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|sandizeller" source="ernst" target="sandizeller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernst|tuchsenhauser" source="ernst" target="tuchsenhauser">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernst|pienzenauer" source="ernst" target="pienzenauer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ernst|tore" source="ernst" target="tore">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernst|maxelrainer" source="ernst" target="maxelrainer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ernst|gundelfing" source="ernst" target="gundelfing">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ernst|seibelstorfer" source="ernst" target="seibelstorfer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ernst|vicedom" source="ernst" target="vicedom">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ernst|erster_marschall" source="ernst" target="erster_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|zweiter_marschall" source="ernst" target="zweiter_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|die_ritter" source="ernst" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sandizeller|tuchsenhauser" source="sandizeller" target="tuchsenhauser">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sandizeller|pienzenauer" source="sandizeller" target="pienzenauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sandizeller|tore" source="sandizeller" target="tore">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sandizeller|maxelrainer" source="sandizeller" target="maxelrainer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sandizeller|gundelfing" source="sandizeller" target="gundelfing">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sandizeller|seibelstorfer" source="sandizeller" target="seibelstorfer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sandizeller|vicedom" source="sandizeller" target="vicedom">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sandizeller|die_ritter" source="sandizeller" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tuchsenhauser|pienzenauer" source="tuchsenhauser" target="pienzenauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tuchsenhauser|tore" source="tuchsenhauser" target="tore">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="tuchsenhauser|maxelrainer" source="tuchsenhauser" target="maxelrainer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tuchsenhauser|gundelfing" source="tuchsenhauser" target="gundelfing">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tuchsenhauser|seibelstorfer" source="tuchsenhauser" target="seibelstorfer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tuchsenhauser|vicedom" source="tuchsenhauser" target="vicedom">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pienzenauer|tore" source="pienzenauer" target="tore">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pienzenauer|maxelrainer" source="pienzenauer" target="maxelrainer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="pienzenauer|gundelfing" source="pienzenauer" target="gundelfing">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pienzenauer|seibelstorfer" source="pienzenauer" target="seibelstorfer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pienzenauer|vicedom" source="pienzenauer" target="vicedom">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pienzenauer|erster_marschall" source="pienzenauer" target="erster_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pienzenauer|zweiter_marschall" source="pienzenauer" target="zweiter_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pienzenauer|die_ritter" source="pienzenauer" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tore|maxelrainer" source="tore" target="maxelrainer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tore|gundelfing" source="tore" target="gundelfing">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="tore|seibelstorfer" source="tore" target="seibelstorfer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tore|vicedom" source="tore" target="vicedom">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tore|die_ritter" source="tore" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maxelrainer|gundelfing" source="maxelrainer" target="gundelfing">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="maxelrainer|seibelstorfer" source="maxelrainer" target="seibelstorfer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="maxelrainer|vicedom" source="maxelrainer" target="vicedom">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="maxelrainer|erster_marschall" source="maxelrainer" target="erster_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maxelrainer|zweiter_marschall" source="maxelrainer" target="zweiter_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maxelrainer|die_ritter" source="maxelrainer" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gundelfing|seibelstorfer" source="gundelfing" target="seibelstorfer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gundelfing|vicedom" source="gundelfing" target="vicedom">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gundelfing|erster_marschall" source="gundelfing" target="erster_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gundelfing|zweiter_marschall" source="gundelfing" target="zweiter_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gundelfing|die_ritter" source="gundelfing" target="die_ritter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gundelfing|thorringer" source="gundelfing" target="thorringer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seibelstorfer|vicedom" source="seibelstorfer" target="vicedom">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="seibelstorfer|erster_marschall" source="seibelstorfer" target="erster_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seibelstorfer|zweiter_marschall" source="seibelstorfer" target="zweiter_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seibelstorfer|die_ritter" source="seibelstorfer" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vicedom|erster_marschall" source="vicedom" target="erster_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vicedom|zweiter_marschall" source="vicedom" target="zweiter_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vicedom|die_ritter" source="vicedom" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vicedom|buergermeister" source="vicedom" target="buergermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vicedom|zweiter_buergermeister" source="vicedom" target="zweiter_buergermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vicedom|oberrichter" source="vicedom" target="oberrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_marschall|zweiter_marschall" source="erster_marschall" target="zweiter_marschall">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_marschall|die_ritter" source="erster_marschall" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_marschall|die_ritter" source="zweiter_marschall" target="die_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wachen|knechte" source="wachen" target="knechte">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buergermeister|zweiter_buergermeister" source="buergermeister" target="zweiter_buergermeister">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

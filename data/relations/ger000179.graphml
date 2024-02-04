@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="der_dichter">
+            <data key="label">Der Dichter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_muse">
+            <data key="label">Die Muse</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_aftermuse_musa">
+            <data key="label">Die Aftermuse/Musa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="barbara">
+            <data key="label">Barbara</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jacob">
+            <data key="label">Jacob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="benjamin">
+            <data key="label">Benjamin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="koenigin">
+            <data key="label">Die Königin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_prinzessin">
+            <data key="label">Die Prinzessin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_koenig">
+            <data key="label">Der König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_prinz">
+            <data key="label">Der Prinz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="block">
+            <data key="label">Meister Block</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="doktor_pfeffer">
+            <data key="label">Doktor Pfeffer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_graf">
+            <data key="label">Der Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kilian">
+            <data key="label">Kilian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="joerg">
+            <data key="label">Jörg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schlueter">
+            <data key="label">Schlüter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_jaeger">
+            <data key="label">Der Jäger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erste_dame">
+            <data key="label">Erste Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweite_dame">
+            <data key="label">Zweite Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritte_dame">
+            <data key="label">Dritte Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_kavalier">
+            <data key="label">Erster Kavalier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_kavalier">
+            <data key="label">Zweiter Kavalier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_hofmeisterin">
+            <data key="label">Die Hofmeisterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="der_graf" target="der_prinz">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="barbara" target="jacob">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="block" target="doktor_pfeffer">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

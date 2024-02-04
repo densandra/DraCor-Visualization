@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="hagen">
+            <data key="label">Hagen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">464</data>
+        </node>
+        <node id="gunther">
+            <data key="label">Gunther</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">423</data>
+        </node>
+        <node id="giselher">
+            <data key="label">Giselher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">76</data>
+        </node>
+        <node id="gerenot">
+            <data key="label">Gerenot</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="volker">
+            <data key="label">Volker</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">442</data>
+        </node>
+        <node id="siegfried">
+            <data key="label">Siegfried</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2065</data>
+        </node>
+        <node id="dankwart">
+            <data key="label">Dankwart</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">34</data>
+        </node>
+        <node id="ute">
+            <data key="label">Ute</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">859</data>
+        </node>
+        <node id="kriemhild">
+            <data key="label">Kriemhild</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">395</data>
+        </node>
+        <edge id="hagen|gunther" source="hagen" target="gunther">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hagen|giselher" source="hagen" target="giselher">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hagen|gerenot" source="hagen" target="gerenot">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hagen|volker" source="hagen" target="volker">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hagen|siegfried" source="hagen" target="siegfried">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hagen|dankwart" source="hagen" target="dankwart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gunther|giselher" source="gunther" target="giselher">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gunther|gerenot" source="gunther" target="gerenot">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gunther|volker" source="gunther" target="volker">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gunther|siegfried" source="gunther" target="siegfried">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gunther|dankwart" source="gunther" target="dankwart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giselher|gerenot" source="giselher" target="gerenot">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="giselher|volker" source="giselher" target="volker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="giselher|siegfried" source="giselher" target="siegfried">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gerenot|volker" source="gerenot" target="volker">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gerenot|siegfried" source="gerenot" target="siegfried">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volker|siegfried" source="volker" target="siegfried">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="volker|dankwart" source="volker" target="dankwart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="siegfried|dankwart" source="siegfried" target="dankwart">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ute|kriemhild" source="ute" target="kriemhild">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

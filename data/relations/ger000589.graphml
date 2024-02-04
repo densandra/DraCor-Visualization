@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="trink">
+            <data key="label">Trink</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_von_mayenthal">
+            <data key="label">Frau von Mayenthal</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="list">
+            <data key="label">List</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kaethe">
+            <data key="label">Käthe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pulvernagel">
+            <data key="label">Pulvernagel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rittersporn">
+            <data key="label">Rittersporn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="puettner">
+            <data key="label">Püttner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wolff">
+            <data key="label">Wolff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="friderich">
+            <data key="label">Friderich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="graf">
+            <data key="label">Graf Baumberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="trink" target="kaethe">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="frau_von_mayenthal" target="friderich">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="list" target="frau_von_mayenthal">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

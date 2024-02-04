@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="baumann">
+            <data key="label">Baumann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="amalia">
+            <data key="label">Amalia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="julchen">
+            <data key="label">Julchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herr_ruebe">
+            <data key="label">Herr Rübe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_bedienter">
+            <data key="label">Ein Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_andere_bediente">
+            <data key="label">Der andere Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ernst">
+            <data key="label">Ernst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hannchen">
+            <data key="label">Hannchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_graf">
+            <data key="label">Der Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="baumann" target="amalia">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="hannchen" target="julchen">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="baumann" target="ernst">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="ein_bedienter" target="der_graf">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="5" directed="false" source="der_andere_bediente" target="der_graf">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="baumann" target="wilhelm">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

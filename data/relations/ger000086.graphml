@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="illo">
+            <data key="label">Illo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="isolani">
+            <data key="label">Isolani</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="buttler">
+            <data key="label">Buttler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="octavio">
+            <data key="label">Octavio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="questenberg">
+            <data key="label">Questenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="max">
+            <data key="label">Max</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_bedienter_2-1">
+            <data key="label">Erster Bedienter (II/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_bedienter_2-1">
+            <data key="label">Zweiter Bedienter (II/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="seni">
+            <data key="label">Seni</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_bedienter_2-1">
+            <data key="label">Dritter Bedienter (II/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wallenstein">
+            <data key="label">Wallenstein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="herzogin">
+            <data key="label">Herzogin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="graefin">
+            <data key="label">Gräfin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="thekla">
+            <data key="label">Thekla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="terzky">
+            <data key="label">Terzky</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kammerdiener_2-6">
+            <data key="label">Kammerdiener (II/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="goetz">
+            <data key="label">Götz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tiefenbach">
+            <data key="label">Tiefenbach</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="colalto">
+            <data key="label">Colalto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bedienter_3-2">
+            <data key="label">Bedienter (III/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="neumann">
+            <data key="label">Neumann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kellermeister">
+            <data key="label">Kellermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_bedienter_4-5">
+            <data key="label">Erster Bedienter (IV/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_bedienter_4-5">
+            <data key="label">Zweiter Bedienter (IV/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_bedienter_4-5">
+            <data key="label">Dritter Bedienter (IV/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vierter_bedienter_4-5">
+            <data key="label">Vierter Bedienter (IV/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kammerdiener_5">
+            <data key="label">Kammerdiener (V)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kornett">
+            <data key="label">Kornett</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="illo" target="wallenstein">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="herzogin" target="wallenstein">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="graefin" target="herzogin">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="4" directed="false" source="octavio" target="max">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="terzky" target="wallenstein">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="6" directed="false" source="tiefenbach" target="wallenstein">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="goetz" target="wallenstein">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="colalto" target="wallenstein">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="neumann" target="terzky">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="10" directed="false" source="herzogin" target="thekla">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="11" directed="false" source="kellermeister" target="terzky">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

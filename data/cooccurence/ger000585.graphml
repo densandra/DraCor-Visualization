@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="ester">
+            <data key="label">Ester</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1031</data>
+        </node>
+        <node id="moses">
+            <data key="label">Moses</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1499</data>
+        </node>
+        <node id="hirsch">
+            <data key="label">Hirsch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1098</data>
+        </node>
+        <node id="rebekke">
+            <data key="label">Rebekke</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">652</data>
+        </node>
+        <node id="sturm">
+            <data key="label">Korporal Sturm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">824</data>
+        </node>
+        <edge id="ester|moses" source="ester" target="moses">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ester|hirsch" source="ester" target="hirsch">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ester|rebekke" source="ester" target="rebekke">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="ester|sturm" source="ester" target="sturm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="moses|hirsch" source="moses" target="hirsch">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="moses|rebekke" source="moses" target="rebekke">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="moses|sturm" source="moses" target="sturm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hirsch|rebekke" source="hirsch" target="rebekke">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hirsch|sturm" source="hirsch" target="sturm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rebekke|sturm" source="rebekke" target="sturm">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

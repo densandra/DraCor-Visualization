@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="die_amme">
+            <data key="label">Die Amme</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_bote">
+            <data key="label">Der Bote</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_kaiser">
+            <data key="label">Der Kaiser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_kaiserin">
+            <data key="label">Die Kaiserin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="des_falken_stimme">
+            <data key="label">Des Falken Stimme</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_einaeugige">
+            <data key="label">Der Einäugige</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_einarmige">
+            <data key="label">Der Einarmige</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_bucklige">
+            <data key="label">Der Bucklige</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_frau_die_faerberin">
+            <data key="label">Die Frau/Die Färberin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="barak">
+            <data key="label">Barak</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dienerinnen">
+            <data key="label">Dienerinnen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="der_juengling">
+            <data key="label">Der Jüngling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fuenf_kinderstimmen">
+            <data key="label">Fünf Kinderstimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_stimmen_der_waechter">
+            <data key="label">Die Stimmen der Wächter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="stimmen_aus_der_luft">
+            <data key="label">Stimmen (aus der Luft)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_bettelkinder_die_fremden_kinder">
+            <data key="label">Die Bettelkinder/Die fremden Kinder</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="stimmen_aus_dem_innern_des_berges">
+            <data key="label">Stimmen (aus dem Innern des Berges)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="stimme_von_oben">
+            <data key="label">Stimme von oben</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dienende_geister">
+            <data key="label">Dienende Geister</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="erster">
+            <data key="label">Erster</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter">
+            <data key="label">Zweiter</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter">
+            <data key="label">Dritter</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="unirdische_stimmen">
+            <data key="label">Unirdische Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_ungeborenen">
+            <data key="label">Die Stimmen der Ungeborenen/Einzelne/Andere/Einige/Die Ungeborenen/Der Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="barak" target="die_frau_die_faerberin">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="barak" target="der_bucklige">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="barak" target="der_einarmige">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="4" directed="false" source="barak" target="der_einaeugige">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="5" directed="false" source="der_bucklige" target="der_einarmige">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="6" directed="false" source="der_bucklige" target="der_einaeugige">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="7" directed="false" source="der_einarmige" target="der_einaeugige">
+            <data key="relation">siblings</data>
+        </edge>
+    </graph>
+</graphml>

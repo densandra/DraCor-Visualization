@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="erste_dienerin">
+            <data key="label">Erste Dienerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">151</data>
+        </node>
+        <node id="zweite_dienerin">
+            <data key="label">Zweite Dienerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">46</data>
+        </node>
+        <node id="dritte_dienerin">
+            <data key="label">Dritte Dienerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">155</data>
+        </node>
+        <node id="vierte_dienerin">
+            <data key="label">Vierte Dienerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">68</data>
+        </node>
+        <node id="fuenfte_dienerin">
+            <data key="label">Fünfte Dienerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">100</data>
+        </node>
+        <node id="aufseherin">
+            <data key="label">Aufseherin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">73</data>
+        </node>
+        <node id="die_dienerinnen">
+            <data key="label">Die Dienerinnen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="elektra">
+            <data key="label">Elektra</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4596</data>
+        </node>
+        <node id="chrysothemis">
+            <data key="label">Chrysothemis</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1315</data>
+        </node>
+        <node id="klytaemnestra">
+            <data key="label">Klytämnestra</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1774</data>
+        </node>
+        <node id="die_vertraute">
+            <data key="label">Die Vertraute</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="die_schlepptraegerin">
+            <data key="label">Die Schleppträgerin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="ein_junger_diener">
+            <data key="label">Ein junger Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">244</data>
+        </node>
+        <node id="der_koch">
+            <data key="label">Der Koch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="ein_alter_diener">
+            <data key="label">Ein alter Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="orest">
+            <data key="label">Orest</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">543</data>
+        </node>
+        <node id="der_pfleger">
+            <data key="label">Der Pfleger des Orest</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="aegisth">
+            <data key="label">Ägisth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">150</data>
+        </node>
+        <edge id="erste_dienerin|zweite_dienerin" source="erste_dienerin" target="zweite_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|dritte_dienerin" source="erste_dienerin" target="dritte_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|vierte_dienerin" source="erste_dienerin" target="vierte_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|fuenfte_dienerin" source="erste_dienerin" target="fuenfte_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|aufseherin" source="erste_dienerin" target="aufseherin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|die_dienerinnen" source="erste_dienerin" target="die_dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|elektra" source="erste_dienerin" target="elektra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|chrysothemis" source="erste_dienerin" target="chrysothemis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|klytaemnestra" source="erste_dienerin" target="klytaemnestra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|die_vertraute" source="erste_dienerin" target="die_vertraute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|die_schlepptraegerin" source="erste_dienerin" target="die_schlepptraegerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|ein_junger_diener" source="erste_dienerin" target="ein_junger_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|der_koch" source="erste_dienerin" target="der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|ein_alter_diener" source="erste_dienerin" target="ein_alter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|orest" source="erste_dienerin" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|der_pfleger" source="erste_dienerin" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erste_dienerin|aegisth" source="erste_dienerin" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|dritte_dienerin" source="zweite_dienerin" target="dritte_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|vierte_dienerin" source="zweite_dienerin" target="vierte_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|fuenfte_dienerin" source="zweite_dienerin" target="fuenfte_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|aufseherin" source="zweite_dienerin" target="aufseherin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|die_dienerinnen" source="zweite_dienerin" target="die_dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|elektra" source="zweite_dienerin" target="elektra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|chrysothemis" source="zweite_dienerin" target="chrysothemis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|klytaemnestra" source="zweite_dienerin" target="klytaemnestra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|die_vertraute" source="zweite_dienerin" target="die_vertraute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|die_schlepptraegerin" source="zweite_dienerin" target="die_schlepptraegerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|ein_junger_diener" source="zweite_dienerin" target="ein_junger_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|der_koch" source="zweite_dienerin" target="der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|ein_alter_diener" source="zweite_dienerin" target="ein_alter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|orest" source="zweite_dienerin" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|der_pfleger" source="zweite_dienerin" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweite_dienerin|aegisth" source="zweite_dienerin" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|vierte_dienerin" source="dritte_dienerin" target="vierte_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|fuenfte_dienerin" source="dritte_dienerin" target="fuenfte_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|aufseherin" source="dritte_dienerin" target="aufseherin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|die_dienerinnen" source="dritte_dienerin" target="die_dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|elektra" source="dritte_dienerin" target="elektra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|chrysothemis" source="dritte_dienerin" target="chrysothemis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|klytaemnestra" source="dritte_dienerin" target="klytaemnestra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|die_vertraute" source="dritte_dienerin" target="die_vertraute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|die_schlepptraegerin" source="dritte_dienerin" target="die_schlepptraegerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|ein_junger_diener" source="dritte_dienerin" target="ein_junger_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|der_koch" source="dritte_dienerin" target="der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|ein_alter_diener" source="dritte_dienerin" target="ein_alter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|orest" source="dritte_dienerin" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|der_pfleger" source="dritte_dienerin" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritte_dienerin|aegisth" source="dritte_dienerin" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dienerin|fuenfte_dienerin" source="vierte_dienerin" target="fuenfte_dienerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dienerin|aufseherin" source="vierte_dienerin" target="aufseherin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dienerin|die_dienerinnen" source="vierte_dienerin" target="die_dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dienerin|elektra" source="vierte_dienerin" target="elektra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dienerin|chrysothemis" source="vierte_dienerin" target="chrysothemis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dienerin|klytaemnestra" source="vierte_dienerin" target="klytaemnestra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dienerin|die_vertraute" source="vierte_dienerin" target="die_vertraute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dienerin|die_schlepptraegerin" source="vierte_dienerin" target="die_schlepptraegerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dienerin|ein_junger_diener" source="vierte_dienerin" target="ein_junger_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dienerin|der_koch" source="vierte_dienerin" target="der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dienerin|ein_alter_diener" source="vierte_dienerin" target="ein_alter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dienerin|orest" source="vierte_dienerin" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dienerin|der_pfleger" source="vierte_dienerin" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierte_dienerin|aegisth" source="vierte_dienerin" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dienerin|aufseherin" source="fuenfte_dienerin" target="aufseherin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dienerin|die_dienerinnen" source="fuenfte_dienerin" target="die_dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dienerin|elektra" source="fuenfte_dienerin" target="elektra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dienerin|chrysothemis" source="fuenfte_dienerin" target="chrysothemis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dienerin|klytaemnestra" source="fuenfte_dienerin" target="klytaemnestra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dienerin|die_vertraute" source="fuenfte_dienerin" target="die_vertraute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dienerin|die_schlepptraegerin" source="fuenfte_dienerin" target="die_schlepptraegerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dienerin|ein_junger_diener" source="fuenfte_dienerin" target="ein_junger_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dienerin|der_koch" source="fuenfte_dienerin" target="der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dienerin|ein_alter_diener" source="fuenfte_dienerin" target="ein_alter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dienerin|orest" source="fuenfte_dienerin" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dienerin|der_pfleger" source="fuenfte_dienerin" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfte_dienerin|aegisth" source="fuenfte_dienerin" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufseherin|die_dienerinnen" source="aufseherin" target="die_dienerinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufseherin|elektra" source="aufseherin" target="elektra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufseherin|chrysothemis" source="aufseherin" target="chrysothemis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufseherin|klytaemnestra" source="aufseherin" target="klytaemnestra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufseherin|die_vertraute" source="aufseherin" target="die_vertraute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufseherin|die_schlepptraegerin" source="aufseherin" target="die_schlepptraegerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufseherin|ein_junger_diener" source="aufseherin" target="ein_junger_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufseherin|der_koch" source="aufseherin" target="der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufseherin|ein_alter_diener" source="aufseherin" target="ein_alter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufseherin|orest" source="aufseherin" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufseherin|der_pfleger" source="aufseherin" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufseherin|aegisth" source="aufseherin" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerinnen|elektra" source="die_dienerinnen" target="elektra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerinnen|chrysothemis" source="die_dienerinnen" target="chrysothemis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerinnen|klytaemnestra" source="die_dienerinnen" target="klytaemnestra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerinnen|die_vertraute" source="die_dienerinnen" target="die_vertraute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerinnen|die_schlepptraegerin" source="die_dienerinnen" target="die_schlepptraegerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerinnen|ein_junger_diener" source="die_dienerinnen" target="ein_junger_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerinnen|der_koch" source="die_dienerinnen" target="der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerinnen|ein_alter_diener" source="die_dienerinnen" target="ein_alter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerinnen|orest" source="die_dienerinnen" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerinnen|der_pfleger" source="die_dienerinnen" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_dienerinnen|aegisth" source="die_dienerinnen" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elektra|chrysothemis" source="elektra" target="chrysothemis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elektra|klytaemnestra" source="elektra" target="klytaemnestra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elektra|die_vertraute" source="elektra" target="die_vertraute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elektra|die_schlepptraegerin" source="elektra" target="die_schlepptraegerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elektra|ein_junger_diener" source="elektra" target="ein_junger_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elektra|der_koch" source="elektra" target="der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elektra|ein_alter_diener" source="elektra" target="ein_alter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elektra|orest" source="elektra" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elektra|der_pfleger" source="elektra" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="elektra|aegisth" source="elektra" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chrysothemis|klytaemnestra" source="chrysothemis" target="klytaemnestra">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chrysothemis|die_vertraute" source="chrysothemis" target="die_vertraute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chrysothemis|die_schlepptraegerin" source="chrysothemis" target="die_schlepptraegerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chrysothemis|ein_junger_diener" source="chrysothemis" target="ein_junger_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chrysothemis|der_koch" source="chrysothemis" target="der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chrysothemis|ein_alter_diener" source="chrysothemis" target="ein_alter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chrysothemis|orest" source="chrysothemis" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chrysothemis|der_pfleger" source="chrysothemis" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chrysothemis|aegisth" source="chrysothemis" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klytaemnestra|die_vertraute" source="klytaemnestra" target="die_vertraute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klytaemnestra|die_schlepptraegerin" source="klytaemnestra" target="die_schlepptraegerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klytaemnestra|ein_junger_diener" source="klytaemnestra" target="ein_junger_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klytaemnestra|der_koch" source="klytaemnestra" target="der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klytaemnestra|ein_alter_diener" source="klytaemnestra" target="ein_alter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klytaemnestra|orest" source="klytaemnestra" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klytaemnestra|der_pfleger" source="klytaemnestra" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="klytaemnestra|aegisth" source="klytaemnestra" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_vertraute|die_schlepptraegerin" source="die_vertraute" target="die_schlepptraegerin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_vertraute|ein_junger_diener" source="die_vertraute" target="ein_junger_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_vertraute|der_koch" source="die_vertraute" target="der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_vertraute|ein_alter_diener" source="die_vertraute" target="ein_alter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_vertraute|orest" source="die_vertraute" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_vertraute|der_pfleger" source="die_vertraute" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_vertraute|aegisth" source="die_vertraute" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_schlepptraegerin|ein_junger_diener" source="die_schlepptraegerin" target="ein_junger_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_schlepptraegerin|der_koch" source="die_schlepptraegerin" target="der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_schlepptraegerin|ein_alter_diener" source="die_schlepptraegerin" target="ein_alter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_schlepptraegerin|orest" source="die_schlepptraegerin" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_schlepptraegerin|der_pfleger" source="die_schlepptraegerin" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_schlepptraegerin|aegisth" source="die_schlepptraegerin" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_junger_diener|der_koch" source="ein_junger_diener" target="der_koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_junger_diener|ein_alter_diener" source="ein_junger_diener" target="ein_alter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_junger_diener|orest" source="ein_junger_diener" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_junger_diener|der_pfleger" source="ein_junger_diener" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_junger_diener|aegisth" source="ein_junger_diener" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_koch|ein_alter_diener" source="der_koch" target="ein_alter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_koch|orest" source="der_koch" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_koch|der_pfleger" source="der_koch" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_koch|aegisth" source="der_koch" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_alter_diener|orest" source="ein_alter_diener" target="orest">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_alter_diener|der_pfleger" source="ein_alter_diener" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_alter_diener|aegisth" source="ein_alter_diener" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="orest|der_pfleger" source="orest" target="der_pfleger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="orest|aegisth" source="orest" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_pfleger|aegisth" source="der_pfleger" target="aegisth">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

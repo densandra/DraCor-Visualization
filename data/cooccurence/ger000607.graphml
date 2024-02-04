@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sternau">
+            <data key="label">Sternau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4606</data>
+        </node>
+        <node id="louise">
+            <data key="label">Louise</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2295</data>
+        </node>
+        <node id="laurette">
+            <data key="label">Laurette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3854</data>
+        </node>
+        <node id="buchen">
+            <data key="label">Buchen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1765</data>
+        </node>
+        <node id="hermine">
+            <data key="label">Hermine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">780</data>
+        </node>
+        <node id="bastian">
+            <data key="label">Bastian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">41</data>
+        </node>
+        <edge id="sternau|louise" source="sternau" target="louise">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="sternau|laurette" source="sternau" target="laurette">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="sternau|hermine" source="sternau" target="hermine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sternau|buchen" source="sternau" target="buchen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="louise|laurette" source="louise" target="laurette">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="louise|buchen" source="louise" target="buchen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="louise|bastian" source="louise" target="bastian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="louise|hermine" source="louise" target="hermine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="laurette|buchen" source="laurette" target="buchen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="laurette|hermine" source="laurette" target="hermine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="laurette|bastian" source="laurette" target="bastian">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="buchen|hermine" source="buchen" target="hermine">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

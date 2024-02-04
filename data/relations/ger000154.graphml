@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="chor_der_landleute">
+            <data key="label">Chor der Landleute</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="edwiga">
+            <data key="label">Edwiga</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="guisto">
+            <data key="label">Guisto</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="troila">
+            <data key="label">Troila</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alfonso">
+            <data key="label">Alfonso</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_der_maenner">
+            <data key="label">Chor der Männer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_der_frauen">
+            <data key="label">Chor der Frauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_der_maedchen">
+            <data key="label">Chor der Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="estrella">
+            <data key="label">Estrella</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mauregato">
+            <data key="label">Mauregato</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_des_gefolges">
+            <data key="label">Chor des Gefolges</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_der_krieger">
+            <data key="label">Chor der Krieger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_des_volkes">
+            <data key="label">Chor des Volkes</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="adolfo">
+            <data key="label">Adolfo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="chor_des_hofstaates">
+            <data key="label">Chor des Hofstaates</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="greis">
+            <data key="label">Greis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_begleiter">
+            <data key="label">Die Begleiter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="chor_der_jaeger">
+            <data key="label">Chor der Jäger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="mauregato" target="estrella">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="adolfo" target="mauregato">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="troila" target="alfonso">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="wirt">
+            <data key="label">Wirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1832</data>
+        </node>
+        <node id="lehnl">
+            <data key="label">Lehnl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3413</data>
+        </node>
+        <node id="traudl">
+            <data key="label">Traudl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1278</data>
+        </node>
+        <node id="pauli">
+            <data key="label">Pauli</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2235</data>
+        </node>
+        <node id="resl">
+            <data key="label">Resl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">243</data>
+        </node>
+        <node id="baumiller">
+            <data key="label">Baumiller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1492</data>
+        </node>
+        <node id="loni">
+            <data key="label">Loni</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4183</data>
+        </node>
+        <node id="roethelbachbauer">
+            <data key="label">Röthelbachbauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">466</data>
+        </node>
+        <node id="muckl">
+            <data key="label">Muckl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1860</data>
+        </node>
+        <node id="loisl">
+            <data key="label">Loisl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1371</data>
+        </node>
+        <node id="toni">
+            <data key="label">Toni</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">82</data>
+        </node>
+        <node id="modei">
+            <data key="label">Modei</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">174</data>
+        </node>
+        <node id="nandl">
+            <data key="label">Nandl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">540</data>
+        </node>
+        <node id="hochzeitlader">
+            <data key="label">Der Hochzeitlader</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">839</data>
+        </node>
+        <node id="regerl">
+            <data key="label">Regerl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="schneider">
+            <data key="label">Schneider</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <node id="bursche">
+            <data key="label">Bursche</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="maedchen">
+            <data key="label">Mädchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <node id="kaspar">
+            <data key="label">Kaspar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="huberbauer">
+            <data key="label">Huberbauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">229</data>
+        </node>
+        <node id="lehrer">
+            <data key="label">Lehrer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">84</data>
+        </node>
+        <node id="kramerlenz">
+            <data key="label">Kramerlenz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <edge id="wirt|lehnl" source="wirt" target="lehnl">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="wirt|traudl" source="wirt" target="traudl">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="wirt|pauli" source="wirt" target="pauli">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="wirt|resl" source="wirt" target="resl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wirt|baumiller" source="wirt" target="baumiller">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wirt|loni" source="wirt" target="loni">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="wirt|roethelbachbauer" source="wirt" target="roethelbachbauer">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="wirt|muckl" source="wirt" target="muckl">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wirt|loisl" source="wirt" target="loisl">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="wirt|toni" source="wirt" target="toni">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wirt|modei" source="wirt" target="modei">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wirt|nandl" source="wirt" target="nandl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wirt|hochzeitlader" source="wirt" target="hochzeitlader">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wirt|huberbauer" source="wirt" target="huberbauer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wirt|lehrer" source="wirt" target="lehrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wirt|kramerlenz" source="wirt" target="kramerlenz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|schneider" source="wirt" target="schneider">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lehnl|traudl" source="lehnl" target="traudl">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lehnl|pauli" source="lehnl" target="pauli">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="lehnl|resl" source="lehnl" target="resl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lehnl|baumiller" source="lehnl" target="baumiller">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="lehnl|loni" source="lehnl" target="loni">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="lehnl|roethelbachbauer" source="lehnl" target="roethelbachbauer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lehnl|muckl" source="lehnl" target="muckl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lehnl|loisl" source="lehnl" target="loisl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lehnl|toni" source="lehnl" target="toni">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lehnl|modei" source="lehnl" target="modei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lehnl|nandl" source="lehnl" target="nandl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lehnl|huberbauer" source="lehnl" target="huberbauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lehnl|kramerlenz" source="lehnl" target="kramerlenz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lehnl|schneider" source="lehnl" target="schneider">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="traudl|pauli" source="traudl" target="pauli">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="traudl|resl" source="traudl" target="resl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="traudl|baumiller" source="traudl" target="baumiller">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="traudl|loisl" source="traudl" target="loisl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="traudl|nandl" source="traudl" target="nandl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="traudl|loni" source="traudl" target="loni">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="traudl|schneider" source="traudl" target="schneider">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="traudl|muckl" source="traudl" target="muckl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="traudl|modei" source="traudl" target="modei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="traudl|hochzeitlader" source="traudl" target="hochzeitlader">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="traudl|roethelbachbauer" source="traudl" target="roethelbachbauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pauli|baumiller" source="pauli" target="baumiller">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="pauli|resl" source="pauli" target="resl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pauli|loni" source="pauli" target="loni">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="pauli|muckl" source="pauli" target="muckl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pauli|roethelbachbauer" source="pauli" target="roethelbachbauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pauli|loisl" source="pauli" target="loisl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="pauli|hochzeitlader" source="pauli" target="hochzeitlader">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pauli|huberbauer" source="pauli" target="huberbauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="resl|baumiller" source="resl" target="baumiller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="resl|loisl" source="resl" target="loisl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="resl|regerl" source="resl" target="regerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="resl|toni" source="resl" target="toni">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="resl|modei" source="resl" target="modei">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="resl|muckl" source="resl" target="muckl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="resl|nandl" source="resl" target="nandl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="resl|hochzeitlader" source="resl" target="hochzeitlader">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="resl|bursche" source="resl" target="bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="resl|maedchen" source="resl" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="resl|kaspar" source="resl" target="kaspar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="resl|loni" source="resl" target="loni">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baumiller|loni" source="baumiller" target="loni">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="baumiller|loisl" source="baumiller" target="loisl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baumiller|schneider" source="baumiller" target="schneider">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baumiller|muckl" source="baumiller" target="muckl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loni|roethelbachbauer" source="loni" target="roethelbachbauer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="loni|muckl" source="loni" target="muckl">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="loni|loisl" source="loni" target="loisl">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="loni|toni" source="loni" target="toni">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loni|modei" source="loni" target="modei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loni|nandl" source="loni" target="nandl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="loni|hochzeitlader" source="loni" target="hochzeitlader">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="loni|bursche" source="loni" target="bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loni|maedchen" source="loni" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loni|kaspar" source="loni" target="kaspar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loni|huberbauer" source="loni" target="huberbauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roethelbachbauer|muckl" source="roethelbachbauer" target="muckl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="roethelbachbauer|loisl" source="roethelbachbauer" target="loisl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="roethelbachbauer|toni" source="roethelbachbauer" target="toni">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roethelbachbauer|modei" source="roethelbachbauer" target="modei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roethelbachbauer|huberbauer" source="roethelbachbauer" target="huberbauer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="roethelbachbauer|lehrer" source="roethelbachbauer" target="lehrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="roethelbachbauer|kramerlenz" source="roethelbachbauer" target="kramerlenz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="roethelbachbauer|schneider" source="roethelbachbauer" target="schneider">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="roethelbachbauer|hochzeitlader" source="roethelbachbauer" target="hochzeitlader">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="muckl|loisl" source="muckl" target="loisl">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="muckl|toni" source="muckl" target="toni">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="muckl|modei" source="muckl" target="modei">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="muckl|nandl" source="muckl" target="nandl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="muckl|schneider" source="muckl" target="schneider">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="muckl|hochzeitlader" source="muckl" target="hochzeitlader">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="muckl|bursche" source="muckl" target="bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="muckl|maedchen" source="muckl" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="muckl|kaspar" source="muckl" target="kaspar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|toni" source="loisl" target="toni">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="loisl|modei" source="loisl" target="modei">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="loisl|nandl" source="loisl" target="nandl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="loisl|regerl" source="loisl" target="regerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|hochzeitlader" source="loisl" target="hochzeitlader">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="loisl|bursche" source="loisl" target="bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|maedchen" source="loisl" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|kaspar" source="loisl" target="kaspar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="loisl|huberbauer" source="loisl" target="huberbauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="loisl|lehrer" source="loisl" target="lehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toni|modei" source="toni" target="modei">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="toni|regerl" source="toni" target="regerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toni|nandl" source="toni" target="nandl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toni|hochzeitlader" source="toni" target="hochzeitlader">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="modei|regerl" source="modei" target="regerl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="modei|nandl" source="modei" target="nandl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="modei|hochzeitlader" source="modei" target="hochzeitlader">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nandl|hochzeitlader" source="nandl" target="hochzeitlader">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hochzeitlader|bursche" source="hochzeitlader" target="bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochzeitlader|maedchen" source="hochzeitlader" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochzeitlader|kaspar" source="hochzeitlader" target="kaspar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hochzeitlader|huberbauer" source="hochzeitlader" target="huberbauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schneider|huberbauer" source="schneider" target="huberbauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schneider|lehrer" source="schneider" target="lehrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schneider|kramerlenz" source="schneider" target="kramerlenz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bursche|maedchen" source="bursche" target="maedchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bursche|kaspar" source="bursche" target="kaspar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maedchen|kaspar" source="maedchen" target="kaspar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="huberbauer|lehrer" source="huberbauer" target="lehrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="huberbauer|kramerlenz" source="huberbauer" target="kramerlenz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lehrer|kramerlenz" source="lehrer" target="kramerlenz">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

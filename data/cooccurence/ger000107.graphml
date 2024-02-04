@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="frau_hebenstreit">
+            <data key="label">Frau Hebenstreit</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">161</data>
+        </node>
+        <node id="frau_heinecke">
+            <data key="label">Frau Heinecke</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2487</data>
+        </node>
+        <node id="heinecke">
+            <data key="label">Heinecke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1557</data>
+        </node>
+        <node id="robert">
+            <data key="label">Robert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4932</data>
+        </node>
+        <node id="auguste">
+            <data key="label">Auguste</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">384</data>
+        </node>
+        <node id="michalski">
+            <data key="label">Michalski</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">245</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">195</data>
+        </node>
+        <node id="alma">
+            <data key="label">Alma</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">982</data>
+        </node>
+        <node id="trast">
+            <data key="label">Trast</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3726</data>
+        </node>
+        <node id="curt">
+            <data key="label">Curt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">745</data>
+        </node>
+        <node id="muehlingk">
+            <data key="label">Mühlingk</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1380</data>
+        </node>
+        <node id="frau_muehlingk">
+            <data key="label">Frau Mühlingk</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">227</data>
+        </node>
+        <node id="lenore">
+            <data key="label">Lenore</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1525</data>
+        </node>
+        <node id="lothar">
+            <data key="label">Lothar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">831</data>
+        </node>
+        <node id="hugo">
+            <data key="label">Hugo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">99</data>
+        </node>
+        <edge id="frau_hebenstreit|frau_heinecke" source="frau_hebenstreit" target="frau_heinecke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_hebenstreit|heinecke" source="frau_hebenstreit" target="heinecke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_heinecke|heinecke" source="frau_heinecke" target="heinecke">
+            <data key="weight">17</data>
+        </edge>
+        <edge id="frau_heinecke|robert" source="frau_heinecke" target="robert">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="frau_heinecke|auguste" source="frau_heinecke" target="auguste">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="frau_heinecke|michalski" source="frau_heinecke" target="michalski">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="frau_heinecke|wilhelm" source="frau_heinecke" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_heinecke|alma" source="frau_heinecke" target="alma">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="frau_heinecke|trast" source="frau_heinecke" target="trast">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_heinecke|muehlingk" source="frau_heinecke" target="muehlingk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinecke|robert" source="heinecke" target="robert">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="heinecke|auguste" source="heinecke" target="auguste">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="heinecke|michalski" source="heinecke" target="michalski">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="heinecke|wilhelm" source="heinecke" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinecke|alma" source="heinecke" target="alma">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="heinecke|muehlingk" source="heinecke" target="muehlingk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinecke|trast" source="heinecke" target="trast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|auguste" source="robert" target="auguste">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="robert|michalski" source="robert" target="michalski">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="robert|wilhelm" source="robert" target="wilhelm">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="robert|alma" source="robert" target="alma">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="robert|trast" source="robert" target="trast">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="robert|lenore" source="robert" target="lenore">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="robert|lothar" source="robert" target="lothar">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|muehlingk" source="robert" target="muehlingk">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="robert|curt" source="robert" target="curt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|frau_muehlingk" source="robert" target="frau_muehlingk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="auguste|michalski" source="auguste" target="michalski">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="auguste|wilhelm" source="auguste" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="auguste|alma" source="auguste" target="alma">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="auguste|muehlingk" source="auguste" target="muehlingk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michalski|wilhelm" source="michalski" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michalski|alma" source="michalski" target="alma">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="michalski|muehlingk" source="michalski" target="muehlingk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|muehlingk" source="wilhelm" target="muehlingk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|curt" source="wilhelm" target="curt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|frau_muehlingk" source="wilhelm" target="frau_muehlingk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|lenore" source="wilhelm" target="lenore">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wilhelm|trast" source="wilhelm" target="trast">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wilhelm|lothar" source="wilhelm" target="lothar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alma|trast" source="alma" target="trast">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="trast|lenore" source="trast" target="lenore">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="trast|lothar" source="trast" target="lothar">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="trast|muehlingk" source="trast" target="muehlingk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="trast|curt" source="trast" target="curt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="trast|hugo" source="trast" target="hugo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="trast|frau_muehlingk" source="trast" target="frau_muehlingk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="curt|muehlingk" source="curt" target="muehlingk">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="curt|frau_muehlingk" source="curt" target="frau_muehlingk">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="curt|lenore" source="curt" target="lenore">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="curt|lothar" source="curt" target="lothar">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="curt|hugo" source="curt" target="hugo">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="muehlingk|frau_muehlingk" source="muehlingk" target="frau_muehlingk">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="muehlingk|lenore" source="muehlingk" target="lenore">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="muehlingk|hugo" source="muehlingk" target="hugo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="muehlingk|lothar" source="muehlingk" target="lothar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_muehlingk|lenore" source="frau_muehlingk" target="lenore">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="lenore|lothar" source="lenore" target="lothar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lenore|hugo" source="lenore" target="hugo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lothar|hugo" source="lothar" target="hugo">
+            <data key="weight">5</data>
+        </edge>
+    </graph>
+</graphml>

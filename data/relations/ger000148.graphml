@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="belvedere">
+            <data key="label">Belvedere</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pater_mareskotti">
+            <data key="label">Pater Mareskotti</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_bischof">
+            <data key="label">Der Bischof</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="grandison">
+            <data key="label">Grandison</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kamilla">
+            <data key="label">Kamilla</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jeronymo">
+            <data key="label">Jeronymo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_markgraf">
+            <data key="label">Der Markgraf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_markgraefin">
+            <data key="label">Die Markgräfin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="laura">
+            <data key="label">Laura</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="klementina">
+            <data key="label">Klementina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_general">
+            <data key="label">Der General</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="der_markgraf" target="der_bischof">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="der_markgraf" target="der_general">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="der_markgraf" target="jeronymo">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="kamilla" target="klementina">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

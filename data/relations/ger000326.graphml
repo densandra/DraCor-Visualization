@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="lottchen">
+            <data key="label">Lottchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="cleon">
+            <data key="label">Cleon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="siegmund">
+            <data key="label">Siegmund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="damis">
+            <data key="label">Damis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="julchen">
+            <data key="label">Julchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_magister">
+            <data key="label">Der Magister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="simon">
+            <data key="label">Simon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_bediente">
+            <data key="label">Der Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="der_magister" target="cleon">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="cleon" target="lottchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="cleon" target="julchen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="siegmund" target="lottchen">
+            <data key="relation">lover_of</data>
+        </edge>
+        <edge id="5" directed="false" source="damis" target="julchen">
+            <data key="relation">lover_of</data>
+        </edge>
+        <edge id="6" directed="false" source="simon" target="damis">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

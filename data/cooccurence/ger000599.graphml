@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="mutter_barbeaud">
+            <data key="label">Mutter Barbeaud</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1171</data>
+        </node>
+        <node id="vater_barbeaud">
+            <data key="label">Vater Barbeaud</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2520</data>
+        </node>
+        <node id="landry">
+            <data key="label">Landry</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4194</data>
+        </node>
+        <node id="fanchon">
+            <data key="label">Fanchon</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6746</data>
+        </node>
+        <node id="fadet">
+            <data key="label">Fadet</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1594</data>
+        </node>
+        <node id="martineau">
+            <data key="label">Martineau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">148</data>
+        </node>
+        <node id="didier">
+            <data key="label">Didier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1943</data>
+        </node>
+        <node id="etienne">
+            <data key="label">Etienne</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">210</data>
+        </node>
+        <node id="pierre">
+            <data key="label">Pierre</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">104</data>
+        </node>
+        <node id="collin">
+            <data key="label">Collin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">262</data>
+        </node>
+        <node id="madelon">
+            <data key="label">Madelon</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">706</data>
+        </node>
+        <node id="susette">
+            <data key="label">Susette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">166</data>
+        </node>
+        <node id="mariette">
+            <data key="label">Mariette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">104</data>
+        </node>
+        <node id="annette">
+            <data key="label">Annette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="zwei_junge_bursche">
+            <data key="label">Zwei junge Bursche</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="die_stimmen">
+            <data key="label">Die Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">0</data>
+        </node>
+        <node id="caillard">
+            <data key="label">Caillard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">71</data>
+        </node>
+        <node id="manon">
+            <data key="label">Manon</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">225</data>
+        </node>
+        <edge id="mutter_barbeaud|vater_barbeaud" source="mutter_barbeaud" target="vater_barbeaud">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="mutter_barbeaud|landry" source="mutter_barbeaud" target="landry">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="mutter_barbeaud|fanchon" source="mutter_barbeaud" target="fanchon">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mutter_barbeaud|didier" source="mutter_barbeaud" target="didier">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="vater_barbeaud|landry" source="vater_barbeaud" target="landry">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="vater_barbeaud|fanchon" source="vater_barbeaud" target="fanchon">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="vater_barbeaud|didier" source="vater_barbeaud" target="didier">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="vater_barbeaud|caillard" source="vater_barbeaud" target="caillard">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="vater_barbeaud|fadet" source="vater_barbeaud" target="fadet">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="landry|fanchon" source="landry" target="fanchon">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="landry|fadet" source="landry" target="fadet">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="landry|didier" source="landry" target="didier">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="landry|etienne" source="landry" target="etienne">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="landry|collin" source="landry" target="collin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="landry|pierre" source="landry" target="pierre">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="landry|madelon" source="landry" target="madelon">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="landry|susette" source="landry" target="susette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="landry|mariette" source="landry" target="mariette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="landry|annette" source="landry" target="annette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="landry|die_stimmen" source="landry" target="die_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landry|caillard" source="landry" target="caillard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fanchon|didier" source="fanchon" target="didier">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="fanchon|fadet" source="fanchon" target="fadet">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fanchon|etienne" source="fanchon" target="etienne">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fanchon|collin" source="fanchon" target="collin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fanchon|pierre" source="fanchon" target="pierre">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fanchon|madelon" source="fanchon" target="madelon">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fanchon|susette" source="fanchon" target="susette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fanchon|mariette" source="fanchon" target="mariette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fanchon|annette" source="fanchon" target="annette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fanchon|die_stimmen" source="fanchon" target="die_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fanchon|caillard" source="fanchon" target="caillard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fanchon|manon" source="fanchon" target="manon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fadet|martineau" source="fadet" target="martineau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fadet|didier" source="fadet" target="didier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fadet|manon" source="fadet" target="manon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="didier|etienne" source="didier" target="etienne">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="didier|collin" source="didier" target="collin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="didier|pierre" source="didier" target="pierre">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="didier|madelon" source="didier" target="madelon">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="didier|susette" source="didier" target="susette">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="didier|mariette" source="didier" target="mariette">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="didier|annette" source="didier" target="annette">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="didier|zwei_junge_bursche" source="didier" target="zwei_junge_bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="didier|caillard" source="didier" target="caillard">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="didier|manon" source="didier" target="manon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="etienne|pierre" source="etienne" target="pierre">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="etienne|collin" source="etienne" target="collin">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="etienne|madelon" source="etienne" target="madelon">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="etienne|susette" source="etienne" target="susette">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="etienne|mariette" source="etienne" target="mariette">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="etienne|annette" source="etienne" target="annette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="etienne|zwei_junge_bursche" source="etienne" target="zwei_junge_bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pierre|collin" source="pierre" target="collin">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="pierre|madelon" source="pierre" target="madelon">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="pierre|susette" source="pierre" target="susette">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="pierre|mariette" source="pierre" target="mariette">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="pierre|annette" source="pierre" target="annette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="pierre|zwei_junge_bursche" source="pierre" target="zwei_junge_bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="collin|madelon" source="collin" target="madelon">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="collin|susette" source="collin" target="susette">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="collin|mariette" source="collin" target="mariette">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="collin|annette" source="collin" target="annette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="collin|zwei_junge_bursche" source="collin" target="zwei_junge_bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madelon|susette" source="madelon" target="susette">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="madelon|mariette" source="madelon" target="mariette">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="madelon|annette" source="madelon" target="annette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="madelon|zwei_junge_bursche" source="madelon" target="zwei_junge_bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="susette|mariette" source="susette" target="mariette">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="susette|annette" source="susette" target="annette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="susette|zwei_junge_bursche" source="susette" target="zwei_junge_bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mariette|annette" source="mariette" target="annette">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mariette|zwei_junge_bursche" source="mariette" target="zwei_junge_bursche">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="annette|zwei_junge_bursche" source="annette" target="zwei_junge_bursche">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

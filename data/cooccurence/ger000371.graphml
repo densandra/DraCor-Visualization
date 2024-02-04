@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="leonce">
+            <data key="label">Leonce</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3087</data>
+        </node>
+        <node id="hofmeister">
+            <data key="label">Hofmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="valerio">
+            <data key="label">Valerio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2330</data>
+        </node>
+        <node id="koenig_peter">
+            <data key="label">König Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">674</data>
+        </node>
+        <node id="erster_kammerdiener">
+            <data key="label">Erster Kammerdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="zweiter_kammerdiener">
+            <data key="label">Zweiter Kammerdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">17</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="praesident">
+            <data key="label">Präsident</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">196</data>
+        </node>
+        <node id="der_ganze_staatsrat_im_chor">
+            <data key="label">Der ganze Staatsrat im Chor</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="rosetta">
+            <data key="label">Rosetta</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">136</data>
+        </node>
+        <node id="lena">
+            <data key="label">Lena</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">596</data>
+        </node>
+        <node id="gouvernante">
+            <data key="label">Gouvernante</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">194</data>
+        </node>
+        <node id="landrat">
+            <data key="label">Landrat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="schulmeister">
+            <data key="label">Schulmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">215</data>
+        </node>
+        <node id="die_bauern">
+            <data key="label">Die Bauern</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="zeremonienmeister">
+            <data key="label">Zeremonienmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">125</data>
+        </node>
+        <node id="erster_bedienter">
+            <data key="label">Erster Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">105</data>
+        </node>
+        <node id="zweiter_bedienter">
+            <data key="label">Zweiter Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">53</data>
+        </node>
+        <node id="dritter_bedienter">
+            <data key="label">Dritter Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="vierter_diener">
+            <data key="label">Vierter Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="hofprediger">
+            <data key="label">Hofprediger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">48</data>
+        </node>
+        <edge id="leonce|hofmeister" source="leonce" target="hofmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonce|valerio" source="leonce" target="valerio">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="leonce|rosetta" source="leonce" target="rosetta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonce|praesident" source="leonce" target="praesident">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leonce|gouvernante" source="leonce" target="gouvernante">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leonce|lena" source="leonce" target="lena">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leonce|zeremonienmeister" source="leonce" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonce|erster_bedienter" source="leonce" target="erster_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonce|zweiter_bedienter" source="leonce" target="zweiter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonce|koenig_peter" source="leonce" target="koenig_peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonce|dritter_bedienter" source="leonce" target="dritter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonce|vierter_diener" source="leonce" target="vierter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonce|hofprediger" source="leonce" target="hofprediger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofmeister|valerio" source="hofmeister" target="valerio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|rosetta" source="valerio" target="rosetta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|praesident" source="valerio" target="praesident">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="valerio|gouvernante" source="valerio" target="gouvernante">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="valerio|lena" source="valerio" target="lena">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="valerio|zeremonienmeister" source="valerio" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|erster_bedienter" source="valerio" target="erster_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|zweiter_bedienter" source="valerio" target="zweiter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|koenig_peter" source="valerio" target="koenig_peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|dritter_bedienter" source="valerio" target="dritter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|vierter_diener" source="valerio" target="vierter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="valerio|hofprediger" source="valerio" target="hofprediger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_peter|erster_kammerdiener" source="koenig_peter" target="erster_kammerdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_peter|zweiter_kammerdiener" source="koenig_peter" target="zweiter_kammerdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_peter|diener" source="koenig_peter" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_peter|praesident" source="koenig_peter" target="praesident">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig_peter|der_ganze_staatsrat_im_chor" source="koenig_peter" target="der_ganze_staatsrat_im_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_peter|zeremonienmeister" source="koenig_peter" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_peter|erster_bedienter" source="koenig_peter" target="erster_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_peter|zweiter_bedienter" source="koenig_peter" target="zweiter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_peter|dritter_bedienter" source="koenig_peter" target="dritter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_peter|vierter_diener" source="koenig_peter" target="vierter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_peter|hofprediger" source="koenig_peter" target="hofprediger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_peter|lena" source="koenig_peter" target="lena">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_peter|gouvernante" source="koenig_peter" target="gouvernante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_kammerdiener|zweiter_kammerdiener" source="erster_kammerdiener" target="zweiter_kammerdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_kammerdiener|diener" source="erster_kammerdiener" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_kammerdiener|praesident" source="erster_kammerdiener" target="praesident">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_kammerdiener|der_ganze_staatsrat_im_chor" source="erster_kammerdiener" target="der_ganze_staatsrat_im_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_kammerdiener|diener" source="zweiter_kammerdiener" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_kammerdiener|praesident" source="zweiter_kammerdiener" target="praesident">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_kammerdiener|der_ganze_staatsrat_im_chor" source="zweiter_kammerdiener" target="der_ganze_staatsrat_im_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|praesident" source="diener" target="praesident">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="diener|der_ganze_staatsrat_im_chor" source="diener" target="der_ganze_staatsrat_im_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident|der_ganze_staatsrat_im_chor" source="praesident" target="der_ganze_staatsrat_im_chor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident|rosetta" source="praesident" target="rosetta">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident|zeremonienmeister" source="praesident" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident|erster_bedienter" source="praesident" target="erster_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident|zweiter_bedienter" source="praesident" target="zweiter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident|dritter_bedienter" source="praesident" target="dritter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident|vierter_diener" source="praesident" target="vierter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident|hofprediger" source="praesident" target="hofprediger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident|lena" source="praesident" target="lena">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="praesident|gouvernante" source="praesident" target="gouvernante">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lena|gouvernante" source="lena" target="gouvernante">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lena|zeremonienmeister" source="lena" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lena|erster_bedienter" source="lena" target="erster_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lena|zweiter_bedienter" source="lena" target="zweiter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lena|dritter_bedienter" source="lena" target="dritter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lena|vierter_diener" source="lena" target="vierter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lena|hofprediger" source="lena" target="hofprediger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gouvernante|zeremonienmeister" source="gouvernante" target="zeremonienmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gouvernante|erster_bedienter" source="gouvernante" target="erster_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gouvernante|zweiter_bedienter" source="gouvernante" target="zweiter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gouvernante|dritter_bedienter" source="gouvernante" target="dritter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gouvernante|vierter_diener" source="gouvernante" target="vierter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gouvernante|hofprediger" source="gouvernante" target="hofprediger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat|schulmeister" source="landrat" target="schulmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="landrat|die_bauern" source="landrat" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schulmeister|die_bauern" source="schulmeister" target="die_bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zeremonienmeister|erster_bedienter" source="zeremonienmeister" target="erster_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zeremonienmeister|zweiter_bedienter" source="zeremonienmeister" target="zweiter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zeremonienmeister|dritter_bedienter" source="zeremonienmeister" target="dritter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zeremonienmeister|vierter_diener" source="zeremonienmeister" target="vierter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zeremonienmeister|hofprediger" source="zeremonienmeister" target="hofprediger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_bedienter|zweiter_bedienter" source="erster_bedienter" target="zweiter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_bedienter|dritter_bedienter" source="erster_bedienter" target="dritter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_bedienter|vierter_diener" source="erster_bedienter" target="vierter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_bedienter|hofprediger" source="erster_bedienter" target="hofprediger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_bedienter|dritter_bedienter" source="zweiter_bedienter" target="dritter_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_bedienter|vierter_diener" source="zweiter_bedienter" target="vierter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_bedienter|hofprediger" source="zweiter_bedienter" target="hofprediger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_bedienter|vierter_diener" source="dritter_bedienter" target="vierter_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_bedienter|hofprediger" source="dritter_bedienter" target="hofprediger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter_diener|hofprediger" source="vierter_diener" target="hofprediger">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

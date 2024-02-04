@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="willhelm">
+            <data key="label">Willhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4475</data>
+        </node>
+        <node id="robert">
+            <data key="label">Robert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2366</data>
+        </node>
+        <node id="lucie">
+            <data key="label">Lucie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8383</data>
+        </node>
+        <node id="betty">
+            <data key="label">Betty</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2591</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4100</data>
+        </node>
+        <node id="amalie">
+            <data key="label">Amalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3748</data>
+        </node>
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">674</data>
+        </node>
+        <node id="der_bediente">
+            <data key="label">Der Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">98</data>
+        </node>
+        <edge id="willhelm|robert" source="willhelm" target="robert">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="willhelm|lucie" source="willhelm" target="lucie">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="willhelm|betty" source="willhelm" target="betty">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="willhelm|karl" source="willhelm" target="karl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="willhelm|jakob" source="willhelm" target="jakob">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="willhelm|amalie" source="willhelm" target="amalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willhelm|der_bediente" source="willhelm" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="robert|amalie" source="robert" target="amalie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="robert|karl" source="robert" target="karl">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="robert|jakob" source="robert" target="jakob">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|betty" source="robert" target="betty">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|lucie" source="robert" target="lucie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="robert|der_bediente" source="robert" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucie|betty" source="lucie" target="betty">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="lucie|karl" source="lucie" target="karl">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="lucie|amalie" source="lucie" target="amalie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="betty|karl" source="betty" target="karl">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="betty|amalie" source="betty" target="amalie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="betty|jakob" source="betty" target="jakob">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|jakob" source="karl" target="jakob">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="karl|amalie" source="karl" target="amalie">
+            <data key="weight">6</data>
+        </edge>
+    </graph>
+</graphml>

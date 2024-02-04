@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="agnete">
+            <data key="label">Agnete</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">103</data>
+        </node>
+        <node id="madame_ehrenpreis">
+            <data key="label">Madame Ehrenpreis</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1909</data>
+        </node>
+        <node id="magnus">
+            <data key="label">Magnus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1475</data>
+        </node>
+        <node id="stram">
+            <data key="label">Stram</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1390</data>
+        </node>
+        <node id="rose">
+            <data key="label">Rose</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">381</data>
+        </node>
+        <node id="reinhard">
+            <data key="label">Reinhard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1320</data>
+        </node>
+        <node id="charlotte">
+            <data key="label">Charlotte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">603</data>
+        </node>
+        <edge id="agnete|madame_ehrenpreis" source="agnete" target="madame_ehrenpreis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agnete|stram" source="agnete" target="stram">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madame_ehrenpreis|magnus" source="madame_ehrenpreis" target="magnus">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="madame_ehrenpreis|stram" source="madame_ehrenpreis" target="stram">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="madame_ehrenpreis|rose" source="madame_ehrenpreis" target="rose">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madame_ehrenpreis|reinhard" source="madame_ehrenpreis" target="reinhard">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="madame_ehrenpreis|charlotte" source="madame_ehrenpreis" target="charlotte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="magnus|stram" source="magnus" target="stram">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="magnus|charlotte" source="magnus" target="charlotte">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="magnus|reinhard" source="magnus" target="reinhard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stram|rose" source="stram" target="rose">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stram|charlotte" source="stram" target="charlotte">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="stram|reinhard" source="stram" target="reinhard">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="reinhard|charlotte" source="reinhard" target="charlotte">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

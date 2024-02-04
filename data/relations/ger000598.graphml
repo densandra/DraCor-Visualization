@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="menschikoff">
+            <data key="label">Fürst Menschikoff</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="katharina">
+            <data key="label">Katharina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dragoner_michail">
+            <data key="label">Dragoner Michail</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="iwan">
+            <data key="label">Iwan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eine_dame">
+            <data key="label">Eine Dame</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pastor_glueck">
+            <data key="label">Pastor Glück</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="haushofmeister">
+            <data key="label">Haushofmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="prinzessin_sascha">
+            <data key="label">Prinzessin Sascha</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zar">
+            <data key="label">Zar Peter I.</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="general">
+            <data key="label">General</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_general">
+            <data key="label">Zweiter General</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="leibarzt">
+            <data key="label">Leibarzt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="graf">
+            <data key="label">Ein französischer Graf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_mohr">
+            <data key="label">Der Mohr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="katharina" target="iwan">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="zar" target="katharina">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="pastor_glueck" target="katharina">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="katharina" target="menschikoff">
+            <data key="relation">lover_of</data>
+        </edge>
+        <edge id="5" directed="false" source="prinzessin_sascha" target="katharina">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="haushofmeister" target="menschikoff">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="leibarzt" target="katharina">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

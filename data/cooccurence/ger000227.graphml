@@ -1,0 +1,797 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="thibaut">
+            <data key="label">Thibaut</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1366</data>
+        </node>
+        <node id="louison">
+            <data key="label">Louison</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">243</data>
+        </node>
+        <node id="claude_marie">
+            <data key="label">Claude Marie</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">67</data>
+        </node>
+        <node id="margot">
+            <data key="label">Margot</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">234</data>
+        </node>
+        <node id="raimond">
+            <data key="label">Raimond</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">861</data>
+        </node>
+        <node id="bertrand">
+            <data key="label">Bertrand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">917</data>
+        </node>
+        <node id="johanna">
+            <data key="label">Johanna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6526</data>
+        </node>
+        <node id="dunois">
+            <data key="label">Dunois</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1851</data>
+        </node>
+        <node id="du_chatel">
+            <data key="label">Du Chatel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">290</data>
+        </node>
+        <node id="koenig_karl">
+            <data key="label">König Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2809</data>
+        </node>
+        <node id="edelknecht_1-2">
+            <data key="label">Edelknecht (I/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="ratsherr">
+            <data key="label">Ratsherr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">206</data>
+        </node>
+        <node id="agnes_sorel">
+            <data key="label">Sorel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1397</data>
+        </node>
+        <node id="la_hire">
+            <data key="label">La Hire</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">795</data>
+        </node>
+        <node id="erzbischof">
+            <data key="label">Erzbischof</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">602</data>
+        </node>
+        <node id="raoul">
+            <data key="label">Raoul</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">378</data>
+        </node>
+        <node id="viele_stimmen_hinter_der_szene">
+            <data key="label">Viele Stimmen (hinter der Szene)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="edelknecht_1-10">
+            <data key="label">Edelknecht (I/10)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="herold">
+            <data key="label">Herold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">100</data>
+        </node>
+        <node id="talbot">
+            <data key="label">Talbot</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">850</data>
+        </node>
+        <node id="lionel">
+            <data key="label">Lionel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">946</data>
+        </node>
+        <node id="burgund">
+            <data key="label">Burgund</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1260</data>
+        </node>
+        <node id="isabeau">
+            <data key="label">Isabeau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1167</data>
+        </node>
+        <node id="alle_2-4">
+            <data key="label">Alle (II/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="schildwache">
+            <data key="label">Schildwache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="erster">
+            <data key="label">Erster (englischer Soldat)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="zweiter">
+            <data key="label">Zweiter (englischer Soldat)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="dritter">
+            <data key="label">Dritter (englischer Soldat)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="vierter">
+            <data key="label">Vierter (englischer Soldat)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="fuenfter">
+            <data key="label">Fünfter (englischer Soldat)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="soldat_2-5">
+            <data key="label">Soldat (II/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="montgomery">
+            <data key="label">Montgomery</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">485</data>
+        </node>
+        <node id="chatillon">
+            <data key="label">Chatillon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">146</data>
+        </node>
+        <node id="edelknecht_3-2">
+            <data key="label">Edelknecht (III/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="ritter_3-5">
+            <data key="label">Ritter (III/5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="fastolf">
+            <data key="label">Fastolf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">147</data>
+        </node>
+        <node id="schwarzer_ritter">
+            <data key="label">Schwarzer Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">140</data>
+        </node>
+        <node id="etienne">
+            <data key="label">Etienne</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="alle_stimmen_volk_mehrere_stimmen">
+            <data key="label">Alle Stimmen/Volk/Mehrere Stimmen (IV/10–11)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="koehler">
+            <data key="label">Köhler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">237</data>
+        </node>
+        <node id="koehlerweib">
+            <data key="label">Köhlerweib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">96</data>
+        </node>
+        <node id="koehlerbub">
+            <data key="label">Köhlerbub</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="soldaten">
+            <data key="label">Soldaten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="anfuehrer_der_soldaten">
+            <data key="label">Anführer der Soldaten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5</data>
+        </node>
+        <node id="edelmann">
+            <data key="label">Edelmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="hauptmann">
+            <data key="label">Hauptmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="soldat_5-11_und_5-12">
+            <data key="label">Soldat (V/11–12)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">277</data>
+        </node>
+        <edge id="thibaut|louison" source="thibaut" target="louison">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thibaut|claude_marie" source="thibaut" target="claude_marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thibaut|margot" source="thibaut" target="margot">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thibaut|raimond" source="thibaut" target="raimond">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="thibaut|bertrand" source="thibaut" target="bertrand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thibaut|johanna" source="thibaut" target="johanna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thibaut|alle_stimmen_volk_mehrere_stimmen" source="thibaut" target="alle_stimmen_volk_mehrere_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thibaut|burgund" source="thibaut" target="burgund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thibaut|du_chatel" source="thibaut" target="du_chatel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thibaut|dunois" source="thibaut" target="dunois">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thibaut|agnes_sorel" source="thibaut" target="agnes_sorel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thibaut|la_hire" source="thibaut" target="la_hire">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="thibaut|erzbischof" source="thibaut" target="erzbischof">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="louison|claude_marie" source="louison" target="claude_marie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="louison|margot" source="louison" target="margot">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="louison|bertrand" source="louison" target="bertrand">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="louison|johanna" source="louison" target="johanna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="claude_marie|margot" source="claude_marie" target="margot">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="claude_marie|bertrand" source="claude_marie" target="bertrand">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="claude_marie|etienne" source="claude_marie" target="etienne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="claude_marie|johanna" source="claude_marie" target="johanna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="margot|bertrand" source="margot" target="bertrand">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="margot|johanna" source="margot" target="johanna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raimond|bertrand" source="raimond" target="bertrand">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raimond|johanna" source="raimond" target="johanna">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="raimond|du_chatel" source="raimond" target="du_chatel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raimond|koehler" source="raimond" target="koehler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raimond|koehlerweib" source="raimond" target="koehlerweib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raimond|isabeau" source="raimond" target="isabeau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raimond|soldaten" source="raimond" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raimond|edelmann" source="raimond" target="edelmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raimond|dunois" source="raimond" target="dunois">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raimond|erzbischof" source="raimond" target="erzbischof">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bertrand|johanna" source="bertrand" target="johanna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bertrand|etienne" source="bertrand" target="etienne">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|dunois" source="johanna" target="dunois">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="johanna|koenig_karl" source="johanna" target="koenig_karl">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="johanna|erzbischof" source="johanna" target="erzbischof">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="johanna|la_hire" source="johanna" target="la_hire">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="johanna|edelknecht_1-10" source="johanna" target="edelknecht_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|herold" source="johanna" target="herold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|alle_2-4" source="johanna" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|schildwache" source="johanna" target="schildwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|montgomery" source="johanna" target="montgomery">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|burgund" source="johanna" target="burgund">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="johanna|agnes_sorel" source="johanna" target="agnes_sorel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="johanna|ritter_3-5" source="johanna" target="ritter_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|schwarzer_ritter" source="johanna" target="schwarzer_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|lionel" source="johanna" target="lionel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="johanna|du_chatel" source="johanna" target="du_chatel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|alle_stimmen_volk_mehrere_stimmen" source="johanna" target="alle_stimmen_volk_mehrere_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|isabeau" source="johanna" target="isabeau">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="johanna|soldaten" source="johanna" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|anfuehrer_der_soldaten" source="johanna" target="anfuehrer_der_soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|fastolf" source="johanna" target="fastolf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="johanna|hauptmann" source="johanna" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="johanna|soldat_5-11_und_5-12" source="johanna" target="soldat_5-11_und_5-12">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dunois|du_chatel" source="dunois" target="du_chatel">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="dunois|koenig_karl" source="dunois" target="koenig_karl">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="dunois|edelknecht_1-2" source="dunois" target="edelknecht_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dunois|ratsherr" source="dunois" target="ratsherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dunois|agnes_sorel" source="dunois" target="agnes_sorel">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="dunois|la_hire" source="dunois" target="la_hire">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="dunois|erzbischof" source="dunois" target="erzbischof">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="dunois|edelknecht_1-10" source="dunois" target="edelknecht_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dunois|herold" source="dunois" target="herold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dunois|alle_2-4" source="dunois" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dunois|schildwache" source="dunois" target="schildwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dunois|burgund" source="dunois" target="burgund">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="dunois|chatillon" source="dunois" target="chatillon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dunois|edelknecht_3-2" source="dunois" target="edelknecht_3-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dunois|ritter_3-5" source="dunois" target="ritter_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dunois|fastolf" source="dunois" target="fastolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dunois|alle_stimmen_volk_mehrere_stimmen" source="dunois" target="alle_stimmen_volk_mehrere_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dunois|edelmann" source="dunois" target="edelmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="du_chatel|koenig_karl" source="du_chatel" target="koenig_karl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="du_chatel|edelknecht_1-2" source="du_chatel" target="edelknecht_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="du_chatel|ratsherr" source="du_chatel" target="ratsherr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="du_chatel|agnes_sorel" source="du_chatel" target="agnes_sorel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="du_chatel|la_hire" source="du_chatel" target="la_hire">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="du_chatel|alle_stimmen_volk_mehrere_stimmen" source="du_chatel" target="alle_stimmen_volk_mehrere_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="du_chatel|burgund" source="du_chatel" target="burgund">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="du_chatel|erzbischof" source="du_chatel" target="erzbischof">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig_karl|edelknecht_1-2" source="koenig_karl" target="edelknecht_1-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_karl|ratsherr" source="koenig_karl" target="ratsherr">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig_karl|agnes_sorel" source="koenig_karl" target="agnes_sorel">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="koenig_karl|la_hire" source="koenig_karl" target="la_hire">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="koenig_karl|erzbischof" source="koenig_karl" target="erzbischof">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="koenig_karl|raoul" source="koenig_karl" target="raoul">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_karl|viele_stimmen_hinter_der_szene" source="koenig_karl" target="viele_stimmen_hinter_der_szene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_karl|edelknecht_1-10" source="koenig_karl" target="edelknecht_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_karl|herold" source="koenig_karl" target="herold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_karl|chatillon" source="koenig_karl" target="chatillon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_karl|edelknecht_3-2" source="koenig_karl" target="edelknecht_3-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_karl|burgund" source="koenig_karl" target="burgund">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="koenig_karl|ritter_3-5" source="koenig_karl" target="ritter_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_karl|fastolf" source="koenig_karl" target="fastolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig_karl|alle_stimmen_volk_mehrere_stimmen" source="koenig_karl" target="alle_stimmen_volk_mehrere_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratsherr|la_hire" source="ratsherr" target="la_hire">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ratsherr|agnes_sorel" source="ratsherr" target="agnes_sorel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes_sorel|la_hire" source="agnes_sorel" target="la_hire">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="agnes_sorel|erzbischof" source="agnes_sorel" target="erzbischof">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="agnes_sorel|raoul" source="agnes_sorel" target="raoul">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes_sorel|viele_stimmen_hinter_der_szene" source="agnes_sorel" target="viele_stimmen_hinter_der_szene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes_sorel|chatillon" source="agnes_sorel" target="chatillon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes_sorel|edelknecht_3-2" source="agnes_sorel" target="edelknecht_3-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes_sorel|burgund" source="agnes_sorel" target="burgund">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="agnes_sorel|ritter_3-5" source="agnes_sorel" target="ritter_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agnes_sorel|alle_stimmen_volk_mehrere_stimmen" source="agnes_sorel" target="alle_stimmen_volk_mehrere_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_hire|erzbischof" source="la_hire" target="erzbischof">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="la_hire|edelknecht_1-10" source="la_hire" target="edelknecht_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_hire|alle_2-4" source="la_hire" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_hire|schildwache" source="la_hire" target="schildwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_hire|burgund" source="la_hire" target="burgund">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="la_hire|alle_stimmen_volk_mehrere_stimmen" source="la_hire" target="alle_stimmen_volk_mehrere_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="la_hire|isabeau" source="la_hire" target="isabeau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof|raoul" source="erzbischof" target="raoul">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof|viele_stimmen_hinter_der_szene" source="erzbischof" target="viele_stimmen_hinter_der_szene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof|edelknecht_1-10" source="erzbischof" target="edelknecht_1-10">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof|chatillon" source="erzbischof" target="chatillon">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof|edelknecht_3-2" source="erzbischof" target="edelknecht_3-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof|burgund" source="erzbischof" target="burgund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="erzbischof|alle_stimmen_volk_mehrere_stimmen" source="erzbischof" target="alle_stimmen_volk_mehrere_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erzbischof|edelmann" source="erzbischof" target="edelmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raoul|viele_stimmen_hinter_der_szene" source="raoul" target="viele_stimmen_hinter_der_szene">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="talbot|lionel" source="talbot" target="lionel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="talbot|burgund" source="talbot" target="burgund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="talbot|isabeau" source="talbot" target="isabeau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="talbot|erster" source="talbot" target="erster">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="talbot|zweiter" source="talbot" target="zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="talbot|dritter" source="talbot" target="dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="talbot|vierter" source="talbot" target="vierter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="talbot|fuenfter" source="talbot" target="fuenfter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="talbot|soldat_2-5" source="talbot" target="soldat_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="talbot|fastolf" source="talbot" target="fastolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lionel|burgund" source="lionel" target="burgund">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lionel|isabeau" source="lionel" target="isabeau">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lionel|fastolf" source="lionel" target="fastolf">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lionel|hauptmann" source="lionel" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgund|isabeau" source="burgund" target="isabeau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgund|ritter_3-5" source="burgund" target="ritter_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgund|fastolf" source="burgund" target="fastolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgund|alle_stimmen_volk_mehrere_stimmen" source="burgund" target="alle_stimmen_volk_mehrere_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isabeau|soldaten" source="isabeau" target="soldaten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isabeau|fastolf" source="isabeau" target="fastolf">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="isabeau|hauptmann" source="isabeau" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="isabeau|soldat_5-11_und_5-12" source="isabeau" target="soldat_5-11_und_5-12">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alle_2-4|schildwache" source="alle_2-4" target="schildwache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster|zweiter" source="erster" target="zweiter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster|dritter" source="erster" target="dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster|vierter" source="erster" target="vierter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster|fuenfter" source="erster" target="fuenfter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster|soldat_2-5" source="erster" target="soldat_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter|dritter" source="zweiter" target="dritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter|vierter" source="zweiter" target="vierter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter|fuenfter" source="zweiter" target="fuenfter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter|soldat_2-5" source="zweiter" target="soldat_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter|vierter" source="dritter" target="vierter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter|fuenfter" source="dritter" target="fuenfter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter|soldat_2-5" source="dritter" target="soldat_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter|fuenfter" source="vierter" target="fuenfter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vierter|soldat_2-5" source="vierter" target="soldat_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fuenfter|soldat_2-5" source="fuenfter" target="soldat_2-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chatillon|edelknecht_3-2" source="chatillon" target="edelknecht_3-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fastolf|hauptmann" source="fastolf" target="hauptmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koehler|koehlerweib" source="koehler" target="koehlerweib">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koehler|koehlerbub" source="koehler" target="koehlerbub">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koehlerweib|koehlerbub" source="koehlerweib" target="koehlerbub">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

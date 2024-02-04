@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="hermann">
+            <data key="label">Hermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4858</data>
+        </node>
+        <node id="lene">
+            <data key="label">Lene</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3515</data>
+        </node>
+        <node id="juliane">
+            <data key="label">Juliane</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2107</data>
+        </node>
+        <node id="august">
+            <data key="label">August</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5806</data>
+        </node>
+        <node id="frau_schmalenbach">
+            <data key="label">Frau Schmalenbach</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1351</data>
+        </node>
+        <node id="ilefeld">
+            <data key="label">Ilefeld</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1527</data>
+        </node>
+        <node id="ale">
+            <data key="label">Ale</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1798</data>
+        </node>
+        <edge id="hermann|lene" source="hermann" target="lene">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="hermann|frau_schmalenbach" source="hermann" target="frau_schmalenbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hermann|juliane" source="hermann" target="juliane">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hermann|august" source="hermann" target="august">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="hermann|ale" source="hermann" target="ale">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hermann|ilefeld" source="hermann" target="ilefeld">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lene|juliane" source="lene" target="juliane">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="lene|august" source="lene" target="august">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="lene|frau_schmalenbach" source="lene" target="frau_schmalenbach">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="lene|ilefeld" source="lene" target="ilefeld">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lene|ale" source="lene" target="ale">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="juliane|august" source="juliane" target="august">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="juliane|frau_schmalenbach" source="juliane" target="frau_schmalenbach">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="juliane|ale" source="juliane" target="ale">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juliane|ilefeld" source="juliane" target="ilefeld">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="august|frau_schmalenbach" source="august" target="frau_schmalenbach">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="august|ale" source="august" target="ale">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="august|ilefeld" source="august" target="ilefeld">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_schmalenbach|ilefeld" source="frau_schmalenbach" target="ilefeld">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_schmalenbach|ale" source="frau_schmalenbach" target="ale">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="ilefeld|ale" source="ilefeld" target="ale">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

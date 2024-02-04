@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="prinzessin">
+            <data key="label">Prinzessin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3943</data>
+        </node>
+        <node id="leonore">
+            <data key="label">Leonore</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3686</data>
+        </node>
+        <node id="alfons">
+            <data key="label">Alfons</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2449</data>
+        </node>
+        <node id="tasso">
+            <data key="label">Tasso</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10618</data>
+        </node>
+        <node id="antonio">
+            <data key="label">Antonio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4130</data>
+        </node>
+        <edge id="prinzessin|leonore" source="prinzessin" target="leonore">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="prinzessin|alfons" source="prinzessin" target="alfons">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="prinzessin|tasso" source="prinzessin" target="tasso">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="prinzessin|antonio" source="prinzessin" target="antonio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leonore|alfons" source="leonore" target="alfons">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leonore|tasso" source="leonore" target="tasso">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leonore|antonio" source="leonore" target="antonio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alfons|tasso" source="alfons" target="tasso">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="alfons|antonio" source="alfons" target="antonio">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="tasso|antonio" source="tasso" target="antonio">
+            <data key="weight">5</data>
+        </edge>
+    </graph>
+</graphml>

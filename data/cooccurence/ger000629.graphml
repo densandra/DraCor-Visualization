@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="von_bernau">
+            <data key="label">von Bernau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1021</data>
+        </node>
+        <node id="werner">
+            <data key="label">Werner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1271</data>
+        </node>
+        <node id="frank">
+            <data key="label">Frank</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1347</data>
+        </node>
+        <node id="wilhelmine">
+            <data key="label">Wilhelmine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">544</data>
+        </node>
+        <node id="tunder">
+            <data key="label">Tunder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">509</data>
+        </node>
+        <node id="der_gerichtsdiener">
+            <data key="label">Der Gerichtsdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">39</data>
+        </node>
+        <edge id="von_bernau|werner" source="von_bernau" target="werner">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="von_bernau|frank" source="von_bernau" target="frank">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="von_bernau|wilhelmine" source="von_bernau" target="wilhelmine">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="von_bernau|tunder" source="von_bernau" target="tunder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_bernau|der_gerichtsdiener" source="von_bernau" target="der_gerichtsdiener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="werner|frank" source="werner" target="frank">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="werner|wilhelmine" source="werner" target="wilhelmine">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="werner|der_gerichtsdiener" source="werner" target="der_gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frank|wilhelmine" source="frank" target="wilhelmine">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frank|tunder" source="frank" target="tunder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frank|der_gerichtsdiener" source="frank" target="der_gerichtsdiener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelmine|tunder" source="wilhelmine" target="tunder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelmine|der_gerichtsdiener" source="wilhelmine" target="der_gerichtsdiener">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

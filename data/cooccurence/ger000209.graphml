@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="don_juan">
+            <data key="label">Don Juan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5782</data>
+        </node>
+        <node id="leporello">
+            <data key="label">Leporello</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2824</data>
+        </node>
+        <node id="der_gouverneur">
+            <data key="label">Der Gouverneur</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1107</data>
+        </node>
+        <node id="don_octavio">
+            <data key="label">Don Octavio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">363</data>
+        </node>
+        <node id="lisette">
+            <data key="label">Lisette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">131</data>
+        </node>
+        <node id="faust">
+            <data key="label">Faust</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5796</data>
+        </node>
+        <node id="der_ritter">
+            <data key="label">Der Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2200</data>
+        </node>
+        <node id="donna_anna">
+            <data key="label">Donna Anna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1092</data>
+        </node>
+        <node id="signor_rubio">
+            <data key="label">Signor Rubio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">380</data>
+        </node>
+        <node id="signor_negro">
+            <data key="label">Signor Negro</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">421</data>
+        </node>
+        <node id="erster_herr">
+            <data key="label">Erster Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="zweiter_herr">
+            <data key="label">Zweiter Herr</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="der_diener">
+            <data key="label">Der Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="ein_diener">
+            <data key="label">Ein Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">9</data>
+        </node>
+        <node id="mehrere_andere">
+            <data key="label">Mehrere Andere</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <node id="die_anwesenden">
+            <data key="label">Die Anwesenden</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="gasparo">
+            <data key="label">Gasparo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">63</data>
+        </node>
+        <node id="der_priester">
+            <data key="label">Der Priester</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="erster_gnom">
+            <data key="label">Erster Gnom</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">86</data>
+        </node>
+        <node id="zweiter_gnom">
+            <data key="label">Zweiter Gnom</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="die_gnomen">
+            <data key="label">Die Gnomen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">118</data>
+        </node>
+        <edge id="don_juan|leporello" source="don_juan" target="leporello">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="don_juan|der_gouverneur" source="don_juan" target="der_gouverneur">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="don_juan|don_octavio" source="don_juan" target="don_octavio">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="don_juan|lisette" source="don_juan" target="lisette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_juan|donna_anna" source="don_juan" target="donna_anna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="don_juan|der_ritter" source="don_juan" target="der_ritter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="don_juan|faust" source="don_juan" target="faust">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="don_juan|signor_rubio" source="don_juan" target="signor_rubio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="don_juan|signor_negro" source="don_juan" target="signor_negro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="don_juan|erster_herr" source="don_juan" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_juan|zweiter_herr" source="don_juan" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_juan|der_diener" source="don_juan" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_juan|ein_diener" source="don_juan" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_juan|mehrere_andere" source="don_juan" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_juan|die_anwesenden" source="don_juan" target="die_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_juan|gasparo" source="don_juan" target="gasparo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="don_juan|der_priester" source="don_juan" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leporello|der_gouverneur" source="leporello" target="der_gouverneur">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="leporello|don_octavio" source="leporello" target="don_octavio">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leporello|lisette" source="leporello" target="lisette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leporello|donna_anna" source="leporello" target="donna_anna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leporello|der_ritter" source="leporello" target="der_ritter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leporello|faust" source="leporello" target="faust">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leporello|signor_rubio" source="leporello" target="signor_rubio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leporello|signor_negro" source="leporello" target="signor_negro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leporello|erster_herr" source="leporello" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leporello|zweiter_herr" source="leporello" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leporello|der_diener" source="leporello" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leporello|ein_diener" source="leporello" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leporello|mehrere_andere" source="leporello" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leporello|die_anwesenden" source="leporello" target="die_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leporello|gasparo" source="leporello" target="gasparo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leporello|der_priester" source="leporello" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_gouverneur|don_octavio" source="der_gouverneur" target="don_octavio">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_gouverneur|lisette" source="der_gouverneur" target="lisette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_gouverneur|faust" source="der_gouverneur" target="faust">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_gouverneur|der_ritter" source="der_gouverneur" target="der_ritter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_gouverneur|signor_rubio" source="der_gouverneur" target="signor_rubio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_gouverneur|signor_negro" source="der_gouverneur" target="signor_negro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_gouverneur|donna_anna" source="der_gouverneur" target="donna_anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_gouverneur|erster_herr" source="der_gouverneur" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_gouverneur|zweiter_herr" source="der_gouverneur" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_gouverneur|der_diener" source="der_gouverneur" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_gouverneur|ein_diener" source="der_gouverneur" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_gouverneur|mehrere_andere" source="der_gouverneur" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_gouverneur|die_anwesenden" source="der_gouverneur" target="die_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_gouverneur|gasparo" source="der_gouverneur" target="gasparo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_gouverneur|der_priester" source="der_gouverneur" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_octavio|lisette" source="don_octavio" target="lisette">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_octavio|faust" source="don_octavio" target="faust">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="don_octavio|der_ritter" source="don_octavio" target="der_ritter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="don_octavio|donna_anna" source="don_octavio" target="donna_anna">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="don_octavio|signor_rubio" source="don_octavio" target="signor_rubio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_octavio|signor_negro" source="don_octavio" target="signor_negro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_octavio|erster_herr" source="don_octavio" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_octavio|zweiter_herr" source="don_octavio" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_octavio|der_diener" source="don_octavio" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_octavio|ein_diener" source="don_octavio" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_octavio|mehrere_andere" source="don_octavio" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_octavio|die_anwesenden" source="don_octavio" target="die_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="don_octavio|gasparo" source="don_octavio" target="gasparo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|der_ritter" source="faust" target="der_ritter">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="faust|donna_anna" source="faust" target="donna_anna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="faust|signor_rubio" source="faust" target="signor_rubio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|signor_negro" source="faust" target="signor_negro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="faust|erster_herr" source="faust" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|zweiter_herr" source="faust" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|der_diener" source="faust" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|ein_diener" source="faust" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|mehrere_andere" source="faust" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|die_anwesenden" source="faust" target="die_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|gasparo" source="faust" target="gasparo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|erster_gnom" source="faust" target="erster_gnom">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|zweiter_gnom" source="faust" target="zweiter_gnom">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="faust|die_gnomen" source="faust" target="die_gnomen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ritter|donna_anna" source="der_ritter" target="donna_anna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="der_ritter|signor_rubio" source="der_ritter" target="signor_rubio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_ritter|signor_negro" source="der_ritter" target="signor_negro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_ritter|erster_herr" source="der_ritter" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ritter|zweiter_herr" source="der_ritter" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ritter|der_diener" source="der_ritter" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ritter|ein_diener" source="der_ritter" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ritter|mehrere_andere" source="der_ritter" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ritter|die_anwesenden" source="der_ritter" target="die_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_ritter|gasparo" source="der_ritter" target="gasparo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="donna_anna|signor_rubio" source="donna_anna" target="signor_rubio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="donna_anna|signor_negro" source="donna_anna" target="signor_negro">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="donna_anna|erster_herr" source="donna_anna" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="donna_anna|zweiter_herr" source="donna_anna" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="donna_anna|der_diener" source="donna_anna" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="donna_anna|ein_diener" source="donna_anna" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="donna_anna|mehrere_andere" source="donna_anna" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="donna_anna|die_anwesenden" source="donna_anna" target="die_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="donna_anna|gasparo" source="donna_anna" target="gasparo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="signor_rubio|signor_negro" source="signor_rubio" target="signor_negro">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="signor_rubio|erster_herr" source="signor_rubio" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="signor_rubio|zweiter_herr" source="signor_rubio" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="signor_rubio|der_diener" source="signor_rubio" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="signor_rubio|ein_diener" source="signor_rubio" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="signor_rubio|mehrere_andere" source="signor_rubio" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="signor_rubio|die_anwesenden" source="signor_rubio" target="die_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="signor_rubio|gasparo" source="signor_rubio" target="gasparo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="signor_negro|erster_herr" source="signor_negro" target="erster_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="signor_negro|zweiter_herr" source="signor_negro" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="signor_negro|der_diener" source="signor_negro" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="signor_negro|ein_diener" source="signor_negro" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="signor_negro|mehrere_andere" source="signor_negro" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="signor_negro|die_anwesenden" source="signor_negro" target="die_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="signor_negro|gasparo" source="signor_negro" target="gasparo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|zweiter_herr" source="erster_herr" target="zweiter_herr">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|der_diener" source="erster_herr" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|ein_diener" source="erster_herr" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|mehrere_andere" source="erster_herr" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|die_anwesenden" source="erster_herr" target="die_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_herr|gasparo" source="erster_herr" target="gasparo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_herr|der_diener" source="zweiter_herr" target="der_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_herr|ein_diener" source="zweiter_herr" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_herr|mehrere_andere" source="zweiter_herr" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_herr|die_anwesenden" source="zweiter_herr" target="die_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_herr|gasparo" source="zweiter_herr" target="gasparo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|ein_diener" source="der_diener" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|mehrere_andere" source="der_diener" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|die_anwesenden" source="der_diener" target="die_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_diener|gasparo" source="der_diener" target="gasparo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener|mehrere_andere" source="ein_diener" target="mehrere_andere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener|die_anwesenden" source="ein_diener" target="die_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_diener|gasparo" source="ein_diener" target="gasparo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehrere_andere|die_anwesenden" source="mehrere_andere" target="die_anwesenden">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mehrere_andere|gasparo" source="mehrere_andere" target="gasparo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_anwesenden|gasparo" source="die_anwesenden" target="gasparo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gasparo|der_priester" source="gasparo" target="der_priester">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gnom|zweiter_gnom" source="erster_gnom" target="zweiter_gnom">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_gnom|die_gnomen" source="erster_gnom" target="die_gnomen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_gnom|die_gnomen" source="zweiter_gnom" target="die_gnomen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

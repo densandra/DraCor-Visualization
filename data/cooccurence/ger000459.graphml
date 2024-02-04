@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="aufrecht">
+            <data key="label">Aufrecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">894</data>
+        </node>
+        <node id="kriechel">
+            <data key="label">Kriechel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">764</data>
+        </node>
+        <node id="hans">
+            <data key="label">Hans</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2328</data>
+        </node>
+        <node id="beide_choere">
+            <data key="label">Beide Chöre</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">279</data>
+        </node>
+        <node id="censur">
+            <data key="label">Censur</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">274</data>
+        </node>
+        <node id="polisei">
+            <data key="label">Polisëi</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">285</data>
+        </node>
+        <node id="gensedarm">
+            <data key="label">Gensedarm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="theodor">
+            <data key="label">Theodor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">231</data>
+        </node>
+        <edge id="aufrecht|kriechel" source="aufrecht" target="kriechel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="aufrecht|hans" source="aufrecht" target="hans">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="aufrecht|censur" source="aufrecht" target="censur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufrecht|polisei" source="aufrecht" target="polisei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufrecht|gensedarm" source="aufrecht" target="gensedarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aufrecht|theodor" source="aufrecht" target="theodor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kriechel|hans" source="kriechel" target="hans">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kriechel|censur" source="kriechel" target="censur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kriechel|polisei" source="kriechel" target="polisei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kriechel|gensedarm" source="kriechel" target="gensedarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|censur" source="hans" target="censur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|polisei" source="hans" target="polisei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|gensedarm" source="hans" target="gensedarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|beide_choere" source="hans" target="beide_choere">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hans|theodor" source="hans" target="theodor">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="censur|polisei" source="censur" target="polisei">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="censur|gensedarm" source="censur" target="gensedarm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="polisei|gensedarm" source="polisei" target="gensedarm">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

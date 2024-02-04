@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="bezirksamtmann">
+            <data key="label">Bezirksamtmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1688</data>
+        </node>
+        <node id="frau_bezirksamtmann">
+            <data key="label">Frau Bezirksamtmann</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">649</data>
+        </node>
+        <node id="babette">
+            <data key="label">Babette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">40</data>
+        </node>
+        <node id="assessor">
+            <data key="label">Assessor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">535</data>
+        </node>
+        <node id="lampl">
+            <data key="label">Lampl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1950</data>
+        </node>
+        <node id="sedlmaier">
+            <data key="label">Sedlmaier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">272</data>
+        </node>
+        <node id="hahnrieder">
+            <data key="label">Hahnrieder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">842</data>
+        </node>
+        <node id="haeberlein">
+            <data key="label">Häberlein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">385</data>
+        </node>
+        <node id="grubhofer">
+            <data key="label">Grubhofer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">328</data>
+        </node>
+        <node id="merkl">
+            <data key="label">Merkl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">449</data>
+        </node>
+        <node id="peter_neusigl">
+            <data key="label">Peter Neusigl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">472</data>
+        </node>
+        <node id="frau_neusigl">
+            <data key="label">Frau Neusigl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1090</data>
+        </node>
+        <node id="anna">
+            <data key="label">Anna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="regierungsdirektor_steinbeissel">
+            <data key="label">Regierungsdirektor Steinbeißel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <edge id="bezirksamtmann|frau_bezirksamtmann" source="bezirksamtmann" target="frau_bezirksamtmann">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="bezirksamtmann|babette" source="bezirksamtmann" target="babette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bezirksamtmann|assessor" source="bezirksamtmann" target="assessor">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="bezirksamtmann|lampl" source="bezirksamtmann" target="lampl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bezirksamtmann|sedlmaier" source="bezirksamtmann" target="sedlmaier">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bezirksamtmann|hahnrieder" source="bezirksamtmann" target="hahnrieder">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bezirksamtmann|haeberlein" source="bezirksamtmann" target="haeberlein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bezirksamtmann|grubhofer" source="bezirksamtmann" target="grubhofer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bezirksamtmann|merkl" source="bezirksamtmann" target="merkl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bezirksamtmann|peter_neusigl" source="bezirksamtmann" target="peter_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bezirksamtmann|frau_neusigl" source="bezirksamtmann" target="frau_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bezirksamtmann|anna" source="bezirksamtmann" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bezirksamtmann|regierungsdirektor_steinbeissel" source="bezirksamtmann" target="regierungsdirektor_steinbeissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_bezirksamtmann|babette" source="frau_bezirksamtmann" target="babette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_bezirksamtmann|assessor" source="frau_bezirksamtmann" target="assessor">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_bezirksamtmann|lampl" source="frau_bezirksamtmann" target="lampl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_bezirksamtmann|sedlmaier" source="frau_bezirksamtmann" target="sedlmaier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_bezirksamtmann|hahnrieder" source="frau_bezirksamtmann" target="hahnrieder">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_bezirksamtmann|peter_neusigl" source="frau_bezirksamtmann" target="peter_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_bezirksamtmann|grubhofer" source="frau_bezirksamtmann" target="grubhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_bezirksamtmann|merkl" source="frau_bezirksamtmann" target="merkl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_bezirksamtmann|haeberlein" source="frau_bezirksamtmann" target="haeberlein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_bezirksamtmann|frau_neusigl" source="frau_bezirksamtmann" target="frau_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_bezirksamtmann|anna" source="frau_bezirksamtmann" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_bezirksamtmann|regierungsdirektor_steinbeissel" source="frau_bezirksamtmann" target="regierungsdirektor_steinbeissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babette|lampl" source="babette" target="lampl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babette|peter_neusigl" source="babette" target="peter_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babette|grubhofer" source="babette" target="grubhofer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babette|merkl" source="babette" target="merkl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babette|hahnrieder" source="babette" target="hahnrieder">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babette|sedlmaier" source="babette" target="sedlmaier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babette|haeberlein" source="babette" target="haeberlein">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babette|frau_neusigl" source="babette" target="frau_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babette|assessor" source="babette" target="assessor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babette|anna" source="babette" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babette|regierungsdirektor_steinbeissel" source="babette" target="regierungsdirektor_steinbeissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="assessor|lampl" source="assessor" target="lampl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="assessor|sedlmaier" source="assessor" target="sedlmaier">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="assessor|hahnrieder" source="assessor" target="hahnrieder">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="assessor|haeberlein" source="assessor" target="haeberlein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="assessor|grubhofer" source="assessor" target="grubhofer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="assessor|merkl" source="assessor" target="merkl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="assessor|peter_neusigl" source="assessor" target="peter_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="assessor|frau_neusigl" source="assessor" target="frau_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="assessor|anna" source="assessor" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="assessor|regierungsdirektor_steinbeissel" source="assessor" target="regierungsdirektor_steinbeissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lampl|sedlmaier" source="lampl" target="sedlmaier">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lampl|hahnrieder" source="lampl" target="hahnrieder">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lampl|haeberlein" source="lampl" target="haeberlein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lampl|grubhofer" source="lampl" target="grubhofer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lampl|merkl" source="lampl" target="merkl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lampl|peter_neusigl" source="lampl" target="peter_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lampl|frau_neusigl" source="lampl" target="frau_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lampl|anna" source="lampl" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lampl|regierungsdirektor_steinbeissel" source="lampl" target="regierungsdirektor_steinbeissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sedlmaier|hahnrieder" source="sedlmaier" target="hahnrieder">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sedlmaier|haeberlein" source="sedlmaier" target="haeberlein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sedlmaier|grubhofer" source="sedlmaier" target="grubhofer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sedlmaier|merkl" source="sedlmaier" target="merkl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="sedlmaier|peter_neusigl" source="sedlmaier" target="peter_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sedlmaier|frau_neusigl" source="sedlmaier" target="frau_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sedlmaier|anna" source="sedlmaier" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sedlmaier|regierungsdirektor_steinbeissel" source="sedlmaier" target="regierungsdirektor_steinbeissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hahnrieder|haeberlein" source="hahnrieder" target="haeberlein">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hahnrieder|grubhofer" source="hahnrieder" target="grubhofer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hahnrieder|merkl" source="hahnrieder" target="merkl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hahnrieder|peter_neusigl" source="hahnrieder" target="peter_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hahnrieder|frau_neusigl" source="hahnrieder" target="frau_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hahnrieder|anna" source="hahnrieder" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hahnrieder|regierungsdirektor_steinbeissel" source="hahnrieder" target="regierungsdirektor_steinbeissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haeberlein|grubhofer" source="haeberlein" target="grubhofer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="haeberlein|merkl" source="haeberlein" target="merkl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="haeberlein|peter_neusigl" source="haeberlein" target="peter_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haeberlein|frau_neusigl" source="haeberlein" target="frau_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haeberlein|anna" source="haeberlein" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haeberlein|regierungsdirektor_steinbeissel" source="haeberlein" target="regierungsdirektor_steinbeissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grubhofer|merkl" source="grubhofer" target="merkl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grubhofer|peter_neusigl" source="grubhofer" target="peter_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grubhofer|frau_neusigl" source="grubhofer" target="frau_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grubhofer|anna" source="grubhofer" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grubhofer|regierungsdirektor_steinbeissel" source="grubhofer" target="regierungsdirektor_steinbeissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkl|peter_neusigl" source="merkl" target="peter_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkl|frau_neusigl" source="merkl" target="frau_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkl|anna" source="merkl" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="merkl|regierungsdirektor_steinbeissel" source="merkl" target="regierungsdirektor_steinbeissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter_neusigl|frau_neusigl" source="peter_neusigl" target="frau_neusigl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter_neusigl|anna" source="peter_neusigl" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter_neusigl|regierungsdirektor_steinbeissel" source="peter_neusigl" target="regierungsdirektor_steinbeissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_neusigl|anna" source="frau_neusigl" target="anna">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_neusigl|regierungsdirektor_steinbeissel" source="frau_neusigl" target="regierungsdirektor_steinbeissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anna|regierungsdirektor_steinbeissel" source="anna" target="regierungsdirektor_steinbeissel">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

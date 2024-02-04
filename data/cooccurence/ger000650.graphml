@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="lotte">
+            <data key="label">Lotte</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2448</data>
+        </node>
+        <node id="franz">
+            <data key="label">Franz von Gerhardt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1276</data>
+        </node>
+        <node id="paul">
+            <data key="label">Paul Morbach</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2758</data>
+        </node>
+        <node id="diener_august">
+            <data key="label">Diener (August)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="lucie">
+            <data key="label">Lucie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1010</data>
+        </node>
+        <edge id="lotte|franz" source="lotte" target="franz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lotte|paul" source="lotte" target="paul">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lotte|lucie" source="lotte" target="lucie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="franz|paul" source="franz" target="paul">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="franz|diener_august" source="franz" target="diener_august">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|lucie" source="franz" target="lucie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="paul|diener_august" source="paul" target="diener_august">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="paul|lucie" source="paul" target="lucie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="diener_august|lucie" source="diener_august" target="lucie">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

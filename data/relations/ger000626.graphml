@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="apollo">
+            <data key="label">Apollo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_genius">
+            <data key="label">Der Genius Vindebonens</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="das_vorurtheil">
+            <data key="label">Das Vorurtheil Vindebonens</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_eitelkeit">
+            <data key="label">Die Eitelkeit</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_unwissenheit">
+            <data key="label">Die Unwissenheit</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="das_franzoesische_schauspiel">
+            <data key="label">Das Französische Schauspiel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_patriotismus">
+            <data key="label">Der Patriotismus</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="das_deutsche_schauspiel">
+            <data key="label">Das deutsche Schauspiel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_kritik">
+            <data key="label">Die Kritik</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="die_eitelkeit" target="das_vorurtheil">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="2" directed="false" source="die_unwissenheit" target="das_vorurtheil">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

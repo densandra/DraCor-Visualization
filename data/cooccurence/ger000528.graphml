@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="gertrude">
+            <data key="label">Gertrude</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">968</data>
+        </node>
+        <node id="blunt">
+            <data key="label">Blunt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1702</data>
+        </node>
+        <node id="adelheid">
+            <data key="label">Adelheid</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">764</data>
+        </node>
+        <node id="der_fremde">
+            <data key="label">Der Fremde</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1080</data>
+        </node>
+        <node id="der_buergermeister">
+            <data key="label">Der Bürgermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">804</data>
+        </node>
+        <node id="mariane">
+            <data key="label">Mariane</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">395</data>
+        </node>
+        <edge id="gertrude|blunt" source="gertrude" target="blunt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gertrude|adelheid" source="gertrude" target="adelheid">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gertrude|der_fremde" source="gertrude" target="der_fremde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gertrude|der_buergermeister" source="gertrude" target="der_buergermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gertrude|mariane" source="gertrude" target="mariane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blunt|adelheid" source="blunt" target="adelheid">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="blunt|der_fremde" source="blunt" target="der_fremde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="blunt|der_buergermeister" source="blunt" target="der_buergermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="blunt|mariane" source="blunt" target="mariane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelheid|der_fremde" source="adelheid" target="der_fremde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adelheid|der_buergermeister" source="adelheid" target="der_buergermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelheid|mariane" source="adelheid" target="mariane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_fremde|der_buergermeister" source="der_fremde" target="der_buergermeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_fremde|mariane" source="der_fremde" target="mariane">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_buergermeister|mariane" source="der_buergermeister" target="mariane">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

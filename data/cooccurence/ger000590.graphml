@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="guerge">
+            <data key="label">Gürge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">502</data>
+        </node>
+        <node id="maerten">
+            <data key="label">Märten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2380</data>
+        </node>
+        <node id="roese">
+            <data key="label">Röse</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">381</data>
+        </node>
+        <node id="schnaps">
+            <data key="label">Schnaps</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3021</data>
+        </node>
+        <node id="knallerpaller">
+            <data key="label">Knallerpaller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">213</data>
+        </node>
+        <node id="bauern">
+            <data key="label">Bauern</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <edge id="guerge|maerten" source="guerge" target="maerten">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="guerge|roese" source="guerge" target="roese">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="guerge|bauern" source="guerge" target="bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guerge|schnaps" source="guerge" target="schnaps">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guerge|knallerpaller" source="guerge" target="knallerpaller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maerten|roese" source="maerten" target="roese">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maerten|schnaps" source="maerten" target="schnaps">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="maerten|bauern" source="maerten" target="bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maerten|knallerpaller" source="maerten" target="knallerpaller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roese|bauern" source="roese" target="bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roese|schnaps" source="roese" target="schnaps">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roese|knallerpaller" source="roese" target="knallerpaller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schnaps|bauern" source="schnaps" target="bauern">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schnaps|knallerpaller" source="schnaps" target="knallerpaller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="knallerpaller|bauern" source="knallerpaller" target="bauern">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="hochfeld">
+            <data key="label">Hochfeld</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="faustin">
+            <data key="label">Faustin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eulalia">
+            <data key="label">Eulalia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="regine">
+            <data key="label">Regine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="haller">
+            <data key="label">Haller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hupfer">
+            <data key="label">Herr von Hupfer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jakob">
+            <data key="label">Jakob</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="robert">
+            <data key="label">Robert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="glatt">
+            <data key="label">Glatt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sebastian">
+            <data key="label">Sebastian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="klotilde">
+            <data key="label">Klotilde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="apollonia">
+            <data key="label">Apollonia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kapellmeister">
+            <data key="label">Kapellmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="graf_von_flambourg">
+            <data key="label">Graf von Flambourg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wellenschlag">
+            <data key="label">Wellenschlag</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="eulalia" target="hochfeld">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="apollonia" target="sebastian">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="hochfeld" target="klotilde">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="sebastian" target="regine">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="wellenschlag" target="robert">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="haller" target="hochfeld">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="faustin" target="hochfeld">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="jakob" target="hochfeld">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

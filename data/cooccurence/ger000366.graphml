@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="anton">
+            <data key="label">Anton</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">281</data>
+        </node>
+        <node id="joseph">
+            <data key="label">Joseph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">29</data>
+        </node>
+        <node id="christian">
+            <data key="label">Christian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="gluthammer">
+            <data key="label">Gluthammer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1579</data>
+        </node>
+        <node id="kathi">
+            <data key="label">Kathi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1813</data>
+        </node>
+        <node id="lips">
+            <data key="label">Lips</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5206</data>
+        </node>
+        <node id="stifler">
+            <data key="label">Stifler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">547</data>
+        </node>
+        <node id="wixer">
+            <data key="label">Wixer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">403</data>
+        </node>
+        <node id="sporner">
+            <data key="label">Sporner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">131</data>
+        </node>
+        <node id="madame_schleier">
+            <data key="label">Madame Schleier</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">849</data>
+        </node>
+        <node id="die_herren">
+            <data key="label">Die Herren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="krautkopf">
+            <data key="label">Krautkopf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1668</data>
+        </node>
+        <node id="erster_knecht_2-1">
+            <data key="label">Erster Knecht (II/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="zweiter_knecht_2-1">
+            <data key="label">Zweiter Knecht (II/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="dritter_knecht_2-1">
+            <data key="label">Dritter Knecht (II/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="vierter_knecht_2-1">
+            <data key="label">Vierter Knecht (II/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="erster_knecht_2-4">
+            <data key="label">Erster Knecht (II/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="zweiter_knecht_2-4">
+            <data key="label">Zweiter Knecht (II/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="dritter_knecht_2-4">
+            <data key="label">Dritter Knecht (II/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="justitiaer">
+            <data key="label">Justitiär</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">368</data>
+        </node>
+        <node id="alle_3-11">
+            <data key="label">Alle (III/11)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <edge id="anton|joseph" source="anton" target="joseph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|christian" source="anton" target="christian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|gluthammer" source="anton" target="gluthammer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anton|kathi" source="anton" target="kathi">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|lips" source="anton" target="lips">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="anton|stifler" source="anton" target="stifler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="anton|madame_schleier" source="anton" target="madame_schleier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="joseph|christian" source="joseph" target="christian">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gluthammer|kathi" source="gluthammer" target="kathi">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gluthammer|lips" source="gluthammer" target="lips">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gluthammer|madame_schleier" source="gluthammer" target="madame_schleier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gluthammer|krautkopf" source="gluthammer" target="krautkopf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gluthammer|justitiaer" source="gluthammer" target="justitiaer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gluthammer|stifler" source="gluthammer" target="stifler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gluthammer|sporner" source="gluthammer" target="sporner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gluthammer|wixer" source="gluthammer" target="wixer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gluthammer|alle_3-11" source="gluthammer" target="alle_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathi|lips" source="kathi" target="lips">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="kathi|madame_schleier" source="kathi" target="madame_schleier">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kathi|stifler" source="kathi" target="stifler">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kathi|wixer" source="kathi" target="wixer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kathi|krautkopf" source="kathi" target="krautkopf">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="kathi|erster_knecht_2-1" source="kathi" target="erster_knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathi|zweiter_knecht_2-1" source="kathi" target="zweiter_knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathi|dritter_knecht_2-1" source="kathi" target="dritter_knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathi|vierter_knecht_2-1" source="kathi" target="vierter_knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathi|erster_knecht_2-4" source="kathi" target="erster_knecht_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathi|zweiter_knecht_2-4" source="kathi" target="zweiter_knecht_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathi|dritter_knecht_2-4" source="kathi" target="dritter_knecht_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kathi|justitiaer" source="kathi" target="justitiaer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kathi|sporner" source="kathi" target="sporner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lips|stifler" source="lips" target="stifler">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lips|wixer" source="lips" target="wixer">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="lips|sporner" source="lips" target="sporner">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="lips|madame_schleier" source="lips" target="madame_schleier">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lips|die_herren" source="lips" target="die_herren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lips|krautkopf" source="lips" target="krautkopf">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lips|erster_knecht_2-4" source="lips" target="erster_knecht_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lips|zweiter_knecht_2-4" source="lips" target="zweiter_knecht_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lips|dritter_knecht_2-4" source="lips" target="dritter_knecht_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lips|justitiaer" source="lips" target="justitiaer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="lips|alle_3-11" source="lips" target="alle_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stifler|wixer" source="stifler" target="wixer">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="stifler|sporner" source="stifler" target="sporner">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="stifler|madame_schleier" source="stifler" target="madame_schleier">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="stifler|die_herren" source="stifler" target="die_herren">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stifler|krautkopf" source="stifler" target="krautkopf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="stifler|justitiaer" source="stifler" target="justitiaer">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="stifler|alle_3-11" source="stifler" target="alle_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wixer|sporner" source="wixer" target="sporner">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="wixer|madame_schleier" source="wixer" target="madame_schleier">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wixer|die_herren" source="wixer" target="die_herren">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wixer|krautkopf" source="wixer" target="krautkopf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wixer|justitiaer" source="wixer" target="justitiaer">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="wixer|alle_3-11" source="wixer" target="alle_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sporner|madame_schleier" source="sporner" target="madame_schleier">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="sporner|die_herren" source="sporner" target="die_herren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sporner|krautkopf" source="sporner" target="krautkopf">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="sporner|justitiaer" source="sporner" target="justitiaer">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="sporner|alle_3-11" source="sporner" target="alle_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madame_schleier|die_herren" source="madame_schleier" target="die_herren">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="krautkopf|erster_knecht_2-1" source="krautkopf" target="erster_knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krautkopf|zweiter_knecht_2-1" source="krautkopf" target="zweiter_knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krautkopf|dritter_knecht_2-1" source="krautkopf" target="dritter_knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krautkopf|vierter_knecht_2-1" source="krautkopf" target="vierter_knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krautkopf|erster_knecht_2-4" source="krautkopf" target="erster_knecht_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krautkopf|zweiter_knecht_2-4" source="krautkopf" target="zweiter_knecht_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krautkopf|dritter_knecht_2-4" source="krautkopf" target="dritter_knecht_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="krautkopf|justitiaer" source="krautkopf" target="justitiaer">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="krautkopf|alle_3-11" source="krautkopf" target="alle_3-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_knecht_2-1|zweiter_knecht_2-1" source="erster_knecht_2-1" target="zweiter_knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_knecht_2-1|dritter_knecht_2-1" source="erster_knecht_2-1" target="dritter_knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_knecht_2-1|vierter_knecht_2-1" source="erster_knecht_2-1" target="vierter_knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_knecht_2-1|dritter_knecht_2-1" source="zweiter_knecht_2-1" target="dritter_knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_knecht_2-1|vierter_knecht_2-1" source="zweiter_knecht_2-1" target="vierter_knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_knecht_2-1|vierter_knecht_2-1" source="dritter_knecht_2-1" target="vierter_knecht_2-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_knecht_2-4|zweiter_knecht_2-4" source="erster_knecht_2-4" target="zweiter_knecht_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_knecht_2-4|dritter_knecht_2-4" source="erster_knecht_2-4" target="dritter_knecht_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_knecht_2-4|dritter_knecht_2-4" source="zweiter_knecht_2-4" target="dritter_knecht_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="justitiaer|alle_3-11" source="justitiaer" target="alle_3-11">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>
