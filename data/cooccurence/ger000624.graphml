@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="paris">
+            <data key="label">Paris</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">406</data>
+        </node>
+        <node id="agelaus">
+            <data key="label">Agelaus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">203</data>
+        </node>
+        <node id="mercurius">
+            <data key="label">Mercurius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">211</data>
+        </node>
+        <node id="juno">
+            <data key="label">Juno</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">172</data>
+        </node>
+        <node id="pallas">
+            <data key="label">Pallas</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">191</data>
+        </node>
+        <node id="venus">
+            <data key="label">Venus</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">496</data>
+        </node>
+        <edge id="paris|agelaus" source="paris" target="agelaus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="paris|mercurius" source="paris" target="mercurius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="paris|juno" source="paris" target="juno">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="paris|pallas" source="paris" target="pallas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="paris|venus" source="paris" target="venus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="agelaus|venus" source="agelaus" target="venus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agelaus|juno" source="agelaus" target="juno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agelaus|pallas" source="agelaus" target="pallas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agelaus|mercurius" source="agelaus" target="mercurius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mercurius|venus" source="mercurius" target="venus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mercurius|juno" source="mercurius" target="juno">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mercurius|pallas" source="mercurius" target="pallas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="juno|pallas" source="juno" target="pallas">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="juno|venus" source="juno" target="venus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pallas|venus" source="pallas" target="venus">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>
