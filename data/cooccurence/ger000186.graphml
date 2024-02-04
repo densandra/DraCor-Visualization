@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="roeschen">
+            <data key="label">Röschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3672</data>
+        </node>
+        <node id="marthe">
+            <data key="label">Marthe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1028</data>
+        </node>
+        <node id="michel">
+            <data key="label">Michel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3997</data>
+        </node>
+        <node id="toeffel">
+            <data key="label">Töffel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2814</data>
+        </node>
+        <node id="hannchen">
+            <data key="label">Hannchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2133</data>
+        </node>
+        <node id="alle_1-9_bis_1-11">
+            <data key="label">Alle (I/9–11)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">113</data>
+        </node>
+        <node id="guerge">
+            <data key="label">Gürge</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">118</data>
+        </node>
+        <node id="quaas">
+            <data key="label">Quaas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">85</data>
+        </node>
+        <node id="christel">
+            <data key="label">Christel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1932</data>
+        </node>
+        <node id="der_koenig">
+            <data key="label">Der König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2055</data>
+        </node>
+        <node id="der_erste_wilddieb">
+            <data key="label">Der erste Wilddieb</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">29</data>
+        </node>
+        <node id="der_zweyte_wilddieb">
+            <data key="label">Der zweyte Wilddieb</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="chor_alle_3-9">
+            <data key="label">Chor/Alle (III/9)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">56</data>
+        </node>
+        <node id="graf_von_schmetterling">
+            <data key="label">Graf von Schmetterling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">174</data>
+        </node>
+        <node id="von_treuwerth">
+            <data key="label">von Treuwerth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">107</data>
+        </node>
+        <node id="alle_bauren">
+            <data key="label">Alle Bauren (III/12)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">22</data>
+        </node>
+        <node id="chor_3-14">
+            <data key="label">Chor (III/14)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">68</data>
+        </node>
+        <edge id="roeschen|marthe" source="roeschen" target="marthe">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="roeschen|michel" source="roeschen" target="michel">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="roeschen|toeffel" source="roeschen" target="toeffel">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="roeschen|alle_1-9_bis_1-11" source="roeschen" target="alle_1-9_bis_1-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roeschen|hannchen" source="roeschen" target="hannchen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="roeschen|christel" source="roeschen" target="christel">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="roeschen|der_koenig" source="roeschen" target="der_koenig">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="roeschen|chor_alle_3-9" source="roeschen" target="chor_alle_3-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roeschen|graf_von_schmetterling" source="roeschen" target="graf_von_schmetterling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roeschen|von_treuwerth" source="roeschen" target="von_treuwerth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roeschen|alle_bauren" source="roeschen" target="alle_bauren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="roeschen|chor_3-14" source="roeschen" target="chor_3-14">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marthe|michel" source="marthe" target="michel">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="marthe|toeffel" source="marthe" target="toeffel">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="marthe|alle_1-9_bis_1-11" source="marthe" target="alle_1-9_bis_1-11">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marthe|christel" source="marthe" target="christel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="marthe|der_koenig" source="marthe" target="der_koenig">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="marthe|chor_alle_3-9" source="marthe" target="chor_alle_3-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marthe|hannchen" source="marthe" target="hannchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marthe|graf_von_schmetterling" source="marthe" target="graf_von_schmetterling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marthe|von_treuwerth" source="marthe" target="von_treuwerth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marthe|alle_bauren" source="marthe" target="alle_bauren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marthe|chor_3-14" source="marthe" target="chor_3-14">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|toeffel" source="michel" target="toeffel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="michel|alle_1-9_bis_1-11" source="michel" target="alle_1-9_bis_1-11">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="michel|der_koenig" source="michel" target="der_koenig">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="michel|christel" source="michel" target="christel">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="michel|chor_alle_3-9" source="michel" target="chor_alle_3-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|hannchen" source="michel" target="hannchen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="michel|graf_von_schmetterling" source="michel" target="graf_von_schmetterling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|von_treuwerth" source="michel" target="von_treuwerth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|alle_bauren" source="michel" target="alle_bauren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|chor_3-14" source="michel" target="chor_3-14">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toeffel|hannchen" source="toeffel" target="hannchen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="toeffel|alle_1-9_bis_1-11" source="toeffel" target="alle_1-9_bis_1-11">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="toeffel|guerge" source="toeffel" target="guerge">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toeffel|quaas" source="toeffel" target="quaas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toeffel|der_koenig" source="toeffel" target="der_koenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="toeffel|graf_von_schmetterling" source="toeffel" target="graf_von_schmetterling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toeffel|von_treuwerth" source="toeffel" target="von_treuwerth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toeffel|christel" source="toeffel" target="christel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="toeffel|alle_bauren" source="toeffel" target="alle_bauren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="toeffel|chor_3-14" source="toeffel" target="chor_3-14">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hannchen|christel" source="hannchen" target="christel">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="hannchen|der_koenig" source="hannchen" target="der_koenig">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hannchen|graf_von_schmetterling" source="hannchen" target="graf_von_schmetterling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hannchen|von_treuwerth" source="hannchen" target="von_treuwerth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hannchen|alle_bauren" source="hannchen" target="alle_bauren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hannchen|chor_3-14" source="hannchen" target="chor_3-14">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guerge|quaas" source="guerge" target="quaas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christel|der_koenig" source="christel" target="der_koenig">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="christel|chor_alle_3-9" source="christel" target="chor_alle_3-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christel|graf_von_schmetterling" source="christel" target="graf_von_schmetterling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christel|von_treuwerth" source="christel" target="von_treuwerth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christel|alle_bauren" source="christel" target="alle_bauren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christel|chor_3-14" source="christel" target="chor_3-14">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_koenig|der_erste_wilddieb" source="der_koenig" target="der_erste_wilddieb">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_koenig|der_zweyte_wilddieb" source="der_koenig" target="der_zweyte_wilddieb">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_koenig|chor_alle_3-9" source="der_koenig" target="chor_alle_3-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_koenig|graf_von_schmetterling" source="der_koenig" target="graf_von_schmetterling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_koenig|von_treuwerth" source="der_koenig" target="von_treuwerth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_koenig|alle_bauren" source="der_koenig" target="alle_bauren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_erste_wilddieb|der_zweyte_wilddieb" source="der_erste_wilddieb" target="der_zweyte_wilddieb">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_schmetterling|von_treuwerth" source="graf_von_schmetterling" target="von_treuwerth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="graf_von_schmetterling|alle_bauren" source="graf_von_schmetterling" target="alle_bauren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_treuwerth|alle_bauren" source="von_treuwerth" target="alle_bauren">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

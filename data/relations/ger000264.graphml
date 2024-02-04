@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="langen">
+            <data key="label">Langen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="werner">
+            <data key="label">Werner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="christian">
+            <data key="label">Christian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="justitzraethin">
+            <data key="label">Justitzräthin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lenchen">
+            <data key="label">Lenchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fridericke">
+            <data key="label">Fridericke</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="walz">
+            <data key="label">Walz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="caroline">
+            <data key="label">Caroline</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="franzoesin">
+            <data key="label">Französin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jud">
+            <data key="label">Jud</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="bettelweib">
+            <data key="label">Bettelweib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_officier">
+            <data key="label">Ein Officier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="doktor">
+            <data key="label">Doktor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="feldscheer">
+            <data key="label">Feldscheer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="caroline" target="christian">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="2" directed="false" source="caroline" target="langen">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="3" directed="false" source="christian" target="langen">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="4" directed="false" source="fridericke" target="lenchen">
+            <data key="relation">siblings</data>
+        </edge>
+        <edge id="5" directed="false" source="justitzraethin" target="langen">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="franzoesin" target="caroline">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="wilhelm" target="langen">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="walz" target="fridericke">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="9" directed="false" source="fridericke" target="langen">
+            <data key="relation">lover_of</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">338</data>
+        </node>
+        <node id="langen">
+            <data key="label">Langen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4928</data>
+        </node>
+        <node id="werner">
+            <data key="label">Werner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2451</data>
+        </node>
+        <node id="christian">
+            <data key="label">Christian</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">505</data>
+        </node>
+        <node id="justitzraethin">
+            <data key="label">Justitzräthin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3620</data>
+        </node>
+        <node id="lenchen">
+            <data key="label">Lenchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">671</data>
+        </node>
+        <node id="fridericke">
+            <data key="label">Fridericke</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1058</data>
+        </node>
+        <node id="walz">
+            <data key="label">Walz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2975</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">307</data>
+        </node>
+        <node id="caroline">
+            <data key="label">Caroline</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">123</data>
+        </node>
+        <node id="franzoesin">
+            <data key="label">Französin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">553</data>
+        </node>
+        <node id="jud">
+            <data key="label">Jud</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">326</data>
+        </node>
+        <node id="bettelweib">
+            <data key="label">Bettelweib</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">81</data>
+        </node>
+        <node id="ein_officier">
+            <data key="label">Ein Officier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <node id="doktor">
+            <data key="label">Doktor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">297</data>
+        </node>
+        <node id="feldscheer">
+            <data key="label">Feldscheer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">21</data>
+        </node>
+        <edge id="wilhelm|langen" source="wilhelm" target="langen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wilhelm|werner" source="wilhelm" target="werner">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wilhelm|christian" source="wilhelm" target="christian">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wilhelm|justitzraethin" source="wilhelm" target="justitzraethin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wilhelm|caroline" source="wilhelm" target="caroline">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|franzoesin" source="wilhelm" target="franzoesin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|fridericke" source="wilhelm" target="fridericke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|lenchen" source="wilhelm" target="lenchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wilhelm|jud" source="wilhelm" target="jud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|walz" source="wilhelm" target="walz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wilhelm|karl" source="wilhelm" target="karl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|bettelweib" source="wilhelm" target="bettelweib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|ein_officier" source="wilhelm" target="ein_officier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|doktor" source="wilhelm" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wilhelm|feldscheer" source="wilhelm" target="feldscheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="langen|werner" source="langen" target="werner">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="langen|christian" source="langen" target="christian">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="langen|justitzraethin" source="langen" target="justitzraethin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="langen|lenchen" source="langen" target="lenchen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="langen|fridericke" source="langen" target="fridericke">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="langen|walz" source="langen" target="walz">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="langen|karl" source="langen" target="karl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="langen|caroline" source="langen" target="caroline">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="langen|franzoesin" source="langen" target="franzoesin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="langen|jud" source="langen" target="jud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="langen|bettelweib" source="langen" target="bettelweib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="langen|ein_officier" source="langen" target="ein_officier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="langen|doktor" source="langen" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="langen|feldscheer" source="langen" target="feldscheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|christian" source="werner" target="christian">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="werner|justitzraethin" source="werner" target="justitzraethin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="werner|caroline" source="werner" target="caroline">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="werner|franzoesin" source="werner" target="franzoesin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|fridericke" source="werner" target="fridericke">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="werner|lenchen" source="werner" target="lenchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="werner|jud" source="werner" target="jud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|walz" source="werner" target="walz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="werner|karl" source="werner" target="karl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|bettelweib" source="werner" target="bettelweib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|ein_officier" source="werner" target="ein_officier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|doktor" source="werner" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|feldscheer" source="werner" target="feldscheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christian|justitzraethin" source="christian" target="justitzraethin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="christian|caroline" source="christian" target="caroline">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="christian|franzoesin" source="christian" target="franzoesin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christian|walz" source="christian" target="walz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christian|doktor" source="christian" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christian|lenchen" source="christian" target="lenchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christian|fridericke" source="christian" target="fridericke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christian|feldscheer" source="christian" target="feldscheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="justitzraethin|caroline" source="justitzraethin" target="caroline">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="justitzraethin|franzoesin" source="justitzraethin" target="franzoesin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="justitzraethin|walz" source="justitzraethin" target="walz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="justitzraethin|doktor" source="justitzraethin" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="justitzraethin|lenchen" source="justitzraethin" target="lenchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="justitzraethin|fridericke" source="justitzraethin" target="fridericke">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="justitzraethin|feldscheer" source="justitzraethin" target="feldscheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lenchen|fridericke" source="lenchen" target="fridericke">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lenchen|walz" source="lenchen" target="walz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lenchen|karl" source="lenchen" target="karl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lenchen|jud" source="lenchen" target="jud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lenchen|caroline" source="lenchen" target="caroline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lenchen|doktor" source="lenchen" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lenchen|feldscheer" source="lenchen" target="feldscheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fridericke|walz" source="fridericke" target="walz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fridericke|karl" source="fridericke" target="karl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fridericke|jud" source="fridericke" target="jud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fridericke|caroline" source="fridericke" target="caroline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fridericke|doktor" source="fridericke" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fridericke|feldscheer" source="fridericke" target="feldscheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walz|karl" source="walz" target="karl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walz|jud" source="walz" target="jud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walz|bettelweib" source="walz" target="bettelweib">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walz|ein_officier" source="walz" target="ein_officier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walz|caroline" source="walz" target="caroline">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walz|doktor" source="walz" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walz|feldscheer" source="walz" target="feldscheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|jud" source="karl" target="jud">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caroline|franzoesin" source="caroline" target="franzoesin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caroline|doktor" source="caroline" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="caroline|feldscheer" source="caroline" target="feldscheer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bettelweib|ein_officier" source="bettelweib" target="ein_officier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="doktor|feldscheer" source="doktor" target="feldscheer">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

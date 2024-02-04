@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="frau_hergentheim">
+            <data key="label">Frau Hergentheim</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2478</data>
+        </node>
+        <node id="laura">
+            <data key="label">Laura</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">861</data>
+        </node>
+        <node id="kessler">
+            <data key="label">Keßler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2547</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">516</data>
+        </node>
+        <node id="rosi">
+            <data key="label">Rosi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3130</data>
+        </node>
+        <node id="else">
+            <data key="label">Else</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2228</data>
+        </node>
+        <node id="winkelmann">
+            <data key="label">Winkelmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2571</data>
+        </node>
+        <node id="max">
+            <data key="label">Max</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1277</data>
+        </node>
+        <node id="comptoirdiener">
+            <data key="label">Comptoirdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">45</data>
+        </node>
+        <node id="dr_kosinski">
+            <data key="label">Dr. Kosinski</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">298</data>
+        </node>
+        <edge id="frau_hergentheim|laura" source="frau_hergentheim" target="laura">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="frau_hergentheim|kessler" source="frau_hergentheim" target="kessler">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="frau_hergentheim|wilhelm" source="frau_hergentheim" target="wilhelm">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="frau_hergentheim|rosi" source="frau_hergentheim" target="rosi">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="frau_hergentheim|else" source="frau_hergentheim" target="else">
+            <data key="weight">18</data>
+        </edge>
+        <edge id="frau_hergentheim|winkelmann" source="frau_hergentheim" target="winkelmann">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="frau_hergentheim|max" source="frau_hergentheim" target="max">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frau_hergentheim|dr_kosinski" source="frau_hergentheim" target="dr_kosinski">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="laura|kessler" source="laura" target="kessler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laura|wilhelm" source="laura" target="wilhelm">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="laura|rosi" source="laura" target="rosi">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="laura|else" source="laura" target="else">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="laura|dr_kosinski" source="laura" target="dr_kosinski">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laura|winkelmann" source="laura" target="winkelmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="laura|max" source="laura" target="max">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kessler|wilhelm" source="kessler" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kessler|rosi" source="kessler" target="rosi">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="kessler|winkelmann" source="kessler" target="winkelmann">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="kessler|max" source="kessler" target="max">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kessler|else" source="kessler" target="else">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wilhelm|rosi" source="wilhelm" target="rosi">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="wilhelm|else" source="wilhelm" target="else">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wilhelm|dr_kosinski" source="wilhelm" target="dr_kosinski">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosi|else" source="rosi" target="else">
+            <data key="weight">17</data>
+        </edge>
+        <edge id="rosi|winkelmann" source="rosi" target="winkelmann">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="rosi|max" source="rosi" target="max">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="rosi|comptoirdiener" source="rosi" target="comptoirdiener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosi|dr_kosinski" source="rosi" target="dr_kosinski">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="else|winkelmann" source="else" target="winkelmann">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="else|max" source="else" target="max">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="else|dr_kosinski" source="else" target="dr_kosinski">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="winkelmann|max" source="winkelmann" target="max">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="winkelmann|comptoirdiener" source="winkelmann" target="comptoirdiener">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="max|comptoirdiener" source="max" target="comptoirdiener">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

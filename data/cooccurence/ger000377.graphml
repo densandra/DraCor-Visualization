@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="buridan">
+            <data key="label">Buridan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3817</data>
+        </node>
+        <node id="kadidja">
+            <data key="label">Kadidja</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2182</data>
+        </node>
+        <node id="die_zofe">
+            <data key="label">Die Zofe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <node id="dr_prantl">
+            <data key="label">Dr. Cajetan Prantl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1534</data>
+        </node>
+        <edge id="buridan|kadidja" source="buridan" target="kadidja">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="buridan|die_zofe" source="buridan" target="die_zofe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="buridan|dr_prantl" source="buridan" target="dr_prantl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kadidja|die_zofe" source="kadidja" target="die_zofe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kadidja|dr_prantl" source="kadidja" target="dr_prantl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_zofe|dr_prantl" source="die_zofe" target="dr_prantl">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="rudolph">
+            <data key="label">Rudolph von Ebenburg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">215</data>
+        </node>
+        <node id="walther">
+            <data key="label">Walther von Berneck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1868</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich von Orla</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1032</data>
+        </node>
+        <node id="franz">
+            <data key="label">Franz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">939</data>
+        </node>
+        <node id="georg">
+            <data key="label">Georg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">411</data>
+        </node>
+        <node id="conrad">
+            <data key="label">Conrad</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2109</data>
+        </node>
+        <node id="burgvoigt">
+            <data key="label">Burgvoigt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">303</data>
+        </node>
+        <node id="mathilde">
+            <data key="label">Mathilde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1425</data>
+        </node>
+        <node id="reinhard">
+            <data key="label">Reinhard</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3257</data>
+        </node>
+        <node id="karl">
+            <data key="label">Karl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5929</data>
+        </node>
+        <node id="minnesaenger">
+            <data key="label">Minnesänger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">253</data>
+        </node>
+        <node id="leopold">
+            <data key="label">Leopold von Wildenberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1722</data>
+        </node>
+        <node id="hofmeisterin">
+            <data key="label">Hofmeisterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">284</data>
+        </node>
+        <node id="adelheid">
+            <data key="label">Adelheid</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">755</data>
+        </node>
+        <node id="erster_knecht">
+            <data key="label">1. Knecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">59</data>
+        </node>
+        <node id="zweiter_knecht">
+            <data key="label">2. Knecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">83</data>
+        </node>
+        <node id="die_gestalt">
+            <data key="label">Die Gestalt</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="knecht_der_eine_fackel_traegt">
+            <data key="label">Knecht, der eine Fackel trägt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">346</data>
+        </node>
+        <edge id="rudolph|walther" source="rudolph" target="walther">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|heinrich" source="rudolph" target="heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|minnesaenger" source="rudolph" target="minnesaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|leopold" source="rudolph" target="leopold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|mathilde" source="rudolph" target="mathilde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|burgvoigt" source="rudolph" target="burgvoigt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|karl" source="rudolph" target="karl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|hofmeisterin" source="rudolph" target="hofmeisterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|adelheid" source="rudolph" target="adelheid">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|conrad" source="rudolph" target="conrad">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rudolph|georg" source="rudolph" target="georg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|heinrich" source="walther" target="heinrich">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|karl" source="walther" target="karl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walther|conrad" source="walther" target="conrad">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walther|franz" source="walther" target="franz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|erster_knecht" source="walther" target="erster_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|zweiter_knecht" source="walther" target="zweiter_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|die_gestalt" source="walther" target="die_gestalt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|mathilde" source="walther" target="mathilde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|leopold" source="walther" target="leopold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|burgvoigt" source="walther" target="burgvoigt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|knecht_der_eine_fackel_traegt" source="walther" target="knecht_der_eine_fackel_traegt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walther|reinhard" source="walther" target="reinhard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|wilhelm" source="heinrich" target="wilhelm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich|karl" source="heinrich" target="karl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich|conrad" source="heinrich" target="conrad">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heinrich|adelheid" source="heinrich" target="adelheid">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich|reinhard" source="heinrich" target="reinhard">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich|hofmeisterin" source="heinrich" target="hofmeisterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|georg" source="franz" target="georg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="franz|conrad" source="franz" target="conrad">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="franz|burgvoigt" source="franz" target="burgvoigt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|mathilde" source="franz" target="mathilde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|reinhard" source="franz" target="reinhard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|karl" source="franz" target="karl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="franz|erster_knecht" source="franz" target="erster_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|zweiter_knecht" source="franz" target="zweiter_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|die_gestalt" source="franz" target="die_gestalt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="franz|minnesaenger" source="franz" target="minnesaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="georg|conrad" source="georg" target="conrad">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="georg|burgvoigt" source="georg" target="burgvoigt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="georg|mathilde" source="georg" target="mathilde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="georg|reinhard" source="georg" target="reinhard">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="georg|minnesaenger" source="georg" target="minnesaenger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="georg|leopold" source="georg" target="leopold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="georg|karl" source="georg" target="karl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="georg|hofmeisterin" source="georg" target="hofmeisterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="georg|adelheid" source="georg" target="adelheid">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="conrad|burgvoigt" source="conrad" target="burgvoigt">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="conrad|mathilde" source="conrad" target="mathilde">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="conrad|reinhard" source="conrad" target="reinhard">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="conrad|karl" source="conrad" target="karl">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="conrad|minnesaenger" source="conrad" target="minnesaenger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="conrad|leopold" source="conrad" target="leopold">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="conrad|hofmeisterin" source="conrad" target="hofmeisterin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="conrad|adelheid" source="conrad" target="adelheid">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="conrad|erster_knecht" source="conrad" target="erster_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="conrad|zweiter_knecht" source="conrad" target="zweiter_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="conrad|die_gestalt" source="conrad" target="die_gestalt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="conrad|knecht_der_eine_fackel_traegt" source="conrad" target="knecht_der_eine_fackel_traegt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="conrad|wilhelm" source="conrad" target="wilhelm">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="burgvoigt|mathilde" source="burgvoigt" target="mathilde">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="burgvoigt|reinhard" source="burgvoigt" target="reinhard">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="burgvoigt|minnesaenger" source="burgvoigt" target="minnesaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgvoigt|leopold" source="burgvoigt" target="leopold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="burgvoigt|karl" source="burgvoigt" target="karl">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="burgvoigt|hofmeisterin" source="burgvoigt" target="hofmeisterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgvoigt|adelheid" source="burgvoigt" target="adelheid">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="burgvoigt|knecht_der_eine_fackel_traegt" source="burgvoigt" target="knecht_der_eine_fackel_traegt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mathilde|reinhard" source="mathilde" target="reinhard">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mathilde|minnesaenger" source="mathilde" target="minnesaenger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mathilde|leopold" source="mathilde" target="leopold">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="mathilde|karl" source="mathilde" target="karl">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mathilde|hofmeisterin" source="mathilde" target="hofmeisterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mathilde|adelheid" source="mathilde" target="adelheid">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mathilde|knecht_der_eine_fackel_traegt" source="mathilde" target="knecht_der_eine_fackel_traegt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reinhard|leopold" source="reinhard" target="leopold">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="reinhard|knecht_der_eine_fackel_traegt" source="reinhard" target="knecht_der_eine_fackel_traegt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="reinhard|karl" source="reinhard" target="karl">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="reinhard|hofmeisterin" source="reinhard" target="hofmeisterin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="reinhard|adelheid" source="reinhard" target="adelheid">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="reinhard|wilhelm" source="reinhard" target="wilhelm">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|minnesaenger" source="karl" target="minnesaenger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|leopold" source="karl" target="leopold">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="karl|hofmeisterin" source="karl" target="hofmeisterin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="karl|adelheid" source="karl" target="adelheid">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="karl|erster_knecht" source="karl" target="erster_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|zweiter_knecht" source="karl" target="zweiter_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|die_gestalt" source="karl" target="die_gestalt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|knecht_der_eine_fackel_traegt" source="karl" target="knecht_der_eine_fackel_traegt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="karl|wilhelm" source="karl" target="wilhelm">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="minnesaenger|leopold" source="minnesaenger" target="leopold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minnesaenger|hofmeisterin" source="minnesaenger" target="hofmeisterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="minnesaenger|adelheid" source="minnesaenger" target="adelheid">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leopold|hofmeisterin" source="leopold" target="hofmeisterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leopold|adelheid" source="leopold" target="adelheid">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leopold|knecht_der_eine_fackel_traegt" source="leopold" target="knecht_der_eine_fackel_traegt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hofmeisterin|adelheid" source="hofmeisterin" target="adelheid">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hofmeisterin|wilhelm" source="hofmeisterin" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adelheid|wilhelm" source="adelheid" target="wilhelm">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_knecht|zweiter_knecht" source="erster_knecht" target="zweiter_knecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_knecht|die_gestalt" source="erster_knecht" target="die_gestalt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_knecht|die_gestalt" source="zweiter_knecht" target="die_gestalt">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

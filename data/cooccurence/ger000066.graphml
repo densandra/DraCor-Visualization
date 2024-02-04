@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="frau_von_wichmann">
+            <data key="label">Frau von Wichmann</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1308</data>
+        </node>
+        <node id="julie">
+            <data key="label">Julie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3515</data>
+        </node>
+        <node id="wohlau">
+            <data key="label">Herr von Wohlau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2283</data>
+        </node>
+        <node id="der_capitain">
+            <data key="label">Der Capitain</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1839</data>
+        </node>
+        <node id="peter">
+            <data key="label">Peter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">644</data>
+        </node>
+        <node id="werneck">
+            <data key="label">Werneck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">449</data>
+        </node>
+        <node id="belmont">
+            <data key="label">Belmont</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1361</data>
+        </node>
+        <node id="dalton">
+            <data key="label">Dalton</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1105</data>
+        </node>
+        <node id="woldemar">
+            <data key="label">Woldemar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1340</data>
+        </node>
+        <node id="der_bediente">
+            <data key="label">Der Bediente</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">53</data>
+        </node>
+        <edge id="frau_von_wichmann|julie" source="frau_von_wichmann" target="julie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_von_wichmann|wohlau" source="frau_von_wichmann" target="wohlau">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="frau_von_wichmann|der_capitain" source="frau_von_wichmann" target="der_capitain">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_von_wichmann|dalton" source="frau_von_wichmann" target="dalton">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_von_wichmann|woldemar" source="frau_von_wichmann" target="woldemar">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_wichmann|peter" source="frau_von_wichmann" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|wohlau" source="julie" target="wohlau">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="julie|dalton" source="julie" target="dalton">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="julie|woldemar" source="julie" target="woldemar">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="julie|der_capitain" source="julie" target="der_capitain">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|peter" source="julie" target="peter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wohlau|der_capitain" source="wohlau" target="der_capitain">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wohlau|peter" source="wohlau" target="peter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wohlau|woldemar" source="wohlau" target="woldemar">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wohlau|der_bediente" source="wohlau" target="der_bediente">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wohlau|dalton" source="wohlau" target="dalton">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|werneck" source="peter" target="werneck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="peter|belmont" source="peter" target="belmont">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="peter|dalton" source="peter" target="dalton">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werneck|belmont" source="werneck" target="belmont">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="belmont|woldemar" source="belmont" target="woldemar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dalton|woldemar" source="dalton" target="woldemar">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

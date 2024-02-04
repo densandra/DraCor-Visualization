@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="marianel">
+            <data key="label">Marianel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">238</data>
+        </node>
+        <node id="frau_humbrecht">
+            <data key="label">Frau Humbrecht</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2545</data>
+        </node>
+        <node id="von_groeningseck">
+            <data key="label">von Gröningseck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3760</data>
+        </node>
+        <node id="evchen">
+            <data key="label">Evchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3515</data>
+        </node>
+        <node id="wirtin">
+            <data key="label">Wirtin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">110</data>
+        </node>
+        <node id="humbrecht">
+            <data key="label">Humbrecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2799</data>
+        </node>
+        <node id="magister">
+            <data key="label">Magister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2394</data>
+        </node>
+        <node id="von_hasenpoth">
+            <data key="label">von Hasenpoth</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">957</data>
+        </node>
+        <node id="major_lindsthal">
+            <data key="label">Major Lindsthal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">981</data>
+        </node>
+        <node id="lissel">
+            <data key="label">Lissel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">312</data>
+        </node>
+        <node id="erster_fausthammer">
+            <data key="label">Erster Fausthammer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">135</data>
+        </node>
+        <node id="fiskal">
+            <data key="label">Fiskal</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">530</data>
+        </node>
+        <node id="zweiter_fausthammer">
+            <data key="label">Zweiter Fausthammer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">8</data>
+        </node>
+        <node id="frau_marthan">
+            <data key="label">Frau Marthan</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1720</data>
+        </node>
+        <edge id="marianel|frau_humbrecht" source="marianel" target="frau_humbrecht">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianel|von_groeningseck" source="marianel" target="von_groeningseck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianel|evchen" source="marianel" target="evchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marianel|wirtin" source="marianel" target="wirtin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_humbrecht|von_groeningseck" source="frau_humbrecht" target="von_groeningseck">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_humbrecht|evchen" source="frau_humbrecht" target="evchen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_humbrecht|wirtin" source="frau_humbrecht" target="wirtin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_humbrecht|humbrecht" source="frau_humbrecht" target="humbrecht">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_humbrecht|magister" source="frau_humbrecht" target="magister">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_humbrecht|lissel" source="frau_humbrecht" target="lissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_humbrecht|erster_fausthammer" source="frau_humbrecht" target="erster_fausthammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_humbrecht|fiskal" source="frau_humbrecht" target="fiskal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_humbrecht|zweiter_fausthammer" source="frau_humbrecht" target="zweiter_fausthammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_groeningseck|evchen" source="von_groeningseck" target="evchen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="von_groeningseck|wirtin" source="von_groeningseck" target="wirtin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_groeningseck|humbrecht" source="von_groeningseck" target="humbrecht">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="von_groeningseck|magister" source="von_groeningseck" target="magister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="von_groeningseck|von_hasenpoth" source="von_groeningseck" target="von_hasenpoth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_groeningseck|major_lindsthal" source="von_groeningseck" target="major_lindsthal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_groeningseck|frau_marthan" source="von_groeningseck" target="frau_marthan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_groeningseck|fiskal" source="von_groeningseck" target="fiskal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="evchen|wirtin" source="evchen" target="wirtin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="evchen|humbrecht" source="evchen" target="humbrecht">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="evchen|magister" source="evchen" target="magister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="evchen|lissel" source="evchen" target="lissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="evchen|erster_fausthammer" source="evchen" target="erster_fausthammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="evchen|fiskal" source="evchen" target="fiskal">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="evchen|zweiter_fausthammer" source="evchen" target="zweiter_fausthammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="evchen|frau_marthan" source="evchen" target="frau_marthan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="humbrecht|magister" source="humbrecht" target="magister">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="humbrecht|lissel" source="humbrecht" target="lissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="humbrecht|erster_fausthammer" source="humbrecht" target="erster_fausthammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="humbrecht|fiskal" source="humbrecht" target="fiskal">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="humbrecht|zweiter_fausthammer" source="humbrecht" target="zweiter_fausthammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="humbrecht|frau_marthan" source="humbrecht" target="frau_marthan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magister|von_hasenpoth" source="magister" target="von_hasenpoth">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magister|major_lindsthal" source="magister" target="major_lindsthal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magister|lissel" source="magister" target="lissel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magister|erster_fausthammer" source="magister" target="erster_fausthammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magister|fiskal" source="magister" target="fiskal">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="magister|zweiter_fausthammer" source="magister" target="zweiter_fausthammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="magister|frau_marthan" source="magister" target="frau_marthan">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="von_hasenpoth|major_lindsthal" source="von_hasenpoth" target="major_lindsthal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lissel|erster_fausthammer" source="lissel" target="erster_fausthammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lissel|fiskal" source="lissel" target="fiskal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lissel|zweiter_fausthammer" source="lissel" target="zweiter_fausthammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_fausthammer|fiskal" source="erster_fausthammer" target="fiskal">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_fausthammer|zweiter_fausthammer" source="erster_fausthammer" target="zweiter_fausthammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiskal|zweiter_fausthammer" source="fiskal" target="zweiter_fausthammer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fiskal|frau_marthan" source="fiskal" target="frau_marthan">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

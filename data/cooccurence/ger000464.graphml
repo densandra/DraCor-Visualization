@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="bilau">
+            <data key="label">Bilau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2306</data>
+        </node>
+        <node id="grundmann">
+            <data key="label">Grundmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1659</data>
+        </node>
+        <node id="ferdinand">
+            <data key="label">Ferdinand</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1464</data>
+        </node>
+        <node id="langers">
+            <data key="label">Langers</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3791</data>
+        </node>
+        <node id="rosalie">
+            <data key="label">Rosalie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2039</data>
+        </node>
+        <node id="julie">
+            <data key="label">Julie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">617</data>
+        </node>
+        <node id="raethin">
+            <data key="label">Räthin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">796</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="kaethe">
+            <data key="label">Käthe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1488</data>
+        </node>
+        <node id="hans">
+            <data key="label">Hans</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <edge id="bilau|grundmann" source="bilau" target="grundmann">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="bilau|ferdinand" source="bilau" target="ferdinand">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bilau|kaethe" source="bilau" target="kaethe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="bilau|langers" source="bilau" target="langers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bilau|julie" source="bilau" target="julie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bilau|rosalie" source="bilau" target="rosalie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bilau|raethin" source="bilau" target="raethin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bilau|hans" source="bilau" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grundmann|ferdinand" source="grundmann" target="ferdinand">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="grundmann|raethin" source="grundmann" target="raethin">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grundmann|rosalie" source="grundmann" target="rosalie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grundmann|julie" source="grundmann" target="julie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="grundmann|kaethe" source="grundmann" target="kaethe">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="grundmann|langers" source="grundmann" target="langers">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grundmann|hans" source="grundmann" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ferdinand|langers" source="ferdinand" target="langers">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="ferdinand|bedienter" source="ferdinand" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ferdinand|rosalie" source="ferdinand" target="rosalie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="ferdinand|raethin" source="ferdinand" target="raethin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ferdinand|julie" source="ferdinand" target="julie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ferdinand|kaethe" source="ferdinand" target="kaethe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ferdinand|hans" source="ferdinand" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="langers|bedienter" source="langers" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="langers|rosalie" source="langers" target="rosalie">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="langers|raethin" source="langers" target="raethin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="langers|julie" source="langers" target="julie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="langers|kaethe" source="langers" target="kaethe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="langers|hans" source="langers" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|julie" source="rosalie" target="julie">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="rosalie|raethin" source="rosalie" target="raethin">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="rosalie|bedienter" source="rosalie" target="bedienter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="rosalie|kaethe" source="rosalie" target="kaethe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rosalie|hans" source="rosalie" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|raethin" source="julie" target="raethin">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="julie|bedienter" source="julie" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|kaethe" source="julie" target="kaethe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="julie|hans" source="julie" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raethin|bedienter" source="raethin" target="bedienter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="raethin|kaethe" source="raethin" target="kaethe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raethin|hans" source="raethin" target="hans">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kaethe|hans" source="kaethe" target="hans">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

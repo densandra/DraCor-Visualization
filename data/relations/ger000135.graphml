@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="coelestin">
+            <data key="label">Cölestin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tatjana">
+            <data key="label">Tatjana</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fuerst">
+            <data key="label">Fürst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="katharina">
+            <data key="label">Katharina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="schwigerling">
+            <data key="label">Schwigerling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="enjuscha">
+            <data key="label">Enjuscha</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alioscha">
+            <data key="label">Alioscha</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="fuerstin">
+            <data key="label">Fürstin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kolja">
+            <data key="label">Kolja</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mitja">
+            <data key="label">Mitja</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="fuerst" target="fuerstin">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="fuerst" target="enjuscha">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="fuerstin" target="enjuscha">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="fuerst" target="alioscha">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="fuerstin" target="alioscha">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="katharina" target="fuerst">
+            <data key="relation">related_with</data>
+        </edge>
+    </graph>
+</graphml>

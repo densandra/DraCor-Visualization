@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1490</data>
+        </node>
+        <node id="gottfried">
+            <data key="label">Gottfried</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3987</data>
+        </node>
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1475</data>
+        </node>
+        <node id="spuller">
+            <data key="label">Spuller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">827</data>
+        </node>
+        <node id="goldsohn">
+            <data key="label">Goldsohn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1005</data>
+        </node>
+        <node id="doktor">
+            <data key="label">Doktor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">600</data>
+        </node>
+        <node id="stanck">
+            <data key="label">Stanck</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">787</data>
+        </node>
+        <node id="strantz">
+            <data key="label">Strantz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">948</data>
+        </node>
+        <node id="der_fremde">
+            <data key="label">Der Fremde</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">401</data>
+        </node>
+        <node id="vogt">
+            <data key="label">Vogt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">419</data>
+        </node>
+        <node id="vox_coelestis">
+            <data key="label">Vox coelestis</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="voces_de_profundis">
+            <data key="label">Voces de profundis</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">1</data>
+        </node>
+        <edge id="marie|gottfried" source="marie" target="gottfried">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marie|mutter" source="marie" target="mutter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marie|spuller" source="marie" target="spuller">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|goldsohn" source="marie" target="goldsohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|doktor" source="marie" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|stanck" source="marie" target="stanck">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|strantz" source="marie" target="strantz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|vogt" source="marie" target="vogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|vox_coelestis" source="marie" target="vox_coelestis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|voces_de_profundis" source="marie" target="voces_de_profundis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottfried|mutter" source="gottfried" target="mutter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gottfried|spuller" source="gottfried" target="spuller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gottfried|goldsohn" source="gottfried" target="goldsohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottfried|doktor" source="gottfried" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottfried|der_fremde" source="gottfried" target="der_fremde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottfried|strantz" source="gottfried" target="strantz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottfried|vogt" source="gottfried" target="vogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottfried|vox_coelestis" source="gottfried" target="vox_coelestis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottfried|voces_de_profundis" source="gottfried" target="voces_de_profundis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|spuller" source="mutter" target="spuller">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mutter|goldsohn" source="mutter" target="goldsohn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|doktor" source="mutter" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|der_fremde" source="mutter" target="der_fremde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|strantz" source="mutter" target="strantz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|vogt" source="mutter" target="vogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|vox_coelestis" source="mutter" target="vox_coelestis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mutter|voces_de_profundis" source="mutter" target="voces_de_profundis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="spuller|der_fremde" source="spuller" target="der_fremde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="goldsohn|doktor" source="goldsohn" target="doktor">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stanck|strantz" source="stanck" target="strantz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strantz|vogt" source="strantz" target="vogt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strantz|vox_coelestis" source="strantz" target="vox_coelestis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="strantz|voces_de_profundis" source="strantz" target="voces_de_profundis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vogt|vox_coelestis" source="vogt" target="vox_coelestis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vogt|voces_de_profundis" source="vogt" target="voces_de_profundis">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="vox_coelestis|voces_de_profundis" source="vox_coelestis" target="voces_de_profundis">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

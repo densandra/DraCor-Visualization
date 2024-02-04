@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="zoe">
+            <data key="label">Zoe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">919</data>
+        </node>
+        <node id="die_frau">
+            <data key="label">Die Frau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">221</data>
+        </node>
+        <node id="der_blinde">
+            <data key="label">Der Blinde</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">44</data>
+        </node>
+        <node id="pausanias">
+            <data key="label">Pausanias</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1174</data>
+        </node>
+        <node id="der_greis">
+            <data key="label">Der Greis</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">397</data>
+        </node>
+        <node id="stimmen">
+            <data key="label">Stimmen (I/3)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="apelles">
+            <data key="label">Apelles</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6939</data>
+        </node>
+        <node id="longinus">
+            <data key="label">Longinus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1376</data>
+        </node>
+        <node id="aurelius">
+            <data key="label">Aurelius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">623</data>
+        </node>
+        <node id="septimius">
+            <data key="label">Septimius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">496</data>
+        </node>
+        <node id="bolana">
+            <data key="label">Bolana</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">524</data>
+        </node>
+        <node id="sklavin">
+            <data key="label">Sklavin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">35</data>
+        </node>
+        <node id="timolaos">
+            <data key="label">Timolaos</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1481</data>
+        </node>
+        <node id="saturninus">
+            <data key="label">Saturninus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">470</data>
+        </node>
+        <node id="volk_alle_1-7">
+            <data key="label">Volk/Alle (I/7)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="erster_buerger">
+            <data key="label">Erster Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="zweiter_buerger">
+            <data key="label">Zweiter Bürger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">30</data>
+        </node>
+        <node id="volk_1-9">
+            <data key="label">Volk (I/9)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">32</data>
+        </node>
+        <node id="phoebe">
+            <data key="label">Phöbe</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1146</data>
+        </node>
+        <node id="sklave">
+            <data key="label">Sklave</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="jamlichus">
+            <data key="label">Jamlichus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">169</data>
+        </node>
+        <node id="herennianos">
+            <data key="label">Herennianos</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">973</data>
+        </node>
+        <node id="persida">
+            <data key="label">Persida</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">481</data>
+        </node>
+        <node id="tryphena">
+            <data key="label">Tryphena</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">96</data>
+        </node>
+        <node id="jarchai">
+            <data key="label">Jarchai</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">136</data>
+        </node>
+        <node id="volk_3-6">
+            <data key="label">Volk (III/6)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="ein_buerger">
+            <data key="label">Ein Bürger (III/6)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="nymphas">
+            <data key="label">Nymphas</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">816</data>
+        </node>
+        <node id="zabbaeos">
+            <data key="label">Zabbäos</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">502</data>
+        </node>
+        <node id="stimme">
+            <data key="label">Stimme (IV/6–8)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <node id="agrippa">
+            <data key="label">Agrippa</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">117</data>
+        </node>
+        <node id="maeonios">
+            <data key="label">Mäonios</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">235</data>
+        </node>
+        <node id="seleukos">
+            <data key="label">Seleukos</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">70</data>
+        </node>
+        <node id="alle_5-2">
+            <data key="label">Alle (V/2)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="zenobia">
+            <data key="label">Zenobia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">401</data>
+        </node>
+        <edge id="zoe|die_frau" source="zoe" target="die_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zoe|der_blinde" source="zoe" target="der_blinde">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zoe|pausanias" source="zoe" target="pausanias">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zoe|der_greis" source="zoe" target="der_greis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zoe|stimmen" source="zoe" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zoe|apelles" source="zoe" target="apelles">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zoe|longinus" source="zoe" target="longinus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zoe|aurelius" source="zoe" target="aurelius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zoe|septimius" source="zoe" target="septimius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zoe|erster_buerger" source="zoe" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zoe|zweiter_buerger" source="zoe" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zoe|volk_1-9" source="zoe" target="volk_1-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_frau|der_blinde" source="die_frau" target="der_blinde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_frau|pausanias" source="die_frau" target="pausanias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_blinde|pausanias" source="der_blinde" target="pausanias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pausanias|der_greis" source="pausanias" target="der_greis">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pausanias|stimmen" source="pausanias" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pausanias|apelles" source="pausanias" target="apelles">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="pausanias|longinus" source="pausanias" target="longinus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="pausanias|aurelius" source="pausanias" target="aurelius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pausanias|septimius" source="pausanias" target="septimius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pausanias|bolana" source="pausanias" target="bolana">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pausanias|erster_buerger" source="pausanias" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pausanias|zweiter_buerger" source="pausanias" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pausanias|volk_1-9" source="pausanias" target="volk_1-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pausanias|phoebe" source="pausanias" target="phoebe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pausanias|nymphas" source="pausanias" target="nymphas">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_greis|stimmen" source="der_greis" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_greis|apelles" source="der_greis" target="apelles">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="der_greis|longinus" source="der_greis" target="longinus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_greis|aurelius" source="der_greis" target="aurelius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="der_greis|septimius" source="der_greis" target="septimius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|apelles" source="stimmen" target="apelles">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apelles|longinus" source="apelles" target="longinus">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="apelles|aurelius" source="apelles" target="aurelius">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="apelles|septimius" source="apelles" target="septimius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="apelles|saturninus" source="apelles" target="saturninus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apelles|volk_alle_1-7" source="apelles" target="volk_alle_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apelles|timolaos" source="apelles" target="timolaos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="apelles|bolana" source="apelles" target="bolana">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="apelles|erster_buerger" source="apelles" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apelles|zweiter_buerger" source="apelles" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apelles|volk_1-9" source="apelles" target="volk_1-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apelles|phoebe" source="apelles" target="phoebe">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="apelles|herennianos" source="apelles" target="herennianos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="apelles|persida" source="apelles" target="persida">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="apelles|tryphena" source="apelles" target="tryphena">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="apelles|jamlichus" source="apelles" target="jamlichus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apelles|jarchai" source="apelles" target="jarchai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apelles|volk_3-6" source="apelles" target="volk_3-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apelles|ein_buerger" source="apelles" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apelles|nymphas" source="apelles" target="nymphas">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="apelles|zabbaeos" source="apelles" target="zabbaeos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="apelles|stimme" source="apelles" target="stimme">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="apelles|agrippa" source="apelles" target="agrippa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="apelles|seleukos" source="apelles" target="seleukos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apelles|maeonios" source="apelles" target="maeonios">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apelles|alle_5-2" source="apelles" target="alle_5-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="apelles|zenobia" source="apelles" target="zenobia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="longinus|aurelius" source="longinus" target="aurelius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="longinus|septimius" source="longinus" target="septimius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="longinus|saturninus" source="longinus" target="saturninus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="longinus|volk_alle_1-7" source="longinus" target="volk_alle_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="longinus|timolaos" source="longinus" target="timolaos">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="longinus|bolana" source="longinus" target="bolana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="longinus|phoebe" source="longinus" target="phoebe">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="longinus|jamlichus" source="longinus" target="jamlichus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="longinus|nymphas" source="longinus" target="nymphas">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="longinus|stimme" source="longinus" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aurelius|septimius" source="aurelius" target="septimius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="aurelius|saturninus" source="aurelius" target="saturninus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aurelius|volk_alle_1-7" source="aurelius" target="volk_alle_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aurelius|timolaos" source="aurelius" target="timolaos">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="aurelius|bolana" source="aurelius" target="bolana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aurelius|erster_buerger" source="aurelius" target="erster_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aurelius|zweiter_buerger" source="aurelius" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aurelius|volk_1-9" source="aurelius" target="volk_1-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aurelius|phoebe" source="aurelius" target="phoebe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aurelius|herennianos" source="aurelius" target="herennianos">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aurelius|persida" source="aurelius" target="persida">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aurelius|tryphena" source="aurelius" target="tryphena">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="septimius|saturninus" source="septimius" target="saturninus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="septimius|volk_alle_1-7" source="septimius" target="volk_alle_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="septimius|timolaos" source="septimius" target="timolaos">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="septimius|bolana" source="septimius" target="bolana">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="septimius|phoebe" source="septimius" target="phoebe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bolana|sklavin" source="bolana" target="sklavin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bolana|timolaos" source="bolana" target="timolaos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bolana|saturninus" source="bolana" target="saturninus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bolana|volk_alle_1-7" source="bolana" target="volk_alle_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="timolaos|saturninus" source="timolaos" target="saturninus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="timolaos|volk_alle_1-7" source="timolaos" target="volk_alle_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="timolaos|phoebe" source="timolaos" target="phoebe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="timolaos|jamlichus" source="timolaos" target="jamlichus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="saturninus|volk_alle_1-7" source="saturninus" target="volk_alle_1-7">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|zweiter_buerger" source="erster_buerger" target="zweiter_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_buerger|volk_1-9" source="erster_buerger" target="volk_1-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zweiter_buerger|volk_1-9" source="zweiter_buerger" target="volk_1-9">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="phoebe|sklave" source="phoebe" target="sklave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herennianos|persida" source="herennianos" target="persida">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="herennianos|tryphena" source="herennianos" target="tryphena">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herennianos|jarchai" source="herennianos" target="jarchai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herennianos|volk_3-6" source="herennianos" target="volk_3-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herennianos|ein_buerger" source="herennianos" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="persida|tryphena" source="persida" target="tryphena">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="persida|jarchai" source="persida" target="jarchai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="persida|volk_3-6" source="persida" target="volk_3-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="persida|ein_buerger" source="persida" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tryphena|jarchai" source="tryphena" target="jarchai">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tryphena|volk_3-6" source="tryphena" target="volk_3-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="tryphena|ein_buerger" source="tryphena" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jarchai|volk_3-6" source="jarchai" target="volk_3-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jarchai|ein_buerger" source="jarchai" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk_3-6|ein_buerger" source="volk_3-6" target="ein_buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nymphas|zabbaeos" source="nymphas" target="zabbaeos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nymphas|stimme" source="nymphas" target="stimme">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nymphas|agrippa" source="nymphas" target="agrippa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zabbaeos|stimme" source="zabbaeos" target="stimme">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zabbaeos|agrippa" source="zabbaeos" target="agrippa">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zabbaeos|maeonios" source="zabbaeos" target="maeonios">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zabbaeos|seleukos" source="zabbaeos" target="seleukos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zabbaeos|alle_5-2" source="zabbaeos" target="alle_5-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimme|agrippa" source="stimme" target="agrippa">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maeonios|seleukos" source="maeonios" target="seleukos">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maeonios|alle_5-2" source="maeonios" target="alle_5-2">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="seleukos|alle_5-2" source="seleukos" target="alle_5-2">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

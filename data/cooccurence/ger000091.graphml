@@ -1,0 +1,566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="kunrad">
+            <data key="label">Kunrad</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1699</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">96</data>
+        </node>
+        <node id="gisela">
+            <data key="label">Gisela</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1953</data>
+        </node>
+        <node id="ernst">
+            <data key="label">Ernst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2073</data>
+        </node>
+        <node id="hermann">
+            <data key="label">Hermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">11</data>
+        </node>
+        <node id="mangold">
+            <data key="label">Mangold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">781</data>
+        </node>
+        <node id="warmann">
+            <data key="label">Warmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1004</data>
+        </node>
+        <node id="die_fürsten">
+            <data key="label">Die Fürsten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="die_bischoefe">
+            <data key="label">Die Bischöfe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="hugo">
+            <data key="label">Hugo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">729</data>
+        </node>
+        <node id="odo">
+            <data key="label">Odo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">157</data>
+        </node>
+        <node id="werner">
+            <data key="label">Werner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2719</data>
+        </node>
+        <node id="pilger">
+            <data key="label">Pilger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">165</data>
+        </node>
+        <node id="adalbert">
+            <data key="label">Adalbert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1539</data>
+        </node>
+        <node id="warin">
+            <data key="label">Warin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">435</data>
+        </node>
+        <node id="wache">
+            <data key="label">Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">26</data>
+        </node>
+        <node id="kriegsleute">
+            <data key="label">Kriegsleute</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">14</data>
+        </node>
+        <node id="ein_kriegsmann">
+            <data key="label">Ein Kriegsmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="andrer_kriegsmann">
+            <data key="label">Andrer Kriegsmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <node id="dritter_kriegsmann">
+            <data key="label">Dritter Kriegsmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">42</data>
+        </node>
+        <node id="ein_ritter">
+            <data key="label">Ein Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <edge id="kunrad|heinrich" source="kunrad" target="heinrich">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kunrad|gisela" source="kunrad" target="gisela">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kunrad|ernst" source="kunrad" target="ernst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kunrad|hermann" source="kunrad" target="hermann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunrad|mangold" source="kunrad" target="mangold">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kunrad|warmann" source="kunrad" target="warmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kunrad|die_fürsten" source="kunrad" target="die_fürsten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunrad|die_bischoefe" source="kunrad" target="die_bischoefe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunrad|hugo" source="kunrad" target="hugo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kunrad|pilger" source="kunrad" target="pilger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunrad|adalbert" source="kunrad" target="adalbert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kunrad|wache" source="kunrad" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunrad|werner" source="kunrad" target="werner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunrad|warin" source="kunrad" target="warin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunrad|kriegsleute" source="kunrad" target="kriegsleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunrad|ein_kriegsmann" source="kunrad" target="ein_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunrad|andrer_kriegsmann" source="kunrad" target="andrer_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunrad|dritter_kriegsmann" source="kunrad" target="dritter_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunrad|ein_ritter" source="kunrad" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|gisela" source="heinrich" target="gisela">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich|ernst" source="heinrich" target="ernst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heinrich|hermann" source="heinrich" target="hermann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|mangold" source="heinrich" target="mangold">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|warmann" source="heinrich" target="warmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|wache" source="heinrich" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|werner" source="heinrich" target="werner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|adalbert" source="heinrich" target="adalbert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|warin" source="heinrich" target="warin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|kriegsleute" source="heinrich" target="kriegsleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|ein_kriegsmann" source="heinrich" target="ein_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|andrer_kriegsmann" source="heinrich" target="andrer_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|dritter_kriegsmann" source="heinrich" target="dritter_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|ein_ritter" source="heinrich" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heinrich|hugo" source="heinrich" target="hugo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gisela|ernst" source="gisela" target="ernst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gisela|hermann" source="gisela" target="hermann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gisela|mangold" source="gisela" target="mangold">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gisela|warmann" source="gisela" target="warmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gisela|die_fürsten" source="gisela" target="die_fürsten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gisela|die_bischoefe" source="gisela" target="die_bischoefe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gisela|hugo" source="gisela" target="hugo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gisela|pilger" source="gisela" target="pilger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gisela|adalbert" source="gisela" target="adalbert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gisela|wache" source="gisela" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gisela|werner" source="gisela" target="werner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gisela|warin" source="gisela" target="warin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gisela|kriegsleute" source="gisela" target="kriegsleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gisela|ein_kriegsmann" source="gisela" target="ein_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gisela|andrer_kriegsmann" source="gisela" target="andrer_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gisela|dritter_kriegsmann" source="gisela" target="dritter_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gisela|ein_ritter" source="gisela" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|hermann" source="ernst" target="hermann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|mangold" source="ernst" target="mangold">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernst|warmann" source="ernst" target="warmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernst|die_fürsten" source="ernst" target="die_fürsten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|die_bischoefe" source="ernst" target="die_bischoefe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|hugo" source="ernst" target="hugo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernst|odo" source="ernst" target="odo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|werner" source="ernst" target="werner">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="ernst|adalbert" source="ernst" target="adalbert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ernst|warin" source="ernst" target="warin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="ernst|kriegsleute" source="ernst" target="kriegsleute">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ernst|wache" source="ernst" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|ein_kriegsmann" source="ernst" target="ein_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|andrer_kriegsmann" source="ernst" target="andrer_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|dritter_kriegsmann" source="ernst" target="dritter_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ernst|ein_ritter" source="ernst" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mangold|warmann" source="mangold" target="warmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mangold|die_fürsten" source="mangold" target="die_fürsten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mangold|die_bischoefe" source="mangold" target="die_bischoefe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mangold|hugo" source="mangold" target="hugo">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mangold|pilger" source="mangold" target="pilger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mangold|adalbert" source="mangold" target="adalbert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mangold|wache" source="mangold" target="wache">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mangold|werner" source="mangold" target="werner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mangold|warin" source="mangold" target="warin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mangold|kriegsleute" source="mangold" target="kriegsleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mangold|ein_kriegsmann" source="mangold" target="ein_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mangold|andrer_kriegsmann" source="mangold" target="andrer_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mangold|dritter_kriegsmann" source="mangold" target="dritter_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mangold|ein_ritter" source="mangold" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warmann|die_fürsten" source="warmann" target="die_fürsten">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warmann|die_bischoefe" source="warmann" target="die_bischoefe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warmann|wache" source="warmann" target="wache">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="warmann|werner" source="warmann" target="werner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="warmann|adalbert" source="warmann" target="adalbert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warmann|warin" source="warmann" target="warin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warmann|kriegsleute" source="warmann" target="kriegsleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warmann|ein_kriegsmann" source="warmann" target="ein_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warmann|andrer_kriegsmann" source="warmann" target="andrer_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warmann|dritter_kriegsmann" source="warmann" target="dritter_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warmann|ein_ritter" source="warmann" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warmann|hugo" source="warmann" target="hugo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_fürsten|die_bischoefe" source="die_fürsten" target="die_bischoefe">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|odo" source="hugo" target="odo">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|werner" source="hugo" target="werner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hugo|pilger" source="hugo" target="pilger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|adalbert" source="hugo" target="adalbert">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hugo|wache" source="hugo" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|warin" source="hugo" target="warin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|kriegsleute" source="hugo" target="kriegsleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|ein_kriegsmann" source="hugo" target="ein_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|andrer_kriegsmann" source="hugo" target="andrer_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|dritter_kriegsmann" source="hugo" target="dritter_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hugo|ein_ritter" source="hugo" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="odo|werner" source="odo" target="werner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|adalbert" source="werner" target="adalbert">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="werner|warin" source="werner" target="warin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="werner|wache" source="werner" target="wache">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="werner|kriegsleute" source="werner" target="kriegsleute">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="werner|ein_kriegsmann" source="werner" target="ein_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|andrer_kriegsmann" source="werner" target="andrer_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|dritter_kriegsmann" source="werner" target="dritter_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="werner|ein_ritter" source="werner" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pilger|adalbert" source="pilger" target="adalbert">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adalbert|warin" source="adalbert" target="warin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="adalbert|kriegsleute" source="adalbert" target="kriegsleute">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="adalbert|wache" source="adalbert" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adalbert|ein_kriegsmann" source="adalbert" target="ein_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adalbert|andrer_kriegsmann" source="adalbert" target="andrer_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adalbert|dritter_kriegsmann" source="adalbert" target="dritter_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="adalbert|ein_ritter" source="adalbert" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warin|kriegsleute" source="warin" target="kriegsleute">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="warin|wache" source="warin" target="wache">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warin|ein_kriegsmann" source="warin" target="ein_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warin|andrer_kriegsmann" source="warin" target="andrer_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warin|dritter_kriegsmann" source="warin" target="dritter_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="warin|ein_ritter" source="warin" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wache|kriegsleute" source="wache" target="kriegsleute">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wache|ein_kriegsmann" source="wache" target="ein_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wache|andrer_kriegsmann" source="wache" target="andrer_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wache|dritter_kriegsmann" source="wache" target="dritter_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wache|ein_ritter" source="wache" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kriegsleute|ein_kriegsmann" source="kriegsleute" target="ein_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kriegsleute|andrer_kriegsmann" source="kriegsleute" target="andrer_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kriegsleute|dritter_kriegsmann" source="kriegsleute" target="dritter_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kriegsleute|ein_ritter" source="kriegsleute" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_kriegsmann|andrer_kriegsmann" source="ein_kriegsmann" target="andrer_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_kriegsmann|dritter_kriegsmann" source="ein_kriegsmann" target="dritter_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_kriegsmann|ein_ritter" source="ein_kriegsmann" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andrer_kriegsmann|dritter_kriegsmann" source="andrer_kriegsmann" target="dritter_kriegsmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="andrer_kriegsmann|ein_ritter" source="andrer_kriegsmann" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dritter_kriegsmann|ein_ritter" source="dritter_kriegsmann" target="ein_ritter">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

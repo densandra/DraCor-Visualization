@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="kunrad">
+            <data key="label">Kunrad</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="heinrich">
+            <data key="label">Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gisela">
+            <data key="label">Gisela</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ernst">
+            <data key="label">Ernst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hermann">
+            <data key="label">Hermann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mangold">
+            <data key="label">Mangold</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="warmann">
+            <data key="label">Warmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_fürsten">
+            <data key="label">Die Fürsten</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_bischoefe">
+            <data key="label">Die Bischöfe</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="hugo">
+            <data key="label">Hugo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="odo">
+            <data key="label">Odo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="werner">
+            <data key="label">Werner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pilger">
+            <data key="label">Pilger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="adalbert">
+            <data key="label">Adalbert</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="warin">
+            <data key="label">Warin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wache">
+            <data key="label">Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kriegsleute">
+            <data key="label">Kriegsleute</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ein_kriegsmann">
+            <data key="label">Ein Kriegsmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="andrer_kriegsmann">
+            <data key="label">Andrer Kriegsmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dritter_kriegsmann">
+            <data key="label">Dritter Kriegsmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_ritter">
+            <data key="label">Ein Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="gisela" target="kunrad">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="kunrad" target="heinrich">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="gisela" target="heinrich">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="gisela" target="ernst">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="gisela" target="hermann">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

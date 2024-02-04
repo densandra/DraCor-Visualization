@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="sidney">
+            <data key="label">Sidney</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">922</data>
+        </node>
+        <node id="lady_johanna">
+            <data key="label">Lady Johanna Gray</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">5682</data>
+        </node>
+        <node id="guilford">
+            <data key="label">Lord Guilford</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2729</data>
+        </node>
+        <node id="der_officier">
+            <data key="label">Der Officier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">18</data>
+        </node>
+        <node id="northumberland">
+            <data key="label">Northumberland</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1097</data>
+        </node>
+        <node id="lady_suffolk">
+            <data key="label">Lady Suffolk</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1347</data>
+        </node>
+        <node id="suffolk">
+            <data key="label">Suffolk</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1042</data>
+        </node>
+        <node id="gardiner">
+            <data key="label">Gardiner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1174</data>
+        </node>
+        <edge id="sidney|lady_johanna" source="sidney" target="lady_johanna">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="sidney|lady_suffolk" source="sidney" target="lady_suffolk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lady_johanna|guilford" source="lady_johanna" target="guilford">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="lady_johanna|der_officier" source="lady_johanna" target="der_officier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lady_johanna|northumberland" source="lady_johanna" target="northumberland">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lady_johanna|lady_suffolk" source="lady_johanna" target="lady_suffolk">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lady_johanna|suffolk" source="lady_johanna" target="suffolk">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="lady_johanna|gardiner" source="lady_johanna" target="gardiner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="guilford|der_officier" source="guilford" target="der_officier">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="guilford|suffolk" source="guilford" target="suffolk">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="guilford|northumberland" source="guilford" target="northumberland">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="guilford|lady_suffolk" source="guilford" target="lady_suffolk">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="guilford|gardiner" source="guilford" target="gardiner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="der_officier|lady_suffolk" source="der_officier" target="lady_suffolk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="northumberland|suffolk" source="northumberland" target="suffolk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="northumberland|lady_suffolk" source="northumberland" target="lady_suffolk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lady_suffolk|suffolk" source="lady_suffolk" target="suffolk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lady_suffolk|gardiner" source="lady_suffolk" target="gardiner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="suffolk|gardiner" source="suffolk" target="gardiner">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

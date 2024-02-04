@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="gretel">
+            <data key="label">Gretel</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="haensel">
+            <data key="label">Hänsel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="mutter">
+            <data key="label">Mutter</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vater">
+            <data key="label">Vater</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="echo">
+            <data key="label">Echo</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sandmaennchen">
+            <data key="label">Sandmännchen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="taumaennchen">
+            <data key="label">Taumännchen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hexe">
+            <data key="label">Hexe/Stimme aus dem Häuschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_kuchenkinder">
+            <data key="label">Die Kuchenkinder</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="mutter" target="vater">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="vater" target="haensel">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="vater" target="gretel">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="mutter" target="haensel">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="mutter" target="gretel">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="castellan">
+            <data key="label">Castellan</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">369</data>
+        </node>
+        <node id="said">
+            <data key="label">Said</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2048</data>
+        </node>
+        <node id="ein_diener">
+            <data key="label">Ein Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="arias">
+            <data key="label">Arias</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">453</data>
+        </node>
+        <node id="das_kind">
+            <data key="label">Das Kind</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">31</data>
+        </node>
+        <node id="flora">
+            <data key="label">Flora</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">466</data>
+        </node>
+        <node id="diego">
+            <data key="label">Diego</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">41</data>
+        </node>
+        <edge id="castellan|said" source="castellan" target="said">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="castellan|ein_diener" source="castellan" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="castellan|arias" source="castellan" target="arias">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="said|ein_diener" source="said" target="ein_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="said|arias" source="said" target="arias">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="said|flora" source="said" target="flora">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="said|das_kind" source="said" target="das_kind">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="arias|flora" source="arias" target="flora">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="arias|das_kind" source="arias" target="das_kind">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_kind|flora" source="das_kind" target="flora">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="das_kind|diego" source="das_kind" target="diego">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flora|diego" source="flora" target="diego">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

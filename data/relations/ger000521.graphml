@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="frau_hergentheim">
+            <data key="label">Frau Hergentheim</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="laura">
+            <data key="label">Laura</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="kessler">
+            <data key="label">Keßler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wilhelm">
+            <data key="label">Wilhelm</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="rosi">
+            <data key="label">Rosi</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="else">
+            <data key="label">Else</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="winkelmann">
+            <data key="label">Winkelmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="max">
+            <data key="label">Max</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="comptoirdiener">
+            <data key="label">Comptoirdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="dr_kosinski">
+            <data key="label">Dr. Kosinski</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="frau_hergentheim" target="else">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="frau_hergentheim" target="laura">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="3" directed="false" source="frau_hergentheim" target="rosi">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="wilhelm" target="frau_hergentheim">
+            <data key="relation">related_with</data>
+        </edge>
+        <edge id="5" directed="false" source="winkelmann" target="max">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="6" directed="false" source="kessler" target="winkelmann">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,1808 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="fischer">
+            <data key="label">Fischer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">624</data>
+        </node>
+        <node id="mueller">
+            <data key="label">Müller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">573</data>
+        </node>
+        <node id="schlosser">
+            <data key="label">Schlosser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">914</data>
+        </node>
+        <node id="leutner">
+            <data key="label">Leutner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">453</data>
+        </node>
+        <node id="stimmen">
+            <data key="label">Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="boetticher">
+            <data key="label">Bötticher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1298</data>
+        </node>
+        <node id="wiesener">
+            <data key="label">Wiesener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">195</data>
+        </node>
+        <node id="alle_prolog">
+            <data key="label">Alle (Prolog)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">23</data>
+        </node>
+        <node id="lampenputzer">
+            <data key="label">Lampenputzer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="dichter">
+            <data key="label">Dichter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">876</data>
+        </node>
+        <node id="nachbar">
+            <data key="label">Nachbar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">113</data>
+        </node>
+        <node id="stimme_von_der_galerie">
+            <data key="label">Stimme von der Galerie</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2</data>
+        </node>
+        <node id="lorenz">
+            <data key="label">Lorenz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">178</data>
+        </node>
+        <node id="barthel">
+            <data key="label">Barthel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">25</data>
+        </node>
+        <node id="gottlieb">
+            <data key="label">Gottlieb</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">879</data>
+        </node>
+        <node id="hinze">
+            <data key="label">Hinze</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2434</data>
+        </node>
+        <node id="die_kunstrichter">
+            <data key="label">Die Kunstrichter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="schuhmacher">
+            <data key="label">Schuhmacher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">61</data>
+        </node>
+        <node id="koenig">
+            <data key="label">König</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2964</data>
+        </node>
+        <node id="prinzessin">
+            <data key="label">Prinzessin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">398</data>
+        </node>
+        <node id="leander">
+            <data key="label">Leander</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">761</data>
+        </node>
+        <node id="kammerdiener">
+            <data key="label">Kammerdiener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">112</data>
+        </node>
+        <node id="nathanael">
+            <data key="label">Nathanael</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">187</data>
+        </node>
+        <node id="wirt">
+            <data key="label">Wirt</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">633</data>
+        </node>
+        <node id="kunz">
+            <data key="label">Kunz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">170</data>
+        </node>
+        <node id="michel">
+            <data key="label">Michel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">19</data>
+        </node>
+        <node id="soldat">
+            <data key="label">Soldat</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">38</data>
+        </node>
+        <node id="erster_husar">
+            <data key="label">Erster Husar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="zweiter_husar">
+            <data key="label">Zweiter Husar</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">37</data>
+        </node>
+        <node id="er">
+            <data key="label">Er</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">205</data>
+        </node>
+        <node id="sie">
+            <data key="label">Sie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">122</data>
+        </node>
+        <node id="koch">
+            <data key="label">Koch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">65</data>
+        </node>
+        <node id="historiograph">
+            <data key="label">Historiograph</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="ein_bedienter">
+            <data key="label">Ein Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">43</data>
+        </node>
+        <node id="hanswurst">
+            <data key="label">Hanswurst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1367</data>
+        </node>
+        <node id="ein_hofmann">
+            <data key="label">Ein Hofmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="das_parterre">
+            <data key="label">Das Parterre</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="alle_2-4">
+            <data key="label">Alle (II/4)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="die_vierfuessigen">
+            <data key="label">Die Vierfüßigen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="die_voegel">
+            <data key="label">Die Vögel</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">12</data>
+        </node>
+        <node id="besaenftiger">
+            <data key="label">Der Besänftiger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">95</data>
+        </node>
+        <node id="maschinist">
+            <data key="label">Maschinist</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">53</data>
+        </node>
+        <node id="bauer">
+            <data key="label">Bauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="popanz">
+            <data key="label">Popanz</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">145</data>
+        </node>
+        <node id="amtmann">
+            <data key="label">Amtmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">73</data>
+        </node>
+        <node id="alle_epilog">
+            <data key="label">Alle (Epilog)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="hinter_dem_vorhange">
+            <data key="label">Hinter dem Vorhange</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="souffleur">
+            <data key="label">Souffleur</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">20</data>
+        </node>
+        <edge id="fischer|mueller" source="fischer" target="mueller">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="fischer|schlosser" source="fischer" target="schlosser">
+            <data key="weight">14</data>
+        </edge>
+        <edge id="fischer|leutner" source="fischer" target="leutner">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="fischer|stimmen" source="fischer" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|boetticher" source="fischer" target="boetticher">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="fischer|wiesener" source="fischer" target="wiesener">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="fischer|alle_prolog" source="fischer" target="alle_prolog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|lampenputzer" source="fischer" target="lampenputzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|dichter" source="fischer" target="dichter">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fischer|nachbar" source="fischer" target="nachbar">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="fischer|stimme_von_der_galerie" source="fischer" target="stimme_von_der_galerie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|lorenz" source="fischer" target="lorenz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|barthel" source="fischer" target="barthel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|gottlieb" source="fischer" target="gottlieb">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fischer|hinze" source="fischer" target="hinze">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="fischer|die_kunstrichter" source="fischer" target="die_kunstrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|schuhmacher" source="fischer" target="schuhmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|koenig" source="fischer" target="koenig">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="fischer|prinzessin" source="fischer" target="prinzessin">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="fischer|leander" source="fischer" target="leander">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="fischer|kammerdiener" source="fischer" target="kammerdiener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fischer|nathanael" source="fischer" target="nathanael">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fischer|er" source="fischer" target="er">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fischer|sie" source="fischer" target="sie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fischer|koch" source="fischer" target="koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|historiograph" source="fischer" target="historiograph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|ein_bedienter" source="fischer" target="ein_bedienter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fischer|hanswurst" source="fischer" target="hanswurst">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fischer|ein_hofmann" source="fischer" target="ein_hofmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|das_parterre" source="fischer" target="das_parterre">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fischer|alle_2-4" source="fischer" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|die_vierfuessigen" source="fischer" target="die_vierfuessigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|die_voegel" source="fischer" target="die_voegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|besaenftiger" source="fischer" target="besaenftiger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="fischer|maschinist" source="fischer" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|wirt" source="fischer" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|kunz" source="fischer" target="kunz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fischer|bauer" source="fischer" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fischer|popanz" source="fischer" target="popanz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fischer|amtmann" source="fischer" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fischer|alle_epilog" source="fischer" target="alle_epilog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|hinter_dem_vorhange" source="fischer" target="hinter_dem_vorhange">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="fischer|souffleur" source="fischer" target="souffleur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|schlosser" source="mueller" target="schlosser">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="mueller|leutner" source="mueller" target="leutner">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="mueller|stimmen" source="mueller" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|boetticher" source="mueller" target="boetticher">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="mueller|wiesener" source="mueller" target="wiesener">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="mueller|alle_prolog" source="mueller" target="alle_prolog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|lampenputzer" source="mueller" target="lampenputzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|dichter" source="mueller" target="dichter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mueller|nachbar" source="mueller" target="nachbar">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="mueller|stimme_von_der_galerie" source="mueller" target="stimme_von_der_galerie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|lorenz" source="mueller" target="lorenz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|barthel" source="mueller" target="barthel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|gottlieb" source="mueller" target="gottlieb">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="mueller|hinze" source="mueller" target="hinze">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="mueller|die_kunstrichter" source="mueller" target="die_kunstrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|schuhmacher" source="mueller" target="schuhmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|koenig" source="mueller" target="koenig">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="mueller|prinzessin" source="mueller" target="prinzessin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mueller|leander" source="mueller" target="leander">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="mueller|kammerdiener" source="mueller" target="kammerdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|nathanael" source="mueller" target="nathanael">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|er" source="mueller" target="er">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mueller|sie" source="mueller" target="sie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mueller|maschinist" source="mueller" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|hanswurst" source="mueller" target="hanswurst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="mueller|das_parterre" source="mueller" target="das_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|wirt" source="mueller" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|kunz" source="mueller" target="kunz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|ein_bedienter" source="mueller" target="ein_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|bauer" source="mueller" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mueller|popanz" source="mueller" target="popanz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mueller|amtmann" source="mueller" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mueller|besaenftiger" source="mueller" target="besaenftiger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="mueller|alle_epilog" source="mueller" target="alle_epilog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|hinter_dem_vorhange" source="mueller" target="hinter_dem_vorhange">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="mueller|souffleur" source="mueller" target="souffleur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|leutner" source="schlosser" target="leutner">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="schlosser|stimmen" source="schlosser" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|boetticher" source="schlosser" target="boetticher">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="schlosser|wiesener" source="schlosser" target="wiesener">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="schlosser|alle_prolog" source="schlosser" target="alle_prolog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|lampenputzer" source="schlosser" target="lampenputzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|dichter" source="schlosser" target="dichter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schlosser|nachbar" source="schlosser" target="nachbar">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="schlosser|stimme_von_der_galerie" source="schlosser" target="stimme_von_der_galerie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|lorenz" source="schlosser" target="lorenz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|barthel" source="schlosser" target="barthel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|gottlieb" source="schlosser" target="gottlieb">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="schlosser|hinze" source="schlosser" target="hinze">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="schlosser|die_kunstrichter" source="schlosser" target="die_kunstrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|schuhmacher" source="schlosser" target="schuhmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|koenig" source="schlosser" target="koenig">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="schlosser|prinzessin" source="schlosser" target="prinzessin">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="schlosser|leander" source="schlosser" target="leander">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="schlosser|kammerdiener" source="schlosser" target="kammerdiener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schlosser|nathanael" source="schlosser" target="nathanael">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schlosser|er" source="schlosser" target="er">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schlosser|sie" source="schlosser" target="sie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schlosser|koch" source="schlosser" target="koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|historiograph" source="schlosser" target="historiograph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|maschinist" source="schlosser" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|hanswurst" source="schlosser" target="hanswurst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schlosser|das_parterre" source="schlosser" target="das_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|wirt" source="schlosser" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|kunz" source="schlosser" target="kunz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schlosser|ein_bedienter" source="schlosser" target="ein_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|bauer" source="schlosser" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schlosser|popanz" source="schlosser" target="popanz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schlosser|amtmann" source="schlosser" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schlosser|besaenftiger" source="schlosser" target="besaenftiger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="schlosser|alle_epilog" source="schlosser" target="alle_epilog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|hinter_dem_vorhange" source="schlosser" target="hinter_dem_vorhange">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schlosser|souffleur" source="schlosser" target="souffleur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|stimmen" source="leutner" target="stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|boetticher" source="leutner" target="boetticher">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="leutner|wiesener" source="leutner" target="wiesener">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="leutner|alle_prolog" source="leutner" target="alle_prolog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|lampenputzer" source="leutner" target="lampenputzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|dichter" source="leutner" target="dichter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leutner|nachbar" source="leutner" target="nachbar">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="leutner|stimme_von_der_galerie" source="leutner" target="stimme_von_der_galerie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|lorenz" source="leutner" target="lorenz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|barthel" source="leutner" target="barthel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|gottlieb" source="leutner" target="gottlieb">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="leutner|hinze" source="leutner" target="hinze">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="leutner|die_kunstrichter" source="leutner" target="die_kunstrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|schuhmacher" source="leutner" target="schuhmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|koenig" source="leutner" target="koenig">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="leutner|prinzessin" source="leutner" target="prinzessin">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="leutner|leander" source="leutner" target="leander">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="leutner|kammerdiener" source="leutner" target="kammerdiener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leutner|nathanael" source="leutner" target="nathanael">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leutner|er" source="leutner" target="er">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leutner|sie" source="leutner" target="sie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leutner|koch" source="leutner" target="koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|historiograph" source="leutner" target="historiograph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|maschinist" source="leutner" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|hanswurst" source="leutner" target="hanswurst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leutner|das_parterre" source="leutner" target="das_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|wirt" source="leutner" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|kunz" source="leutner" target="kunz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|ein_bedienter" source="leutner" target="ein_bedienter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leutner|bauer" source="leutner" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leutner|popanz" source="leutner" target="popanz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leutner|amtmann" source="leutner" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leutner|besaenftiger" source="leutner" target="besaenftiger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leutner|alle_epilog" source="leutner" target="alle_epilog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|hinter_dem_vorhange" source="leutner" target="hinter_dem_vorhange">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leutner|souffleur" source="leutner" target="souffleur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|boetticher" source="stimmen" target="boetticher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|wiesener" source="stimmen" target="wiesener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|alle_prolog" source="stimmen" target="alle_prolog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|lampenputzer" source="stimmen" target="lampenputzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|dichter" source="stimmen" target="dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|nachbar" source="stimmen" target="nachbar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="stimmen|stimme_von_der_galerie" source="stimmen" target="stimme_von_der_galerie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boetticher|wiesener" source="boetticher" target="wiesener">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="boetticher|alle_prolog" source="boetticher" target="alle_prolog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boetticher|lampenputzer" source="boetticher" target="lampenputzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boetticher|dichter" source="boetticher" target="dichter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="boetticher|nachbar" source="boetticher" target="nachbar">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="boetticher|stimme_von_der_galerie" source="boetticher" target="stimme_von_der_galerie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boetticher|maschinist" source="boetticher" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boetticher|koenig" source="boetticher" target="koenig">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="boetticher|hanswurst" source="boetticher" target="hanswurst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="boetticher|das_parterre" source="boetticher" target="das_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boetticher|gottlieb" source="boetticher" target="gottlieb">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="boetticher|hinze" source="boetticher" target="hinze">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="boetticher|er" source="boetticher" target="er">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="boetticher|sie" source="boetticher" target="sie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="boetticher|prinzessin" source="boetticher" target="prinzessin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="boetticher|leander" source="boetticher" target="leander">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="boetticher|wirt" source="boetticher" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boetticher|kunz" source="boetticher" target="kunz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boetticher|ein_bedienter" source="boetticher" target="ein_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boetticher|bauer" source="boetticher" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="boetticher|popanz" source="boetticher" target="popanz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="boetticher|amtmann" source="boetticher" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="boetticher|besaenftiger" source="boetticher" target="besaenftiger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="boetticher|alle_epilog" source="boetticher" target="alle_epilog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boetticher|hinter_dem_vorhange" source="boetticher" target="hinter_dem_vorhange">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="boetticher|souffleur" source="boetticher" target="souffleur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiesener|alle_prolog" source="wiesener" target="alle_prolog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiesener|lampenputzer" source="wiesener" target="lampenputzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiesener|dichter" source="wiesener" target="dichter">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wiesener|nachbar" source="wiesener" target="nachbar">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="wiesener|stimme_von_der_galerie" source="wiesener" target="stimme_von_der_galerie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiesener|hinze" source="wiesener" target="hinze">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="wiesener|er" source="wiesener" target="er">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wiesener|sie" source="wiesener" target="sie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wiesener|koenig" source="wiesener" target="koenig">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wiesener|ein_bedienter" source="wiesener" target="ein_bedienter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wiesener|hanswurst" source="wiesener" target="hanswurst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wiesener|leander" source="wiesener" target="leander">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wiesener|prinzessin" source="wiesener" target="prinzessin">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wiesener|ein_hofmann" source="wiesener" target="ein_hofmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiesener|das_parterre" source="wiesener" target="das_parterre">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wiesener|alle_2-4" source="wiesener" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiesener|die_vierfuessigen" source="wiesener" target="die_vierfuessigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiesener|die_voegel" source="wiesener" target="die_voegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiesener|besaenftiger" source="wiesener" target="besaenftiger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="wiesener|maschinist" source="wiesener" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiesener|gottlieb" source="wiesener" target="gottlieb">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wiesener|wirt" source="wiesener" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiesener|kunz" source="wiesener" target="kunz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wiesener|bauer" source="wiesener" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wiesener|popanz" source="wiesener" target="popanz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wiesener|amtmann" source="wiesener" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alle_prolog|lampenputzer" source="alle_prolog" target="lampenputzer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_prolog|dichter" source="alle_prolog" target="dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_prolog|nachbar" source="alle_prolog" target="nachbar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_prolog|stimme_von_der_galerie" source="alle_prolog" target="stimme_von_der_galerie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lampenputzer|dichter" source="lampenputzer" target="dichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lampenputzer|nachbar" source="lampenputzer" target="nachbar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lampenputzer|stimme_von_der_galerie" source="lampenputzer" target="stimme_von_der_galerie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dichter|nachbar" source="dichter" target="nachbar">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dichter|stimme_von_der_galerie" source="dichter" target="stimme_von_der_galerie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dichter|koenig" source="dichter" target="koenig">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="dichter|ein_bedienter" source="dichter" target="ein_bedienter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dichter|hanswurst" source="dichter" target="hanswurst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dichter|hinze" source="dichter" target="hinze">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dichter|leander" source="dichter" target="leander">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dichter|prinzessin" source="dichter" target="prinzessin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dichter|ein_hofmann" source="dichter" target="ein_hofmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dichter|das_parterre" source="dichter" target="das_parterre">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dichter|alle_2-4" source="dichter" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dichter|die_vierfuessigen" source="dichter" target="die_vierfuessigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dichter|die_voegel" source="dichter" target="die_voegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dichter|besaenftiger" source="dichter" target="besaenftiger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="dichter|maschinist" source="dichter" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dichter|gottlieb" source="dichter" target="gottlieb">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dichter|er" source="dichter" target="er">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dichter|sie" source="dichter" target="sie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dichter|wirt" source="dichter" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dichter|kunz" source="dichter" target="kunz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dichter|bauer" source="dichter" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dichter|popanz" source="dichter" target="popanz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dichter|amtmann" source="dichter" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="dichter|alle_epilog" source="dichter" target="alle_epilog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dichter|hinter_dem_vorhange" source="dichter" target="hinter_dem_vorhange">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dichter|souffleur" source="dichter" target="souffleur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachbar|stimme_von_der_galerie" source="nachbar" target="stimme_von_der_galerie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachbar|hinze" source="nachbar" target="hinze">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="nachbar|er" source="nachbar" target="er">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nachbar|sie" source="nachbar" target="sie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nachbar|koenig" source="nachbar" target="koenig">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nachbar|ein_bedienter" source="nachbar" target="ein_bedienter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nachbar|hanswurst" source="nachbar" target="hanswurst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nachbar|leander" source="nachbar" target="leander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nachbar|prinzessin" source="nachbar" target="prinzessin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nachbar|ein_hofmann" source="nachbar" target="ein_hofmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachbar|das_parterre" source="nachbar" target="das_parterre">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nachbar|alle_2-4" source="nachbar" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachbar|die_vierfuessigen" source="nachbar" target="die_vierfuessigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachbar|die_voegel" source="nachbar" target="die_voegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachbar|besaenftiger" source="nachbar" target="besaenftiger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nachbar|maschinist" source="nachbar" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachbar|gottlieb" source="nachbar" target="gottlieb">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nachbar|wirt" source="nachbar" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachbar|kunz" source="nachbar" target="kunz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachbar|bauer" source="nachbar" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachbar|popanz" source="nachbar" target="popanz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nachbar|amtmann" source="nachbar" target="amtmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|barthel" source="lorenz" target="barthel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|gottlieb" source="lorenz" target="gottlieb">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|hinze" source="lorenz" target="hinze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|die_kunstrichter" source="lorenz" target="die_kunstrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|schuhmacher" source="lorenz" target="schuhmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|wirt" source="lorenz" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|kunz" source="lorenz" target="kunz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|michel" source="lorenz" target="michel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|soldat" source="lorenz" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|erster_husar" source="lorenz" target="erster_husar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lorenz|zweiter_husar" source="lorenz" target="zweiter_husar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barthel|gottlieb" source="barthel" target="gottlieb">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barthel|hinze" source="barthel" target="hinze">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barthel|die_kunstrichter" source="barthel" target="die_kunstrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="barthel|schuhmacher" source="barthel" target="schuhmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottlieb|hinze" source="gottlieb" target="hinze">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="gottlieb|die_kunstrichter" source="gottlieb" target="die_kunstrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottlieb|schuhmacher" source="gottlieb" target="schuhmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottlieb|maschinist" source="gottlieb" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottlieb|koenig" source="gottlieb" target="koenig">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gottlieb|hanswurst" source="gottlieb" target="hanswurst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottlieb|das_parterre" source="gottlieb" target="das_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottlieb|er" source="gottlieb" target="er">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottlieb|sie" source="gottlieb" target="sie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottlieb|prinzessin" source="gottlieb" target="prinzessin">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gottlieb|leander" source="gottlieb" target="leander">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gottlieb|wirt" source="gottlieb" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottlieb|kunz" source="gottlieb" target="kunz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gottlieb|ein_bedienter" source="gottlieb" target="ein_bedienter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gottlieb|bauer" source="gottlieb" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gottlieb|popanz" source="gottlieb" target="popanz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gottlieb|amtmann" source="gottlieb" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gottlieb|besaenftiger" source="gottlieb" target="besaenftiger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hinze|die_kunstrichter" source="hinze" target="die_kunstrichter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hinze|schuhmacher" source="hinze" target="schuhmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hinze|er" source="hinze" target="er">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hinze|sie" source="hinze" target="sie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hinze|koenig" source="hinze" target="koenig">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="hinze|koch" source="hinze" target="koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hinze|prinzessin" source="hinze" target="prinzessin">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="hinze|kammerdiener" source="hinze" target="kammerdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hinze|nathanael" source="hinze" target="nathanael">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hinze|historiograph" source="hinze" target="historiograph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hinze|ein_bedienter" source="hinze" target="ein_bedienter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hinze|hanswurst" source="hinze" target="hanswurst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hinze|leander" source="hinze" target="leander">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="hinze|ein_hofmann" source="hinze" target="ein_hofmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hinze|das_parterre" source="hinze" target="das_parterre">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hinze|alle_2-4" source="hinze" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hinze|die_vierfuessigen" source="hinze" target="die_vierfuessigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hinze|die_voegel" source="hinze" target="die_voegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hinze|besaenftiger" source="hinze" target="besaenftiger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hinze|maschinist" source="hinze" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hinze|wirt" source="hinze" target="wirt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hinze|kunz" source="hinze" target="kunz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hinze|bauer" source="hinze" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hinze|popanz" source="hinze" target="popanz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hinze|amtmann" source="hinze" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="die_kunstrichter|schuhmacher" source="die_kunstrichter" target="schuhmacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|prinzessin" source="koenig" target="prinzessin">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="koenig|leander" source="koenig" target="leander">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="koenig|kammerdiener" source="koenig" target="kammerdiener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig|nathanael" source="koenig" target="nathanael">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig|koch" source="koenig" target="koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|historiograph" source="koenig" target="historiograph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|ein_bedienter" source="koenig" target="ein_bedienter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenig|hanswurst" source="koenig" target="hanswurst">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="koenig|ein_hofmann" source="koenig" target="ein_hofmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|das_parterre" source="koenig" target="das_parterre">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig|alle_2-4" source="koenig" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|die_vierfuessigen" source="koenig" target="die_vierfuessigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|die_voegel" source="koenig" target="die_voegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|besaenftiger" source="koenig" target="besaenftiger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="koenig|maschinist" source="koenig" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|er" source="koenig" target="er">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|sie" source="koenig" target="sie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|wirt" source="koenig" target="wirt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig|kunz" source="koenig" target="kunz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig|bauer" source="koenig" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig|popanz" source="koenig" target="popanz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig|amtmann" source="koenig" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="koenig|alle_epilog" source="koenig" target="alle_epilog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|hinter_dem_vorhange" source="koenig" target="hinter_dem_vorhange">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koenig|souffleur" source="koenig" target="souffleur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin|leander" source="prinzessin" target="leander">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="prinzessin|kammerdiener" source="prinzessin" target="kammerdiener">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinzessin|nathanael" source="prinzessin" target="nathanael">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinzessin|koch" source="prinzessin" target="koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin|historiograph" source="prinzessin" target="historiograph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin|ein_bedienter" source="prinzessin" target="ein_bedienter">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="prinzessin|hanswurst" source="prinzessin" target="hanswurst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="prinzessin|ein_hofmann" source="prinzessin" target="ein_hofmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin|das_parterre" source="prinzessin" target="das_parterre">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinzessin|alle_2-4" source="prinzessin" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin|die_vierfuessigen" source="prinzessin" target="die_vierfuessigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin|die_voegel" source="prinzessin" target="die_voegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin|besaenftiger" source="prinzessin" target="besaenftiger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="prinzessin|maschinist" source="prinzessin" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin|er" source="prinzessin" target="er">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin|sie" source="prinzessin" target="sie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="prinzessin|wirt" source="prinzessin" target="wirt">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinzessin|kunz" source="prinzessin" target="kunz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinzessin|bauer" source="prinzessin" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinzessin|popanz" source="prinzessin" target="popanz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="prinzessin|amtmann" source="prinzessin" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leander|kammerdiener" source="leander" target="kammerdiener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leander|nathanael" source="leander" target="nathanael">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leander|ein_bedienter" source="leander" target="ein_bedienter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leander|hanswurst" source="leander" target="hanswurst">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leander|ein_hofmann" source="leander" target="ein_hofmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leander|das_parterre" source="leander" target="das_parterre">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leander|alle_2-4" source="leander" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leander|die_vierfuessigen" source="leander" target="die_vierfuessigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leander|die_voegel" source="leander" target="die_voegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leander|besaenftiger" source="leander" target="besaenftiger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="leander|maschinist" source="leander" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leander|er" source="leander" target="er">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leander|sie" source="leander" target="sie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leander|wirt" source="leander" target="wirt">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leander|kunz" source="leander" target="kunz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="leander|bauer" source="leander" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leander|popanz" source="leander" target="popanz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="leander|amtmann" source="leander" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kammerdiener|nathanael" source="kammerdiener" target="nathanael">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kammerdiener|koch" source="kammerdiener" target="koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kammerdiener|historiograph" source="kammerdiener" target="historiograph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nathanael|koch" source="nathanael" target="koch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nathanael|historiograph" source="nathanael" target="historiograph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|kunz" source="wirt" target="kunz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="wirt|michel" source="wirt" target="michel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|soldat" source="wirt" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|erster_husar" source="wirt" target="erster_husar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|zweiter_husar" source="wirt" target="zweiter_husar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|maschinist" source="wirt" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|hanswurst" source="wirt" target="hanswurst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|das_parterre" source="wirt" target="das_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|er" source="wirt" target="er">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|sie" source="wirt" target="sie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|ein_bedienter" source="wirt" target="ein_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|bauer" source="wirt" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|popanz" source="wirt" target="popanz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|amtmann" source="wirt" target="amtmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wirt|besaenftiger" source="wirt" target="besaenftiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunz|michel" source="kunz" target="michel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunz|soldat" source="kunz" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunz|erster_husar" source="kunz" target="erster_husar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunz|zweiter_husar" source="kunz" target="zweiter_husar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunz|maschinist" source="kunz" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunz|hanswurst" source="kunz" target="hanswurst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunz|das_parterre" source="kunz" target="das_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunz|er" source="kunz" target="er">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunz|sie" source="kunz" target="sie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunz|ein_bedienter" source="kunz" target="ein_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunz|bauer" source="kunz" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunz|popanz" source="kunz" target="popanz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunz|amtmann" source="kunz" target="amtmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kunz|besaenftiger" source="kunz" target="besaenftiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|soldat" source="michel" target="soldat">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|erster_husar" source="michel" target="erster_husar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="michel|zweiter_husar" source="michel" target="zweiter_husar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soldat|erster_husar" source="soldat" target="erster_husar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="soldat|zweiter_husar" source="soldat" target="zweiter_husar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="erster_husar|zweiter_husar" source="erster_husar" target="zweiter_husar">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="er|sie" source="er" target="sie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="er|maschinist" source="er" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="er|hanswurst" source="er" target="hanswurst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="er|das_parterre" source="er" target="das_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="er|ein_bedienter" source="er" target="ein_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="er|bauer" source="er" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="er|popanz" source="er" target="popanz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="er|amtmann" source="er" target="amtmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="er|besaenftiger" source="er" target="besaenftiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sie|maschinist" source="sie" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sie|hanswurst" source="sie" target="hanswurst">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sie|das_parterre" source="sie" target="das_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sie|ein_bedienter" source="sie" target="ein_bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sie|bauer" source="sie" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sie|popanz" source="sie" target="popanz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sie|amtmann" source="sie" target="amtmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sie|besaenftiger" source="sie" target="besaenftiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="koch|historiograph" source="koch" target="historiograph">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bedienter|hanswurst" source="ein_bedienter" target="hanswurst">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ein_bedienter|ein_hofmann" source="ein_bedienter" target="ein_hofmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bedienter|das_parterre" source="ein_bedienter" target="das_parterre">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ein_bedienter|alle_2-4" source="ein_bedienter" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bedienter|die_vierfuessigen" source="ein_bedienter" target="die_vierfuessigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bedienter|die_voegel" source="ein_bedienter" target="die_voegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bedienter|besaenftiger" source="ein_bedienter" target="besaenftiger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="ein_bedienter|maschinist" source="ein_bedienter" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bedienter|bauer" source="ein_bedienter" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bedienter|popanz" source="ein_bedienter" target="popanz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_bedienter|amtmann" source="ein_bedienter" target="amtmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|ein_hofmann" source="hanswurst" target="ein_hofmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|das_parterre" source="hanswurst" target="das_parterre">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hanswurst|alle_2-4" source="hanswurst" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|die_vierfuessigen" source="hanswurst" target="die_vierfuessigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|die_voegel" source="hanswurst" target="die_voegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|besaenftiger" source="hanswurst" target="besaenftiger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="hanswurst|maschinist" source="hanswurst" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|bauer" source="hanswurst" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|popanz" source="hanswurst" target="popanz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|amtmann" source="hanswurst" target="amtmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|alle_epilog" source="hanswurst" target="alle_epilog">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|hinter_dem_vorhange" source="hanswurst" target="hinter_dem_vorhange">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hanswurst|souffleur" source="hanswurst" target="souffleur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hofmann|das_parterre" source="ein_hofmann" target="das_parterre">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hofmann|alle_2-4" source="ein_hofmann" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hofmann|die_vierfuessigen" source="ein_hofmann" target="die_vierfuessigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hofmann|die_voegel" source="ein_hofmann" target="die_voegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="ein_hofmann|besaenftiger" source="ein_hofmann" target="besaenftiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_parterre|alle_2-4" source="das_parterre" target="alle_2-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_parterre|die_vierfuessigen" source="das_parterre" target="die_vierfuessigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_parterre|die_voegel" source="das_parterre" target="die_voegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_parterre|besaenftiger" source="das_parterre" target="besaenftiger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="das_parterre|maschinist" source="das_parterre" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_parterre|bauer" source="das_parterre" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_parterre|popanz" source="das_parterre" target="popanz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="das_parterre|amtmann" source="das_parterre" target="amtmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_2-4|die_vierfuessigen" source="alle_2-4" target="die_vierfuessigen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_2-4|die_voegel" source="alle_2-4" target="die_voegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_2-4|besaenftiger" source="alle_2-4" target="besaenftiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_vierfuessigen|die_voegel" source="die_vierfuessigen" target="die_voegel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_vierfuessigen|besaenftiger" source="die_vierfuessigen" target="besaenftiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="die_voegel|besaenftiger" source="die_voegel" target="besaenftiger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="besaenftiger|maschinist" source="besaenftiger" target="maschinist">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="besaenftiger|bauer" source="besaenftiger" target="bauer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="besaenftiger|popanz" source="besaenftiger" target="popanz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="besaenftiger|amtmann" source="besaenftiger" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="maschinist|bauer" source="maschinist" target="bauer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maschinist|popanz" source="maschinist" target="popanz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="maschinist|amtmann" source="maschinist" target="amtmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bauer|popanz" source="bauer" target="popanz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bauer|amtmann" source="bauer" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="popanz|amtmann" source="popanz" target="amtmann">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alle_epilog|hinter_dem_vorhange" source="alle_epilog" target="hinter_dem_vorhange">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="alle_epilog|souffleur" source="alle_epilog" target="souffleur">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hinter_dem_vorhange|souffleur" source="hinter_dem_vorhange" target="souffleur">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

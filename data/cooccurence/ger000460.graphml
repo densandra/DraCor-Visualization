@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="carbo">
+            <data key="label">Carbo</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">593</data>
+        </node>
+        <node id="kleon">
+            <data key="label">Kleon</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">404</data>
+        </node>
+        <node id="agricola">
+            <data key="label">Agricola</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">863</data>
+        </node>
+        <node id="euporus">
+            <data key="label">Euporus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">670</data>
+        </node>
+        <node id="laetorius">
+            <data key="label">Lätorius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1374</data>
+        </node>
+        <node id="volk">
+            <data key="label">Volk/Volkshaufe</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">256</data>
+        </node>
+        <node id="cornelia">
+            <data key="label">Cornelia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1484</data>
+        </node>
+        <node id="licinnia">
+            <data key="label">Licinnia</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">858</data>
+        </node>
+        <node id="pomponius">
+            <data key="label">Pomponius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1390</data>
+        </node>
+        <node id="metellus">
+            <data key="label">Metellus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1054</data>
+        </node>
+        <node id="opimius">
+            <data key="label">Opimius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1227</data>
+        </node>
+        <node id="drusus">
+            <data key="label">Drusus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">774</data>
+        </node>
+        <node id="lictor_1">
+            <data key="label">Lictor (I. Aufzug)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="gracchus">
+            <data key="label">Gracchus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4508</data>
+        </node>
+        <node id="senat_senatoren">
+            <data key="label">Senat/Die Senatoren</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">27</data>
+        </node>
+        <node id="aulus">
+            <data key="label">Aulus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">58</data>
+        </node>
+        <node id="rufus">
+            <data key="label">Rufus</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">24</data>
+        </node>
+        <node id="sklavin">
+            <data key="label">Sklavin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="scipio">
+            <data key="label">Scipio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1046</data>
+        </node>
+        <node id="lictor_3">
+            <data key="label">Lictor (III. Aufzug)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">10</data>
+        </node>
+        <node id="der_sclave">
+            <data key="label">Der Sclave</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">46</data>
+        </node>
+        <node id="lictor_5">
+            <data key="label">Lictor (V. Aufzug)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">139</data>
+        </node>
+        <node id="buerger">
+            <data key="label">Bürger</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">49</data>
+        </node>
+        <edge id="carbo|kleon" source="carbo" target="kleon">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carbo|agricola" source="carbo" target="agricola">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="carbo|euporus" source="carbo" target="euporus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="carbo|laetorius" source="carbo" target="laetorius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="carbo|volk" source="carbo" target="volk">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="carbo|metellus" source="carbo" target="metellus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carbo|opimius" source="carbo" target="opimius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="carbo|pomponius" source="carbo" target="pomponius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="carbo|gracchus" source="carbo" target="gracchus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="carbo|senat_senatoren" source="carbo" target="senat_senatoren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carbo|scipio" source="carbo" target="scipio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carbo|drusus" source="carbo" target="drusus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="carbo|licinnia" source="carbo" target="licinnia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carbo|cornelia" source="carbo" target="cornelia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carbo|buerger" source="carbo" target="buerger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="carbo|lictor_5" source="carbo" target="lictor_5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kleon|agricola" source="kleon" target="agricola">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kleon|euporus" source="kleon" target="euporus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kleon|laetorius" source="kleon" target="laetorius">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kleon|volk" source="kleon" target="volk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kleon|metellus" source="kleon" target="metellus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kleon|opimius" source="kleon" target="opimius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kleon|gracchus" source="kleon" target="gracchus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="kleon|sklavin" source="kleon" target="sklavin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kleon|licinnia" source="kleon" target="licinnia">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agricola|euporus" source="agricola" target="euporus">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="agricola|laetorius" source="agricola" target="laetorius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="agricola|volk" source="agricola" target="volk">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="agricola|metellus" source="agricola" target="metellus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="agricola|opimius" source="agricola" target="opimius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="agricola|drusus" source="agricola" target="drusus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agricola|lictor_1" source="agricola" target="lictor_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agricola|pomponius" source="agricola" target="pomponius">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="agricola|gracchus" source="agricola" target="gracchus">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="agricola|senat_senatoren" source="agricola" target="senat_senatoren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agricola|scipio" source="agricola" target="scipio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agricola|lictor_3" source="agricola" target="lictor_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="agricola|licinnia" source="agricola" target="licinnia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="agricola|cornelia" source="agricola" target="cornelia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="agricola|lictor_5" source="agricola" target="lictor_5">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="agricola|buerger" source="agricola" target="buerger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="euporus|metellus" source="euporus" target="metellus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="euporus|aulus" source="euporus" target="aulus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="euporus|rufus" source="euporus" target="rufus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="euporus|opimius" source="euporus" target="opimius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="euporus|drusus" source="euporus" target="drusus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="euporus|gracchus" source="euporus" target="gracchus">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="euporus|laetorius" source="euporus" target="laetorius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="euporus|volk" source="euporus" target="volk">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="euporus|licinnia" source="euporus" target="licinnia">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="euporus|pomponius" source="euporus" target="pomponius">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="euporus|lictor_3" source="euporus" target="lictor_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="euporus|cornelia" source="euporus" target="cornelia">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="euporus|scipio" source="euporus" target="scipio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="euporus|lictor_5" source="euporus" target="lictor_5">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="euporus|buerger" source="euporus" target="buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laetorius|volk" source="laetorius" target="volk">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="laetorius|cornelia" source="laetorius" target="cornelia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="laetorius|licinnia" source="laetorius" target="licinnia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="laetorius|metellus" source="laetorius" target="metellus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="laetorius|opimius" source="laetorius" target="opimius">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="laetorius|pomponius" source="laetorius" target="pomponius">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="laetorius|gracchus" source="laetorius" target="gracchus">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="laetorius|senat_senatoren" source="laetorius" target="senat_senatoren">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="laetorius|lictor_3" source="laetorius" target="lictor_3">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="laetorius|scipio" source="laetorius" target="scipio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="laetorius|drusus" source="laetorius" target="drusus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="laetorius|aulus" source="laetorius" target="aulus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laetorius|rufus" source="laetorius" target="rufus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laetorius|der_sclave" source="laetorius" target="der_sclave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laetorius|buerger" source="laetorius" target="buerger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="laetorius|lictor_5" source="laetorius" target="lictor_5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|cornelia" source="volk" target="cornelia">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="volk|licinnia" source="volk" target="licinnia">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="volk|metellus" source="volk" target="metellus">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="volk|opimius" source="volk" target="opimius">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="volk|drusus" source="volk" target="drusus">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="volk|lictor_1" source="volk" target="lictor_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|pomponius" source="volk" target="pomponius">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="volk|gracchus" source="volk" target="gracchus">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="volk|senat_senatoren" source="volk" target="senat_senatoren">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="volk|lictor_3" source="volk" target="lictor_3">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="volk|scipio" source="volk" target="scipio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|aulus" source="volk" target="aulus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|rufus" source="volk" target="rufus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="volk|der_sclave" source="volk" target="der_sclave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cornelia|licinnia" source="cornelia" target="licinnia">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="cornelia|pomponius" source="cornelia" target="pomponius">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="cornelia|gracchus" source="cornelia" target="gracchus">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="cornelia|scipio" source="cornelia" target="scipio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cornelia|drusus" source="cornelia" target="drusus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cornelia|opimius" source="cornelia" target="opimius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="cornelia|metellus" source="cornelia" target="metellus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cornelia|buerger" source="cornelia" target="buerger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="cornelia|lictor_5" source="cornelia" target="lictor_5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="licinnia|pomponius" source="licinnia" target="pomponius">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="licinnia|gracchus" source="licinnia" target="gracchus">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="licinnia|drusus" source="licinnia" target="drusus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="licinnia|opimius" source="licinnia" target="opimius">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="licinnia|metellus" source="licinnia" target="metellus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="licinnia|buerger" source="licinnia" target="buerger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="licinnia|lictor_5" source="licinnia" target="lictor_5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pomponius|opimius" source="pomponius" target="opimius">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pomponius|gracchus" source="pomponius" target="gracchus">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="pomponius|metellus" source="pomponius" target="metellus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pomponius|senat_senatoren" source="pomponius" target="senat_senatoren">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pomponius|lictor_3" source="pomponius" target="lictor_3">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pomponius|scipio" source="pomponius" target="scipio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="pomponius|drusus" source="pomponius" target="drusus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="pomponius|lictor_5" source="pomponius" target="lictor_5">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="pomponius|buerger" source="pomponius" target="buerger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="metellus|opimius" source="metellus" target="opimius">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="metellus|drusus" source="metellus" target="drusus">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="metellus|lictor_1" source="metellus" target="lictor_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="metellus|gracchus" source="metellus" target="gracchus">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="metellus|senat_senatoren" source="metellus" target="senat_senatoren">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="metellus|aulus" source="metellus" target="aulus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="metellus|rufus" source="metellus" target="rufus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="metellus|scipio" source="metellus" target="scipio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="metellus|lictor_3" source="metellus" target="lictor_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="metellus|der_sclave" source="metellus" target="der_sclave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="opimius|drusus" source="opimius" target="drusus">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="opimius|lictor_1" source="opimius" target="lictor_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="opimius|gracchus" source="opimius" target="gracchus">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="opimius|senat_senatoren" source="opimius" target="senat_senatoren">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="opimius|aulus" source="opimius" target="aulus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="opimius|rufus" source="opimius" target="rufus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="opimius|scipio" source="opimius" target="scipio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="opimius|lictor_3" source="opimius" target="lictor_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="opimius|der_sclave" source="opimius" target="der_sclave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drusus|lictor_1" source="drusus" target="lictor_1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drusus|aulus" source="drusus" target="aulus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="drusus|rufus" source="drusus" target="rufus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="drusus|gracchus" source="drusus" target="gracchus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="drusus|scipio" source="drusus" target="scipio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drusus|lictor_3" source="drusus" target="lictor_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drusus|senat_senatoren" source="drusus" target="senat_senatoren">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="drusus|der_sclave" source="drusus" target="der_sclave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gracchus|senat_senatoren" source="gracchus" target="senat_senatoren">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gracchus|aulus" source="gracchus" target="aulus">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gracchus|sklavin" source="gracchus" target="sklavin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gracchus|lictor_3" source="gracchus" target="lictor_3">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gracchus|scipio" source="gracchus" target="scipio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gracchus|lictor_5" source="gracchus" target="lictor_5">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gracchus|buerger" source="gracchus" target="buerger">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="senat_senatoren|scipio" source="senat_senatoren" target="scipio">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="senat_senatoren|lictor_3" source="senat_senatoren" target="lictor_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="aulus|rufus" source="aulus" target="rufus">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="aulus|der_sclave" source="aulus" target="der_sclave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="rufus|der_sclave" source="rufus" target="der_sclave">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="scipio|lictor_3" source="scipio" target="lictor_3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lictor_5|buerger" source="lictor_5" target="buerger">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

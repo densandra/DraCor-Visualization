@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="frau_giselius">
+            <data key="label">Frau Giselius</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1405</data>
+        </node>
+        <node id="professor_giselius">
+            <data key="label">Professor Giselius</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2252</data>
+        </node>
+        <node id="babette">
+            <data key="label">Babette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">102</data>
+        </node>
+        <node id="coelestine">
+            <data key="label">Cölestine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">667</data>
+        </node>
+        <node id="dr_appel">
+            <data key="label">Dr. Appel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">767</data>
+        </node>
+        <node id="lottchen">
+            <data key="label">Lottchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">146</data>
+        </node>
+        <edge id="frau_giselius|professor_giselius" source="frau_giselius" target="professor_giselius">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="frau_giselius|babette" source="frau_giselius" target="babette">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_giselius|coelestine" source="frau_giselius" target="coelestine">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frau_giselius|dr_appel" source="frau_giselius" target="dr_appel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="frau_giselius|lottchen" source="frau_giselius" target="lottchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="professor_giselius|coelestine" source="professor_giselius" target="coelestine">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="professor_giselius|dr_appel" source="professor_giselius" target="dr_appel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="professor_giselius|lottchen" source="professor_giselius" target="lottchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babette|coelestine" source="babette" target="coelestine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="coelestine|dr_appel" source="coelestine" target="dr_appel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="coelestine|lottchen" source="coelestine" target="lottchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="dr_appel|lottchen" source="dr_appel" target="lottchen">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

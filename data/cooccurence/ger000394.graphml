@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="baroninn">
+            <data key="label">Baroninn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3228</data>
+        </node>
+        <node id="babette">
+            <data key="label">Babette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">470</data>
+        </node>
+        <node id="bluemlein">
+            <data key="label">Blümlein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3410</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="wolf">
+            <data key="label">Wolf</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1672</data>
+        </node>
+        <node id="nina">
+            <data key="label">Nina</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1153</data>
+        </node>
+        <node id="emy">
+            <data key="label">Emy</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">570</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2266</data>
+        </node>
+        <node id="waldberg">
+            <data key="label">Waldberg</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2503</data>
+        </node>
+        <node id="gruenau">
+            <data key="label">Grünau</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1950</data>
+        </node>
+        <node id="frau_von_lichtberg">
+            <data key="label">Frau von Lichtberg</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">242</data>
+        </node>
+        <node id="fraeulein_grinzberg">
+            <data key="label">Fräulein Grinzberg</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">88</data>
+        </node>
+        <node id="fraeulein_impfen">
+            <data key="label">Fräulein Impfen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">603</data>
+        </node>
+        <node id="alle_alles_3-1_bis_3-4">
+            <data key="label">Alle/Alles (III/1–4)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">80</data>
+        </node>
+        <node id="frau_von_dorn">
+            <data key="label">Frau von Dorn</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">329</data>
+        </node>
+        <node id="raethinn_sommer">
+            <data key="label">Räthinn Sommer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">276</data>
+        </node>
+        <node id="herr_von_hacken">
+            <data key="label">Herr von Hacken</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="herr_von_dorn">
+            <data key="label">Herr von Dorn</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">121</data>
+        </node>
+        <node id="baroninn_duerrer">
+            <data key="label">Baroninn Dürrer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">433</data>
+        </node>
+        <node id="herr_von_traufbach">
+            <data key="label">Herr von Traufbach</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">28</data>
+        </node>
+        <node id="gertraude">
+            <data key="label">Gertraude</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1195</data>
+        </node>
+        <edge id="baroninn|babette" source="baroninn" target="babette">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="baroninn|bluemlein" source="baroninn" target="bluemlein">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="baroninn|bedienter" source="baroninn" target="bedienter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baroninn|wolf" source="baroninn" target="wolf">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="baroninn|nina" source="baroninn" target="nina">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="baroninn|emy" source="baroninn" target="emy">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="baroninn|marie" source="baroninn" target="marie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baroninn|waldberg" source="baroninn" target="waldberg">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="baroninn|gruenau" source="baroninn" target="gruenau">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="baroninn|frau_von_lichtberg" source="baroninn" target="frau_von_lichtberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baroninn|fraeulein_grinzberg" source="baroninn" target="fraeulein_grinzberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baroninn|fraeulein_impfen" source="baroninn" target="fraeulein_impfen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baroninn|alle_alles_3-1_bis_3-4" source="baroninn" target="alle_alles_3-1_bis_3-4">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baroninn|frau_von_dorn" source="baroninn" target="frau_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baroninn|raethinn_sommer" source="baroninn" target="raethinn_sommer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baroninn|herr_von_hacken" source="baroninn" target="herr_von_hacken">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baroninn|herr_von_dorn" source="baroninn" target="herr_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="baroninn|baroninn_duerrer" source="baroninn" target="baroninn_duerrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baroninn|herr_von_traufbach" source="baroninn" target="herr_von_traufbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="babette|bluemlein" source="babette" target="bluemlein">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="babette|wolf" source="babette" target="wolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babette|bedienter" source="babette" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="babette|waldberg" source="babette" target="waldberg">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="babette|nina" source="babette" target="nina">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="babette|emy" source="babette" target="emy">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="babette|gruenau" source="babette" target="gruenau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bluemlein|bedienter" source="bluemlein" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bluemlein|wolf" source="bluemlein" target="wolf">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bluemlein|waldberg" source="bluemlein" target="waldberg">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="bluemlein|nina" source="bluemlein" target="nina">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="bluemlein|emy" source="bluemlein" target="emy">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="bluemlein|gruenau" source="bluemlein" target="gruenau">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="bluemlein|frau_von_lichtberg" source="bluemlein" target="frau_von_lichtberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bluemlein|fraeulein_grinzberg" source="bluemlein" target="fraeulein_grinzberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bluemlein|fraeulein_impfen" source="bluemlein" target="fraeulein_impfen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bluemlein|alle_alles_3-1_bis_3-4" source="bluemlein" target="alle_alles_3-1_bis_3-4">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bluemlein|frau_von_dorn" source="bluemlein" target="frau_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bluemlein|raethinn_sommer" source="bluemlein" target="raethinn_sommer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bluemlein|herr_von_hacken" source="bluemlein" target="herr_von_hacken">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bluemlein|herr_von_dorn" source="bluemlein" target="herr_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bluemlein|baroninn_duerrer" source="bluemlein" target="baroninn_duerrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bluemlein|herr_von_traufbach" source="bluemlein" target="herr_von_traufbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bluemlein|marie" source="bluemlein" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bedienter|wolf" source="bedienter" target="wolf">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="wolf|waldberg" source="wolf" target="waldberg">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="wolf|gruenau" source="wolf" target="gruenau">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="wolf|nina" source="wolf" target="nina">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wolf|emy" source="wolf" target="emy">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="wolf|marie" source="wolf" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="nina|emy" source="nina" target="emy">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="nina|marie" source="nina" target="marie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nina|waldberg" source="nina" target="waldberg">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="nina|gruenau" source="nina" target="gruenau">
+            <data key="weight">12</data>
+        </edge>
+        <edge id="nina|frau_von_lichtberg" source="nina" target="frau_von_lichtberg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nina|fraeulein_grinzberg" source="nina" target="fraeulein_grinzberg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nina|fraeulein_impfen" source="nina" target="fraeulein_impfen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nina|alle_alles_3-1_bis_3-4" source="nina" target="alle_alles_3-1_bis_3-4">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nina|frau_von_dorn" source="nina" target="frau_von_dorn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nina|raethinn_sommer" source="nina" target="raethinn_sommer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nina|herr_von_hacken" source="nina" target="herr_von_hacken">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nina|herr_von_dorn" source="nina" target="herr_von_dorn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="nina|baroninn_duerrer" source="nina" target="baroninn_duerrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="nina|herr_von_traufbach" source="nina" target="herr_von_traufbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="emy|marie" source="emy" target="marie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emy|waldberg" source="emy" target="waldberg">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="emy|gruenau" source="emy" target="gruenau">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="emy|baroninn_duerrer" source="emy" target="baroninn_duerrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="emy|frau_von_dorn" source="emy" target="frau_von_dorn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emy|fraeulein_impfen" source="emy" target="fraeulein_impfen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emy|fraeulein_grinzberg" source="emy" target="fraeulein_grinzberg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emy|alle_alles_3-1_bis_3-4" source="emy" target="alle_alles_3-1_bis_3-4">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emy|herr_von_hacken" source="emy" target="herr_von_hacken">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emy|herr_von_traufbach" source="emy" target="herr_von_traufbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="emy|herr_von_dorn" source="emy" target="herr_von_dorn">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emy|frau_von_lichtberg" source="emy" target="frau_von_lichtberg">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="emy|raethinn_sommer" source="emy" target="raethinn_sommer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|waldberg" source="marie" target="waldberg">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="marie|baroninn_duerrer" source="marie" target="baroninn_duerrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|fraeulein_impfen" source="marie" target="fraeulein_impfen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|frau_von_lichtberg" source="marie" target="frau_von_lichtberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|herr_von_traufbach" source="marie" target="herr_von_traufbach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|herr_von_hacken" source="marie" target="herr_von_hacken">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|gruenau" source="marie" target="gruenau">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|herr_von_dorn" source="marie" target="herr_von_dorn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|frau_von_dorn" source="marie" target="frau_von_dorn">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|alle_alles_3-1_bis_3-4" source="marie" target="alle_alles_3-1_bis_3-4">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|fraeulein_grinzberg" source="marie" target="fraeulein_grinzberg">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|gertraude" source="marie" target="gertraude">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="waldberg|gruenau" source="waldberg" target="gruenau">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="waldberg|frau_von_lichtberg" source="waldberg" target="frau_von_lichtberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="waldberg|fraeulein_grinzberg" source="waldberg" target="fraeulein_grinzberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="waldberg|fraeulein_impfen" source="waldberg" target="fraeulein_impfen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="waldberg|alle_alles_3-1_bis_3-4" source="waldberg" target="alle_alles_3-1_bis_3-4">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="waldberg|frau_von_dorn" source="waldberg" target="frau_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="waldberg|raethinn_sommer" source="waldberg" target="raethinn_sommer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="waldberg|herr_von_hacken" source="waldberg" target="herr_von_hacken">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="waldberg|herr_von_dorn" source="waldberg" target="herr_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="waldberg|baroninn_duerrer" source="waldberg" target="baroninn_duerrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="waldberg|herr_von_traufbach" source="waldberg" target="herr_von_traufbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="waldberg|gertraude" source="waldberg" target="gertraude">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gruenau|frau_von_lichtberg" source="gruenau" target="frau_von_lichtberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gruenau|fraeulein_grinzberg" source="gruenau" target="fraeulein_grinzberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gruenau|fraeulein_impfen" source="gruenau" target="fraeulein_impfen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gruenau|alle_alles_3-1_bis_3-4" source="gruenau" target="alle_alles_3-1_bis_3-4">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gruenau|frau_von_dorn" source="gruenau" target="frau_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gruenau|raethinn_sommer" source="gruenau" target="raethinn_sommer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gruenau|herr_von_hacken" source="gruenau" target="herr_von_hacken">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gruenau|herr_von_dorn" source="gruenau" target="herr_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gruenau|baroninn_duerrer" source="gruenau" target="baroninn_duerrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gruenau|herr_von_traufbach" source="gruenau" target="herr_von_traufbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_lichtberg|fraeulein_grinzberg" source="frau_von_lichtberg" target="fraeulein_grinzberg">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_lichtberg|fraeulein_impfen" source="frau_von_lichtberg" target="fraeulein_impfen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_lichtberg|alle_alles_3-1_bis_3-4" source="frau_von_lichtberg" target="alle_alles_3-1_bis_3-4">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_lichtberg|frau_von_dorn" source="frau_von_lichtberg" target="frau_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_lichtberg|raethinn_sommer" source="frau_von_lichtberg" target="raethinn_sommer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_lichtberg|herr_von_hacken" source="frau_von_lichtberg" target="herr_von_hacken">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_lichtberg|herr_von_dorn" source="frau_von_lichtberg" target="herr_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_lichtberg|baroninn_duerrer" source="frau_von_lichtberg" target="baroninn_duerrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_lichtberg|herr_von_traufbach" source="frau_von_lichtberg" target="herr_von_traufbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraeulein_grinzberg|fraeulein_impfen" source="fraeulein_grinzberg" target="fraeulein_impfen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fraeulein_grinzberg|alle_alles_3-1_bis_3-4" source="fraeulein_grinzberg" target="alle_alles_3-1_bis_3-4">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fraeulein_grinzberg|frau_von_dorn" source="fraeulein_grinzberg" target="frau_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fraeulein_grinzberg|raethinn_sommer" source="fraeulein_grinzberg" target="raethinn_sommer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraeulein_grinzberg|herr_von_hacken" source="fraeulein_grinzberg" target="herr_von_hacken">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fraeulein_grinzberg|herr_von_dorn" source="fraeulein_grinzberg" target="herr_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fraeulein_grinzberg|baroninn_duerrer" source="fraeulein_grinzberg" target="baroninn_duerrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraeulein_grinzberg|herr_von_traufbach" source="fraeulein_grinzberg" target="herr_von_traufbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraeulein_impfen|alle_alles_3-1_bis_3-4" source="fraeulein_impfen" target="alle_alles_3-1_bis_3-4">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fraeulein_impfen|frau_von_dorn" source="fraeulein_impfen" target="frau_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fraeulein_impfen|raethinn_sommer" source="fraeulein_impfen" target="raethinn_sommer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraeulein_impfen|herr_von_hacken" source="fraeulein_impfen" target="herr_von_hacken">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fraeulein_impfen|herr_von_dorn" source="fraeulein_impfen" target="herr_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="fraeulein_impfen|baroninn_duerrer" source="fraeulein_impfen" target="baroninn_duerrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="fraeulein_impfen|herr_von_traufbach" source="fraeulein_impfen" target="herr_von_traufbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alle_alles_3-1_bis_3-4|frau_von_dorn" source="alle_alles_3-1_bis_3-4" target="frau_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="alle_alles_3-1_bis_3-4|raethinn_sommer" source="alle_alles_3-1_bis_3-4" target="raethinn_sommer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alle_alles_3-1_bis_3-4|herr_von_hacken" source="alle_alles_3-1_bis_3-4" target="herr_von_hacken">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="alle_alles_3-1_bis_3-4|herr_von_dorn" source="alle_alles_3-1_bis_3-4" target="herr_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="alle_alles_3-1_bis_3-4|baroninn_duerrer" source="alle_alles_3-1_bis_3-4" target="baroninn_duerrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="alle_alles_3-1_bis_3-4|herr_von_traufbach" source="alle_alles_3-1_bis_3-4" target="herr_von_traufbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_dorn|raethinn_sommer" source="frau_von_dorn" target="raethinn_sommer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_dorn|herr_von_hacken" source="frau_von_dorn" target="herr_von_hacken">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_dorn|herr_von_dorn" source="frau_von_dorn" target="herr_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_von_dorn|baroninn_duerrer" source="frau_von_dorn" target="baroninn_duerrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_von_dorn|herr_von_traufbach" source="frau_von_dorn" target="herr_von_traufbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="raethinn_sommer|herr_von_hacken" source="raethinn_sommer" target="herr_von_hacken">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="raethinn_sommer|herr_von_dorn" source="raethinn_sommer" target="herr_von_dorn">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="raethinn_sommer|baroninn_duerrer" source="raethinn_sommer" target="baroninn_duerrer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="raethinn_sommer|herr_von_traufbach" source="raethinn_sommer" target="herr_von_traufbach">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="herr_von_hacken|herr_von_dorn" source="herr_von_hacken" target="herr_von_dorn">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="herr_von_hacken|baroninn_duerrer" source="herr_von_hacken" target="baroninn_duerrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_von_hacken|herr_von_traufbach" source="herr_von_hacken" target="herr_von_traufbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_von_dorn|baroninn_duerrer" source="herr_von_dorn" target="baroninn_duerrer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="herr_von_dorn|herr_von_traufbach" source="herr_von_dorn" target="herr_von_traufbach">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="baroninn_duerrer|herr_von_traufbach" source="baroninn_duerrer" target="herr_von_traufbach">
+            <data key="weight">2</data>
+        </edge>
+    </graph>
+</graphml>

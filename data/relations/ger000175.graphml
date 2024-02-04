@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="der_heerrufer">
+            <data key="label">Der Heerrufer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_brabanter">
+            <data key="label">Die Brabanter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="koenig_heinrich">
+            <data key="label">König Heinrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_sachsen">
+            <data key="label">Die Sachsen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="friedrich">
+            <data key="label">Friedrich</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="alle_maenner_die_maenner_1">
+            <data key="label">Alle Männer/Die Männer (I/1–3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="elsa">
+            <data key="label">Elsa</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_frauen_1">
+            <data key="label">Die Frauen (I/2–3)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="lohengrin">
+            <data key="label">Lohengrin</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="brabantische_edle">
+            <data key="label">Brabantische Edle</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="ortrud">
+            <data key="label">Ortrud</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_edlen">
+            <data key="label">Die Edlen (II/3–4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="mannen_die_maenner_alle_maenner_2">
+            <data key="label">Mannen/Die Männer/Alle Männer (II/3–5)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="der_dritte_edle">
+            <data key="label">Der dritte Edle</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_zweite_edle">
+            <data key="label">Der zweite Edle</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_vierte_edle">
+            <data key="label">Der vierte Edle</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="der_erste_edle">
+            <data key="label">Der erste Edle</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vier_edelknaben">
+            <data key="label">Vier Edelknaben (II/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_edelknaben">
+            <data key="label">Die Edelknaben (II/4)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_frauen_2">
+            <data key="label">Die Frauen (II/4–5)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="des_koenigs_gefolge">
+            <data key="label">Des Königs Gefolge</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="alle_maenner_3-1">
+            <data key="label">Alle Männer (III/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_frauen_acht_frauen_3-1">
+            <data key="label">Die Frauen/Acht Frauen (III/1)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="alle_maenner_die_maenner_ein_teil_der_maenner_3-3">
+            <data key="label">Alle Männer/Die Männer/Ein Teil der Männer (III/3)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="die_frauen_3-3">
+            <data key="label">Die Frauen (III/3)</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="ortrud" target="friedrich">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="der_heerrufer" target="koenig_heinrich">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="bezirksamtmann">
+            <data key="label">Bezirksamtmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_bezirksamtmann">
+            <data key="label">Frau Bezirksamtmann</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="babette">
+            <data key="label">Babette</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="assessor">
+            <data key="label">Assessor</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lampl">
+            <data key="label">Lampl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sedlmaier">
+            <data key="label">Sedlmaier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hahnrieder">
+            <data key="label">Hahnrieder</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="haeberlein">
+            <data key="label">Häberlein</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="grubhofer">
+            <data key="label">Grubhofer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="merkl">
+            <data key="label">Merkl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="peter_neusigl">
+            <data key="label">Peter Neusigl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_neusigl">
+            <data key="label">Frau Neusigl</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="anna">
+            <data key="label">Anna</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="regierungsdirektor_steinbeissel">
+            <data key="label">Regierungsdirektor Steinbeißel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="bezirksamtmann" target="frau_bezirksamtmann">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="2" directed="false" source="frau_neusigl" target="peter_neusigl">
+            <data key="relation">spouses</data>
+        </edge>
+        <edge id="3" directed="false" source="babette" target="bezirksamtmann">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="4" directed="false" source="anna" target="bezirksamtmann">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

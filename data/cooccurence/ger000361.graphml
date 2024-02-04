@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="major">
+            <data key="label">Major</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1677</data>
+        </node>
+        <node id="frau_buergermeister">
+            <data key="label">Frau Bürgermeister</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1704</data>
+        </node>
+        <node id="suschen">
+            <data key="label">Suschen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">290</data>
+        </node>
+        <node id="beringer">
+            <data key="label">Beringer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">907</data>
+        </node>
+        <node id="buergermeister">
+            <data key="label">Bürgermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3283</data>
+        </node>
+        <node id="stelzer">
+            <data key="label">Stelzer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">654</data>
+        </node>
+        <node id="schweigel">
+            <data key="label">Schweigel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1629</data>
+        </node>
+        <node id="heitzinger">
+            <data key="label">Heitzinger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">233</data>
+        </node>
+        <node id="kiermayer">
+            <data key="label">Kiermayer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">439</data>
+        </node>
+        <node id="gruber">
+            <data key="label">Gruber</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">250</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">62</data>
+        </node>
+        <node id="hartl">
+            <data key="label">Hartl</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">203</data>
+        </node>
+        <node id="frieda">
+            <data key="label">Frieda</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">614</data>
+        </node>
+        <node id="gschwendtner">
+            <data key="label">Gschwendtner</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">175</data>
+        </node>
+        <node id="lindlacher">
+            <data key="label">Lindlacher</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">127</data>
+        </node>
+        <edge id="major|frau_buergermeister" source="major" target="frau_buergermeister">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="major|suschen" source="major" target="suschen">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="major|beringer" source="major" target="beringer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="major|buergermeister" source="major" target="buergermeister">
+            <data key="weight">13</data>
+        </edge>
+        <edge id="major|stelzer" source="major" target="stelzer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="major|schweigel" source="major" target="schweigel">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="major|marie" source="major" target="marie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="major|frieda" source="major" target="frieda">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_buergermeister|suschen" source="frau_buergermeister" target="suschen">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="frau_buergermeister|beringer" source="frau_buergermeister" target="beringer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_buergermeister|buergermeister" source="frau_buergermeister" target="buergermeister">
+            <data key="weight">15</data>
+        </edge>
+        <edge id="frau_buergermeister|stelzer" source="frau_buergermeister" target="stelzer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_buergermeister|schweigel" source="frau_buergermeister" target="schweigel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="frau_buergermeister|marie" source="frau_buergermeister" target="marie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="frau_buergermeister|hartl" source="frau_buergermeister" target="hartl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_buergermeister|frieda" source="frau_buergermeister" target="frieda">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="suschen|beringer" source="suschen" target="beringer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="suschen|buergermeister" source="suschen" target="buergermeister">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="suschen|schweigel" source="suschen" target="schweigel">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="suschen|stelzer" source="suschen" target="stelzer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="suschen|marie" source="suschen" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="suschen|frieda" source="suschen" target="frieda">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="beringer|buergermeister" source="beringer" target="buergermeister">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="beringer|schweigel" source="beringer" target="schweigel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="beringer|marie" source="beringer" target="marie">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="beringer|stelzer" source="beringer" target="stelzer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="buergermeister|stelzer" source="buergermeister" target="stelzer">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="buergermeister|schweigel" source="buergermeister" target="schweigel">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="buergermeister|heitzinger" source="buergermeister" target="heitzinger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="buergermeister|kiermayer" source="buergermeister" target="kiermayer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="buergermeister|gruber" source="buergermeister" target="gruber">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="buergermeister|marie" source="buergermeister" target="marie">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="buergermeister|hartl" source="buergermeister" target="hartl">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="buergermeister|frieda" source="buergermeister" target="frieda">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="buergermeister|gschwendtner" source="buergermeister" target="gschwendtner">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="buergermeister|lindlacher" source="buergermeister" target="lindlacher">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stelzer|schweigel" source="stelzer" target="schweigel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="stelzer|heitzinger" source="stelzer" target="heitzinger">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="stelzer|kiermayer" source="stelzer" target="kiermayer">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="stelzer|gruber" source="stelzer" target="gruber">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="stelzer|marie" source="stelzer" target="marie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="stelzer|gschwendtner" source="stelzer" target="gschwendtner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="stelzer|lindlacher" source="stelzer" target="lindlacher">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="schweigel|heitzinger" source="schweigel" target="heitzinger">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schweigel|kiermayer" source="schweigel" target="kiermayer">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schweigel|gruber" source="schweigel" target="gruber">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="schweigel|marie" source="schweigel" target="marie">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="heitzinger|kiermayer" source="heitzinger" target="kiermayer">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heitzinger|gruber" source="heitzinger" target="gruber">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="heitzinger|gschwendtner" source="heitzinger" target="gschwendtner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="heitzinger|lindlacher" source="heitzinger" target="lindlacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kiermayer|gruber" source="kiermayer" target="gruber">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="kiermayer|marie" source="kiermayer" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="kiermayer|gschwendtner" source="kiermayer" target="gschwendtner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="kiermayer|lindlacher" source="kiermayer" target="lindlacher">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gruber|marie" source="gruber" target="marie">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gruber|gschwendtner" source="gruber" target="gschwendtner">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gruber|lindlacher" source="gruber" target="lindlacher">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marie|gschwendtner" source="marie" target="gschwendtner">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|lindlacher" source="marie" target="lindlacher">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gschwendtner|lindlacher" source="gschwendtner" target="lindlacher">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

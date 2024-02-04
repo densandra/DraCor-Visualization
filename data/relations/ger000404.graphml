@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="albrecht">
+            <data key="label">Albrecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="hans_zenger">
+            <data key="label">Hans Zenger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="percifal_zenger">
+            <data key="label">Percifal Zenger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="agnes">
+            <data key="label">Agnes</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="emershofen">
+            <data key="label">Emershofen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="preisinger">
+            <data key="label">Preisinger</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ernst">
+            <data key="label">Ernst</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sandizeller">
+            <data key="label">Sandizeller</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tuchsenhauser">
+            <data key="label">Tuchsenhauser</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="pienzenauer">
+            <data key="label">Pienzenauer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="tore">
+            <data key="label">Tore</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="maxelrainer">
+            <data key="label">Maxelrainer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="gundelfing">
+            <data key="label">Gundelfing</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="seibelstorfer">
+            <data key="label">Seibelstorfer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="vicedom">
+            <data key="label">Der Vicedom zu Straubing</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="wache">
+            <data key="label">Wache</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="erster_marschall">
+            <data key="label">Erster Marschall</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_marschall">
+            <data key="label">Zweiter Marschall</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_ritter">
+            <data key="label">Die Ritter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="wachen">
+            <data key="label">Wachen</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="knechte">
+            <data key="label">Knechte</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="thorringer">
+            <data key="label">Thorringer</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frauen">
+            <data key="label">Frauen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="waffenknecht">
+            <data key="label">Waffenknecht</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="buergermeister">
+            <data key="label">Bürgermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="zweiter_buergermeister">
+            <data key="label">Zweiter Bürgermeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="oberrichter">
+            <data key="label">Oberrichter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <edge id="1" directed="false" source="albrecht" target="hans_zenger">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="2" directed="false" source="albrecht" target="percifal_zenger">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="3" directed="false" source="hans_zenger" target="percifal_zenger">
+            <data key="relation">friends</data>
+        </edge>
+        <edge id="4" directed="false" source="ernst" target="albrecht">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="5" directed="false" source="gundelfing" target="ernst">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="6" directed="false" source="seibelstorfer" target="ernst">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="7" directed="false" source="vicedom" target="ernst">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="8" directed="false" source="tuchsenhauser" target="ernst">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="9" directed="false" source="preisinger" target="ernst">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="10" directed="false" source="pienzenauer" target="ernst">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="11" directed="false" source="sandizeller" target="ernst">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="12" directed="false" source="tore" target="ernst">
+            <data key="relation">associated_with</data>
+        </edge>
+    </graph>
+</graphml>

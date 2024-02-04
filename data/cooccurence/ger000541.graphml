@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="zarncke">
+            <data key="label">Zarncke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3285</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1198</data>
+        </node>
+        <node id="jenisch">
+            <data key="label">Jenisch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">41</data>
+        </node>
+        <node id="willig">
+            <data key="label">Willig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">221</data>
+        </node>
+        <node id="frau_homeyer">
+            <data key="label">Frau Homeyer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">551</data>
+        </node>
+        <node id="lenchen">
+            <data key="label">Lenchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">40</data>
+        </node>
+        <node id="eichholz">
+            <data key="label">Eichholz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1206</data>
+        </node>
+        <node id="lore">
+            <data key="label">Lore</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2223</data>
+        </node>
+        <node id="biegler">
+            <data key="label">Biegler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2638</data>
+        </node>
+        <node id="goettlingk">
+            <data key="label">Göttlingk</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1333</data>
+        </node>
+        <node id="lohmann">
+            <data key="label">Lohmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">536</data>
+        </node>
+        <node id="sprengel">
+            <data key="label">Sprengel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">176</data>
+        </node>
+        <node id="einzelne_stimmen">
+            <data key="label">Einzelne Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="struve">
+            <data key="label">Struve</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2283</data>
+        </node>
+        <node id="reitmaier">
+            <data key="label">Reitmaier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">540</data>
+        </node>
+        <node id="ein_steinmetz">
+            <data key="label">Ein Steinmetz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="die_anderen_am_steinmetztische">
+            <data key="label">Die Anderen (am Steinmetztische)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">3</data>
+        </node>
+        <node id="stimmen_von_der_strasse_her">
+            <data key="label">Stimmen von der Straße her</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">33</data>
+        </node>
+        <edge id="zarncke|marie" source="zarncke" target="marie">
+            <data key="weight">11</data>
+        </edge>
+        <edge id="zarncke|jenisch" source="zarncke" target="jenisch">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zarncke|willig" source="zarncke" target="willig">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="zarncke|frau_homeyer" source="zarncke" target="frau_homeyer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zarncke|lenchen" source="zarncke" target="lenchen">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zarncke|eichholz" source="zarncke" target="eichholz">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zarncke|lore" source="zarncke" target="lore">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="zarncke|biegler" source="zarncke" target="biegler">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="zarncke|goettlingk" source="zarncke" target="goettlingk">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="zarncke|einzelne_stimmen" source="zarncke" target="einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zarncke|struve" source="zarncke" target="struve">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="zarncke|reitmaier" source="zarncke" target="reitmaier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zarncke|lohmann" source="zarncke" target="lohmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zarncke|sprengel" source="zarncke" target="sprengel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="zarncke|stimmen_von_der_strasse_her" source="zarncke" target="stimmen_von_der_strasse_her">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|jenisch" source="marie" target="jenisch">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|willig" source="marie" target="willig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|frau_homeyer" source="marie" target="frau_homeyer">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marie|lenchen" source="marie" target="lenchen">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="marie|eichholz" source="marie" target="eichholz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="marie|lore" source="marie" target="lore">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="marie|biegler" source="marie" target="biegler">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="marie|struve" source="marie" target="struve">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|goettlingk" source="marie" target="goettlingk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="marie|stimmen_von_der_strasse_her" source="marie" target="stimmen_von_der_strasse_her">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jenisch|willig" source="jenisch" target="willig">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="jenisch|biegler" source="jenisch" target="biegler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willig|goettlingk" source="willig" target="goettlingk">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="willig|lohmann" source="willig" target="lohmann">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="willig|sprengel" source="willig" target="sprengel">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="willig|eichholz" source="willig" target="eichholz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willig|lore" source="willig" target="lore">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="willig|einzelne_stimmen" source="willig" target="einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willig|reitmaier" source="willig" target="reitmaier">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willig|struve" source="willig" target="struve">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="willig|ein_steinmetz" source="willig" target="ein_steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willig|die_anderen_am_steinmetztische" source="willig" target="die_anderen_am_steinmetztische">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="willig|biegler" source="willig" target="biegler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_homeyer|goettlingk" source="frau_homeyer" target="goettlingk">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_homeyer|lohmann" source="frau_homeyer" target="lohmann">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_homeyer|struve" source="frau_homeyer" target="struve">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_homeyer|biegler" source="frau_homeyer" target="biegler">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="frau_homeyer|stimmen_von_der_strasse_her" source="frau_homeyer" target="stimmen_von_der_strasse_her">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_homeyer|eichholz" source="frau_homeyer" target="eichholz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="frau_homeyer|lore" source="frau_homeyer" target="lore">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lenchen|eichholz" source="lenchen" target="eichholz">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lenchen|lore" source="lenchen" target="lore">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="lenchen|biegler" source="lenchen" target="biegler">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eichholz|lohmann" source="eichholz" target="lohmann">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="eichholz|biegler" source="eichholz" target="biegler">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="eichholz|goettlingk" source="eichholz" target="goettlingk">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="eichholz|struve" source="eichholz" target="struve">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="eichholz|sprengel" source="eichholz" target="sprengel">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="eichholz|lore" source="eichholz" target="lore">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="eichholz|stimmen_von_der_strasse_her" source="eichholz" target="stimmen_von_der_strasse_her">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lore|biegler" source="lore" target="biegler">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="lore|einzelne_stimmen" source="lore" target="einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lore|goettlingk" source="lore" target="goettlingk">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lore|lohmann" source="lore" target="lohmann">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lore|sprengel" source="lore" target="sprengel">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="lore|struve" source="lore" target="struve">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lore|ein_steinmetz" source="lore" target="ein_steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lore|die_anderen_am_steinmetztische" source="lore" target="die_anderen_am_steinmetztische">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lore|stimmen_von_der_strasse_her" source="lore" target="stimmen_von_der_strasse_her">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biegler|lohmann" source="biegler" target="lohmann">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="biegler|struve" source="biegler" target="struve">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="biegler|sprengel" source="biegler" target="sprengel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="biegler|goettlingk" source="biegler" target="goettlingk">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="biegler|die_anderen_am_steinmetztische" source="biegler" target="die_anderen_am_steinmetztische">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="biegler|stimmen_von_der_strasse_her" source="biegler" target="stimmen_von_der_strasse_her">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="goettlingk|lohmann" source="goettlingk" target="lohmann">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="goettlingk|sprengel" source="goettlingk" target="sprengel">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="goettlingk|einzelne_stimmen" source="goettlingk" target="einzelne_stimmen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="goettlingk|struve" source="goettlingk" target="struve">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="goettlingk|ein_steinmetz" source="goettlingk" target="ein_steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="goettlingk|die_anderen_am_steinmetztische" source="goettlingk" target="die_anderen_am_steinmetztische">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lohmann|sprengel" source="lohmann" target="sprengel">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="lohmann|struve" source="lohmann" target="struve">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="lohmann|ein_steinmetz" source="lohmann" target="ein_steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lohmann|die_anderen_am_steinmetztische" source="lohmann" target="die_anderen_am_steinmetztische">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sprengel|struve" source="sprengel" target="struve">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="sprengel|ein_steinmetz" source="sprengel" target="ein_steinmetz">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="sprengel|die_anderen_am_steinmetztische" source="sprengel" target="die_anderen_am_steinmetztische">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="struve|reitmaier" source="struve" target="reitmaier">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>

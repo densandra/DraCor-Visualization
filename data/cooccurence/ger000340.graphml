@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="august">
+            <data key="label">August</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2548</data>
+        </node>
+        <node id="gehrmann">
+            <data key="label">Gehrmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">3455</data>
+        </node>
+        <node id="emerike">
+            <data key="label">Emerike</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2222</data>
+        </node>
+        <node id="kunigunde">
+            <data key="label">Kunigunde</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">969</data>
+        </node>
+        <node id="flint">
+            <data key="label">Flint</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1298</data>
+        </node>
+        <node id="madame_woelbing">
+            <data key="label">Madame Wölbing</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1868</data>
+        </node>
+        <node id="walter">
+            <data key="label">Walter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">260</data>
+        </node>
+        <node id="christine">
+            <data key="label">Christine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">233</data>
+        </node>
+        <node id="erster_diener">
+            <data key="label">Erster Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">15</data>
+        </node>
+        <node id="juengling">
+            <data key="label">Jüngling</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">485</data>
+        </node>
+        <node id="giebel">
+            <data key="label">Giebel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">749</data>
+        </node>
+        <node id="bedienter">
+            <data key="label">Bedienter</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">4</data>
+        </node>
+        <node id="diener">
+            <data key="label">Diener</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">7</data>
+        </node>
+        <node id="albertine">
+            <data key="label">Albertine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2134</data>
+        </node>
+        <node id="annchen">
+            <data key="label">Annchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">895</data>
+        </node>
+        <edge id="august|gehrmann" source="august" target="gehrmann">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="august|emerike" source="august" target="emerike">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="august|flint" source="august" target="flint">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="august|madame_woelbing" source="august" target="madame_woelbing">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="august|walter" source="august" target="walter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="august|erster_diener" source="august" target="erster_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="august|albertine" source="august" target="albertine">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="august|annchen" source="august" target="annchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gehrmann|emerike" source="gehrmann" target="emerike">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="gehrmann|kunigunde" source="gehrmann" target="kunigunde">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gehrmann|madame_woelbing" source="gehrmann" target="madame_woelbing">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="gehrmann|flint" source="gehrmann" target="flint">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="gehrmann|walter" source="gehrmann" target="walter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gehrmann|diener" source="gehrmann" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="gehrmann|albertine" source="gehrmann" target="albertine">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="gehrmann|annchen" source="gehrmann" target="annchen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="emerike|kunigunde" source="emerike" target="kunigunde">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="emerike|flint" source="emerike" target="flint">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="emerike|walter" source="emerike" target="walter">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="emerike|diener" source="emerike" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flint|walter" source="flint" target="walter">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="flint|christine" source="flint" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flint|erster_diener" source="flint" target="erster_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flint|juengling" source="flint" target="juengling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flint|giebel" source="flint" target="giebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flint|bedienter" source="flint" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="flint|diener" source="flint" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madame_woelbing|erster_diener" source="madame_woelbing" target="erster_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="madame_woelbing|albertine" source="madame_woelbing" target="albertine">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="madame_woelbing|annchen" source="madame_woelbing" target="annchen">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="walter|christine" source="walter" target="christine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|erster_diener" source="walter" target="erster_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|juengling" source="walter" target="juengling">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|giebel" source="walter" target="giebel">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|bedienter" source="walter" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="walter|diener" source="walter" target="diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="christine|erster_diener" source="christine" target="erster_diener">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="giebel|bedienter" source="giebel" target="bedienter">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="albertine|annchen" source="albertine" target="annchen">
+            <data key="weight">3</data>
+        </edge>
+    </graph>
+</graphml>

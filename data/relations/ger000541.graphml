@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Relation" attr.type="string" for="edge" id="relation"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <graph edgedefault="undirected">
+        <node id="zarncke">
+            <data key="label">Zarncke</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="marie">
+            <data key="label">Marie</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="jenisch">
+            <data key="label">Jenisch</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="willig">
+            <data key="label">Willig</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="frau_homeyer">
+            <data key="label">Frau Homeyer</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lenchen">
+            <data key="label">Lenchen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="eichholz">
+            <data key="label">Eichholz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lore">
+            <data key="label">Lore</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="biegler">
+            <data key="label">Biegler</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="goettlingk">
+            <data key="label">Göttlingk</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="lohmann">
+            <data key="label">Lohmann</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="sprengel">
+            <data key="label">Sprengel</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="einzelne_stimmen">
+            <data key="label">Einzelne Stimmen</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="struve">
+            <data key="label">Struve</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="reitmaier">
+            <data key="label">Reitmaier</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="ein_steinmetz">
+            <data key="label">Ein Steinmetz</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+        </node>
+        <node id="die_anderen_am_steinmetztische">
+            <data key="label">Die Anderen (am Steinmetztische)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+        </node>
+        <node id="stimmen_von_der_strasse_her">
+            <data key="label">Stimmen von der Straße her</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+        </node>
+        <edge id="1" directed="false" source="zarncke" target="marie">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="2" directed="false" source="frau_homeyer" target="zarncke">
+            <data key="relation">associated_with</data>
+        </edge>
+        <edge id="3" directed="false" source="eichholz" target="lore">
+            <data key="relation">parent_of</data>
+        </edge>
+        <edge id="4" directed="false" source="lore" target="lenchen">
+            <data key="relation">parent_of</data>
+        </edge>
+    </graph>
+</graphml>

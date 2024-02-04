@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns">
+    <key attr.name="label" attr.type="string" for="node" id="label"/>
+    <key attr.name="Edge Label" attr.type="string" for="edge" id="edgelabel"/>
+    <key attr.name="weight" attr.type="double" for="edge" id="weight"/>
+    <key attr.name="Gender" attr.type="string" for="node" id="gender"/>
+    <key attr.name="Person group" attr.type="boolean" for="node" id="person-group"/>
+    <key attr.name="Number of spoken words" attr.type="int" for="node" id="number-of-words"/>
+    <graph edgedefault="undirected">
+        <node id="lucentio">
+            <data key="label">Lucentio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">982</data>
+        </node>
+        <node id="chor_1-1">
+            <data key="label">Chor (I/1)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">296</data>
+        </node>
+        <node id="baptista">
+            <data key="label">Baptista</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1137</data>
+        </node>
+        <node id="katharine">
+            <data key="label">Katharine</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">1550</data>
+        </node>
+        <node id="nachbarinnen">
+            <data key="label">Nachbarinnen</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">13</data>
+        </node>
+        <node id="bianca">
+            <data key="label">Bianca</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">581</data>
+        </node>
+        <node id="hortensio">
+            <data key="label">Hortensio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">862</data>
+        </node>
+        <node id="petruchio">
+            <data key="label">Petruchio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">2279</data>
+        </node>
+        <node id="grumio">
+            <data key="label">Grumio</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">209</data>
+        </node>
+        <node id="chor_hinter_der_szene_2-3">
+            <data key="label">Chor hinter der Szene (II/3)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">6</data>
+        </node>
+        <node id="chor_3-1">
+            <data key="label">Chor (III/1)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">98</data>
+        </node>
+        <node id="chor_3-5">
+            <data key="label">Chor (III/5)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">103</data>
+        </node>
+        <node id="haushofmeister">
+            <data key="label">Haushofmeister</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">56</data>
+        </node>
+        <node id="haushaelterin">
+            <data key="label">Haushälterin</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">36</data>
+        </node>
+        <node id="chor_alle_3-6">
+            <data key="label">Chor/Alle (III/6)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">149</data>
+        </node>
+        <node id="chor_der_diener_4-1">
+            <data key="label">Chor der Diener (IV/1)</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">64</data>
+        </node>
+        <node id="schneider">
+            <data key="label">Schneider</data>
+            <data key="gender">MALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">126</data>
+        </node>
+        <node id="hortensios_frau">
+            <data key="label">Hortensios Frau</data>
+            <data key="gender">FEMALE</data>
+            <data key="person-group">false</data>
+            <data key="number-of-words">16</data>
+        </node>
+        <node id="chor_4-6">
+            <data key="label">Chor (IV/6)</data>
+            <data key="gender">UNKNOWN</data>
+            <data key="person-group">true</data>
+            <data key="number-of-words">53</data>
+        </node>
+        <edge id="lucentio|chor_1-1" source="lucentio" target="chor_1-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucentio|baptista" source="lucentio" target="baptista">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="lucentio|katharine" source="lucentio" target="katharine">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="lucentio|nachbarinnen" source="lucentio" target="nachbarinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucentio|bianca" source="lucentio" target="bianca">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="lucentio|hortensio" source="lucentio" target="hortensio">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="lucentio|petruchio" source="lucentio" target="petruchio">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="lucentio|chor_3-1" source="lucentio" target="chor_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucentio|chor_alle_3-6" source="lucentio" target="chor_alle_3-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucentio|grumio" source="lucentio" target="grumio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="lucentio|hortensios_frau" source="lucentio" target="hortensios_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="lucentio|chor_4-6" source="lucentio" target="chor_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_1-1|baptista" source="chor_1-1" target="baptista">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_1-1|katharine" source="chor_1-1" target="katharine">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_1-1|nachbarinnen" source="chor_1-1" target="nachbarinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baptista|katharine" source="baptista" target="katharine">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="baptista|nachbarinnen" source="baptista" target="nachbarinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baptista|bianca" source="baptista" target="bianca">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="baptista|hortensio" source="baptista" target="hortensio">
+            <data key="weight">9</data>
+        </edge>
+        <edge id="baptista|petruchio" source="baptista" target="petruchio">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="baptista|grumio" source="baptista" target="grumio">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="baptista|chor_hinter_der_szene_2-3" source="baptista" target="chor_hinter_der_szene_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baptista|chor_3-1" source="baptista" target="chor_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baptista|chor_alle_3-6" source="baptista" target="chor_alle_3-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baptista|hortensios_frau" source="baptista" target="hortensios_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="baptista|chor_4-6" source="baptista" target="chor_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharine|nachbarinnen" source="katharine" target="nachbarinnen">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharine|bianca" source="katharine" target="bianca">
+            <data key="weight">6</data>
+        </edge>
+        <edge id="katharine|hortensio" source="katharine" target="hortensio">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="katharine|petruchio" source="katharine" target="petruchio">
+            <data key="weight">10</data>
+        </edge>
+        <edge id="katharine|chor_hinter_der_szene_2-3" source="katharine" target="chor_hinter_der_szene_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharine|chor_3-1" source="katharine" target="chor_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharine|chor_alle_3-6" source="katharine" target="chor_alle_3-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharine|grumio" source="katharine" target="grumio">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="katharine|schneider" source="katharine" target="schneider">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharine|hortensios_frau" source="katharine" target="hortensios_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="katharine|chor_4-6" source="katharine" target="chor_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bianca|hortensio" source="bianca" target="hortensio">
+            <data key="weight">8</data>
+        </edge>
+        <edge id="bianca|petruchio" source="bianca" target="petruchio">
+            <data key="weight">4</data>
+        </edge>
+        <edge id="bianca|chor_3-1" source="bianca" target="chor_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bianca|chor_alle_3-6" source="bianca" target="chor_alle_3-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bianca|grumio" source="bianca" target="grumio">
+            <data key="weight">2</data>
+        </edge>
+        <edge id="bianca|hortensios_frau" source="bianca" target="hortensios_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="bianca|chor_4-6" source="bianca" target="chor_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hortensio|petruchio" source="hortensio" target="petruchio">
+            <data key="weight">7</data>
+        </edge>
+        <edge id="hortensio|grumio" source="hortensio" target="grumio">
+            <data key="weight">3</data>
+        </edge>
+        <edge id="hortensio|chor_hinter_der_szene_2-3" source="hortensio" target="chor_hinter_der_szene_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hortensio|chor_3-1" source="hortensio" target="chor_3-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hortensio|chor_3-5" source="hortensio" target="chor_3-5">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hortensio|haushofmeister" source="hortensio" target="haushofmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hortensio|haushaelterin" source="hortensio" target="haushaelterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hortensio|chor_alle_3-6" source="hortensio" target="chor_alle_3-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hortensio|hortensios_frau" source="hortensio" target="hortensios_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hortensio|chor_4-6" source="hortensio" target="chor_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="petruchio|grumio" source="petruchio" target="grumio">
+            <data key="weight">5</data>
+        </edge>
+        <edge id="petruchio|chor_hinter_der_szene_2-3" source="petruchio" target="chor_hinter_der_szene_2-3">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="petruchio|chor_alle_3-6" source="petruchio" target="chor_alle_3-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="petruchio|schneider" source="petruchio" target="schneider">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="petruchio|hortensios_frau" source="petruchio" target="hortensios_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="petruchio|chor_4-6" source="petruchio" target="chor_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grumio|chor_alle_3-6" source="grumio" target="chor_alle_3-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grumio|chor_der_diener_4-1" source="grumio" target="chor_der_diener_4-1">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grumio|schneider" source="grumio" target="schneider">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grumio|hortensios_frau" source="grumio" target="hortensios_frau">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="grumio|chor_4-6" source="grumio" target="chor_4-6">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_3-5|haushofmeister" source="chor_3-5" target="haushofmeister">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="chor_3-5|haushaelterin" source="chor_3-5" target="haushaelterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="haushofmeister|haushaelterin" source="haushofmeister" target="haushaelterin">
+            <data key="weight">1</data>
+        </edge>
+        <edge id="hortensios_frau|chor_4-6" source="hortensios_frau" target="chor_4-6">
+            <data key="weight">1</data>
+        </edge>
+    </graph>
+</graphml>
